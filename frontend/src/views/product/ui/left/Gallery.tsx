@@ -97,13 +97,13 @@ const Gallery = ({ medias }: GalleryProps) => {
             <SwiperSlide
               key={index}
               onMouseEnter={() => mainSwiperRef.current?.slideTo(index, 300)}
-              className="max-w-19 max-h-19 w-19 h-19 rounded-sm border border-slate-100 [&.swiper-slide-thumb-active]:border-[1.3px] [&.swiper-slide-thumb-active]:border-slate-950"
+              className="max-w-19 max-h-19 w-19 h-19 rounded-sm border border-slate-100 [&.swiper-slide-thumb-active]:border-[1.3px] [&.swiper-slide-thumb-active]:border-slate-950 overflow-hidden"
             >
               <img
                 src={
-                  item.media_type === "video"
-                    ? getImageUrl(`${item.preview_file}?width=520`)
-                    : getImageUrl(`${item.file}?width=520`)
+                  (item.media_type === "video"
+                    ? item.preview_file
+                    : item.file) || ""
                 }
                 alt=""
                 width={73}
@@ -156,7 +156,11 @@ const Gallery = ({ medias }: GalleryProps) => {
                 />
               ) : (
                 <img
-                  src={getImageUrl(`${item.file}?width=520`)}
+                  src={
+                    (item.media_type === "video"
+                      ? item.preview_file
+                      : item.file) || ""
+                  }
                   alt=""
                   height={520}
                   width={520}
