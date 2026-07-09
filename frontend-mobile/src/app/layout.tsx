@@ -5,6 +5,7 @@ import { robotoFont, robotoCondensedFont } from "@/shared/fonts";
 import Footer from "@/widgets/footer";
 import Header from "@/widgets/header";
 import { NuqsAdapter } from "nuqs/adapters/next/app";
+import { Suspense } from "react";
 
 export const metadata: Metadata = {
   title: "",
@@ -32,10 +33,12 @@ export default async function RootLayout({
           speed={200}
           shadow="0 0 10px #ff3a5c,0 0 5px #ff3a5c"
         />
-        <NuqsAdapter>
-          <Header />
-          {children}
-        </NuqsAdapter>
+        <Suspense fallback={null}>
+          <NuqsAdapter>
+            <Header />
+            {children}
+          </NuqsAdapter>
+        </Suspense>
         <Footer />
       </body>
     </html>
