@@ -7,15 +7,26 @@ import productsData from "@/shared/data/productData.json";
 import Filter from "./filter/Filter";
 import Icon from "@/shared/icon";
 
+
 interface ProductListProps {
   category_slug: string;
 }
 
+const getLastWord = (slug: string): string => {
+  const parts = slug.split("-");
+  // eslint-disable-next-line unicorn/prefer-at
+  return parts[parts.length - 1];
+};
 const ProductList = ({ category_slug }: ProductListProps) => {
   const listRef = useRef<HTMLDivElement>(null);
 
   const filteredProducts = useMemo(() => {
-    return productsData.filter((product) => product.category === category_slug);
+    const targetWord = getLastWord(category_slug);
+    return productsData.filter((product) => {
+      const productCategory = product.category || "";
+      const productLastWord = getLastWord(productCategory);
+      return productLastWord === targetWord;
+    });
   }, [category_slug]);
 
   return (
