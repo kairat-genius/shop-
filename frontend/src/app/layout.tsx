@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Suspense } from "react";
 import "@/shared/styles/globals.css";
 import NextTopLoader from "nextjs-toploader";
 import { robotoFont, robotoCondensedFont } from "@/shared/fonts";
@@ -32,10 +33,12 @@ export default async function RootLayout({
           speed={200}
           shadow="0 0 10px #ff3a5c,0 0 5px #ff3a5c"
         />
-        <NuqsAdapter>
-          <Header />
-          {children}
-        </NuqsAdapter>
+        <Suspense fallback={null}>
+          <NuqsAdapter>
+            <Header />
+            {children}
+          </NuqsAdapter>
+        </Suspense>
         <Footer />
       </body>
     </html>
