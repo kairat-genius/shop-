@@ -1,0 +1,14 @@
+.prettierignore
+.prettierrc
+.env.example
+.gitignore
+.next
+README.md
+node_modules
+.idea
+eslint.config.mjs
+test-prod
+scripts
+
+AGENTS.md
+CLAUDE.md
