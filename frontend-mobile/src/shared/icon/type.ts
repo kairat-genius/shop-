@@ -25,4 +25,9 @@ export type IconName =
   | "star"
   | "pen-line"
   | "funnel"
-  | "box";
+  | "box"
+  | "heart"
+  | "headset"
+  | "clipboard-list"
+  | "arrow-left"
+  | "shield-check";

@@ -1,53 +1,76 @@
 "use client";
 import Icon from "@/shared/icon";
-import Link from "next/link";
+import dynamic from "next/dynamic";
+import { useMemo, useState } from "react";
+
+const AboutProductModal = dynamic(() => import("../modal/AboutProductModal"), {
+  ssr: false,
+});
+
+const featureGroups = [
+  {
+    title: "Цветовая гамма",
+    items: [
+      { label: "Основной цвет", value: "Розовый" },
+      { label: "Расцветка", value: "Розовый" },
+    ],
+  },
+  {
+    title: "Дополнительные",
+    items: [
+      { label: "Высота голенища", value: "Низкий топ" },
+      { label: "Тип застежки", value: "Шнуровка" },
+      { label: "Дополнительный цвет", value: "Черный" },
+      { label: "Основной артикул", value: "IM3368-606" },
+    ],
+  },
+];
 
 const AboutProduct = () => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const flatFeatures = useMemo(
+    () => featureGroups.flatMap((group) => group.items),
+    [],
+  );
+
   return (
     <>
-      <div className="px-[3.733vw]">
-        <Link
-          href="/brand/nike?pinSpuIds=8900150153356263"
-          target="_blank"
-          className="grid grid-cols-[10.667vw_1fr] items-center gap-[2.133vw] pl-[3.2vw] py-[3.2vw]"
-        >
-          <img
-            className="rounded-full w-[8.533vw] h-[8.533vw] border border-slate-100"
-            src="https://cdn-img.thepoizon.ru/pro-img/brand-logo/cut-img/20250221/ad39ee3e88e14ff39cd09c5093887d8c.jpg?x-oss-process=image/resize,s_96/format,webp"
-            alt="brand-logo"
-          />
-          <div className="flex items-center justify-between">
-            <div className="flex flex-col gap-[1.067vw]">
-              <div className="text-[3.733vw] leading-[4.267vw] font-medium truncate">
-                Nike
-              </div>
-              <div className="text-[3.2vw] font-light leading-[3.733vw] truncate">
-                484&nbsp;тыс. товаров
-              </div>
-            </div>
-            <Icon
-              icon="chevron-right"
-              className="text-slate-500 w-[3.2vw] h-[3.2vw]"
-            />
-          </div>
-        </Link>
-      </div>
-      <div className="w-full h-[2.133vw] bg-slate-100" />
-      <div className="mt-3 p-2 text-xs leading-[100%] flex gap-3 rounded-sm px-[3.733vw]">
-        <div className="font-light">Модель</div>
-        <Link
-          href="/trends/hyperdunk-2017?pinSpuIds=8900150153356263"
-          className="flex"
-        >
-          Hyperdunk 2017
+      <section
+        className="mb-[3.2vw] pt-[2.667vw] px-[3.733vw] flex justify-between items-start"
+        onClick={() => setIsModalOpen(true)}
+      >
+        <div className="bg-white">
+          <Icon icon="clipboard-list" width={16} height={16} />
+        </div>
+        <div className="overflow-x-auto scrollbar-none h-[8vw]">
+          <ul className="flex w-fit items-center">
+            {flatFeatures.map((feature, index) => (
+              <li
+                key={index}
+                className="flex flex-col justify-center gap-[1.067vw] px-[1.6vw] min-w-[14.133vw] max-w-[28.8vw] truncate leading-[normal]"
+              >
+                <span className="h-[4vw] text-[3.2vw]">{feature.value}</span>
+                <span className="h-[4vw] text-[2.933vw] font-light text-slate-500">
+                  {feature.label}
+                </span>
+              </li>
+            ))}
+          </ul>
+        </div>
+        <div className="w-[8vw] h-[8vw] bg-white flex justify-end">
           <Icon
             icon="chevron-right"
-            width={12}
-            height={12}
-            className="shrink-0 text-slate-500"
+            className="w-[3.2vw] h-[3.2vw] text-slate-400"
           />
-        </Link>
-      </div>
+        </div>
+      </section>
+      {isModalOpen && (
+        <AboutProductModal
+          onClose={() => setIsModalOpen(false)}
+          featureGroups={featureGroups}
+        />
+      )}
     </>
   );
 };

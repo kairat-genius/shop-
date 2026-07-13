@@ -8,7 +8,7 @@ interface BreadcrumbsProps {
 const Breadcrumbs = ({ items }: BreadcrumbsProps) => {
   return (
     <section className="px-[3.733vw] pt-[1.6vw]">
-        <div className="text-[3.2vw] leading-4 text-slate-500 flex flex-wrap items-center">
+        <div className="text-[3.2vw] leading-[normal] text-slate-500 flex flex-wrap items-center">
           {items.map((item, index) => (
             <Fragment key={item.title}>
               {item.href ? (

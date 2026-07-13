@@ -12,6 +12,7 @@ import productsData from "@/shared/data/productData.json";
 import "swiper/css";
 import "swiper/css/thumbs";
 import "swiper/css/free-mode";
+import FavoriteButton from "@/features/favorites-button";
 
 // Заглушки для вкладок (позже можно заменить реальными данными)
 const recommendedTabs = [
@@ -149,7 +150,11 @@ const RecommendedProducts = () => {
                           isLeft && "border-r",
                           isFirstRow && "border-t",
                         )}
-                      />
+                      >
+                        <FavoriteButton className=" absolute top-[4.8vw] right-[4vw] text-slate-500">
+                          <Icon icon="heart" className="w-[4.8vw] h-[4.8vw]" />
+                        </FavoriteButton>
+                      </ProductCard>
                     );
                   })
                 ) : (

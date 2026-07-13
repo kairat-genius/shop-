@@ -17,47 +17,41 @@ const DeliveryInfo = () => {
   const [isProtectionModalOpen, setIsProtectionModalOpen] = useState(false);
 
   return (
-    <div className="px-4 py-3.5 mt-4">
+    <div className="px-[3.733vw] pt-[3.2vw]">
       <Button
         className="flex-col w-full items-start"
         onClick={() => setIsDeliveryModalOpen(true)}
       >
-        <div className="flex items-center justify-between gap-2.5 w-full">
-          <div className="flex items-center gap-2.5">
+        <div className="flex justify-between w-full">
+          <div className="flex gap-[1.6vw]">
             <img
-              className=""
-              width={22}
-              height={22}
+              className="w-[4.267vw] h-[4.267vw]"
               src="https://cdn-img.thepoizon.ru/node-common/4bdd1249-8c93-6364-0f24-468aa275fc24-48-48.png?x-oss-process=image/resize,s_96/format,webp"
               alt="DELIVERY"
               loading="lazy"
             />
-            <div className="flex-1 text-sm leading-4 pt-0.75">
+            <div className="flex-1 text-[3.2vw] leading-[3.733vw] pt-px">
               Срок доставки по адресу:{" "}
               <span className="underline">Москву,ЦФО</span>
             </div>
           </div>
           <Icon
             icon="chevron-right"
-            width={14}
-            height={14}
-            className="shrink-0 text-slate-500 my-1"
+            className="ml-[3.2vw] text-slate-400 w-[3.2vw] h-[3.2vw]"
           />
         </div>
-        <div className="pl-8 mt-2 grid grid-cols-2 gap-2 w-full">
-          <div className="h-12 bg-slate-150 text-xs leading-4 font-light p-2">
+        <div className="pl-[5.867vw] mt-[3.2vw] grid grid-cols-2 gap-[1.6vw] w-full text-left text-[2.933vw] leading-[4.267vw] font-light" >
+          <div className="bg-slate-50 px-[2.133vw] py-[1.6vw] rounded-[.533vw]">
             <div className="truncate">Бесплатная доставка</div>
             <div>19 июл. – 23 июл.</div>
           </div>
-          <div className="h-12 bg-slate-150 text-xs leading-4 font-light p-2 relative overflow-hidden">
+          <div className="bg-slate-50 px-[2.133vw] py-[1.6vw] rounded-[.533vw] relative overflow-hidden">
             <div className="truncate">Ускоренная доставка</div>
             <div>10 июл. – 14 июл.</div>
             <img
-              className="top-1 absolute -right-2"
+              className="top-[1.067vw] absolute right-[-2.133vw] w-[13.333vw] h-[13.333vw]"
               src="https://cdn-img.thepoizon.ru/node-common/cad0af9c-c6b9-923e-1702-88b542cf4906-126-120.png?x-oss-process=image/format,webp"
               alt="arrow"
-              width={50}
-              height={50}
               loading="lazy"
             />
           </div>
@@ -65,28 +59,24 @@ const DeliveryInfo = () => {
       </Button>
       <Button
         onClick={() => setIsProtectionModalOpen(true)}
-        className="mt-4 flex items-start justify-between gap-2.5"
+        className="mt-[3.2vw] items-start justify-between"
       >
         <img
-          className=""
-          width={22}
-          height={22}
+          className="w-[4.267vw] h-[4.267vw]"
           src="https://cdn-img.thepoizon.ru/node-common/7eed8461-07b8-f62c-8cac-18aa10eabd13-48-48.png?x-oss-process=image/resize,s_96/format,webp"
           alt="SecurityShopping"
           loading="lazy"
         />
-        <div className="flex flex-wrap items-center text-sm leading-4 pt-0.75">
+        <div className="flex flex-wrap items-center text-[3.2vw] leading-[3.733vw] pt-px ml-[1.6vw]">
           <span>7-дневный безусловный возврат</span>
-          <span className="w-px h-2 mx-[6.5px] bg-slate-300"></span>
+          <span className="w-px h-[2.133vw] mx-[1.6vw] bg-slate-300" />
           <span>Поддержка 24/7</span>
-          <span className="bpm"></span>
+          <span className="w-px h-[2.133vw] mx-[1.6vw] bg-slate-300" />
           <span>Покупка с уверенностью</span>
         </div>
         <Icon
           icon="chevron-right"
-          width={14}
-          height={14}
-          className="shrink-0 text-slate-500 my-1"
+          className="ml-[3.2vw] text-slate-400 w-[3.2vw] h-[3.2vw]"
         />
       </Button>
 

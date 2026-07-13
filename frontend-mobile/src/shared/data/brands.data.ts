@@ -1,0 +1,43 @@
+export const brandsData = [
+  { title: "Nike", slug: "nike", image: "https://logo.clearbit.com/nike.com" },
+  { title: "Jordan", slug: "jordan", image: "https://logo.clearbit.com/nike.com" },
+  { title: "Adidas", slug: "adidas", image: "https://logo.clearbit.com/adidas.com" },
+  { title: "Puma", slug: "puma", image: "https://logo.clearbit.com/puma.com" },
+  { title: "Under Armour", slug: "under-armour", image: "https://logo.clearbit.com/underarmour.com" },
+  { title: "Vans", slug: "vans", image: "https://logo.clearbit.com/vans.com" },
+  { title: "DC Shoes", slug: "dc-shoes", image: "https://logo.clearbit.com/dcshoes.com" },
+  { title: "New Balance", slug: "new-balance", image: "https://logo.clearbit.com/newbalance.com" },
+  { title: "Asics", slug: "asics", image: "https://logo.clearbit.com/asics.com" },
+  { title: "Hoka", slug: "hoka", image: "https://logo.clearbit.com/hoka.com" },
+  { title: "Salomon", slug: "salomon", image: "https://logo.clearbit.com/salomon.com" },
+  { title: "Reebok", slug: "reebok", image: "https://logo.clearbit.com/reebok.com" },
+
+  { title: "Dr. Martens", slug: "dr-martens", image: "https://logo.clearbit.com/drmartens.com" },
+  { title: "Timberland", slug: "timberland", image: "https://logo.clearbit.com/timberland.com" },
+  { title: "Crocs", slug: "crocs", image: "https://logo.clearbit.com/crocs.com" },
+  { title: "Clarks", slug: "clarks", image: "https://logo.clearbit.com/clarks.com" },
+
+  { title: "Zara", slug: "zara", image: "https://logo.clearbit.com/zara.com" },
+  { title: "Gucci", slug: "gucci", image: "https://logo.clearbit.com/gucci.com" },
+  { title: "Levi's", slug: "levis", image: "https://logo.clearbit.com/levi.com" },
+  { title: "The North Face", slug: "the-north-face", image: "https://logo.clearbit.com/thenorthface.com" },
+  { title: "Supreme", slug: "supreme", image: "https://logo.clearbit.com/supremenewyork.com" },
+  { title: "Calvin Klein", slug: "calvin-klein", image: "https://logo.clearbit.com/calvinklein.com" },
+
+  { title: "Louis Vuitton", slug: "louis-vuitton", image: "https://logo.clearbit.com/louisvuitton.com" },
+  { title: "Michael Kors", slug: "michael-kors", image: "https://logo.clearbit.com/michaelkors.com" },
+  { title: "Samsonite", slug: "samsonite", image: "https://logo.clearbit.com/samsonite.com" },
+  { title: "Ray-Ban", slug: "ray-ban", image: "https://logo.clearbit.com/ray-ban.com" },
+  { title: "Casio", slug: "casio", image: "https://logo.clearbit.com/casio.com" },
+
+  { title: "Apple", slug: "apple", image: "https://logo.clearbit.com/apple.com" },
+  { title: "Sony", slug: "sony", image: "https://logo.clearbit.com/sony.com" },
+  { title: "Samsung", slug: "samsung", image: "https://logo.clearbit.com/samsung.com" },
+  { title: "JBL", slug: "jbl", image: "https://logo.clearbit.com/jbl.com" },
+  { title: "Canon", slug: "canon", image: "https://logo.clearbit.com/canon.com" },
+
+  { title: "Lego", slug: "lego", image: "https://logo.clearbit.com/lego.com" },
+  { title: "Hasbro", slug: "hasbro", image: "https://logo.clearbit.com/hasbro.com" },
+  { title: "MAC", slug: "mac", image: "https://logo.clearbit.com/maccosmetics.com" },
+  { title: "Dyson", slug: "dyson", image: "https://logo.clearbit.com/dyson.com" },
+];

@@ -1,122 +1,229 @@
+"use client";
 import { Button } from "@/shared/ui/action";
 import Icon from "@/shared/icon";
+import { reviewsData } from "../../data/reviews.data";
+import dynamic from "next/dynamic";
+import { useCallback, useMemo, useState } from "react";
+
+const ReviewGalleryModal = dynamic(
+  () => import("../modal/ReviewGalleryModal"),
+  {
+    ssr: false,
+  },
+);
+
+const ReviewModal = dynamic(() => import("../modal/ReviewModal"), {
+  ssr: false,
+});
 
 const Reviews = () => {
+  const [isModalGalleryOpen, setIsModalGalleryOpen] = useState(false);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [selectedIndex, setSelectedIndex] = useState(0); // индекс в массиве отзывов с фото
+
+  // Все отзывы, у которых есть изображения (полный список для модалки)
+  const reviewsWithImages = useMemo(
+    () =>
+      reviewsData.filter((review) => review.images && review.images.length > 0),
+    [],
+  );
+
+  // Первые 6 отзывов с фото для галереи на странице
+  const galleryPreviews = useMemo(
+    () => reviewsWithImages.slice(0, 6),
+    [reviewsWithImages],
+  );
+
+  // Открыть модалку с прокруткой к выбранному отзыву
+  const openGallery = useCallback(
+    (review: (typeof reviewsWithImages)[number]) => {
+      const idx = reviewsWithImages.findIndex(
+        (r) => r.username === review.username && r.date === review.date,
+      );
+      if (idx !== -1) {
+        setSelectedIndex(idx);
+        setIsModalGalleryOpen(true);
+      }
+    },
+    [reviewsWithImages],
+  );
+
+  // Открытие без скролла (для "Ещё" и подобных)
+  const openGalleryWithoutScroll = useCallback(() => {
+    setSelectedIndex(-1);
+    setIsModalGalleryOpen(true);
+  }, []);
+
   return (
-    <div className="mt-10">
-      <Button className="justify-between gap-5 w-full">
-        <div className="flex items-center gap-1.5 font-roboto_condensed font-bold text-2xl leading-[28.13px]">
-          <span>ОТЗЫВЫ</span>
-          <span>(37)</span>
-        </div>
-        <Icon
-          icon="chevron-right"
-          width={14}
-          height={14}
-          className="shrink-0 text-slate-500"
-        />
-      </Button>
-      <Button
-        className="mt-3 p-4 rounded-sm gap-4 w-full"
-        style={{ backgroundColor: "rgba(245, 245, 249, .6)" }}
-      >
-        <div className="w-40">
-          <div className="text-[32px] font-bold leading-7 font-roboto_condensed">
-            5,0
+    <section className="mt-[3.2vw] bg-white">
+      <div className="px-[3.733vw]">
+        <Button
+          className="justify-between gap-5 w-full"
+          onClick={() => setIsModalOpen(true)}
+        >
+          <div className="flex items-center gap-[1.6vw] font-roboto_condensed font-bold leading-[5.624vw] text-[4.8vw]">
+            <h2 className=" leading-[5.6vw]">ОТЗЫВЫ</h2>
+            <span>(37)</span>
           </div>
-          <div className="mt-2 flex gap-1 items-center justify-center">
-            <div className="flex gap-1 items-center">
-              <Icon icon="star" width={14} height={14} className="shrink-0" />
-              <Icon icon="star" width={14} height={14} className="shrink-0" />
-              <Icon icon="star" width={14} height={14} className="shrink-0" />
-              <Icon icon="star" width={14} height={14} className="shrink-0" />
-              <Icon icon="star" width={14} height={14} className="shrink-0" />
+          <Icon
+            icon="chevron-right"
+            className="w-[3.2vw] h-[3.2vw] text-slate-400"
+          />
+        </Button>
+        <div className="flex items-center justify-between mt-[3.2vw] p-[3.2vw] rounded-[1.067vw] gap-[3.2vw] w-full bg-[rgba(245,245,249,.6)]">
+          <div className="w-[27.733vw] flex flex-col items-center">
+            <div className="text-[6.4vw] font-bold leading-[7.467vw] font-roboto_condensed">
+              5,0
             </div>
-            <Icon
-              icon="circle-question-mark"
-              width={14}
-              height={14}
-              className="shrink-0 text-slate-500"
-            />
-          </div>
-        </div>
-        <div className="flex flex-col gap-2 flex-1">
-          <div className="flex items-center gap-1 text-xs text-slate-500 leading-4">
-            <div className="max-w-20 w-full truncate text-left">Маломерит</div>
-            <div className="rounded-xs h-1 relative bg-gray-200 w-full">
-              <div
-                className="bg-slate-500 rounded-sm absolute left-0 h-1"
-                style={{ width: "11%" }}
+            <div className="mt-[1.067vw] flex gap-[1.067vw] items-center justify-center">
+              <div className="flex gap-[1.067vw] items-center">
+                <Icon icon="star" className="w-[3.2vw] h-[3.2vw]" />
+                <Icon icon="star" className="w-[3.2vw] h-[3.2vw]" />
+                <Icon icon="star" className="w-[3.2vw] h-[3.2vw]" />
+                <Icon icon="star" className="w-[3.2vw] h-[3.2vw]" />
+                <Icon icon="star" className="w-[3.2vw] h-[3.2vw]" />
+              </div>
+              <Icon
+                icon="circle-question-mark"
+                className="w-[3.2vw] h-[3.2vw] text-slate-500"
               />
             </div>
-            <div className="w-8 text-right shrink-0">11%</div>
           </div>
-          <div className="flex items-center gap-1 text-xs text-slate-500 leading-4">
-            <div className="max-w-20 w-full truncate text-left">В размер</div>
-            <div className="rounded-xs h-1 relative bg-gray-200 w-full">
-              <div
-                className="bg-slate-500 rounded-sm absolute left-0 h-1"
-                style={{ width: "89%" }}
-              />
+          <Button
+            onClick={() => setIsModalOpen(true)}
+            className="flex-col gap-[2.133vw] flex-1 w-full"
+          >
+            <div className="flex items-center gap-[1.067vw] text-[2.933vw] text-slate-500 leading-[3.467vw] w-full">
+              <div className="max-w-[21.333vw] w-full truncate text-left">
+                Маломерит
+              </div>
+              <div className="rounded-[.533vw] h-[1.067vw] relative bg-gray-200 w-full">
+                <div
+                  className="bg-slate-500 rounded-[.533vw] absolute left-0 h-[1.067vw]"
+                  style={{ width: "11%" }}
+                />
+              </div>
+              <div className="w-[7.467vw] text-right shrink-0">11%</div>
             </div>
-            <div className="w-8 text-right shrink-0">89%</div>
-          </div>
-          <div className="flex items-center gap-1 text-xs text-slate-500 leading-4">
-            <div className="max-w-20 w-full truncate text-left">
-              Большемерит
+            <div className="flex items-center gap-[1.067vw] text-[2.933vw] text-slate-500 leading-[3.467vw] w-full">
+              <div className="max-w-[21.333vw] w-full truncate text-left">
+                В размер
+              </div>
+              <div className="rounded-[.533vw] h-[1.067vw] relative bg-gray-200 w-full">
+                <div
+                  className="bg-slate-500 rounded-[.533vw] absolute left-0 h-[1.067vw]"
+                  style={{ width: "89%" }}
+                />
+              </div>
+              <div className="w-[7.467vw] text-right shrink-0">89%</div>
             </div>
-            <div className="rounded-xs h-1 relative bg-gray-200 w-full">
-              <div
-                className="bg-slate-500 rounded-sm absolute left-0 h-1"
-                style={{ width: "0%" }}
-              />
+            <div className="flex items-center gap-[1.067vw] text-[2.933vw] text-slate-500 leading-[3.467vw] w-full">
+              <div className="max-w-[21.333vw] w-full truncate text-left">
+                Большемерит
+              </div>
+              <div className="rounded-[.533vw] h-[1.067vw] relative bg-gray-200 w-full">
+                <div
+                  className="bg-slate-500 rounded-[.533vw] absolute left-0 h-[1.067vw]"
+                  style={{ width: "0%" }}
+                />
+              </div>
+              <div className="w-[7.467vw] text-right shrink-0">0%</div>
             </div>
-            <div className="w-8 text-right shrink-0">0%</div>
-          </div>
+          </Button>
         </div>
-      </Button>
-      <div className="mt-3 flex gap-1 items-center w-full">
-        <div className="grid grid-cols-6 gap-1">
-          <img
-            className="aspect-3/4"
-            src="https://cdn-web.poizon.com/web-app-static/app/2025/community/2521422225_byte1868689byte_6dda3920ac1e24e986553a31309ccbae_iOS_w1440h1920.jpg?x-oss-process=image/resize,s_360/format,webp"
-            alt=""
-          />
-          <img
-            className="aspect-3/4"
-            src="https://cdn-web.poizon.com/web-app-static/app/2025/community/1249864427_byte2628568byte_7a335aec23207b84b780877f507cb4b0_iOS_w1440h1920.jpg?x-oss-process=image/resize,s_360/format,webp"
-            alt=""
-          />
-          <img
-            className="aspect-3/4"
-            src="https://cdn-web.poizon.com/web-app-static/app/2025/community/1388564918_modelMI8Litemodel_byte928572byte_6fbae07db7609afe3fcbe3ed70efd948_1757333695903_du_android_w1441_h1921.webp?x-oss-process=image/resize,s_360/format,webp"
-            alt=""
-          />
-          <img
-            className="aspect-3/4"
-            src="https://cdn-web.poizon.com/web-app-static/app/2025/community/1727928951_modelPJW110model_byte781088byte_d0f19505ef53789910a1329d3e2a00f7_1757330511520_du_android_w1280_h1707.webp?x-oss-process=image/resize,s_360/format,webp"
-            alt=""
-          />
-          <img
-            className="aspect-3/4"
-            src="https://cdn-web.poizon.com/web-app-static/app/2025/community/2225623377_byte2563809byte_7dc890ed4c85028b7e75001bf507ac9a_iOS_w1440h1920.jpg?x-oss-process=image/resize,s_360/format,webp"
-            alt=""
-          />
-          <img
-            className="aspect-3/4"
-            src="https://cdn-web.poizon.com/web-app-static/app/2025/community/2554429547_byte3113018byte_87a44c5c06e86aa1839f9feb41ec3167_iOS_w1440h1920.jpg?x-oss-process=image/resize,s_360/format,webp"
-            alt=""
-          />
-        </div>
-        <Icon
-          icon="chevron-right"
-          width={14}
-          height={14}
-          className="ml-1 shrink-0"
-        />
       </div>
-      <div className="bg-slate-100 h-px my-4" />
-    </div>
+
+      <div className="pb-[5.333vw] mt-[3.2vw] flex w-full">
+        <div className="h-[32vw] overflow-x-auto scrollbar-none">
+          <div className="inline-flex items-center gap-[1.067vw] min-w-max px-[3.733vw]">
+            {galleryPreviews.map((review) => (
+              <img
+                key={review.username + review.date}
+                className="h-[32vw] w-[24vw] object-cover cursor-pointer"
+                src={review.images[0]}
+                alt={`Фото от ${review.username}`}
+                onClick={() => openGallery(review)}
+              />
+            ))}
+            <div
+              className="px-[3.2vw] flex items-center gap-[.533vw] shrink-0"
+              onClick={openGalleryWithoutScroll}
+            >
+              <Icon icon={"arrow-left"} className="w-[3.2vw] h-[3.2vw]" />
+              <div className="text-[3.467vw] leading-[normal]">Ещё</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="px-[3.733vw] space-y-[3.2vw]">
+        {reviewsData.slice(0, 2).map((item, index) => (
+          <div
+            key={index}
+            className="pb-[3.2vw]"
+            onClick={() => setIsModalOpen(true)}
+          >
+            <div className="flex items-center gap-[3.2vw] mb-[2.133vw]">
+              <div className="flex items-center gap-[3.2vw] flex-1">
+                <div className="flex items-center">
+                  <img
+                    className="w-[3.733vw] h-[3.733vw] mr-[1.067vw]"
+                    src={item.avatar}
+                    alt=""
+                  />
+                  <span className="text-[2.933vw] leading-[3.733vw] text-slate-500">
+                    {item.username}
+                  </span>
+                </div>
+                <div className="flex gap-[1.067vw]">
+                  <Icon
+                    icon="star"
+                    className="w-[3.2vw] h-[3.2vw] text-slate-500"
+                  />
+                  <Icon
+                    icon="star"
+                    className="w-[3.2vw] h-[3.2vw] text-slate-500"
+                  />
+                  <Icon
+                    icon="star"
+                    className="w-[3.2vw] h-[3.2vw] text-slate-500"
+                  />
+                  <Icon
+                    icon="star"
+                    className="w-[3.2vw] h-[3.2vw] text-slate-500"
+                  />
+                  <Icon
+                    icon="star"
+                    className="w-[3.2vw] h-[3.2vw] text-slate-500"
+                  />
+                </div>
+              </div>
+              <span className="text-[2.933vw] leading-[3.437vw] text-slate-500">
+                {item.date}
+              </span>
+            </div>
+            <div className="mt-[1.067vw] text-[2.667vw] leading-[normal] font-light truncate text-slate-500">
+              Размер: 39 RU (40 EU), Цвет: Розовый
+            </div>
+            <div className="mt-[3.2vw]">
+              <div className="overflow-hidden">
+                <span className="text-[3.2vw] leading-[3.733vw] font-light line-clamp-2">
+                  {item.text}
+                </span>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+      {isModalGalleryOpen && reviewsWithImages.length > 0 && (
+        <ReviewGalleryModal
+          onClose={() => setIsModalGalleryOpen(false)}
+          reviews={reviewsWithImages}
+          initialIndex={selectedIndex}
+        />
+      )}
+
+      {isModalOpen && <ReviewModal onClose={() => setIsModalOpen(false)} />}
+    </section>
   );
 };
 

@@ -10,46 +10,43 @@ interface DeliveryModalProps {
 const DeliveryModal = ({ onClose }: DeliveryModalProps) => {
   useBodyScrollLock(true);
   return (
-    <Modal onClose={onClose} className="bg-white max-w-154 rounded-sm">
-      <div
-        className="flex items-center justify-between px-8 py-6 border-b"
-        style={{ borderColor: "rgba(5, 5, 5, 0.06)" }}
-      >
-        <h2 className="font-roboto_condensed leading-5.75 text-xl font-bold">
+    <Modal
+      onClose={onClose}
+      className="bg-white rounded-t-[2.133vw]"
+      overlayClassName="justify-end items-end"
+    >
+      <div className="flex items-center justify-between border-b border-slate-100 h-[14.4vw] px-[3.733vw]">
+        <h2 className="font-roboto_condensed leading-[5.6vw] text-[4.8vw] font-bold">
           ДОСТАВКА
         </h2>
-        <Button
-          type="button"
-          className="opacity-70 transition-opacity hover:opacity-100 text-slate-500"
-          onClick={onClose}
-        >
-          <Icon icon="x" width={22} height={22} />
+        <Button className="text-slate-500" onClick={onClose}>
+          <Icon icon="x" className="w-[4.267vw] h-[4.267vw]" />
         </Button>
       </div>
-      <div className="p-8 flex flex-col gap-8">
-        <div className="space-y-3">
-          <div className="text-base font-extrabold leading-5">Пункт выдачи</div>
-          <div className="text-sm leading-[100%]">
+      <div className="pt-[3.733vw] pb-[10.667vw]">
+        <div className="space-y-[3.2vw] pb-[5.333vw] border-b border-slate-100 px-[3.733vw]">
+          <div className="text-[3.733vw] font-medium leading-[100%]">
+            Пункт выдачи
+          </div>
+          <div className="text-[3.2vw] leading-[4.8vw] font-light">
             Добавьте ближайший пункт выдачи и отслеживайте статус доставки.
           </div>
-          <Button className="w-full rounded-sm bg-teal-350 gap-1 py-[12.5px] mt-1">
+          <Button className="w-full rounded-[1.067vw] bg-teal-350 gap-[1.067vw] py-[2.267vw] mt-[3.2vw]">
             <img
-              className="pA"
+              className="w-[4.8vw] h-[4.8vw]"
               src="https://cdn-img.thepoizon.ru/node-common/440c1bd6-dbd3-a8ac-eaba-31811b847679-55-54.png?x-oss-process=image/resize,s_96/format,webp"
               alt="address"
-              width={18}
-              height={18}
             />
-            <span className="font-roboto_condensed text-base leading-[100%] font-bold">
+            <span className="font-roboto_condensed text-[4.267vw] leading-[100%] font-bold">
               Выбрать на карте
             </span>
           </Button>
         </div>
-        <div className="space-y-3">
-          <div className="text-base font-extrabold leading-5">
+        <div className="space-y-[3.2vw] mt-[5.333vw] px-[3.733vw]">
+          <div className="text-[3.733vw] font-medium leading-[100%]">
             Способ доставки
           </div>
-          <div className="text-sm leading-[100%]">
+          <div className="text-[3.2vw] leading-[4.8vw] font-light">
             Вы можете выбрать ускоренную доставку на странице оформления заказа.
           </div>
         </div>

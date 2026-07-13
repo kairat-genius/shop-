@@ -15,6 +15,7 @@ import CategorySection from "./CategorySection";
 
 import "swiper/css";
 import "swiper/css/thumbs";
+import FavoriteButton from "@/features/favorites-button";
 
 const HomeView = () => {
   // Переносим генерацию слайдов вверх, добавляя "Все" сразу в массив
@@ -35,17 +36,20 @@ const HomeView = () => {
   const [thumbsSwiper, setThumbsSwiper] = useState<SwiperType | null>(null);
 
   // Сколько товаров показывать в каждом слайде
-  const [visibleCounts, setVisibleCounts] = useState<Record<string, number>>(() => {
-    const initial: Record<string, number> = {};
-    for (const slide of allSlides) {
-      initial[slide.slug] = Math.min(20, slide.items.length);
-    }
-    return initial;
-  });
+  const [visibleCounts, setVisibleCounts] = useState<Record<string, number>>(
+    () => {
+      const initial: Record<string, number> = {};
+      for (const slide of allSlides) {
+        initial[slide.slug] = Math.min(20, slide.items.length);
+      }
+      return initial;
+    },
+  );
 
   const handleShowMore = (slug: string) => {
-    const totalInSlide = allSlides.find(s => s.slug === slug)?.items.length ?? 0;
-    setVisibleCounts(prev => ({
+    const totalInSlide =
+      allSlides.find((s) => s.slug === slug)?.items.length ?? 0;
+    setVisibleCounts((prev) => ({
       ...prev,
       [slug]: Math.min((prev[slug] || 0) + 4, totalInSlide),
     }));
@@ -54,28 +58,41 @@ const HomeView = () => {
   return (
     <main>
       {/* Передаем функцию сеттера для связки Thumbs */}
-      <CategorySection setThumbsSwiper={setThumbsSwiper} allSlides={allSlides} />
+      <CategorySection
+        setThumbsSwiper={setThumbsSwiper}
+        allSlides={allSlides}
+      />
 
       <Swiper
         modules={[Thumbs]}
-        thumbs={{ swiper: thumbsSwiper && !thumbsSwiper.destroyed ? thumbsSwiper : null }}
+        thumbs={{
+          swiper: thumbsSwiper && !thumbsSwiper.destroyed ? thumbsSwiper : null,
+        }}
         slidesPerView={1}
         className="w-full h-full"
         // Оптимизация тач-событий для мобилок (убирает микро-фризы)
         touchStartPreventDefault={false}
-        speed={400} 
+        speed={400}
+        noSwipingClass="swiper-no-swiping"
       >
         {allSlides.map((slide) => {
           const isAll = slide.slug === "all";
-          const itemsToShow = slide.items.slice(0, visibleCounts[slide.slug] ?? 20);
+          const itemsToShow = slide.items.slice(
+            0,
+            visibleCounts[slide.slug] ?? 20,
+          );
           const hasMore = (visibleCounts[slide.slug] ?? 0) < slide.items.length;
 
           return (
             <SwiperSlide key={slide.slug} className="w-full">
-              <Catalog />
-              
-              {isAll && <OurAdvantages />}
-              
+              <div
+                className="swiper-no-swiping"
+                onTouchStart={(e) => e.stopPropagation()}
+                onTouchMove={(e) => e.stopPropagation()}
+              >
+                <Catalog category_slug={slide.slug} />
+                {isAll && <OurAdvantages />}
+              </div>
               <div className="grid grid-cols-2">
                 {itemsToShow.length > 0 ? (
                   itemsToShow.map((product, idx) => {
@@ -88,18 +105,22 @@ const HomeView = () => {
                         className={cn(
                           "border-b",
                           isLeft && "border-r",
-                          isFirstRow && "border-t"
+                          isFirstRow && "border-t",
                         )}
-                      />
+                      >
+                        <FavoriteButton className=" absolute top-[4.8vw] right-[4vw] text-slate-500">
+                          <Icon icon="heart" className="w-[4.8vw] h-[4.8vw]" />
+                        </FavoriteButton>
+                      </ProductCard>
                     );
                   })
                 ) : (
-                  <div className="col-span-2 text-center py-8 text-slate-400">
+                  <div className="col-span-2 text-center py-8 text-slate-400 h-full">
                     В этой категории пока нет товаров
                   </div>
                 )}
               </div>
-              
+
               {hasMore && (
                 <Button
                   onClick={() => handleShowMore(slide.slug)}

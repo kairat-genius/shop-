@@ -26,57 +26,70 @@ const ShareModal = ({ onClose }: ShareModalProps) => {
 
   const whatsappUrl = `https://wa.me/?text=${encodeURIComponent(currentUrl)}`;
 
+  const telegramUrl = `https://t.me/share/url?url=${encodeURIComponent(
+    currentUrl,
+  )}`;
+
   return (
-    <Modal onClose={onClose} className="bg-white max-w-120 rounded-sm">
-      <div
-        className="flex items-center justify-between px-8 py-6 border-b"
-        style={{ borderColor: "rgba(5, 5, 5, 0.06)" }}
-      >
-        <h2 className="font-roboto_condensed leading-5.75 text-xl font-bold">
-          ПОДЕЛИТЬСЯ С ВАШИМИ ДРУЗЬЯМИ
+    <Modal
+      onClose={onClose}
+      className="bg-white rounded-t-[2.133vw]"
+      overlayClassName="justify-end items-end"
+    >
+      <div className="flex items-center justify-between py-[4.267vw] px-[3.733vw] border-b border-slate-100 h-[14.4vw]">
+        <h2 className="font-roboto_condensed leading-[5.6vw] text-[4.8vw] font-bold">
+          Поделитесь с друзьями
         </h2>
-        <Button
-          type="button"
-          className="opacity-70 transition-opacity hover:opacity-100 text-slate-500"
-          onClick={onClose}
-        >
-          <Icon icon="x" width={24} height={24} />
+        <Button className="text-slate-500" onClick={onClose}>
+          <Icon icon="x" className="w-[4.267vw] h-[4.267vw]" />
         </Button>
       </div>
-      <div className="pt-6 px-8 pb-8 grid grid-cols-3">
+      <div className="flex items-center max-w-fit gap-[6.4vw] mt-[5.867vw] px-[3.733vw] pb-[3.2vw]">
         <a
           href={whatsappUrl}
           target="_blank"
           rel="noopener noreferrer"
-          className="mx-4 flex flex-col items-center gap-2"
+          className="flex flex-col items-center gap-[2.133vw] w-[12.267vw]"
         >
-          <div className="w-20 h-20 rounded-full flex justify-center items-center bg-slate-150">
-            <img
-              className="pA"
-              src="https://cdn-img.thepoizon.ru/node-common/0899a7b7-14ad-8dbc-cb5f-873a0f86ea51-176-176.png?x-oss-process=image/format,webp"
-              alt="WhatsApp"
-              width={38}
-              height={38}
-            />
-          </div>
-          <span className="font-light text-base leading-4.75 text-slate-500 text-center">
+          <img
+            className="w-[11.733vw] h-[11.733vw] aspect-square"
+            src="https://cdn-img.thepoizon.ru/node-common/c656a248-8276-ad0a-d9b1-6e0b77175354-88-88.png?x-oss-process=image/format,webp"
+            alt=""
+          />
+
+          <span className="font-light text-[2.667vw] leading-[100%] text-slate-500 text-center min-h-[3.733vw]">
+            Telegram
+          </span>
+        </a>
+        <a
+          href={telegramUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex flex-col items-center gap-[2.133vw] w-[12.267vw]"
+        >
+          <img
+            className="w-[11.733vw] h-[11.733vw] aspect-square"
+            src="https://cdn-img.thepoizon.ru/node-common/0899a7b7-14ad-8dbc-cb5f-873a0f86ea51-176-176.png?x-oss-process=image/format,webp"
+            alt="WhatsApp"
+          />
+
+          <span className="font-light text-[2.667vw] leading-[100%] text-slate-500 text-center min-h-[3.733vw]">
             WhatsApp
           </span>
         </a>
         <Button
-          className="mx-4 flex flex-col items-center gap-2 whitespace-normal"
+          className="flex-col gap-[2.133vw] w-[12.267vw] whitespace-normal"
           onClick={handleCopyLink}
         >
-          <div className="w-20 h-20 rounded-full flex justify-center items-center bg-slate-150">
-            <img
-              className="pA"
-              src="https://cdn-img.thepoizon.ru/node-common/3fc730e8-f19e-52d2-de30-42b0af488a47-176-176.png?x-oss-process=image/format,webp"
-              alt="CopyLink"
-              width={38}
-              height={38}
-            />
-          </div>
-          <span className="font-light text-base leading-4.75 text-slate-500 text-center">
+          <img
+            className="w-[11.733vw] h-[11.733vw] aspect-square"
+            src="https://cdn-img.thepoizon.ru/node-common/b8ab310a-b545-748d-5010-da405401f956-132-132.png?x-oss-process=image/format,webp"
+            alt="CopyLink"
+            width={38}
+            height={38}
+          />
+
+          <span className="font-light text-[2.667vw] leading-[100%] text-slate-500 text-center min-h-[3.733vw]">
             Скопировать ссылку
           </span>
         </Button>

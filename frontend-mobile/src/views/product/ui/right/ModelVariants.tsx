@@ -1,6 +1,16 @@
+"use client";
 import { Button } from "@/shared/ui/action";
 import Icon from "@/shared/icon";
 import { cn } from "@/shared/utils/clsx";
+import { useState } from "react";
+import dynamic from "next/dynamic";
+
+const ModelVariantsModal = dynamic(
+  () => import("../modal/ModelVariantsModal"),
+  {
+    ssr: false,
+  },
+);
 
 const variants = [
   {
@@ -77,37 +87,51 @@ const variants = [
   },
 ];
 
-
-const ModelVariants = () => (
-  <div className="">
-    <div className="flex items-center justify-between mb-3">
-      <div className="font-roboto_condensed font-bold text-base leading-4">
-        Модель Hyperdunk 2017 ({variants.length} товаров)
+const ModelVariants = () => {
+  const [isModelModalOpen, setIsModelModalOpen] = useState(false);
+  return (
+    <div className="flex">
+      <div className="overflow-x-auto scrollbar-none">
+        <div className="flex items-center gap-[1.067vw] max-w-[84vw]">
+          {variants.map((item) => (
+            <Button
+              key={item.alt}
+              className={cn(
+                "border rounded-[2.133vw] shrink-0 first:ml-[3.733vw] overflow-hidden",
+                item.is_current
+                  ? "border-slate-950"
+                  : "border-[rgba(199,199,215,.5)]",
+              )}
+            >
+              <img
+                className="aspect-square w-[11.733vw] h-[11.733vw]"
+                src={item.image}
+                alt={item.alt}
+              />
+            </Button>
+          ))}
+        </div>
       </div>
-      <button>
-        <Icon
-          icon="chevron-right"
-          width={12}
-          height={12}
-          className="shrink-0 text-slate-500"
-        />
-      </button>
-    </div>
-    <div className="grid grid-cols-6">
-      {variants.map((item) => (
-        <Button
-          key={item.alt}
-          className={cn(
-            "border shrink-0",
-            item.is_current ? "border-slate-950" : "border-[rgba(20,21,26,0.03)]",
-          )}
-        >
-          <img className="aspect-square" src={item.image} alt={item.alt} />
-        </Button>
-      ))}
-    </div>
-  </div>
-);
 
+      <div className="flex pr-[3.733vw]">
+        <div className="w-[3.733vw] h-full bg-linear-to-l from-white to-transparent" />
+        <Button
+          className="bg-white ml-[1.6vw] text-slate-500"
+          onClick={() => setIsModelModalOpen(true)}
+        >
+          <div className="text-[3.2vw] leading-[3.749vw]">+75</div>
+          <Icon
+            icon="chevron-right"
+            className="w-[3.2vw] h-[3.2vw] text-slate-400"
+          />
+        </Button>
+      </div>
+
+      {isModelModalOpen && (
+        <ModelVariantsModal onClose={() => setIsModelModalOpen(false)} variants={variants} />
+      )}
+    </div>
+  );
+};
 
 export default ModelVariants;

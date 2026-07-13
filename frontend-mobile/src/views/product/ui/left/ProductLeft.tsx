@@ -1,12 +1,21 @@
 import Link from "next/link";
-import AboutProduct from "./AboutProduct";
+import ProductBrand from "./ProductBrand";
 import Description from "./Description";
 import ProductDetails from "./ProductDetails";
+import SizeFinder from "./SizeFinder";
+import Reviews from "./Reviews";
+import AboutProduct from "./AboutProduct";
 
 const ProductLeft = () => {
   return (
-    <div>
+    <>
       <AboutProduct />
+       <div className="w-full h-[2.133vw] bg-slate-100" />
+      <Reviews />
+      <div className="w-full h-[2.133vw] bg-slate-100" />
+      <SizeFinder />
+      <div className="w-full h-[2.133vw] bg-slate-100" />
+      <ProductBrand />
       <div className="w-full h-[2.133vw] bg-slate-100" />
       <ProductDetails />
       <div className="w-full h-[2.133vw] bg-slate-100" />
@@ -25,7 +34,7 @@ const ProductLeft = () => {
         </Link>
       </div>
       <div className="w-full h-[2.133vw] bg-slate-100" />
-    </div>
+    </>
   );
 };
 

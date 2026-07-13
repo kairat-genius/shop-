@@ -23,8 +23,6 @@ const ProductCard = ({ children, className, product }: ProductCardProps) => {
       <Link
         href={`/product/${product.slug}`}
         className="flex flex-col pb-[2.133vw]"
-        target="_blank"
-        rel="opener"
       >
         <div className="relative">
           <div className="h-[46.4vw] w-[46.4vw] mx-auto mt-[-4.267vw]">

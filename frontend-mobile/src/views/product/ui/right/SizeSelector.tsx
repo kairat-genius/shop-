@@ -1,7 +1,13 @@
+"use client";
 import Icon from "@/shared/icon";
-import { cn } from "@/shared/utils/clsx";
+import dynamic from "next/dynamic";
+import { useState } from "react";
 
-const sizes = [
+const SizeSelectorModal = dynamic(() => import("../modal/SizeSelectorModal"), {
+  ssr: false,
+});
+
+export const sizes = [
   { sizeRu: "34,5", sizeEu: "35,5", price: null, isActive: false },
   { sizeRu: "35", sizeEu: "36", price: null, isActive: false },
   { sizeRu: "35,5", sizeEu: "36,5", price: null, isActive: false },
@@ -26,70 +32,79 @@ const sizes = [
   { sizeRu: "47,5", sizeEu: "48,5", price: null, isActive: false },
 ];
 
-const SizeSelector = () => (
-  <div className="mt-6">
-    <div className="flex items-center justify-between gap-2 mb-2">
-      <span className="truncate font-bold font-roboto_condensed text-base">
-        Размер:
-        <span className="text-sm font-roboto font-bold ml-0.5">
-          <span className="btp">RU</span>
-          <span className="ml-0.5 text-slate-500">&nbsp;(EU)</span>
-        </span>
-      </span>
-      <div className="flex items-center">
-        <img
-          className="pS"
-          src="https://cdn-img.thepoizon.ru/node-common/935e5df6-1d97-27c8-3944-f1ad4784f80d.svg"
-          alt="showsizeguide"
-        />
+const SizeSelector = () => {
+  const [isSizeModalOpen, setIsSizeModalOpen] = useState(false);
+  return (
+    <div className="mt-[2.667vw] mb-[3.2vw]">
+      <div className="flex items-center justify-between mb-[2.133vw] px-[3.733vw]">
+        <span className="truncate text-[3.2vw] leading-[3.749vw]">Размер</span>
+        <div className="flex items-center gap-[.533vw]">
+          <img
+            className="w-[3.2vw] h-[3.2vw] ml-[.533vw]"
+            src="https://cdn-img.thepoizon.ru/node-common/935e5df6-1d97-27c8-3944-f1ad4784f80d.svg"
+            alt="showsizeguide"
+          />
 
-        <div className="text-xs text-slate-500">Рек: 43,5 RU (44,5 EU)</div>
-        <Icon
-          icon="chevron-right"
-          width={12}
-          height={12}
-          className="shrink-0 text-slate-500"
-        />
-      </div>
-    </div>
-    <div className="grid grid-cols-4 text-center [&>*:nth-child(-n+4)]:border-t [&>*:nth-child(-n+4)]:border-t-slate-100 [&>*:nth-child(4n+1)]:border-l [&>*:nth-child(4n+1)]:border-l-slate-100">
-      {sizes.map((item, index) => (
-        <div
-          className={cn(
-            "px-2 flex flex-col items-center justify-center h-12 border-r border-b border-slate-100",
-            item.isActive &&
-              "relative after:-top-px after:-left-px after:w-full after:h-full after:absolute after:border after:border-slate-950",
-          )}
-          key={index}
-        >
-          <div className="font-medium text-sm leading-4 truncate">
-            {item.sizeRu}
-            <span className="ml-0.5">({item.sizeEu})</span>
+          <div className="text-[2.933vw] leading-[normal] text-slate-500">
+            Гайд размера
           </div>
-          <div className="text-xs mt-0.5 leading-3.5 truncate">
-            {item.price == null
-              ? "-- ₽"
-              : `${item.price.toLocaleString("ru-RU")} ₽`}
+          <Icon
+            icon="chevron-right"
+            className="w-[3.2vw] h-[3.2vw] text-slate-400"
+          />
+        </div>
+      </div>
+      <div className="flex relative px-[3.733vw] overflow-hidden">
+        <div className="flex flex-col items-center justify-between gap-[.533vw] pr-[1.067vw] py-[1.6vw] text-[3.733vw] leading-[100%] max-w-[18.667vw] font-medium">
+          <div>RU</div>
+          <div className="text-slate-500">EU</div>
+        </div>
+        <div className="overflow-x-auto scrollbar-none">
+          <div className="flex pb-px gap-[1.067vw] text-[3.733vw] leading-[4.376vw]">
+            {sizes.map((item, index) => (
+              <div
+                key={index}
+                className="relative px-[2.667vw] py-[1.6vw] text-slate-300 max-w-[53.333vw] flex flex-col items-center justify-center last:pr-[10.667vw]"
+              >
+                <div className="text-slate-300">{item.sizeRu}</div>
+                <div className="text-slate-300 mt-[.533vw] font-light">
+                  {item.sizeEu}
+                </div>
+                <div className="scale-50 absolute rounded-[2.133vw] border-dashed border border-slate-300 w-[200%] h-[200%] pointer-events-none" />
+              </div>
+            ))}
           </div>
         </div>
-      ))}
-    </div>
-    <div
-      className="px-3 py-1 mt-2 rounded-sm flex items-center justify-between"
-      style={{ backgroundColor: "rgba(245, 245, 249, .6)" }}
-    >
-      <div className="text-xs leading-[14.06px]">
-        <span className="text-slate-500 ml-0.5 font-light">Длина стопы: </span>
-        <span className="ml-0.5">26 cm</span>
+        <div
+          className="h-full absolute right-0 top-0 flex items-center"
+          onClick={() => setIsSizeModalOpen(true)}
+        >
+          <div className="h-full w-[3.733vw] bg-linear-to-l from-white to-transparent" />
+          <div className="bg-white h-full flex items-center w-[8.533vw]">
+            <Icon
+              icon="chevron-right"
+              className="w-[3.2vw] h-[3.2vw] ml-[1.6vw] text-slate-400"
+            />
+          </div>
+        </div>
       </div>
-      <Icon
-        icon="chevron-right"
-        width={12}
-        height={12}
-        className="shrink-0 text-slate-500"
-      />
+      <div className="rounded-[1.067vw] flex items-center justify-between mt-[2.133vw] py-[1.067vw] px-[3.2vw] bg-[rgba(245,245,249,.6)] mx-[3.733vw]">
+        <div className="text-[3.2vw] leading-[3.749vw]">
+          <span className="text-slate-500 mr-[.533vw] font-light">
+            Длина стопы:
+          </span>
+          <span>26 cm</span>
+        </div>
+        <Icon
+          icon="chevron-right"
+          className="w-[3.2vw] h-[3.2vw] text-slate-400"
+        />
+      </div>
+      {isSizeModalOpen && (
+        <SizeSelectorModal onClose={() => setIsSizeModalOpen(false)} />
+      )}
     </div>
-  </div>
-);
+  );
+};
 
 export default SizeSelector;

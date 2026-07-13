@@ -43,7 +43,7 @@ const Select = ({
           width={16}
           height={16}
           className={cn(
-            "transition-transform duration-300 shrink-0",
+            "transition-transform duration-300",
             isOpen && "rotate-180",
           )}
         />

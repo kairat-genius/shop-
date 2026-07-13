@@ -52,7 +52,7 @@ const BurgerMenu = ({ onClose }: BurgerMenuProps) => {
           />
         </Link>
         <Button onClick={onClose} className="text-slate-500">
-          <Icon icon="x" width={24} height={24} />
+          <Icon icon="x" className="w-[5.333vw] h-[5.333vw]" />
         </Button>
       </div>
 
