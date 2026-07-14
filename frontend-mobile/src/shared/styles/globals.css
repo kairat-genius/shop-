@@ -56,3 +56,19 @@ body {
   }
 }
 
+
+.border-scale {
+  position: relative;
+}
+
+.border-scale::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  transform-origin: 0 0;
+  transform: scale(0.5);
+  width: 200%;
+  height: 200%;
+  
+}

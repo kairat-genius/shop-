@@ -1,4 +1,4 @@
-import Breadcrumbs from "./Breadcrumbs";
+import Breadcrumbs from "@/shared/ui/breadcrumbs";
 import ProductList from "./ProductList";
 import RelatedBrandsThemes from "./RelatedBrandsThemes";
 import { categoriesData } from "@/shared/data/category.data";

@@ -1,21 +1,22 @@
-import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 import type { Swiper as SwiperType } from "swiper";
 import { FreeMode } from "swiper/modules";
-import Icon from "@/shared/icon";
 import { Button } from "@/shared/ui/action";
 import { cn } from "@/shared/utils/clsx";
 
 import "swiper/css/free-mode";
+import type { ReactNode } from "react";
 
 interface CategorySectionProps {
   setThumbsSwiper: (swiper: SwiperType) => void;
   allSlides: Array<{ title: string; slug: string }>;
+  children?: ReactNode;
 }
 
 const CategorySection = ({
   setThumbsSwiper,
   allSlides,
+  children,
 }: CategorySectionProps) => {
   return (
     <section className="flex items-center h-[9.067vw] bg-white top-[12.8vw] z-10 sticky">
@@ -52,17 +53,7 @@ const CategorySection = ({
           </SwiperSlide>
         ))}
       </Swiper>
-      <Link
-        href="/"
-        className="shrink-0 flex items-center w-[9.067vw] h-[8vw] mb-[1.333vw] pl-[1.067vw] bg-white z-20"
-      >
-        <Icon
-          icon="menu"
-          width={23}
-          height={23}
-          className="h-[5.333vw] w-[5.333vw]"
-        />
-      </Link>
+      {children}
     </section>
   );
 };

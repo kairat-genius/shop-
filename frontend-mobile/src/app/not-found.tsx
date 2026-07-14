@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Header from "@/widgets/header";
 
 export const metadata: Metadata = {
   title: "404 Not Found",
@@ -7,25 +8,24 @@ export const metadata: Metadata = {
 
 export default async function NotFound() {
   return (
-    <main className="bg-white">
-      <section className="px-3.75 md:px-5 pb-15 pt-15 text-center">
-        <h1 className="font-bold text-xl md:text-[28px] leading-[1.2]">
-          4😥4 - Page not found
-        </h1>
-
-        <div className="pt-3.75 md:pt-5 leading-normal  md:text-sm">
-          We&apos;re sorry, but we can&apos;t seem to find the page you are
-          looking for.
-        </div>
-        <Link
-          href="/"
-          className="mx-auto w-fit block mt-6 px-5 py-3 text-sm font-semibold border border-black hover:bg-black hover:text-white transition-colors"
-        >
-          Главная страница
-        </Link>
-      </section>
-      <section className="lg:px-5 pb-5">
-      </section>
-    </main>
+    <>
+      <Header />
+      <main className="bg-white h-screen">
+        <section className="pt-[24vw] text-center">
+          <div className="leading-[7.467vw] text-[6.4vw] font-bold font-roboto_condensed">
+            Ой! Мы не можем найти
+          </div>
+          <div className="leading-[7.467vw] text-[6.4vw] font-bold font-roboto_condensed">
+            страницу, которую вы ищете
+          </div>
+          <div className="text-[3.467vw] leading-[4.8vw] font-light mt-[3.2vw] mb-[7.733vw]">
+            Вот здесь несколько полезных ссылок:
+          </div>
+          <div className="underline font-semibold leading-[normal] text-[3.733vw] text-center mb-[8vw] capitalize">
+            <Link href="/">Главная</Link>
+          </div>
+        </section>
+      </main>
+    </>
   );
 }

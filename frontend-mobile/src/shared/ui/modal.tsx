@@ -7,7 +7,6 @@ interface ModalProps {
   onClose: () => void;
   className?: string;
   overlayClassName?: string;
-  closeButtonClassName?: string;
 }
 
 const Modal = ({

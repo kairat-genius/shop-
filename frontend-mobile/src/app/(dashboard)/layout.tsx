@@ -1,3 +1,5 @@
+import Header from "@/widgets/header";
+
 export default function DashboardLayout({
   children,
 }: Readonly<{
@@ -5,6 +7,7 @@ export default function DashboardLayout({
 }>) {
   return (
     <>
+      <Header/>
       {children}
     </>
   );

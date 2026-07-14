@@ -11,11 +11,12 @@ import { categoriesData } from "@/shared/data/category.data";
 import products from "@/shared/data/productData.json";
 import OurAdvantages from "./OurAdvantages";
 import Catalog from "./Catalog";
-import CategorySection from "./CategorySection";
+import CategorySection from "@/widgets/category-section";
 
 import "swiper/css";
 import "swiper/css/thumbs";
 import FavoriteButton from "@/features/favorites-button";
+import Link from "next/link";
 
 const HomeView = () => {
   // Переносим генерацию слайдов вверх, добавляя "Все" сразу в массив
@@ -58,10 +59,19 @@ const HomeView = () => {
   return (
     <main>
       {/* Передаем функцию сеттера для связки Thumbs */}
-      <CategorySection
-        setThumbsSwiper={setThumbsSwiper}
-        allSlides={allSlides}
-      />
+      <CategorySection setThumbsSwiper={setThumbsSwiper} allSlides={allSlides}>
+        <Link
+          href="/all-categories"
+          className="shrink-0 flex items-center w-[9.067vw] h-[8vw] mb-[1.333vw] pl-[1.067vw] bg-white z-20"
+        >
+          <Icon
+            icon="menu"
+            width={23}
+            height={23}
+            className="h-[5.333vw] w-[5.333vw]"
+          />
+        </Link>
+      </CategorySection>
 
       <Swiper
         modules={[Thumbs]}
