@@ -70,12 +70,12 @@ interface RelatedBrandsThemesProps {
 
 const RelatedBrandsThemes = ({ className }: RelatedBrandsThemesProps) => {
   return (
-    <section className={cn("px-5 mb-10", className)}>
+    <section className={cn("mb-10", className)}>
       <Accordion
         chevronClassName="w-4 h-4"
         className="justify-start gap-2.5 mb-0"
         title={
-          <h2 className="font-roboto_condensed text-2xl font-bold leading-[1.2]">
+          <h2 className="font-roboto_condensed text-[24px] font-bold leading-[1.2]">
             СВЯЗАННЫЙ БРЕНД ИЛИ ТЕМЫ
           </h2>
         }
@@ -85,7 +85,7 @@ const RelatedBrandsThemes = ({ className }: RelatedBrandsThemesProps) => {
             {brands.map((item) => (
               <Link
                 key={item.href}
-                className="text-sm font-light leading-[1.2] truncate"
+                className="text-[14px] font-light leading-[1.2] truncate"
                 href={item.href}
               >
                 {item.label}
@@ -97,7 +97,7 @@ const RelatedBrandsThemes = ({ className }: RelatedBrandsThemesProps) => {
             {themes.map((item) => (
               <Link
                 key={item.href}
-                className="text-sm font-light leading-[1.2] truncate"
+                className="text-[14px] font-light leading-[1.2] truncate"
                 href={item.href}
               >
                 {item.label}

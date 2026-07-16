@@ -21,21 +21,21 @@ const Header = () => {
         backgroundSize: "100% 100%",
       }}
     >
-      <div className="flex items-center gap-4 md:gap-8 container px-4 md:px-5 min-h-13.75 md:min-h-16">
-        <div className="flex items-center gap-3 md:gap-4 flex-1">
-            <Link href="/" title="POIZON" className="shrink-0">
-              <img
-                className="w-10 md:w-11.25 h-10 md:h-11.25 object-contain"
-                src="https://cdn-img.thepoizon.ru/node-common/66761ca0-ca01-1761-ea4e-079ba4b97eb8-135-143.png?x-oss-process=image/format,webp"
-                alt="POIZON"
-              />
-            </Link>
+      <div className="flex items-center gap-[1.6rem] max-w-360 min-w-[1024px] mx-auto px-[2.4rem] min-h-16">
+        <div className="flex items-center gap-[.8rem] flex-1">
+          <Link href="/" title="POIZON" className="shrink-0">
+            <img
+              className="w-11.25 h-auto object-contain"
+              src="https://cdn-img.thepoizon.ru/node-common/66761ca0-ca01-1761-ea4e-079ba4b97eb8-135-143.png?x-oss-process=image/format,webp"
+              alt="POIZON"
+            />
+          </Link>
           <Search />
         </div>
-        <div className="flex gap-8 items-center">
+        <div className="flex gap-[1.6rem] items-center">
           <Link
             className={cn(
-              "flex font-medium leading-4 h-16 text-sm items-center gap-1",
+              "flex font-medium leading-[normal] h-16 text-[14px] items-center gap-1",
               pathname === "/authentication/home"
                 ? "text-teal-600"
                 : "text-slate-950 hover:text-teal-600",
@@ -44,9 +44,8 @@ const Header = () => {
           >
             <Icon
               icon="scan-search"
-              width={22}
-              height={22}
-              className="shrink-0"
+              width={20}
+              height={20}
             />
             <span
               className={cn(
@@ -60,14 +59,14 @@ const Header = () => {
           </Link>
           <Link
             className={cn(
-              "flex font-medium leading-4 h-16 text-sm items-center gap-1 justify-center",
+              "flex font-medium leading-[normal] h-16 text-[14px] items-center gap-1 justify-center",
               pathname === "/about-us"
                 ? "text-teal-600"
                 : "text-slate-950 hover:text-teal-600",
             )}
             href="/about-us"
           >
-            <Icon icon="about-us" width={22} height={22} className="shrink-0" />
+            <Icon icon="about-us" width={20} height={20} />
             <span
               className={cn(
                 "block relative",
@@ -79,26 +78,21 @@ const Header = () => {
             </span>
           </Link>
         </div>
-        <div className="flex items-center gap-6">
+        <div className="flex items-center gap-[1.2rem]">
           <Button className="hover:text-teal-600 text-slate-950">
-            <Icon icon="user" width={22} height={22} className="shrink-0" />
+            <Icon icon="user" width={22} height={22} />
           </Button>
           <Link
             href="/wish-list"
             className="hover:text-teal-600 text-slate-950"
           >
-            <Icon
-              icon="heart-list"
-              width={22}
-              height={22}
-              className="shrink-0"
-            />
+            <Icon icon="heart-list" width={22} height={22} />
           </Link>
         </div>
       </div>
-      <div className="h-11 flex gap-8 items-center container px-4 md:px-5">
-        <CategoriesDropdown/>
-        <CategorySwiper/>
+      <div className="h-11 flex gap-8 items-center max-w-360 min-w-[1024px] mx-auto px-[2.4rem]">
+        <CategoriesDropdown />
+        <CategorySwiper />
       </div>
     </header>
   );

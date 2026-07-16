@@ -142,7 +142,7 @@ const Pagination = ({
             aria-current={isActive ? "page" : undefined}
             onClick={() => handleChange(item)}
             className={cn(
-              "w-7.5 h-7.5 border border-transparent rounded-xs text-sm font-bold font-roboto_condensed bg-slate-150 hover:border-black hover:bg-[linear-gradient(0deg,#fff,#fff),linear-gradient(0deg,#000,#000)] transition-all duration-200",
+              "w-7.5 h-7.5 border border-transparent rounded-xs text-[14px] font-bold font-roboto_condensed bg-slate-150 hover:border-black hover:bg-[linear-gradient(0deg,#fff,#fff),linear-gradient(0deg,#000,#000)] transition-all duration-200",
               isActive &&
                 "bg-black text-white cursor-default pointer-events-none",
             )}

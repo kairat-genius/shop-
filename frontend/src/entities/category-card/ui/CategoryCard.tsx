@@ -29,11 +29,11 @@ const CategoryCard = ({
         className="absolute h-full w-full object-cover bg-gray-400"
       />
       <div className="flex flex-col justify-center items-center gap-3.75 relative text-white px-1.25 md:px-2.5 mb-2.5">
-        <div className="text-lg md:text-xl lg:text-2xl leading-none md:leading-5.5 lg:leading-6.5 uppercase font-bold text-center">
+        <div className="text-lg md:text-[20px] lg:text-[24px] leading-none md:leading-5.5 lg:leading-6.5 uppercase font-bold text-center">
           {name}
         </div>
         <LinkButton
-          className="uppercase px-2.5 md:px-5 border-[1.333px] mb-1.25 md:mb-8.75 py-2 md:py-3 w-fit font-bold text-[10px] md:text-sm leading-5 lg:leading-4"
+          className="uppercase px-2.5 md:px-5 border-[1.333px] mb-1.25 md:mb-8.75 py-2 md:py-3 w-fit font-bold text-[10px] md:text-[14px] leading-5 lg:leading-4"
           href={`/category/${slug}`}
         >
           Посмотреть все

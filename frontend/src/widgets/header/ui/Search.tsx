@@ -50,7 +50,7 @@ const Search = () => {
             className="fixed inset-0 z-40 bg-black/40 backdrop-blur-[2px]"
             onClick={handleOverlayClick}
           />,
-          document.body
+          document.body,
         )}
 
       <div className="relative bg-white py-0.5 border border-teal-400 rounded-sm flex items-center h-8.5 w-full">
@@ -59,7 +59,7 @@ const Search = () => {
             ref={inputRef}
             id="search-input"
             name="search"
-            className="w-full text-xs md:text-sm outline-none leading-normal caret-teal-400"
+            className="w-full text-[12px] md:text-[14px] outline-none leading-normal caret-teal-400"
             type="text"
             placeholder="anta kai 2"
             value={searchQuery}
@@ -89,7 +89,12 @@ const Search = () => {
           onClick={handleSearchSubmit}
           aria-label="Поиск"
         >
-          <Icon icon="search" width={22} height={22} className="w-4.5 md:w-5.5 h-4.5 md:h-5.5" />
+          <Icon
+            icon="search"
+            width={22}
+            height={22}
+            className="w-4.5 md:w-5.5 h-4.5 md:h-5.5"
+          />
         </Button>
 
         {isFocused && searchQuery.trim() === "" && (
@@ -115,7 +120,7 @@ const Search = () => {
               className="h-10 px-3 items-center flex justify-between gap-2 border-t border-slate-100"
               onClick={() => saveToHistory(searchQuery.trim())}
             >
-              <div className="flex-1 text-sm text-slate-500 leading-[16.41px] truncate">
+              <div className="flex-1 text-[14px] text-slate-500 leading-[16.41px] truncate">
                 <span className="font-medium text-slate-950">
                   {searchQuery.trim()}
                 </span>

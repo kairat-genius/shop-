@@ -29,9 +29,9 @@ const sizes = [
 const SizeSelector = () => (
   <div className="mt-6">
     <div className="flex items-center justify-between gap-2 mb-2">
-      <span className="truncate font-bold font-roboto_condensed text-base">
+      <span className="truncate font-bold font-roboto_condensed text-[16px]">
         Размер:
-        <span className="text-sm font-roboto font-bold ml-0.5">
+        <span className="text-[14px] font-roboto font-bold ml-0.5">
           <span className="btp">RU</span>
           <span className="ml-0.5 text-slate-500">&nbsp;(EU)</span>
         </span>
@@ -43,7 +43,7 @@ const SizeSelector = () => (
           alt="showsizeguide"
         />
 
-        <div className="text-xs text-slate-500">Рек: 43,5 RU (44,5 EU)</div>
+        <div className="text-[12px] text-slate-500">Рек: 43,5 RU (44,5 EU)</div>
         <Icon
           icon="chevron-right"
           width={12}
@@ -62,11 +62,11 @@ const SizeSelector = () => (
           )}
           key={index}
         >
-          <div className="font-medium text-sm leading-4 truncate">
+          <div className="font-medium text-[14px] leading-4 truncate">
             {item.sizeRu}
             <span className="ml-0.5">({item.sizeEu})</span>
           </div>
-          <div className="text-xs mt-0.5 leading-3.5 truncate">
+          <div className="text-[12px] mt-0.5 leading-3.5 truncate">
             {item.price == null
               ? "-- ₽"
               : `${item.price.toLocaleString("ru-RU")} ₽`}
@@ -78,7 +78,7 @@ const SizeSelector = () => (
       className="px-3 py-1 mt-2 rounded-sm flex items-center justify-between"
       style={{ backgroundColor: "rgba(245, 245, 249, .6)" }}
     >
-      <div className="text-xs leading-[14.06px]">
+      <div className="text-[12px] leading-[14.06px]">
         <span className="text-slate-500 ml-0.5 font-light">Длина стопы: </span>
         <span className="ml-0.5">26 cm</span>
       </div>

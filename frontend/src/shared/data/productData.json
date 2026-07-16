@@ -1,3018 +1,645 @@
 [
   {
-    "title": "Lady Luck",
-    "slug": "lady-luck-iphone-14-plus-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/LC_04EL_iPhone_14_Plus_EL_GO_1_767x.jpg",
-    "price": 84.95,
-    "model": "iPhone 14 Plus Case",
-    "color": "Gold",
-    "mag_safe": "Elite Dark (MagSafe)",
-    "category": "chekhly",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/LC_04EL_iPhone_14_Plus_EL_GO_1_767x.jpg"
-    ]
-  },
-  {
-    "title": "Found It",
-    "slug": "found-it-iphone-14-plus-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/LC_03EL_iPhone_14_Plus_EL_GO_1_767x.jpg",
-    "price": 84.95,
-    "model": "iPhone 14 Plus Case",
-    "color": "Gold",
-    "mag_safe": "Elite Dark (MagSafe)",
-    "category": "chekhly",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/LC_03EL_iPhone_14_Plus_EL_GO_1_767x.jpg"
-    ]
-  },
-  {
-    "title": "Pick It",
-    "slug": "pick-it-iphone-14-plus-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/LC_01EL_iPhone_14_Plus_EL_GO_1_767x.jpg",
-    "price": 84.95,
-    "model": "iPhone 14 Plus Case",
-    "color": "Gold",
-    "mag_safe": "Elite Dark (MagSafe)",
-    "category": "chekhly",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/LC_01EL_iPhone_14_Plus_EL_GO_1_767x.jpg"
-    ]
-  },
-  {
-    "title": "Manifesting",
-    "slug": "manifesting-iphone-14-plus-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/LC_10EL_iPhone_14_Plus_EL_GO_1_767x.jpg",
-    "price": 84.95,
-    "model": "iPhone 14 Plus Case",
-    "color": "Gold",
-    "mag_safe": "Elite Dark (MagSafe)",
-    "category": "chekhly",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/LC_10EL_iPhone_14_Plus_EL_GO_1_767x.jpg"
-    ]
-  },
-  {
-    "title": "Sorry Busy",
-    "slug": "sorry-busy-iphone-14-plus-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/OS-08EL-A00001CA_22597d84-b2c0-4999-b6b1-648c351888ea_767x.jpg",
-    "price": 84.95,
-    "model": "iPhone 14 Plus Case",
-    "color": "Gold",
-    "mag_safe": "Elite Dark (MagSafe)",
-    "category": "chekhly",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/OS-08EL-A00001CA_22597d84-b2c0-4999-b6b1-648c351888ea_767x.jpg"
-    ]
-  },
-  {
-    "title": "Sakura",
-    "slug": "sakura-iphone-14-plus-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/SR-01EL_iPhone_14_Plus_EL_GO_1_767x.jpg",
-    "price": 84.95,
-    "model": "iPhone 14 Plus Case",
-    "color": "Gold",
-    "mag_safe": "Elite Dark (MagSafe)",
-    "category": "chekhly",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/SR-01EL_iPhone_14_Plus_EL_GO_1_767x.jpg"
-    ]
-  },
-  {
-    "title": "Sobremesa",
-    "slug": "sobremesa-iphone-14-plus-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/CM-01EL-A00001CA_ec7fb0fb-14a1-4635-a796-bbd08030b7b7_767x.jpg",
-    "price": 84.95,
-    "model": "iPhone 14 Plus Case",
-    "color": "Gold",
-    "mag_safe": "Elite Dark (MagSafe)",
-    "category": "chekhly",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/CM-01EL-A00001CA_ec7fb0fb-14a1-4635-a796-bbd08030b7b7_767x.jpg"
-    ]
-  },
-  {
-    "title": "Café Haru",
-    "slug": "cafe-haru-iphone-14-plus-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/SR-02EL_iPhone_14_Plus_EL_GO_1_767x.jpg",
-    "price": 84.95,
-    "model": "iPhone 14 Plus Case",
-    "color": "Gold",
-    "mag_safe": "Elite Dark (MagSafe)",
-    "category": "chekhly",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/SR-02EL_iPhone_14_Plus_EL_GO_1_767x.jpg"
-    ]
-  },
-  {
-    "title": "Golden Coral",
-    "slug": "pink-iphone-14-plus-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/ME-05EL-A00001CA_767x.jpg",
-    "price": 84.95,
-    "model": "Pink iPhone 14 Plus Case",
-    "color": "Gold",
-    "mag_safe": "Elite Dark (MagSafe)",
-    "category": "chekhly",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/ME-05EL-A00001CA_767x.jpg"
-    ]
-  },
-  {
-    "title": "Magnetic",
-    "slug": "magnetic-iphone-14-plus-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/VM-07EL-A00001CA_88c0f4e3-368f-4703-a04c-264a4b18941a_767x.jpg",
-    "price": 84.95,
-    "model": "iPhone 14 Plus Case",
-    "color": "Gold",
-    "mag_safe": "Elite Dark (MagSafe)",
-    "category": "chekhly",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/VM-07EL-A00001CA_88c0f4e3-368f-4703-a04c-264a4b18941a_767x.jpg"
-    ]
-  },
-  {
-    "title": "Cougar",
-    "slug": "cougar-iphone-14-plus-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/PA-01EL-A00001CA_c8b590a4-d269-475d-bfe7-e0140b80a376_767x.jpg",
-    "price": 84.95,
-    "model": "iPhone 14 Plus Case",
-    "color": "Gold",
-    "mag_safe": "Elite Dark (MagSafe)",
-    "category": "chekhly",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/PA-01EL-A00001CA_c8b590a4-d269-475d-bfe7-e0140b80a376_767x.jpg"
-    ]
-  },
-  {
-    "title": "Your Best",
-    "slug": "your-best-iphone-14-plus-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/TL-04EL_iPhone_14_Plus_EL_GO_1_767x.jpg",
-    "price": 89.95,
-    "model": "iPhone 14 Plus Case",
-    "color": "Gold",
-    "mag_safe": "Elite Dark (MagSafe)",
-    "category": "chekhly",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/TL-04EL_iPhone_14_Plus_EL_GO_1_767x.jpg"
-    ]
-  },
-  {
-    "title": "Favorite Bikini",
-    "slug": "favorite-bikini-iphone-14-plus-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/RS-15EL-A00001CA_2c31bc07-afeb-4687-8b6c-d4d0a18cd198_767x.jpg",
-    "price": 84.95,
-    "model": "iPhone 14 Plus Case",
-    "color": "Gold",
-    "mag_safe": "Elite Dark (MagSafe)",
-    "category": "chekhly",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/RS-15EL-A00001CA_2c31bc07-afeb-4687-8b6c-d4d0a18cd198_767x.jpg"
-    ]
-  },
-  {
-    "title": "Nothing Changes",
-    "slug": "nothing-changes-iphone-14-plus-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/TL-03EL_iPhone_14_Plus_EL_GO_1_767x.jpg",
-    "price": 89.95,
-    "model": "iPhone 14 Plus Case",
-    "color": "Gold",
-    "mag_safe": "Elite Dark (MagSafe)",
-    "category": "chekhly",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/TL-03EL_iPhone_14_Plus_EL_GO_1_767x.jpg"
-    ]
-  },
-  {
-    "title": "Celestial",
-    "slug": "celestial-iphone-14-plus-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/UN-07EL-A00001CA_767x.jpg",
-    "price": 84.95,
-    "model": "iPhone 14 Plus Case",
-    "color": "Gold",
-    "mag_safe": "Elite Dark (MagSafe)",
-    "category": "chekhly",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/UN-07EL-A00001CA_767x.jpg"
-    ]
-  },
-  {
-    "title": "Barely Yours",
-    "slug": "barely-yours-iphone-14-plus-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/DE-03EL-A00001CA_bd74a82b-692f-4b5c-a5e4-3e219e678b7d_767x.jpg",
-    "price": 84.95,
-    "model": "iPhone 14 Plus Case",
-    "color": "Gold",
-    "mag_safe": "Elite Dark (MagSafe)",
-    "category": "chekhly",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/DE-03EL-A00001CA_bd74a82b-692f-4b5c-a5e4-3e219e678b7d_767x.jpg"
-    ]
-  },
-  {
-    "title": "Blueberry Muffin",
-    "slug": "blueberry-muffin-iphone-14-plus-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/MC-06EL_iPhone_14_Plus_EL_GO_1_767x.jpg",
-    "price": 84.95,
-    "model": "iPhone 14 Plus Case",
-    "color": "Gold",
-    "mag_safe": "Elite Dark (MagSafe)",
-    "category": "chekhly",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/MC-06EL_iPhone_14_Plus_EL_GO_1_767x.jpg"
-    ]
-  },
-  {
-    "title": "Maneki Neko",
-    "slug": "maneki-neko-iphone-14-plus-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/SR-03EL_iPhone_14_Plus_EL_GO_1_767x.jpg",
-    "price": 84.95,
-    "model": "iPhone 14 Plus Case",
-    "color": "Gold",
-    "mag_safe": "Elite Dark (MagSafe)",
-    "category": "chekhly",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/SR-03EL_iPhone_14_Plus_EL_GO_1_767x.jpg"
-    ]
-  },
-  {
-    "title": "Player",
-    "slug": "player-iphone-14-plus-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/BP-03EL-A00001CA_01f2c2f6-dcbc-4fb9-bfd3-e76c18b0d8f6_767x.jpg",
-    "price": 84.95,
-    "model": "iPhone 14 Plus Case",
-    "color": "Gold",
-    "mag_safe": "Elite Dark (MagSafe)",
-    "category": "chekhly",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/BP-03EL-A00001CA_01f2c2f6-dcbc-4fb9-bfd3-e76c18b0d8f6_767x.jpg"
-    ]
-  },
-  {
-    "title": "Black Hole",
-    "slug": "black-hole-iphone-14-plus-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/GR-05EL_iPhone_14_Plus_EL_GO_1_767x.jpg",
-    "price": 84.95,
-    "model": "iPhone 14 Plus Case",
-    "color": "Gold",
-    "mag_safe": "Elite Dark (MagSafe)",
-    "category": "chekhly",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/GR-05EL_iPhone_14_Plus_EL_GO_1_767x.jpg"
-    ]
-  },
-  {
-    "title": "North Star",
-    "slug": "north-star-iphone-14-plus-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/NE-01EL-A00001CA_dfd90332-eb4d-4dda-8320-f5cb5625cbe9_767x.jpg",
-    "price": 84.95,
-    "model": "iPhone 14 Plus Case",
-    "color": "Gold",
-    "mag_safe": "Elite Dark (MagSafe)",
-    "category": "chekhly",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/NE-01EL-A00001CA_dfd90332-eb4d-4dda-8320-f5cb5625cbe9_767x.jpg"
-    ]
-  },
-  {
-    "title": "Femme Fatale",
-    "slug": "femme-fatale-iphone-14-plus-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/RB-02EL-A00001CA_563e1ff6-d54f-409d-9ceb-0449c044ec4e_767x.jpg",
-    "price": 84.95,
-    "model": "iPhone 14 Plus Case",
-    "color": "Gold",
-    "mag_safe": "Elite Dark (MagSafe)",
-    "category": "chekhly",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/RB-02EL-A00001CA_563e1ff6-d54f-409d-9ceb-0449c044ec4e_767x.jpg"
-    ]
-  },
-  {
-    "title": "Gone Country",
-    "slug": "gone-country-iphone-14-plus-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/CB-13EL-A00001CA_bbd29079-c733-4f21-a517-46b2a51a8aac_767x.jpg",
-    "price": 84.95,
-    "model": "iPhone 14 Plus Case",
-    "color": "Gold",
-    "mag_safe": "Elite Dark (MagSafe)",
-    "category": "chekhly",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/CB-13EL-A00001CA_bbd29079-c733-4f21-a517-46b2a51a8aac_767x.jpg"
-    ]
-  },
-  {
-    "title": "Old Money",
-    "slug": "old-money-iphone-14-plus-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/SC-02EL-A00001CA_f3b25433-538b-4572-9e0a-f944fe25b526_767x.jpg",
-    "price": 84.95,
-    "model": "iPhone 14 Plus Case",
-    "color": "Gold",
-    "mag_safe": "Elite Dark (MagSafe)",
-    "category": "chekhly",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/SC-02EL-A00001CA_f3b25433-538b-4572-9e0a-f944fe25b526_767x.jpg"
-    ]
-  },
-  {
-    "title": "Oath",
-    "slug": "oathkeeper-iphone-14-plus-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/RM-12EL_iPhone_14_Plus_EL_GO_1_767x.jpg",
-    "price": 84.95,
-    "model": "iPhone 14 Plus Case",
-    "color": "Gold",
-    "mag_safe": "Elite Dark (MagSafe)",
-    "category": "chekhly",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/RM-12EL_iPhone_14_Plus_EL_GO_1_767x.jpg"
-    ]
-  },
-  {
-    "title": "Pillow Talk",
-    "slug": "pillow-talk-iphone-14-plus-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/DN-09EL_iPhone_14_Plus_EL_GO_1_767x.jpg",
-    "price": 84.95,
-    "model": "iPhone 14 Plus Case",
-    "color": "Gold",
-    "mag_safe": "Elite Dark (MagSafe)",
-    "category": "chekhly",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/DN-09EL_iPhone_14_Plus_EL_GO_1_767x.jpg"
-    ]
-  },
-  {
-    "title": "Get It",
-    "slug": "get-it-iphone-14-plus-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/TL-01EL_iPhone_14_Plus_EL_GO_1_767x.jpg",
-    "price": 89.95,
-    "model": "iPhone 14 Plus Case",
-    "color": "Gold",
-    "mag_safe": "Elite Dark (MagSafe)",
-    "category": "chekhly",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/TL-01EL_iPhone_14_Plus_EL_GO_1_767x.jpg"
-    ]
-  },
-  {
-    "title": "Capulet",
-    "slug": "capulet-iphone-14-plus-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/RM-05EL_iPhone_14_Plus_EL_GO_1_767x.jpg",
-    "price": 84.95,
-    "model": "iPhone 14 Plus Case",
-    "color": "Gold",
-    "mag_safe": "Elite Dark (MagSafe)",
-    "category": "chekhly",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/RM-05EL_iPhone_14_Plus_EL_GO_1_767x.jpg"
-    ]
-  },
-  {
-    "title": "Freshly Picked",
-    "slug": "freshly-picked-iphone-14-plus-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/MC-11EL_iPhone_14_Plus_EL_GO_1_767x.jpg",
-    "price": 84.95,
-    "model": "iPhone 14 Plus Case",
-    "color": "Gold",
-    "mag_safe": "Elite Dark (MagSafe)",
-    "category": "chekhly",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/MC-11EL_iPhone_14_Plus_EL_GO_1_767x.jpg"
-    ]
-  },
-  {
-    "title": "Reaper's Touch",
-    "slug": "snakeskin-iphone-14-plus-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/SV-02EL-A00001CA_767x.jpg",
-    "price": 84.95,
-    "model": "Snakeskin iPhone 14 Plus Case",
-    "color": "Gold",
-    "mag_safe": "Elite Dark (MagSafe)",
-    "category": "chekhly",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/SV-02EL-A00001CA_767x.jpg"
-    ]
-  },
-  {
-    "title": "New Crush",
-    "slug": "new-crush-iphone-14-plus-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/DO-02EL_iPhone_14_Plus_EL_GO_1_767x.jpg",
-    "price": 84.95,
-    "model": "iPhone 14 Plus Case",
-    "color": "Gold",
-    "mag_safe": "Elite Dark (MagSafe)",
-    "category": "chekhly",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/DO-02EL_iPhone_14_Plus_EL_GO_1_767x.jpg"
-    ]
-  },
-  {
-    "title": "The Cottage",
-    "slug": "the-cottage-iphone-14-plus-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/MC-07EL_iPhone_14_Plus_EL_GO_1_767x.jpg",
-    "price": 84.95,
-    "model": "iPhone 14 Plus Case",
-    "color": "Gold",
-    "mag_safe": "Elite Dark (MagSafe)",
-    "category": "chekhly",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/MC-07EL_iPhone_14_Plus_EL_GO_1_767x.jpg"
-    ]
-  },
-  {
-    "title": "Almond Latte",
-    "slug": "cute-iphone-14-plus-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/FA-01EL-A00001CA_767x.jpg",
-    "price": 84.95,
-    "model": "Cute iPhone 14 Plus Case",
-    "color": "Gold",
-    "mag_safe": "Elite Dark (MagSafe)",
-    "category": "chekhly",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/FA-01EL-A00001CA_767x.jpg"
-    ]
-  },
-  {
-    "title": "May We Always",
-    "slug": "may-we-always-iphone-14-plus-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/TL-05EL_iPhone_14_Plus_EL_GO_1_767x.jpg",
-    "price": 89.95,
-    "model": "iPhone 14 Plus Case",
-    "color": "Gold",
-    "mag_safe": "Elite Dark (MagSafe)",
-    "category": "chekhly",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/TL-05EL_iPhone_14_Plus_EL_GO_1_767x.jpg"
-    ]
-  },
-  {
-    "title": "Honeycomb",
-    "slug": "honeycomb-iphone-14-plus-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/MC-05EL_iPhone_14_Plus_EL_GO_1_767x.jpg",
-    "price": 84.95,
-    "model": "iPhone 14 Plus Case",
-    "color": "Gold",
-    "mag_safe": "Elite Dark (MagSafe)",
-    "category": "chekhly",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/MC-05EL_iPhone_14_Plus_EL_GO_1_767x.jpg"
-    ]
-  },
-  {
-    "title": "Imperial",
-    "slug": "imperial-iphone-14-plus-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/UN-02EL-A00001CA_767x.jpg",
-    "price": 84.95,
-    "model": "iPhone 14 Plus Case",
-    "color": "Gold",
-    "mag_safe": "Elite Dark (MagSafe)",
-    "category": "chekhly",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/UN-02EL-A00001CA_767x.jpg"
-    ]
-  },
-  {
-    "title": "Focus On",
-    "slug": "focus-on-iphone-14-plus-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/TL-02EL_iPhone_14_Plus_EL_GO_1_767x.jpg",
-    "price": 89.95,
-    "model": "iPhone 14 Plus Case",
-    "color": "Gold",
-    "mag_safe": "Elite Dark (MagSafe)",
-    "category": "chekhly",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/TL-02EL_iPhone_14_Plus_EL_GO_1_767x.jpg"
-    ]
-  },
-  {
-    "title": "Mermaid Skin",
-    "slug": "mermaid-iphone-14-plus-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/ME-06EL-A00001CA_de21037d-cd30-497a-b8bd-7facb61002bc_767x.jpg",
-    "price": 84.95,
-    "model": "iPhone 14 Plus Case",
-    "color": "Gold",
-    "mag_safe": "Elite Dark (MagSafe)",
-    "category": "chekhly",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/ME-06EL-A00001CA_de21037d-cd30-497a-b8bd-7facb61002bc_767x.jpg"
-    ]
-  },
-  {
-    "title": "Prairie",
-    "slug": "prairie-iphone-14-plus-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/CB-20EL-A00001CA_0df902c5-b92a-493d-b10d-f496349863ba_767x.jpg",
-    "price": 84.95,
-    "model": "iPhone 14 Plus Case",
-    "color": "Gold",
-    "mag_safe": "Elite Dark (MagSafe)",
-    "category": "chekhly",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/CB-20EL-A00001CA_0df902c5-b92a-493d-b10d-f496349863ba_767x.jpg"
-    ]
-  },
-  {
-    "title": "Emerald Pool",
-    "slug": "elegant-iphone-14-plus-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/FA-04EL-A00001CA_bd8e8bc2-b122-473c-8cf6-903f780c76e9_767x.jpg",
-    "price": 84.95,
-    "model": "Elegant iPhone 14 Plus Case",
-    "color": "Gold",
-    "mag_safe": "Elite Dark (MagSafe)",
-    "category": "chekhly",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/FA-04EL-A00001CA_bd8e8bc2-b122-473c-8cf6-903f780c76e9_767x.jpg"
-    ]
-  },
-  {
-    "title": "Magic Night",
-    "slug": "beautiful-iphone-14-plus-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/HO-01EL-A00001CA_5b5362d1-360a-41d6-bf80-9bd3b90aef3f_767x.jpg",
-    "price": 84.95,
-    "model": "Beautiful iPhone 14 Plus Case",
-    "color": "Gold",
-    "mag_safe": "Elite Dark (MagSafe)",
-    "category": "chekhly",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/HO-01EL-A00001CA_5b5362d1-360a-41d6-bf80-9bd3b90aef3f_767x.jpg"
-    ]
-  },
-  {
-    "title": "Cherrybomb",
-    "slug": "cherrybomb-iphone-14-plus-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/RB-05EL-A00001CA_fdae9266-b5e8-492a-9b20-301d051e1c62_767x.jpg",
-    "price": 84.95,
-    "model": "iPhone 14 Plus Case",
-    "color": "Gold",
-    "mag_safe": "Elite Dark (MagSafe)",
-    "category": "chekhly",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/RB-05EL-A00001CA_fdae9266-b5e8-492a-9b20-301d051e1c62_767x.jpg"
-    ]
-  },
-  {
-    "title": "Goddess Energy",
-    "slug": "goddess-energy-iphone-14-plus-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/SO-09EL-A00001CA_819896f2-a78c-4f68-bcba-785e1426ade6_767x.jpg",
-    "price": 84.95,
-    "model": "iPhone 14 Plus Case",
-    "color": "Gold",
-    "mag_safe": "Elite Dark (MagSafe)",
-    "category": "chekhly",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/SO-09EL-A00001CA_819896f2-a78c-4f68-bcba-785e1426ade6_767x.jpg"
-    ]
-  },
-  {
-    "title": "Reset Button",
-    "slug": "reset-button-iphone-14-plus-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/DN-01EL_iPhone_14_Plus_EL_GO_1_767x.jpg",
-    "price": 84.95,
-    "model": "iPhone 14 Plus Case",
-    "color": "Gold",
-    "mag_safe": "Elite Dark (MagSafe)",
-    "category": "chekhly",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/DN-01EL_iPhone_14_Plus_EL_GO_1_767x.jpg"
-    ]
-  },
-  {
-    "title": "Midnight Kiss",
-    "slug": "star-iphone-14-plus-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/HO-08EL-A00001CA_9ce47309-450f-4da7-a87d-4b434f9bc598_767x.jpg",
-    "price": 84.95,
-    "model": "Star iPhone 14 Plus Case",
-    "color": "Gold",
-    "mag_safe": "Elite Dark (MagSafe)",
-    "category": "chekhly",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/HO-08EL-A00001CA_9ce47309-450f-4da7-a87d-4b434f9bc598_767x.jpg"
-    ]
-  },
-  {
-    "title": "Prophecy",
-    "slug": "prophecy-iphone-14-plus-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/HW-05EL-A00001CA_51742b3f-c7f0-48d7-b432-6664ed8348c5_767x.jpg",
-    "price": 84.95,
-    "model": "iPhone 14 Plus Case",
-    "color": "Gold",
-    "mag_safe": "Elite Dark (MagSafe)",
-    "category": "chekhly",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/HW-05EL-A00001CA_51742b3f-c7f0-48d7-b432-6664ed8348c5_767x.jpg"
-    ]
-  },
-  {
-    "title": "Zero Gravity",
-    "slug": "zero-gravity-iphone-14-plus-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/GR-02EL_iPhone_14_Plus_EL_GO_1_767x.jpg",
-    "price": 84.95,
-    "model": "iPhone 14 Plus Case",
-    "color": "Gold",
-    "mag_safe": "Elite Dark (MagSafe)",
-    "category": "chekhly",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/GR-02EL_iPhone_14_Plus_EL_GO_1_767x.jpg"
-    ]
-  },
-  {
-    "title": "Beach Games",
-    "slug": "beach-games-iphone-14-plus-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/RS-24EL-A00001CA_81a8ce6a-4189-48c9-9f3f-3de60501ccc6_767x.jpg",
-    "price": 84.95,
-    "model": "iPhone 14 Plus Case",
-    "color": "Gold",
-    "mag_safe": "Elite Dark (MagSafe)",
-    "category": "chekhly",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/RS-24EL-A00001CA_81a8ce6a-4189-48c9-9f3f-3de60501ccc6_767x.jpg"
-    ]
-  },
-  {
-    "title": "Tender Kiss",
-    "slug": "tender-kiss-iphone-14-plus-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/VM-10EL-A00001CA_1ea1e85b-42f3-4948-aa84-5cdd7f1991ff_767x.jpg",
-    "price": 84.95,
-    "model": "iPhone 14 Plus Case",
-    "color": "Gold",
-    "mag_safe": "Elite Dark (MagSafe)",
-    "category": "chekhly",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/VM-10EL-A00001CA_1ea1e85b-42f3-4948-aa84-5cdd7f1991ff_767x.jpg"
-    ]
-  },
-  {
-    "title": "Triple Seven",
-    "slug": "triple-seven-iphone-14-plus-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/LC_02EL_iPhone_14_Plus_EL_GO_1_767x.jpg",
-    "price": 84.95,
-    "model": "iPhone 14 Plus Case",
-    "color": "Gold",
-    "mag_safe": "Elite Dark (MagSafe)",
-    "category": "chekhly",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/LC_02EL_iPhone_14_Plus_EL_GO_1_767x.jpg"
-    ]
-  },
-  {
-    "title": "Big Energy",
-    "slug": "big-energy-iphone-14-plus-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/LC_05EL_iPhone_14_Plus_EL_GO_1_767x.jpg",
-    "price": 84.95,
-    "model": "iPhone 14 Plus Case",
-    "color": "Gold",
-    "mag_safe": "Elite Dark (MagSafe)",
-    "category": "chekhly",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/LC_05EL_iPhone_14_Plus_EL_GO_1_767x.jpg"
-    ]
-  },
-  {
-    "title": "Stay Lucky",
-    "slug": "stay-lucky-iphone-14-plus-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/LC_06EL_iPhone_14_Plus_EL_GO_1_767x.jpg",
-    "price": 84.95,
-    "model": "iPhone 14 Plus Case",
-    "color": "Gold",
-    "mag_safe": "Elite Dark (MagSafe)",
-    "category": "chekhly",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/LC_06EL_iPhone_14_Plus_EL_GO_1_767x.jpg"
-    ]
-  },
-  {
-    "title": "Crossed Path",
-    "slug": "crossed-path-iphone-14-plus-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/LC_08EL_iPhone_14_Plus_EL_GO_1_767x.jpg",
-    "price": 84.95,
-    "model": "iPhone 14 Plus Case",
-    "color": "Gold",
-    "mag_safe": "Elite Dark (MagSafe)",
-    "category": "chekhly",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/LC_08EL_iPhone_14_Plus_EL_GO_1_767x.jpg"
-    ]
-  },
-  {
-    "title": "Starchaser",
-    "slug": "starchaser-iphone-14-plus-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/LC_09EL_iPhone_14_Plus_EL_GO_1_767x.jpg",
-    "price": 84.95,
-    "model": "iPhone 14 Plus Case",
-    "color": "Gold",
-    "mag_safe": "Elite Dark (MagSafe)",
-    "category": "chekhly",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/LC_09EL_iPhone_14_Plus_EL_GO_1_767x.jpg"
-    ]
-  },
-  {
-    "title": "Hocus Pocus",
-    "slug": "hocus-pocus-iphone-14-plus-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/LC_11EL_iPhone_14_Plus_EL_GO_1_767x.jpg",
-    "price": 84.95,
-    "model": "iPhone 14 Plus Case",
-    "color": "Gold",
-    "mag_safe": "Elite Dark (MagSafe)",
-    "category": "chekhly",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/LC_11EL_iPhone_14_Plus_EL_GO_1_767x.jpg"
-    ]
-  },
-  {
-    "title": "Fragile Beauty",
-    "slug": "fragile-beauty-iphone-14-plus-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/SO-05EL-A00001CA_12f57872-2746-4797-96f6-9bb88b6cea43_767x.jpg",
-    "price": 84.95,
-    "model": "iPhone 14 Plus Case",
-    "color": "Gold",
-    "mag_safe": "Elite Dark (MagSafe)",
-    "category": "chekhly",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/SO-05EL-A00001CA_12f57872-2746-4797-96f6-9bb88b6cea43_767x.jpg"
-    ]
-  },
-  {
-    "title": "Strawberry Jam",
-    "slug": "strawberry-jam-iphone-14-plus-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/CP-01EL-A00001CA_d5b934e2-25a1-41ce-a546-c2ea7e9399cc_767x.jpg",
-    "price": 84.95,
-    "model": "iPhone 14 Plus Case",
-    "color": "Gold",
-    "mag_safe": "Elite Dark (MagSafe)",
-    "category": "chekhly",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/CP-01EL-A00001CA_d5b934e2-25a1-41ce-a546-c2ea7e9399cc_767x.jpg"
-    ]
-  },
-  {
-    "title": "Lady Luck",
-    "slug": "lady-luck-airpods-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/LC_04A_AirPods_1_767x.jpg",
-    "price": 24.95,
-    "model": "AirPods Case",
-    "color": "",
-    "mag_safe": "",
-    "category": "airpods",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/LC_04A_AirPods_1_767x.jpg"
-    ]
-  },
-  {
-    "title": "Found It",
-    "slug": "found-it-airpods-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/LC_03A_AirPods_1_767x.jpg",
-    "price": 24.95,
-    "model": "AirPods Case",
-    "color": "",
-    "mag_safe": "",
-    "category": "airpods",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/LC_03A_AirPods_1_767x.jpg"
-    ]
-  },
-  {
-    "title": "Pick It",
-    "slug": "pick-it-airpods-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/LC_01A_AirPods_1_767x.jpg",
-    "price": 24.95,
-    "model": "AirPods Case",
-    "color": "",
-    "mag_safe": "",
-    "category": "airpods",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/LC_01A_AirPods_1_767x.jpg"
-    ]
-  },
-  {
-    "title": "Manifesting",
-    "slug": "manifesting-airpods-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/LC_10A_AirPods_1_767x.jpg",
-    "price": 24.95,
-    "model": "AirPods Case",
-    "color": "",
-    "mag_safe": "",
-    "category": "airpods",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/LC_10A_AirPods_1_767x.jpg"
-    ]
-  },
-  {
-    "title": "Sorry Busy",
-    "slug": "sorry-busy-airpods-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/OS-08A-AP1A_93db811b-ee1b-45a2-aefc-8192aa373717_767x.jpg",
-    "price": 24.95,
-    "model": "AirPods Case",
-    "color": "",
-    "mag_safe": "",
-    "category": "airpods",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/OS-08A-AP1A_93db811b-ee1b-45a2-aefc-8192aa373717_767x.jpg"
-    ]
-  },
-  {
-    "title": "Sakura",
-    "slug": "sakura-airpods-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/SR_01A_AirPods_1_767x.jpg",
-    "price": 24.95,
-    "model": "AirPods Case",
-    "color": "",
-    "mag_safe": "",
-    "category": "airpods",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/SR_01A_AirPods_1_767x.jpg"
-    ]
-  },
-  {
-    "title": "Sobremesa",
-    "slug": "sobremesa-airpods-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/CM-01A-AP1A_6e73b55c-b4b6-4dbd-94e1-eacbbfdaf64f_767x.jpg",
-    "price": 24.95,
-    "model": "AirPods Case",
-    "color": "",
-    "mag_safe": "",
-    "category": "airpods",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/CM-01A-AP1A_6e73b55c-b4b6-4dbd-94e1-eacbbfdaf64f_767x.jpg"
-    ]
-  },
-  {
-    "title": "Café Haru",
-    "slug": "cafe-haru-airpods-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/SR_02A_AirPods_1_767x.jpg",
-    "price": 24.95,
-    "model": "AirPods Case",
-    "color": "",
-    "mag_safe": "",
-    "category": "airpods",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/SR_02A_AirPods_1_767x.jpg"
-    ]
-  },
-  {
-    "title": "Golden Coral",
-    "slug": "pink-airpods-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/ME-05A-AP1A_767x.jpg",
-    "price": 24.95,
-    "model": "Pink AirPods Case",
-    "color": "",
-    "mag_safe": "",
-    "category": "airpods",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/ME-05A-AP1A_767x.jpg"
-    ]
-  },
-  {
-    "title": "Magnetic",
-    "slug": "magnetic-airpods-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/VM-07A-AP1A_ff7fc142-3c70-48cd-b675-885fa3ad11fc_767x.jpg",
-    "price": 24.95,
-    "model": "AirPods Case",
-    "color": "",
-    "mag_safe": "",
-    "category": "airpods",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/VM-07A-AP1A_ff7fc142-3c70-48cd-b675-885fa3ad11fc_767x.jpg"
-    ]
-  },
-  {
-    "title": "Cougar",
-    "slug": "cougar-airpods-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/PA-01A-AP1A_079dcc07-f39e-41d6-97ac-8fa953f8a8c8_767x.jpg",
-    "price": 24.95,
-    "model": "AirPods Case",
-    "color": "",
-    "mag_safe": "",
-    "category": "airpods",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/PA-01A-AP1A_079dcc07-f39e-41d6-97ac-8fa953f8a8c8_767x.jpg"
-    ]
-  },
-  {
-    "title": "Favorite Bikini",
-    "slug": "favorite-bikini-airpods-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/RS-15A-AP1A_03db204c-1cc5-4086-a79f-0c5cb99f62b5_767x.jpg",
-    "price": 24.95,
-    "model": "AirPods Case",
-    "color": "",
-    "mag_safe": "",
-    "category": "airpods",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/RS-15A-AP1A_03db204c-1cc5-4086-a79f-0c5cb99f62b5_767x.jpg"
-    ]
-  },
-  {
-    "title": "Celestial",
-    "slug": "celestial-airpods-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/UN-07A-AP1A_767x.jpg",
-    "price": 24.95,
-    "model": "AirPods Case",
-    "color": "",
-    "mag_safe": "",
-    "category": "airpods",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/UN-07A-AP1A_767x.jpg"
-    ]
-  },
-  {
-    "title": "Barely Yours",
-    "slug": "barely-yours-airpods-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/DE-03A-AP1A_767x.jpg",
-    "price": 24.95,
-    "model": "AirPods Case",
-    "color": "",
-    "mag_safe": "",
-    "category": "airpods",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/DE-03A-AP1A_767x.jpg"
-    ]
-  },
-  {
-    "title": "Blueberry Muffin",
-    "slug": "blueberry-muffin-airpods-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/MC_06A_AirPods_1_767x.jpg",
-    "price": 24.95,
-    "model": "AirPods Case",
-    "color": "",
-    "mag_safe": "",
-    "category": "airpods",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/MC_06A_AirPods_1_767x.jpg"
-    ]
-  },
-  {
-    "title": "Maneki Neko",
-    "slug": "maneki-neko-airpods-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/SR_03A_AirPods_1_767x.jpg",
-    "price": 24.95,
-    "model": "AirPods Case",
-    "color": "",
-    "mag_safe": "",
-    "category": "airpods",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/SR_03A_AirPods_1_767x.jpg"
-    ]
-  },
-  {
-    "title": "Player",
-    "slug": "player-airpods-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/BP-03A-AP1A_767x.jpg",
-    "price": 24.95,
-    "model": "AirPods Case",
-    "color": "",
-    "mag_safe": "",
-    "category": "airpods",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/BP-03A-AP1A_767x.jpg"
-    ]
-  },
-  {
-    "title": "Black Hole",
-    "slug": "black-hole-airpods-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/GR_05A_AirPods_1_767x.jpg",
-    "price": 24.95,
-    "model": "AirPods Case",
-    "color": "",
-    "mag_safe": "",
-    "category": "airpods",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/GR_05A_AirPods_1_767x.jpg"
-    ]
-  },
-  {
-    "title": "North Star",
-    "slug": "north-star-airpods-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/NE-01A-AP1A_767x.jpg",
-    "price": 24.95,
-    "model": "AirPods Case",
-    "color": "",
-    "mag_safe": "",
-    "category": "airpods",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/NE-01A-AP1A_767x.jpg"
-    ]
-  },
-  {
-    "title": "Femme Fatale",
-    "slug": "femme-fatale-airpods-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/RB-02A-AP1A_fd9a0121-6b55-4fa3-b676-81b8ad37fb38_767x.jpg",
-    "price": 24.95,
-    "model": "AirPods Case",
-    "color": "",
-    "mag_safe": "",
-    "category": "airpods",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/RB-02A-AP1A_fd9a0121-6b55-4fa3-b676-81b8ad37fb38_767x.jpg"
-    ]
-  },
-  {
-    "title": "Gone Country",
-    "slug": "gone-country-airpods-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/CB-13A-AP1A_767x.jpg",
-    "price": 24.95,
-    "model": "AirPods Case",
-    "color": "",
-    "mag_safe": "",
-    "category": "airpods",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/CB-13A-AP1A_767x.jpg"
-    ]
-  },
-  {
-    "title": "Old Money",
-    "slug": "old-money-airpods-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/SC-02A-AP1A_e9e9f49b-4060-4ee1-b68b-8254707f8050_767x.jpg",
-    "price": 24.95,
-    "model": "AirPods Case",
-    "color": "",
-    "mag_safe": "",
-    "category": "airpods",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/SC-02A-AP1A_e9e9f49b-4060-4ee1-b68b-8254707f8050_767x.jpg"
-    ]
-  },
-  {
-    "title": "Oath",
-    "slug": "oathkeeper-airpods-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/RM_12A_AirPods_1_767x.jpg",
-    "price": 24.95,
-    "model": "AirPods Case",
-    "color": "",
-    "mag_safe": "",
-    "category": "airpods",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/RM_12A_AirPods_1_767x.jpg"
-    ]
-  },
-  {
-    "title": "Pillow Talk",
-    "slug": "pillow-talk-airpods-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/DN_09A_AirPods_1_767x.jpg",
-    "price": 24.95,
-    "model": "AirPods Case",
-    "color": "",
-    "mag_safe": "",
-    "category": "airpods",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/DN_09A_AirPods_1_767x.jpg"
-    ]
-  },
-  {
-    "title": "Capulet",
-    "slug": "capulet-airpods-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/RM_05A_AirPods_1_767x.jpg",
-    "price": 24.95,
-    "model": "AirPods Case",
-    "color": "",
-    "mag_safe": "",
-    "category": "airpods",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/RM_05A_AirPods_1_767x.jpg"
-    ]
-  },
-  {
-    "title": "Freshly Picked",
-    "slug": "freshly-picked-airpods-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/MC_11A_AirPods_1_767x.jpg",
-    "price": 24.95,
-    "model": "AirPods Case",
-    "color": "",
-    "mag_safe": "",
-    "category": "airpods",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/MC_11A_AirPods_1_767x.jpg"
-    ]
-  },
-  {
-    "title": "Reaper's Touch",
-    "slug": "snakeskin-airpods-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/SV-02A-AP1A_767x.jpg",
-    "price": 24.95,
-    "model": "Snakeskin AirPods Case",
-    "color": "",
-    "mag_safe": "",
-    "category": "airpods",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/SV-02A-AP1A_767x.jpg"
-    ]
-  },
-  {
-    "title": "New Crush",
-    "slug": "new-crush-airpods-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/DO-02A-AP1A_767x.jpg",
-    "price": 24.95,
-    "model": "AirPods Case",
-    "color": "",
-    "mag_safe": "",
-    "category": "airpods",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/DO-02A-AP1A_767x.jpg"
-    ]
-  },
-  {
-    "title": "The Cottage",
-    "slug": "the-cottage-airpods-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/MC_07A_AirPods_1_767x.jpg",
-    "price": 24.95,
-    "model": "AirPods Case",
-    "color": "",
-    "mag_safe": "",
-    "category": "airpods",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/MC_07A_AirPods_1_767x.jpg"
-    ]
-  },
-  {
-    "title": "Almond Latte",
-    "slug": "cute-airpods-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/FA-01A-AP1A_767x.jpg",
-    "price": 24.95,
-    "model": "Cute AirPods Case",
-    "color": "",
-    "mag_safe": "",
-    "category": "airpods",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/FA-01A-AP1A_767x.jpg"
-    ]
-  },
-  {
-    "title": "Honeycomb",
-    "slug": "honeycomb-airpods-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/MC_05A_AirPods_1_767x.jpg",
-    "price": 24.95,
-    "model": "AirPods Case",
-    "color": "",
-    "mag_safe": "",
-    "category": "airpods",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/MC_05A_AirPods_1_767x.jpg"
-    ]
-  },
-  {
-    "title": "Imperial",
-    "slug": "imperial-airpods-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/UN-02A-AP1A_767x.jpg",
-    "price": 24.95,
-    "model": "AirPods Case",
-    "color": "",
-    "mag_safe": "",
-    "category": "airpods",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/UN-02A-AP1A_767x.jpg"
-    ]
-  },
-  {
-    "title": "Mermaid Skin",
-    "slug": "mermaid-airpods-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/ME-06A-AP1A_767x.jpg",
-    "price": 24.95,
-    "model": "AirPods Case",
-    "color": "",
-    "mag_safe": "",
-    "category": "airpods",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/ME-06A-AP1A_767x.jpg"
-    ]
-  },
-  {
-    "title": "Prairie",
-    "slug": "prairie-airpods-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/CB-20A-AP1A_7d160163-8ca9-40cb-886e-e27b4bf07826_767x.jpg",
-    "price": 24.95,
-    "model": "AirPods Case",
-    "color": "",
-    "mag_safe": "",
-    "category": "airpods",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/CB-20A-AP1A_7d160163-8ca9-40cb-886e-e27b4bf07826_767x.jpg"
-    ]
-  },
-  {
-    "title": "Emerald Pool",
-    "slug": "elegant-airpods-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/FA-04A-AP1A_767x.jpg",
-    "price": 24.95,
-    "model": "Elegant AirPods Case",
-    "color": "",
-    "mag_safe": "",
-    "category": "airpods",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/FA-04A-AP1A_767x.jpg"
-    ]
-  },
-  {
-    "title": "Magic Night",
-    "slug": "beautiful-airpods-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/HO-01A-AP1A_767x.jpg",
-    "price": 24.95,
-    "model": "Beautiful AirPods Case",
-    "color": "",
-    "mag_safe": "",
-    "category": "airpods",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/HO-01A-AP1A_767x.jpg"
-    ]
-  },
-  {
-    "title": "Cherrybomb",
-    "slug": "cherrybomb-airpods-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/RB-05A-AP1A_dfa32824-2717-4674-a857-287626caaa67_767x.jpg",
-    "price": 24.95,
-    "model": "AirPods Case",
-    "color": "",
-    "mag_safe": "",
-    "category": "airpods",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/RB-05A-AP1A_dfa32824-2717-4674-a857-287626caaa67_767x.jpg"
-    ]
-  },
-  {
-    "title": "Goddess Energy",
-    "slug": "goddess-energy-airpods-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/SO-09A-AP1A_767x.jpg",
-    "price": 24.95,
-    "model": "AirPods Case",
-    "color": "",
-    "mag_safe": "",
-    "category": "airpods",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/SO-09A-AP1A_767x.jpg"
-    ]
-  },
-  {
-    "title": "Reset Button",
-    "slug": "reset-button-airpods-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/DN_01A_AirPods_1_767x.jpg",
-    "price": 24.95,
-    "model": "AirPods Case",
-    "color": "",
-    "mag_safe": "",
-    "category": "airpods",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/DN_01A_AirPods_1_767x.jpg"
-    ]
-  },
-  {
-    "title": "Midnight Kiss",
-    "slug": "star-airpods-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/HO-08A-AP1A_767x.jpg",
-    "price": 24.95,
-    "model": "Star AirPods Case",
-    "color": "",
-    "mag_safe": "",
-    "category": "airpods",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/HO-08A-AP1A_767x.jpg"
-    ]
-  },
-  {
-    "title": "Prophecy",
-    "slug": "prophecy-airpods-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/HW-05A-AP1A_529bb870-30d8-4572-95b8-0ebfac1713dd_767x.jpg",
-    "price": 24.95,
-    "model": "AirPods Case",
-    "color": "",
-    "mag_safe": "",
-    "category": "airpods",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/HW-05A-AP1A_529bb870-30d8-4572-95b8-0ebfac1713dd_767x.jpg"
-    ]
-  },
-  {
-    "title": "Zero Gravity",
-    "slug": "zero-gravity-airpods-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/GR_02A_AirPods_1_767x.jpg",
-    "price": 24.95,
-    "model": "AirPods Case",
-    "color": "",
-    "mag_safe": "",
-    "category": "airpods",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/GR_02A_AirPods_1_767x.jpg"
-    ]
-  },
-  {
-    "title": "Beach Games",
-    "slug": "beach-games-airpods-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/RS-24A-AP1A_767x.jpg",
-    "price": 24.95,
-    "model": "AirPods Case",
-    "color": "",
-    "mag_safe": "",
-    "category": "airpods",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/RS-24A-AP1A_767x.jpg"
-    ]
-  },
-  {
-    "title": "Tender Kiss",
-    "slug": "tender-kiss-airpods-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/VM-10A-AP1A_9ff1c0a0-d8b5-4c2c-893a-22065a993ec8_767x.jpg",
-    "price": 24.95,
-    "model": "AirPods Case",
-    "color": "",
-    "mag_safe": "",
-    "category": "airpods",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/VM-10A-AP1A_9ff1c0a0-d8b5-4c2c-893a-22065a993ec8_767x.jpg"
-    ]
-  },
-  {
-    "title": "Triple Seven",
-    "slug": "triple-seven-airpods-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/LC_02A_AirPods_1_767x.jpg",
-    "price": 24.95,
-    "model": "AirPods Case",
-    "color": "",
-    "mag_safe": "",
-    "category": "airpods",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/LC_02A_AirPods_1_767x.jpg"
-    ]
-  },
-  {
-    "title": "Big Energy",
-    "slug": "big-energy-airpods-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/LC_05A_AirPods_1_767x.jpg",
-    "price": 24.95,
-    "model": "AirPods Case",
-    "color": "",
-    "mag_safe": "",
-    "category": "airpods",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/LC_05A_AirPods_1_767x.jpg"
-    ]
-  },
-  {
-    "title": "Stay Lucky",
-    "slug": "stay-lucky-airpods-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/LC_06A_AirPods_1_767x.jpg",
-    "price": 24.95,
-    "model": "AirPods Case",
-    "color": "",
-    "mag_safe": "",
-    "category": "airpods",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/LC_06A_AirPods_1_767x.jpg"
-    ]
-  },
-  {
-    "title": "Crossed Path",
-    "slug": "crossed-path-airpods-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/LC_08A_AirPods_1_767x.jpg",
-    "price": 24.95,
-    "model": "AirPods Case",
-    "color": "",
-    "mag_safe": "",
-    "category": "airpods",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/LC_08A_AirPods_1_767x.jpg"
-    ]
-  },
-  {
-    "title": "Starchaser",
-    "slug": "starchaser-airpods-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/LC_09A_AirPods_1_767x.jpg",
-    "price": 24.95,
-    "model": "AirPods Case",
-    "color": "",
-    "mag_safe": "",
-    "category": "airpods",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/LC_09A_AirPods_1_767x.jpg"
-    ]
-  },
-  {
-    "title": "Hocus Pocus",
-    "slug": "hocus-pocus-airpods-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/LC_11A_AirPods_1_767x.jpg",
-    "price": 24.95,
-    "model": "AirPods Case",
-    "color": "",
-    "mag_safe": "",
-    "category": "airpods",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/LC_11A_AirPods_1_767x.jpg"
-    ]
-  },
-  {
-    "title": "Fragile Beauty",
-    "slug": "fragile-beauty-airpods-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/SO-05A-AP1A_767x.jpg",
-    "price": 24.95,
-    "model": "AirPods Case",
-    "color": "",
-    "mag_safe": "",
-    "category": "airpods",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/SO-05A-AP1A_767x.jpg"
-    ]
-  },
-  {
-    "title": "Strawberry Jam",
-    "slug": "strawberry-jam-airpods-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/CP-01A-AP1A_767x.jpg",
-    "price": 24.95,
-    "model": "AirPods Case",
-    "color": "",
-    "mag_safe": "",
-    "category": "airpods",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/CP-01A-AP1A_767x.jpg"
-    ]
-  },
-  {
-    "title": "Sleeping In",
-    "slug": "sleeping-in-airpods-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/DN_07A_AirPods_1_767x.jpg",
-    "price": 24.95,
-    "model": "AirPods Case",
-    "color": "",
-    "mag_safe": "",
-    "category": "airpods",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/DN_07A_AirPods_1_767x.jpg"
-    ]
-  },
-  {
-    "title": "Velvet Night",
-    "slug": "velvet-night-airpods-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/RB-01A-AP1A_282dcf52-23eb-4a09-8027-606cfc593ce3_767x.jpg",
-    "price": 24.95,
-    "model": "AirPods Case",
-    "color": "",
-    "mag_safe": "",
-    "category": "airpods",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/RB-01A-AP1A_282dcf52-23eb-4a09-8027-606cfc593ce3_767x.jpg"
-    ]
-  },
-  {
-    "title": "Bloomy Garden",
-    "slug": "vintage-airpods-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/FA-27A-AP1A_bb544e4f-ff09-44ef-b60b-9563f66baf70_767x.jpg",
-    "price": 24.95,
-    "model": "Vintage AirPods Case",
-    "color": "",
-    "mag_safe": "",
-    "category": "airpods",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/FA-27A-AP1A_bb544e4f-ff09-44ef-b60b-9563f66baf70_767x.jpg"
-    ]
-  },
-  {
-    "title": "Gourmet",
-    "slug": "gourmet-airpods-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/CM-04A-AP1A_767x.jpg",
-    "price": 24.95,
-    "model": "AirPods Case",
-    "color": "",
-    "mag_safe": "",
-    "category": "airpods",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/CM-04A-AP1A_767x.jpg"
-    ]
-  },
-  {
-    "title": "Sonnet",
-    "slug": "sonnet-airpods-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/RM_03A_AirPods_1_767x.jpg",
-    "price": 24.95,
-    "model": "AirPods Case",
-    "color": "",
-    "mag_safe": "",
-    "category": "airpods",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/RM_03A_AirPods_1_767x.jpg"
-    ]
-  },
-  {
-    "title": "Grandma's Jam",
-    "slug": "grandmas-jam-airpods-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/MC_10A_AirPods_1_767x.jpg",
-    "price": 24.95,
-    "model": "AirPods Case",
-    "color": "",
-    "mag_safe": "",
-    "category": "airpods",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/MC_10A_AirPods_1_767x.jpg"
-    ]
-  },
-  {
-    "title": "BFF",
-    "slug": "bff-airpods-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/VM-01A-AP1A_b7dfe805-7497-4c89-9649-239795dc4fd9_767x.jpg",
-    "price": 24.95,
-    "model": "AirPods Case",
-    "color": "",
-    "mag_safe": "",
-    "category": "airpods",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/VM-01A-AP1A_b7dfe805-7497-4c89-9649-239795dc4fd9_767x.jpg"
-    ]
-  },
-  {
-    "title": "Lady Luck",
-    "slug": "lady-luck-macbook-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/LC_04CPM_Beige_1_767x.jpg",
-    "price": 69.95,
-    "model": "MacBook Air 13.6 [A2681/A3113/A3240/A3449]",
-    "color": "Beige",
-    "mag_safe": "Clear",
-    "category": "hard-macbook-cases",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/LC_04CPM_Beige_1_767x.jpg"
-    ]
-  },
-  {
-    "title": "Found It",
-    "slug": "found-it-macbook-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/LC_03CPM_Beige_1_767x.jpg",
-    "price": 69.95,
-    "model": "MacBook Air 13.6 [A2681/A3113/A3240/A3449]",
-    "color": "Beige",
-    "mag_safe": "Clear",
-    "category": "hard-macbook-cases",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/LC_03CPM_Beige_1_767x.jpg"
-    ]
-  },
-  {
-    "title": "Manifesting",
-    "slug": "manifesting-macbook-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/LC_10CPM_Beige_1_767x.jpg",
-    "price": 69.95,
-    "model": "MacBook Air 13.6 [A2681/A3113/A3240/A3449]",
-    "color": "Beige",
-    "mag_safe": "Clear",
-    "category": "hard-macbook-cases",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/LC_10CPM_Beige_1_767x.jpg"
-    ]
-  },
-  {
-    "title": "Sorry Busy",
-    "slug": "sorry-busy-macbook-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/OS_08CPM-AAA_767x.jpg",
-    "price": 69.95,
-    "model": "MacBook Air 13.6 [A2681/A3113/A3240/A3449]",
-    "color": "Beige",
-    "mag_safe": "Clear",
-    "category": "hard-macbook-cases",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/OS_08CPM-AAA_767x.jpg"
-    ]
-  },
-  {
-    "title": "Sakura",
-    "slug": "sakura-macbook-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/SR_01CPM_Beige_1_767x.jpg",
-    "price": 69.95,
-    "model": "MacBook Air 13.6 [A2681/A3113/A3240/A3449]",
-    "color": "Beige",
-    "mag_safe": "Clear",
-    "category": "hard-macbook-cases",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/SR_01CPM_Beige_1_767x.jpg"
-    ]
-  },
-  {
-    "title": "Café Haru",
-    "slug": "cafe-haru-macbook-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/SR_02CPM_Beige_1_767x.jpg",
-    "price": 69.95,
-    "model": "MacBook Air 13.6 [A2681/A3113/A3240/A3449]",
-    "color": "Beige",
-    "mag_safe": "Clear",
-    "category": "hard-macbook-cases",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/SR_02CPM_Beige_1_767x.jpg"
-    ]
-  },
-  {
-    "title": "Cougar",
-    "slug": "cougar-macbook-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/PA_01CPM-AAA_80a70fa7-eee7-4060-b933-19543a1e71d9_767x.jpg",
-    "price": 69.95,
-    "model": "MacBook Air 13.6 [A2681/A3113/A3240/A3449]",
-    "color": "Beige",
-    "mag_safe": "Clear",
-    "category": "hard-macbook-cases",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/PA_01CPM-AAA_80a70fa7-eee7-4060-b933-19543a1e71d9_767x.jpg"
-    ]
-  },
-  {
-    "title": "Blueberry Muffin",
-    "slug": "blueberry-muffin-macbook-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/MC_06CPM_Beige_1_767x.jpg",
-    "price": 69.95,
-    "model": "MacBook Air 13.6 [A2681/A3113/A3240/A3449]",
-    "color": "Beige",
-    "mag_safe": "Clear",
-    "category": "hard-macbook-cases",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/MC_06CPM_Beige_1_767x.jpg"
-    ]
-  },
-  {
-    "title": "Maneki Neko",
-    "slug": "maneki-neko-macbook-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/SR_03CPM_Beige_1_767x.jpg",
-    "price": 69.95,
-    "model": "MacBook Air 13.6 [A2681/A3113/A3240/A3449]",
-    "color": "Beige",
-    "mag_safe": "Clear",
-    "category": "hard-macbook-cases",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/SR_03CPM_Beige_1_767x.jpg"
-    ]
-  },
-  {
-    "title": "North Star",
-    "slug": "north-star-macbook-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/NE_01CPM-AAA_767x.jpg",
-    "price": 69.95,
-    "model": "MacBook Air 13.6 [A2681/A3113/A3240/A3449]",
-    "color": "Beige",
-    "mag_safe": "Clear",
-    "category": "hard-macbook-cases",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/NE_01CPM-AAA_767x.jpg"
-    ]
-  },
-  {
-    "title": "Gone Country",
-    "slug": "gone-country-macbook-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/CB_13CPM-AAA_767x.jpg",
-    "price": 69.95,
-    "model": "MacBook Air 13.6 [A2681/A3113/A3240/A3449]",
-    "color": "Beige",
-    "mag_safe": "Clear",
-    "category": "hard-macbook-cases",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/CB_13CPM-AAA_767x.jpg"
-    ]
-  },
-  {
-    "title": "Pillow Talk",
-    "slug": "pillow-talk-macbook-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/DN_09CPM-AAA_767x.jpg",
-    "price": 69.95,
-    "model": "MacBook Air 13.6 [A2681/A3113/A3240/A3449]",
-    "color": "Beige",
-    "mag_safe": "Clear",
-    "category": "hard-macbook-cases",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/DN_09CPM-AAA_767x.jpg"
-    ]
-  },
-  {
-    "title": "Capulet",
-    "slug": "capulet-macbook-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/RM_05CPM-AAA_767x.jpg",
-    "price": 69.95,
-    "model": "MacBook Air 13.6 [A2681/A3113/A3240/A3449]",
-    "color": "Beige",
-    "mag_safe": "Clear",
-    "category": "hard-macbook-cases",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/RM_05CPM-AAA_767x.jpg"
-    ]
-  },
-  {
-    "title": "Freshly Picked",
-    "slug": "freshly-picked-macbook-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/MC_11CPM_Beige_1_767x.jpg",
-    "price": 69.95,
-    "model": "MacBook Air 13.6 [A2681/A3113/A3240/A3449]",
-    "color": "Beige",
-    "mag_safe": "Clear",
-    "category": "hard-macbook-cases",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/MC_11CPM_Beige_1_767x.jpg"
-    ]
-  },
-  {
-    "title": "Almond Latte",
-    "slug": "almond-latte-macbook-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/FA_01CPM-AAA_767x.jpg",
-    "price": 69.95,
-    "model": "MacBook Air 13.6 [A2681/A3113/A3240/A3449]",
-    "color": "Beige",
-    "mag_safe": "Clear",
-    "category": "hard-macbook-cases",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/FA_01CPM-AAA_767x.jpg"
-    ]
-  },
-  {
-    "title": "Honeycomb",
-    "slug": "honeycomb-macbook-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/MC_05CPM_Beige_1_767x.jpg",
-    "price": 69.95,
-    "model": "MacBook Air 13.6 [A2681/A3113/A3240/A3449]",
-    "color": "Beige",
-    "mag_safe": "Clear",
-    "category": "hard-macbook-cases",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/MC_05CPM_Beige_1_767x.jpg"
-    ]
-  },
-  {
-    "title": "Imperial",
-    "slug": "imperial-macbook-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/UN_02CPM-AAA_767x.jpg",
-    "price": 69.95,
-    "model": "MacBook Air 13.6 [A2681/A3113/A3240/A3449]",
-    "color": "Beige",
-    "mag_safe": "Clear",
-    "category": "hard-macbook-cases",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/UN_02CPM-AAA_767x.jpg"
-    ]
-  },
-  {
-    "title": "Prairie",
-    "slug": "prairie-macbook-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/CB_20CPM-AAA_767x.jpg",
-    "price": 69.95,
-    "model": "MacBook Air 13.6 [A2681/A3113/A3240/A3449]",
-    "color": "Beige",
-    "mag_safe": "Clear",
-    "category": "hard-macbook-cases",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/CB_20CPM-AAA_767x.jpg"
-    ]
-  },
-  {
-    "title": "Cherrybomb",
-    "slug": "cherrybomb-macbook-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/RB_05CPM-AAA_767x.jpg",
-    "price": 69.95,
-    "model": "MacBook Air 13.6 [A2681/A3113/A3240/A3449]",
-    "color": "Beige",
-    "mag_safe": "Clear",
-    "category": "hard-macbook-cases",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/RB_05CPM-AAA_767x.jpg"
-    ]
-  },
-  {
-    "title": "Goddess Energy",
-    "slug": "goddess-energy-macbook-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/SO_09CPM-AAA_767x.jpg",
-    "price": 69.95,
-    "model": "MacBook Air 13.6 [A2681/A3113/A3240/A3449]",
-    "color": "Beige",
-    "mag_safe": "Clear",
-    "category": "hard-macbook-cases",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/SO_09CPM-AAA_767x.jpg"
-    ]
-  },
-  {
-    "title": "Reset Button",
-    "slug": "reset-button-macbook-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/DN_01CPM-AAA_767x.jpg",
-    "price": 69.95,
-    "model": "MacBook Air 13.6 [A2681/A3113/A3240/A3449]",
-    "color": "Beige",
-    "mag_safe": "Clear",
-    "category": "hard-macbook-cases",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/DN_01CPM-AAA_767x.jpg"
-    ]
-  },
-  {
-    "title": "Prophecy",
-    "slug": "prophecy-macbook-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/HW_05CPM-AAA_767x.jpg",
-    "price": 69.95,
-    "model": "MacBook Air 13.6 [A2681/A3113/A3240/A3449]",
-    "color": "Beige",
-    "mag_safe": "Clear",
-    "category": "hard-macbook-cases",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/HW_05CPM-AAA_767x.jpg"
-    ]
-  },
-  {
-    "title": "Tender Kiss",
-    "slug": "tender-kiss-macbook-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/VM_10CPM-AAA_767x.jpg",
-    "price": 69.95,
-    "model": "MacBook Air 13.6 [A2681/A3113/A3240/A3449]",
-    "color": "Beige",
-    "mag_safe": "Clear",
-    "category": "hard-macbook-cases",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/VM_10CPM-AAA_767x.jpg"
-    ]
-  },
-  {
-    "title": "Crossed Path",
-    "slug": "crossed-path-macbook-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/LC_08CPM_Beige_1_767x.jpg",
-    "price": 69.95,
-    "model": "MacBook Air 13.6 [A2681/A3113/A3240/A3449]",
-    "color": "Beige",
-    "mag_safe": "Clear",
-    "category": "hard-macbook-cases",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/LC_08CPM_Beige_1_767x.jpg"
-    ]
-  },
-  {
-    "title": "Starchaser",
-    "slug": "starchaser-macbook-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/LC_09CPM_Beige_1_767x.jpg",
-    "price": 69.95,
-    "model": "MacBook Air 13.6 [A2681/A3113/A3240/A3449]",
-    "color": "Beige",
-    "mag_safe": "Clear",
-    "category": "hard-macbook-cases",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/LC_09CPM_Beige_1_767x.jpg"
-    ]
-  },
-  {
-    "title": "Velvet Night",
-    "slug": "velvet-night-macbook-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/RB_01CPM-AAA_767x.jpg",
-    "price": 69.95,
-    "model": "MacBook Air 13.6 [A2681/A3113/A3240/A3449]",
-    "color": "Beige",
-    "mag_safe": "Clear",
-    "category": "hard-macbook-cases",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/RB_01CPM-AAA_767x.jpg"
-    ]
-  },
-  {
-    "title": "Gourmet",
-    "slug": "gourmet-macbook-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/CM_04CPM-AAA_767x.jpg",
-    "price": 69.95,
-    "model": "MacBook Air 13.6 [A2681/A3113/A3240/A3449]",
-    "color": "Beige",
-    "mag_safe": "Clear",
-    "category": "hard-macbook-cases",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/CM_04CPM-AAA_767x.jpg"
-    ]
-  },
-  {
-    "title": "Sonnet",
-    "slug": "sonnet-macbook-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/RM_03CPM-AAA_767x.jpg",
-    "price": 69.95,
-    "model": "MacBook Air 13.6 [A2681/A3113/A3240/A3449]",
-    "color": "Beige",
-    "mag_safe": "Clear",
-    "category": "hard-macbook-cases",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/RM_03CPM-AAA_767x.jpg"
-    ]
-  },
-  {
-    "title": "Grandma's Jam",
-    "slug": "grandmas-jam-macbook-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/MC_10CPM_Beige_1_767x.jpg",
-    "price": 69.95,
-    "model": "MacBook Air 13.6 [A2681/A3113/A3240/A3449]",
-    "color": "Beige",
-    "mag_safe": "Clear",
-    "category": "hard-macbook-cases",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/MC_10CPM_Beige_1_767x.jpg"
-    ]
-  },
-  {
-    "title": "BFF",
-    "slug": "bff-macbook-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/VM_01CPM-AAA_767x.jpg",
-    "price": 69.95,
-    "model": "MacBook Air 13.6 [A2681/A3113/A3240/A3449]",
-    "color": "Beige",
-    "mag_safe": "Clear",
-    "category": "hard-macbook-cases",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/VM_01CPM-AAA_767x.jpg"
-    ]
-  },
-  {
-    "title": "Sunny Side Up",
-    "slug": "sunny-side-up-macbook-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/DN_02CPM-AAA_767x.jpg",
-    "price": 69.95,
-    "model": "MacBook Air 13.6 [A2681/A3113/A3240/A3449]",
-    "color": "Beige",
-    "mag_safe": "Clear",
-    "category": "hard-macbook-cases",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/DN_02CPM-AAA_767x.jpg"
-    ]
-  },
-  {
-    "title": "Sweet Treat",
-    "slug": "sweet-treat-macbook-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/DO_01CPM-AAA_da5e5b44-2bf6-4df3-9c5e-210dccc007d6_767x.jpg",
-    "price": 69.95,
-    "model": "MacBook Air 13.6 [A2681/A3113/A3240/A3449]",
-    "color": "Beige",
-    "mag_safe": "Clear",
-    "category": "hard-macbook-cases",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/DO_01CPM-AAA_da5e5b44-2bf6-4df3-9c5e-210dccc007d6_767x.jpg"
-    ]
-  },
-  {
-    "title": "Check & Mate",
-    "slug": "check-and-mate-macbook-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/SC_03CPM-AAA_767x.jpg",
-    "price": 69.95,
-    "model": "MacBook Air 13.6 [A2681/A3113/A3240/A3449]",
-    "color": "Beige",
-    "mag_safe": "Clear",
-    "category": "hard-macbook-cases",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/SC_03CPM-AAA_767x.jpg"
-    ]
-  },
-  {
-    "title": "Sweetheart",
-    "slug": "sweetheart-macbook-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/CB_01CPM-AAA_767x.jpg",
-    "price": 69.95,
-    "model": "MacBook Air 13.6 [A2681/A3113/A3240/A3449]",
-    "color": "Beige",
-    "mag_safe": "Clear",
-    "category": "hard-macbook-cases",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/CB_01CPM-AAA_767x.jpg"
-    ]
-  },
-  {
-    "title": "Milkshake",
-    "slug": "milkshake-macbook-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/MC_08CPM_Beige_1_767x.jpg",
-    "price": 69.95,
-    "model": "MacBook Air 13.6 [A2681/A3113/A3240/A3449]",
-    "color": "Beige",
-    "mag_safe": "Clear",
-    "category": "hard-macbook-cases",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/MC_08CPM_Beige_1_767x.jpg"
-    ]
-  },
-  {
-    "title": "Star Crossed",
-    "slug": "star-crossed-macbook-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/RM_01CPM-AAA_767x.jpg",
-    "price": 69.95,
-    "model": "MacBook Air 13.6 [A2681/A3113/A3240/A3449]",
-    "color": "Beige",
-    "mag_safe": "Clear",
-    "category": "hard-macbook-cases",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/RM_01CPM-AAA_767x.jpg"
-    ]
-  },
-  {
-    "title": "Papaya",
-    "slug": "papaya-macbook-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/RS_04CPM-AAA_767x.jpg",
-    "price": 69.95,
-    "model": "MacBook Air 13.6 [A2681/A3113/A3240/A3449]",
-    "color": "Beige",
-    "mag_safe": "Clear",
-    "category": "hard-macbook-cases",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/RS_04CPM-AAA_767x.jpg"
-    ]
-  },
-  {
-    "title": "Al Fresco",
-    "slug": "al-fresco-macbook-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/CM_06CPM-AAA_767x.jpg",
-    "price": 69.95,
-    "model": "MacBook Air 13.6 [A2681/A3113/A3240/A3449]",
-    "color": "Beige",
-    "mag_safe": "Clear",
-    "category": "hard-macbook-cases",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/CM_06CPM-AAA_767x.jpg"
-    ]
-  },
-  {
-    "title": "Splash",
-    "slug": "splash-macbook-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/RS_13CPM-AAA_767x.jpg",
-    "price": 69.95,
-    "model": "MacBook Air 13.6 [A2681/A3113/A3240/A3449]",
-    "color": "Beige",
-    "mag_safe": "Clear",
-    "category": "hard-macbook-cases",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/RS_13CPM-AAA_767x.jpg"
-    ]
-  },
-  {
-    "title": "Lemon Tart",
-    "slug": "lemon-tart-macbook-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/CP_02CPM-AAA_767x.jpg",
-    "price": 69.95,
-    "model": "MacBook Air 13.6 [A2681/A3113/A3240/A3449]",
-    "color": "Beige",
-    "mag_safe": "Clear",
-    "category": "hard-macbook-cases",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/CP_02CPM-AAA_767x.jpg"
-    ]
-  },
-  {
-    "title": "Always Late",
-    "slug": "always-late-macbook-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/DO_11CPM-AAA_767x.jpg",
-    "price": 69.95,
-    "model": "MacBook Air 13.6 [A2681/A3113/A3240/A3449]",
-    "color": "Beige",
-    "mag_safe": "Clear",
-    "category": "hard-macbook-cases",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/DO_11CPM-AAA_767x.jpg"
-    ]
-  },
-  {
-    "title": "Coquette",
-    "slug": "coquette-macbook-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/VM_04CPM-AAA_767x.jpg",
-    "price": 69.95,
-    "model": "MacBook Air 13.6 [A2681/A3113/A3240/A3449]",
-    "color": "Beige",
-    "mag_safe": "Clear",
-    "category": "hard-macbook-cases",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/VM_04CPM-AAA_767x.jpg"
-    ]
-  },
-  {
-    "title": "Spot On",
-    "slug": "spot-on-macbook-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/DO_12CPM-AAA_767x.jpg",
-    "price": 69.95,
-    "model": "MacBook Air 13.6 [A2681/A3113/A3240/A3449]",
-    "color": "Beige",
-    "mag_safe": "Clear",
-    "category": "hard-macbook-cases",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/DO_12CPM-AAA_767x.jpg"
-    ]
-  },
-  {
-    "title": "Darlin",
-    "slug": "darlin-macbook-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/CB_03CPM-AAA_767x.jpg",
-    "price": 69.95,
-    "model": "MacBook Air 13.6 [A2681/A3113/A3240/A3449]",
-    "color": "Beige",
-    "mag_safe": "Clear",
-    "category": "hard-macbook-cases",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/CB_03CPM-AAA_767x.jpg"
-    ]
-  },
-  {
-    "title": "Eclipse",
-    "slug": "eclipse-macbook-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/OC_03CPM-AAA_767x.jpg",
-    "price": 69.95,
-    "model": "MacBook Air 13.6 [A2681/A3113/A3240/A3449]",
-    "color": "Beige",
-    "mag_safe": "Clear",
-    "category": "hard-macbook-cases",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/OC_03CPM-AAA_767x.jpg"
-    ]
-  },
-  {
-    "title": "Aloha",
-    "slug": "aloha-macbook-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/CO_04CPM-AAA_767x.jpg",
-    "price": 69.95,
-    "model": "MacBook Air 13.6 [A2681/A3113/A3240/A3449]",
-    "color": "Beige",
-    "mag_safe": "Clear",
-    "category": "hard-macbook-cases",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/CO_04CPM-AAA_767x.jpg"
-    ]
-  },
-  {
-    "title": "Seven Seas",
-    "slug": "seven-seas-macbook-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/OC_05CPM-AAA_767x.jpg",
-    "price": 69.95,
-    "model": "MacBook Air 13.6 [A2681/A3113/A3240/A3449]",
-    "color": "Beige",
-    "mag_safe": "Clear",
-    "category": "hard-macbook-cases",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/OC_05CPM-AAA_767x.jpg"
-    ]
-  },
-  {
-    "title": "Playground",
-    "slug": "playground-macbook-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/DO_07CPM-AAA_767x.jpg",
-    "price": 69.95,
-    "model": "MacBook Air 13.6 [A2681/A3113/A3240/A3449]",
-    "color": "Beige",
-    "mag_safe": "Clear",
-    "category": "hard-macbook-cases",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/DO_07CPM-AAA_767x.jpg"
-    ]
-  },
-  {
-    "title": "Asap",
-    "slug": "asap-macbook-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/OS_07CPM-AAA_767x.jpg",
-    "price": 69.95,
-    "model": "MacBook Air 13.6 [A2681/A3113/A3240/A3449]",
-    "color": "Beige",
-    "mag_safe": "Clear",
-    "category": "hard-macbook-cases",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/OS_07CPM-AAA_767x.jpg"
-    ]
-  },
-  {
-    "title": "Good Vibes",
-    "slug": "good-vibes-macbook-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/SG_07CPM-AAA_767x.jpg",
-    "price": 69.95,
-    "model": "MacBook Air 13.6 [A2681/A3113/A3240/A3449]",
-    "color": "Beige",
-    "mag_safe": "Clear",
-    "category": "hard-macbook-cases",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/SG_07CPM-AAA_767x.jpg"
-    ]
-  },
-  {
-    "title": "Spoiled",
-    "slug": "spoiled-macbook-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/DO_08CPM-AAA_767x.jpg",
-    "price": 69.95,
-    "model": "MacBook Air 13.6 [A2681/A3113/A3240/A3449]",
-    "color": "Beige",
-    "mag_safe": "Clear",
-    "category": "hard-macbook-cases",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/DO_08CPM-AAA_767x.jpg"
-    ]
-  },
-  {
-    "title": "Yume",
-    "slug": "yume-macbook-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/SR_04CPM_Beige_1_767x.jpg",
-    "price": 69.95,
-    "model": "MacBook Air 13.6 [A2681/A3113/A3240/A3449]",
-    "color": "Beige",
-    "mag_safe": "Clear",
-    "category": "hard-macbook-cases",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/SR_04CPM_Beige_1_767x.jpg"
-    ]
-  },
-  {
-    "title": "Sunbreak",
-    "slug": "sunbreak-macbook-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/RS_06CPM-AAA_767x.jpg",
-    "price": 69.95,
-    "model": "MacBook Air 13.6 [A2681/A3113/A3240/A3449]",
-    "color": "Beige",
-    "mag_safe": "Clear",
-    "category": "hard-macbook-cases",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/RS_06CPM-AAA_767x.jpg"
-    ]
-  },
-  {
-    "title": "Hotshot",
-    "slug": "hotshot-macbook-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/PA_04CPM-AAA_767x.jpg",
-    "price": 69.95,
-    "model": "MacBook Air 13.6 [A2681/A3113/A3240/A3449]",
-    "color": "Beige",
-    "mag_safe": "Clear",
-    "category": "hard-macbook-cases",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/PA_04CPM-AAA_767x.jpg"
-    ]
-  },
-  {
-    "title": "Moonlight",
-    "slug": "moonlight-macbook-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/SU_11CPM-AAA_767x.jpg",
-    "price": 69.95,
-    "model": "MacBook Air 13.6 [A2681/A3113/A3240/A3449]",
-    "color": "Beige",
-    "mag_safe": "Clear",
-    "category": "hard-macbook-cases",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/SU_11CPM-AAA_767x.jpg"
-    ]
-  },
-  {
-    "title": "Butterfly Effect",
-    "slug": "butterfly-effect-macbook-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/SG_02CPM-AAA_767x.jpg",
-    "price": 69.95,
-    "model": "MacBook Air 13.6 [A2681/A3113/A3240/A3449]",
-    "color": "Beige",
-    "mag_safe": "Clear",
-    "category": "hard-macbook-cases",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/SG_02CPM-AAA_767x.jpg"
-    ]
-  },
-  {
-    "title": "Poison",
-    "slug": "poison-macbook-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/HW_02CPM-AAA_767x.jpg",
-    "price": 69.95,
-    "model": "MacBook Air 13.6 [A2681/A3113/A3240/A3449]",
-    "color": "Beige",
-    "mag_safe": "Clear",
-    "category": "hard-macbook-cases",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/HW_02CPM-AAA_767x.jpg"
-    ]
-  },
-  {
-    "title": "Sweet Moment",
-    "slug": "sweet-moment-macbook-case",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/CP_06CPM-AAA_767x.jpg",
-    "price": 69.95,
-    "model": "MacBook Air 13.6 [A2681/A3113/A3240/A3449]",
-    "color": "Beige",
-    "mag_safe": "Clear",
-    "category": "hard-macbook-cases",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/CP_06CPM-AAA_767x.jpg"
-    ]
-  },
-  {
-    "title": "Lady Luck",
-    "slug": "lady-luck-laptop-sleeve",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/LC_04M_All_1_767x.jpg",
-    "price": 119,
-    "model": "Laptop Sleeve",
-    "color": "",
-    "mag_safe": "13 inches",
-    "category": "macbook",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/LC_04M_All_1_767x.jpg"
-    ]
-  },
-  {
-    "title": "Found It",
-    "slug": "found-it-laptop-sleeve",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/LC_03M_All_1_767x.jpg",
-    "price": 119,
-    "model": "Laptop Sleeve",
-    "color": "",
-    "mag_safe": "13 inches",
-    "category": "macbook",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/LC_03M_All_1_767x.jpg"
-    ]
-  },
-  {
-    "title": "Pick It",
-    "slug": "pick-it-laptop-sleeve",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/LC_01M_All_1_767x.jpg",
-    "price": 119,
-    "model": "Laptop Sleeve",
-    "color": "",
-    "mag_safe": "13 inches",
-    "category": "macbook",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/LC_01M_All_1_767x.jpg"
-    ]
-  },
-  {
-    "title": "Manifesting",
-    "slug": "manifesting-laptop-sleeve",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/LC_10M_All_1_767x.jpg",
-    "price": 119,
-    "model": "Laptop Sleeve",
-    "color": "",
-    "mag_safe": "13 inches",
-    "category": "macbook",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/LC_10M_All_1_767x.jpg"
-    ]
-  },
-  {
-    "title": "Sorry Busy",
-    "slug": "sorry-busy-laptop-sleeve",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/OS_08M-AAA_6bc66262-4f5d-4cfc-bf47-5eac4a5aa7fa_767x.jpg",
-    "price": 119,
-    "model": "Laptop Sleeve",
-    "color": "",
-    "mag_safe": "13 inches",
-    "category": "macbook",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/OS_08M-AAA_6bc66262-4f5d-4cfc-bf47-5eac4a5aa7fa_767x.jpg"
-    ]
-  },
-  {
-    "title": "Sakura",
-    "slug": "sakura-laptop-sleeve",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/SR_01M_All_1_767x.jpg",
-    "price": 119,
-    "model": "Laptop Sleeve",
-    "color": "",
-    "mag_safe": "13 inches",
-    "category": "macbook",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/SR_01M_All_1_767x.jpg"
-    ]
-  },
-  {
-    "title": "Sobremesa",
-    "slug": "sobremesa-laptop-sleeve",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/CM_01M-AAA_94cb9339-8bd5-43a4-bc5e-923f59532e02_767x.jpg",
-    "price": 119,
-    "model": "Laptop Sleeve",
-    "color": "",
-    "mag_safe": "13 inches",
-    "category": "macbook",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/CM_01M-AAA_94cb9339-8bd5-43a4-bc5e-923f59532e02_767x.jpg"
-    ]
-  },
-  {
-    "title": "Café Haru",
-    "slug": "cafe-haru-laptop-sleeve",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/SR_02M_All_1_767x.jpg",
-    "price": 119,
-    "model": "Laptop Sleeve",
-    "color": "",
-    "mag_safe": "13 inches",
-    "category": "macbook",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/SR_02M_All_1_767x.jpg"
-    ]
-  },
-  {
-    "title": "Golden Coral",
-    "slug": "pink-laptop-sleeve",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/ME_05M-AAA_767x.jpg",
-    "price": 119,
-    "model": "Pink Laptop Sleeve",
-    "color": "",
-    "mag_safe": "13 inches",
-    "category": "macbook",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/ME_05M-AAA_767x.jpg"
-    ]
-  },
-  {
-    "title": "Magnetic",
-    "slug": "magnetic-laptop-sleeve",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/VM_07M-AAA_767x.jpg",
-    "price": 119,
-    "model": "Laptop Sleeve",
-    "color": "",
-    "mag_safe": "13 inches",
-    "category": "macbook",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/VM_07M-AAA_767x.jpg"
-    ]
-  },
-  {
-    "title": "Cougar",
-    "slug": "cougar-laptop-sleeve",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/PA_01M-AAA_767x.jpg",
-    "price": 119,
-    "model": "Laptop Sleeve",
-    "color": "",
-    "mag_safe": "13 inches",
-    "category": "macbook",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/PA_01M-AAA_767x.jpg"
-    ]
-  },
-  {
-    "title": "Your Best",
-    "slug": "your-best-laptop-sleeve",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/TL_04M-AAA_767x.jpg",
-    "price": 124,
-    "model": "Laptop Sleeve",
-    "color": "",
-    "mag_safe": "13 inches",
-    "category": "macbook",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/TL_04M-AAA_767x.jpg"
-    ]
-  },
-  {
-    "title": "Favorite Bikini",
-    "slug": "favorite-bikini-laptop-sleeve",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/RS_15M-AAA_ea3b3118-04e6-47b8-bb71-0ad95ff3aef2_767x.jpg",
-    "price": 119,
-    "model": "Laptop Sleeve",
-    "color": "",
-    "mag_safe": "13 inches",
-    "category": "macbook",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/RS_15M-AAA_ea3b3118-04e6-47b8-bb71-0ad95ff3aef2_767x.jpg"
-    ]
-  },
-  {
-    "title": "Nothing Changes",
-    "slug": "nothing-changes-laptop-sleeve",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/TL_03M-AAA_767x.jpg",
-    "price": 124,
-    "model": "Laptop Sleeve",
-    "color": "",
-    "mag_safe": "13 inches",
-    "category": "macbook",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/TL_03M-AAA_767x.jpg"
-    ]
-  },
-  {
-    "title": "Celestial",
-    "slug": "celestial-laptop-sleeve",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/UN_07M-AAA_767x.jpg",
-    "price": 119,
-    "model": "Laptop Sleeve",
-    "color": "",
-    "mag_safe": "13 inches",
-    "category": "macbook",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/UN_07M-AAA_767x.jpg"
-    ]
-  },
-  {
-    "title": "Barely Yours",
-    "slug": "barely-yours-laptop-sleeve",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/DE_03M-AAA_c1765281-86b5-4841-8518-19d46a3cc315_767x.jpg",
-    "price": 119,
-    "model": "Laptop Sleeve",
-    "color": "",
-    "mag_safe": "13 inches",
-    "category": "macbook",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/DE_03M-AAA_c1765281-86b5-4841-8518-19d46a3cc315_767x.jpg"
-    ]
-  },
-  {
-    "title": "Blueberry Muffin",
-    "slug": "blueberry-muffin-laptop-sleeve",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/MC_06M_All_1_767x.jpg",
-    "price": 119,
-    "model": "Laptop Sleeve",
-    "color": "",
-    "mag_safe": "13 inches",
-    "category": "macbook",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/MC_06M_All_1_767x.jpg"
-    ]
-  },
-  {
-    "title": "Maneki Neko",
-    "slug": "maneki-neko-laptop-sleeve",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/SR_03M_All_1_767x.jpg",
-    "price": 119,
-    "model": "Laptop Sleeve",
-    "color": "",
-    "mag_safe": "13 inches",
-    "category": "macbook",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/SR_03M_All_1_767x.jpg"
-    ]
-  },
-  {
-    "title": "Player",
-    "slug": "player-laptop-sleeve",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/BP_03M-AAA_767x.jpg",
-    "price": 119,
-    "model": "Laptop Sleeve",
-    "color": "",
-    "mag_safe": "13 inches",
-    "category": "macbook",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/BP_03M-AAA_767x.jpg"
-    ]
-  },
-  {
-    "title": "Black Hole",
-    "slug": "black-hole-laptop-sleeve",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/GR_05M-AAA_767x.jpg",
-    "price": 119,
-    "model": "Laptop Sleeve",
-    "color": "",
-    "mag_safe": "13 inches",
-    "category": "macbook",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/GR_05M-AAA_767x.jpg"
-    ]
-  },
-  {
-    "title": "North Star",
-    "slug": "north-star-laptop-sleeve",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/NE_01M-AAA_767x.jpg",
-    "price": 119,
-    "model": "Laptop Sleeve",
-    "color": "",
-    "mag_safe": "13 inches",
-    "category": "macbook",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/NE_01M-AAA_767x.jpg"
-    ]
-  },
-  {
-    "title": "Femme Fatale",
-    "slug": "femme-fatale-laptop-sleeve",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/RB_02M-AAA_b07904bc-a834-4e6e-acd7-81d720ca0383_767x.jpg",
-    "price": 119,
-    "model": "Laptop Sleeve",
-    "color": "",
-    "mag_safe": "13 inches",
-    "category": "macbook",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/RB_02M-AAA_b07904bc-a834-4e6e-acd7-81d720ca0383_767x.jpg"
-    ]
-  },
-  {
-    "title": "Gone Country",
-    "slug": "gone-country-laptop-sleeve",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/CB_13M-AAA_767x.jpg",
-    "price": 119,
-    "model": "Laptop Sleeve",
-    "color": "",
-    "mag_safe": "13 inches",
-    "category": "macbook",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/CB_13M-AAA_767x.jpg"
-    ]
-  },
-  {
-    "title": "Old Money",
-    "slug": "old-money-laptop-sleeve",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/SC_02M-AAA_767x.jpg",
-    "price": 119,
-    "model": "Laptop Sleeve",
-    "color": "",
-    "mag_safe": "13 inches",
-    "category": "macbook",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/SC_02M-AAA_767x.jpg"
-    ]
-  },
-  {
-    "title": "Pillow Talk",
-    "slug": "pillow-talk-laptop-sleeve",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/DN_09M-AAA_767x.jpg",
-    "price": 119,
-    "model": "Laptop Sleeve",
-    "color": "",
-    "mag_safe": "13 inches",
-    "category": "macbook",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/DN_09M-AAA_767x.jpg"
-    ]
-  },
-  {
-    "title": "Get It",
-    "slug": "get-it-laptop-sleeve",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/TL_01M-AAA_767x.jpg",
-    "price": 124,
-    "model": "Laptop Sleeve",
-    "color": "",
-    "mag_safe": "13 inches",
-    "category": "macbook",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/TL_01M-AAA_767x.jpg"
-    ]
-  },
-  {
-    "title": "Capulet",
-    "slug": "capulet-laptop-sleeve",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/RM_05M-AAA_767x.jpg",
-    "price": 119,
-    "model": "Laptop Sleeve",
-    "color": "",
-    "mag_safe": "13 inches",
-    "category": "macbook",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/RM_05M-AAA_767x.jpg"
-    ]
-  },
-  {
-    "title": "Freshly Picked",
-    "slug": "freshly-picked-laptop-sleeve",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/MC_11M_All_1_767x.jpg",
-    "price": 119,
-    "model": "Laptop Sleeve",
-    "color": "",
-    "mag_safe": "13 inches",
-    "category": "macbook",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/MC_11M_All_1_767x.jpg"
-    ]
-  },
-  {
-    "title": "Reaper's Touch",
-    "slug": "snakeskin-laptop-sleeve",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/SV_02M-AAA_767x.jpg",
-    "price": 119,
-    "model": "Snakeskin Laptop Sleeve",
-    "color": "",
-    "mag_safe": "13 inches",
-    "category": "macbook",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/SV_02M-AAA_767x.jpg"
-    ]
-  },
-  {
-    "title": "New Crush",
-    "slug": "new-crush-laptop-sleeve",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/DO_02M-AAA_767x.jpg",
-    "price": 119,
-    "model": "Laptop Sleeve",
-    "color": "",
-    "mag_safe": "13 inches",
-    "category": "macbook",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/DO_02M-AAA_767x.jpg"
-    ]
-  },
-  {
-    "title": "The Cottage",
-    "slug": "the-cottage-laptop-sleeve",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/MC_07M_All_1_767x.jpg",
-    "price": 119,
-    "model": "Laptop Sleeve",
-    "color": "",
-    "mag_safe": "13 inches",
-    "category": "macbook",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/MC_07M_All_1_767x.jpg"
-    ]
-  },
-  {
-    "title": "Almond Latte",
-    "slug": "cute-laptop-sleeve",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/FA_01M-AAA_767x.jpg",
-    "price": 119,
-    "model": "Cute Laptop Sleeve",
-    "color": "",
-    "mag_safe": "13 inches",
-    "category": "macbook",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/FA_01M-AAA_767x.jpg"
-    ]
-  },
-  {
-    "title": "May We Always",
-    "slug": "may-we-always-laptop-sleeve",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/TL_05M-AAA_767x.jpg",
-    "price": 124,
-    "model": "Laptop Sleeve",
-    "color": "",
-    "mag_safe": "13 inches",
-    "category": "macbook",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/TL_05M-AAA_767x.jpg"
-    ]
-  },
-  {
-    "title": "Honeycomb",
-    "slug": "honeycomb-laptop-sleeve",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/MC_05M_All_1_767x.jpg",
-    "price": 119,
-    "model": "Laptop Sleeve",
-    "color": "",
-    "mag_safe": "13 inches",
-    "category": "macbook",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/MC_05M_All_1_767x.jpg"
-    ]
-  },
-  {
-    "title": "Imperial",
-    "slug": "imperial-laptop-sleeve",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/UN_02M-AAA_767x.jpg",
-    "price": 119,
-    "model": "Laptop Sleeve",
-    "color": "",
-    "mag_safe": "13 inches",
-    "category": "macbook",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/UN_02M-AAA_767x.jpg"
-    ]
-  },
-  {
-    "title": "Focus On",
-    "slug": "focus-on-laptop-sleeve",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/TL_02M-AAA_767x.jpg",
-    "price": 124,
-    "model": "Laptop Sleeve",
-    "color": "",
-    "mag_safe": "13 inches",
-    "category": "macbook",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/TL_02M-AAA_767x.jpg"
-    ]
-  },
-  {
-    "title": "Mermaid Skin",
-    "slug": "mermaid-laptop-sleeve",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/ME_06M-AAA_767x.jpg",
-    "price": 119,
-    "model": "Laptop Sleeve",
-    "color": "",
-    "mag_safe": "13 inches",
-    "category": "macbook",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/ME_06M-AAA_767x.jpg"
-    ]
-  },
-  {
-    "title": "Prairie",
-    "slug": "prairie-laptop-sleeve",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/CB_20M-AAA_767x.jpg",
-    "price": 119,
-    "model": "Laptop Sleeve",
-    "color": "",
-    "mag_safe": "13 inches",
-    "category": "macbook",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/CB_20M-AAA_767x.jpg"
-    ]
-  },
-  {
-    "title": "Emerald Pool",
-    "slug": "elegant-laptop-sleeve",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/FA_04M-AAA_aadc22a6-6e83-4088-a212-619ec052fec6_767x.jpg",
-    "price": 119,
-    "model": "Elegant Laptop Sleeve",
-    "color": "",
-    "mag_safe": "13 inches",
-    "category": "macbook",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/FA_04M-AAA_aadc22a6-6e83-4088-a212-619ec052fec6_767x.jpg"
-    ]
-  },
-  {
-    "title": "Magic Night",
-    "slug": "beautiful-laptop-sleeve",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/HO_01M-AAA_6a605f3b-8c23-42b5-8662-c61c63f31075_767x.jpg",
-    "price": 119,
-    "model": "Laptop Sleeve",
-    "color": "",
-    "mag_safe": "13 inches",
-    "category": "macbook",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/HO_01M-AAA_6a605f3b-8c23-42b5-8662-c61c63f31075_767x.jpg"
-    ]
-  },
-  {
-    "title": "Cherrybomb",
-    "slug": "cherrybomb-laptop-sleeve",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/RB_05M-AAA_72a516fb-ec7b-495e-92c8-534cf3b4a17d_767x.jpg",
-    "price": 119,
-    "model": "Laptop Sleeve",
-    "color": "",
-    "mag_safe": "13 inches",
-    "category": "macbook",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/RB_05M-AAA_72a516fb-ec7b-495e-92c8-534cf3b4a17d_767x.jpg"
-    ]
-  },
-  {
-    "title": "Goddess Energy",
-    "slug": "goddess-energy-laptop-sleeve",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/SO_09M-AAA_767x.jpg",
-    "price": 119,
-    "model": "Laptop Sleeve",
-    "color": "",
-    "mag_safe": "13 inches",
-    "category": "macbook",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/SO_09M-AAA_767x.jpg"
-    ]
-  },
-  {
-    "title": "Reset Button",
-    "slug": "reset-button-laptop-sleeve",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/DN_01M-AAA_767x.jpg",
-    "price": 119,
-    "model": "Laptop Sleeve",
-    "color": "",
-    "mag_safe": "13 inches",
-    "category": "macbook",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/DN_01M-AAA_767x.jpg"
-    ]
-  },
-  {
-    "title": "Midnight Kiss",
-    "slug": "star-laptop-sleeve",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/HO_08M-AAA_767x.jpg",
-    "price": 119,
-    "model": "Star Laptop Sleeve",
-    "color": "",
-    "mag_safe": "13 inches",
-    "category": "macbook",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/HO_08M-AAA_767x.jpg"
-    ]
-  },
-  {
-    "title": "Prophecy",
-    "slug": "prophecy-laptop-sleeve",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/HW_05M-AAA_a0cd1ffd-c5ca-49fa-8741-124a04f238aa_767x.jpg",
-    "price": 119,
-    "model": "Laptop Sleeve",
-    "color": "",
-    "mag_safe": "13 inches",
-    "category": "macbook",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/HW_05M-AAA_a0cd1ffd-c5ca-49fa-8741-124a04f238aa_767x.jpg"
-    ]
-  },
-  {
-    "title": "Zero Gravity",
-    "slug": "zero-gravity-laptop-sleeve",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/GR_02M-AAA_767x.jpg",
-    "price": 119,
-    "model": "Laptop Sleeve",
-    "color": "",
-    "mag_safe": "13 inches",
-    "category": "macbook",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/GR_02M-AAA_767x.jpg"
-    ]
-  },
-  {
-    "title": "Beach Games",
-    "slug": "beach-games-laptop-sleeve",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/RS_24M-AAA_767x.jpg",
-    "price": 119,
-    "model": "Laptop Sleeve",
-    "color": "",
-    "mag_safe": "13 inches",
-    "category": "macbook",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/RS_24M-AAA_767x.jpg"
-    ]
-  },
-  {
-    "title": "Tender Kiss",
-    "slug": "tender-kiss-laptop-sleeve",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/VM_10M-AAA_767x.jpg",
-    "price": 119,
-    "model": "Laptop Sleeve",
-    "color": "",
-    "mag_safe": "13 inches",
-    "category": "macbook",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/VM_10M-AAA_767x.jpg"
-    ]
-  },
-  {
-    "title": "Triple Seven",
-    "slug": "triple-seven-laptop-sleeve",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/LC_02M_All_1_767x.jpg",
-    "price": 119,
-    "model": "Laptop Sleeve",
-    "color": "",
-    "mag_safe": "13 inches",
-    "category": "macbook",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/LC_02M_All_1_767x.jpg"
-    ]
-  },
-  {
-    "title": "Big Energy",
-    "slug": "big-energy-laptop-sleeve",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/LC_05M_All_1_767x.jpg",
-    "price": 119,
-    "model": "Laptop Sleeve",
-    "color": "",
-    "mag_safe": "13 inches",
-    "category": "macbook",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/LC_05M_All_1_767x.jpg"
-    ]
-  },
-  {
-    "title": "Stay Lucky",
-    "slug": "stay-lucky-laptop-sleeve",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/LC_06M_All_1_767x.jpg",
-    "price": 119,
-    "model": "Laptop Sleeve",
-    "color": "",
-    "mag_safe": "13 inches",
-    "category": "macbook",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/LC_06M_All_1_767x.jpg"
-    ]
-  },
-  {
-    "title": "Crossed Path",
-    "slug": "crossed-path-laptop-sleeve",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/LC_08M_All_1_767x.jpg",
-    "price": 119,
-    "model": "Laptop Sleeve",
-    "color": "",
-    "mag_safe": "13 inches",
-    "category": "macbook",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/LC_08M_All_1_767x.jpg"
-    ]
-  },
-  {
-    "title": "Starchaser",
-    "slug": "starchaser-laptop-sleeve",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/LC_09M_All_1_767x.jpg",
-    "price": 119,
-    "model": "Laptop Sleeve",
-    "color": "",
-    "mag_safe": "13 inches",
-    "category": "macbook",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/LC_09M_All_1_767x.jpg"
-    ]
-  },
-  {
-    "title": "Hocus Pocus",
-    "slug": "hocus-pocus-laptop-sleeve",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/LC_11M_All_1_767x.jpg",
-    "price": 119,
-    "model": "Laptop Sleeve",
-    "color": "",
-    "mag_safe": "13 inches",
-    "category": "macbook",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/LC_11M_All_1_767x.jpg"
-    ]
-  },
-  {
-    "title": "Fragile Beauty",
-    "slug": "fragile-beauty-laptop-sleeve",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/SO_05M-AAA_b3242cd3-fb7d-4ef7-b9ae-601f2bd59e62_767x.jpg",
-    "price": 119,
-    "model": "Laptop Sleeve",
-    "color": "",
-    "mag_safe": "13 inches",
-    "category": "macbook",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/SO_05M-AAA_b3242cd3-fb7d-4ef7-b9ae-601f2bd59e62_767x.jpg"
-    ]
-  },
-  {
-    "title": "Strawberry Jam",
-    "slug": "strawberry-jam-laptop-sleeve",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/CP_01M-AAA_767x.jpg",
-    "price": 119,
-    "model": "Laptop Sleeve",
-    "color": "",
-    "mag_safe": "13 inches",
-    "category": "macbook",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/CP_01M-AAA_767x.jpg"
-    ]
-  },
-  {
-    "title": "Sleeping In",
-    "slug": "sleeping-in-laptop-sleeve",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/DN_07M-AAA_767x.jpg",
-    "price": 119,
-    "model": "Laptop Sleeve",
-    "color": "",
-    "mag_safe": "13 inches",
-    "category": "macbook",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/DN_07M-AAA_767x.jpg"
-    ]
-  },
-  {
-    "title": "Velvet Night",
-    "slug": "velvet-night-laptop-sleeve",
-    "image": "https://cdn.shopify.com/s/files/1/2100/2577/files/RB_01M-AAA_5afca6fe-a9c9-4dc0-a768-9217955ac7a7_767x.jpg",
-    "price": 119,
-    "model": "Laptop Sleeve",
-    "color": "",
-    "mag_safe": "13 inches",
-    "category": "macbook",
-    "gallery": [
-      "https://cdn.shopify.com/s/files/1/2100/2577/files/RB_01M-AAA_5afca6fe-a9c9-4dc0-a768-9217955ac7a7_767x.jpg"
-    ]
+    "title": "ANTA Низкий Топ Спортивная Баскетбольная Обувь Мужская Тонкий Frost\n      Розовый Пастельный Розовый Оранжевый",
+    "slug": "anta-low-top-sports-basketball-shoes-men-s-thin-frost-pink-pastel-pink-orange-8900299753469369",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20260424/7f0196a8cb454cbcad42e7847a62c66c.png?x-oss-process=image/resize,s_540/format,webp",
+    "price": "4 846 ₽",
+    "sold": "Продано 532",
+    "category": "sneakers"
+  },
+  {
+    "title": "Li-Ning Wade 808 5 Ultra v2 Silver, технология Ultra Bounce, легкий,\n      гибкий, стабильный, поддержка, покрытие, антискручивание, амортизация,\n      противоскользящий, износостойкий, дышащий, отскок, сцепление, лоу-топы,\n      баскетбольные кроссовки, мужской",
+    "slug": "li-ning-cushioning-slip-resistant-abrasion-resistant-breathable-rebound-grip-low-top-basketball-shoes-men-s-silver-8900210480241579",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20251225/56ccdf86b1e94579b484c2333878866b.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "price": "8 575 ₽",
+    "sold": "Продано 2,9 тыс.",
+    "category": "sneakers"
+  },
+  {
+    "title": "Anta KAI SPEED 2 Амортизация Противоскользящий Отскок Низкий Топ",
+    "slug": "anta-kai-speed-2-cushioning-slip-resistant-rebound-low-top-mid-rise-x-silhouette-nylon-plate-a-shock-pro-8900221172316703",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20260202/e3158ae9c0e34805891185f6e44be608.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "price": "5 379 ₽",
+    "sold": "Продано 3,4 тыс.",
+    "category": "sneakers"
+  },
+  {
+    "title": "VICTORIA&VERA Классический тренд Универсальный стиль Противоскользящая\n      износостойкая дышащая легкая Лоу-топы Кеды Мужской",
+    "slug": "victoria-vera-slip-resistant-abrasion-resistant-breathable-lightweight-low-top-canvas-shoes-men-s-8900067490794959",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20251213/164342bdd07747448b5f3cf02e60abcb.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "price": "2 756 ₽",
+    "sold": "Продано 63",
+    "category": "sneakers"
+  },
+  {
+    "title": "Converse 1970s Дышащие Высокие Кеды Женские Светло-Розовые",
+    "slug": "converse-1970s-high-top-canvas-shoes-women-s-light-pink-8900107520646832",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20251208/5f31f78222c0401caaf0b45b5ed38043.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "price": "4 918 ₽",
+    "sold": "Продано 312",
+    "category": "sneakers"
+  },
+  {
+    "title": "Adidas A.E. 1 Low Баскетбольные кроссовки Унисекс Розовый Бирюзовый",
+    "slug": "adidas-ae-1-low-3ssb-8900079520610856",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20251208/10d226b7fb674cbe83b0d873fcc857a9.png?x-oss-process=image/resize,s_540/format,webp",
+    "price": "5 486 ₽",
+    "sold": "Продано 16 тыс.",
+    "category": "sneakers"
+  },
+  {
+    "title": "Anta KAI SPEED 2 Low Баскетбольные кроссовки Мужские Черные Розовые",
+    "slug": "anta-kai-speed-2-shock-absorbers-slip-resistant-abrasion-resistant-low-top-basketball-shoes-men-s-black-pink-8900164346829474",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20250812/f69c753ab0924507ba38458dcc7f6fd0.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "price": "5 151 ₽",
+    "sold": "Продано 3 тыс.",
+    "category": "sneakers"
+  },
+  {
+    "title": "Nike Shox TL Series Противоскользящая Низкая Повседневная Обувь Унисекс\n      Чисто Белая Воздух Колонна Амортизация",
+    "slug": "nike-shox-tl-white-metallic-silver-8900001443447842",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20251224/54989b5f05b94cf6bc4833bd3f4a1b6a.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "price": "9 095 ₽",
+    "sold": "Продано 3,6 тыс.",
+    "category": "sneakers"
+  },
+  {
+    "title": "Jordan Courtside 23 ткань синтетическая кожа премиум износостойкий мид-топ\n      ретро баскетбольные кроссовки мужской серый",
+    "slug": "jordan-courtside-23-grey-fog-8900008831962060",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20230528/2e4ee910794f4a4cb3959d2eb99f3f77.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "price": "7 709 ₽",
+    "sold": "Продано 209 тыс.",
+    "category": "sneakers"
+  },
+  {
+    "title": "Anta KAI 2 Амортизация Устойчивость к износу Низкий отскок Низкий топ\n      Карбоновая плита Баскетбольные кроссовки Мужские",
+    "slug": "anta-kai-2-basketball-shoes-men-s-low-top-anta-white-8900145051969010",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20251208/246dd0f2633a4373990480eb1cc4ef7f.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "price": "5 594 ₽",
+    "sold": "Продано 17 тыс.",
+    "category": "sneakers"
+  },
+  {
+    "title": "Anta KAI 2 Амортизация Устойчивость к износу Низкий отскок Низкий топ\n      Карбоновая плита Баскетбольные кроссовки Мужские",
+    "slug": "anta-kai-2-basketball-shoes-men-s-low-top-green-orange-8900150072965504",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20251208/491a868494834e8181465e074f0a1d4c.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "price": "5 845 ₽",
+    "sold": "Продано 9,4 тыс.",
+    "category": "sneakers"
+  },
+  {
+    "title": "Nike Air Force 1 Скейтборд Кроссовки Мужские Серый Розовый",
+    "slug": "nike-air-force-1-skateboard-shoes-unisex-gray-pink-8900194583949406",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20260306/7988b96602a44151950a8738bfc8f5d2.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "price": "10 645 ₽",
+    "sold": "Продано 817",
+    "category": "sneakers"
+  },
+  {
+    "title": "Onitsuka Tiger MEXICO 66 Спортивный ретро стиль противоскользящий низкий\n      топ повседневная обувь унисекс желтый",
+    "slug": "onitsuka-tiger-mexico-66-kill-bill-8900001433635770",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20240718/3ebb9635eadf4f2788c94baec23e0bc8.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "price": "12 065 ₽",
+    "sold": "Продано 148 тыс.",
+    "category": "sneakers"
+  },
+  {
+    "title": "Li-Ning Wade 808 5 Ultra v2 Gold Super Bounse Технология Легкий Гибкий\n      Стабильный Поддержка Покрытие Антискручивание Амортизация\n      Противоскользящий Износостойкий Дышащий Oтскок Сцепление Лоу-топы\n      Баскетбольные кроссовки Мужской Стандартный белый",
+    "slug": "li-ning-cushioning-wear-resistant-low-top-basketball-shoes-men-s-8900210482300616",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20251225/ecb2f316635d40b0a018661291ee3554.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "price": "8 271 ₽",
+    "sold": "Продано 6,6 тыс.",
+    "category": "sneakers"
+  },
+  {
+    "title": "Li-Ning All City 14 с технологией Boom в подошве, стабильные,\n      антискручивание, поддержка, удобные, амортизация, противоскользящие,\n      отскок, износостойкие, низкие баскетбольные кроссовки мужские, желтый",
+    "slug": "lining-all-city-14-cushioning-slip-resistant-abrasion-resistant-rebound-low-top-basketball-shoes-men-s-bee-yellow-8900204861596836",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20251204/c5809d33261d4326b083a66add8d20bb.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "price": "6 212 ₽",
+    "sold": "Продано 1,9 тыс.",
+    "category": "sneakers"
+  },
+  {
+    "title": "Jordan Air Джордан 5 Противоскользящие Износостойкие MID Топ Винтажные\n      Баскетбольные Кроссовки Мужские",
+    "slug": "jordan-5-retro-medium-soft-pink-8900108396736671",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20251208/058b707627314c22a5cc2e898811450b.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "price": "14 548 ₽",
+    "sold": "Продано 3,2 тыс.",
+    "category": "sneakers"
+  },
+  {
+    "title": "Vans Half Cab Pro Skate Холщовые износостойкие и легкие кроссовки для\n      скейтбординга MID Унисекс Черно-белые",
+    "slug": "vans-skate-half-cab-black-8900008236324009",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20230721/d03638c90da24e7d8bdc81e76a108c73.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "price": "6 866 ₽",
+    "sold": "Продано 5,6 тыс.",
+    "category": "sneakers"
+  },
+  {
+    "title": "Adidas Harden Vol.9 MID Баскетбольные кроссовки Унисекс Черный Красный",
+    "slug": "adidas-harden-vol-9-hellcat-8900085630968911",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20251207/f82ae1fd442f407cb77186dd841092e5.png?x-oss-process=image/resize,s_540/format,webp",
+    "price": "7 989 ₽",
+    "sold": "Продано 14 тыс.",
+    "category": "sneakers"
+  },
+  {
+    "title": "Li-Ning DLO1 Энергетический напиток Рассел 1-го поколения Технология\n      LINING BOOM Стабильная поддержка и облегание Женская или мужская обувь\n      низкой высоты Баскетбольные кроссовки Мужской Темно-красный",
+    "slug": "lining-cushioning-slip-resistant-abrasion-resistant-rebound-grip-low-top-basketball-shoes-men-s-intense-berry-red-8900133732519057",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20251208/08e5d690e0d34587bf7c991d95d3f42c.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "price": "5 684 ₽",
+    "sold": "Продано 5,5 тыс.",
+    "category": "sneakers"
+  },
+  {
+    "title": "Nike Air Zoom Spiridon Cage 2 Low Топ Повседневная обувь Мужская\n      Серебряная",
+    "slug": "nike-zoom-spiridon-caged-2-metallic-silver-8900001805474411",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20230608/ff36cbea4894476a813a535ee840dd22.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "price": "5 600 ₽",
+    "sold": "Продано 28 тыс.",
+    "category": "sneakers"
+  },
+  
+  {
+    "title": "RIGORER Shark 1 ЭВА Шлепанцы Унисекс Белый",
+    "slug": "rigorer-mini-shark-slide-white-8900118366768236",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20251212/52ccf9aa6cfa4ba6aafb6d4ce71e93d7.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "price": "1 774 ₽",
+    "sold": "Продано 13 тыс.",
+    "category": "shoes"
+  },
+  {
+    "title": "YASHU x Контрастные цвета Универсальные летние сандалии на платформе\n      Увеличение роста Противоскользящий Устойчивый к запахам Унисекс",
+    "slug": "subbundle-slide-slippers-unisex-8900101448096339",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20251212/f165c87adbc147ac8325939afd57b3ec.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "price": "1 773 ₽",
+    "sold": "Продано 13 тыс.",
+    "category": "shoes"
+  },
+  {
+    "title": "Nike ReactX Rejuven8 Светло-коричневый Сабо резина мужской\n      светло-золотистый коричневый",
+    "slug": "nike-reactx-rejuven8-light-orewood-brown-8900101506365087",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20250122/c8b966f04456433183b13792c1636e70.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "price": "5 420 ₽",
+    "sold": "Продано 32 тыс.",
+    "category": "shoes"
+  },
+  {
+    "title": "TIMBERLAND Классический 6 Inch Кожа Устойчивая к Износу Короткий Аутдор\n      Мужской Коричневый",
+    "slug": "timberland-premium-midtop-casual-comfort-brown-8900020792235862",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20251210/2ef9bd58897d44afbec68eb418b7495c.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "price": "9 047 ₽",
+    "sold": "Продано 42 тыс.",
+    "category": "shoes"
+  },
+  {
+    "title": "YANGNIANHUA Низкий каблук Высокие каблуки Женские",
+    "slug": "yang-nianhua-slim-heel-high-heels-women-s-8900118493490322",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20251208/99ff4779b8f945be82eb01839f8829c1.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "price": "2 247 ₽",
+    "sold": "Продано 7,4 тыс.",
+    "category": "shoes"
+  },
+  {
+    "title": "Детские сандалии Under Armour для подростков",
+    "slug": "under-armour-beach-sandals-black-kids-8900055437135597",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20251224/996ea6b0b30c4242b1c8cd22f2452ef8.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "price": "4 220 ₽",
+    "sold": "Продано 4,7 тыс.",
+    "category": "shoes"
+  },
+  {
+    "title": "Supgift SNEAKER Аксессуары Унисекс",
+    "slug": "supgift-sneaker-accessories-unisex-8900022900638291",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20240803/a448de0609804a32880491f8e1e8572a.png?x-oss-process=image/resize,s_540/format,webp",
+    "price": "1 849 ₽",
+    "sold": "Продано 11 тыс.",
+    "category": "shoes"
+  },
+  {
+    "title": "Adidas Originals Yeezy Foam Runner Черный DAZZLE MX CINDER' Спортивные\n      сандалии унисекс",
+    "slug": "adidas-yeezy-foam-runner-mx-cinder-8900037286201126",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20251208/453abc6ce2b7422388e3d61955a15a71.png?x-oss-process=image/resize,s_540/format,webp",
+    "price": "3 977 ₽",
+    "sold": "Продано 72 тыс.",
+    "category": "shoes"
+  },
+  {
+    "title": "Dickies Водонепроницаемый и Износостойкий 11,5 см Для использования на\n      открытом воздухе Мужской Земляной Желтый",
+    "slug": "dickies-waterproof-and-wear-resistant-11-5cm-outdoor-boots-men-s-earth-yellow-8900024911584515",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20251213/36344ad2ecbb4b31a0b0ab8414d0c92d.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "price": "5 427 ₽",
+    "sold": "Продано 116 тыс.",
+    "category": "shoes"
+  },
+  {
+    "title": "Timberland 3 Eye Топсайдеры Мужские Коричневые",
+    "slug": "timberland-3-eye-lug-handsewn-boat-shoe-brown-8900041692630766",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20230911/4a11c56d1bf544838b600dc47d71ccbd.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "price": "11 773 ₽",
+    "sold": "Продано 924",
+    "category": "shoes"
+  },
+  {
+    "title": "ABC KIDS Противоскользящие Амортизирующие и Легкие Детские Сандалии для\n      Малышей",
+    "slug": "abc-kids-slip-resistant-lightweight-cushioning-children-s-sandals-kids-8900129504348493",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20251225/af3b2dbe70284ab19afd16486c98f7c6.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "price": "2 945 ₽",
+    "sold": "Продано 140",
+    "category": "shoes"
+  },
+  {
+    "title": "MEXICAN Устойчивая к истиранию противоскользящая обувь Birkenstock унисекс",
+    "slug": "mexican-rubber-sole-abrasion-resistant-slip-resistant-closed-toe-slippers-unisex-8900122492718289",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20251213/a72d0f72f0914924855da70b471f4528.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "price": "2 142 ₽",
+    "sold": "Продано 41 тыс.",
+    "category": "shoes"
+  },
+  {
+    "title": "Timberland Классические 6-дюймовые короткие армейские ботинки мужские цвет\n      пшеница",
+    "slug": "timberland-6-inch-double-collar-waterproof-basic-wheat-nubuck-8900054333942692",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20251210/27376c03c49f44eca28d9927bab49b92.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "price": "9 268 ₽",
+    "sold": "Продано 21 тыс.",
+    "category": "shoes"
+  },
+  {
+    "title": "Medd Лоферы Мужские",
+    "slug": "medd-loafers-men-s-red-brown-light-gray-coffee-sand-8900158669410065",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20251213/96ed742f36754a6eb883d785c43ab89d.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "price": "2 362 ₽",
+    "sold": "Продано 100",
+    "category": "shoes"
+  },
+  {
+    "title": "Adidas TERREX Sumra K противоскользящие амортизирующие детские сандалии\n      черного и красного цвета",
+    "slug": "adidas-terrex-sumra-k-slip-resistant-shock-absorbers-children-s-sandals-black-red-kids-8900004075838415",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20251224/51ddef5ac9e64bde82e263ce46168084.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "price": "3 450 ₽",
+    "sold": "Продано 5,8 тыс.",
+    "category": "shoes"
+  },
+  {
+    "title": "Li-Ning Мужские розовые шлепанцы, удобные, мягкие, дышащие, антискользящие",
+    "slug": "li-ning-slide-slippers-men-s-pink-8900285156996053",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20260323/176abbf513d441bba92a38eb462f62d9.jpeg?x-oss-process=image/resize,s_540/format,webp",
+    "price": "2 564 ₽",
+    "sold": "Продано 573",
+    "category": "shoes"
+  },
+  {
+    "title": "Timberland Низкие кеды для мужчин ширина \"Пшеница\" длина до щиколотки для\n      активного отдыха",
+    "slug": "timberland-low-work-wide-fit-chukka-boots-wheat-8900016077069289",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20251210/8bbefbcf41394f78990a059691c9aa73.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "price": "7 474 ₽",
+    "sold": "Продано 30 тыс.",
+    "category": "shoes"
+  },
+  {
+    "title": "Timberland 3 Eye Лицевая коровья кожа Повседневные Скейтбординг Кроссовки\n      Мужские Коричневые",
+    "slug": "timberland-heritage-lace-up-boat-brown-8900004804041545",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20240419/a6001ef2774c473f8b2b7789bd1d4564.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "price": "11 370 ₽",
+    "sold": "Продано 4,3 тыс.",
+    "category": "shoes"
+  },
+  {
+    "title": "Сандалии Crocs Classic Clog Белые Детские",
+    "slug": "crocs-classic-clog-white-kids-8900021139104392",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20251224/e428f12d62cd4d5daac4310c5b0bbe4a.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "price": "4 509 ₽",
+    "sold": "Продано 8 тыс.",
+    "category": "shoes"
+  },
+  {
+    "title": "IHBOZ Домашние тапочки унисекс",
+    "slug": "ihboz-abrasion-resistant-slip-resistant-closed-toe-slippers-unisex-8900075075756099",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20251213/c45b1c685b6e4c2f84995e3e2ef65c11.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "price": "1 793 ₽",
+    "sold": "Продано 5 тыс.",
+    "category": "shoes"
+  },
+  {
+    "title": "SESAME STREET Повседневный универсальный пуловер с круглым вырезом и\n      коротким рукавом унисекс",
+    "slug": "sesame-street-t-shirts-unisex-8900066793090318",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20250517/0e7ac80c1ade4488b5a89af175e84d71.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "price": "1 626 ₽",
+    "sold": "Продано 6,4 тыс.",
+    "category": "apparel"
+  },
+  {
+    "title": "SESAME STREET Повседневная спортивная одежда унисекс",
+    "slug": "sesame-street-casual-sportswear-unisex-8900139968549693",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20250605/591cc9f9855742c1b9165330d2a749e9.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "price": "2 253 ₽",
+    "sold": "Продано 408",
+    "category": "apparel"
+  },
+  {
+    "title": "NEO IS ONE Унисекс Джинсы",
+    "slug": "neo-is-one-jeans-unisex-moderate-wide-leg-pants-8900288879287132",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20260401/d56c2db917b04ed6b9f928aaf43f9620.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "price": "2 491 ₽",
+    "sold": "Продано 104",
+    "category": "apparel"
+  },
+  {
+    "title": "LONSDALE Унисекс Куртки",
+    "slug": "lonsdale-jackets-unisex-8900178357957256",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20250918/e62a31f083504c12b297a5d28665404c.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "price": "2 862 ₽",
+    "sold": "Продано 938",
+    "category": "apparel"
+  },
+  {
+    "title": "PAOPAOXIANJING Повседневные шорты унисекс",
+    "slug": "paopaoxianjing-casual-shorts-unisex-8900117882810978",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20250414/e76728bd928043899aef5169ef233055.png?x-oss-process=image/resize,s_540/format,webp",
+    "price": "1 270 ₽",
+    "sold": "Продано 3,2 тыс.",
+    "category": "apparel"
+  },
+  {
+    "title": "PLAYBOY Повседневные спортивные костюмы унисекс",
+    "slug": "playboy-casual-sportswear-unisex-8900225252498178",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20260304/84638f3fd04349cabc699144f9f94a19.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "price": "2 852 ₽",
+    "sold": "Продано 56",
+    "category": "apparel"
+  },
+  {
+    "title": "BKCXZICE Баскетбольные шорты унисекс",
+    "slug": "bkcxzice-basketball-shorts-unisex-8900137585378642",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20250528/3437173a583a4e5f8da48e69894dc84b.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "price": "1 688 ₽",
+    "sold": "Продано 14 тыс.",
+    "category": "apparel"
+  },
+  {
+    "title": "KAPPA 1916 SS25 Куртки и Пальто Мужской Синий",
+    "slug": "kappa-1916-series-ss25-jackets-coats-men-s-blue-8900117525938344",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20250331/90c494cc4abc45cda5431fe304beae34.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "price": "7 521 ₽",
+    "sold": "Продано 265",
+    "category": "apparel"
+  },
+  {
+    "title": "PAUL COSTELLOE Повседневные шорты унисекс",
+    "slug": "paul-costelloe-casual-shorts-unisex-8900147771676196",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20250627/24db08cd8bff48959bbc1ecbda8caa0e.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "price": "1 583 ₽",
+    "sold": "Продано 106",
+    "category": "apparel"
+  },
+  {
+    "title": "MOZHILING Летний комплект с короткими рукавами \"Магия Цветов\" унисекс 2\n      штуки",
+    "slug": "mozhiling-casual-sportswear-unisex-crew-neck-moderate-8900284531124776",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20260321/e443f37f73f74ec98e364dd5b4cb349a.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "price": "1 919 ₽",
+    "sold": "Продано 417",
+    "category": "apparel"
+  },
+  {
+    "title": "FACAILAOYE Баскетбольная Джерси Мужская",
+    "slug": "facailaoye-basketball-jersey-men-s-8900305455361091",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20260512/02c68def457e43b19b51da201c245f69.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "price": "2 159 ₽",
+    "sold": "Продано 12",
+    "category": "apparel"
+  },
+  {
+    "title": "MEDM JoJo Унисекс Куртки",
+    "slug": "mr-enjoyda-money-jojo-s-bizarre-adventure-collaboration-jackets-unisex-8900189048813146",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20251021/e8c7ca4d5d4b41d8a954d9dad61f92f5.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "price": "6 482 ₽",
+    "sold": "Продано 443",
+    "category": "apparel"
+  },
+  {
+    "title": "PAUL COSTELLOE Повседневные шорты унисекс",
+    "slug": "paul-costelloe-casual-shorts-unisex-8900067040617351",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20250517/e7eeae24e23942798b9881b5ca2383ac.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "price": "1 576 ₽",
+    "sold": "Продано 762",
+    "category": "apparel"
+  },
+  {
+    "title": "Chisportate Повседневная спортивная одежда унисекс",
+    "slug": "chisportate-casual-sportswear-unisex-8900173664754914",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20250905/7d58d6a63d184550bb2d7bd747458f2e.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "price": "2 570 ₽",
+    "sold": "Продано 333",
+    "category": "apparel"
+  },
+  {
+    "title": "PLAYBOY Collaboration Мужские боксер-шорты",
+    "slug": "playboy-men-s-boxer-briefs-8900197498441517",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20251107/dcb6e112df7c44a39d3d8ce444cdacd8.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "price": "2 076 ₽",
+    "sold": "Продано 2,2 тыс.",
+    "category": "apparel"
+  },
+  {
+    "title": "PIERRE CARDIN Куртки и Пальто Мужской",
+    "slug": "pierre-cardin-jackets-coats-men-s-8900133569191853",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20250319/96444f430b63490ebf0673f7423e32b6.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "price": "6 920 ₽",
+    "sold": "Продано 282",
+    "category": "apparel"
+  },
+  {
+    "title": "Adidas Originals Satin Спортивные Шорты Женские Черный Бронзовый Стринги",
+    "slug": "adidas-women-s-satin-shorts-multicolor-bronze-strata-8900123263961018",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20250426/2dc268939bed4338a3b512a35159a527.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "price": "4 855 ₽",
+    "sold": "Продано 1,2 тыс.",
+    "category": "apparel"
+  },
+  {
+    "title": "UNthemed Унисекс Парные Комплекты",
+    "slug": "unthemed-couple-sets-unisex-8900153705261152",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20250716/52f1f12540db4cb0857819ac558b2f29.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "price": "2 107 ₽",
+    "sold": "Продано 151",
+    "category": "apparel"
+  },
+  {
+    "title": "Chisportate Карго-шорты унисекс",
+    "slug": "chisportate-cargo-shorts-unisex-8900147469126915",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20250626/7fe4215ee5f74a20b61c37b3ea10da1c.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "price": "2 028 ₽",
+    "sold": "Продано 511",
+    "category": "apparel"
+  },
+  {
+    "title": "Warrior Унисекс Ветровки",
+    "slug": "warrior-jackets-unisex-8900102631970841",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20251108/fc14ff83dd7f43b787b6d165427d929b.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "price": "3 054 ₽",
+    "sold": "Продано 91 тыс.",
+    "category": "apparel"
+  },
+  {
+    "title": "Adidas Originals Трилистник Вельвет Сумка через плечо Сумка на плечо\n      Стандартная (Стандартная) Унисекс Темно-коричневый",
+    "slug": "adidas-originals-corduroy-crossbody-bag-shoulder-bag-regular-unisex-dark-brown-8900043167483272",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20240427/07efdd0548054e2ba589e8e900e4e119.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "price": "5 967 ₽",
+    "sold": "Продано 3,2 тыс.",
+    "category": "bags"
+  },
+  {
+    "title": "Jordan Полиэстер Рюкзак Маленький Унисекс Экрю",
+    "slug": "jordan-polyester-backpack-small-unisex-ecru-8900198384141127",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20251110/fa18526ab1d549e2b821efd4eab53bc9.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "price": "4 937 ₽",
+    "sold": "Продано 7,5 тыс.",
+    "category": "bags"
+  },
+  {
+    "title": "GATOER Вельветовая сумка через плечо унисекс хаки",
+    "slug": "gatoer-velvet-shoulder-bag-regular-unisex-khaki-8900217609268261",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20260121/93c7d256c87e49d382564e54cfff2d2b.png?x-oss-process=image/resize,s_540/format,webp",
+    "price": "2 641 ₽",
+    "sold": "",
+    "category": "bags"
+  },
+  {
+    "title": "Fillove Дорожные сумки Черный для мужчин",
+    "slug": "fillove-pu-polyurethane-handbag-shoulder-bag-crossbody-bag-luggage-bag-travel-bag-regular-men-s-black-8900055605523368",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20240426/db57036beb8f496785dbaef88fe95976.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "price": "5 348 ₽",
+    "sold": "Продано 124",
+    "category": "bags"
+  },
+  {
+    "title": "Lan Bao Fan Ремни для сумок из сплава женские золото серебряный тон",
+    "slug": "lan-bao-fan-metal-alloy-bag-accessory-women-s-gold-tone-silver-8900079295883121",
+    "image": "https://cdn-img.thepoizon.ru/noah/og/898de947-324e-4c1a-87bf-b6a2fea9bea8.png?x-oss-process=image/resize,s_540/format,webp",
+    "price": "2 060 ₽",
+    "sold": "Продано 13 тыс.",
+    "category": "bags"
+  },
+  {
+    "title": "Jordan Дорожная сумка Ведрообразные сумки Сумки через плечо Унисекс Парный\n      Белый Шахматный узор Жаккардовая ткань",
+    "slug": "jordan-jacquard-fabric-vintage-floral-bucket-bag-shoulder-bag-unisex-white-8900028471730486",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20240228/5cdfaad30b304b92b8feb9427941c5fa.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "price": "12 121 ₽",
+    "sold": "Продано 14 тыс.",
+    "category": "bags"
+  },
+  {
+    "title": "Luxury Care Artisan Workshop Медный Сплав Металл",
+    "slug": "luxury-care-artisan-workshop-bag-straps-8900023208173258",
+    "image": "https://cdn-img.thepoizon.ru/noah/og/28b066b7-36be-4592-b1fb-736490a30043.png?x-oss-process=image/resize,s_540/format,webp",
+    "price": "3 321 ₽",
+    "sold": "Продано 8 тыс.",
+    "category": "bags"
+  },
+  {
+    "title": "Jordan AJ 25 ранняя весна Повседневный дорожная сумка с брызгами чернил\n      95% полиэстер, 5% эластан Унисекс Парный Белый (обычный)",
+    "slug": "jordan-polyester-travel-bags-handbag-unisex-white-8900103416663905",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20241225/480d29e756fe464992c55d4f9b7d7e0f.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "price": "10 093 ₽",
+    "sold": "Продано 1,3 тыс.",
+    "category": "bags"
+  },
+  {
+    "title": "Luxury Care Artisan Workshop Медные ремни для сумок унисекс",
+    "slug": "luxury-care-artisan-workshop-copper-modified-one-shoulder-underarm-crossbody-bag-with-gold-chain-unisex-8900016311760708",
+    "image": "https://cdn-img.thepoizon.ru/noah/og/13eec86a-2314-49e3-8c05-f6489ac6465d.png?x-oss-process=image/resize,s_540/format,webp",
+    "price": "2 970 ₽",
+    "sold": "Продано 11 тыс.",
+    "category": "bags"
+  },
+  {
+    "title": "Jordan 25L Полиэстеровая ткань Сумка через плечо Сумка через плечо\n      Путешественная сумка Унисекс Коричневый",
+    "slug": "jordan-25l-polyester-handbag-shoulder-bag-crossbody-bag-travel-bag-unisex-brown-8900288810413468",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20250729/67db931651aa4546a23fd272297c6911.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "price": "11 057 ₽",
+    "sold": "Продано 1,9 тыс.",
+    "category": "bags"
+  },
+  {
+    "title": "GUYI Войлок Микрофибра Сумка Аксессуар Женский Многоцветный",
+    "slug": "guyi-felt-microfiber-bag-accessory-women-s-multicolor-8900083824419903",
+    "image": "https://cdn-img.thepoizon.ru/noah/og/596a8555-cb95-4ebd-8605-3f6266eb77d6.png?x-oss-process=image/resize,s_540/format,webp",
+    "price": "3 339 ₽",
+    "sold": "Продано 20 тыс.",
+    "category": "bags"
+  },
+  {
+    "title": "Jordan Travel Bags Blue Unisex Джордан Путешественные Сумки Синий Унисекс",
+    "slug": "jordan-polyester-travel-bag-unisex-blue-8900288809403675",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20250729/8e79de342de7496093b3111ecc5010e2.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "price": "12 289 ₽",
+    "sold": "Продано 1,9 тыс.",
+    "category": "bags"
+  },
+  {
+    "title": "Luxury Care Artisan Workshop Вельветовая сумка Аксессуар Женский\n      Многоцветный",
+    "slug": "luxury-care-artisan-workshop-felt-bag-accessory-women-s-multicolor-8900030142735673",
+    "image": "https://cdn-img.thepoizon.ru/noah/og/e26a3307-1b1f-4e31-b089-9bd005d032f4.png?x-oss-process=image/resize,s_540/format,webp",
+    "price": "3 162 ₽",
+    "sold": "Продано 25 тыс.",
+    "category": "bags"
+  },
+  {
+    "title": "Джордан Monogram Дорожные сумки Белый Женские",
+    "slug": "jordan-monogram-polyurethane-handbag-shoulder-bag-crossbody-bag-travel-bag-25l-women-s-white-8900288809633604",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20241204/4c985b0fb9b04df484a5d69d4b6edfd6.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "price": "13 260 ₽",
+    "sold": "Продано 627",
+    "category": "bags"
+  },
+  {
+    "title": "CULTIVATOR ПУ (полиуретан) Сумка через плечо Маленькая Унисекс Розовый\n      Красный Экрю",
+    "slug": "cultivator-pu-crossbody-bag-small-size-unisex-rose-red-ecru-8900125285645089",
+    "image": "https://cdn-img.thepoizon.ru/noah/og/025189ac-5f23-4852-a44d-0a9af1b36ef9.png?x-oss-process=image/resize,s_540/format,webp",
+    "price": "2 950 ₽",
+    "sold": "Продано 5,2 тыс.",
+    "category": "bags"
+  },
+  {
+    "title": "Jordan Полиэстеровая дорожная сумка унисекс белый",
+    "slug": "jordan-jumpman-series-polyurethane-travel-bags-medium-size-unisex-white-8900020713624708",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20230727/7a9072830525419fba886b80386248cb.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "price": "7 189 ₽",
+    "sold": "Продано 13 тыс.",
+    "category": "bags"
+  },
+  {
+    "title": "CULTIVATOR ПУ (полиуретан) Сумка Стандартная Женская Многоцветная",
+    "slug": "cultivator-pu-handbag-regular-women-s-multicolor-8900177989479332",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20250917/72cc878dc85445d599719463e204f473.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "price": "3 150 ₽",
+    "sold": "Продано 975",
+    "category": "bags"
+  },
+  {
+    "title": "MR.ACE HOMME Ткань Сумка Путешественная Сумка Унисекс Матча Коричневый\n      Облачный дым Фиолетовый Серо-оранжевый",
+    "slug": "mr-ace-homme-fabric-handbag-travel-bag-unisex-matcha-brown-cloud-smoke-purple-gray-cyan-orange-8900126989458251",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20260529/bdb0725f0432455c99424e660bb3dd1c.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "price": "5 087 ₽",
+    "sold": "",
+    "category": "bags"
+  },
+  {
+    "title": "MICHAEL KORS Mercer Кожа Аккордеонная Сумка Сумка через плечо Сумка\n      среднего размера Женская Вишневый цветок Розовый",
+    "slug": "michael-kors-mercer-leather-trunk-bag-shoulder-bag-crossbody-bag-handbag-medium-size-women-s-cherry-blossom-pink-8900009882947776",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20250607/f4d6b1d95aaf457593488435f40f206a.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "price": "10 638 ₽",
+    "sold": "Продано 82 тыс.",
+    "category": "bags"
+  },
+  {
+    "title": "Jordan Monogram Большой объем Застежка-молния Шахматный узор Полный принт\n      Полиэстер Дорожные сумки Унисекс Парный",
+    "slug": "jordan-polyester-travel-bag-regular-unisex-dark-smoke-gray-8900085727730150",
+    "image": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20240627/a2fe9d41320d4488ba11a200d7f91c9c.jpg?x-oss-process=image/resize,s_540/format,webp",
+    "price": "11 855 ₽",
+    "sold": "Продано 3 тыс.",
+    "category": "bags"
   }
+
+
 ]

@@ -29,7 +29,7 @@ const LogoutButton = () => {
 
   return (
     <Button
-      className="p-3.5 border border-gray-250 text-green text-sm font-medium leading-normal"
+      className="p-3.5 border border-gray-250 text-green text-[14px] font-medium leading-normal"
       type="button"
       onClick={handleLogout}
     >

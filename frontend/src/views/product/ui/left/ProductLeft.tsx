@@ -104,7 +104,7 @@ const ProductLeft = () => {
       <ProductDetails />
       <Description />
       <div className="mt-10">
-        <h2 className="text-2xl leading-[100%] font-bold font-roboto_condensed">
+        <h2 className="text-[24px] leading-[100%] font-bold font-roboto_condensed">
           Подтверждено ДЭВУ
         </h2>
         <Link href="/about-us" className="mt-5 block">

@@ -7,7 +7,7 @@ import DeliveryInfo from "./DeliveryInfo";
 
 const ProductStickyDetails = () => {
   return (
-    <div className="relative h-full">
+    <div className="relative h-full flex-1">
       <div className="pr-1 pb-3 sticky h-fit top-32.5 z-1">
         <div className="relative">
           <ProductBreadcrumbs

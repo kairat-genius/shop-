@@ -15,7 +15,7 @@ const DeliveryModal = ({ onClose }: DeliveryModalProps) => {
         className="flex items-center justify-between px-8 py-6 border-b"
         style={{ borderColor: "rgba(5, 5, 5, 0.06)" }}
       >
-        <h2 className="font-roboto_condensed leading-5.75 text-xl font-bold">
+        <h2 className="font-roboto_condensed leading-5.75 text-[20px] font-bold">
           ДОСТАВКА
         </h2>
         <Button
@@ -28,8 +28,10 @@ const DeliveryModal = ({ onClose }: DeliveryModalProps) => {
       </div>
       <div className="p-8 flex flex-col gap-8">
         <div className="space-y-3">
-          <div className="text-base font-extrabold leading-5">Пункт выдачи</div>
-          <div className="text-sm leading-[100%]">
+          <div className="text-[16px] font-extrabold leading-5">
+            Пункт выдачи
+          </div>
+          <div className="text-[14px] leading-[100%]">
             Добавьте ближайший пункт выдачи и отслеживайте статус доставки.
           </div>
           <Button className="w-full rounded-sm bg-teal-350 gap-1 py-[12.5px] mt-1">
@@ -40,16 +42,16 @@ const DeliveryModal = ({ onClose }: DeliveryModalProps) => {
               width={18}
               height={18}
             />
-            <span className="font-roboto_condensed text-base leading-[100%] font-bold">
+            <span className="font-roboto_condensed text-[16px] leading-[100%] font-bold">
               Выбрать на карте
             </span>
           </Button>
         </div>
         <div className="space-y-3">
-          <div className="text-base font-extrabold leading-5">
+          <div className="text-[16px] font-extrabold leading-5">
             Способ доставки
           </div>
-          <div className="text-sm leading-[100%]">
+          <div className="text-[14px] leading-[100%]">
             Вы можете выбрать ускоренную доставку на странице оформления заказа.
           </div>
         </div>

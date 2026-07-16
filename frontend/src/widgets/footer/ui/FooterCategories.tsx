@@ -45,10 +45,10 @@ const FooterCategories = () => {
         <div className="flex justify-between gap-3">
           {categoriesDropdownData.map((item, index) => (
             <div key={index} className="max-w-62.5 space-y-6">
-              <h3 className="font-bold text-2xl leading-7 whitespace-nowrap">
+              <h3 className="font-bold text-[24px] leading-7 whitespace-nowrap">
                 {item.title}
               </h3>
-              <div className="text-sm font-light leading-4 flex flex-col gap-3.5">
+              <div className="text-[14px] font-light leading-4 flex flex-col gap-3.5">
                 {item.children.map((child) => (
                   <Link
                     key={child.href}

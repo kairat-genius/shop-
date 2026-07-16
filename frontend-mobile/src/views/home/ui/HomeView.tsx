@@ -26,7 +26,7 @@ const HomeView = () => {
       slug: "all",
       items: products,
     };
-    const categorySlides = categoriesData.map((cat) => ({
+    const categorySlides = categoriesData.slice(0, 7).map((cat) => ({
       ...cat,
       items: products.filter((p) => p.category === cat.slug),
     }));

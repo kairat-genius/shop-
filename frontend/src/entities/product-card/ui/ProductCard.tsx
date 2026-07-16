@@ -1,36 +1,46 @@
 "use client";
+import { cn } from "@/shared/utils/clsx";
 import Link from "next/link";
 import type { ReactNode } from "react";
-import type { ProductType } from "../types/product-card.type";
-import { cn } from "@/shared/utils/clsx";
-import { getImageUrl } from "@/shared/utils/getImageUrl";
 
 interface ProductCardProps {
   children?: ReactNode;
   onClick?: () => void;
+  className?: string;
+  product: {
+    title: string;
+    slug: string;
+    image: string;
+    category: string;
+    price: string;
+    sold: string;
+  };
 }
 
-const ProductCard = ({ children }: ProductCardProps) => {
+const ProductCard = ({ className, children, product }: ProductCardProps) => {
   return (
-    <article className="relative">
+    <article className={cn("relative", className)}>
       <Link
-        href="/product/new-balance-530-white-natural-indigo-sneakers-8900001978861819"
+        href={`/product/${product.slug}`}
         className="flex flex-col"
         target="_blank"
         rel="opener"
       >
         <img
           className="aspect-square h-full w-full"
-          src="https://cdn-img.thepoizon.ru/pro-img/cut-img/20240726/1eed0defcabe44b989217ec6ef6a8431.jpg?x-oss-process=image/resize,s_540/format,webp"
+          src={product.image}
           alt=""
         />
-        <div className="pt-2 text-sm font-light leading-4 line-clamp-2">
-          New Balance NB 530 Сетчатая ткань Текстиль Низкий топ Повседневные
-          Городские Коммутатор Беговые кроссовки Унисекс
+        <div className="pt-2 text-[14px] font-light leading-4 line-clamp-2">
+          {product.title}
         </div>
         <div className="mt-4 flex flex-wrap justify-between items-baseline">
-          <div className="text-xl leading-[1.3] font-bold font-roboto_condensed">7&nbsp;021&nbsp;₽</div>
-          <span className="text-right text-xs font-light text-slate-500">Продано 819&nbsp;тыс.</span>
+          <div className="text-[20px] leading-[1.3] font-bold font-roboto_condensed">
+            {product.price}
+          </div>
+          <span className="text-right text-[12px] font-light text-slate-500">
+            {product.sold}
+          </span>
         </div>
       </Link>
       {children}

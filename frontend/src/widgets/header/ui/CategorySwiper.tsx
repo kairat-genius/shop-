@@ -47,7 +47,10 @@ const CategorySwiper = () => {
                 index === categorySwiperData.length - 1 && "pr-1.5",
               )}
             >
-              <Link href={category.href} className="text-sm whitespace-nowrap">
+              <Link
+                href={category.href}
+                className="text-[14px] whitespace-nowrap leading-[normal] items-center justify-center flex h-full"
+              >
                 {category.title}
               </Link>
             </SwiperSlide>

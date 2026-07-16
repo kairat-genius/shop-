@@ -33,7 +33,10 @@ const Select = ({
         )}
       >
         <span
-          className={cn("pointer-events-none text-sm", isOpen && "opacity-50")}
+          className={cn(
+            "pointer-events-none text-[14px]",
+            isOpen && "opacity-50",
+          )}
           title={selectedLabel}
         >
           {selectedLabel}
@@ -76,7 +79,7 @@ const Select = ({
                   }}
                   title={item.title}
                   className={cn(
-                    "px-3 h-12 text-sm hover:bg-slate-100 flex items-center cursor-pointer",
+                    "px-3 h-12 text-[14px] hover:bg-slate-100 flex items-center cursor-pointer",
                     isSelected && "font-semibold bg-slate-100",
                   )}
                 >
@@ -85,7 +88,7 @@ const Select = ({
               );
             })
           ) : (
-            <li className="py-2 text-center text-sm">Nothing found</li>
+            <li className="py-2 text-center text-[14px]">Nothing found</li>
           )}
         </ul>
       </div>

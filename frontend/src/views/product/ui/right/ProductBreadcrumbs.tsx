@@ -21,7 +21,7 @@ const ProductBreadcrumbs = ({ items }: ProductBreadcrumbsProps) => {
 
   return (
     <div className="flex items-center justify-between">
-      <div className="text-xs font-light">
+      <div className="text-[12px] font-light">
         {items.map((item, index) => (
           <span key={item.href}>
             <Link href={item.href}>{item.label}</Link>
@@ -33,8 +33,7 @@ const ProductBreadcrumbs = ({ items }: ProductBreadcrumbsProps) => {
         <img
           src={"/static-media/detail/share.png"}
           alt="share"
-          width={20}
-          height={20}
+          className="w-[1rem] h-[1rem]"
         />
       </Button>
       {isShareModalOpen && (

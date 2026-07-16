@@ -28,7 +28,7 @@ const SearchSuggestions = ({
       {searchHistory.length > 0 && (
         <div className="space-y-2.5">
           <div className="flex justify-between items-center">
-            <div className="text-base font-roboto_condensed font-bold leading-[18.75px]">
+            <div className="text-[16px] font-roboto_condensed font-bold leading-[18.75px]">
               Вы искали
             </div>
             <div className="relative">
@@ -50,19 +50,19 @@ const SearchSuggestions = ({
                   onClick={(e) => e.stopPropagation()}
                   onMouseDown={(e) => e.stopPropagation()}
                 >
-                  <p className="text-sm text-slate-800 mb-2">
+                  <p className="text-[14px] text-slate-800 mb-2">
                     Вы уверены, что хотите очистить историю запросов?
                   </p>
                   <div className="flex justify-end gap-2">
                     <button
                       onClick={onConfirmClear}
-                      className="px-3 py-1 text-xs font-medium bg-red-500 text-white rounded-sm hover:bg-red-600 transition-colors"
+                      className="px-3 py-1 text-[12px] font-medium bg-red-500 text-white rounded-sm hover:bg-red-600 transition-colors"
                     >
                       Да
                     </button>
                     <button
                       onClick={onCancelClear}
-                      className="px-3 py-1 text-xs font-medium bg-slate-150 text-slate-700 rounded-sm hover:bg-slate-300 transition-colors"
+                      className="px-3 py-1 text-[12px] font-medium bg-slate-150 text-slate-700 rounded-sm hover:bg-slate-300 transition-colors"
                     >
                       Отменить
                     </button>
@@ -76,7 +76,7 @@ const SearchSuggestions = ({
               <Link
                 key={idx}
                 href={`/search?keyword=${encodeURIComponent(keyword)}`}
-                className="px-2.5 py-1.5 max-w-100 bg-slate-50 hover:bg-slate-100 text-sm rounded-xs leading-4 truncate"
+                className="px-2.5 py-1.5 max-w-100 bg-slate-50 hover:bg-slate-100 text-[14px] rounded-xs leading-4 truncate"
                 onClick={() => onSaveToHistory(keyword)}
               >
                 {keyword}
@@ -88,7 +88,7 @@ const SearchSuggestions = ({
 
       <div className={`space-y-2.5 ${searchHistory.length > 0 ? "mt-5" : ""}`}>
         <div className="flex justify-between items-center">
-          <div className="text-base font-roboto_condensed font-bold leading-[18.75px]">
+          <div className="text-[16px] font-roboto_condensed font-bold leading-[18.75px]">
             Часто ищут
           </div>
           <button aria-label="Обновить частые запросы">
@@ -105,7 +105,7 @@ const SearchSuggestions = ({
             <Link
               key={term}
               href={`/search?keyword=${encodeURIComponent(term)}`}
-              className="px-2.5 py-1.5 max-w-100 bg-slate-50 hover:bg-slate-100 text-sm rounded-xs leading-4 truncate"
+              className="px-2.5 py-1.5 max-w-100 bg-slate-50 hover:bg-slate-100 text-[14px] rounded-xs leading-4 truncate"
               onClick={() => onSaveToHistory(term)}
             >
               {term}

@@ -38,7 +38,7 @@ const Checkbox = ({ onClick, children, checked }: CheckboxProps) => {
         />
       </span>
 
-      <span className="text-sm leading-4">{children}</span>
+      <span className="text-[14px] leading-4">{children}</span>
     </button>
   );
 };

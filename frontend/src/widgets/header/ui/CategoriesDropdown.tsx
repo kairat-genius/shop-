@@ -9,7 +9,7 @@ import { useBodyScrollLock } from "@/shared/hooks/useBodyScrollLock";
 
 const CategoriesDropdownPortal = dynamic(
   () => import("./CategoriesDropdownPortal"),
-  { ssr: false }
+  { ssr: false },
 );
 
 const CategoriesDropdown = () => {
@@ -58,7 +58,7 @@ const CategoriesDropdown = () => {
         onMouseEnter={handleTriggerMouseEnter}
         onMouseLeave={handleTriggerMouseLeave}
       >
-        <div className="flex items-center gap-1 text-sm cursor-pointer select-none">
+        <div className="flex items-center gap-1 text-[14px] cursor-pointer select-none">
           Категории
           <Icon
             icon="chevron-down"
@@ -66,7 +66,7 @@ const CategoriesDropdown = () => {
             height={14}
             className={cn(
               "transition-transform duration-200",
-              isOpen && "rotate-180"
+              isOpen && "rotate-180",
             )}
           />
         </div>

@@ -32,7 +32,7 @@ const DeliveryInfo = () => {
               alt="DELIVERY"
               loading="lazy"
             />
-            <div className="flex-1 text-sm leading-4 pt-0.75">
+            <div className="flex-1 text-[14px] leading-4 pt-0.75">
               Срок доставки по адресу:{" "}
               <span className="underline">Москву,ЦФО</span>
             </div>
@@ -45,11 +45,11 @@ const DeliveryInfo = () => {
           />
         </div>
         <div className="pl-8 mt-2 grid grid-cols-2 gap-2 w-full">
-          <div className="h-12 bg-slate-150 text-xs leading-4 font-light p-2">
+          <div className="h-12 bg-slate-150 text-[12px] leading-4 font-light p-2">
             <div className="truncate">Бесплатная доставка</div>
             <div>19 июл. – 23 июл.</div>
           </div>
-          <div className="h-12 bg-slate-150 text-xs leading-4 font-light p-2 relative overflow-hidden">
+          <div className="h-12 bg-slate-150 text-[12px] leading-4 font-light p-2 relative overflow-hidden">
             <div className="truncate">Ускоренная доставка</div>
             <div>10 июл. – 14 июл.</div>
             <img
@@ -75,7 +75,7 @@ const DeliveryInfo = () => {
           alt="SecurityShopping"
           loading="lazy"
         />
-        <div className="flex flex-wrap items-center text-sm leading-4 pt-0.75">
+        <div className="flex flex-wrap items-center text-[14px] leading-4 pt-0.75">
           <span>7-дневный безусловный возврат</span>
           <span className="w-px h-2 mx-[6.5px] bg-slate-300"></span>
           <span>Поддержка 24/7</span>

@@ -21,7 +21,7 @@ const FormField = ({ error, children, className }: FormFieldProps) => {
       {children}
 
       {errorMessages.length > 0 && (
-        <div className="text-xs text-red-500">
+        <div className="text-[12px] text-red-500">
           {errorMessages.map((msg, idx) => (
             <p key={idx}>{msg}</p>
           ))}

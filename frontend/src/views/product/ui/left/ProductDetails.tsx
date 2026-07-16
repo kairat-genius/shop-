@@ -27,7 +27,7 @@ const ProductDetails = () => {
 
   return (
     <div className="mt-10" ref={sectionRef}>
-      <div className="text-2xl leading-7 font-bold font-roboto_condensed">
+      <div className="text-[24px] leading-7 font-bold font-roboto_condensed">
         ПОДРОБНЕЕ
       </div>
       <div
@@ -51,7 +51,7 @@ const ProductDetails = () => {
         onClick={handleToggle}
         className="mt-2 text-slate-500 gap-0.5 w-full"
       >
-        <div className="text-sm leading-4">
+        <div className="text-[14px] leading-4">
           {isExpanded ? "Показать меньше" : "Показать больше"}
         </div>
         <Icon

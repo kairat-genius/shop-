@@ -20,7 +20,7 @@ const AboutProductModal = ({ onClose, features }: AboutProductModalProps) => {
         className="flex items-center justify-between px-6 py-4 border-b"
         style={{ borderColor: "rgba(5, 5, 5, 0.06)" }}
       >
-        <h2 className="text-2xl font-bold leading-[1.4]">О ТОВАРЕ</h2>
+        <h2 className="text-[24px] font-bold leading-[1.4]">О ТОВАРЕ</h2>
         <Button
           type="button"
           className="opacity-70 transition-opacity hover:opacity-100 text-slate-500"
@@ -29,7 +29,7 @@ const AboutProductModal = ({ onClose, features }: AboutProductModalProps) => {
           <Icon icon="x" width={22} height={22} />
         </Button>
       </div>
-      <div className="p-6 flex flex-col gap-3 text-sm leading-[100%]">
+      <div className="p-6 flex flex-col gap-3 text-[14px] leading-[100%]">
         {features.map((feature, index) => (
           <div key={index} className="grid grid-cols-2 items-center gap-3">
             <span className="font-light text-slate-500">{feature.label}</span>

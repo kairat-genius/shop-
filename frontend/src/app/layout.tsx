@@ -18,7 +18,14 @@ export default async function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="ru" className="h-full antialiased">
+    <html
+      lang="ru"
+      className="h-full antialiased"
+      style={{
+        fontSize:
+          "clamp(14.2222px, calc(14.2222px + (100vw - 1024px) / 72), 20px)",
+      }}
+    >
       <body
         className={`${robotoFont.variable} ${robotoCondensedFont.variable} min-h-full flex flex-col antialiased`}
       >
@@ -33,12 +40,14 @@ export default async function RootLayout({
           speed={200}
           shadow="0 0 10px #ff3a5c,0 0 5px #ff3a5c"
         />
-        <Suspense fallback={null}>
-          <NuqsAdapter>
+
+        <NuqsAdapter>
+          <Suspense fallback={null}>
             <Header />
-            {children}
-          </NuqsAdapter>
-        </Suspense>
+          </Suspense>
+          {children}
+        </NuqsAdapter>
+
         <Footer />
       </body>
     </html>

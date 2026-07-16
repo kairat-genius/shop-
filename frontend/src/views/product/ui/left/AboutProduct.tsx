@@ -24,10 +24,10 @@ const AboutProduct = () => {
   return (
     <>
       <div className="mt-10">
-        <h2 className="text-2xl leading-7 font-bold font-roboto_condensed">
+        <h2 className="text-[24px] leading-7 font-bold font-roboto_condensed">
           О ТОВАРЕ
         </h2>
-        <ul className="mt-4 flex flex-col gap-2 text-sm leading-4.5">
+        <ul className="mt-4 flex flex-col gap-2 text-[14px] leading-4.5">
           {features.slice(0, 4).map((feature, index) => (
             <li key={index} className="flex items-center gap-6">
               <span className="w-42.5 font-light">{feature.label}</span>
@@ -36,7 +36,7 @@ const AboutProduct = () => {
           ))}
         </ul>
         <Button
-          className="mt-3 underline text-slate-500 text-sm leading-[1.2]"
+          className="mt-3 underline text-slate-500 text-[14px] leading-[1.2]"
           onClick={() => setIsModalOpen(true)}
         >
           Показать больше
@@ -57,17 +57,17 @@ const AboutProduct = () => {
         />
 
         <div className="flex items-center">
-          <div className="text-base leading-[18.75px] font-medium truncate">
+          <div className="text-[16px] leading-[18.75px] font-medium truncate">
             Nike
           </div>
           <div className="bg-slate-300 w-[0.5px] h-2.5 mx-3.5" />
-          <div className="text-sm font-light leading-4.5">
+          <div className="text-[14px] font-light leading-4.5">
             484&nbsp;тыс. товаров
           </div>
         </div>
       </Link>
       <div
-        className="mt-3 p-2 text-xs leading-[100%] flex gap-3 rounded-sm"
+        className="mt-3 p-2 text-[12px] leading-[100%] flex gap-3 rounded-sm"
         style={{ backgroundColor: "rgba(245, 245, 249, .6)" }}
       >
         <div className="font-light">Модель</div>

@@ -32,7 +32,7 @@ const ShareModal = ({ onClose }: ShareModalProps) => {
         className="flex items-center justify-between px-8 py-6 border-b"
         style={{ borderColor: "rgba(5, 5, 5, 0.06)" }}
       >
-        <h2 className="font-roboto_condensed leading-5.75 text-xl font-bold">
+        <h2 className="font-roboto_condensed leading-5.75 text-[20px] font-bold">
           ПОДЕЛИТЬСЯ С ВАШИМИ ДРУЗЬЯМИ
         </h2>
         <Button
@@ -59,7 +59,7 @@ const ShareModal = ({ onClose }: ShareModalProps) => {
               height={38}
             />
           </div>
-          <span className="font-light text-base leading-4.75 text-slate-500 text-center">
+          <span className="font-light text-[16px] leading-4.75 text-slate-500 text-center">
             WhatsApp
           </span>
         </a>
@@ -76,13 +76,13 @@ const ShareModal = ({ onClose }: ShareModalProps) => {
               height={38}
             />
           </div>
-          <span className="font-light text-base leading-4.75 text-slate-500 text-center">
+          <span className="font-light text-[16px] leading-4.75 text-slate-500 text-center">
             Скопировать ссылку
           </span>
         </Button>
       </div>
       {isCopied && (
-        <div className="fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-1 bg-black/80 text-white px-4 py-2 rounded-md text-sm shadow-lg pointer-events-none">
+        <div className="fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-1 bg-black/80 text-white px-4 py-2 rounded-md text-[14px] shadow-lg pointer-events-none">
           Скопировано
         </div>
       )}

@@ -77,11 +77,10 @@ const variants = [
   },
 ];
 
-
 const ModelVariants = () => (
   <div className="">
     <div className="flex items-center justify-between mb-3">
-      <div className="font-roboto_condensed font-bold text-base leading-4">
+      <div className="font-roboto_condensed font-bold text-[16px] leading-4">
         Модель Hyperdunk 2017 ({variants.length} товаров)
       </div>
       <button>
@@ -89,7 +88,7 @@ const ModelVariants = () => (
           icon="chevron-right"
           width={12}
           height={12}
-          className="shrink-0 text-slate-500"
+          className="text-slate-500"
         />
       </button>
     </div>
@@ -99,7 +98,9 @@ const ModelVariants = () => (
           key={item.alt}
           className={cn(
             "border shrink-0",
-            item.is_current ? "border-slate-950" : "border-[rgba(20,21,26,0.03)]",
+            item.is_current
+              ? "border-slate-950"
+              : "border-[rgba(20,21,26,0.03)]",
           )}
         >
           <img className="aspect-square" src={item.image} alt={item.alt} />
@@ -108,6 +109,5 @@ const ModelVariants = () => (
     </div>
   </div>
 );
-
 
 export default ModelVariants;

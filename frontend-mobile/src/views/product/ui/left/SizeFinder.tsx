@@ -78,10 +78,11 @@ const SizeFinder = () => {
                     zIndex: 20,
                     // Тень появляется динамически
                     boxShadow: isScrolled
-                      ? "1.6vw 0 2.667vw -1.067vw rgba(0, 0, 0, 0.15)"
+                      ? "6px 0 10px -4px rgba(0, 0, 0, 0.15)"
                       : "none",
                     // Плавный переход для тени, чтобы она не прыгала резко
                     transition: "box-shadow 0.2s ease-in-out",
+                    
                   }),
                 };
 
@@ -115,12 +116,11 @@ const SizeFinder = () => {
                       left: 0,
                       zIndex: 20,
                       boxShadow: isScrolled
-                        ? "1.6vw 0 2.667vw -1.067vw rgba(0, 0, 0, 0.15)"
+                        ? "6px 0 10px -4px rgba(0, 0, 0, 0.15)"
                         : "none",
                       transition: "box-shadow 0.2s ease-in-out",
                     }),
                   };
-
                   return (
                     <td
                       key={cellIndex}
