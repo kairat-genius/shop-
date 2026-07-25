@@ -20,7 +20,7 @@ const BrandSection = () => {
       ))}
       <Link
         className="flex items-center justify-center gap-1 h-[2.5rem] border rounded-xs font-medium text-[.9rem] min-w-[7.3rem]"
-        href=""
+        href="/brand/list"
         style={{
           borderColor: "rgba(170, 170, 187, .3)",
         }}

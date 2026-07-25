@@ -137,7 +137,7 @@ const ReviewGalleryModal = ({
           )}
         </div>
         <div className="w-144 flex items-center gap-2.5">
-          <Button className="review-gallery-thumb-prev disabled:cursor-not-allowed disabled:text-[#C7C7D7]">
+          <Button className="review-gallery-thumb-prev disabled:cursor-not-allowed disabled:text-slate-300">
             <Icon
               icon="chevron-right"
               className="rotate-180"
@@ -180,7 +180,7 @@ const ReviewGalleryModal = ({
               ))}
             </Swiper>
           )}
-          <Button className="review-gallery-thumb-next disabled:cursor-not-allowed disabled:text-[#C7C7D7]">
+          <Button className="review-gallery-thumb-next disabled:cursor-not-allowed disabled:text-slate-300">
             <Icon icon="chevron-right" width={20} height={20} />
           </Button>
         </div>

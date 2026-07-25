@@ -46,10 +46,15 @@
   --animate-fade-in: fade-in 0.3s ease-out forwards;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: var(--font-roboto);
   color: var(--color-slate-950);
   min-width: 1024px;
+  outline: 1px solid rgba(255, 0, 0, 0.5) !important;
 }
 
 @utility container {
@@ -73,7 +78,6 @@ body {
   background-color: transparent;
 }
 
-
 .border-scale {
   position: relative;
 }
@@ -87,5 +91,32 @@ body {
   transform: scale(0.5);
   width: 200%;
   height: 200%;
+}
 
+
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes scroll-right {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.animate-scroll-left {
+  animation: scroll-left 60s linear infinite;
+}
+
+.animate-scroll-right {
+  animation: scroll-right 60s linear infinite;
 }

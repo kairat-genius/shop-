@@ -20,6 +20,7 @@ export default async function RootLayout({
   return (
     <html
       lang="ru"
+      data-scroll-behavior="smooth"
       className="h-full antialiased"
       style={{
         fontSize:

@@ -4,7 +4,6 @@ import NextTopLoader from "nextjs-toploader";
 import { robotoFont, robotoCondensedFont } from "@/shared/fonts";
 import Footer from "@/widgets/footer";
 import { NuqsAdapter } from "nuqs/adapters/next/app";
-import { Suspense } from "react";
 
 export const metadata: Metadata = {
   title: "",

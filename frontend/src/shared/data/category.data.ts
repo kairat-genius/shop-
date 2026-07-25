@@ -2,6 +2,7 @@ export const categoriesData = [
   {
     title: "Кроссовки",
     slug: "sneakers",
+    image: "https://cdn-img.thepoizon.ru/node-common/64d3beac-2d30-ae07-092d-36455a6d7804-580-579.png?x-oss-process=image/resize,s_360/format,webp",
     children: [
       {
         title: "Баскетбол",
@@ -116,6 +117,7 @@ export const categoriesData = [
   {
     title: "Одежда",
     slug: "apparel",
+    image: "https://cdn-img.thepoizon.ru/node-common/000c2ad0-6f1f-3d46-4ecf-25597856e6ab-581-579.png?x-oss-process=image/resize,s_360/format,webp",
     children: [
       {
         title: "Худи & Свитшоты",
@@ -176,6 +178,7 @@ export const categoriesData = [
   {
     title: "Сумки",
     slug: "bags",
+    image: "https://cdn-img.thepoizon.ru/node-common/0549ccfc-7b75-1cc3-400b-fb957b91f504-580-579.png?x-oss-process=image/resize,s_360/format,webp",
     children: [
       {
         title: "Сумки через плечо",
@@ -230,6 +233,7 @@ export const categoriesData = [
   {
     title: "Аксессуары",
     slug: "accessories",
+    image: "https://cdn-img.thepoizon.ru/node-common/94302fa3-ba56-a46d-0b58-78e068318fe9-581-579.png?x-oss-process=image/resize,s_360/format,webp",
     children: [
       {
         title: "Ожерелья & Подвески",
