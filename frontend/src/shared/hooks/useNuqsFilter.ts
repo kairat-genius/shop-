@@ -1,81 +1,53 @@
-import {
-  createParser,
-  parseAsArrayOf,
-  parseAsInteger,
-  parseAsString,
-  useQueryStates,
-} from "nuqs";
-import { useCallback } from "react";
+import { useState, useCallback } from "react";
 
-export const parseAsFromTo = createParser<[number, number] | null>({
-  parse: (value) => {
-    if (!value) return null;
+export interface FiltersState {
+  page: number;
+  cursor?: string | null;
+  sortBy: string;
+  categories: (string | number)[];
+  brands: (string | number)[];
+  genders: string[];
+  sizes: (string | number)[];
+  priceMin: number | null;
+  priceMax: number | null;
+}
 
-    const [minStr, maxStr] = value.split("~");
-    const min = parseAsInteger.parse(minStr) ?? 0;
-    const max = parseAsInteger.parse(maxStr) ?? min;
+const defaultFilters: FiltersState = {
+  page: 1,
+  cursor: null,
+  sortBy: "relevance",
+  categories: [],
+  brands: [],
+  genders: [],
+  sizes: [],
+  priceMin: null,
+  priceMax: null,
+};
 
-    return [min, max];
-  },
-  serialize: (value) => {
-    if (!value) return "";
-    const [min, max] = value;
-    return `${min}~${max}`;
-  },
-});
+export function useFiltersNuqs() {
+  const [filters, setFilters] = useState<FiltersState>(defaultFilters);
 
-export function useFiltersNuqs(initialDeviceId?: number) {
-  const [filters, setFilters] = useQueryStates({
-    page: parseAsInteger.withDefault(1),
-    sort: parseAsString.withDefault("default"),
-    design__id: parseAsArrayOf(parseAsString).withDefault([]),
-    collection__slug: parseAsArrayOf(parseAsString).withDefault([]),
-    device__id: parseAsInteger.withDefault(initialDeviceId ?? 0),
-    categories: parseAsArrayOf(parseAsString).withDefault([]),
-    brands: parseAsArrayOf(parseAsString).withDefault([]),
-    genders: parseAsArrayOf(parseAsString).withDefault([]),
-    sizes: parseAsArrayOf(parseAsString).withDefault([]),
-    priceRange: parseAsFromTo,
-    keyword: parseAsString,
-  });
-
-  const updateFilters = useCallback(
-    async (values: Partial<typeof filters>) => {
-      await setFilters(values);
-    },
-    [setFilters],
-  );
+  const updateFilters = useCallback((values: Partial<FiltersState>) => {
+    setFilters((prev) => ({ ...prev, ...values }));
+  }, []);
 
   const updateFilter = useCallback(
-    async <K extends keyof typeof filters>(
-      key: K,
-      value: (typeof filters)[K],
-    ) => {
-      await setFilters({ [key]: value });
+    <K extends keyof FiltersState>(key: K, value: FiltersState[K]) => {
+      setFilters((prev) => ({ ...prev, [key]: value }));
     },
-    [setFilters],
+    [],
   );
 
-  const resetFilters = async () => {
-    await setFilters(
-      Object.fromEntries(
-        Object.keys(filters).map((key) => [key, key === "page" ? 1 : null]),
-      ),
-    );
-  };
+  const resetFilters = useCallback(() => {
+    setFilters(defaultFilters);
+  }, []);
 
-  // 🔹 Сброс конкретного фильтра
-  const resetFilterByKey = async <K extends keyof typeof filters>(key: K) => {
-    let defaultValue: unknown = null;
-
-    if (key === "page") {
-      defaultValue = 1;
-    } else if (Array.isArray(filters[key])) {
-      defaultValue = [];
-    }
-
-    await setFilters({ [key]: defaultValue });
-  };
+  const resetFilterByKey = useCallback(
+    <K extends keyof FiltersState>(key: K) => {
+      setFilters((prev) => ({ ...prev, [key]: defaultFilters[key] }));
+    },
+    [],
+  );
 
   return {
     filters,

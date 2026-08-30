@@ -3,6 +3,7 @@ import Icon from "@/shared/icon";
 import ProductCard from "@/entities/product-card";
 import productsData from "@/shared/data/productData.json";
 import FavoriteButton from "@/features/favorites-button";
+import { normalizeHomeProduct } from "@/views/home/ui/HomeView";
 
 const RecommendedProducts = () => {
   return (
@@ -12,7 +13,10 @@ const RecommendedProducts = () => {
       </h2>
       <div className="grid grid-cols-6 mt-5 gap-y-2 gap-x-[.8rem]">
         {productsData.slice(0, 10).map((product) => (
-          <ProductCard key={product.slug} product={product}>
+          <ProductCard
+            key={product.slug}
+            product={normalizeHomeProduct(product)}
+          >
             <FavoriteButton className="absolute top-4 right-2 text-slate-500">
               <Icon icon="heart" className="w-[1.2rem] h-[1.2rem]" />
             </FavoriteButton>

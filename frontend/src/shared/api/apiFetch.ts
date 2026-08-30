@@ -1,4 +1,3 @@
-// @/shared/api/apiFetch.ts
 import { useBoundStore } from "@/shared/store";
 
 interface FetchOptions extends RequestInit {

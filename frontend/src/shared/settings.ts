@@ -9,3 +9,5 @@ export const TOO_MANY_REQUESTS_MESSAGE =
 export const IPHONE_CASES_CATEGORY_SLUG = "chekhly-dlya-iphone";
 export const IS_DEVELOPMENT = process.env.NEXT_PUBLIC_APP_ENV === "development";
 export const CDN = process.env.NEXT_PUBLIC_CDN || ""
+
+export const POIZON_API_KEY = process.env.NEXT_PUBLIC_POIZON_API_KEY || ""

@@ -7,6 +7,12 @@ import Footer from "@/widgets/footer";
 import Header from "@/widgets/header";
 import { NuqsAdapter } from "nuqs/adapters/next/app";
 
+import { ClientErrorProvider } from "./ClientErrorProvider";
+import {
+  CatalogProvider,
+  getCategoryList,
+} from "@/shared/context/catalog-data";
+
 export const metadata: Metadata = {
   title: "",
   description: "",
@@ -17,6 +23,8 @@ export default async function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const categoryList = await getCategoryList();
+
   return (
     <html
       lang="ru"
@@ -42,14 +50,18 @@ export default async function RootLayout({
           shadow="0 0 10px #ff3a5c,0 0 5px #ff3a5c"
         />
 
-        <NuqsAdapter>
-          <Suspense fallback={null}>
-            <Header />
-          </Suspense>
-          {children}
-        </NuqsAdapter>
+        <ClientErrorProvider>
+          <CatalogProvider categoryData={categoryList}>
+            <NuqsAdapter>
+              <Suspense fallback={null}>
+                <Header />
+              </Suspense>
+              {children}
+            </NuqsAdapter>
 
-        <Footer />
+            <Footer />
+          </CatalogProvider>
+        </ClientErrorProvider>
       </body>
     </html>
   );

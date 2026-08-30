@@ -7,6 +7,7 @@ import productsData from "@/shared/data/productData.json";
 import FavoriteButton from "@/features/favorites-button";
 import Icon from "@/shared/icon";
 import { Button } from "@/shared/ui/action";
+import { normalizeHomeProduct } from "@/views/home/ui/HomeView";
 
 const ViewedProducts = () => {
   return (
@@ -31,7 +32,7 @@ const ViewedProducts = () => {
               key={product.slug}
               className={(index + 1) % 6 === 0 ? "" : "pr-[.8rem]"}
             >
-              <ProductCard product={product}>
+              <ProductCard product={normalizeHomeProduct(product)}>
                 <FavoriteButton className="absolute top-4 right-2 text-slate-500">
                   <Icon icon="heart" className="w-[1.2rem] h-[1.2rem]" />
                 </FavoriteButton>

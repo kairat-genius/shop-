@@ -10,7 +10,7 @@ const CategoryDescription = () => {
   const toggle = () => setIsExpanded((prev) => !prev);
 
   return (
-    <section className="container px-5 mt-[21.440px]">
+    <section className="container mt-[21.440px]">
       <h2 className="text-[32px] leading-9.5 font-bold font-roboto_condensed">
         Баскетбол
       </h2>

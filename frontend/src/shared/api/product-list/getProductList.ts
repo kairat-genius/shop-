@@ -1,40 +1,28 @@
-import { PRODUCT_LIST } from "@/shared/api/endpoints";
-import type {
-  ProductListType,
-  ProductListFilterType,
-} from "./product-list.type";
-import { buildQueryString } from "@/shared/utils/buildQueryString";
-import { apiFetch } from "../apiFetch";
+import {
+  ProductControllerSearchV2Request,
+  ProductsResponseV2WithPaginationDto,
+  ResponseError,
+} from "../openapi";
+import { productApi } from "../poizonApi";
+import { cleanEmptyParams } from "@/shared/utils/cleanEmptyParams";
 
 export async function getProductList(
-  params: ProductListFilterType,
-  isServer: boolean = false,
-): Promise<ProductListType> {
-  const queryString = buildQueryString(params);
-
-  const url = `${PRODUCT_LIST(isServer)}?${queryString}`;
-
-  if (isServer) {
-    const res = await fetch(url, {
-      method: "GET",
-      headers: {
-        "Content-Type": "application/json",
-      },
-    });
-
-    if (!res.ok) {
-      throw new Error(`HTTP Error: ${res.status}`);
+  params: ProductControllerSearchV2Request,
+  isServer = false,
+): Promise<ProductsResponseV2WithPaginationDto> {
+  try {
+    return await productApi(isServer).productControllerSearchV2(
+      cleanEmptyParams(params) as ProductControllerSearchV2Request,
+    );
+  } catch (error) {
+    if (error instanceof ResponseError) {
+      console.error(
+        "Dewu API error:",
+        error.response.status,
+        await error.response.text(),
+      );
     }
 
-    return res.json();
+    throw error;
   }
-
-  const res = await apiFetch(url, {
-    method: "GET",
-    headers: {
-      "Content-Type": "application/json",
-    },
-  });
-
-  return res.json();
 }

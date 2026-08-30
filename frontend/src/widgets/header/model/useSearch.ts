@@ -1,6 +1,6 @@
 import { useState, useRef, useCallback } from "react";
 import { useRouter } from "next/navigation";
-import { useFiltersNuqs } from "@/shared/hooks/useNuqsFilter";
+import { useFiltersNuqs } from "@/shared/hooks/useNuqsSearchFilter";
 
 export function useSearch() {
   const router = useRouter();
