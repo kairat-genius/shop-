@@ -14,7 +14,7 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
   const { category } = await params;
 
   const response = await fetch(
-    `http://localhost:3000/api/categories/${encodeURIComponent(category)}`,
+    `https://shop-sr2l.vercel.app/api/categories/${encodeURIComponent(category)}`,
     { next: { revalidate: 3600 } },
   );
 
