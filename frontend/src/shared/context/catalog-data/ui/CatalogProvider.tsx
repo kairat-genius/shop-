@@ -2,11 +2,11 @@
 import type { ReactNode } from "react";
 
 import { CatalogContext } from "../model/CatalogContext";
-import type { CategoryTreeResponse } from "@/types/category-slug.type";
+import { CategoryTreeResponseDto } from "@/shared/api/openapi";
 
 interface CategoryProviderProps {
   children: ReactNode;
-  categoryData: CategoryTreeResponse;
+  categoryData: CategoryTreeResponseDto;
 }
 
 export const CatalogProvider = ({

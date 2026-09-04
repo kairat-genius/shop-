@@ -1,9 +1,11 @@
 "use client";
-import type { FiltersState } from "@/shared/hooks/useNuqsFilter";
+import type { FiltersState } from "@/widgets/product-list/model/useFilter";
 import FilterCheckboxList from "./filter/FilterCheckboxList";
 import Accordion from "@/shared/ui/accordion";
-import { genders } from "../data/filter.data";
+
 import PriceRangeFilter from "./filter/PriceRangeFilter";
+import { CategoryFiltersResponseDto } from "@/shared/api/openapi";
+import { getFacetList } from "../utils/getFacetList";
 
 interface FilterAsideProps {
   filters: FiltersState;
@@ -12,72 +14,93 @@ interface FilterAsideProps {
     value: FiltersState[K],
   ) => void;
   updateFilters: (values: Partial<FiltersState>) => void;
+  filtersData: CategoryFiltersResponseDto;
+  categoryId: string;
 }
 
 const FilterAside = ({
   filters,
   updateFilter,
   updateFilters,
+  filtersData,
+  categoryId,
 }: FilterAsideProps) => {
+  // Вычисляем списки внутри компонента, используя данные из пропсов
+  const facets = filtersData?.facets ?? [];
+  const categories = getFacetList(facets, "Категория", true);
+  const brands = getFacetList(facets, "Бренды", true);
+  const genders = getFacetList(facets, "Пол");
+  const russianSizes = getFacetList(facets, "Размер");
+
   return (
     <aside className="min-w-55 space-y-10">
-      {/* <Accordion
-        title={
-          <h2 className="font-roboto_condensed text-[20px] font-bold leading-[1.2]">
-            Категория
-          </h2>
-        }
-      >
-        <FilterCheckboxList
-          items={categories}
-          value={filters.categories}
-          onChange={(value) => updateFilter("categories", value)}
-        />
-      </Accordion>
-      <Accordion
-        title={
-          <h2 className="font-roboto_condensed text-[20px] font-bold leading-[1.2]">
-            Бренд
-          </h2>
-        }
-        defaultOpen={false}
-      >
-        <FilterCheckboxList
-          items={brands}
-          value={filters.brands}
-          onChange={(value) => updateFilter("brands", value)}
-        />
-      </Accordion> */}
+      {categories.length > 0 && (
+        <Accordion
+          title={
+            <h2 className="font-roboto_condensed text-[20px] font-bold leading-[1.2]">
+              Категория
+            </h2>
+          }
+        >
+          <FilterCheckboxList
+            items={categories.filter((item) => item.id !== String(categoryId))}
+            value={filters.categories}
+            onChange={(value) => updateFilter("categories", value)}
+          />
+        </Accordion>
+      )}
 
-      <Accordion
-        title={
-          <h2 className="font-roboto_condensed text-[20px] font-bold leading-[1.2]">
-            Пол
-          </h2>
-        }
+      {brands.length > 0 && (
+        <Accordion
+          title={
+            <h2 className="font-roboto_condensed text-[20px] font-bold leading-[1.2]">
+              Бренд
+            </h2>
+          }
+          defaultOpen={false}
+        >
+          <FilterCheckboxList
+            items={brands}
+            value={filters.brandIds}
+            onChange={(value) => updateFilter("brandIds", value)}
+          />
+        </Accordion>
+      )}
 
-      >
-        <FilterCheckboxList
-          items={genders}
-          value={filters.genders}
-          onChange={(value) => updateFilter("genders", value as string[])}
-        />
-      </Accordion>
+      {genders.length > 0 && (
+        <Accordion
+          title={
+            <h2 className="font-roboto_condensed text-[20px] font-bold leading-[1.2]">
+              Пол
+            </h2>
+          }
+          defaultOpen={false}
+        >
+          <FilterCheckboxList
+            items={genders}
+            value={filters.fitIds}
+            onChange={(value) => updateFilter("fitIds", value)}
+          />
+        </Accordion>
+      )}
 
-      {/* <Accordion
-        title={
-          <h2 className="font-roboto_condensed text-[20px] font-bold leading-[1.2]">
-            Российский размер обуви
-          </h2>
-        }
-        defaultOpen={false}
-      >
-        <FilterCheckboxList
-          items={russianSizes}
-          value={filters.sizes}
-          onChange={(value) => updateFilter("sizes", value)}
-        />
-      </Accordion> */}
+      {russianSizes.length > 0 && (
+        <Accordion
+          title={
+            <h2 className="font-roboto_condensed text-[20px] font-bold leading-[1.2]">
+              Российский размер обуви
+            </h2>
+          }
+          defaultOpen={false}
+        >
+          <FilterCheckboxList
+            items={russianSizes}
+            value={filters.sizes}
+            onChange={(value) => updateFilter("sizes", value)}
+          />
+        </Accordion>
+      )}
+
       <Accordion
         title={
           <h2 className="font-roboto_condensed text-[20px] font-bold leading-[1.2]">

@@ -5,6 +5,7 @@ import Reviews from "./Reviews";
 import SizeFinder from "./SizeFinder";
 import Description from "./Description";
 import ProductDetails from "./ProductDetails";
+import { ProductInfoResponseDto } from "@/shared/api/openapi";
 
 const productMedias = [
   {
@@ -94,27 +95,39 @@ const productMedias = [
   },
 ];
 
-const ProductLeft = () => {
+interface ProductLeftProps {
+  productData: ProductInfoResponseDto;
+}
+
+const ProductLeft = ({ productData }: ProductLeftProps) => {
   return (
     <div>
-      <Gallery medias={productMedias} />
+      <Gallery imageModels={productData.imageModels} />
       <Reviews />
       <SizeFinder />
-      <AboutProduct />
-      <ProductDetails />
-      <Description />
-      <div className="mt-10">
-        <h2 className="text-[24px] leading-[100%] font-bold font-roboto_condensed">
-          Подтверждено ДЭВУ
-        </h2>
-        <Link href="/about-us" className="mt-5 block">
-          <img
-            className="aspect-5/2 object-contain"
-            src="https://cdn-img.thepoizon.ru/node-common/84c40af4-aefb-dda7-1f7b-5a57d4023c60-1800-720.jpg?x-oss-process=image/resize,s_720/format,webp"
-            alt=""
-          />
-        </Link>
-      </div>
+      <AboutProduct
+        propertyModule={productData.propertyModule}
+        seriesItemsModel={productData.seriesItemsModel}
+        brandItemsModel={productData.brandItemsModel}
+      />
+      {productData.detailImageList && <ProductDetails detailImageList={productData.detailImageList} />}
+      {productData.detailTextModule && (
+        <Description detailTextModule={productData.detailTextModule} />
+      )}
+      {productData.authenticatedGuaranteeModule && (
+        <div className="mt-10">
+          <h2 className="text-[24px] leading-[100%] font-bold font-roboto_condensed">
+            {productData.authenticatedGuaranteeModule.title}
+          </h2>
+          <Link href="/about-us" className="mt-5 block">
+            <img
+              className="aspect-5/2 object-contain"
+              src={productData.authenticatedGuaranteeModule.url}
+              alt=""
+            />
+          </Link>
+        </div>
+      )}
     </div>
   );
 };

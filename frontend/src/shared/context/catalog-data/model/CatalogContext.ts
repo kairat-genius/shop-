@@ -1,8 +1,8 @@
-import type { CategoryTreeResponse } from "@/types/category-slug.type";
+import { CategoryTreeResponseDto } from "@/shared/api/openapi";
 import { createContext } from "react";
 
 interface CatalogContextType {
-  categoryData: CategoryTreeResponse;
+  categoryData: CategoryTreeResponseDto;
 }
 
 export const CatalogContext = createContext<CatalogContextType | undefined>(

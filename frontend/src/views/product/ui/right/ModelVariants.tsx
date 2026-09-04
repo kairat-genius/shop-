@@ -77,11 +77,26 @@ const variants = [
   },
 ];
 
-const ModelVariants = () => (
+interface ModelVariantsProps {
+  seriesDialogModel: {
+    seriesSpuList: {
+      spuId: number;
+      logoUrl: string;
+    }[];
+    dialogTitle: string;
+    spuCount: number;
+    dialogSeriesTitle: string;
+    seriesId: number;
+    dialogSeriesSpuCnt: string;
+  };
+  productId: number;
+}
+
+const ModelVariants = ({ seriesDialogModel, productId }: ModelVariantsProps) => (
   <div className="">
     <div className="flex items-center justify-between mb-3">
       <div className="font-roboto_condensed font-bold text-[16px] leading-4">
-        Модель Hyperdunk 2017 ({variants.length} товаров)
+        {seriesDialogModel.dialogTitle}
       </div>
       <button>
         <Icon
@@ -93,17 +108,17 @@ const ModelVariants = () => (
       </button>
     </div>
     <div className="grid grid-cols-6">
-      {variants.map((item) => (
+      {seriesDialogModel.seriesSpuList.map((item) => (
         <Button
-          key={item.alt}
+          key={item.spuId}
           className={cn(
             "border shrink-0",
-            item.is_current
+            item.spuId === productId
               ? "border-slate-950"
               : "border-[rgba(20,21,26,0.03)]",
           )}
         >
-          <img className="aspect-square" src={item.image} alt={item.alt} />
+          <img className="aspect-square" src={item.logoUrl} alt="" />
         </Button>
       ))}
     </div>

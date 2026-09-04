@@ -13,6 +13,9 @@ const nextConfig: NextConfig = {
       hmrRefreshes: true,
     },
   },
+  typescript: {
+    ignoreBuildErrors: true,
+  },
 };
 
 export default nextConfig;

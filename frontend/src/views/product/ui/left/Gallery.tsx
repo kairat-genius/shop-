@@ -14,16 +14,13 @@ import type { Swiper as SwiperType } from "swiper";
 
 import { Button } from "@/shared/ui/action";
 import Icon from "@/shared/icon";
+import type { SaleImagesDto } from "@/shared/api/openapi";
 
 interface GalleryProps {
-  medias: {
-    file: string;
-    media_type: string;
-    preview_file: string | null;
-  }[];
+  imageModels: SaleImagesDto[];
 }
 
-const Gallery = ({ medias }: GalleryProps) => {
+const Gallery = ({ imageModels }: GalleryProps) => {
   const [thumbsSwiper, setThumbsSwiper] = useState<SwiperType | null>(null);
   const mainSwiperRef = useRef<SwiperType | null>(null);
 
@@ -40,18 +37,14 @@ const Gallery = ({ medias }: GalleryProps) => {
           watchSlidesProgress
           modules={[Thumbs, FreeMode]}
         >
-          {medias.map((item, index) => (
+          {imageModels.map((item, index) => (
             <SwiperSlide
               key={index}
               onMouseEnter={() => mainSwiperRef.current?.slideTo(index, 300)}
               className="max-h-[3.8rem] w-[3.8rem] h-[3.8rem] rounded-sm border border-slate-100 [&.swiper-slide-thumb-active]:border-[1.3px] [&.swiper-slide-thumb-active]:border-slate-950 overflow-hidden"
             >
               <img
-                src={
-                  (item.media_type === "video"
-                    ? item.preview_file
-                    : item.file) || ""
-                }
+                src={item.url}
                 alt=""
                 width={73}
                 height={73}
@@ -80,14 +73,10 @@ const Gallery = ({ medias }: GalleryProps) => {
           prevEl: ".gallery-prev",
         }}
       >
-        {medias.map((item, index) => (
+        {imageModels.map((item, index) => (
           <SwiperSlide key={index}>
               <img
-                src={
-                  (item.media_type === "video"
-                    ? item.preview_file
-                    : item.file) || ""
-                }
+                src={item.url}
                 alt=""
                 height={520}
                 width={520}

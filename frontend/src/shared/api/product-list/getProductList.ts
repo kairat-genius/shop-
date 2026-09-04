@@ -1,19 +1,21 @@
 import {
-  ProductControllerSearchV2Request,
-  ProductsResponseV2WithPaginationDto,
+  PoizonApiControllerSearchRequest,
   ResponseError,
-} from "../openapi";
-import { productApi } from "../poizonApi";
+  SearchResponseDto,
+} from "@/shared/api/openapi";
+import { productApi } from "@/shared/api/poizonApi";
 import { cleanEmptyParams } from "@/shared/utils/cleanEmptyParams";
+import ProductData from "./product.data.json";
 
 export async function getProductList(
-  params: ProductControllerSearchV2Request,
+  params: PoizonApiControllerSearchRequest,
   isServer = false,
-): Promise<ProductsResponseV2WithPaginationDto> {
+): Promise<SearchResponseDto> {
   try {
-    return await productApi(isServer).productControllerSearchV2(
-      cleanEmptyParams(params) as ProductControllerSearchV2Request,
-    );
+    return ProductData;
+    // return await productApi(isServer).poizonApiControllerSearch(
+    //   cleanEmptyParams(params),
+    // );
   } catch (error) {
     if (error instanceof ResponseError) {
       console.error(

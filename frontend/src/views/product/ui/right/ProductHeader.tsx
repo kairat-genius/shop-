@@ -4,22 +4,37 @@ import Icon from "@/shared/icon";
 import { Button } from "@/shared/ui/action";
 import { useState } from "react";
 import dynamic from "next/dynamic";
+import { PriceDto } from "@/shared/api/openapi";
 
 const PriceInfoModal = dynamic(() => import("../modal/PriceInfoModal"), {
   ssr: false,
 });
 
-const ProductHeader = () => {
+interface ProductHeaderProps {
+  price: PriceDto;
+  rankingModule?: {
+    rankingList: [
+      {
+        icon: string;
+        name: string;
+        rank: string;
+        id: number;
+        url: string;
+      },
+    ];
+  };
+}
+
+const ProductHeader = ({ price, rankingModule }: ProductHeaderProps) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const rankingList = rankingModule?.rankingList ?? [];
   return (
     <>
-      <h1 className="font-roboto_condensed text-[20px] font-bold mt-0.5 leading-[1.2]">
-        Nike Hyperdunk 2017 Low Топ Баскетбольные кроссовки Мужские Розовые
-      </h1>
       <div className="flex flex-wrap justify-between items-center mt-2">
         <div className="flex items-center gap-0.5">
           <div className="text-[24px] font-bold font-roboto_condensed leading-7">
-            6&nbsp;777&nbsp;₽
+            {price.amountText} {price.symbol}
           </div>
           <Button
             className="text-slate-500"
@@ -39,27 +54,31 @@ const ProductHeader = () => {
         </Button>
       </div>
       <div className="flex items-center gap-1.5 mt-2">
-        <Link
-          className="px-1 py-0.5 flex items-center rounded-xs text-[12px] leading-[1.2] border border-slate-200 text-slate-500"
-          href="/ranking/hot-picks-nike-basketball-72?spuId=8900150153356263&amp;rank=%E2%84%961&amp;track_referer_page_id=2301"
-          target="_blank"
-        >
-          <img
-            className="aspect-square mr-0.5"
-            width={14}
-            height={14}
-            src="https://cdn-img.thepoizon.ru/node-common/03bf4860-cd8f-d56b-8ff5-cefbfe6ef458-42-42.png?x-oss-process=image/format,webp"
-            alt="ranking"
-          />
-          <div className="font-roboto_condensed font-semibold opacity-[.7] mr-0.5">
-            №1
-          </div>
-          <div className="font-light">В тренде: Nike Баскетбол</div>
-          <Icon icon="chevron-right" width={12} height={12} />
-        </Link>
-        <div className="px-1 py-0.5 rounded-xs text-[12px] leading-[1.2] font-light border border-slate-200 text-slate-500">
-          Лучшая цена за 30 дней
-        </div>
+        {rankingList.map((rankInfo) => (
+          <Link
+            key={rankInfo.id}
+            className="px-1 py-0.5 flex items-center rounded-xs text-[12px] leading-[1.2] border border-slate-200 text-slate-500"
+            href={rankInfo.url || "#"}
+            target="_blank"
+          >
+            {rankInfo.icon && (
+              <img
+                className="aspect-square mr-0.5"
+                width={14}
+                height={14}
+                src={rankInfo.icon}
+                alt={rankInfo.name || "ranking"}
+              />
+            )}
+            {rankInfo.rank && (
+              <div className="font-roboto_condensed font-semibold opacity-[.7] mr-0.5">
+                {rankInfo.rank}
+              </div>
+            )}
+            {rankInfo.name && <div className="font-light">{rankInfo.name}</div>}
+            <Icon icon="chevron-right" width={12} height={12} />
+          </Link>
+        ))}
       </div>
       <Link
         href="/about-us"

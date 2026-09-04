@@ -18,7 +18,6 @@ interface FilterCheckboxListProps {
   value: FilterCheckboxValue[];
   onChange?: (value: FilterCheckboxValue[]) => void;
 }
-
 const MAX_VISIBLE = 7;
 
 const FilterCheckboxList = ({
@@ -32,7 +31,7 @@ const FilterCheckboxList = ({
     () => (expanded ? items : items.slice(0, MAX_VISIBLE)),
     [expanded, items],
   );
-
+  
   const handleToggle = (id: FilterCheckboxValue) => {
     const newValue = value.includes(id)
       ? value.filter((item) => item !== id)
@@ -69,3 +68,4 @@ const FilterCheckboxList = ({
 };
 
 export default FilterCheckboxList;
+

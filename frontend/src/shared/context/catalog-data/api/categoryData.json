@@ -1,0 +1,584 @@
+{
+  "categories": [
+    {
+      "id": "500000091",
+      "name": "Кроссовки",
+      "groups": [
+        {
+          "title": "Категория",
+          "items": [
+            {
+              "id": "500000369",
+              "name": "Баскетбол",
+              "imageUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251208/bf61002f47f740bc9e12d8007e856e14.jpg"
+            },
+            {
+              "id": "500000373",
+              "name": "Лайфстайл",
+              "imageUrl": "https://cdn-img.thepoizon.ru/noah/og/3d3459c7-92f2-4902-8389-05a4473e3428.png"
+            },
+            {
+              "id": "500000377",
+              "name": "Тренировки",
+              "imageUrl": "https://cdn-img.thepoizon.ru/noah/og/b697ccac-6f5a-48c8-8896-9fb5a8f05af6.png"
+            },
+            {
+              "id": "500000371",
+              "name": "Скейтбординг",
+              "imageUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251213/6b8d7997385e48b6b5911d4484376980.jpg"
+            },
+            {
+              "id": "500000379",
+              "name": "Бутсы",
+              "imageUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251211/f8428ef023284f4fadb0768dc302595c.jpg"
+            },
+            {
+              "id": "500000381",
+              "name": "Туризм и активный отдых",
+              "imageUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251208/fc3fbd4d6fb84200abbb0218fc37d654.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "500000106",
+      "name": "Обувь",
+      "groups": [
+        {
+          "title": "Категория",
+          "items": [
+            {
+              "id": "500000399",
+              "name": "Туфли",
+              "imageUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251212/51656fd734d4425da8c95b122ada1008.jpg"
+            },
+            {
+              "id": "500000618",
+              "name": "Повседневная кожаная обувь",
+              "imageUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251212/01def4c0d50c4f35b4e1c8ccca76e0a1.jpg"
+            },
+            {
+              "id": "500000384",
+              "name": "Ботинки для активного отдыха",
+              "imageUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251209/eb18300550fd4d9ea4c80ec569f7ae55.jpg"
+            },
+            {
+              "id": "500000386",
+              "name": "Челси",
+              "imageUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251213/788b782409d948959f3a4faa23197b8c.jpg"
+            },
+            {
+              "id": "500000394",
+              "name": "Высокие каблуки",
+              "imageUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260114/f3f45bc8c32945aa83fc2c6e5a6f0ad4.jpg"
+            },
+            {
+              "id": "500000390",
+              "name": "Балетки",
+              "imageUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251214/a885dbcd2a3748f195a04c21e1bef73b.jpg"
+            },
+            {
+              "id": "500000383",
+              "name": "Ботильоны",
+              "imageUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251212/4c2f22dd36c34a2196380d9e9924bf58.jpg"
+            },
+            {
+              "id": "500000619",
+              "name": "Обувь Birkenstock",
+              "imageUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251214/cca63345aabb491d9aeec81fe5e183e2.jpg"
+            },
+            {
+              "id": "500000387",
+              "name": "Сноубутсы",
+              "imageUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251208/02da425f504b48a7a6aba7f7e992297c.jpg"
+            },
+            {
+              "id": "500000397",
+              "name": "Шлепанцы",
+              "imageUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251214/afc4f15af68f4829a33852df0a63c22c.jpg"
+            },
+            {
+              "id": "500000396",
+              "name": "Сандалии",
+              "imageUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251213/a4d6d745d9eb4facb51f0b85bb9ba2f5.jpg"
+            },
+            {
+              "id": "500000385",
+              "name": "Сапоги",
+              "imageUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251217/9838b20e375a4ede9b96c3826dc97784.jpg"
+            },
+            {
+              "id": "500000388",
+              "name": "Другие ботинки",
+              "imageUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251213/e2da6379865047528b403c388222dacb.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "500000125",
+      "name": "Одежда",
+      "groups": [
+        {
+          "title": "Верхняя часть",
+          "level2Id": "500000265001",
+          "items": [
+            {
+              "id": "500000266",
+              "name": "Куртки и пальто для активного отдыха",
+              "imageUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20250331/ce26a275c6df4f0fa6e7e0a4792b2607.jpg"
+            },
+            {
+              "id": "500000306",
+              "name": "Спортивные топы",
+              "imageUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260724/5db9e936dd974ce6a9abb74ac0a3357e.jpg"
+            },
+            {
+              "id": "500000277",
+              "name": "Свитеры и трикотаж",
+              "imageUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20250424/92c3e538f15341f8837fa3c7fbb4f9ad.jpg"
+            },
+            {
+              "id": "500000281",
+              "name": "Футболки",
+              "imageUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260617/b4e3f7ef303c452798ebfe976087bae1.jpg"
+            },
+            {
+              "id": "500000279",
+              "name": "Поло",
+              "imageUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20250325/5ecf74cfd89a43a3a45fc2493125e644.jpg"
+            },
+            {
+              "id": "500000268",
+              "name": "Жилеты и безрукавки",
+              "imageUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20250331/7d7d215ab44c40c5abfcd2edd77b96ac.jpg"
+            },
+            {
+              "id": "500000269",
+              "name": "Пуховые куртки",
+              "imageUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20250401/4c68b74f86704ce6bb818c58f43ed0e7.jpg"
+            },
+            {
+              "id": "500000303",
+              "name": "Джерси",
+              "imageUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20250410/b8bf5f58add140c29633c9de62999e07.jpg"
+            },
+            {
+              "id": "500000271",
+              "name": "Бейсбольные куртки",
+              "imageUrl": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20250402/ce9ca81846754be1ae09f3cc82bc252a.png"
+            },
+            {
+              "id": "500000282",
+              "name": "Жилеты и майки",
+              "imageUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20250327/ddc8ee6de54345fb89c5d049f7f837c3.jpg"
+            },
+            {
+              "id": "500000264",
+              "name": "Свитшоты и худи",
+              "imageUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20221007/3d0d5f3afdfd43f389399190fdb71a0b.jpg"
+            },
+            {
+              "id": "500000275",
+              "name": "Пальто",
+              "imageUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260813/a57ef5de53d24309adbf33e8dd50895f.png"
+            },
+            {
+              "id": "500000307",
+              "name": "Спортивное белье",
+              "imageUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260514/1470756d008745c6af52b186b5bd0c65.jpg"
+            },
+            {
+              "id": "500000273",
+              "name": "Тренчкот",
+              "imageUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20250405/d58161406f3c4dfabe8003626d01fdae.jpg"
+            },
+            {
+              "id": "500000267",
+              "name": "Пиджаки",
+              "imageUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20250401/7714a4d542b44c85a1f363b905b1cb27.jpg"
+            },
+            {
+              "id": "500000280",
+              "name": "Рубашки и блузки",
+              "imageUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20250917/82e1a51e54cf4fc981826b5856686ba8.jpg"
+            },
+            {
+              "id": "500000272",
+              "name": "Парки",
+              "imageUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20250828/e9d5d0ebc8fe436884e6c124e4ecac9b.jpg"
+            },
+            {
+              "id": "500000270",
+              "name": "Утепленные пальто",
+              "imageUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20250402/85143bc88e504ba6a1851b3632bf0117.jpg"
+            },
+            {
+              "id": "500000284",
+              "name": "Джинсовые куртки",
+              "imageUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20250331/18c7762910264c9cb2405ab142c3a428.jpg"
+            }
+          ]
+        },
+        {
+          "title": "Прочее",
+          "level2Id": "500000283302",
+          "items": [
+            {
+              "id": "500000400",
+              "name": "Домашняя одежда",
+              "imageUrl": "https://cdn-img.thepoizon.ru/noah/og/20d9904d-65e6-41e3-a684-35aab3d7384b.png"
+            },
+            {
+              "id": "500000310",
+              "name": "Носки",
+              "imageUrl": "https://cdn-img.thepoizon.ru/noah/og/9f08910d-425f-4ac3-ac63-1868271d2560.png"
+            },
+            {
+              "id": "500000301",
+              "name": "Соответствующие комплекты",
+              "imageUrl": "https://cdn-img.thepoizon.ru/noah/og/92016a0d-93c5-4dfa-ae22-724124c180be.png"
+            },
+            {
+              "id": "500000305",
+              "name": "Спортивные комплекты",
+              "imageUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20250411/cc578cd0a5144a9cbc9c7a775c9a75e9.jpg"
+            },
+            {
+              "id": "500000298",
+              "name": "Платья",
+              "imageUrl": "https://cdn-img.thepoizon.ru/noah/og/f17cc976-4a50-41e6-9693-bd62cd7cb7ee.png"
+            },
+            {
+              "id": "500000314",
+              "name": "Купальники",
+              "imageUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20250425/d6b9548121104f44a6c2b62aa022a477.jpg"
+            },
+            {
+              "id": "500000308",
+              "name": "Лыжная одежда",
+              "imageUrl": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20250905/1a160a63a5134c60bcd155f363173503.jpg"
+            },
+            {
+              "id": "500000300",
+              "name": "Комбинезоны",
+              "imageUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260730/ce516479a6f24566a10c19fb4ba728ff.jpg"
+            },
+            {
+              "id": "500000286",
+              "name": "Джинсовые платья и юбки",
+              "imageUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20250423/344715c4a5ba4b428c5b322e25a0e292.png"
+            },
+            {
+              "id": "500000636",
+              "name": "Одежда для танцев",
+              "imageUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260321/2ac9b6951da74f40a4af6bf8d8547288.jpg"
+            }
+          ]
+        },
+        {
+          "title": "Нижняя часть",
+          "level2Id": "500000278288",
+          "items": [
+            {
+              "id": "500000292",
+              "name": "Спортивные брюки",
+              "imageUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20250406/9cbed28277f9474b8b7513810a58de82.jpg"
+            },
+            {
+              "id": "500000304",
+              "name": "Спортивные штаны",
+              "imageUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20250409/d9c70f118b7a4bda99fada7f7ff4429e.jpg"
+            },
+            {
+              "id": "500000289",
+              "name": "Брюки карго",
+              "imageUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260311/5c2f84446ab04dd8a7402e49e18e35c6.jpg"
+            },
+            {
+              "id": "500000293",
+              "name": "Другие брюки",
+              "imageUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20250704/9d0a9af0bc1e4c7aae5bbdffe94c573a.jpg"
+            },
+            {
+              "id": "500000290",
+              "name": "Чиносы",
+              "imageUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260731/43ed613cf77e4dc99ba6288ee3f6659b.jpg"
+            },
+            {
+              "id": "500000295",
+              "name": "Шорты",
+              "imageUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20250408/2b9f1df952254526b63a3c25efbca84b.jpg"
+            },
+            {
+              "id": "500000296",
+              "name": "Юбки",
+              "imageUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20250806/ee0b256340064de2838fe1a1aa764d67.jpg"
+            },
+            {
+              "id": "500000313",
+              "name": "Плавательные и пляжные шорты",
+              "imageUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20250410/d6e191ab60c342b1adbbf82b91cda5f7.jpg"
+            },
+            {
+              "id": "500000285",
+              "name": "Джинсовые шорты",
+              "imageUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20250703/b76a8e099af74407836166c6c66ac691.png"
+            },
+            {
+              "id": "500000291",
+              "name": "Леггинсы",
+              "imageUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20250410/8dd3d5441ddd4d97b518b5a7b3f10583.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "500000178",
+      "name": "Сумки",
+      "groups": [
+        {
+          "title": "Категория",
+          "items": [
+            {
+              "id": "500000320",
+              "name": "Сумки кросс-боди",
+              "imageUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20240516/726a1d9bfa7f4a59b366e80545f8d27f.jpg"
+            },
+            {
+              "id": "500000322",
+              "name": "Рюкзаки",
+              "imageUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260813/d7e977ced0bd4c6686482673e3509d9b.png"
+            },
+            {
+              "id": "500000318",
+              "name": "Ручные сумки",
+              "imageUrl": "https://cdn-img.thepoizon.ru/noah/og/9a9dcb72-7a04-469d-8a98-5c59bf5ef76b.png"
+            },
+            {
+              "id": "500000324",
+              "name": "Поясные сумки",
+              "imageUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20230627/95b9e49a111f4ebba00a6625e85d265e.jpg"
+            },
+            {
+              "id": "500000328",
+              "name": "Даффлы",
+              "imageUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20250718/75a7bcfa5e7a4155a31ce83ec5229a9e.jpg"
+            },
+            {
+              "id": "500000598",
+              "name": "Outdoor bags",
+              "imageUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20220521/5004d642024d42cc934efb0421219fb3.jpg"
+            },
+            {
+              "id": "500000331",
+              "name": "Другие сумки",
+              "imageUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20241009/e75e2255784442be8dab7c478857af45.jpg"
+            },
+            {
+              "id": "500000602",
+              "name": "Вставки для сумок",
+              "imageUrl": "https://cdn-img.thepoizon.ru/noah/og/074ca822-cc4c-48fd-9db9-11a8ee6a341e.png"
+            },
+            {
+              "id": "500000329",
+              "name": "Дорожные сумки",
+              "imageUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20230524/b35c9717c89b4438a23303cb20cfd002.jpg"
+            },
+            {
+              "id": "500000601",
+              "name": "Сумки-тележки",
+              "imageUrl": "https://cdn-img.thepoizon.ru/noah/og/817ce960-6652-442e-99fb-d0159d8e9e48.png"
+            },
+            {
+              "id": "500000326",
+              "name": "Клатчи и наручные кошельки",
+              "imageUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20250617/b201ba71c4d14da4a542ce8014db4278.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "500000196",
+      "name": "Аксессуары",
+      "groups": [
+        {
+          "title": "Категория",
+          "items": [
+            {
+              "id": "500000339",
+              "name": "Серьги",
+              "imageUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260530/f635d20586354c43983d4c2a5d398c33.jpg"
+            },
+            {
+              "id": "500000341",
+              "name": "Кепки",
+              "imageUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260604/f1ecbb6667374972bac37bdb6f74bcbb.jpg"
+            },
+            {
+              "id": "500000335",
+              "name": "Кольца",
+              "imageUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20250627/8305c9fa385b451d8b61c60a4e7d0619.jpg"
+            },
+            {
+              "id": "500000342",
+              "name": "Шапки-бини",
+              "imageUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20221111/ac6aee728a6d4239829c47abcc05c63f.jpg"
+            },
+            {
+              "id": "500000354",
+              "name": "Кошельки и мешочки",
+              "imageUrl": "https://cdn-img.thepoizon.ru/noah/og/a7f93e8e-a763-4817-ab5c-a416d0c56767.png"
+            },
+            {
+              "id": "500000337",
+              "name": "Браслеты",
+              "imageUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20230310/6f10bb6a97ee47a6aca6df6a496361ef.jpg"
+            },
+            {
+              "id": "500000366",
+              "name": "Модные аксессуары",
+              "imageUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20250316/9689fa2043064d4a9db69f5a9946a23f.png"
+            },
+            {
+              "id": "500000357",
+              "name": "Ремни",
+              "imageUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20250407/199d11ffae0a452b89476e312a8c8cd9.jpg"
+            },
+            {
+              "id": "500000333",
+              "name": "Ожерелья и подвески",
+              "imageUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20250704/7adcbae31cba4ccbbdee40acca6e3b49.jpg"
+            },
+            {
+              "id": "500000343",
+              "name": "Шапки с козырьком",
+              "imageUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260714/0335fb258d0541a092576f360c8d8a45.jpg"
+            },
+            {
+              "id": "500000345",
+              "name": "Другие головные уборы",
+              "imageUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20240702/c1583e57aadb40c7bbc249a1d80aec45.jpg"
+            },
+            {
+              "id": "500000359",
+              "name": "Брелоки",
+              "imageUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20250217/a99a2359c3954dfd98166e2187216683.jpg"
+            },
+            {
+              "id": "500000347",
+              "name": "Шарфы и шали",
+              "imageUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20231120/0f2058ff53034750b9c59e8b85c79810.jpg"
+            },
+            {
+              "id": "500000344",
+              "name": "Панамы",
+              "imageUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20230307/8533b9b2e1004c30bd0ce2480601aceb.jpg"
+            },
+            {
+              "id": "500000363",
+              "name": "Аксессуары для волос",
+              "imageUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260527/4e5c880f6a01434bba7e30f9fa82ebbe.jpg"
+            },
+            {
+              "id": "500000634",
+              "name": "Стельки",
+              "imageUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20241210/5c9940545731448aa6be7aa73ae7fdbd.jpg"
+            },
+            {
+              "id": "500000351",
+              "name": "Солнцезащитные очки",
+              "imageUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20250616/04097622127c4701b19aa924f162c57d.jpg"
+            },
+            {
+              "id": "500000352",
+              "name": "Очки и оправы",
+              "imageUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20230907/814eb42193e04555afebdf3c383601db.png"
+            },
+            {
+              "id": "500000349",
+              "name": "Перчатки",
+              "imageUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20231226/77b4aab0caaa448a914263ce7dca7c1c.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "500000230",
+      "name": "Игрушки",
+      "groups": [
+        {
+          "title": "Категория",
+          "items": [
+            {
+              "id": "500000724",
+              "name": "Коллекционные карточки и прочее",
+              "imageUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20250418/76fa8bdb91db4f3c8a20e56e0f5243a1.png"
+            },
+            {
+              "id": "500000749",
+              "name": "Слепые коробки",
+              "imageUrl": "https://cdn-img.thepoizon.ru/stark/stark-web/68029173/5bebdcd3c27d7e55ee6c1106314db447.png"
+            },
+            {
+              "id": "500000234",
+              "name": "Куклы",
+              "imageUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20250304/a43ad48385f94e6eb71151fff596e14a.jpg"
+            },
+            {
+              "id": "500000707",
+              "name": "Головоломки",
+              "imageUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20250429/645e49f5c79a49908ff488ab2dbab119.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "500000593",
+      "name": "Красота и уход",
+      "groups": [
+        {
+          "title": "Категория",
+          "items": [
+            {
+              "id": "500000720",
+              "name": "Уход за лицом",
+              "imageUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260826/4a6192bad328460180bd9cbd076e6a3c.png"
+            },
+            {
+              "id": "500000719",
+              "name": "Уход за телом",
+              "imageUrl": "https://cdn-img.thepoizon.ru/noah/og/69353cee-0c33-4fc3-bc32-c7c3dd5b19cc.png"
+            },
+            {
+              "id": "500000698",
+              "name": "Инструменты для укладки и ухода за волосами",
+              "imageUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20241129/834b269c0b7145e9a9d0574ec203192e.jpg"
+            },
+            {
+              "id": "500000722",
+              "name": "Женская гигиена",
+              "imageUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20241024/58c2669cb55c401c955de8ef379021ca.jpg"
+            },
+            {
+              "id": "500000597",
+              "name": "Косметические инструменты",
+              "imageUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20250331/2f0cca694e1f4605a988616f675c4eb0.png"
+            },
+            {
+              "id": "500000595",
+              "name": "Зубные щетки",
+              "imageUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20250310/84d01f259f0e4343a13479ff05e7cb0c.jpg"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

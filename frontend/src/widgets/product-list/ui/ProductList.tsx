@@ -1,5 +1,4 @@
 "use client";
-import { ProductsResponseV2WithPaginationDto } from "@/shared/api/openapi";
 import FilterAside from "./FilterAside";
 import { useProductList } from "../model/useProductList";
 import { useRef } from "react";
@@ -8,34 +7,40 @@ import ProductCard, { ProductCardSkeleton } from "@/entities/product-card";
 import FavoriteButton from "@/features/favorites-button";
 import Icon from "@/shared/icon";
 import Pagination from "@/shared/ui/pagination";
+import type {
+  CategoryFiltersResponseDto,
+  SearchResponseDto,
+} from "@/shared/api/openapi";
 
 interface ProductListProps {
-  category_id: number;
-  initialData: ProductsResponseV2WithPaginationDto;
-  initialTotalCount?: number;
+  initialData: SearchResponseDto;
+  categoryId: string;
+  filtersData: CategoryFiltersResponseDto;
 }
 
 const ProductList = ({
-  category_id,
   initialData,
-  initialTotalCount = initialData.data.length,
+  categoryId,
+  filtersData,
 }: ProductListProps) => {
   const listRef = useRef<HTMLDivElement>(null);
 
   const {
-    productData: { meta, data },
-    totalCount,
+    productData,
     isLoading,
     showSkeleton,
     filters,
     updateFilter,
     updateFilters,
     resetFilters,
-  } = useProductList(category_id, initialData, initialTotalCount);
+  } = useProductList(initialData, categoryId);
+
+  const searchSpuList = productData.searchSpuList;
+  const productItems = searchSpuList.spuList ?? [];
+  const hasProducts = productItems.length > 0;
 
   const handlePageChange = (value: number) => {
     updateFilter("page", value);
-    updateFilter("cursor", value === 1 ? null : (meta.cursor ?? null));
 
     if (listRef.current) {
       const elementTop =
@@ -55,6 +60,8 @@ const ProductList = ({
         filters={filters}
         updateFilter={updateFilter}
         updateFilters={updateFilters}
+        filtersData={filtersData}
+        categoryId={categoryId}
       />
       <div ref={listRef}>
         <ActiveFilters
@@ -62,13 +69,14 @@ const ProductList = ({
           updateFilter={updateFilter}
           updateFilters={updateFilters}
           resetFilters={resetFilters}
+          filtersData={filtersData}
         />
         <div className="grid grid-cols-5 gap-x-[.8rem] gap-y-8">
           {showSkeleton
             ? Array.from({ length: 8 }).map((_, index) => (
                 <ProductCardSkeleton key={index} />
               ))
-            : data.map((item, index) => (
+            : productItems.map((item, index) => (
                 <ProductCard key={index} product={item}>
                   <FavoriteButton className="absolute top-4 right-2 text-slate-500">
                     <Icon icon="heart" className="w-[1.2rem] h-[1.2rem]" />
@@ -76,7 +84,7 @@ const ProductList = ({
                 </ProductCard>
               ))}
 
-          {!isLoading && data.length === 0 && !showSkeleton && (
+          {!isLoading && !showSkeleton && !hasProducts && (
             <div className="col-span-full flex flex-col items-center justify-center py-24 text-center">
               <p className="text-lg font-medium">Товары не найдены</p>
               <p className="mt-2 text-sm text-gray-500">
@@ -87,7 +95,7 @@ const ProductList = ({
         </div>
         <Pagination
           page={filters.page}
-          total={Math.max(1, Math.ceil(totalCount / (meta.limit || 65)))}
+          total={Math.max(1, Math.ceil(searchSpuList.total))}
           onChange={handlePageChange}
           className="mt-19.5"
         />

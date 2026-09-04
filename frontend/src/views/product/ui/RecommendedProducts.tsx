@@ -1,9 +1,9 @@
+'use client'
 import { Button } from "@/shared/ui/action";
 import Icon from "@/shared/icon";
 import ProductCard from "@/entities/product-card";
 import productsData from "@/shared/data/productData.json";
 import FavoriteButton from "@/features/favorites-button";
-import { normalizeHomeProduct } from "@/views/home/ui/HomeView";
 
 const RecommendedProducts = () => {
   return (
@@ -12,7 +12,7 @@ const RecommendedProducts = () => {
         ВАМ ТАКЖЕ МОЖЕТ ПОНРАВИТЬСЯ
       </h2>
       <div className="grid grid-cols-6 mt-5 gap-y-2 gap-x-[.8rem]">
-        {productsData.slice(0, 10).map((product) => (
+        {/* {productsData.slice(0, 10).map((product) => (
           <ProductCard
             key={product.slug}
             product={normalizeHomeProduct(product)}
@@ -21,7 +21,7 @@ const RecommendedProducts = () => {
               <Icon icon="heart" className="w-[1.2rem] h-[1.2rem]" />
             </FavoriteButton>
           </ProductCard>
-        ))}
+        ))} */}
       </div>
       <div className="flex justify-center items-center mt-6">
         <Button className="h-12 border border-slate-950 rounded-sm px-3.75 text-[20px] font-bold font-roboto_condensed gap-1.5">

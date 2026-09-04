@@ -1,77 +1,44 @@
 import { useCallback, useEffect, useRef, useState } from "react";
-import { useFiltersNuqs } from "@/shared/hooks/useNuqsFilter";
-import { getProductList } from "@/shared/api/product-list/getProductList";
-import { getProductListCount } from "@/shared/api/product-list/getProductListCount";
-import {
-  ProductControllerSearchV2CurrencyEnum,
-  ProductControllerSearchV2GendersEnum,
-  ProductControllerSearchV2SortByEnum,
-  ProductControllerSearchV2SourcesEnum,
-  ProductsResponseV2WithPaginationDto,
-} from "@/shared/api/openapi";
+import { useFilter } from "@/widgets/product-list/model/useFilter";
+import { getProductListCategory } from "@/views/category/api/getProductListCategory";
+import { SearchResponseDto } from "@/shared/api/openapi";
 
 export function useProductList(
-  category_id: number,
-  initialData: ProductsResponseV2WithPaginationDto,
-  initialTotalCount = initialData.data.length,
+  initialData: SearchResponseDto,
+  categoryId: string,
 ) {
   const [productData, setProductData] =
-    useState<ProductsResponseV2WithPaginationDto>(initialData);
-  const [totalCount, setTotalCount] = useState<number>(initialTotalCount);
-
+    useState<SearchResponseDto>(initialData);
   const [isLoading, setIsLoading] = useState(false);
   const [showSkeleton, setShowSkeleton] = useState(false);
 
   const { filters, updateFilter, updateFilters, resetFilters } =
-    useFiltersNuqs();
+    useFilter();
 
   const isFirstRender = useRef(true);
 
   const fetchFormList = useCallback(async () => {
     setIsLoading(true);
 
-    if (productData.data.length === 0) {
+    if (productData.searchSpuList.spuList.length === 0) {
       setShowSkeleton(true);
     }
 
     try {
-      const parsedBrands = filters.brands?.map(Number);
-
-      // 2. Конвертируем категории из фильтров в числа (если они есть)
-      const parsedCategories = filters.categories?.map(Number) || [];
-
-      // 3. Объединяем category_id из пропсов с категориями из фильтра,
-      // используя Set, чтобы избежать дубликатов
-      const mergedCategories = [...new Set([...parsedCategories, category_id])];
-
       const requestParams = {
-        ...filters,
-        cursor: filters.cursor ?? undefined,
-        brands: parsedBrands,
-        categories: mergedCategories,
-        limit: 65,
-        currency: "RUB" as ProductControllerSearchV2CurrencyEnum,
-        genders: filters.genders as ProductControllerSearchV2GendersEnum[],
-        priceMin: filters.priceMin ?? undefined,
-        priceMax: filters.priceMax ?? undefined,
-        sortBy: filters.sortBy as ProductControllerSearchV2SortByEnum,
-        sources: ["POIZON"] as ProductControllerSearchV2SourcesEnum[]
+        page: filters.page,
+        pageSize: 65,
+        categoryId: categoryId,
       };
 
-      const [listData, countData] = await Promise.all([
-        getProductList(requestParams, false),
-        getProductListCount(requestParams,
-          false,
-        ),
-      ]);
+      const listData = await getProductListCategory(requestParams, false);
 
       setProductData(listData);
-      setTotalCount(countData.count ?? 0);
     } finally {
       setIsLoading(false);
       setShowSkeleton(false);
     }
-  }, [filters, category_id, productData.data.length]);
+  }, [filters, productData.searchSpuList.spuList.length, categoryId]);
 
   /**
    * 🔥 FETCH EFFECT
@@ -88,11 +55,10 @@ export function useProductList(
 
     return () => clearTimeout(timer);
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [JSON.stringify(filters), category_id]);
+  }, [JSON.stringify(filters)]);
 
   return {
     productData,
-    totalCount,
     isLoading,
     showSkeleton,
     filters,

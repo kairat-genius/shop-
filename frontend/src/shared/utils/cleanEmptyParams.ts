@@ -1,4 +1,7 @@
-export function cleanEmptyParams<T extends object>(params: T): Partial<T> {
+export function cleanEmptyParams<T extends object>(
+  params: T,
+  requiredKeys: (keyof T)[] = [],
+): Partial<T> {
   return Object.fromEntries(
     Object.entries(params as Record<string, unknown>).filter(([, value]) => {
       if (value === undefined || value === null) {

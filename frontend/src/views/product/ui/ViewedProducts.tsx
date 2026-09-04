@@ -7,7 +7,6 @@ import productsData from "@/shared/data/productData.json";
 import FavoriteButton from "@/features/favorites-button";
 import Icon from "@/shared/icon";
 import { Button } from "@/shared/ui/action";
-import { normalizeHomeProduct } from "@/views/home/ui/HomeView";
 
 const ViewedProducts = () => {
   return (
@@ -27,7 +26,7 @@ const ViewedProducts = () => {
           }}
           allowTouchMove={false}
         >
-          {productsData.slice(0, 10).map((product, index) => (
+          {/* {productsData.slice(0, 10).map((product, index) => (
             <SwiperSlide
               key={product.slug}
               className={(index + 1) % 6 === 0 ? "" : "pr-[.8rem]"}
@@ -38,7 +37,7 @@ const ViewedProducts = () => {
                 </FavoriteButton>
               </ProductCard>
             </SwiperSlide>
-          ))}
+          ))} */}
           <Button
             aria-label="prev slide"
             className="z-1 absolute left-0 top-29.25 viewed-prev [&.swiper-button-lock]:hidden"

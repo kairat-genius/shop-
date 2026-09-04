@@ -1,0 +1,3370 @@
+{
+  "searchSpuList": {
+    "noResultsTitle": "Нет результатов для \"\"",
+    "total": 1200,
+    "spuList": [
+      {
+        "saleTag": "Продано 700",
+        "googleProductCategory": "Apparel & Accessories > Shoes",
+        "minSpuPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "10 890 ₽",
+          "money": {
+            "amount": "10890.00",
+            "minUnitVal": 1089000,
+            "currency": "RUB"
+          },
+          "amountText": "10 890",
+          "sign": "+",
+          "absText": "10 890"
+        },
+        "rankingTags": [],
+        "language": "bbmax",
+        "favoriteStatus": 0,
+        "title": "Nike Vomero 18 Дышащие Беговые кроссовки с амортизацией для женщин бежевого цвета",
+        "articleNumber": "HM6804-113",
+        "level1CategoryId": 29,
+        "skuId": 8903698107091762,
+        "imageCutSize": 16,
+        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260325/8e16beaf53ba41a5a8c18ab6103d1fbe.jpg",
+        "url": "/product/nike-vomero-18-running-shoes-women-s-beige-8900286004881762",
+        "displayRecommendLabels": [
+          {
+            "labelSource": 3,
+            "labelIcons": [
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260325/8e16beaf53ba41a5a8c18ab6103d1fbe.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251210/c334af15709b471eb0a283ea7950f40d.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260312/c44abb9ed771452693813a80ab2f5077.jpg"
+            ],
+            "hasMore": true
+          },
+          {
+            "labelSource": 2,
+            "labelId": 93637,
+            "labelText": "С круглым носом"
+          },
+          {
+            "labelSource": 2,
+            "labelId": 93635,
+            "labelText": "Толстая подошва"
+          }
+        ],
+        "contentCategory": 33,
+        "tradingRoles": [
+          0,
+          1
+        ],
+        "trackingInfo": "{\"spuCardTags\":[\"low_correlation\"]}",
+        "brandId": 144,
+        "spuId": 8900286004881762,
+        "level2CategoryId": 30,
+        "sellDate": 0,
+        "labelModel": {
+          "id": 78,
+          "labelName": "trends"
+        },
+        "region": "BBMAX",
+        "globalSpuId": 14021041762,
+        "algoAcmItem": {
+          "requestId": "141b90d4f67527ef",
+          "acm": "1.srh.spuid_8900286004881762.0.游客组.sc_bbmax|trans|product-st_0-os_android-reg_BBMAX-lan_en-cn_0-rid_141b90d4f67527ef-lev_1-acn_0-osc_bbmax|trans|product-ts_1788422166959"
+        },
+        "categoryId": 33,
+        "status": 1
+      },
+      {
+        "saleTag": "Продано 11 тыс.",
+        "googleProductCategory": "Apparel & Accessories > Shoes",
+        "minSpuPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "5 178 ₽",
+          "money": {
+            "amount": "5178.00",
+            "minUnitVal": 517800,
+            "currency": "RUB"
+          },
+          "amountText": "5 178",
+          "sign": "+",
+          "absText": "5 178"
+        },
+        "rankingTags": [],
+        "language": "bbmax",
+        "favoriteStatus": 0,
+        "title": "Li NING Feidian 5 Challenger Дышащий Low Топ Карбоновая плита Бег на длинные дистанции Спринт Гонки Беговые кроссовки",
+        "articleNumber": "ARMV002-27",
+        "level1CategoryId": 29,
+        "skuId": 8901856386239851,
+        "imageCutSize": 16,
+        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251209/d9240ec459cb44af9ca251f99879813f.jpg",
+        "url": "/product/lining-feidian-5-challenger-running-shoes-women-s-low-top-fluorescent-flame-orange-8900157519929851",
+        "displayRecommendLabels": [
+          {
+            "labelSource": 3,
+            "labelIcons": [
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251209/d9240ec459cb44af9ca251f99879813f.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251210/8a8597b192634f579d0c9c9f1070ca83.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251210/109987a143e5449a9261068d7ead296f.jpg"
+            ],
+            "hasMore": true
+          },
+          {
+            "labelSource": 2,
+            "labelId": 93628,
+            "labelText": "Версия 2025 года"
+          },
+          {
+            "labelSource": 2,
+            "labelId": 93635,
+            "labelText": "Толстая подошва"
+          }
+        ],
+        "contentCategory": 33,
+        "tradingRoles": [
+          0,
+          1
+        ],
+        "trackingInfo": "{\"spuCardTags\":[\"low_correlation\"]}",
+        "brandId": 33,
+        "spuId": 8900157519929851,
+        "level2CategoryId": 30,
+        "sellDate": 1760457600000,
+        "labelModel": {
+          "id": 90,
+          "labelName": "MADE IN CHINA"
+        },
+        "region": "BBMAX",
+        "globalSpuId": 14004479851,
+        "algoAcmItem": {
+          "requestId": "141b90d4f67527ef",
+          "acm": "1.srh.spuid_8900157519929851.0.游客组.sc_bbmax|trans|product-st_0-os_android-reg_BBMAX-lan_en-cn_0-rid_141b90d4f67527ef-lev_1-acn_0-osc_bbmax|trans|product-ts_1788422166959"
+        },
+        "categoryId": 33,
+        "status": 1
+      },
+      {
+        "saleTag": "Продано 107",
+        "googleProductCategory": "Apparel & Accessories > Shoes",
+        "minSpuPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "8 195 ₽",
+          "money": {
+            "amount": "8195.00",
+            "minUnitVal": 819500,
+            "currency": "RUB"
+          },
+          "amountText": "8 195",
+          "sign": "+",
+          "absText": "8 195"
+        },
+        "rankingTags": [],
+        "language": "bbmax",
+        "favoriteStatus": 0,
+        "title": "Champion Беговые кроссовки Low Топ Шишечно-коричневый Льняная ткань Мужской",
+        "articleNumber": "U6CFCRM67S1",
+        "level1CategoryId": 29,
+        "skuId": 8904474031156458,
+        "imageCutSize": 16,
+        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260722/a96ef8f3dbc7407285c37ab814877931.jpg",
+        "url": "/product/champion-running-shoes-men-s-low-top-pinecone-brown-linen-8900337507436458",
+        "displayRecommendLabels": [
+          {
+            "labelSource": 3,
+            "labelIcons": [
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251213/bff196785db041f1a313a9751daf902c.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251213/c7ecb9f2c3014ee698279a4c4f4e01c0.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251212/bc13476c357645968cdc51757c31d29f.jpg"
+            ],
+            "hasMore": true
+          },
+          {
+            "labelSource": 2,
+            "labelId": 93635,
+            "labelText": "Без каблука"
+          },
+          {
+            "labelSource": 2,
+            "labelId": 93637,
+            "labelText": "С круглым носом"
+          }
+        ],
+        "contentCategory": 33,
+        "tradingRoles": [
+          0,
+          1
+        ],
+        "trackingInfo": "{\"spuCardTags\":[\"low_correlation\"]}",
+        "brandId": 1310,
+        "spuId": 8900337507436458,
+        "level2CategoryId": 30,
+        "sellDate": 1784822400000,
+        "labelModel": {
+          "id": 78,
+          "labelName": "trends"
+        },
+        "region": "BBMAX",
+        "globalSpuId": 140304154676458,
+        "algoAcmItem": {
+          "requestId": "141b90d4f67527ef",
+          "acm": "1.srh.spuid_8900337507436458.0.游客组.sc_bbmax|trans|product-st_0-os_android-reg_BBMAX-lan_en-cn_0-rid_141b90d4f67527ef-lev_1-acn_0-osc_bbmax|trans|product-ts_1788422166959"
+        },
+        "categoryId": 33,
+        "status": 1
+      },
+      {
+        "saleTag": "Продано 2,8 тыс.",
+        "googleProductCategory": "Apparel & Accessories > Shoes",
+        "minSpuPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "11 156 ₽",
+          "money": {
+            "amount": "11156.00",
+            "minUnitVal": 1115600,
+            "currency": "RUB"
+          },
+          "amountText": "11 156",
+          "sign": "+",
+          "absText": "11 156"
+        },
+        "rankingTags": [],
+        "language": "bbmax",
+        "favoriteStatus": 0,
+        "title": "Adidas Adizero Evo SL визуально увеличивает рост Oтскок Low Топ Марафон Тренировки Легкоатлетические соревнования",
+        "articleNumber": "JR2024",
+        "level1CategoryId": 29,
+        "skuId": 8902592657137109,
+        "imageCutSize": 16,
+        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251201/bf7ea0e870a04fc49644e20220256b90.jpg",
+        "url": "/product/adidas-adizero-evo-sl-breathable-running-shoes-men-s-yellow-8900204099017109",
+        "displayRecommendLabels": [
+          {
+            "labelSource": 3,
+            "labelIcons": [
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251201/bf7ea0e870a04fc49644e20220256b90.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251209/48c0b6f5d848426b9c7ed1c86a949b01.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251210/4fc3c2ea48614b4f9ac55b137b263c1e.jpg"
+            ],
+            "hasMore": true
+          },
+          {
+            "labelSource": 2,
+            "labelId": 93635,
+            "labelText": "Толстая подошва"
+          },
+          {
+            "labelSource": 2,
+            "labelId": 93637,
+            "labelText": "С круглым носом"
+          }
+        ],
+        "contentCategory": 33,
+        "tradingRoles": [
+          0,
+          1
+        ],
+        "trackingInfo": "{\"spuCardTags\":[\"low_correlation\"]}",
+        "brandId": 3,
+        "spuId": 8900204099017109,
+        "level2CategoryId": 30,
+        "sellDate": 1760457600000,
+        "labelModel": {
+          "id": 78,
+          "labelName": "trends"
+        },
+        "region": "BBMAX",
+        "globalSpuId": 14009427109,
+        "algoAcmItem": {
+          "requestId": "141b90d4f67527ef",
+          "acm": "1.srh.spuid_8900204099017109.0.游客组.sc_bbmax|trans|product-st_0-os_android-reg_BBMAX-lan_en-cn_0-rid_141b90d4f67527ef-lev_1-acn_0-osc_bbmax|trans|product-ts_1788422166959"
+        },
+        "categoryId": 33,
+        "status": 1
+      },
+      {
+        "saleTag": "Продано 255",
+        "googleProductCategory": "Apparel & Accessories > Shoes",
+        "minSpuPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "13 901 ₽",
+          "money": {
+            "amount": "13901.00",
+            "minUnitVal": 1390100,
+            "currency": "RUB"
+          },
+          "amountText": "13 901",
+          "sign": "+",
+          "absText": "13 901"
+        },
+        "rankingTags": [],
+        "language": "bbmax",
+        "favoriteStatus": 0,
+        "title": "NIKE Vomero Plus Беговые кроссовки Low Топ Черно-красный Мужской",
+        "articleNumber": "HV8150-017",
+        "level1CategoryId": 29,
+        "skuId": 8904251902047514,
+        "imageCutSize": 16,
+        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260615/eb55fa35699347969e576ef67ab78817.jpg",
+        "url": "/product/nike-vomero-plus-running-shoes-lace-up-red-road-round-tip-rubber-hv8150-017-8900321550827514",
+        "displayRecommendLabels": [
+          {
+            "labelSource": 3,
+            "labelIcons": [
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260615/eb55fa35699347969e576ef67ab78817.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260327/7ebd269fde4943a0b3654a3a03119779.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251218/cc7118f8f0064b15932ec6bbe7957a09.jpg"
+            ],
+            "hasMore": true
+          },
+          {
+            "labelSource": 2,
+            "labelId": 93637,
+            "labelText": "С круглым носом"
+          },
+          {
+            "labelSource": 2,
+            "labelId": 93635,
+            "labelText": "Толстая подошва"
+          }
+        ],
+        "contentCategory": 33,
+        "tradingRoles": [
+          0,
+          1
+        ],
+        "trackingInfo": "{\"spuCardTags\":[\"low_correlation\"]}",
+        "brandId": 144,
+        "spuId": 8900321550827514,
+        "level2CategoryId": 30,
+        "sellDate": 1781452800000,
+        "labelModel": {
+          "id": 78,
+          "labelName": "trends"
+        },
+        "region": "BBMAX",
+        "globalSpuId": 140274440047514,
+        "algoAcmItem": {
+          "requestId": "141b90d4f67527ef",
+          "acm": "1.srh.spuid_8900321550827514.0.游客组.sc_bbmax|trans|product-st_0-os_android-reg_BBMAX-lan_en-cn_0-rid_141b90d4f67527ef-lev_1-acn_0-osc_bbmax|trans|product-ts_1788422166960"
+        },
+        "categoryId": 33,
+        "status": 1
+      },
+      {
+        "saleTag": "Продано 2 тыс.",
+        "googleProductCategory": "Apparel & Accessories > Shoes",
+        "minSpuPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "13 079 ₽",
+          "money": {
+            "amount": "13079.00",
+            "minUnitVal": 1307900,
+            "currency": "RUB"
+          },
+          "amountText": "13 079",
+          "sign": "+",
+          "absText": "13 079"
+        },
+        "rankingTags": [],
+        "language": "bbmax",
+        "favoriteStatus": 0,
+        "title": "New Balance NB 9060 Износостойкий и Легкий Низкий Верх Повседневные Городские Беговые Кроссовки Унисекс Черные",
+        "articleNumber": "U9060ZGE",
+        "level1CategoryId": 29,
+        "skuId": 8901032582591796,
+        "imageCutSize": 16,
+        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251209/571b014517e2427f8630dba367039474.jpg",
+        "url": "/product/new-balance-9060-black-cat-8900102151721796",
+        "displayRecommendLabels": [
+          {
+            "labelSource": 3,
+            "labelIcons": [
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251209/571b014517e2427f8630dba367039474.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251209/cbecb49724314319a169ea280bc96526.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251209/ab7eccae5cbe4cf6b379c16d2fec39f6.jpg"
+            ],
+            "hasMore": true
+          },
+          {
+            "labelSource": 2,
+            "labelId": 93637,
+            "labelText": "С круглым носом"
+          },
+          {
+            "labelSource": 2,
+            "labelId": 93635,
+            "labelText": "Без каблука"
+          }
+        ],
+        "contentCategory": 33,
+        "tradingRoles": [
+          0,
+          1
+        ],
+        "trackingInfo": "{\"spuCardTags\":[\"low_correlation\"]}",
+        "brandId": 4,
+        "spuId": 8900102151721796,
+        "level2CategoryId": 30,
+        "sellDate": 1738857600000,
+        "labelModel": {
+          "id": 78,
+          "labelName": "trends"
+        },
+        "region": "BBMAX",
+        "globalSpuId": 12009131796,
+        "algoAcmItem": {
+          "requestId": "141b90d4f67527ef",
+          "acm": "1.srh.spuid_8900102151721796.0.游客组.sc_bbmax|trans|product-st_0-os_android-reg_BBMAX-lan_en-cn_0-rid_141b90d4f67527ef-lev_1-acn_0-osc_bbmax|trans|product-ts_1788422166960"
+        },
+        "categoryId": 33,
+        "status": 1
+      },
+      {
+        "saleTag": "Продано 832",
+        "googleProductCategory": "Apparel & Accessories > Shoes",
+        "minSpuPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "11 579 ₽",
+          "money": {
+            "amount": "11579.00",
+            "minUnitVal": 1157900,
+            "currency": "RUB"
+          },
+          "amountText": "11 579",
+          "sign": "+",
+          "absText": "11 579"
+        },
+        "rankingTags": [],
+        "language": "bbmax",
+        "favoriteStatus": 0,
+        "title": "asics NOVABLAST 5 Дышащий Low Топ Беговые кроссовки Мужской",
+        "articleNumber": "1011C193-001",
+        "level1CategoryId": 29,
+        "skuId": 8902680789608586,
+        "imageCutSize": 16,
+        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251223/7d66a1304b01447788e45bd141b7861b.jpg",
+        "url": "/product/asics-novablast-5-rebound-low-top-running-shoes-men-s-8900209855968586",
+        "displayRecommendLabels": [
+          {
+            "labelSource": 3,
+            "labelIcons": [
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251223/7d66a1304b01447788e45bd141b7861b.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20250526/95f3856fa0554937884e1aac124f5131.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251210/edf386069f764f33bfe4d9ee4ce9b3f0.jpg"
+            ],
+            "hasMore": true
+          },
+          {
+            "labelSource": 2,
+            "labelId": 93635,
+            "labelText": "Толстая подошва"
+          }
+        ],
+        "contentCategory": 33,
+        "tradingRoles": [
+          0,
+          1
+        ],
+        "trackingInfo": "{\"spuCardTags\":[\"low_correlation\"]}",
+        "brandId": 8,
+        "spuId": 8900209855968586,
+        "level2CategoryId": 30,
+        "sellDate": 1767801600000,
+        "labelModel": {
+          "id": 78,
+          "labelName": "trends"
+        },
+        "region": "BBMAX",
+        "globalSpuId": 14010558586,
+        "algoAcmItem": {
+          "requestId": "141b90d4f67527ef",
+          "acm": "1.srh.spuid_8900209855968586.0.游客组.sc_bbmax|trans|product-st_0-os_android-reg_BBMAX-lan_en-cn_0-rid_141b90d4f67527ef-lev_1-acn_0-osc_bbmax|trans|product-ts_1788422166960"
+        },
+        "categoryId": 33,
+        "status": 1
+      },
+      {
+        "saleTag": "Продано 2,9 тыс.",
+        "googleProductCategory": "Apparel & Accessories > Shoes",
+        "minSpuPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "7 071 ₽",
+          "money": {
+            "amount": "7071.00",
+            "minUnitVal": 707100,
+            "currency": "RUB"
+          },
+          "amountText": "7 071",
+          "sign": "+",
+          "absText": "7 071"
+        },
+        "rankingTags": [],
+        "language": "bbmax",
+        "favoriteStatus": 0,
+        "title": "BMAI Jingtan Fly 2,0 Дышащий Low Топ Беговые кроссовки Мужской Красный желтый Апельсин",
+        "articleNumber": "XRML005-1",
+        "level1CategoryId": 29,
+        "skuId": 8902731013731272,
+        "imageCutSize": 16,
+        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260104/bfbeb8b6bf2847c0b14c3311eaa42f64.jpg",
+        "url": "/product/bmai-jingtan-fly-2-0-cushioning-rebound-support-breathable-low-top-carbon-plate-running-shoes-men-s-orange-red-yellow-8900212893631272",
+        "displayRecommendLabels": [
+          {
+            "labelSource": 3,
+            "labelIcons": [
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260104/bfbeb8b6bf2847c0b14c3311eaa42f64.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260213/9d4b0003fb5249b6a9e51099bdc8ed33.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260402/80682afbb6cb4bf68b37c961453174b9.jpg"
+            ],
+            "hasMore": true
+          },
+          {
+            "labelSource": 2,
+            "labelId": 93635,
+            "labelText": "Толстая подошва"
+          },
+          {
+            "labelSource": 2,
+            "labelId": 93637,
+            "labelText": "С круглым носом"
+          }
+        ],
+        "contentCategory": 33,
+        "tradingRoles": [
+          0,
+          1
+        ],
+        "trackingInfo": "{\"spuCardTags\":[\"low_correlation\"]}",
+        "brandId": 1010915,
+        "spuId": 8900212893631272,
+        "level2CategoryId": 30,
+        "sellDate": 1768406400000,
+        "labelModel": {
+          "id": 90,
+          "labelName": "MADE IN CHINA"
+        },
+        "region": "BBMAX",
+        "globalSpuId": 14011041272,
+        "algoAcmItem": {
+          "requestId": "141b90d4f67527ef",
+          "acm": "1.srh.spuid_8900212893631272.0.游客组.sc_bbmax|trans|product-st_0-os_android-reg_BBMAX-lan_en-cn_0-rid_141b90d4f67527ef-lev_1-acn_0-osc_bbmax|trans|product-ts_1788422166960"
+        },
+        "categoryId": 33,
+        "status": 1
+      },
+      {
+        "saleTag": "Продано 1,6 тыс.",
+        "googleProductCategory": "Apparel & Accessories > Shoes",
+        "minSpuPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "13 949 ₽",
+          "money": {
+            "amount": "13949.00",
+            "minUnitVal": 1394900,
+            "currency": "RUB"
+          },
+          "amountText": "13 949",
+          "sign": "+",
+          "absText": "13 949"
+        },
+        "rankingTags": [],
+        "language": "bbmax",
+        "favoriteStatus": 0,
+        "title": "New Balance 1906A Low Топ Повседневные Городские Коммутационные Беговые Кроссовки Унисекс Темно-Синий",
+        "articleNumber": "U1906AB",
+        "level1CategoryId": 29,
+        "skuId": 8901153677507119,
+        "imageCutSize": 16,
+        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251209/3c8361fca8fd4e0baeb653d9efb54265.jpg",
+        "url": "/product/new-balance-1906a-deep-blue-8900113487387119",
+        "displayRecommendLabels": [
+          {
+            "labelSource": 3,
+            "labelIcons": [
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251209/3c8361fca8fd4e0baeb653d9efb54265.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251209/99dd13b5c626476dabb89dba3f780994.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251209/a4e10f2be86e485fbd09b56a95f9b06d.jpg"
+            ],
+            "hasMore": true
+          },
+          {
+            "labelSource": 2,
+            "labelId": 93635,
+            "labelText": "Толстая подошва"
+          },
+          {
+            "labelSource": 2,
+            "labelId": 93637,
+            "labelText": "С круглым носом"
+          }
+        ],
+        "contentCategory": 33,
+        "tradingRoles": [
+          0,
+          1
+        ],
+        "trackingInfo": "{\"spuCardTags\":[\"low_correlation\"]}",
+        "brandId": 4,
+        "spuId": 8900113487387119,
+        "level2CategoryId": 30,
+        "sellDate": 1737475200000,
+        "labelModel": {
+          "id": 78,
+          "labelName": "trends"
+        },
+        "region": "BBMAX",
+        "globalSpuId": 12009097119,
+        "algoAcmItem": {
+          "requestId": "141b90d4f67527ef",
+          "acm": "1.srh.spuid_8900113487387119.0.游客组.sc_bbmax|trans|product-st_0-os_android-reg_BBMAX-lan_en-cn_0-rid_141b90d4f67527ef-lev_1-acn_0-osc_bbmax|trans|product-ts_1788422166960"
+        },
+        "categoryId": 33,
+        "status": 1
+      },
+      {
+        "saleTag": "Продано 903",
+        "googleProductCategory": "Apparel & Accessories > Shoes",
+        "minSpuPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "11 871 ₽",
+          "money": {
+            "amount": "11871.00",
+            "minUnitVal": 1187100,
+            "currency": "RUB"
+          },
+          "amountText": "11 871",
+          "sign": "+",
+          "absText": "11 871"
+        },
+        "rankingTags": [],
+        "language": "bbmax",
+        "favoriteStatus": 0,
+        "title": "ASICS NOVABLAST 5 Ткань Устойчивая к истиранию Дышащий Баланс Отскок Низкий Верх",
+        "articleNumber": "1011B975-002",
+        "level1CategoryId": 29,
+        "skuId": 8900998116391146,
+        "imageCutSize": 16,
+        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251210/f6c5be37bebe4e1a8ad7a6d6f185f10f.jpg",
+        "url": "/product/asics-novablast-5-low-top-running-shoes-men-s-black-8900099273611146",
+        "displayRecommendLabels": [
+          {
+            "labelSource": 3,
+            "labelIcons": [
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251210/f6c5be37bebe4e1a8ad7a6d6f185f10f.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20250526/95f3856fa0554937884e1aac124f5131.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251210/edf386069f764f33bfe4d9ee4ce9b3f0.jpg"
+            ],
+            "hasMore": true
+          },
+          {
+            "labelSource": 2,
+            "labelId": 93635,
+            "labelText": "Толстая подошва"
+          },
+          {
+            "labelSource": 2,
+            "labelId": 93637,
+            "labelText": "С круглым носом"
+          }
+        ],
+        "contentCategory": 33,
+        "tradingRoles": [
+          0,
+          1
+        ],
+        "trackingInfo": "{\"spuCardTags\":[\"low_correlation\"]}",
+        "brandId": 8,
+        "spuId": 8900099273611146,
+        "level2CategoryId": 30,
+        "sellDate": 1730390400000,
+        "labelModel": {
+          "id": 78,
+          "labelName": "trends"
+        },
+        "region": "BBMAX",
+        "globalSpuId": 12008601146,
+        "algoAcmItem": {
+          "requestId": "141b90d4f67527ef",
+          "acm": "1.srh.spuid_8900099273611146.0.游客组.sc_bbmax|trans|product-st_0-os_android-reg_BBMAX-lan_en-cn_0-rid_141b90d4f67527ef-lev_1-acn_0-osc_bbmax|trans|product-ts_1788422166960"
+        },
+        "categoryId": 33,
+        "status": 1
+      },
+      {
+        "saleTag": "Продано 1,4 тыс.",
+        "googleProductCategory": "Apparel & Accessories > Shoes",
+        "minSpuPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "12 004 ₽",
+          "money": {
+            "amount": "12004.00",
+            "minUnitVal": 1200400,
+            "currency": "RUB"
+          },
+          "amountText": "12 004",
+          "sign": "+",
+          "absText": "12 004"
+        },
+        "rankingTags": [],
+        "language": "bbmax",
+        "favoriteStatus": 0,
+        "title": "SALOMON XT 4 Удобная Устойчивая к истиранию Низкая Уличная Обувь Унисекс Селадоново-зеленый",
+        "articleNumber": "474446",
+        "level1CategoryId": 29,
+        "skuId": 8900766250272082,
+        "imageCutSize": 16,
+        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251209/ae4bd369ae5f4cf8a6e5e9a4af7ef3dd.jpg",
+        "url": "/product/salomon-xt-4-og-carbon-celadon-green-8900078591752082",
+        "displayRecommendLabels": [
+          {
+            "labelSource": 3,
+            "labelIcons": [
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251209/ae4bd369ae5f4cf8a6e5e9a4af7ef3dd.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251209/4eba79a35cb24801a73bb92c31c0875d.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251210/ce73f19732514949bfee032f70321f27.jpg"
+            ],
+            "hasMore": true
+          },
+          {
+            "labelSource": 2,
+            "labelId": 93637,
+            "labelText": "С круглым носом"
+          },
+          {
+            "labelSource": 2,
+            "labelId": 93635,
+            "labelText": "Без каблука"
+          }
+        ],
+        "contentCategory": 33,
+        "tradingRoles": [
+          0,
+          1
+        ],
+        "trackingInfo": "{\"spuCardTags\":[\"low_correlation\"]}",
+        "brandId": 1000079,
+        "spuId": 8900078591752082,
+        "level2CategoryId": 30,
+        "sellDate": 1697299200000,
+        "labelModel": {
+          "id": 78,
+          "labelName": "trends"
+        },
+        "region": "BBMAX",
+        "globalSpuId": 12000742082,
+        "algoAcmItem": {
+          "requestId": "141b90d4f67527ef",
+          "acm": "1.srh.spuid_8900078591752082.0.游客组.sc_bbmax|trans|product-st_0-os_android-reg_BBMAX-lan_en-cn_0-rid_141b90d4f67527ef-lev_1-acn_0-osc_bbmax|trans|product-ts_1788422166960"
+        },
+        "categoryId": 33,
+        "status": 1
+      },
+      {
+        "saleTag": "Продано 838 тыс.",
+        "googleProductCategory": "Apparel & Accessories > Shoes",
+        "minSpuPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "6 150 ₽",
+          "money": {
+            "amount": "6150.00",
+            "minUnitVal": 615000,
+            "currency": "RUB"
+          },
+          "amountText": "6 150",
+          "sign": "+",
+          "absText": "6 150"
+        },
+        "rankingTags": [],
+        "language": "bbmax",
+        "favoriteStatus": 0,
+        "title": "New Balance NB 530 Текстиль Искусственная Кожа Дышащий Низкий Верх Повседневная Городская Коммутация Беговые Кроссовки",
+        "articleNumber": "MR530SG",
+        "level1CategoryId": 29,
+        "skuId": 8900020618001819,
+        "imageCutSize": 16,
+        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20240726/1eed0defcabe44b989217ec6ef6a8431.jpg",
+        "url": "/product/new-balance-530-white-natural-indigo-sneakers-8900001978861819",
+        "displayRecommendLabels": [
+          {
+            "labelSource": 3,
+            "labelIcons": [
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20240726/1eed0defcabe44b989217ec6ef6a8431.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251209/0908e6e50556469aa1712f0c2751187e.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251210/c823f44ba0d64ee4bd3f32f3f7e9d1b9.jpg"
+            ],
+            "hasMore": true
+          },
+          {
+            "labelSource": 2,
+            "labelId": 93635,
+            "labelText": "Без каблука"
+          },
+          {
+            "labelSource": 2,
+            "labelId": 93637,
+            "labelText": "С круглым носом"
+          }
+        ],
+        "contentCategory": 33,
+        "tradingRoles": [
+          0,
+          1
+        ],
+        "trackingInfo": "{\"spuCardTags\":[\"low_correlation\"]}",
+        "brandId": 4,
+        "spuId": 8900001978861819,
+        "level2CategoryId": 30,
+        "sellDate": 1580486400000,
+        "labelModel": {
+          "id": 78,
+          "labelName": "trends"
+        },
+        "region": "BBMAX",
+        "globalSpuId": 10001001819,
+        "algoAcmItem": {
+          "requestId": "141b90d4f67527ef",
+          "acm": "1.srh.spuid_8900001978861819.0.游客组.sc_bbmax|trans|product-st_0-os_android-reg_BBMAX-lan_en-cn_0-rid_141b90d4f67527ef-lev_1-acn_0-osc_bbmax|trans|product-ts_1788422166960"
+        },
+        "categoryId": 33,
+        "status": 1
+      },
+      {
+        "saleTag": "Продано 6,6 тыс.",
+        "googleProductCategory": "Apparel & Accessories > Shoes",
+        "minSpuPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "8 105 ₽",
+          "money": {
+            "amount": "8105.00",
+            "minUnitVal": 810500,
+            "currency": "RUB"
+          },
+          "amountText": "8 105",
+          "sign": "+",
+          "absText": "8 105"
+        },
+        "rankingTags": [],
+        "language": "bbmax",
+        "favoriteStatus": 0,
+        "title": "Adidas Adizero Evo SL Удобная ткань синтетическая кожа увеличенная высота низкие кеды для бега мужские",
+        "articleNumber": "JR3419",
+        "level1CategoryId": 29,
+        "skuId": 8901246694303411,
+        "imageCutSize": 16,
+        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251209/476397e4273942da8973b5627ef1683f.jpg",
+        "url": "/product/adidas-adizero-evo-sl-silver-metallic-8900121562113411",
+        "displayRecommendLabels": [
+          {
+            "labelSource": 3,
+            "labelIcons": [
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251209/476397e4273942da8973b5627ef1683f.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251209/48c0b6f5d848426b9c7ed1c86a949b01.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251201/bf7ea0e870a04fc49644e20220256b90.jpg"
+            ],
+            "hasMore": true
+          },
+          {
+            "labelSource": 2,
+            "labelId": 93637,
+            "labelText": "С круглым носом"
+          },
+          {
+            "labelSource": 2,
+            "labelId": 93635,
+            "labelText": "Толстая подошва"
+          }
+        ],
+        "contentCategory": 33,
+        "tradingRoles": [
+          0,
+          1
+        ],
+        "trackingInfo": "{\"spuCardTags\":[\"low_correlation\"]}",
+        "brandId": 3,
+        "spuId": 8900121562113411,
+        "level2CategoryId": 30,
+        "sellDate": 1752508800000,
+        "labelModel": {
+          "id": 78,
+          "labelName": "trends"
+        },
+        "region": "BBMAX",
+        "globalSpuId": 12009933411,
+        "algoAcmItem": {
+          "requestId": "141b90d4f67527ef",
+          "acm": "1.srh.spuid_8900121562113411.0.游客组.sc_bbmax|trans|product-st_0-os_android-reg_BBMAX-lan_en-cn_0-rid_141b90d4f67527ef-lev_1-acn_0-osc_bbmax|trans|product-ts_1788422166960"
+        },
+        "categoryId": 33,
+        "status": 1
+      },
+      {
+        "saleTag": "Продано 129 тыс.",
+        "googleProductCategory": "Apparel & Accessories > Shoes",
+        "minSpuPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "11 489 ₽",
+          "money": {
+            "amount": "11489.00",
+            "minUnitVal": 1148900,
+            "currency": "RUB"
+          },
+          "amountText": "11 489",
+          "sign": "+",
+          "absText": "11 489"
+        },
+        "rankingTags": [],
+        "language": "bbmax",
+        "favoriteStatus": 0,
+        "title": "Adidas Adizero Evo SL Амортизация Противоскользящий Устойчивый к истиранию Отскок Низкий Верх",
+        "articleNumber": "JH6206",
+        "level1CategoryId": 29,
+        "skuId": 8900889646012815,
+        "imageCutSize": 16,
+        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251210/4fc3c2ea48614b4f9ac55b137b263c1e.jpg",
+        "url": "/product/adidas-adizero-evo-sl-white-black-8900090038692815",
+        "displayRecommendLabels": [
+          {
+            "labelSource": 3,
+            "labelIcons": [
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251210/4fc3c2ea48614b4f9ac55b137b263c1e.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251209/48c0b6f5d848426b9c7ed1c86a949b01.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251201/bf7ea0e870a04fc49644e20220256b90.jpg"
+            ],
+            "hasMore": true
+          },
+          {
+            "labelSource": 2,
+            "labelId": 93635,
+            "labelText": "Толстая подошва"
+          },
+          {
+            "labelSource": 2,
+            "labelId": 93637,
+            "labelText": "С круглым носом"
+          }
+        ],
+        "contentCategory": 33,
+        "tradingRoles": [
+          0,
+          1
+        ],
+        "trackingInfo": "{\"spuCardTags\":[\"low_correlation\"]}",
+        "brandId": 3,
+        "spuId": 8900090038692815,
+        "level2CategoryId": 30,
+        "sellDate": 1755187200000,
+        "labelModel": {
+          "id": 78,
+          "labelName": "trends"
+        },
+        "region": "BBMAX",
+        "globalSpuId": 12007272815,
+        "algoAcmItem": {
+          "requestId": "141b90d4f67527ef",
+          "acm": "1.srh.spuid_8900090038692815.0.游客组.sc_bbmax|trans|product-st_0-os_android-reg_BBMAX-lan_en-cn_0-rid_141b90d4f67527ef-lev_1-acn_0-osc_bbmax|trans|product-ts_1788422166960"
+        },
+        "categoryId": 33,
+        "status": 1
+      },
+      {
+        "saleTag": "Продано 460",
+        "googleProductCategory": "Apparel & Accessories > Shoes",
+        "minSpuPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "13 422 ₽",
+          "money": {
+            "amount": "13422.00",
+            "minUnitVal": 1342200,
+            "currency": "RUB"
+          },
+          "amountText": "13 422",
+          "sign": "+",
+          "absText": "13 422"
+        },
+        "rankingTags": [],
+        "language": "bbmax",
+        "favoriteStatus": 0,
+        "title": "Salomon XT 4 Low Top Уличная обувь Унисекс Серый",
+        "articleNumber": "L47741100",
+        "level1CategoryId": 29,
+        "skuId": 8901187601391461,
+        "imageCutSize": 16,
+        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251209/4eba79a35cb24801a73bb92c31c0875d.jpg",
+        "url": "/product/salomon-xt-4-anti-slip-wear-resistant-low-top-outdoor-shoes-unisex-gray-8900116495021461",
+        "displayRecommendLabels": [
+          {
+            "labelSource": 3,
+            "labelIcons": [
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251209/4eba79a35cb24801a73bb92c31c0875d.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251209/ae4bd369ae5f4cf8a6e5e9a4af7ef3dd.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251210/ce73f19732514949bfee032f70321f27.jpg"
+            ],
+            "hasMore": true
+          },
+          {
+            "labelSource": 2,
+            "labelId": 93637,
+            "labelText": "С круглым носом"
+          },
+          {
+            "labelSource": 2,
+            "labelId": 93635,
+            "labelText": "Толстая подошва"
+          }
+        ],
+        "contentCategory": 33,
+        "tradingRoles": [
+          0,
+          1
+        ],
+        "trackingInfo": "{\"spuCardTags\":[\"low_correlation\"]}",
+        "brandId": 1000079,
+        "spuId": 8900116495021461,
+        "level2CategoryId": 30,
+        "sellDate": 1738857600000,
+        "labelModel": {
+          "id": 78,
+          "labelName": "trends"
+        },
+        "region": "BBMAX",
+        "globalSpuId": 12009741461,
+        "algoAcmItem": {
+          "requestId": "141b90d4f67527ef",
+          "acm": "1.srh.spuid_8900116495021461.0.游客组.sc_bbmax|trans|product-st_0-os_android-reg_BBMAX-lan_en-cn_0-rid_141b90d4f67527ef-lev_1-acn_0-osc_bbmax|trans|product-ts_1788422166960"
+        },
+        "categoryId": 33,
+        "status": 1
+      },
+      {
+        "saleTag": "Продано 3,4 тыс.",
+        "googleProductCategory": "Apparel & Accessories > Shoes",
+        "minSpuPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "10 052 ₽",
+          "money": {
+            "amount": "10052.00",
+            "minUnitVal": 1005200,
+            "currency": "RUB"
+          },
+          "amountText": "10 052",
+          "sign": "+",
+          "absText": "10 052"
+        },
+        "rankingTags": [],
+        "language": "bbmax",
+        "favoriteStatus": 0,
+        "title": "Adidas Adizero Evo SL визуально увеличивает рост Марафон Беговые кроссовки Мужской Черный Белый",
+        "articleNumber": "KI4764",
+        "level1CategoryId": 29,
+        "skuId": 8902642191749021,
+        "imageCutSize": 16,
+        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251213/7831876cacab44e490498bdd1690eb5f.png",
+        "url": "/product/adidas-adizero-evo-sl-breathable-running-shoes-men-s-black-white-8900207333519021",
+        "displayRecommendLabels": [
+          {
+            "labelSource": 3,
+            "labelIcons": [
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251213/7831876cacab44e490498bdd1690eb5f.png",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251209/48c0b6f5d848426b9c7ed1c86a949b01.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251201/bf7ea0e870a04fc49644e20220256b90.jpg"
+            ],
+            "hasMore": true
+          },
+          {
+            "labelSource": 2,
+            "labelId": 93635,
+            "labelText": "Толстая подошва"
+          },
+          {
+            "labelSource": 2,
+            "labelId": 93637,
+            "labelText": "С круглым носом"
+          }
+        ],
+        "contentCategory": 33,
+        "tradingRoles": [
+          0,
+          1
+        ],
+        "trackingInfo": "{\"spuCardTags\":[\"low_correlation\"]}",
+        "brandId": 3,
+        "spuId": 8900207333519021,
+        "level2CategoryId": 30,
+        "sellDate": 1772294400000,
+        "labelModel": {
+          "id": 78,
+          "labelName": "trends"
+        },
+        "region": "BBMAX",
+        "globalSpuId": 14010109021,
+        "algoAcmItem": {
+          "requestId": "141b90d4f67527ef",
+          "acm": "1.srh.spuid_8900207333519021.0.游客组.sc_bbmax|trans|product-st_0-os_android-reg_BBMAX-lan_en-cn_0-rid_141b90d4f67527ef-lev_1-acn_0-osc_bbmax|trans|product-ts_1788422166960"
+        },
+        "categoryId": 33,
+        "status": 1
+      },
+      {
+        "saleTag": "Продано 28 тыс.",
+        "googleProductCategory": "Apparel & Accessories > Shoes",
+        "minSpuPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "11 969 ₽",
+          "money": {
+            "amount": "11969.00",
+            "minUnitVal": 1196900,
+            "currency": "RUB"
+          },
+          "amountText": "11 969",
+          "sign": "+",
+          "absText": "11 969"
+        },
+        "rankingTags": [],
+        "language": "bbmax",
+        "favoriteStatus": 0,
+        "title": "Adidas Adizero Evo SL визуально увеличивает рост Низкий Топ Lightstrike Pro-версия Промежуточная подошва",
+        "articleNumber": "JR4888",
+        "level1CategoryId": 29,
+        "skuId": 8900140741865458,
+        "imageCutSize": 16,
+        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251210/e96f612d545a4bf28faef611b469b774.jpg",
+        "url": "/product/adidas-adizero-evo-sl-black-iron-metallic-8900014741235458",
+        "displayRecommendLabels": [
+          {
+            "labelSource": 3,
+            "labelIcons": [
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251210/e96f612d545a4bf28faef611b469b774.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251209/48c0b6f5d848426b9c7ed1c86a949b01.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251201/bf7ea0e870a04fc49644e20220256b90.jpg"
+            ],
+            "hasMore": true
+          },
+          {
+            "labelSource": 2,
+            "labelId": 93635,
+            "labelText": "Толстая подошва"
+          },
+          {
+            "labelSource": 2,
+            "labelId": 93637,
+            "labelText": "С круглым носом"
+          }
+        ],
+        "contentCategory": 33,
+        "tradingRoles": [
+          0,
+          1
+        ],
+        "trackingInfo": "{\"spuCardTags\":[\"low_correlation\"]}",
+        "brandId": 3,
+        "spuId": 8900014741235458,
+        "level2CategoryId": 30,
+        "sellDate": 1749916800000,
+        "labelModel": {
+          "id": 78,
+          "labelName": "trends"
+        },
+        "region": "BBMAX",
+        "globalSpuId": 14001655458,
+        "algoAcmItem": {
+          "requestId": "141b90d4f67527ef",
+          "acm": "1.srh.spuid_8900014741235458.0.游客组.sc_bbmax|trans|product-st_0-os_android-reg_BBMAX-lan_en-cn_0-rid_141b90d4f67527ef-lev_1-acn_0-osc_bbmax|trans|product-ts_1788422166960"
+        },
+        "categoryId": 33,
+        "status": 1
+      },
+      {
+        "saleTag": "Продано 73 тыс.",
+        "googleProductCategory": "Apparel & Accessories > Shoes",
+        "minSpuPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "11 337 ₽",
+          "money": {
+            "amount": "11337.00",
+            "minUnitVal": 1133700,
+            "currency": "RUB"
+          },
+          "amountText": "11 337",
+          "sign": "+",
+          "absText": "11 337"
+        },
+        "rankingTags": [],
+        "language": "bbmax",
+        "favoriteStatus": 0,
+        "title": "Adidas Adizero Evo SL Сетчатая ткань Текстиль Синтетическая кожа",
+        "articleNumber": "JP7149",
+        "level1CategoryId": 29,
+        "skuId": 8900999380790111,
+        "imageCutSize": 16,
+        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251209/48c0b6f5d848426b9c7ed1c86a949b01.jpg",
+        "url": "/product/adidas-adizero-evo-sl-black-white-8900099375090111",
+        "displayRecommendLabels": [
+          {
+            "labelSource": 3,
+            "labelIcons": [
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251209/48c0b6f5d848426b9c7ed1c86a949b01.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251201/bf7ea0e870a04fc49644e20220256b90.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251210/4fc3c2ea48614b4f9ac55b137b263c1e.jpg"
+            ],
+            "hasMore": true
+          },
+          {
+            "labelSource": 2,
+            "labelId": 93635,
+            "labelText": "Толстая подошва"
+          },
+          {
+            "labelSource": 2,
+            "labelId": 93637,
+            "labelText": "С круглым носом"
+          }
+        ],
+        "contentCategory": 33,
+        "tradingRoles": [
+          0,
+          1
+        ],
+        "trackingInfo": "{\"spuCardTags\":[\"low_correlation\"]}",
+        "brandId": 3,
+        "spuId": 8900099375090111,
+        "level2CategoryId": 30,
+        "sellDate": 1738339200000,
+        "labelModel": {
+          "id": 78,
+          "labelName": "trends"
+        },
+        "region": "BBMAX",
+        "globalSpuId": 12007600111,
+        "algoAcmItem": {
+          "requestId": "141b90d4f67527ef",
+          "acm": "1.srh.spuid_8900099375090111.0.游客组.sc_bbmax|trans|product-st_0-os_android-reg_BBMAX-lan_en-cn_0-rid_141b90d4f67527ef-lev_1-acn_0-osc_bbmax|trans|product-ts_1788422166960"
+        },
+        "categoryId": 33,
+        "status": 1
+      },
+      {
+        "saleTag": "Продано 6 тыс.",
+        "googleProductCategory": "Apparel & Accessories > Shoes",
+        "minSpuPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "10 983 ₽",
+          "money": {
+            "amount": "10983.00",
+            "minUnitVal": 1098300,
+            "currency": "RUB"
+          },
+          "amountText": "10 983",
+          "sign": "+",
+          "absText": "10 983"
+        },
+        "rankingTags": [],
+        "language": "bbmax",
+        "favoriteStatus": 0,
+        "title": "Nike Vomero 18 Low Топ Беговые кроссовки Мужской Черный",
+        "articleNumber": "HQ7001-001",
+        "level1CategoryId": 29,
+        "skuId": 8902265511196951,
+        "imageCutSize": 16,
+        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251209/ec2d95cf50cf4c31a50022cdde23372b.png",
+        "url": "/product/nike-vomero-18-running-shoes-men-s-black-8900178361016951",
+        "displayRecommendLabels": [
+          {
+            "labelSource": 3,
+            "labelIcons": [
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251209/ec2d95cf50cf4c31a50022cdde23372b.png",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251210/c334af15709b471eb0a283ea7950f40d.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260325/8e16beaf53ba41a5a8c18ab6103d1fbe.jpg"
+            ],
+            "hasMore": true
+          },
+          {
+            "labelSource": 2,
+            "labelId": 93635,
+            "labelText": "Толстая подошва"
+          },
+          {
+            "labelSource": 2,
+            "labelId": 93637,
+            "labelText": "С круглым носом"
+          }
+        ],
+        "contentCategory": 33,
+        "tradingRoles": [
+          0,
+          1
+        ],
+        "trackingInfo": "{\"spuCardTags\":[\"low_correlation\"]}",
+        "brandId": 144,
+        "spuId": 8900178361016951,
+        "level2CategoryId": 30,
+        "sellDate": 1762099200000,
+        "labelModel": {
+          "id": 78,
+          "labelName": "trends"
+        },
+        "region": "BBMAX",
+        "globalSpuId": 14006526951,
+        "algoAcmItem": {
+          "requestId": "141b90d4f67527ef",
+          "acm": "1.srh.spuid_8900178361016951.0.游客组.sc_bbmax|trans|product-st_0-os_android-reg_BBMAX-lan_en-cn_0-rid_141b90d4f67527ef-lev_1-acn_0-osc_bbmax|trans|product-ts_1788422166960"
+        },
+        "categoryId": 33,
+        "status": 1
+      },
+      {
+        "saleTag": "Продано 14 тыс.",
+        "googleProductCategory": "Apparel & Accessories > Shoes",
+        "minSpuPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "14 440 ₽",
+          "money": {
+            "amount": "14440.00",
+            "minUnitVal": 1444000,
+            "currency": "RUB"
+          },
+          "amountText": "14 440",
+          "sign": "+",
+          "absText": "14 440"
+        },
+        "rankingTags": [],
+        "language": "bbmax",
+        "favoriteStatus": 0,
+        "title": "NIKE Vomero Plus Дышащий Противоскользящий Амортизация Низкий Верх ZoomX Подошва",
+        "articleNumber": "HV8150-003",
+        "level1CategoryId": 29,
+        "skuId": 8900647929862783,
+        "imageCutSize": 16,
+        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260327/dc3ee1478136440a8d5ba7cf06f51545.jpg",
+        "url": "/product/nike-vomero-plus-slip-resistant-abrasion-resistant-low-top-running-shoes-unisex-black-8900067363292783",
+        "displayRecommendLabels": [
+          {
+            "labelSource": 3,
+            "labelIcons": [
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260327/dc3ee1478136440a8d5ba7cf06f51545.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260327/7ebd269fde4943a0b3654a3a03119779.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251218/cc7118f8f0064b15932ec6bbe7957a09.jpg"
+            ],
+            "hasMore": true
+          },
+          {
+            "labelSource": 2,
+            "labelId": 93628,
+            "labelText": "Версия 2025 года"
+          },
+          {
+            "labelSource": 2,
+            "labelId": 93635,
+            "labelText": "Толстая подошва"
+          }
+        ],
+        "contentCategory": 33,
+        "tradingRoles": [
+          0,
+          1
+        ],
+        "trackingInfo": "{\"spuCardTags\":[\"low_correlation\"]}",
+        "brandId": 144,
+        "spuId": 8900067363292783,
+        "level2CategoryId": 30,
+        "sellDate": 1754236800000,
+        "labelModel": {
+          "id": 78,
+          "labelName": "trends"
+        },
+        "region": "BBMAX",
+        "globalSpuId": 14001942783,
+        "algoAcmItem": {
+          "requestId": "141b90d4f67527ef",
+          "acm": "1.srh.spuid_8900067363292783.0.游客组.sc_bbmax|trans|product-st_0-os_android-reg_BBMAX-lan_en-cn_0-rid_141b90d4f67527ef-lev_1-acn_0-osc_bbmax|trans|product-ts_1788422166960"
+        },
+        "categoryId": 33,
+        "status": 1
+      },
+      {
+        "saleTag": "Продано 5,7 тыс.",
+        "googleProductCategory": "Apparel & Accessories > Shoes",
+        "minSpuPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "12 448 ₽",
+          "money": {
+            "amount": "12448.00",
+            "minUnitVal": 1244800,
+            "currency": "RUB"
+          },
+          "amountText": "12 448",
+          "sign": "+",
+          "absText": "12 448"
+        },
+        "rankingTags": [],
+        "language": "bbmax",
+        "favoriteStatus": 0,
+        "title": "Nike Vomero 18 Дышащий Low Топ Беговые кроссовки Women's White",
+        "articleNumber": "HM6804-101",
+        "level1CategoryId": 29,
+        "skuId": 8901038455211800,
+        "imageCutSize": 16,
+        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251210/9f453ad7fa794942b312f8539312f9db.jpg",
+        "url": "/product/nike-vomero-18-summit-white-coconut-milk-women-s-8900102655761800",
+        "displayRecommendLabels": [
+          {
+            "labelSource": 3,
+            "labelIcons": [
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251210/9f453ad7fa794942b312f8539312f9db.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251210/c334af15709b471eb0a283ea7950f40d.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260325/8e16beaf53ba41a5a8c18ab6103d1fbe.jpg"
+            ],
+            "hasMore": true
+          },
+          {
+            "labelSource": 2,
+            "labelId": 93628,
+            "labelText": "Версия 2025 года"
+          },
+          {
+            "labelSource": 2,
+            "labelId": 93635,
+            "labelText": "Толстая подошва"
+          }
+        ],
+        "contentCategory": 33,
+        "tradingRoles": [
+          0,
+          1
+        ],
+        "trackingInfo": "{\"spuCardTags\":[\"low_correlation\"]}",
+        "brandId": 144,
+        "spuId": 8900102655761800,
+        "level2CategoryId": 30,
+        "sellDate": 1740585600000,
+        "labelModel": {
+          "id": 78,
+          "labelName": "trends"
+        },
+        "region": "BBMAX",
+        "globalSpuId": 12008731800,
+        "algoAcmItem": {
+          "requestId": "141b90d4f67527ef",
+          "acm": "1.srh.spuid_8900102655761800.0.游客组.sc_bbmax|trans|product-st_0-os_android-reg_BBMAX-lan_en-cn_0-rid_141b90d4f67527ef-lev_1-acn_0-osc_bbmax|trans|product-ts_1788422166960"
+        },
+        "categoryId": 33,
+        "status": 1
+      },
+      {
+        "saleTag": "Продано 319",
+        "googleProductCategory": "Apparel & Accessories > Shoes",
+        "minSpuPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "10 523 ₽",
+          "money": {
+            "amount": "10523.00",
+            "minUnitVal": 1052300,
+            "currency": "RUB"
+          },
+          "amountText": "10 523",
+          "sign": "+",
+          "absText": "10 523"
+        },
+        "rankingTags": [],
+        "language": "bbmax",
+        "favoriteStatus": 0,
+        "title": "ASICS Гель Kahana 8 Беговые кроссовки Низкий Топ Серый Черный Унисекс",
+        "articleNumber": "1203B133-028",
+        "level1CategoryId": 29,
+        "skuId": 8904266620277575,
+        "imageCutSize": 16,
+        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260617/850fdb49c3e942bcb9771d9827287b3e.jpg",
+        "url": "/product/asics-running-shoes-unisex-low-top-gray-black-8900322692657575",
+        "displayRecommendLabels": [
+          {
+            "labelSource": 3,
+            "labelIcons": [
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260617/850fdb49c3e942bcb9771d9827287b3e.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251210/a2ca125067e44d768d8036ec12aa26fd.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251210/a6bde8a1b4b740f0ab0b70a279a460ae.jpg"
+            ],
+            "hasMore": true
+          },
+          {
+            "labelSource": 2,
+            "labelId": 93635,
+            "labelText": "Без каблука"
+          }
+        ],
+        "contentCategory": 33,
+        "tradingRoles": [
+          0,
+          1
+        ],
+        "trackingInfo": "{\"spuCardTags\":[\"low_correlation\"]}",
+        "brandId": 8,
+        "spuId": 8900322692657575,
+        "level2CategoryId": 30,
+        "sellDate": 1777564800000,
+        "labelModel": {
+          "id": 78,
+          "labelName": "trends"
+        },
+        "region": "BBMAX",
+        "globalSpuId": 140276288297575,
+        "algoAcmItem": {
+          "requestId": "141b90d4f67527ef",
+          "acm": "1.srh.spuid_8900322692657575.0.游客组.sc_bbmax|trans|product-st_0-os_android-reg_BBMAX-lan_en-cn_0-rid_141b90d4f67527ef-lev_1-acn_0-osc_bbmax|trans|product-ts_1788422166960"
+        },
+        "categoryId": 33,
+        "status": 1
+      },
+      {
+        "saleTag": "Продано 822",
+        "googleProductCategory": "Apparel & Accessories > Shoes",
+        "minSpuPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "10 419 ₽",
+          "money": {
+            "amount": "10419.00",
+            "minUnitVal": 1041900,
+            "currency": "RUB"
+          },
+          "amountText": "10 419",
+          "sign": "+",
+          "absText": "10 419"
+        },
+        "rankingTags": [],
+        "language": "bbmax",
+        "favoriteStatus": 0,
+        "title": "ASICS Novablast 4 Отскок Дышащий Низкий Топ Бег на длинные дистанции Обувь Мужская Серый Синий",
+        "articleNumber": "1011B693-022",
+        "level1CategoryId": 29,
+        "skuId": 8900703173479140,
+        "imageCutSize": 16,
+        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251210/0041a4aeea484178b35f735b131840da.jpg",
+        "url": "/product/asics-novablast-4-cool-grey-blue-expanse-8900072144849140",
+        "displayRecommendLabels": [
+          {
+            "labelSource": 3,
+            "labelIcons": [
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251210/0041a4aeea484178b35f735b131840da.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251210/ebc3e35d1e6245fa8c99e224356d2ab2.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251209/af83d78d0aed4353b2639ef51a89dafa.jpg"
+            ],
+            "hasMore": true
+          },
+          {
+            "labelSource": 2,
+            "labelId": 93635,
+            "labelText": "Без каблука"
+          },
+          {
+            "labelSource": 2,
+            "labelId": 93637,
+            "labelText": "С круглым носом"
+          }
+        ],
+        "contentCategory": 33,
+        "tradingRoles": [
+          0,
+          1
+        ],
+        "trackingInfo": "{\"spuCardTags\":[\"low_correlation\"]}",
+        "brandId": 8,
+        "spuId": 8900072144849140,
+        "level2CategoryId": 30,
+        "sellDate": 1714492800000,
+        "labelModel": {
+          "id": 78,
+          "labelName": "trends"
+        },
+        "region": "BBMAX",
+        "globalSpuId": 12004199140,
+        "algoAcmItem": {
+          "requestId": "141b90d4f67527ef",
+          "acm": "1.srh.spuid_8900072144849140.0.游客组.sc_bbmax|trans|product-st_0-os_android-reg_BBMAX-lan_en-cn_0-rid_141b90d4f67527ef-lev_1-acn_0-osc_bbmax|trans|product-ts_1788422166960"
+        },
+        "categoryId": 33,
+        "status": 1
+      },
+      {
+        "saleTag": "Продано 34 тыс.",
+        "googleProductCategory": "Apparel & Accessories > Shoes",
+        "minSpuPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "14 250 ₽",
+          "money": {
+            "amount": "14250.00",
+            "minUnitVal": 1425000,
+            "currency": "RUB"
+          },
+          "amountText": "14 250",
+          "sign": "+",
+          "absText": "14 250"
+        },
+        "rankingTags": [],
+        "language": "bbmax",
+        "favoriteStatus": 0,
+        "title": "HOKA ONE ONE Bondi 9 Синтетическая кожа Дышащий Амортизация Low Топ Повседневный Бег на длинные дистанции Обувь Мужской",
+        "articleNumber": "1162011-BBLC",
+        "level1CategoryId": 29,
+        "skuId": 8901107570616038,
+        "imageCutSize": 16,
+        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251209/956a2403e1b644858218ce2bcd89e236.jpg",
+        "url": "/product/hoka-one-one-bondi-9-triple-black-8900108985406038",
+        "displayRecommendLabels": [
+          {
+            "labelSource": 3,
+            "labelIcons": [
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251209/956a2403e1b644858218ce2bcd89e236.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251210/50eb62e318404889b5d8f6c4121c4ae0.png",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260206/d64b8d79e7154b06a26cfd9df632cd81.jpg"
+            ],
+            "hasMore": true
+          },
+          {
+            "labelSource": 2,
+            "labelId": 93628,
+            "labelText": "Версия 2025 года"
+          },
+          {
+            "labelSource": 2,
+            "labelId": 93635,
+            "labelText": "Толстая подошва"
+          }
+        ],
+        "contentCategory": 33,
+        "tradingRoles": [
+          0,
+          1
+        ],
+        "trackingInfo": "{\"spuCardTags\":[\"low_correlation\"]}",
+        "brandId": 10246,
+        "spuId": 8900108985406038,
+        "level2CategoryId": 30,
+        "sellDate": 1736870400000,
+        "labelModel": {
+          "id": 78,
+          "labelName": "trends"
+        },
+        "region": "BBMAX",
+        "globalSpuId": 12009376038,
+        "algoAcmItem": {
+          "requestId": "141b90d4f67527ef",
+          "acm": "1.srh.spuid_8900108985406038.0.游客组.sc_bbmax|trans|product-st_0-os_android-reg_BBMAX-lan_en-cn_0-rid_141b90d4f67527ef-lev_1-acn_0-osc_bbmax|trans|product-ts_1788422166960"
+        },
+        "categoryId": 33,
+        "status": 1
+      }
+    ],
+    "algoAcmDto": {
+      "deyiInfo": "{}",
+      "requestId": "141b90d4f67527ef"
+    },
+    "enableSimilarRecommend": false,
+    "noResultsTips": "Ничего не найдено. Посмотрите товары, которые могут вам понравиться.",
+    "notFirstSearchNoResult": "Ни результата не найдено. Посмотрите другие варианты!",
+    "needSmartMenu": false,
+    "fallBackSpuListTitle": "РЕКОМЕНДУЕМЫЕ",
+    "showFavoriteSwitch": true
+  },
+  "searchAcmResp": "{\"searchExperienceOptimizeExpValue\":\"0\"}",
+  "aggTotal": 60000,
+  "aggTotalText": "60 тыс.",
+  "facetList": [],
+  "filterTagList": [],
+  "sortTabInfo": {
+    "tabSortMappings": [
+      {
+        "sortType": 0,
+        "tabText": "Рекомендуемые",
+        "sortModes": [
+          {
+            "sortMode": 1
+          }
+        ]
+      },
+      {
+        "sortType": 1,
+        "tabText": "Топ продаж",
+        "sortModes": [
+          {
+            "sortMode": 1
+          }
+        ]
+      },
+      {
+        "sortType": 4,
+        "tabText": "Цена",
+        "sortModes": [
+          {
+            "tabText": "По возрастанию",
+            "sortMode": 0
+          },
+          {
+            "tabText": "По убыванию",
+            "sortMode": 1
+          }
+        ]
+      },
+      {
+        "sortType": 3,
+        "tabText": "Новые",
+        "sortModes": [
+          {
+            "sortMode": 1
+          }
+        ]
+      }
+    ]
+  },
+  "facetPanel": [
+    {
+      "module": "size",
+      "name": "Размер",
+      "defaultShow": true,
+      "items": [],
+      "nested": true,
+      "nestedFacets": [
+        {
+          "module": "core_size",
+          "name": "Популярные российские размеры обуви",
+          "defaultShow": true,
+          "type": 2,
+          "items": [
+            {
+              "name": "37",
+              "count": 1098,
+              "btnType": 1,
+              "value": "37"
+            },
+            {
+              "name": "37,5",
+              "count": 946,
+              "btnType": 1,
+              "value": "37,5"
+            },
+            {
+              "name": "38",
+              "count": 950,
+              "btnType": 1,
+              "value": "38"
+            },
+            {
+              "name": "38,5",
+              "count": 594,
+              "btnType": 1,
+              "value": "38,5"
+            },
+            {
+              "name": "39",
+              "count": 1492,
+              "btnType": 1,
+              "value": "39"
+            },
+            {
+              "name": "42",
+              "count": 1158,
+              "btnType": 1,
+              "value": "42"
+            },
+            {
+              "name": "42,5",
+              "count": 242,
+              "btnType": 1,
+              "value": "42,5"
+            },
+            {
+              "name": "43",
+              "count": 1442,
+              "btnType": 1,
+              "value": "43"
+            },
+            {
+              "name": "43,5",
+              "count": 1130,
+              "btnType": 1,
+              "value": "43,5"
+            },
+            {
+              "name": "44",
+              "count": 1234,
+              "btnType": 1,
+              "value": "44"
+            }
+          ],
+          "nested": false,
+          "key": "shoesSizes",
+          "unfold": true
+        },
+        {
+          "module": "all_size",
+          "name": "Все российские размеры обуви",
+          "defaultShow": true,
+          "type": 2,
+          "items": [
+            {
+              "name": "34",
+              "count": 78,
+              "btnType": 1,
+              "value": "34"
+            },
+            {
+              "name": "34½",
+              "count": 50,
+              "btnType": 1,
+              "value": "34½"
+            },
+            {
+              "name": "34,5",
+              "count": 530,
+              "btnType": 1,
+              "value": "34,5"
+            },
+            {
+              "name": "35",
+              "count": 1084,
+              "btnType": 1,
+              "value": "35"
+            },
+            {
+              "name": "35⅔",
+              "count": 114,
+              "btnType": 1,
+              "value": "35⅔"
+            },
+            {
+              "name": "35,5",
+              "count": 406,
+              "btnType": 1,
+              "value": "35,5"
+            },
+            {
+              "name": "36",
+              "count": 546,
+              "btnType": 1,
+              "value": "36"
+            },
+            {
+              "name": "36⅓",
+              "count": 116,
+              "btnType": 1,
+              "value": "36⅓"
+            },
+            {
+              "name": "36,5",
+              "count": 914,
+              "btnType": 1,
+              "value": "36,5"
+            },
+            {
+              "name": "37⅔",
+              "count": 132,
+              "btnType": 1,
+              "value": "37⅔"
+            },
+            {
+              "name": "38⅓",
+              "count": 148,
+              "btnType": 1,
+              "value": "38⅓"
+            },
+            {
+              "name": "39⅔",
+              "count": 148,
+              "btnType": 1,
+              "value": "39⅔"
+            },
+            {
+              "name": "39,5",
+              "count": 1204,
+              "btnType": 1,
+              "value": "39,5"
+            },
+            {
+              "name": "40",
+              "count": 800,
+              "btnType": 1,
+              "value": "40"
+            },
+            {
+              "name": "40⅓",
+              "count": 146,
+              "btnType": 1,
+              "value": "40⅓"
+            },
+            {
+              "name": "40,5",
+              "count": 610,
+              "btnType": 1,
+              "value": "40,5"
+            },
+            {
+              "name": "41",
+              "count": 1458,
+              "btnType": 1,
+              "value": "41"
+            },
+            {
+              "name": "41⅔",
+              "count": 144,
+              "btnType": 1,
+              "value": "41⅔"
+            },
+            {
+              "name": "41,5",
+              "count": 1196,
+              "btnType": 1,
+              "value": "41,5"
+            },
+            {
+              "name": "42⅓",
+              "count": 144,
+              "btnType": 1,
+              "value": "42⅓"
+            },
+            {
+              "name": "43⅔",
+              "count": 142,
+              "btnType": 1,
+              "value": "43⅔"
+            },
+            {
+              "name": "44⅓",
+              "count": 142,
+              "btnType": 1,
+              "value": "44⅓"
+            },
+            {
+              "name": "44,5",
+              "count": 782,
+              "btnType": 1,
+              "value": "44,5"
+            },
+            {
+              "name": "45",
+              "count": 968,
+              "btnType": 1,
+              "value": "45"
+            },
+            {
+              "name": "45⅔",
+              "count": 130,
+              "btnType": 1,
+              "value": "45⅔"
+            },
+            {
+              "name": "45,5",
+              "count": 520,
+              "btnType": 1,
+              "value": "45,5"
+            },
+            {
+              "name": "46",
+              "count": 846,
+              "btnType": 1,
+              "value": "46"
+            },
+            {
+              "name": "46⅓",
+              "count": 130,
+              "btnType": 1,
+              "value": "46⅓"
+            },
+            {
+              "name": "46,5",
+              "count": 840,
+              "btnType": 1,
+              "value": "46,5"
+            },
+            {
+              "name": "47",
+              "count": 574,
+              "btnType": 1,
+              "value": "47"
+            },
+            {
+              "name": "47⅔",
+              "count": 62,
+              "btnType": 1,
+              "value": "47⅔"
+            },
+            {
+              "name": "47,5",
+              "count": 440,
+              "btnType": 1,
+              "value": "47,5"
+            },
+            {
+              "name": "48",
+              "count": 278,
+              "btnType": 1,
+              "value": "48"
+            },
+            {
+              "name": "48⅓",
+              "count": 70,
+              "btnType": 1,
+              "value": "48⅓"
+            },
+            {
+              "name": "48,5",
+              "count": 374,
+              "btnType": 1,
+              "value": "48,5"
+            },
+            {
+              "name": "49",
+              "count": 178,
+              "btnType": 1,
+              "value": "49"
+            },
+            {
+              "name": "49⅔",
+              "count": 20,
+              "btnType": 1,
+              "value": "49⅔"
+            },
+            {
+              "name": "49,5",
+              "count": 178,
+              "btnType": 1,
+              "value": "49,5"
+            },
+            {
+              "name": "50",
+              "count": 70,
+              "btnType": 1,
+              "value": "50"
+            },
+            {
+              "name": "50,5",
+              "count": 120,
+              "btnType": 1,
+              "value": "50,5"
+            },
+            {
+              "name": "51",
+              "count": 24,
+              "btnType": 1,
+              "value": "51"
+            }
+          ],
+          "nested": false,
+          "key": "shoesSizes",
+          "unfold": true
+        }
+      ],
+      "key": "sizeProperties",
+      "unfold": true
+    },
+    {
+      "module": "fit_type",
+      "name": "Пол",
+      "defaultShow": true,
+      "type": 2,
+      "items": [
+        {
+          "name": "Унисекс",
+          "count": 584,
+          "btnType": 1,
+          "value": "1"
+        },
+        {
+          "name": "Мужской",
+          "count": 740,
+          "btnType": 1,
+          "value": "2"
+        },
+        {
+          "name": "Женский",
+          "count": 174,
+          "btnType": 1,
+          "value": "3"
+        },
+        {
+          "name": "Дети",
+          "count": 2,
+          "btnType": 1,
+          "value": "4"
+        }
+      ],
+      "nested": false,
+      "key": "fitIds",
+      "unfold": true
+    },
+    {
+      "module": "brand",
+      "name": "Бренды",
+      "defaultShow": true,
+      "items": [],
+      "nested": true,
+      "nestedFacets": [
+        {
+          "module": "featured_brands",
+          "name": "Рекомендуемые ",
+          "defaultShow": true,
+          "type": 2,
+          "items": [
+            {
+              "name": "New Balance",
+              "count": 190,
+              "btnType": 1,
+              "value": "4"
+            },
+            {
+              "name": "Nike",
+              "count": 273,
+              "btnType": 1,
+              "value": "144"
+            },
+            {
+              "name": "ASICS",
+              "count": 78,
+              "btnType": 1,
+              "value": "8"
+            },
+            {
+              "name": "Li-Ning",
+              "count": 56,
+              "btnType": 1,
+              "value": "33"
+            },
+            {
+              "name": "Adidas",
+              "count": 43,
+              "btnType": 1,
+              "value": "3"
+            },
+            {
+              "name": "SALOMON",
+              "count": 16,
+              "btnType": 1,
+              "value": "1000079"
+            },
+            {
+              "name": "Mizuno",
+              "count": 15,
+              "btnType": 1,
+              "value": "10329"
+            },
+            {
+              "name": "Adidas Originals",
+              "count": 10,
+              "btnType": 1,
+              "value": "494"
+            },
+            {
+              "name": "ANTA",
+              "count": 17,
+              "btnType": 1,
+              "value": "34"
+            },
+            {
+              "name": "On",
+              "count": 19,
+              "btnType": 1,
+              "value": "1000654"
+            },
+            {
+              "name": "BMAI",
+              "count": 9,
+              "btnType": 1,
+              "value": "1010915"
+            }
+          ],
+          "nested": false,
+          "key": "brandIds",
+          "unfold": true
+        },
+        {
+          "module": "all_brands",
+          "name": "Все ",
+          "defaultShow": true,
+          "items": [],
+          "nested": true,
+          "nestedFacets": [
+            {
+              "module": "brand_group_first_letter_A",
+              "name": "A",
+              "defaultShow": true,
+              "type": 2,
+              "items": [
+                {
+                  "name": "ASICS",
+                  "count": 78,
+                  "btnType": 1,
+                  "value": "8"
+                },
+                {
+                  "name": "Adidas",
+                  "count": 43,
+                  "btnType": 1,
+                  "value": "3"
+                },
+                {
+                  "name": "Adidas Originals",
+                  "count": 10,
+                  "btnType": 1,
+                  "value": "494"
+                },
+                {
+                  "name": "ANTA",
+                  "count": 17,
+                  "btnType": 1,
+                  "value": "34"
+                }
+              ],
+              "nested": false,
+              "key": "brandIds",
+              "unfold": true
+            },
+            {
+              "module": "brand_group_first_letter_B",
+              "name": "B",
+              "defaultShow": true,
+              "type": 2,
+              "items": [
+                {
+                  "name": "BMAI",
+                  "count": 9,
+                  "btnType": 1,
+                  "value": "1010915"
+                }
+              ],
+              "nested": false,
+              "key": "brandIds",
+              "unfold": true
+            },
+            {
+              "module": "brand_group_first_letter_L",
+              "name": "L",
+              "defaultShow": true,
+              "type": 2,
+              "items": [
+                {
+                  "name": "Li-Ning",
+                  "count": 56,
+                  "btnType": 1,
+                  "value": "33"
+                }
+              ],
+              "nested": false,
+              "key": "brandIds",
+              "unfold": true
+            },
+            {
+              "module": "brand_group_first_letter_M",
+              "name": "M",
+              "defaultShow": true,
+              "type": 2,
+              "items": [
+                {
+                  "name": "Mizuno",
+                  "count": 15,
+                  "btnType": 1,
+                  "value": "10329"
+                }
+              ],
+              "nested": false,
+              "key": "brandIds",
+              "unfold": true
+            },
+            {
+              "module": "brand_group_first_letter_N",
+              "name": "N",
+              "defaultShow": true,
+              "type": 2,
+              "items": [
+                {
+                  "name": "New Balance",
+                  "count": 190,
+                  "btnType": 1,
+                  "value": "4"
+                },
+                {
+                  "name": "Nike",
+                  "count": 273,
+                  "btnType": 1,
+                  "value": "144"
+                }
+              ],
+              "nested": false,
+              "key": "brandIds",
+              "unfold": true
+            },
+            {
+              "module": "brand_group_first_letter_O",
+              "name": "O",
+              "defaultShow": true,
+              "type": 2,
+              "items": [
+                {
+                  "name": "On",
+                  "count": 19,
+                  "btnType": 1,
+                  "value": "1000654"
+                }
+              ],
+              "nested": false,
+              "key": "brandIds",
+              "unfold": true
+            },
+            {
+              "module": "brand_group_first_letter_S",
+              "name": "S",
+              "defaultShow": true,
+              "type": 2,
+              "items": [
+                {
+                  "name": "SALOMON",
+                  "count": 16,
+                  "btnType": 1,
+                  "value": "1000079"
+                }
+              ],
+              "nested": false,
+              "key": "brandIds",
+              "unfold": true
+            }
+          ],
+          "key": "brandIds",
+          "unfold": true
+        }
+      ],
+      "key": "brandIds",
+      "unfold": true
+    },
+    {
+      "module": "series",
+      "name": "Серия",
+      "defaultShow": true,
+      "type": 2,
+      "items": [
+        {
+          "name": "NB 530",
+          "count": 22,
+          "btnType": 1,
+          "value": "1032451"
+        },
+        {
+          "name": "NB 327",
+          "count": 10,
+          "btnType": 1,
+          "value": "1000082"
+        },
+        {
+          "name": "Gel-Contend 4",
+          "count": 11,
+          "btnType": 1,
+          "value": "1008084"
+        },
+        {
+          "name": "NB 2002R",
+          "count": 16,
+          "btnType": 1,
+          "value": "1000648"
+        },
+        {
+          "name": "NB 574",
+          "count": 25,
+          "btnType": 1,
+          "value": "1032332"
+        },
+        {
+          "name": "V2K Run",
+          "count": 16,
+          "btnType": 1,
+          "value": "1023021"
+        },
+        {
+          "name": "Initiator",
+          "count": 18,
+          "btnType": 1,
+          "value": "1073"
+        },
+        {
+          "name": "Gel-Kahana 8",
+          "count": 16,
+          "btnType": 1,
+          "value": "1013910"
+        },
+        {
+          "name": "NB 1906R",
+          "count": 24,
+          "btnType": 1,
+          "value": "1009929"
+        },
+        {
+          "name": "P-6000",
+          "count": 38,
+          "btnType": 1,
+          "value": "460"
+        },
+        {
+          "name": "Red Hare 9 PRO",
+          "count": 15,
+          "btnType": 1,
+          "value": "1096767"
+        },
+        {
+          "name": "XT-6",
+          "count": 10,
+          "btnType": 1,
+          "value": "1010520"
+        },
+        {
+          "name": "Red Hare 8 Pro",
+          "count": 8,
+          "btnType": 1,
+          "value": "1067099"
+        },
+        {
+          "name": "Adizero EVO SL",
+          "count": 17,
+          "btnType": 1,
+          "value": "1063037"
+        },
+        {
+          "name": "Feidian 5 Challenger",
+          "count": 8,
+          "btnType": 1,
+          "value": "1065949"
+        },
+        {
+          "name": "Zoom Vomero 5",
+          "count": 6,
+          "btnType": 1,
+          "value": "1072548"
+        },
+        {
+          "name": "Zoom Fly 6",
+          "count": 9,
+          "btnType": 1,
+          "value": "1063098"
+        },
+        {
+          "name": "Gel-1130",
+          "count": 5,
+          "btnType": 1,
+          "value": "1010780"
+        },
+        {
+          "name": "Air Max 90",
+          "count": 7,
+          "btnType": 1,
+          "value": "1000149"
+        },
+        {
+          "name": "Gel-Venture 6",
+          "count": 7,
+          "btnType": 1,
+          "value": "1012066"
+        },
+        {
+          "name": "Adizero Adios Pro 4",
+          "count": 6,
+          "btnType": 1,
+          "value": "1063255"
+        },
+        {
+          "name": "Feidian 6 Challenger",
+          "count": 6,
+          "btnType": 1,
+          "value": "1095578"
+        },
+        {
+          "name": "V5 RNR",
+          "count": 17,
+          "btnType": 1,
+          "value": "1070859"
+        },
+        {
+          "name": "Zoom Vomero Roam",
+          "count": 13,
+          "btnType": 1,
+          "value": "1063099"
+        },
+        {
+          "name": "Cortez",
+          "count": 6,
+          "btnType": 1,
+          "value": "1069459"
+        },
+        {
+          "name": "Cloudtilt",
+          "count": 8,
+          "btnType": 1,
+          "value": "1061272"
+        },
+        {
+          "name": "Vomero Plus",
+          "count": 9,
+          "btnType": 1,
+          "value": "1077203"
+        },
+        {
+          "name": "Air Pegasus 2005",
+          "count": 8,
+          "btnType": 1,
+          "value": "1028509"
+        },
+        {
+          "name": "Pegasus 42",
+          "count": 5,
+          "btnType": 1,
+          "value": "1105097"
+        },
+        {
+          "name": "Air Max Plus",
+          "count": 11,
+          "btnType": 1,
+          "value": "1000158"
+        },
+        {
+          "name": "Shox R4",
+          "count": 6,
+          "btnType": 1,
+          "value": "1010818"
+        },
+        {
+          "name": "NB 9060",
+          "count": 8,
+          "btnType": 1,
+          "value": "1007773"
+        },
+        {
+          "name": "Air Max Dn",
+          "count": 5,
+          "btnType": 1,
+          "value": "1030804"
+        },
+        {
+          "name": "Air Max 95",
+          "count": 9,
+          "btnType": 1,
+          "value": "1000148"
+        }
+      ],
+      "nested": false,
+      "key": "frontSeries",
+      "unfold": true
+    },
+    {
+      "module": "price_range",
+      "name": "Цена",
+      "defaultShow": true,
+      "type": 1,
+      "items": [
+        {
+          "name": "Низкая, ₽",
+          "count": 0,
+          "btnType": 1,
+          "value": ""
+        },
+        {
+          "name": "Высокая, ₽",
+          "count": 0,
+          "btnType": 1,
+          "value": ""
+        }
+      ],
+      "nested": false,
+      "key": "priceRange",
+      "unfold": true
+    },
+    {
+      "module": "buySeason",
+      "name": "Сезон",
+      "defaultShow": true,
+      "type": 2,
+      "items": [
+        {
+          "name": "Все сезоны",
+          "count": 20,
+          "btnType": 1,
+          "value": "All Seasons"
+        },
+        {
+          "name": "Осенний",
+          "count": 1468,
+          "btnType": 1,
+          "value": "Fall"
+        },
+        {
+          "name": "Весна",
+          "count": 1472,
+          "btnType": 1,
+          "value": "Spring"
+        },
+        {
+          "name": "Лето",
+          "count": 1256,
+          "btnType": 1,
+          "value": "Summer"
+        },
+        {
+          "name": "Зимний",
+          "count": 1170,
+          "btnType": 1,
+          "value": "Winter"
+        }
+      ],
+      "nested": false,
+      "key": "buySeason",
+      "unfold": true
+    },
+    {
+      "module": "closureType",
+      "name": "Вид застёжки",
+      "defaultShow": true,
+      "type": 2,
+      "items": [
+        {
+          "name": "Шнурок",
+          "count": 74,
+          "btnType": 1,
+          "value": "Drawstring"
+        },
+        {
+          "name": "Шнуровка",
+          "count": 1404,
+          "btnType": 1,
+          "value": "Lace-Up"
+        },
+        {
+          "name": "Слипоны",
+          "count": 8,
+          "btnType": 1,
+          "value": "Slip-on"
+        }
+      ],
+      "nested": false,
+      "key": "closureType",
+      "unfold": true
+    },
+    {
+      "module": "main_color",
+      "name": "Цвет",
+      "defaultShow": true,
+      "type": 2,
+      "items": [
+        {
+          "name": "Бежевый",
+          "count": 92,
+          "label": "#FBF2D3",
+          "btnType": 1,
+          "value": "Beige"
+        },
+        {
+          "name": "Черный",
+          "count": 444,
+          "label": "#14151A",
+          "btnType": 1,
+          "value": "Black"
+        },
+        {
+          "name": "Синий",
+          "count": 80,
+          "label": "#3D86E7",
+          "btnType": 1,
+          "value": "Blue"
+        },
+        {
+          "name": "Коричневый",
+          "count": 54,
+          "label": "#845F57",
+          "btnType": 1,
+          "value": "Brown"
+        },
+        {
+          "name": "Серый",
+          "count": 338,
+          "label": "#D7D5CA",
+          "btnType": 1,
+          "value": "Gray"
+        },
+        {
+          "name": "Зеленый",
+          "count": 54,
+          "label": "#78BB53",
+          "btnType": 1,
+          "value": "Green"
+        },
+        {
+          "name": "Оранжевый",
+          "count": 18,
+          "label": "#FF9500",
+          "btnType": 1,
+          "value": "Orange"
+        },
+        {
+          "name": "Розовый",
+          "count": 38,
+          "label": "#F6AFCC",
+          "btnType": 1,
+          "value": "Pink"
+        },
+        {
+          "name": "Фиолетовый",
+          "count": 20,
+          "label": "#C361C3",
+          "btnType": 1,
+          "value": "Purple"
+        },
+        {
+          "name": "Красный",
+          "count": 32,
+          "label": "#E73A4B",
+          "btnType": 1,
+          "value": "Red"
+        },
+        {
+          "name": "Серебристый",
+          "count": 88,
+          "labelUrl": "https://cdn-img.thepoizon.ru/node-common/b8c56b22-fa7a-5b26-f0bb-b7438ba0ef59-36-36.jpeg",
+          "btnType": 1,
+          "value": "Silver"
+        },
+        {
+          "name": "Белый",
+          "count": 338,
+          "label": "#FFFFFF",
+          "btnType": 1,
+          "value": "White"
+        },
+        {
+          "name": "Желтый",
+          "count": 20,
+          "label": "#FFEC5B",
+          "btnType": 1,
+          "value": "Yellow"
+        }
+      ],
+      "nested": false,
+      "key": "mainColor",
+      "unfold": true
+    },
+    {
+      "module": "positioningStyle",
+      "name": "Модный стиль",
+      "defaultShow": true,
+      "type": 2,
+      "items": [
+        {
+          "name": "Мода Тренд",
+          "count": 8,
+          "btnType": 1,
+          "value": "Fashion Trend"
+        },
+        {
+          "name": "Минималистский",
+          "count": 14,
+          "btnType": 1,
+          "value": "Minimalist"
+        },
+        {
+          "name": "Спортивный стиль",
+          "count": 38,
+          "btnType": 1,
+          "value": "Sporty Style"
+        },
+        {
+          "name": "Стильный винтаж",
+          "count": 10,
+          "btnType": 1,
+          "value": "Vintage Style"
+        }
+      ],
+      "nested": false,
+      "key": "positioningStyle",
+      "unfold": true
+    },
+    {
+      "module": "pt_nvs_Scenario",
+      "name": "Сценарий",
+      "defaultShow": true,
+      "type": 2,
+      "items": [
+        {
+          "name": "Повседневный",
+          "count": 986,
+          "btnType": 1,
+          "value": "Casual"
+        },
+        {
+          "name": "Городская Коммутация",
+          "count": 490,
+          "btnType": 1,
+          "value": "City Commuting"
+        },
+        {
+          "name": "Тренировка",
+          "count": 192,
+          "btnType": 1,
+          "value": "Training"
+        },
+        {
+          "name": "Длинный бег",
+          "count": 134,
+          "btnType": 1,
+          "value": "Long Distance Running"
+        },
+        {
+          "name": "Марафон",
+          "count": 122,
+          "btnType": 1,
+          "value": "Marathon"
+        },
+        {
+          "name": "Гонки",
+          "count": 112,
+          "btnType": 1,
+          "value": "Racing"
+        },
+        {
+          "name": "Спринт",
+          "count": 102,
+          "btnType": 1,
+          "value": "Sprint"
+        },
+        {
+          "name": "Трэиловый бег",
+          "count": 74,
+          "btnType": 1,
+          "value": "Trail Running"
+        },
+        {
+          "name": "Физкультурный зачет",
+          "count": 64,
+          "btnType": 1,
+          "value": "Physical Fitness Test & Exam"
+        },
+        {
+          "name": "Беговые соревнования",
+          "count": 28,
+          "btnType": 1,
+          "value": "Track & Field Competition"
+        }
+      ],
+      "nested": false,
+      "key": "pt_nvs_Scenario",
+      "unfold": true
+    },
+    {
+      "module": "pt_nvs_Functionality",
+      "name": "Функциональность",
+      "defaultShow": true,
+      "type": 2,
+      "items": [
+        {
+          "name": "Износостойкий",
+          "count": 86,
+          "btnType": 1,
+          "value": "Abrasion-Resistant"
+        },
+        {
+          "name": "Дышащий",
+          "count": 62,
+          "btnType": 1,
+          "value": "Breathable"
+        },
+        {
+          "name": "Амортизация",
+          "count": 42,
+          "btnType": 1,
+          "value": "Cushioning"
+        },
+        {
+          "name": "Легкий",
+          "count": 18,
+          "btnType": 1,
+          "value": "Lightweight"
+        },
+        {
+          "name": "Противоскользящий",
+          "count": 18,
+          "btnType": 1,
+          "value": "Slip-Resistant"
+        },
+        {
+          "name": "Oтскок",
+          "count": 16,
+          "btnType": 1,
+          "value": "Rebound"
+        },
+        {
+          "name": "Поддержка",
+          "count": 12,
+          "btnType": 1,
+          "value": "Support"
+        },
+        {
+          "name": "Водонепроницаемый",
+          "count": 8,
+          "btnType": 1,
+          "value": "Waterproof"
+        },
+        {
+          "name": "Высота Увеличение",
+          "count": 6,
+          "btnType": 1,
+          "value": "Height-Increasing"
+        }
+      ],
+      "nested": false,
+      "key": "pt_nvs_Functionality",
+      "unfold": true
+    },
+    {
+      "module": "pt_nvs_Suitable Foot Width",
+      "name": "Подходящая ширина стопы",
+      "defaultShow": true,
+      "type": 2,
+      "items": [
+        {
+          "name": "Стандартная посадка",
+          "count": 154,
+          "btnType": 1,
+          "value": "Standard Fit"
+        },
+        {
+          "name": "Узкий стиль",
+          "count": 4,
+          "btnType": 1,
+          "value": "Narrow Fit"
+        },
+        {
+          "name": "Широкий формат",
+          "count": 2,
+          "btnType": 1,
+          "value": "Wide Fit"
+        }
+      ],
+      "nested": false,
+      "key": "pt_nvs_Suitable Foot Width",
+      "unfold": true
+    },
+    {
+      "module": "pt_nvs_Running Shoe Level",
+      "name": "Уровень беговых кроссовок",
+      "defaultShow": true,
+      "type": 2,
+      "items": [
+        {
+          "name": "Кроссовки для начинающих",
+          "count": 598,
+          "btnType": 1,
+          "value": "Beginner Running Shoes"
+        },
+        {
+          "name": "Промежуточный беговые кроссовки",
+          "count": 76,
+          "btnType": 1,
+          "value": "Intermediate Running Shoes"
+        },
+        {
+          "name": "Продвинутая беговая обувь",
+          "count": 26,
+          "btnType": 1,
+          "value": "Advanced Running Shoes"
+        }
+      ],
+      "nested": false,
+      "key": "pt_nvs_Running Shoe Level",
+      "unfold": true
+    },
+    {
+      "module": "pt_nvs_Upper Material",
+      "name": "Верхний материал",
+      "defaultShow": true,
+      "type": 2,
+      "items": [
+        {
+          "name": "Ткань",
+          "count": 528,
+          "btnType": 1,
+          "value": "Fabric"
+        },
+        {
+          "name": "Искусственная кожа",
+          "count": 218,
+          "btnType": 1,
+          "value": "Synthetic Leather"
+        },
+        {
+          "name": "Сетчатая ткань",
+          "count": 194,
+          "btnType": 1,
+          "value": "Mesh"
+        },
+        {
+          "name": "Кожа",
+          "count": 128,
+          "btnType": 1,
+          "value": "Leather"
+        },
+        {
+          "name": "Искусственная кожа",
+          "count": 28,
+          "btnType": 1,
+          "value": "Artificial Leather"
+        },
+        {
+          "name": "Резина",
+          "count": 22,
+          "btnType": 1,
+          "value": "Rubber"
+        },
+        {
+          "name": "Коровья спилковая кожа",
+          "count": 16,
+          "btnType": 1,
+          "value": "Cow Split Leather"
+        },
+        {
+          "name": "Коровья кожа",
+          "count": 12,
+          "btnType": 1,
+          "value": "Cow Leather"
+        },
+        {
+          "name": "Остальные",
+          "count": 10,
+          "btnType": 1,
+          "value": "Other"
+        },
+        {
+          "name": "Свинная кожа",
+          "count": 10,
+          "btnType": 1,
+          "value": "Pigskin"
+        },
+        {
+          "name": "ТПУ (TPU)",
+          "count": 8,
+          "btnType": 1,
+          "value": "TPU"
+        },
+        {
+          "name": "Жаккардовая ткань",
+          "count": 6,
+          "btnType": 1,
+          "value": "Jacquard"
+        },
+        {
+          "name": "Нейлон",
+          "count": 6,
+          "btnType": 1,
+          "value": "Nylon"
+        },
+        {
+          "name": "Замша",
+          "count": 6,
+          "btnType": 1,
+          "value": "Suede"
+        }
+      ],
+      "nested": false,
+      "key": "pt_nvs_Upper Material",
+      "unfold": true
+    },
+    {
+      "module": "pt_nvs_Suitable Foot Type",
+      "name": "Подходящая форма стопы",
+      "defaultShow": true,
+      "type": 2,
+      "items": [
+        {
+          "name": "Стандартная посадка",
+          "count": 132,
+          "btnType": 1,
+          "value": "Standard Fit"
+        },
+        {
+          "name": "Гипопронация",
+          "count": 24,
+          "btnType": 1,
+          "value": "Underpronation"
+        },
+        {
+          "name": "Гиперпронация",
+          "count": 2,
+          "btnType": 1,
+          "value": "Overpronation"
+        }
+      ],
+      "nested": false,
+      "key": "pt_nvs_Suitable Foot Type",
+      "unfold": true
+    },
+    {
+      "module": "pt_nvs_Functional Classification",
+      "name": "Функциональные характеристики",
+      "defaultShow": true,
+      "type": 2,
+      "items": [
+        {
+          "name": "Дышащий",
+          "count": 708,
+          "btnType": 1,
+          "value": "Breathable"
+        },
+        {
+          "name": "Износостойкий",
+          "count": 332,
+          "btnType": 1,
+          "value": "Abrasion-Resistant"
+        },
+        {
+          "name": "Амортизация",
+          "count": 280,
+          "btnType": 1,
+          "value": "Cushioning"
+        },
+        {
+          "name": "Противоскользящий",
+          "count": 174,
+          "btnType": 1,
+          "value": "Slip-Resistant"
+        },
+        {
+          "name": "Oтскок",
+          "count": 172,
+          "btnType": 1,
+          "value": "Rebound"
+        },
+        {
+          "name": "Легкий",
+          "count": 108,
+          "btnType": 1,
+          "value": "Lightweight"
+        },
+        {
+          "name": "Поддержка",
+          "count": 72,
+          "btnType": 1,
+          "value": "Support"
+        },
+        {
+          "name": "Высота Увеличение",
+          "count": 56,
+          "btnType": 1,
+          "value": "Height-Increasing"
+        },
+        {
+          "name": "Покрытие",
+          "count": 30,
+          "btnType": 1,
+          "value": "Coverage"
+        },
+        {
+          "name": "Водонепроницаемый",
+          "count": 16,
+          "btnType": 1,
+          "value": "Waterproof"
+        }
+      ],
+      "nested": false,
+      "key": "pt_nvs_Functional Classification",
+      "unfold": true
+    },
+    {
+      "module": "pt_nvs_Sole Material",
+      "name": "Материал подошвы",
+      "defaultShow": true,
+      "type": 2,
+      "items": [
+        {
+          "name": "Резина",
+          "count": 750,
+          "btnType": 1,
+          "value": "Rubber"
+        },
+        {
+          "name": "Остальные",
+          "count": 206,
+          "btnType": 1,
+          "value": "Other"
+        },
+        {
+          "name": "Пена подошва",
+          "count": 26,
+          "btnType": 1,
+          "value": "Foam Sole"
+        },
+        {
+          "name": "Нейлон",
+          "count": 12,
+          "btnType": 1,
+          "value": "Nylon"
+        },
+        {
+          "name": "Углеродное волокно",
+          "count": 10,
+          "btnType": 1,
+          "value": "Carbon Fiber"
+        },
+        {
+          "name": "Composite Sole  \nКомпозитная подошва",
+          "count": 8,
+          "btnType": 1,
+          "value": "Composite Sole"
+        },
+        {
+          "name": "ЭВА",
+          "count": 8,
+          "btnType": 1,
+          "value": "EVA"
+        },
+        {
+          "name": "Пена",
+          "count": 8,
+          "btnType": 1,
+          "value": "Foam"
+        },
+        {
+          "name": "PU (полиуретан)",
+          "count": 8,
+          "btnType": 1,
+          "value": "PU (Polyurethane)"
+        }
+      ],
+      "nested": false,
+      "key": "pt_nvs_Sole Material",
+      "unfold": true
+    },
+    {
+      "module": "pt_nvs_Suitable Weight",
+      "name": "Подходящий вес",
+      "defaultShow": true,
+      "type": 2,
+      "items": [
+        {
+          "name": "Лёгкий-средний вес",
+          "count": 74,
+          "btnType": 1,
+          "value": "Light to Medium Weight"
+        },
+        {
+          "name": "Тяжелый вес",
+          "count": 44,
+          "btnType": 1,
+          "value": "Heavy Weight"
+        }
+      ],
+      "nested": false,
+      "key": "pt_nvs_Suitable Weight",
+      "unfold": true
+    },
+    {
+      "module": "pt_nvs_Suitable Surface",
+      "name": "Подходящая поверхность",
+      "defaultShow": true,
+      "type": 2,
+      "items": [
+        {
+          "name": "Шоссе",
+          "count": 688,
+          "btnType": 1,
+          "value": "Road"
+        },
+        {
+          "name": "Резиновая беговая дорожка",
+          "count": 404,
+          "btnType": 1,
+          "value": "Rubber Track"
+        },
+        {
+          "name": "Беговые дорожки",
+          "count": 388,
+          "btnType": 1,
+          "value": "Treadmill"
+        },
+        {
+          "name": "Спортзал",
+          "count": 354,
+          "btnType": 1,
+          "value": "Gym"
+        },
+        {
+          "name": "Горный туризм",
+          "count": 72,
+          "btnType": 1,
+          "value": "Outdoor Mountain"
+        }
+      ],
+      "nested": false,
+      "key": "pt_nvs_Suitable Surface",
+      "unfold": true
+    },
+    {
+      "module": "pt_nvs_Heel Type",
+      "name": "Тип каблука",
+      "defaultShow": true,
+      "type": 2,
+      "items": [
+        {
+          "name": "на платформе",
+          "count": 862,
+          "btnType": 1,
+          "value": "Platform"
+        },
+        {
+          "name": "Плоский",
+          "count": 634,
+          "btnType": 1,
+          "value": "Flat"
+        }
+      ],
+      "nested": false,
+      "key": "pt_nvs_Heel Type",
+      "unfold": true
+    },
+    {
+      "module": "toeStyle",
+      "name": "Форма мыска",
+      "defaultShow": true,
+      "type": 2,
+      "items": [
+        {
+          "name": "Заостренный носок",
+          "count": 2,
+          "btnType": 1,
+          "value": "Pointed Toe"
+        },
+        {
+          "name": "Круглый носок",
+          "count": 1452,
+          "btnType": 1,
+          "value": "Round Tip"
+        }
+      ],
+      "nested": false,
+      "key": "toeStyle",
+      "unfold": true
+    },
+    {
+      "module": "upper_height",
+      "name": "Высота голенища",
+      "defaultShow": true,
+      "type": 2,
+      "items": [
+        {
+          "name": "Низкий топ",
+          "count": 1372,
+          "btnType": 1,
+          "value": "Low-top"
+        },
+        {
+          "name": "Средний топ",
+          "count": 14,
+          "btnType": 1,
+          "value": "Mid-top"
+        },
+        {
+          "name": "Остальные",
+          "count": 114,
+          "btnType": 1,
+          "value": "Other"
+        }
+      ],
+      "nested": false,
+      "key": "upperHeight",
+      "unfold": true
+    }
+  ]
+}

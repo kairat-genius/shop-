@@ -3,7 +3,10 @@
 import { createPortal } from "react-dom";
 import Link from "next/link";
 import { cn } from "@/shared/utils/clsx";
-import { categoriesData } from "@/shared/data/category.data";
+import { useCatalogData } from "@/shared/context/catalog-data";
+import { generateProductSlug } from "@/shared/utils/slug";
+import { useState } from "react";
+import Icon from "@/shared/icon";
 
 interface CategoriesDropdownPortalProps {
   isOpen: boolean;
@@ -18,6 +21,13 @@ const CategoriesDropdownPortal = ({
   onMouseEnter,
   onMouseLeave,
 }: CategoriesDropdownPortalProps) => {
+  const { categoryData } = useCatalogData();
+
+  const [expandedCats, setExpandedCats] = useState<(number | string)[]>([]);
+
+  const handleShowMore = (categoryId: number | string) => {
+    setExpandedCats((prev) => [...prev, categoryId]);
+  };
   return createPortal(
     <>
       {/* Бэкдроп */}
@@ -42,31 +52,50 @@ const CategoriesDropdownPortal = ({
         onMouseEnter={onMouseEnter}
         onMouseLeave={onMouseLeave}
       >
-        <div className="grid grid-cols-6 gap-5 gap-y-10 max-w-360 min-w-[1024px] mx-auto px-[2.4rem] py-6">
-          {categoriesData.map((cat) => (
-            <div key={cat.slug}>
-              <Link
-                href={`/category/${cat.slug}`}
-                className="block text-[14px] font-medium mb-4 hover:underline leading-4"
-                onClick={onClose}
-              >
-                {cat.title}
-              </Link>
+        <div className="grid grid-cols-6 gap-5 gap-y-10 max-w-360 min-w-[1024px] max-h-[520px] mx-auto px-[2.4rem] py-6">
+          {categoryData.categories.map((cat) => {
+            // Собираем все подкатегории в один плоский массив
+            const allItems = cat.groups.flatMap((group) => group.items);
+            const isExpanded = expandedCats.some(
+              (id) => String(id) === String(cat.id),
+            );
+            // Отрезаем первые 9, если категория не раскрыта
+            const visibleItems = isExpanded ? allItems : allItems.slice(0, 9);
+            const hasMore = allItems.length > 9;
 
-              <div className="flex flex-col gap-3 text-[12px] leading-3.5">
-                {cat.children.map((child) => (
-                  <Link
-                    key={child.slug}
-                    href={`/category/${child.slug}`}
-                    className="hover:underline"
-                    onClick={onClose}
-                  >
-                    {child.title}
-                  </Link>
-                ))}
+            return (
+              <div key={cat.id}>
+                <Link
+                  href={`/category/${generateProductSlug(cat.name, cat.id)}`}
+                  className="block text-[14px] font-medium mb-4 hover:underline leading-4"
+                  onClick={onClose}
+                >
+                  {cat.name}
+                </Link>
+
+                <div className="flex flex-col gap-3 text-[12px] leading-3.5">
+                  {visibleItems.map((child) => (
+                    <Link
+                      key={child.id}
+                      href={`/category/${generateProductSlug(child.name, child.id)}`}
+                      className="hover:underline"
+                      onClick={onClose}
+                    >
+                      {child.name}
+                    </Link>
+                  ))}
+                  {!isExpanded && hasMore && (
+                    <button
+                      onClick={() => handleShowMore(cat.id)}
+                      className="hover:underline flex items-center gap-1 text-[12px] leading-3.5 cursor-pointer"
+                    >
+                      Показать еще<Icon icon="chevron-down" width={12} height={12} className="rotate-180" />
+                    </button>
+                  )}
+                </div>
               </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
       </div>
     </>,

@@ -1,0 +1,2055 @@
+{
+  "searchSpuList": {
+    "noResultsTitle": "Нет результатов для \"\"",
+    "total": 1200,
+    "spuList": [],
+    "algoAcmDto": {
+      "deyiInfo": "",
+      "requestId": "7403587356a1fcea"
+    },
+    "enableSimilarRecommend": false,
+    "fallbackSpuList": [
+      {
+        "minSpuPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "6 150 ₽",
+          "money": {
+            "amount": "6150.00",
+            "minUnitVal": 615000,
+            "currency": "RUB"
+          },
+          "amountText": "6 150",
+          "sign": "+",
+          "absText": "6 150"
+        },
+        "language": "bbmax",
+        "imageCutSize": 16,
+        "title": "New Balance NB 530 Текстиль Искусственная Кожа Дышащий Низкий Верх Повседневная Городская Коммутация Беговые Кроссовки",
+        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20240726/1eed0defcabe44b989217ec6ef6a8431.jpg",
+        "displayRecommendLabels": [
+          {
+            "labelSource": 3,
+            "labelIcons": [
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20240726/1eed0defcabe44b989217ec6ef6a8431.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251209/0908e6e50556469aa1712f0c2751187e.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251210/c823f44ba0d64ee4bd3f32f3f7e9d1b9.jpg"
+            ],
+            "hasMore": true
+          },
+          {
+            "labelSource": 2,
+            "labelId": 93635,
+            "labelText": "Без каблука"
+          },
+          {
+            "labelSource": 2,
+            "labelId": 93637,
+            "labelText": "С круглым носом"
+          }
+        ],
+        "articleNumber": "MR530SG",
+        "tradingRoles": [
+          0,
+          1
+        ],
+        "brandId": 4,
+        "spuId": 8900001978861819,
+        "level2CategoryId": 30,
+        "sellDate": 1580486400000,
+        "region": "BBMAX",
+        "globalSpuId": 10001001819,
+        "algoAcmItem": {
+          "itemId": "10001001819",
+          "extMap": {
+            "item_pool_ids": [
+              65
+            ],
+            "ctr": 0.023122191429138184,
+            "tag_ids": [
+              1008,
+              1002,
+              1016,
+              1012,
+              1013,
+              1009,
+              1017,
+              1015,
+              1003
+            ],
+            "cn_personal_sc": 1,
+            "cn_i2i_cnt": 0,
+            "approval_type": "",
+            "main_size_non_stock_percent": 57,
+            "theme_id": "algotheme_lv1001500000091",
+            "rawSc": 0.16176200000000002,
+            "trigger_flag": "bbmax",
+            "_rs_": 1,
+            "brand_biz_type": "国际-潮流品",
+            "tag_ids_set": [
+              1008,
+              1009,
+              1012,
+              1013,
+              1015,
+              1016,
+              1017,
+              1002,
+              1003
+            ],
+            "neuronSc": 0.003035484162303703,
+            "beSc": 7.737427711486816,
+            "cvr": 0.13128012418746948,
+            "cn_cnt": 3,
+            "china_made_non_konwn": 0
+          },
+          "itemType": "product",
+          "requestId": "7403587356a1fcea",
+          "channelName": "HOT",
+          "acm": "1.rcmd.product_10001001819.global_feed_bbmax.288-283-284-285-286-287-707.cn_HOT-rid_7403587356a1fcea-pos_1-cid_10001001819-bn_特殊uid桶-ts_1788421066491"
+        },
+        "categoryId": 33,
+        "level1CategoryId": 29,
+        "skuId": 8900020618001819,
+        "status": 1
+      },
+      {
+        "minSpuPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "2 800 ₽",
+          "money": {
+            "amount": "2800.00",
+            "minUnitVal": 280000,
+            "currency": "RUB"
+          },
+          "amountText": "2 800",
+          "sign": "+",
+          "absText": "2 800"
+        },
+        "language": "bbmax",
+        "imageCutSize": 16,
+        "title": "PAUL FRANK Покрытие противоскользящее устойчивое к истиранию легкое дышащее низкий топ кеды немецкой армии (GAT) женские",
+        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260301/b1fee62d355e440ab36da24b70829736.png",
+        "displayRecommendLabels": [
+          {
+            "labelSource": 3,
+            "labelIcons": [
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260301/b1fee62d355e440ab36da24b70829736.png",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260301/775b3cb9f00d409fa128d97a8f517417.png",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260301/00f469939f0d44afa0b9e3813d4deb9b.png"
+            ],
+            "hasMore": true
+          },
+          {
+            "labelSource": 2,
+            "labelId": 93637,
+            "labelText": "С круглым носом"
+          }
+        ],
+        "articleNumber": "CXPF20944W藕粉",
+        "tradingRoles": [
+          0,
+          1
+        ],
+        "brandId": 1002261,
+        "spuId": 8900224306213268,
+        "level2CategoryId": 35,
+        "sellDate": 0,
+        "region": "BBMAX",
+        "globalSpuId": 14013093268,
+        "algoAcmItem": {
+          "itemId": "14013093268",
+          "extMap": {
+            "item_pool_ids": [],
+            "ctr": 0.018274396657943726,
+            "tag_ids": [
+              1003,
+              1015,
+              1009,
+              1008,
+              1014,
+              1005,
+              1010
+            ],
+            "cn_personal_sc": 0.027586421,
+            "cn_i2i_cnt": 0,
+            "approval_type": "",
+            "main_size_non_stock_percent": 50,
+            "theme_id": "fc3_500000371",
+            "rawSc": 0.04000000000000001,
+            "trigger_flag": "bbmax",
+            "_rs_": 0.027586420997977257,
+            "brand_biz_type": "中国制造",
+            "tag_ids_set": [
+              1008,
+              1009,
+              1010,
+              1014,
+              1015,
+              1003,
+              1005
+            ],
+            "neuronSc": 0.0013048450518375887,
+            "beSc": 5.373039245605469,
+            "cvr": 0.071402907371521,
+            "cn_cnt": 3,
+            "china_made_non_konwn": 1
+          },
+          "itemType": "product",
+          "requestId": "7403587356a1fcea",
+          "channelName": "HOT",
+          "acm": "1.rcmd.product_14013093268.global_feed_bbmax.288-283-284-285-286-287-707.cn_HOT-rid_7403587356a1fcea-pos_2-cid_14013093268-bn_特殊uid桶-ts_1788421066491"
+        },
+        "categoryId": 1005843,
+        "level1CategoryId": 29,
+        "skuId": 8902897873623268,
+        "status": 1
+      },
+      {
+        "minSpuPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "6 500 ₽",
+          "money": {
+            "amount": "6500.00",
+            "minUnitVal": 650000,
+            "currency": "RUB"
+          },
+          "amountText": "6 500",
+          "sign": "+",
+          "absText": "6 500"
+        },
+        "language": "bbmax",
+        "imageCutSize": 16,
+        "title": "Кроссовки Nike Dunk Low \"Surfaces In Brown And Sail\" Женские, Коричнево-бежевые, Кожаные, Легкие, С Амортизацией, Износостойкие",
+        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251206/6c8447a89bc24797a6429732cc71ab5d.jpg",
+        "displayRecommendLabels": [
+          {
+            "labelSource": 3,
+            "labelIcons": [
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251206/6c8447a89bc24797a6429732cc71ab5d.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260602/730456031ce9456e80038460967013ee.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251205/d3d8d591b1c84d89a8cf9fb036468c92.jpg"
+            ],
+            "hasMore": true
+          },
+          {
+            "labelSource": 2,
+            "labelId": 93637,
+            "labelText": "С круглым носом"
+          }
+        ],
+        "articleNumber": "DD1503-124",
+        "tradingRoles": [
+          0,
+          1
+        ],
+        "brandId": 144,
+        "spuId": 8900023917969329,
+        "level2CategoryId": 35,
+        "sellDate": 1690473600000,
+        "region": "BBMAX",
+        "globalSpuId": 10003939329,
+        "algoAcmItem": {
+          "itemId": "10003939329",
+          "extMap": {
+            "item_pool_ids": [],
+            "ctr": 0.01791730523109436,
+            "tag_ids": [
+              1003,
+              1017,
+              1015,
+              1012
+            ],
+            "cn_personal_sc": 0.26206923,
+            "cn_i2i_cnt": 0,
+            "approval_type": "",
+            "main_size_non_stock_percent": 0,
+            "theme_id": "algotheme_lv1144500000091",
+            "rawSc": 0.07402,
+            "trigger_flag": "bbmax",
+            "_rs_": 0.2620692253112793,
+            "brand_biz_type": "国际-潮流品",
+            "tag_ids_set": [
+              1012,
+              1015,
+              1017,
+              1003
+            ],
+            "neuronSc": 0.0012147364316383857,
+            "beSc": 7.39405632019043,
+            "cvr": 0.06779682636260986,
+            "cn_cnt": 3,
+            "china_made_non_konwn": 0
+          },
+          "itemType": "product",
+          "requestId": "7403587356a1fcea",
+          "channelName": "HOT",
+          "acm": "1.rcmd.product_10003939329.global_feed_bbmax.288-283-284-285-286-287-707.cn_HOT-rid_7403587356a1fcea-pos_3-cid_10003939329-bn_特殊uid桶-ts_1788421066491"
+        },
+        "categoryId": 38,
+        "level1CategoryId": 29,
+        "skuId": 8900223028899329,
+        "status": 1
+      },
+      {
+        "minSpuPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "2 668 ₽",
+          "money": {
+            "amount": "2668.00",
+            "minUnitVal": 266800,
+            "currency": "RUB"
+          },
+          "amountText": "2 668",
+          "sign": "+",
+          "absText": "2 668"
+        },
+        "language": "bbmax",
+        "imageCutSize": 16,
+        "title": "CHAOPAISHA Обувь Birkenstock Унисекс",
+        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251208/48831ca0f7354c69a0b2c05a265df59e.png",
+        "displayRecommendLabels": [
+          {
+            "labelSource": 3,
+            "labelIcons": [
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251208/48831ca0f7354c69a0b2c05a265df59e.png",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251208/3d90b7857e4c473d9f909221e8dd063a.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251208/cd76a27f7b284adaa1e0436c12c91c76.png"
+            ],
+            "hasMore": true
+          }
+        ],
+        "articleNumber": "CPS-BK001",
+        "tradingRoles": [
+          0,
+          1
+        ],
+        "brandId": 1026571,
+        "spuId": 8900003034979132,
+        "level2CategoryId": 410,
+        "sellDate": 1747238400000,
+        "region": "BBMAX",
+        "globalSpuId": 14001359132,
+        "algoAcmItem": {
+          "itemId": "14001359132",
+          "extMap": {
+            "item_pool_ids": [],
+            "ctr": 0.011026740074157715,
+            "tag_ids": [
+              1003,
+              1015,
+              1009,
+              1008
+            ],
+            "cn_personal_sc": 0.032414384,
+            "cn_i2i_cnt": 0,
+            "approval_type": "",
+            "main_size_non_stock_percent": 13,
+            "theme_id": "fc3_500000619",
+            "rawSc": 0.040204000000000004,
+            "trigger_flag": "bbmax",
+            "_rs_": 0.03241438418626785,
+            "brand_biz_type": "中国制造",
+            "tag_ids_set": [
+              1008,
+              1009,
+              1015,
+              1003
+            ],
+            "neuronSc": 0.0012005245661477204,
+            "beSc": 5.497437953948975,
+            "cvr": 0.10887393355369568,
+            "cn_cnt": 3,
+            "china_made_non_konwn": 1
+          },
+          "itemType": "product",
+          "requestId": "7403587356a1fcea",
+          "channelName": "HOT",
+          "acm": "1.rcmd.product_14001359132.global_feed_bbmax.288-283-284-285-286-287-707.cn_HOT-rid_7403587356a1fcea-pos_4-cid_14001359132-bn_特殊uid桶-ts_1788421066491"
+        },
+        "categoryId": 1005370,
+        "level1CategoryId": 29,
+        "skuId": 8900034466919132,
+        "status": 1
+      },
+      {
+        "minSpuPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "6 300 ₽",
+          "money": {
+            "amount": "6300.00",
+            "minUnitVal": 630000,
+            "currency": "RUB"
+          },
+          "amountText": "6 300",
+          "sign": "+",
+          "absText": "6 300"
+        },
+        "language": "bbmax",
+        "imageCutSize": 16,
+        "title": "New Balance NB 530 Беговые Кроссовки Унисекс, Сетчатая Ткань, Синтетическая Кожа, Дышащие, Серебристо-белый",
+        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251209/0908e6e50556469aa1712f0c2751187e.jpg",
+        "displayRecommendLabels": [
+          {
+            "labelSource": 3,
+            "labelIcons": [
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251209/0908e6e50556469aa1712f0c2751187e.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20240726/1eed0defcabe44b989217ec6ef6a8431.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251210/c823f44ba0d64ee4bd3f32f3f7e9d1b9.jpg"
+            ],
+            "hasMore": true
+          },
+          {
+            "labelSource": 2,
+            "labelId": 93635,
+            "labelText": "Без каблука"
+          },
+          {
+            "labelSource": 2,
+            "labelId": 93637,
+            "labelText": "С круглым носом"
+          }
+        ],
+        "articleNumber": "MR530AD",
+        "tradingRoles": [
+          0,
+          1
+        ],
+        "brandId": 4,
+        "spuId": 8900029981847721,
+        "level2CategoryId": 30,
+        "sellDate": 1665763200000,
+        "region": "BBMAX",
+        "globalSpuId": 10003777721,
+        "algoAcmItem": {
+          "itemId": "10003777721",
+          "extMap": {
+            "item_pool_ids": [],
+            "ctr": 0.011030465364456177,
+            "tag_ids": [
+              1017,
+              1008,
+              1003,
+              1012,
+              1015,
+              1016,
+              1009,
+              1002
+            ],
+            "cn_personal_sc": 0.18482776,
+            "cn_i2i_cnt": 0,
+            "approval_type": "",
+            "main_size_non_stock_percent": 0,
+            "theme_id": "algotheme_brandhotspu4",
+            "rawSc": 0.04880600000000001,
+            "trigger_flag": "bbmax",
+            "_rs_": 0.1848277598619461,
+            "brand_biz_type": "国际-潮流品",
+            "tag_ids_set": [
+              1008,
+              1009,
+              1012,
+              1015,
+              1016,
+              1017,
+              1002,
+              1003
+            ],
+            "neuronSc": 0.0011175100865665755,
+            "beSc": 5.739212512969971,
+            "cvr": 0.10131123661994934,
+            "cn_cnt": 3,
+            "china_made_non_konwn": 0
+          },
+          "itemType": "product",
+          "requestId": "7403587356a1fcea",
+          "channelName": "HOT",
+          "acm": "1.rcmd.product_10003777721.global_feed_bbmax.288-283-284-285-286-287-707.cn_HOT-rid_7403587356a1fcea-pos_5-cid_10003777721-bn_特殊uid桶-ts_1788421066491"
+        },
+        "categoryId": 33,
+        "level1CategoryId": 29,
+        "skuId": 8900277902707721,
+        "status": 1
+      },
+      {
+        "minSpuPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "4 175 ₽",
+          "money": {
+            "amount": "4175.00",
+            "minUnitVal": 417500,
+            "currency": "RUB"
+          },
+          "amountText": "4 175",
+          "sign": "+",
+          "absText": "4 175"
+        },
+        "language": "bbmax",
+        "imageCutSize": 16,
+        "title": "Paddington Bears Пуховая куртка пальто унисекс",
+        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251024/de41c9ba98c1495c98d4140a9eb4c03b.jpg",
+        "displayRecommendLabels": [
+          {
+            "labelSource": 3,
+            "labelIcons": [
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251024/de41c9ba98c1495c98d4140a9eb4c03b.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251024/a6b3684905004ad2a12f57f5c667c9c8.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251024/81f74f1dbb9746f0b7984487eeac12e6.jpg"
+            ],
+            "hasMore": true
+          }
+        ],
+        "articleNumber": "173PDM7609T",
+        "tradingRoles": [
+          0,
+          1
+        ],
+        "brandId": 1006943,
+        "spuId": 8900189609862211,
+        "level2CategoryId": 1002606,
+        "sellDate": 1762531200000,
+        "region": "BBMAX",
+        "globalSpuId": 14007962211,
+        "algoAcmItem": {
+          "itemId": "14007962211",
+          "extMap": {
+            "item_pool_ids": [],
+            "ctr": 0.017164885997772217,
+            "tag_ids": [
+              1014,
+              1009,
+              1005,
+              1010
+            ],
+            "cn_i2i_cnt": 0,
+            "approval_type": "",
+            "main_size_non_stock_percent": 0,
+            "theme_id": "algotheme_lv11006943500000125",
+            "rawSc": 0.8,
+            "_rs_": 0.9938801527023315,
+            "brand_biz_type": "中国制造",
+            "tag_ids_set": [
+              1009,
+              1010,
+              1014,
+              1005
+            ],
+            "neuronSc": 0.000861634057777394,
+            "beSc": 5.727030277252197,
+            "cvr": 0.050197482109069824,
+            "cn_cnt": 1,
+            "china_made_non_konwn": 1
+          },
+          "itemType": "product",
+          "requestId": "7403587356a1fcea",
+          "channelName": "DSSM",
+          "acm": "1.rcmd.product_14007962211.global_feed_bbmax.288-283-284-285-286-287-707.cn_DSSM-rid_7403587356a1fcea-pos_6-cid_14007962211-bn_特殊uid桶-ts_1788421066491"
+        },
+        "categoryId": 9,
+        "level1CategoryId": 2,
+        "skuId": 8902418970752211,
+        "status": 1
+      },
+      {
+        "minSpuPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "1 000 ₽",
+          "money": {
+            "amount": "1000.00",
+            "minUnitVal": 100000,
+            "currency": "RUB"
+          },
+          "amountText": "1 000",
+          "sign": "+",
+          "absText": "1 000"
+        },
+        "language": "bbmax",
+        "imageCutSize": 16,
+        "title": "YASHU x Контрастные цвета Универсальные летние сандалии на платформе Увеличение роста Противоскользящий Устойчивый к запахам Унисекс",
+        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260804/9a9d83c1676a4c3b8ef477c1c96d2906.jpg",
+        "displayRecommendLabels": [
+          {
+            "labelSource": 3,
+            "labelIcons": [
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260804/9a9d83c1676a4c3b8ef477c1c96d2906.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260804/dff34621fc8f4327a1c99d9ff043f8f9.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260804/1fe7aa4f75c246e79feb81a468f44ae4.jpg"
+            ],
+            "hasMore": true
+          },
+          {
+            "labelSource": 2,
+            "labelId": 93634,
+            "labelText": "Высота каблука: 3-5 см"
+          },
+          {
+            "labelSource": 2,
+            "labelId": 93633,
+            "labelText": "Подошва EVA"
+          }
+        ],
+        "articleNumber": "YS2411-X",
+        "tradingRoles": [
+          0,
+          1
+        ],
+        "brandId": 1022984,
+        "spuId": 8900101448096339,
+        "level2CategoryId": 410,
+        "sellDate": 1706716800000,
+        "region": "BBMAX",
+        "globalSpuId": 12005386339,
+        "algoAcmItem": {
+          "itemId": "12005386339",
+          "extMap": {
+            "item_pool_ids": [],
+            "ctr": 0.015417128801345825,
+            "tag_ids": [
+              1015,
+              1010,
+              1003,
+              1005,
+              1009,
+              1008,
+              1014
+            ],
+            "cn_personal_sc": 0.07655175,
+            "cn_i2i_cnt": 0,
+            "approval_type": "",
+            "main_size_non_stock_percent": 0,
+            "theme_id": "fc3_500000397",
+            "rawSc": 0.04000000000000001,
+            "trigger_flag": "bbmax",
+            "_rs_": 0.07655175030231476,
+            "brand_biz_type": "中国制造",
+            "tag_ids_set": [
+              1008,
+              1009,
+              1010,
+              1014,
+              1015,
+              1003,
+              1005
+            ],
+            "neuronSc": 0.0010464908823939467,
+            "beSc": 6.205088138580322,
+            "cvr": 0.06787845492362976,
+            "cn_cnt": 3,
+            "china_made_non_konwn": 1
+          },
+          "itemType": "product",
+          "requestId": "7403587356a1fcea",
+          "channelName": "HOT",
+          "acm": "1.rcmd.product_12005386339.global_feed_bbmax.288-283-284-285-286-287-707.cn_HOT-rid_7403587356a1fcea-pos_7-cid_12005386339-bn_特殊uid桶-ts_1788421066491"
+        },
+        "categoryId": 46,
+        "level1CategoryId": 29,
+        "skuId": 8901024829486339,
+        "status": 1
+      },
+      {
+        "minSpuPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "7 000 ₽",
+          "money": {
+            "amount": "7000.00",
+            "minUnitVal": 700000,
+            "currency": "RUB"
+          },
+          "amountText": "7 000",
+          "sign": "+",
+          "absText": "7 000"
+        },
+        "language": "bbmax",
+        "imageCutSize": 16,
+        "title": "New Balance NB 574 Износостойкие Дышащие Низкие Кроссовки для Бега Унисекс Серые",
+        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251209/e565585e8f334e0db19d77ceb5047b90.jpg",
+        "displayRecommendLabels": [
+          {
+            "labelSource": 3,
+            "labelIcons": [
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251209/e565585e8f334e0db19d77ceb5047b90.jpg",
+              "https://hkpoizon-oversea.poizon.com/ai/generate/image/ai_generate_image_5c33b64bd5af403faa1067f07cdf49eb.jpeg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251209/99af1d0786a342a983fe52b095e5bb75.jpg"
+            ],
+            "hasMore": true
+          },
+          {
+            "labelSource": 2,
+            "labelId": 93635,
+            "labelText": "Без каблука"
+          },
+          {
+            "labelSource": 2,
+            "labelId": 93637,
+            "labelText": "С круглым носом"
+          }
+        ],
+        "articleNumber": "U574UL2",
+        "tradingRoles": [
+          0,
+          1
+        ],
+        "brandId": 4,
+        "spuId": 8900030544984048,
+        "level2CategoryId": 30,
+        "sellDate": 1665763200000,
+        "region": "BBMAX",
+        "globalSpuId": 10003834048,
+        "algoAcmItem": {
+          "itemId": "10003834048",
+          "extMap": {
+            "item_pool_ids": [],
+            "ctr": 0.0143546462059021,
+            "tag_ids": [
+              1009,
+              1003,
+              1017,
+              1008,
+              1015
+            ],
+            "cn_personal_sc": 0.085517146,
+            "cn_i2i_cnt": 0,
+            "approval_type": "",
+            "main_size_non_stock_percent": 33,
+            "theme_id": "algotheme_lv1002500000091",
+            "rawSc": 0.04408000000000001,
+            "trigger_flag": "bbmax",
+            "_rs_": 0.08551714569330215,
+            "brand_biz_type": "国际-潮流品",
+            "tag_ids_set": [
+              1008,
+              1009,
+              1015,
+              1017,
+              1003
+            ],
+            "neuronSc": 0.0009115647684527772,
+            "beSc": 5.016980171203613,
+            "cvr": 0.06350311636924744,
+            "cn_cnt": 3,
+            "china_made_non_konwn": 0
+          },
+          "itemType": "product",
+          "requestId": "7403587356a1fcea",
+          "channelName": "HOT",
+          "acm": "1.rcmd.product_10003834048.global_feed_bbmax.288-283-284-285-286-287-707.cn_HOT-rid_7403587356a1fcea-pos_8-cid_10003834048-bn_特殊uid桶-ts_1788421066491"
+        },
+        "categoryId": 33,
+        "level1CategoryId": 29,
+        "skuId": 8900281653994048,
+        "status": 1
+      },
+      {
+        "minSpuPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "4 237 ₽",
+          "money": {
+            "amount": "4237.00",
+            "minUnitVal": 423700,
+            "currency": "RUB"
+          },
+          "amountText": "4 237",
+          "sign": "+",
+          "absText": "4 237"
+        },
+        "language": "bbmax",
+        "imageCutSize": 16,
+        "title": "CHARLIE GOLF Пуховик Унисекс",
+        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251217/973b4a02552244a3af2f0fa83da8d96b.jpg",
+        "displayRecommendLabels": [
+          {
+            "labelSource": 3,
+            "labelIcons": [
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251217/973b4a02552244a3af2f0fa83da8d96b.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251217/193195a930f0400cb0c2286c527f2934.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251217/a0e6900c1b5b4aa7b9712e3ee08de331.jpg"
+            ],
+            "hasMore": true
+          }
+        ],
+        "articleNumber": "KR-SS-26001-FL10-彩格卫衣",
+        "tradingRoles": [
+          0,
+          1
+        ],
+        "brandId": 1041628,
+        "spuId": 8900208295530228,
+        "level2CategoryId": 1002606,
+        "sellDate": 1765900800000,
+        "region": "BBMAX",
+        "globalSpuId": 14010300228,
+        "algoAcmItem": {
+          "itemId": "14010300228",
+          "extMap": {
+            "item_pool_ids": [],
+            "ctr": 0.027981996536254883,
+            "tag_ids": [],
+            "cn_i2i_cnt": 0,
+            "approval_type": "",
+            "main_size_non_stock_percent": 0,
+            "theme_id": "fc3_500000269",
+            "rawSc": 0.8,
+            "_rs_": 0.9970884919166565,
+            "brand_biz_type": "中国制造",
+            "neuronSc": 0.0007288384824022387,
+            "beSc": 3.627350330352783,
+            "cvr": 0.026046693325042725,
+            "cn_cnt": 1,
+            "china_made_non_konwn": 1
+          },
+          "itemType": "product",
+          "requestId": "7403587356a1fcea",
+          "channelName": "DSSM",
+          "acm": "1.rcmd.product_14010300228.global_feed_bbmax.288-283-284-285-286-287-707.cn_DSSM-rid_7403587356a1fcea-pos_9-cid_14010300228-bn_特殊uid桶-ts_1788421066491"
+        },
+        "categoryId": 12,
+        "level1CategoryId": 2,
+        "skuId": 8902657181510228,
+        "status": 1
+      },
+      {
+        "minSpuPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "410 ₽",
+          "money": {
+            "amount": "410.00",
+            "minUnitVal": 41000,
+            "currency": "RUB"
+          },
+          "amountText": "410",
+          "sign": "+",
+          "absText": "410"
+        },
+        "language": "bbmax",
+        "imageCutSize": 16,
+        "title": "Aepsi Парфюмерия Унисекс",
+        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260521/fda6edae81344216aa6d839e8712d765.jpg",
+        "articleNumber": "G-XS25035-3",
+        "tradingRoles": [
+          0,
+          1
+        ],
+        "brandId": 1074647,
+        "spuId": 8900310005348879,
+        "level2CategoryId": 1000629,
+        "sellDate": 1781884800000,
+        "region": "BBMAX",
+        "globalSpuId": 140254450208879,
+        "algoAcmItem": {
+          "itemId": "140254450208879",
+          "extMap": {
+            "item_pool_ids": [],
+            "ctr": 0.006384044885635376,
+            "tag_ids": [
+              1009,
+              1015,
+              1008
+            ],
+            "cn_personal_sc": 0.080689676,
+            "cn_i2i_cnt": 0,
+            "approval_type": "",
+            "main_size_non_stock_percent": 0,
+            "theme_id": "fc1_500000593",
+            "rawSc": 0.04000000000000001,
+            "trigger_flag": "bbmax",
+            "_rs_": 0.0806896761059761,
+            "brand_biz_type": "国际-潮流品",
+            "tag_ids_set": [
+              1008,
+              1009,
+              1015
+            ],
+            "neuronSc": 0.000706220117632661,
+            "beSc": 5.364070892333984,
+            "cvr": 0.11062267422676086,
+            "cn_cnt": 3,
+            "china_made_non_konwn": 0
+          },
+          "itemType": "product",
+          "requestId": "7403587356a1fcea",
+          "channelName": "HOT",
+          "acm": "1.rcmd.product_140254450208879.global_feed_bbmax.288-283-284-285-286-287-707.cn_HOT-rid_7403587356a1fcea-pos_10-cid_140254450208879-bn_特殊uid桶-ts_1788421066491"
+        },
+        "categoryId": 1000665,
+        "level1CategoryId": 278,
+        "skuId": 8904084273408879,
+        "status": 1
+      },
+      {
+        "minSpuPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "9 100 ₽",
+          "money": {
+            "amount": "9100.00",
+            "minUnitVal": 910000,
+            "currency": "RUB"
+          },
+          "amountText": "9 100",
+          "sign": "+",
+          "absText": "9 100"
+        },
+        "language": "bbmax",
+        "imageCutSize": 16,
+        "title": "New Balance NB 2002R Ткань Дышащий Низкий Верх Повседневные Городские Коммутационные Беговые Кроссовки Унисекс",
+        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251209/2129107ffd9440aab7172f7d3d739262.jpg",
+        "displayRecommendLabels": [
+          {
+            "labelSource": 3,
+            "labelIcons": [
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251209/2129107ffd9440aab7172f7d3d739262.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260616/791f0817f34f45bfa32f42ad0eec5eb3.jpeg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251209/ca98d211f6be43c2b34e6dfa214042d3.jpg"
+            ],
+            "hasMore": true
+          },
+          {
+            "labelSource": 2,
+            "labelId": 93635,
+            "labelText": "Без каблука"
+          },
+          {
+            "labelSource": 2,
+            "labelId": 93628,
+            "labelText": "Версия 2022 года"
+          }
+        ],
+        "articleNumber": "M2002RDB",
+        "tradingRoles": [
+          0,
+          1
+        ],
+        "brandId": 4,
+        "spuId": 8900010399992939,
+        "level2CategoryId": 30,
+        "sellDate": 1643644800000,
+        "region": "BBMAX",
+        "globalSpuId": 10001622939,
+        "algoAcmItem": {
+          "itemId": "10001622939",
+          "extMap": {
+            "item_pool_ids": [],
+            "ctr": 0.013213187456130981,
+            "tag_ids": [
+              1008,
+              1015,
+              1009,
+              1003
+            ],
+            "cn_personal_sc": 0.2765514,
+            "cn_i2i_cnt": 0,
+            "approval_type": "",
+            "main_size_non_stock_percent": 16,
+            "theme_id": "algotheme_brandhotspu4",
+            "rawSc": 0.04537600000000001,
+            "trigger_flag": "bbmax",
+            "_rs_": 0.27655139565467834,
+            "brand_biz_type": "国际-潮流品",
+            "tag_ids_set": [
+              1008,
+              1009,
+              1015,
+              1003
+            ],
+            "neuronSc": 0.0006152976201851956,
+            "beSc": 4.824466705322266,
+            "cvr": 0.046566933393478394,
+            "cn_cnt": 3,
+            "china_made_non_konwn": 0
+          },
+          "itemType": "product",
+          "requestId": "7403587356a1fcea",
+          "channelName": "HOT",
+          "acm": "1.rcmd.product_10001622939.global_feed_bbmax.288-283-284-285-286-287-707.cn_HOT-rid_7403587356a1fcea-pos_11-cid_10001622939-bn_特殊uid桶-ts_1788421066491"
+        },
+        "categoryId": 33,
+        "level1CategoryId": 29,
+        "skuId": 8900101773372939,
+        "status": 1
+      },
+      {
+        "minSpuPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "3 181 ₽",
+          "money": {
+            "amount": "3181.00",
+            "minUnitVal": 318100,
+            "currency": "RUB"
+          },
+          "amountText": "3 181",
+          "sign": "+",
+          "absText": "3 181"
+        },
+        "language": "bbmax",
+        "imageCutSize": 16,
+        "title": "GAISIMA Противоскользящие закрытые тапочки для мужчин",
+        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260506/25b1158197304714acd877d0214e83e8.jpg",
+        "displayRecommendLabels": [
+          {
+            "labelSource": 3,
+            "labelIcons": [
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260506/e5abe2e089ab43c4afdd492addd22a84.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260506/25b1158197304714acd877d0214e83e8.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260506/45ab7672c2404b968ec3f06a8cdd7899.jpg"
+            ],
+            "hasMore": false
+          },
+          {
+            "labelSource": 2,
+            "labelId": 93634,
+            "labelText": "Высота каблука: 2 см"
+          }
+        ],
+        "articleNumber": "GZZ-N88-12",
+        "tradingRoles": [
+          0,
+          1
+        ],
+        "brandId": 1026853,
+        "spuId": 8900303113861378,
+        "level2CategoryId": 410,
+        "sellDate": 0,
+        "region": "BBMAX",
+        "globalSpuId": 140237037971378,
+        "algoAcmItem": {
+          "itemId": "140237037971378",
+          "extMap": {
+            "item_pool_ids": [],
+            "ctr": 0.013454645872116089,
+            "tag_ids": [
+              1009,
+              1008
+            ],
+            "cn_personal_sc": 0.053103205,
+            "cn_i2i_cnt": 0,
+            "approval_type": "",
+            "main_size_non_stock_percent": 0,
+            "theme_id": "fc1_500000106",
+            "rawSc": 0.04000000000000001,
+            "trigger_flag": "bbmax",
+            "_rs_": 0.05310320481657982,
+            "brand_biz_type": "中国制造",
+            "tag_ids_set": [
+              1008,
+              1009
+            ],
+            "neuronSc": 0.0006712536408866043,
+            "beSc": 3.137003183364868,
+            "cvr": 0.049890100955963135,
+            "cn_cnt": 3,
+            "china_made_non_konwn": 1
+          },
+          "itemType": "product",
+          "requestId": "7403587356a1fcea",
+          "channelName": "HOT",
+          "acm": "1.rcmd.product_140237037971378.global_feed_bbmax.288-283-284-285-286-287-707.cn_HOT-rid_7403587356a1fcea-pos_12-cid_140237037971378-bn_特殊uid桶-ts_1788421066491"
+        },
+        "categoryId": 1002453,
+        "level1CategoryId": 29,
+        "skuId": 8903961380011378,
+        "status": 1
+      },
+      {
+        "minSpuPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "3 672 ₽",
+          "money": {
+            "amount": "3672.00",
+            "minUnitVal": 367200,
+            "currency": "RUB"
+          },
+          "amountText": "3 672",
+          "sign": "+",
+          "absText": "3 672"
+        },
+        "language": "bbmax",
+        "imageCutSize": 16,
+        "title": "DAREASY Унисекс Куртки",
+        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20250408/7324539885564ff98df08e8232ed6b12.jpg",
+        "displayRecommendLabels": [
+          {
+            "labelSource": 3,
+            "labelIcons": [
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20250408/7324539885564ff98df08e8232ed6b12.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20250408/a6e5d3411657404c9e39aface969a0c5.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20250408/f055dd67dd6f435693ceded2ec1865eb.jpg"
+            ],
+            "hasMore": false
+          }
+        ],
+        "articleNumber": "DARQ2499-3",
+        "tradingRoles": [
+          0,
+          1
+        ],
+        "brandId": 1008998,
+        "spuId": 8900098362673509,
+        "level2CategoryId": 1002606,
+        "sellDate": 1726243200000,
+        "region": "BBMAX",
+        "globalSpuId": 12007023509,
+        "algoAcmItem": {
+          "itemId": "12007023509",
+          "extMap": {
+            "item_pool_ids": [],
+            "ctr": 0.014061897993087769,
+            "tag_ids": [
+              1005,
+              1001,
+              1014
+            ],
+            "cn_i2i_cnt": 0,
+            "approval_type": "",
+            "main_size_non_stock_percent": 0,
+            "theme_id": "fc3_500000274",
+            "rawSc": 0.80001,
+            "_rs_": 0.9828144311904907,
+            "brand_biz_type": "中国制造",
+            "tag_ids_set": [
+              1014,
+              1001,
+              1005
+            ],
+            "neuronSc": 0.000651783252790139,
+            "beSc": 2.994610071182251,
+            "cvr": 0.04635101556777954,
+            "cn_cnt": 1,
+            "china_made_non_konwn": 1
+          },
+          "itemType": "product",
+          "requestId": "7403587356a1fcea",
+          "channelName": "DSSM",
+          "acm": "1.rcmd.product_12007023509.global_feed_bbmax.288-283-284-285-286-287-707.cn_DSSM-rid_7403587356a1fcea-pos_13-cid_12007023509-bn_特殊uid桶-ts_1788421066491"
+        },
+        "categoryId": 7,
+        "level1CategoryId": 2,
+        "skuId": 8900987376333509,
+        "status": 1
+      },
+      {
+        "minSpuPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "2 900 ₽",
+          "money": {
+            "amount": "2900.00",
+            "minUnitVal": 290000,
+            "currency": "RUB"
+          },
+          "amountText": "2 900",
+          "sign": "+",
+          "absText": "2 900"
+        },
+        "language": "bbmax",
+        "imageCutSize": 16,
+        "title": "Villelon Нейлоновый Рюкзак Стандартный (Standard) Унисекс Фиолетовый Синий Красный Черный",
+        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251116/606e960da8c84a3692b37493481c0920.jpg",
+        "displayRecommendLabels": [
+          {
+            "labelSource": 3,
+            "labelIcons": [
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251116/2f3c029dade24d9bb9e22ecad28e1723.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251116/606e960da8c84a3692b37493481c0920.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251116/db0ad1d81a614d76b2f06fda24e9f785.jpg"
+            ],
+            "hasMore": true
+          }
+        ],
+        "articleNumber": "VIL-MS-2131",
+        "tradingRoles": [
+          0,
+          1
+        ],
+        "brandId": 1035544,
+        "spuId": 8900200080213420,
+        "level2CategoryId": 49,
+        "sellDate": 1763222400000,
+        "region": "BBMAX",
+        "globalSpuId": 14008843420,
+        "algoAcmItem": {
+          "itemId": "14008843420",
+          "extMap": {
+            "item_pool_ids": [],
+            "ctr": 0.015509635210037231,
+            "tag_ids": [
+              1008,
+              1005,
+              1014,
+              1009
+            ],
+            "cn_personal_sc": 0.0075863474,
+            "cn_i2i_cnt": 0,
+            "approval_type": "",
+            "main_size_non_stock_percent": 0,
+            "theme_id": "fc1_500000178",
+            "rawSc": 0.04000000000000001,
+            "trigger_flag": "bbmax",
+            "_rs_": 0.007586347404867411,
+            "brand_biz_type": "中国制造",
+            "tag_ids_set": [
+              1008,
+              1009,
+              1014,
+              1005
+            ],
+            "neuronSc": 0.000628928087212266,
+            "beSc": 3.024162769317627,
+            "cvr": 0.040550798177719116,
+            "cn_cnt": 3,
+            "china_made_non_konwn": 1
+          },
+          "itemType": "product",
+          "requestId": "7403587356a1fcea",
+          "channelName": "HOT",
+          "acm": "1.rcmd.product_14008843420.global_feed_bbmax.288-283-284-285-286-287-707.cn_HOT-rid_7403587356a1fcea-pos_14-cid_14008843420-bn_特殊uid桶-ts_1788421066491"
+        },
+        "categoryId": 50,
+        "level1CategoryId": 48,
+        "skuId": 8902531500373420,
+        "status": 1
+      },
+      {
+        "minSpuPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "6 700 ₽",
+          "money": {
+            "amount": "6700.00",
+            "minUnitVal": 670000,
+            "currency": "RUB"
+          },
+          "amountText": "6 700",
+          "sign": "+",
+          "absText": "6 700"
+        },
+        "language": "bbmax",
+        "imageCutSize": 16,
+        "title": "Nike Initiator противоскользящие устойчивые к истиранию дышащие низкие повседневные городские кроссовки для бега мужские",
+        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251209/e2a66fd7326f4519a7f61c06ca6f0e97.jpg",
+        "displayRecommendLabels": [
+          {
+            "labelSource": 3,
+            "labelIcons": [
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251209/e2a66fd7326f4519a7f61c06ca6f0e97.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260610/378fe1f22b0e4e8eacc033211847e59c.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20250214/f2412539ab194573a1527d8a72ace99e.jpg"
+            ],
+            "hasMore": true
+          },
+          {
+            "labelSource": 2,
+            "labelId": 93637,
+            "labelText": "С круглым носом"
+          },
+          {
+            "labelSource": 2,
+            "labelId": 93635,
+            "labelText": "Без каблука"
+          }
+        ],
+        "articleNumber": "IB4595-001",
+        "tradingRoles": [
+          0,
+          1
+        ],
+        "brandId": 144,
+        "spuId": 8900110450095002,
+        "level2CategoryId": 30,
+        "sellDate": 1735660800000,
+        "region": "BBMAX",
+        "globalSpuId": 12008995002,
+        "algoAcmItem": {
+          "itemId": "12008995002",
+          "extMap": {
+            "item_pool_ids": [],
+            "ctr": 0.010114014148712158,
+            "tag_ids": [
+              1003,
+              1009,
+              1008,
+              1017,
+              1015
+            ],
+            "cn_personal_sc": 0.08482742,
+            "cn_i2i_cnt": 0,
+            "approval_type": "",
+            "main_size_non_stock_percent": 28,
+            "theme_id": "fc3_500000375",
+            "rawSc": 0.04822800000000001,
+            "trigger_flag": "bbmax",
+            "_rs_": 0.08482742309570312,
+            "brand_biz_type": "国际-潮流品",
+            "tag_ids_set": [
+              1008,
+              1009,
+              1015,
+              1017,
+              1003
+            ],
+            "neuronSc": 0.0006235468366533325,
+            "beSc": 3.098288059234619,
+            "cvr": 0.061651766300201416,
+            "cn_cnt": 3,
+            "china_made_non_konwn": 0
+          },
+          "itemType": "product",
+          "requestId": "7403587356a1fcea",
+          "channelName": "HOT",
+          "acm": "1.rcmd.product_12008995002.global_feed_bbmax.288-283-284-285-286-287-707.cn_HOT-rid_7403587356a1fcea-pos_15-cid_12008995002-bn_特殊uid桶-ts_1788421066491"
+        },
+        "categoryId": 33,
+        "level1CategoryId": 29,
+        "skuId": 8901122599965002,
+        "status": 1
+      },
+      {
+        "minSpuPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "2 957 ₽",
+          "money": {
+            "amount": "2957.00",
+            "minUnitVal": 295700,
+            "currency": "RUB"
+          },
+          "amountText": "2 957",
+          "sign": "+",
+          "absText": "2 957"
+        },
+        "language": "bbmax",
+        "imageCutSize": 16,
+        "title": "AIMISS Мода Куртки и Пальто Унисекс",
+        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20250702/301aa66d93c24c93b82cd3be42b427a8.jpg",
+        "displayRecommendLabels": [
+          {
+            "labelSource": 3,
+            "labelIcons": [
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20250702/fac2a0b0827d464faa9f6ac45458a5a8.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20250702/301aa66d93c24c93b82cd3be42b427a8.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20250702/fa6fde7e6ba544379e96f6c22a73e365.jpg"
+            ],
+            "hasMore": true
+          },
+          {
+            "labelSource": 2,
+            "labelId": 119088,
+            "labelText": "Панк-рок"
+          }
+        ],
+        "articleNumber": "MS-KGXFSGYL-737",
+        "tradingRoles": [
+          0,
+          1
+        ],
+        "brandId": 1038826,
+        "spuId": 8900305733757015,
+        "level2CategoryId": 1002606,
+        "sellDate": 0,
+        "region": "BBMAX",
+        "globalSpuId": 140241563707015,
+        "algoAcmItem": {
+          "itemId": "140241563707015",
+          "extMap": {
+            "item_pool_ids": [
+              35,
+              70
+            ],
+            "ctr": 0.015171736478805542,
+            "tag_ids": [
+              1014,
+              1005
+            ],
+            "cn_i2i_cnt": 0,
+            "approval_type": "",
+            "main_size_non_stock_percent": 0,
+            "theme_id": "fc3_500000274",
+            "rawSc": 0.8,
+            "_rs_": 0.9903108477592468,
+            "brand_biz_type": "中国制造",
+            "tag_ids_set": [
+              1014,
+              1005
+            ],
+            "neuronSc": 0.0006013838125751292,
+            "beSc": 3.6101999282836914,
+            "cvr": 0.03963842988014221,
+            "cn_cnt": 1,
+            "china_made_non_konwn": 1
+          },
+          "itemType": "product",
+          "requestId": "7403587356a1fcea",
+          "channelName": "DSSM",
+          "acm": "1.rcmd.product_140241563707015.global_feed_bbmax.288-283-284-285-286-287-707.cn_DSSM-rid_7403587356a1fcea-pos_16-cid_140241563707015-bn_特殊uid桶-ts_1788421066491"
+        },
+        "categoryId": 7,
+        "level1CategoryId": 2,
+        "skuId": 8904002123987015,
+        "status": 1
+      },
+      {
+        "minSpuPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "3 510 ₽",
+          "money": {
+            "amount": "3510.00",
+            "minUnitVal": 351000,
+            "currency": "RUB"
+          },
+          "amountText": "3 510",
+          "sign": "+",
+          "absText": "3 510"
+        },
+        "language": "bbmax",
+        "imageCutSize": 16,
+        "title": "PAUL COSTELLOE Мужские брюки для костюма",
+        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260407/55fb36da5e9a40b79ff18749effaa2fb.jpg",
+        "displayRecommendLabels": [
+          {
+            "labelSource": 3,
+            "labelIcons": [
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260407/55fb36da5e9a40b79ff18749effaa2fb.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260407/f9bf59db5f0648cebc559b0801378c03.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260407/a3e4f4928a9d41819b3c56b243236cf3.jpg"
+            ],
+            "hasMore": false
+          }
+        ],
+        "articleNumber": "PL26R8KZ03",
+        "tradingRoles": [
+          0,
+          1
+        ],
+        "brandId": 1037077,
+        "spuId": 8900291521481299,
+        "level2CategoryId": 1002767,
+        "sellDate": 1775491200000,
+        "region": "BBMAX",
+        "globalSpuId": 14021871299,
+        "algoAcmItem": {
+          "itemId": "14021871299",
+          "extMap": {
+            "item_pool_ids": [],
+            "ctr": 0.010614573955535889,
+            "tag_ids": [],
+            "cn_i2i_cnt": 0,
+            "approval_type": "",
+            "main_size_non_stock_percent": 0,
+            "theme_id": "fc3_500000293",
+            "rawSc": 0.8,
+            "_rs_": 0.9748539924621582,
+            "brand_biz_type": "中国制造",
+            "neuronSc": 0.0005892863282781491,
+            "beSc": 2.8186140060424805,
+            "cvr": 0.055516719818115234,
+            "cn_cnt": 1,
+            "china_made_non_konwn": 1
+          },
+          "itemType": "product",
+          "requestId": "7403587356a1fcea",
+          "channelName": "DSSM",
+          "acm": "1.rcmd.product_14021871299.global_feed_bbmax.288-283-284-285-286-287-707.cn_DSSM-rid_7403587356a1fcea-pos_17-cid_14021871299-bn_特殊uid桶-ts_1788421066491"
+        },
+        "categoryId": 1002770,
+        "level1CategoryId": 2,
+        "skuId": 8903784189611299,
+        "status": 1
+      },
+      {
+        "minSpuPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "3 698 ₽",
+          "money": {
+            "amount": "3698.00",
+            "minUnitVal": 369800,
+            "currency": "RUB"
+          },
+          "amountText": "3 698",
+          "sign": "+",
+          "absText": "3 698"
+        },
+        "language": "bbmax",
+        "imageCutSize": 16,
+        "title": "LONSDALE Унисекс Куртки",
+        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20250918/f8a0b9cb4a4f46f5a86520a1540af73e.jpg",
+        "displayRecommendLabels": [
+          {
+            "labelSource": 3,
+            "labelIcons": [
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20250918/5bbd43059e1c4fc0a1da38349900c787.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20250918/e62a31f083504c12b297a5d28665404c.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20250918/1101b55a00cb4b20891cf5a616569ecf.jpg"
+            ],
+            "hasMore": true
+          }
+        ],
+        "articleNumber": "LSH-A169-1808-YH01",
+        "tradingRoles": [
+          0,
+          1
+        ],
+        "brandId": 1017836,
+        "spuId": 8900178357957256,
+        "level2CategoryId": 1002606,
+        "sellDate": 1755187200000,
+        "region": "BBMAX",
+        "globalSpuId": 14006527256,
+        "algoAcmItem": {
+          "itemId": "14006527256",
+          "extMap": {
+            "item_pool_ids": [
+              65
+            ],
+            "ctr": 0.012279421091079712,
+            "tag_ids": [
+              1008,
+              1015,
+              1009
+            ],
+            "cn_personal_sc": 0.06827588,
+            "cn_i2i_cnt": 0,
+            "approval_type": "",
+            "main_size_non_stock_percent": 0,
+            "theme_id": "fc3_500000274",
+            "rawSc": 0.040052000000000004,
+            "trigger_flag": "bbmax",
+            "_rs_": 0.06827587634325027,
+            "brand_biz_type": "中国制造",
+            "tag_ids_set": [
+              1008,
+              1009,
+              1015
+            ],
+            "neuronSc": 0.0005802714783476048,
+            "beSc": 4.654791831970215,
+            "cvr": 0.04725560545921326,
+            "cn_cnt": 3,
+            "china_made_non_konwn": 1
+          },
+          "itemType": "product",
+          "requestId": "7403587356a1fcea",
+          "channelName": "HOT",
+          "acm": "1.rcmd.product_14006527256.global_feed_bbmax.288-283-284-285-286-287-707.cn_HOT-rid_7403587356a1fcea-pos_18-cid_14006527256-bn_特殊uid桶-ts_1788421066491"
+        },
+        "categoryId": 7,
+        "level1CategoryId": 2,
+        "skuId": 8902265659157256,
+        "status": 1
+      },
+      {
+        "minSpuPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "473 ₽",
+          "money": {
+            "amount": "473.00",
+            "minUnitVal": 47300,
+            "currency": "RUB"
+          },
+          "amountText": "473",
+          "sign": "+",
+          "absText": "473"
+        },
+        "language": "bbmax",
+        "imageCutSize": 16,
+        "title": "Aepsi Парфюмерия Унисекс",
+        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260521/5176a8a358bc419f9d97f158a36b37de.jpg",
+        "articleNumber": "G-XS25035-1",
+        "tradingRoles": [
+          0,
+          1
+        ],
+        "brandId": 1074647,
+        "spuId": 8900310114401702,
+        "level2CategoryId": 1000629,
+        "sellDate": 1781884800000,
+        "region": "BBMAX",
+        "globalSpuId": 140254541401702,
+        "algoAcmItem": {
+          "itemId": "140254541401702",
+          "extMap": {
+            "item_pool_ids": [],
+            "ctr": 0.004630774259567261,
+            "tag_ids": [
+              1015,
+              1009,
+              1008
+            ],
+            "cn_personal_sc": 0.046896473,
+            "cn_i2i_cnt": 0,
+            "approval_type": "",
+            "main_size_non_stock_percent": 0,
+            "theme_id": "fc1_500000593",
+            "rawSc": 0.04000000000000001,
+            "trigger_flag": "bbmax",
+            "_rs_": 0.046896472573280334,
+            "brand_biz_type": "国际-潮流品",
+            "tag_ids_set": [
+              1008,
+              1009,
+              1015
+            ],
+            "neuronSc": 0.0005707508292678298,
+            "beSc": 5.18939208984375,
+            "cvr": 0.12325170636177063,
+            "cn_cnt": 3,
+            "china_made_non_konwn": 0
+          },
+          "itemType": "product",
+          "requestId": "7403587356a1fcea",
+          "channelName": "HOT",
+          "acm": "1.rcmd.product_140254541401702.global_feed_bbmax.288-283-284-285-286-287-707.cn_HOT-rid_7403587356a1fcea-pos_19-cid_140254541401702-bn_特殊uid桶-ts_1788421066491"
+        },
+        "categoryId": 1000665,
+        "level1CategoryId": 278,
+        "skuId": 8904088515801702,
+        "status": 1
+      },
+      {
+        "minSpuPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "97 ₽",
+          "money": {
+            "amount": "97.00",
+            "minUnitVal": 9700,
+            "currency": "RUB"
+          },
+          "amountText": "97",
+          "sign": "+",
+          "absText": "97"
+        },
+        "language": "bbmax",
+        "imageCutSize": 16,
+        "title": "Farres Градиентный эффект для губ глянцевая питательная блеск и сияющий тон кожи 3 мл",
+        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260428/455c894e53db42acb7178e1ef334ab96.jpg",
+        "displayRecommendLabels": [
+          {
+            "labelSource": 3,
+            "labelIcons": [
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260424/0f3f32ffddbc43a6a4efa1f52fe2b83b.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260428/455c894e53db42acb7178e1ef334ab96.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260428/59c98386b5694dce98d3f3be18329ff4.jpg"
+            ],
+            "hasMore": true
+          },
+          {
+            "labelSource": 2,
+            "labelId": 28416,
+            "labelText": "Сияющий"
+          },
+          {
+            "labelSource": 2,
+            "labelId": 28417,
+            "labelText": "Сочный финиш"
+          }
+        ],
+        "articleNumber": "7213-01",
+        "tradingRoles": [
+          0,
+          1
+        ],
+        "brandId": 1074498,
+        "spuId": 8900298961724394,
+        "level2CategoryId": 279,
+        "sellDate": 1779552000000,
+        "region": "BBMAX",
+        "globalSpuId": 140230298854394,
+        "algoAcmItem": {
+          "itemId": "140230298854394",
+          "extMap": {
+            "item_pool_ids": [],
+            "ctr": 0.005232691764831543,
+            "tag_ids": [
+              1008,
+              1015,
+              1009
+            ],
+            "cn_personal_sc": 0.010344763,
+            "cn_i2i_cnt": 0,
+            "approval_type": "",
+            "main_size_non_stock_percent": 0,
+            "theme_id": "fc1_500000593",
+            "rawSc": 0.04000000000000001,
+            "trigger_flag": "bbmax",
+            "_rs_": 0.010344763286411762,
+            "brand_biz_type": "国际-潮流品",
+            "tag_ids_set": [
+              1008,
+              1009,
+              1015
+            ],
+            "neuronSc": 0.0005692371439813826,
+            "beSc": 4.799826145172119,
+            "cvr": 0.1087847650051117,
+            "cn_cnt": 3,
+            "china_made_non_konwn": 0
+          },
+          "itemType": "product",
+          "requestId": "7403587356a1fcea",
+          "channelName": "HOT",
+          "acm": "1.rcmd.product_140230298854394.global_feed_bbmax.288-283-284-285-286-287-707.cn_HOT-rid_7403587356a1fcea-pos_20-cid_140230298854394-bn_特殊uid桶-ts_1788421066491"
+        },
+        "categoryId": 378,
+        "level1CategoryId": 278,
+        "skuId": 8903916547684394,
+        "status": 1
+      },
+      {
+        "minSpuPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "459 ₽",
+          "money": {
+            "amount": "459.00",
+            "minUnitVal": 45900,
+            "currency": "RUB"
+          },
+          "amountText": "459",
+          "sign": "+",
+          "absText": "459"
+        },
+        "language": "bbmax",
+        "imageCutSize": 16,
+        "title": "Aepsi Парфюмерия Унисекс",
+        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260521/66112eac9f844ae4a19507774c5e51a5.jpg",
+        "articleNumber": "G-XS25035-4",
+        "tradingRoles": [
+          0,
+          1
+        ],
+        "brandId": 1074647,
+        "spuId": 8900309998781710,
+        "level2CategoryId": 1000629,
+        "sellDate": 1781884800000,
+        "region": "BBMAX",
+        "globalSpuId": 140254404481710,
+        "algoAcmItem": {
+          "itemId": "140254404481710",
+          "extMap": {
+            "item_pool_ids": [],
+            "ctr": 0.004411846399307251,
+            "tag_ids": [
+              1015,
+              1009,
+              1008
+            ],
+            "cn_personal_sc": 0.042758543,
+            "cn_i2i_cnt": 0,
+            "approval_type": "",
+            "main_size_non_stock_percent": 0,
+            "theme_id": "fc1_500000593",
+            "rawSc": 0.04000000000000001,
+            "trigger_flag": "bbmax",
+            "_rs_": 0.04275854304432869,
+            "brand_biz_type": "国际-潮流品",
+            "tag_ids_set": [
+              1008,
+              1009,
+              1015
+            ],
+            "neuronSc": 0.0005620587603649696,
+            "beSc": 5.53165864944458,
+            "cvr": 0.12739762663841248,
+            "cn_cnt": 3,
+            "china_made_non_konwn": 0
+          },
+          "itemType": "product",
+          "requestId": "7403587356a1fcea",
+          "channelName": "HOT",
+          "acm": "1.rcmd.product_140254404481710.global_feed_bbmax.288-283-284-285-286-287-707.cn_HOT-rid_7403587356a1fcea-pos_21-cid_140254404481710-bn_特殊uid桶-ts_1788421066491"
+        },
+        "categoryId": 1000665,
+        "level1CategoryId": 278,
+        "skuId": 8904084100281710,
+        "status": 1
+      },
+      {
+        "minSpuPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "2 668 ₽",
+          "money": {
+            "amount": "2668.00",
+            "minUnitVal": 266800,
+            "currency": "RUB"
+          },
+          "amountText": "2 668",
+          "sign": "+",
+          "absText": "2 668"
+        },
+        "language": "bbmax",
+        "imageCutSize": 16,
+        "title": "Premier 55 Унисекс Куртки",
+        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20250401/fffcdc7f3a6f4255826de488150403d0.jpg",
+        "displayRecommendLabels": [
+          {
+            "labelSource": 3,
+            "labelIcons": [
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20250401/823b9aec603d45b1afaa18ffbf5ac910.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20250401/fffcdc7f3a6f4255826de488150403d0.jpg"
+            ],
+            "hasMore": false
+          }
+        ],
+        "articleNumber": "P524320",
+        "tradingRoles": [
+          0,
+          1
+        ],
+        "brandId": 1008672,
+        "spuId": 8900075298869847,
+        "level2CategoryId": 1002606,
+        "sellDate": 1717084800000,
+        "region": "BBMAX",
+        "globalSpuId": 12004319847,
+        "algoAcmItem": {
+          "itemId": "12004319847",
+          "extMap": {
+            "item_pool_ids": [],
+            "ctr": 0.01363953948020935,
+            "tag_ids": [
+              1005,
+              1014,
+              1012
+            ],
+            "cn_i2i_cnt": 0,
+            "approval_type": "",
+            "main_size_non_stock_percent": 0,
+            "theme_id": "fc1_500000125",
+            "rawSc": 0.8007500000000001,
+            "_rs_": 0.9894187450408936,
+            "brand_biz_type": "中国制造",
+            "tag_ids_set": [
+              1012,
+              1014,
+              1005
+            ],
+            "neuronSc": 0.0005591188002895819,
+            "beSc": 4.975963592529297,
+            "cvr": 0.04099249839782715,
+            "cn_cnt": 1,
+            "china_made_non_konwn": 1
+          },
+          "itemType": "product",
+          "requestId": "7403587356a1fcea",
+          "channelName": "DSSM",
+          "acm": "1.rcmd.product_12004319847.global_feed_bbmax.288-283-284-285-286-287-707.cn_DSSM-rid_7403587356a1fcea-pos_22-cid_12004319847-bn_特殊uid桶-ts_1788421066491"
+        },
+        "categoryId": 7,
+        "level1CategoryId": 2,
+        "skuId": 8900730810819847,
+        "status": 1
+      },
+      {
+        "minSpuPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "3 392 ₽",
+          "money": {
+            "amount": "3392.00",
+            "minUnitVal": 339200,
+            "currency": "RUB"
+          },
+          "amountText": "3 392",
+          "sign": "+",
+          "absText": "3 392"
+        },
+        "language": "bbmax",
+        "imageCutSize": 16,
+        "title": "The Simpsons Симпсоны Школьная мода Коробка Повседневный комфорт Парный Амортизация Противоскользящий Дышащий Покрытие Поддержка Баланс Ударостойкий Легкий Быстросохнущий Лоу-топы Обувь для гонок Унисекс",
+        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260504/0defc557f56d47e28ae3d65ec71a2dd3.png",
+        "displayRecommendLabels": [
+          {
+            "labelSource": 3,
+            "labelIcons": [
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260504/3f3c329fa38749fbb519aba3819f6911.png",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260504/ec76b39277884c819fb101468c822f44.png",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260504/0defc557f56d47e28ae3d65ec71a2dd3.png"
+            ],
+            "hasMore": false
+          }
+        ],
+        "articleNumber": "SPXFW260458U",
+        "tradingRoles": [
+          0,
+          1
+        ],
+        "brandId": 1000443,
+        "spuId": 8900298673437374,
+        "level2CategoryId": 30,
+        "sellDate": 1776960000000,
+        "region": "BBMAX",
+        "globalSpuId": 140229891977374,
+        "algoAcmItem": {
+          "itemId": "140229891977374",
+          "extMap": {
+            "item_pool_ids": [],
+            "ctr": 0.012457549571990967,
+            "tag_ids": [
+              1009,
+              1008
+            ],
+            "cn_personal_sc": 0.0089655025,
+            "cn_i2i_cnt": 0,
+            "approval_type": "",
+            "main_size_non_stock_percent": 0,
+            "theme_id": "algotheme_lv1001500000091",
+            "rawSc": 0.04000000000000001,
+            "trigger_flag": "bbmax",
+            "_rs_": 0.008965502493083477,
+            "brand_biz_type": "中国制造",
+            "tag_ids_set": [
+              1008,
+              1009
+            ],
+            "neuronSc": 0.0005574895137474556,
+            "beSc": 2.0777015686035156,
+            "cvr": 0.044751137495040894,
+            "cn_cnt": 2,
+            "china_made_non_konwn": 1
+          },
+          "itemType": "product",
+          "requestId": "7403587356a1fcea",
+          "channelName": "HOT",
+          "acm": "1.rcmd.product_140229891977374.global_feed_bbmax.288-283-284-285-286-287-707.cn_HOT-rid_7403587356a1fcea-pos_23-cid_140229891977374-bn_特殊uid桶-ts_1788421066491"
+        },
+        "categoryId": 1005116,
+        "level1CategoryId": 29,
+        "skuId": 8903893191617374,
+        "status": 1
+      },
+      {
+        "minSpuPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "6 605 ₽",
+          "money": {
+            "amount": "6605.00",
+            "minUnitVal": 660500,
+            "currency": "RUB"
+          },
+          "amountText": "6 605",
+          "sign": "+",
+          "absText": "6 605"
+        },
+        "language": "bbmax",
+        "imageCutSize": 16,
+        "title": "Nike ZOOM VOMERO ROAM Синтетическая кожа кожа беговые кроссовки мужской светло-янтарный черный",
+        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251217/b48a6e598d5942938ca0891f150358a3.jpg",
+        "displayRecommendLabels": [
+          {
+            "labelSource": 3,
+            "labelIcons": [
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251217/b48a6e598d5942938ca0891f150358a3.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251209/63c4444c65ef4715b41bccccae6a37f9.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251209/38b45b3d3f81491c84b4597db8a88fef.jpg"
+            ],
+            "hasMore": true
+          },
+          {
+            "labelSource": 2,
+            "labelId": 93637,
+            "labelText": "С круглым носом"
+          },
+          {
+            "labelSource": 2,
+            "labelId": 93635,
+            "labelText": "Толстая подошва"
+          }
+        ],
+        "articleNumber": "IQ1127-220",
+        "tradingRoles": [
+          0,
+          1
+        ],
+        "brandId": 144,
+        "spuId": 8900208396122101,
+        "level2CategoryId": 30,
+        "sellDate": 1769875200000,
+        "region": "BBMAX",
+        "globalSpuId": 14010312101,
+        "algoAcmItem": {
+          "itemId": "14010312101",
+          "extMap": {
+            "item_pool_ids": [],
+            "ctr": 0.013703793287277222,
+            "tag_ids": [
+              1015,
+              1008,
+              1009,
+              1003
+            ],
+            "cn_personal_sc": 0.03793079,
+            "cn_i2i_cnt": 0,
+            "approval_type": "",
+            "main_size_non_stock_percent": 14,
+            "theme_id": "algotheme_lv1001500000091",
+            "rawSc": 0.04000000000000001,
+            "trigger_flag": "bbmax",
+            "_rs_": 0.03793079033493996,
+            "brand_biz_type": "国际-潮流品",
+            "tag_ids_set": [
+              1008,
+              1009,
+              1015,
+              1003
+            ],
+            "neuronSc": 0.0005495030288376057,
+            "beSc": 2.814652442932129,
+            "cvr": 0.040098607540130615,
+            "cn_cnt": 3,
+            "china_made_non_konwn": 0
+          },
+          "itemType": "product",
+          "requestId": "7403587356a1fcea",
+          "channelName": "HOT",
+          "acm": "1.rcmd.product_14010312101.global_feed_bbmax.288-283-284-285-286-287-707.cn_HOT-rid_7403587356a1fcea-pos_24-cid_14010312101-bn_特殊uid桶-ts_1788421066491"
+        },
+        "categoryId": 33,
+        "level1CategoryId": 29,
+        "skuId": 8902658774462101,
+        "status": 1
+      }
+    ],
+    "noResultsTips": "Ничего не найдено. Посмотрите товары, которые могут вам понравиться.",
+    "notFirstSearchNoResult": "Ни результата не найдено. Посмотрите другие варианты!",
+    "needSmartMenu": true,
+    "fallBackSpuListTitle": "РЕКОМЕНДУЕМЫЕ",
+    "showFavoriteSwitch": true
+  },
+  "sortTabInfo": {
+    "tabSortMappings": [
+      {
+        "sortType": 0,
+        "tabText": "Рекомендуемые",
+        "sortModes": [
+          {
+            "sortMode": 1
+          }
+        ]
+      },
+      {
+        "sortType": 1,
+        "tabText": "Топ продаж",
+        "sortModes": [
+          {
+            "sortMode": 1
+          }
+        ]
+      },
+      {
+        "sortType": 4,
+        "tabText": "Цена",
+        "sortModes": [
+          {
+            "tabText": "По возрастанию",
+            "sortMode": 0
+          },
+          {
+            "tabText": "По убыванию",
+            "sortMode": 1
+          }
+        ]
+      },
+      {
+        "sortType": 3,
+        "tabText": "Новые",
+        "sortModes": [
+          {
+            "sortMode": 1
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -10,8 +10,9 @@ import { NuqsAdapter } from "nuqs/adapters/next/app";
 import { ClientErrorProvider } from "./ClientErrorProvider";
 import {
   CatalogProvider,
-  getCategoryList,
 } from "@/shared/context/catalog-data";
+import { getCategoryList } from "@/shared/context/catalog-data";
+
 
 export const metadata: Metadata = {
   title: "",

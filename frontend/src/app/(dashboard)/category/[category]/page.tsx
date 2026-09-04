@@ -1,8 +1,9 @@
-import { getProductList } from "@/shared/api/product-list/getProductList";
-import { getProductListCount } from "@/shared/api/product-list/getProductListCount";
+import { getProductListCategory } from "@/views/category/api/getProductListCategory";
+import { ResponseError } from "@/shared/api/openapi";
 import Breadcrumbs from "@/shared/ui/breadcrumbs";
+import { extractIdFromSlug } from "@/shared/utils/extractIdFromSlug";
 
-import CategoryView from "@/views/category";
+import CategoryView, { getCategoryFilters } from "@/views/category";
 import ProductList from "@/widgets/product-list";
 import { notFound } from "next/navigation";
 
@@ -12,53 +13,51 @@ interface CategoryPageProps {
 
 export default async function CategoryPage({ params }: CategoryPageProps) {
   const { category } = await params;
+  const categoryId = extractIdFromSlug(category);
 
-  const response = await fetch(
-    `https://shop-sr2l.vercel.app/api/categories/${encodeURIComponent(category)}`,
-    { next: { revalidate: 3600 } },
-  );
+  console.log("CategoryPage categoryId:", categoryId);
 
-  if (response.status === 404) {
+  if (!categoryId) {
     notFound();
   }
 
-  if (!response.ok) {
-    throw new Error(`Category request failed: ${response.status}`);
+  let categoryData;
+
+  try {
+    categoryData = await getCategoryFilters({ categoryId }, true);
+  } catch (error) {
+    if (error instanceof ResponseError && error.response.status === 404) {
+      notFound();
+    }
+
+    throw error;
   }
 
-  const categoryData = await response.json();
 
-  const [initialData, initialCountData] = await Promise.all([
-    getProductList(
-      {
-        limit: 65,
-        categories: [categoryData.id],
-        currency: "RUB",
-        sources: ["POIZON"],
-      },
-      true,
-    ),
-    getProductListCount(
-      {
-        limit: 65,
-        categories: [categoryData.id],
-        currency: "RUB",
-        sources: ["POIZON"],
-      },
-      true,
-    ),
-  ]);
+  const initialData = await getProductListCategory(
+    {
+      pageSize: 65,
+      categoryId,
+    },
+    true,
+  );
+
+  const categoryFacet = categoryData.facets.find(
+    (facet) => facet.name === "Категория",
+  );
+
+  const categoryTitle = categoryFacet?.nestedFacets?.[0]?.name || "";
 
   return (
     <main>
       <Breadcrumbs
-        title={categoryData.name}
-        items={[{ href: "/", title: "Главная" }, { title: categoryData.name }]}
+        title={categoryTitle}
+        items={[{ href: "/", title: "Главная" }, { href: `/category/${category}`, title: categoryTitle }]}
       />
       <ProductList
-        category_id={categoryData.id}
         initialData={initialData}
-        initialTotalCount={initialCountData.count ?? initialData.data.length}
+        categoryId={categoryId}   
+        filtersData={categoryData}
       />
       <CategoryView />
     </main>

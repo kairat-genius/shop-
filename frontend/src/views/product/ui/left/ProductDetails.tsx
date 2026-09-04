@@ -10,7 +10,20 @@ const images = [
   "https://cdn-img.thepoizon.ru/node-common/25650c23-2b87-b1e9-481c-22fd39c26725-694-886.jpg?x-oss-process=image/resize,s_720/format,webp",
 ];
 
-const ProductDetails = () => {
+interface ProductDetailsProps {
+  detailImageList: {
+    imageId: number;
+    sort: number;
+    genericType: string;
+    genericTypeSort: number;
+    imgEvenTrace: string;
+    url: string;
+    imgType: number;
+    burialImgType: number;
+  }[];
+}
+
+const ProductDetails = ({ detailImageList }: ProductDetailsProps) => {
   const [isExpanded, setIsExpanded] = useState(false);
   const sectionRef = useRef<HTMLDivElement>(null);
 
@@ -37,11 +50,11 @@ const ProductDetails = () => {
             "max-h-86.75 overflow-hidden after:absolute after:bottom-0 after:left-0 after:w-full after:h-28 after:bg-linear-to-t after:from-white after:to-transparent",
         )}
       >
-        {images.map((src, i) => (
+        {detailImageList.map((image, index) => (
           <img
-            key={i}
+            key={index}
             className="aspect-square object-cover"
-            src={src}
+            src={image.url}
             alt=""
             loading="lazy"
           />

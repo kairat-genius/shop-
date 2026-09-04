@@ -1,0 +1,3216 @@
+{
+  "sellButton": {
+    "style": "stretch_buy_btn",
+    "buttonList": [
+      {
+        "canClick": true,
+        "fullText": "Продать",
+        "type": "Sell"
+      },
+      {
+        "canClick": true,
+        "type": "Buy"
+      }
+    ]
+  },
+  "abTest": {
+    "skuBizTagAbValue": true,
+    "krSearchSimilarValue": true,
+    "pickUpAbValue": true
+  },
+  "shareInfo": {
+    "shareImageUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260325/8e16beaf53ba41a5a8c18ab6103d1fbe.jpg",
+    "shareContent": "Главный маркетплейс моды в мире",
+    "shareTitle": "Nike Vomero 18 Дышащие Беговые кроссовки с амортизацией для женщин бежевого цвета",
+    "shareUrl": "https://www.thepoizon.ru/product/nike-vomero-18-8900286004881762"
+  },
+  "groupType": 2,
+  "itemDetailsShowNum": 6,
+  "rankingModule": {
+    "rankingList": [
+      {
+        "icon": "https://cdn-img.thepoizon.ru/node-common/4f6ffea0-ca8b-0e9a-05b7-47e183d61135-42-42.png",
+        "name": "В тренде: Vomero 18",
+        "rank": "№10",
+        "id": 200611,
+        "url": "/ranking/hot-picks-vomero-18-200611"
+      }
+    ]
+  },
+  "imageAndText": [],
+  "loginFlag": false,
+  "seriesItemsModel": [
+    {
+      "customSortState": false,
+      "itemType": "SERIES",
+      "name": "Series",
+      "linkUrl": "https://m.poizon.com/router/buyer/detailCollectionPage?url=%2Fcategory%2Fproduct-recommend&title=Vomero%2018&seriesIds=1069451&recSpuIds=8900286004881762&sourceName=1&pageType=series",
+      "defaultShow": 1,
+      "value": "Vomero 18",
+      "key": "Модель",
+      "seriesId": 1069451,
+      "primaryKey": "SERIES"
+    }
+  ],
+  "detailImageList": [
+    {
+      "imageId": 1004958340721762,
+      "sort": 1,
+      "genericType": "INTL_SELLING_POINT_IMAGE_all",
+      "genericTypeSort": 1,
+      "imgEvenTrace": "{\"position\":\"image_text_floor\",\"typeKey\":\"INTL_SELLING_POINT_IMAGE\"}",
+      "url": "https://h5static.dewucdn.com/node-common/95a7b123-fa09-3bdd-1394-57b50a1cb963-1024-1024.png",
+      "imgType": 1064,
+      "burialImgType": 1064
+    },
+    {
+      "width": 694,
+      "genericType": "WASH_INTRO_INFO_all",
+      "genericTypeSort": 17,
+      "imgEvenTrace": "{\"position\":\"image_text_floor\",\"typeKey\":\"WASH_INTRO_INFO\"}",
+      "url": "https://cdn-img.thepoizon.ru/node-common/25650c23-2b87-b1e9-481c-22fd39c26725-694-886.jpg",
+      "height": 886
+    }
+  ],
+  "authenticatedGuaranteeModule": {
+    "width": 1041,
+    "title": "Подтверждено POIZON",
+    "url": "https://cdn-img.thepoizon.ru/node-common/c225e976-9cf5-8923-ebee-5238c70eabc2-1041-480.jpg",
+    "height": 480
+  },
+  "buyDialogModel": {
+    "saleImages": {
+      "8905469551681762": [
+        {
+          "modelWear": false,
+          "imageId": 1004413037201762,
+          "propertyValueId": 8905469551681762,
+          "channel": 1,
+          "sort": 1,
+          "label": 0,
+          "genericTypeSort": 1,
+          "imgEvenTrace": "{\"position\":\"item\",\"typeKey\":\"PHOTO\",\"tagKey\":\"white\"}",
+          "url": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260325/8e16beaf53ba41a5a8c18ab6103d1fbe.jpg",
+          "colorStyle": "FFFFFF",
+          "genericType": "PHOTO_white",
+          "imgType": 0,
+          "burialImgType": 0
+        },
+        {
+          "modelWear": false,
+          "imageId": 1004413037211762,
+          "propertyValueId": 8905469551681762,
+          "channel": 1,
+          "sort": 2,
+          "label": 0,
+          "genericTypeSort": 1,
+          "imgEvenTrace": "{\"position\":\"item\",\"typeKey\":\"PHOTO\",\"tagKey\":\"white\"}",
+          "url": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260325/cf1dace3530b443f9c3faab624deee25.jpg",
+          "colorStyle": "FFFFFF",
+          "genericType": "PHOTO_white",
+          "imgType": 0,
+          "burialImgType": 0
+        },
+        {
+          "modelWear": false,
+          "imageId": 1004412918881762,
+          "propertyValueId": 8905469551681762,
+          "channel": 1,
+          "sort": 3,
+          "label": 0,
+          "genericTypeSort": 1,
+          "imgEvenTrace": "{\"position\":\"item\",\"typeKey\":\"PHOTO\",\"tagKey\":\"white\"}",
+          "url": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260325/34eb3dffaeee49a4b47750ba4c1eb03e.jpg",
+          "colorStyle": "FFFFFF",
+          "genericType": "PHOTO_white",
+          "imgType": 0,
+          "burialImgType": 0
+        },
+        {
+          "modelWear": false,
+          "imageId": 1004412918891762,
+          "propertyValueId": 8905469551681762,
+          "channel": 1,
+          "sort": 4,
+          "label": 0,
+          "genericTypeSort": 1,
+          "imgEvenTrace": "{\"position\":\"item\",\"typeKey\":\"PHOTO\",\"tagKey\":\"white\"}",
+          "url": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260325/5b85e6f7d77944588668761c6e12c01f.jpg",
+          "colorStyle": "FFFFFF",
+          "genericType": "PHOTO_white",
+          "imgType": 0,
+          "burialImgType": 0
+        },
+        {
+          "modelWear": false,
+          "imageId": 1004413037221762,
+          "propertyValueId": 8905469551681762,
+          "channel": 1,
+          "sort": 5,
+          "label": 0,
+          "genericTypeSort": 1,
+          "imgEvenTrace": "{\"position\":\"item\",\"typeKey\":\"PHOTO\",\"tagKey\":\"white\"}",
+          "url": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260325/20a3059bc13b440caa8ef044af6204db.jpg",
+          "colorStyle": "FFFFFF",
+          "genericType": "PHOTO_white",
+          "imgType": 0,
+          "burialImgType": 0
+        },
+        {
+          "modelWear": false,
+          "imageId": 1004413037231762,
+          "propertyValueId": 8905469551681762,
+          "channel": 1,
+          "sort": 6,
+          "label": 0,
+          "genericTypeSort": 1,
+          "imgEvenTrace": "{\"position\":\"item\",\"typeKey\":\"PHOTO\",\"tagKey\":\"white\"}",
+          "url": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260325/397a06ee897c4c6599a137607f3585b0.jpg",
+          "colorStyle": "FFFFFF",
+          "genericType": "PHOTO_white",
+          "imgType": 0,
+          "burialImgType": 0
+        }
+      ]
+    },
+    "buyForTitle": "Купить за",
+    "googleProductCategory": "Apparel & Accessories > Shoes",
+    "skus": [
+      {
+        "skuTitle": "Nike Vomero 18 Дышащие Беговые кроссовки с амортизацией для женщин бежевого цвета 34,5",
+        "skuSpeedInfo": [
+          {
+            "minDay": 18,
+            "speedInfoTip": "18-25 дней",
+            "deliveryInfoModel": {
+              "deliveryItems": [
+                {
+                  "deliveryTimeText": "21 сент. – 28 сент.",
+                  "deliveryTypeText": "Бесплатная доставка",
+                  "deliveryType": 0
+                },
+                {
+                  "deliveryTimeText": "11 сент. – 18 сент.",
+                  "deliveryTypeText": "Ускоренная доставка",
+                  "deliveryType": 1
+                }
+              ],
+              "deliveryText": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u></poizon>",
+              "icon": {
+                "icon": "https://cdn-img.thepoizon.ru/node-common/4bdd1249-8c93-6364-0f24-468aa275fc24-48-48.png",
+                "width": 24,
+                "height": 24
+              }
+            },
+            "easyBuyModel": {
+              "easyBuyFlag": true,
+              "easyBuyText": "Покупка с уверенностью"
+            },
+            "labelInfo": {
+              "name": "Международная"
+            },
+            "saleInventoryNo": "BBMAX1517737892430-877",
+            "maxDay": 25,
+            "tradeLabel": "Международная",
+            "trackingMap": {},
+            "speedPrice": {
+              "symbol": "₽",
+              "localizedDisplayText": "12 217 ₽",
+              "money": {
+                "amount": "12217.00",
+                "minUnitVal": 1221700,
+                "currency": "RUB"
+              },
+              "amountText": "12 217",
+              "sign": "+",
+              "absText": "12 217"
+            },
+            "tradeLabelId": 2,
+            "skuDeliveryDesc": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u>, 21 сент. – 28 сент.</poizon>"
+          }
+        ],
+        "couponInfo": {
+          "backgroundColorHex": "",
+          "content": ""
+        },
+        "hitBizTags": [
+          {
+            "name": "Мин цена за 7 дн",
+            "type": 1
+          }
+        ],
+        "minPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "12 217 ₽",
+          "money": {
+            "amount": "12217.00",
+            "minUnitVal": 1221700,
+            "currency": "RUB"
+          },
+          "amountText": "12 217",
+          "sign": "+",
+          "absText": "12 217"
+        },
+        "spuId": 8900286004881762,
+        "sourceSkuId": 1094943762,
+        "subscribeFlag": false,
+        "bizTag": {
+          "name": "Мин цена за 7 дн",
+          "type": 1
+        },
+        "skuId": 8903698060651762,
+        "authPrice": 0,
+        "properties": [
+          {
+            "level": 1,
+            "propertyValueId": 8905469551681762
+          },
+          {
+            "level": 2,
+            "propertyValueId": 8905469549201762
+          }
+        ],
+        "status": 1
+      },
+      {
+        "skuTitle": "Nike Vomero 18 Дышащие Беговые кроссовки с амортизацией для женщин бежевого цвета 37,5",
+        "skuSpeedInfo": [
+          {
+            "minDay": 18,
+            "speedInfoTip": "18-25 дней",
+            "deliveryInfoModel": {
+              "deliveryItems": [
+                {
+                  "deliveryTimeText": "21 сент. – 28 сент.",
+                  "deliveryTypeText": "Бесплатная доставка",
+                  "deliveryType": 0
+                },
+                {
+                  "deliveryTimeText": "11 сент. – 18 сент.",
+                  "deliveryTypeText": "Ускоренная доставка",
+                  "deliveryType": 1
+                }
+              ],
+              "deliveryText": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u></poizon>",
+              "icon": {
+                "icon": "https://cdn-img.thepoizon.ru/node-common/4bdd1249-8c93-6364-0f24-468aa275fc24-48-48.png",
+                "width": 24,
+                "height": 24
+              }
+            },
+            "easyBuyModel": {
+              "easyBuyFlag": true,
+              "easyBuyText": "Покупка с уверенностью"
+            },
+            "labelInfo": {
+              "name": "Международная"
+            },
+            "saleInventoryNo": "BBMAX1517737894837-2471",
+            "maxDay": 25,
+            "tradeLabel": "Международная",
+            "trackingMap": {},
+            "speedPrice": {
+              "symbol": "₽",
+              "localizedDisplayText": "11 829 ₽",
+              "money": {
+                "amount": "11829.00",
+                "minUnitVal": 1182900,
+                "currency": "RUB"
+              },
+              "amountText": "11 829",
+              "sign": "+",
+              "absText": "11 829"
+            },
+            "tradeLabelId": 2,
+            "skuDeliveryDesc": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u>, 21 сент. – 28 сент.</poizon>"
+          }
+        ],
+        "couponInfo": {
+          "backgroundColorHex": "",
+          "content": ""
+        },
+        "minPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "11 829 ₽",
+          "money": {
+            "amount": "11829.00",
+            "minUnitVal": 1182900,
+            "currency": "RUB"
+          },
+          "amountText": "11 829",
+          "sign": "+",
+          "absText": "11 829"
+        },
+        "spuId": 8900286004881762,
+        "sourceSkuId": 1094943767,
+        "subscribeFlag": false,
+        "skuId": 8903698060661762,
+        "authPrice": 0,
+        "properties": [
+          {
+            "level": 1,
+            "propertyValueId": 8905469551681762
+          },
+          {
+            "level": 2,
+            "propertyValueId": 8905469551701762
+          }
+        ],
+        "status": 1
+      },
+      {
+        "skuTitle": "Nike Vomero 18 Дышащие Беговые кроссовки с амортизацией для женщин бежевого цвета 38",
+        "skuSpeedInfo": [
+          {
+            "minDay": 18,
+            "speedInfoTip": "18-25 дней",
+            "deliveryInfoModel": {
+              "deliveryItems": [
+                {
+                  "deliveryTimeText": "21 сент. – 28 сент.",
+                  "deliveryTypeText": "Бесплатная доставка",
+                  "deliveryType": 0
+                },
+                {
+                  "deliveryTimeText": "11 сент. – 18 сент.",
+                  "deliveryTypeText": "Ускоренная доставка",
+                  "deliveryType": 1
+                }
+              ],
+              "deliveryText": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u></poizon>",
+              "icon": {
+                "icon": "https://cdn-img.thepoizon.ru/node-common/4bdd1249-8c93-6364-0f24-468aa275fc24-48-48.png",
+                "width": 24,
+                "height": 24
+              }
+            },
+            "easyBuyModel": {
+              "easyBuyFlag": true,
+              "easyBuyText": "Покупка с уверенностью"
+            },
+            "labelInfo": {
+              "name": "Международная"
+            },
+            "saleInventoryNo": "BBMAX1517737895508-2736",
+            "maxDay": 25,
+            "tradeLabel": "Международная",
+            "trackingMap": {},
+            "speedPrice": {
+              "symbol": "₽",
+              "localizedDisplayText": "11 647 ₽",
+              "money": {
+                "amount": "11647.00",
+                "minUnitVal": 1164700,
+                "currency": "RUB"
+              },
+              "amountText": "11 647",
+              "sign": "+",
+              "absText": "11 647"
+            },
+            "tradeLabelId": 2,
+            "skuDeliveryDesc": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u>, 21 сент. – 28 сент.</poizon>"
+          }
+        ],
+        "couponInfo": {
+          "backgroundColorHex": "",
+          "content": ""
+        },
+        "minPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "11 647 ₽",
+          "money": {
+            "amount": "11647.00",
+            "minUnitVal": 1164700,
+            "currency": "RUB"
+          },
+          "amountText": "11 647",
+          "sign": "+",
+          "absText": "11 647"
+        },
+        "spuId": 8900286004881762,
+        "sourceSkuId": 1094943768,
+        "subscribeFlag": false,
+        "skuId": 8903698060671762,
+        "authPrice": 0,
+        "properties": [
+          {
+            "level": 1,
+            "propertyValueId": 8905469551681762
+          },
+          {
+            "level": 2,
+            "propertyValueId": 8905469551711762
+          }
+        ],
+        "status": 1
+      },
+      {
+        "skuTitle": "Nike Vomero 18 Дышащие Беговые кроссовки с амортизацией для женщин бежевого цвета 39",
+        "skuSpeedInfo": [
+          {
+            "minDay": 18,
+            "speedInfoTip": "18-25 дней",
+            "deliveryInfoModel": {
+              "deliveryItems": [
+                {
+                  "deliveryTimeText": "21 сент. – 28 сент.",
+                  "deliveryTypeText": "Бесплатная доставка",
+                  "deliveryType": 0
+                },
+                {
+                  "deliveryTimeText": "11 сент. – 18 сент.",
+                  "deliveryTypeText": "Ускоренная доставка",
+                  "deliveryType": 1
+                }
+              ],
+              "deliveryText": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u></poizon>",
+              "icon": {
+                "icon": "https://cdn-img.thepoizon.ru/node-common/4bdd1249-8c93-6364-0f24-468aa275fc24-48-48.png",
+                "width": 24,
+                "height": 24
+              }
+            },
+            "easyBuyModel": {
+              "easyBuyFlag": true,
+              "easyBuyText": "Покупка с уверенностью"
+            },
+            "labelInfo": {
+              "name": "Международная"
+            },
+            "saleInventoryNo": "BBMAX1517737288870-1365",
+            "maxDay": 25,
+            "tradeLabel": "Международная",
+            "trackingMap": {},
+            "speedPrice": {
+              "symbol": "₽",
+              "localizedDisplayText": "13 284 ₽",
+              "money": {
+                "amount": "13284.00",
+                "minUnitVal": 1328400,
+                "currency": "RUB"
+              },
+              "amountText": "13 284",
+              "sign": "+",
+              "absText": "13 284"
+            },
+            "tradeLabelId": 2,
+            "skuDeliveryDesc": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u>, 21 сент. – 28 сент.</poizon>"
+          }
+        ],
+        "couponInfo": {
+          "backgroundColorHex": "",
+          "content": ""
+        },
+        "hitBizTags": [
+          {
+            "name": "Почти распродано",
+            "type": 2
+          }
+        ],
+        "minPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "13 284 ₽",
+          "money": {
+            "amount": "13284.00",
+            "minUnitVal": 1328400,
+            "currency": "RUB"
+          },
+          "amountText": "13 284",
+          "sign": "+",
+          "absText": "13 284"
+        },
+        "spuId": 8900286004881762,
+        "sourceSkuId": 1094943769,
+        "subscribeFlag": false,
+        "bizTag": {
+          "name": "Почти распродано",
+          "type": 2
+        },
+        "skuId": 8903698060681762,
+        "authPrice": 0,
+        "properties": [
+          {
+            "level": 1,
+            "propertyValueId": 8905469551681762
+          },
+          {
+            "level": 2,
+            "propertyValueId": 8905469549241762
+          }
+        ],
+        "status": 1
+      },
+      {
+        "skuTitle": "Nike Vomero 18 Дышащие Беговые кроссовки с амортизацией для женщин бежевого цвета 39,5",
+        "skuSpeedInfo": [
+          {
+            "minDay": 17,
+            "speedInfoTip": "17-24 дней",
+            "deliveryInfoModel": {
+              "deliveryItems": [
+                {
+                  "deliveryTimeText": "20 сент. – 27 сент.",
+                  "deliveryTypeText": "Бесплатная доставка",
+                  "deliveryType": 0
+                },
+                {
+                  "deliveryTimeText": "10 сент. – 17 сент.",
+                  "deliveryTypeText": "Ускоренная доставка",
+                  "deliveryType": 1
+                }
+              ],
+              "deliveryText": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u></poizon>",
+              "icon": {
+                "icon": "https://cdn-img.thepoizon.ru/node-common/4bdd1249-8c93-6364-0f24-468aa275fc24-48-48.png",
+                "width": 24,
+                "height": 24
+              }
+            },
+            "easyBuyModel": {
+              "easyBuyFlag": true,
+              "easyBuyText": "Покупка с уверенностью"
+            },
+            "labelInfo": {
+              "name": "Международная"
+            },
+            "saleInventoryNo": "BBMAX1517737289616-393",
+            "maxDay": 24,
+            "tradeLabel": "Международная",
+            "trackingMap": {},
+            "speedPrice": {
+              "symbol": "₽",
+              "localizedDisplayText": "13 847 ₽",
+              "money": {
+                "amount": "13847.00",
+                "minUnitVal": 1384700,
+                "currency": "RUB"
+              },
+              "amountText": "13 847",
+              "sign": "+",
+              "absText": "13 847"
+            },
+            "tradeLabelId": 2,
+            "skuDeliveryDesc": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u>, 20 сент. – 27 сент.</poizon>"
+          }
+        ],
+        "couponInfo": {
+          "backgroundColorHex": "",
+          "content": ""
+        },
+        "hitBizTags": [
+          {
+            "name": "Почти распродано",
+            "type": 2
+          }
+        ],
+        "minPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "13 847 ₽",
+          "money": {
+            "amount": "13847.00",
+            "minUnitVal": 1384700,
+            "currency": "RUB"
+          },
+          "amountText": "13 847",
+          "sign": "+",
+          "absText": "13 847"
+        },
+        "spuId": 8900286004881762,
+        "sourceSkuId": 1094943770,
+        "subscribeFlag": false,
+        "bizTag": {
+          "name": "Почти распродано",
+          "type": 2
+        },
+        "skuId": 8903698060691762,
+        "authPrice": 0,
+        "properties": [
+          {
+            "level": 1,
+            "propertyValueId": 8905469551681762
+          },
+          {
+            "level": 2,
+            "propertyValueId": 8905469551721762
+          }
+        ],
+        "status": 1
+      },
+      {
+        "skuTitle": "Nike Vomero 18 Дышащие Беговые кроссовки с амортизацией для женщин бежевого цвета 40",
+        "skuSpeedInfo": [
+          {
+            "minDay": 18,
+            "speedInfoTip": "18-25 дней",
+            "deliveryInfoModel": {
+              "deliveryItems": [
+                {
+                  "deliveryTimeText": "21 сент. – 28 сент.",
+                  "deliveryTypeText": "Бесплатная доставка",
+                  "deliveryType": 0
+                },
+                {
+                  "deliveryTimeText": "11 сент. – 18 сент.",
+                  "deliveryTypeText": "Ускоренная доставка",
+                  "deliveryType": 1
+                }
+              ],
+              "deliveryText": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u></poizon>",
+              "icon": {
+                "icon": "https://cdn-img.thepoizon.ru/node-common/4bdd1249-8c93-6364-0f24-468aa275fc24-48-48.png",
+                "width": 24,
+                "height": 24
+              }
+            },
+            "easyBuyModel": {
+              "easyBuyFlag": true,
+              "easyBuyText": "Покупка с уверенностью"
+            },
+            "labelInfo": {
+              "name": "Международная"
+            },
+            "saleInventoryNo": "BBMAX1517737290070-370",
+            "maxDay": 25,
+            "tradeLabel": "Международная",
+            "trackingMap": {},
+            "speedPrice": {
+              "symbol": "₽",
+              "localizedDisplayText": "14 257 ₽",
+              "money": {
+                "amount": "14257.00",
+                "minUnitVal": 1425700,
+                "currency": "RUB"
+              },
+              "amountText": "14 257",
+              "sign": "+",
+              "absText": "14 257"
+            },
+            "tradeLabelId": 2,
+            "skuDeliveryDesc": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u>, 21 сент. – 28 сент.</poizon>"
+          }
+        ],
+        "couponInfo": {
+          "backgroundColorHex": "",
+          "content": ""
+        },
+        "hitBizTags": [
+          {
+            "name": "Почти распродано",
+            "type": 2
+          }
+        ],
+        "minPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "14 257 ₽",
+          "money": {
+            "amount": "14257.00",
+            "minUnitVal": 1425700,
+            "currency": "RUB"
+          },
+          "amountText": "14 257",
+          "sign": "+",
+          "absText": "14 257"
+        },
+        "spuId": 8900286004881762,
+        "sourceSkuId": 1094943771,
+        "subscribeFlag": false,
+        "bizTag": {
+          "name": "Почти распродано",
+          "type": 2
+        },
+        "skuId": 8903698060701762,
+        "authPrice": 0,
+        "properties": [
+          {
+            "level": 1,
+            "propertyValueId": 8905469551681762
+          },
+          {
+            "level": 2,
+            "propertyValueId": 8905469551731762
+          }
+        ],
+        "status": 1
+      },
+      {
+        "skuTitle": "Nike Vomero 18 Дышащие Беговые кроссовки с амортизацией для женщин бежевого цвета 43",
+        "skuSpeedInfo": [
+          {
+            "minDay": 18,
+            "speedInfoTip": "18-25 дней",
+            "deliveryInfoModel": {
+              "deliveryItems": [
+                {
+                  "deliveryTimeText": "21 сент. – 28 сент.",
+                  "deliveryTypeText": "Бесплатная доставка",
+                  "deliveryType": 0
+                },
+                {
+                  "deliveryTimeText": "11 сент. – 18 сент.",
+                  "deliveryTypeText": "Ускоренная доставка",
+                  "deliveryType": 1
+                }
+              ],
+              "deliveryText": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u></poizon>",
+              "icon": {
+                "icon": "https://cdn-img.thepoizon.ru/node-common/4bdd1249-8c93-6364-0f24-468aa275fc24-48-48.png",
+                "width": 24,
+                "height": 24
+              }
+            },
+            "easyBuyModel": {
+              "easyBuyFlag": true,
+              "easyBuyText": "Покупка с уверенностью"
+            },
+            "labelInfo": {
+              "name": "Международная"
+            },
+            "saleInventoryNo": "BBMAX1517737899111-286",
+            "maxDay": 25,
+            "tradeLabel": "Международная",
+            "trackingMap": {},
+            "speedPrice": {
+              "symbol": "₽",
+              "localizedDisplayText": "17 995 ₽",
+              "money": {
+                "amount": "17995.00",
+                "minUnitVal": 1799500,
+                "currency": "RUB"
+              },
+              "amountText": "17 995",
+              "sign": "+",
+              "absText": "17 995"
+            },
+            "tradeLabelId": 2,
+            "skuDeliveryDesc": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u>, 21 сент. – 28 сент.</poizon>"
+          }
+        ],
+        "couponInfo": {
+          "backgroundColorHex": "",
+          "content": ""
+        },
+        "hitBizTags": [
+          {
+            "name": "Почти распродано",
+            "type": 2
+          }
+        ],
+        "minPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "17 995 ₽",
+          "money": {
+            "amount": "17995.00",
+            "minUnitVal": 1799500,
+            "currency": "RUB"
+          },
+          "amountText": "17 995",
+          "sign": "+",
+          "absText": "17 995"
+        },
+        "spuId": 8900286004881762,
+        "sourceSkuId": 1094943775,
+        "subscribeFlag": false,
+        "bizTag": {
+          "name": "Почти распродано",
+          "type": 2
+        },
+        "skuId": 8903698060711762,
+        "authPrice": 0,
+        "properties": [
+          {
+            "level": 1,
+            "propertyValueId": 8905469551681762
+          },
+          {
+            "level": 2,
+            "propertyValueId": 8905469549251762
+          }
+        ],
+        "status": 1
+      },
+      {
+        "skuTitle": "Nike Vomero 18 Дышащие Беговые кроссовки с амортизацией для женщин бежевого цвета 35",
+        "skuSpeedInfo": [
+          {
+            "minDay": 17,
+            "speedInfoTip": "17-24 дней",
+            "deliveryInfoModel": {
+              "deliveryItems": [
+                {
+                  "deliveryTimeText": "20 сент. – 27 сент.",
+                  "deliveryTypeText": "Бесплатная доставка",
+                  "deliveryType": 0
+                },
+                {
+                  "deliveryTimeText": "10 сент. – 17 сент.",
+                  "deliveryTypeText": "Ускоренная доставка",
+                  "deliveryType": 1
+                }
+              ],
+              "deliveryText": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u></poizon>",
+              "icon": {
+                "icon": "https://cdn-img.thepoizon.ru/node-common/4bdd1249-8c93-6364-0f24-468aa275fc24-48-48.png",
+                "width": 24,
+                "height": 24
+              }
+            },
+            "easyBuyModel": {
+              "easyBuyFlag": true,
+              "easyBuyText": "Покупка с уверенностью"
+            },
+            "labelInfo": {
+              "name": "Международная"
+            },
+            "saleInventoryNo": "BBMAX1517737893061-1860",
+            "maxDay": 24,
+            "tradeLabel": "Международная",
+            "trackingMap": {},
+            "speedPrice": {
+              "symbol": "₽",
+              "localizedDisplayText": "11 115 ₽",
+              "money": {
+                "amount": "11115.00",
+                "minUnitVal": 1111500,
+                "currency": "RUB"
+              },
+              "amountText": "11 115",
+              "sign": "+",
+              "absText": "11 115"
+            },
+            "tradeLabelId": 2,
+            "skuDeliveryDesc": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u>, 20 сент. – 27 сент.</poizon>"
+          }
+        ],
+        "couponInfo": {
+          "backgroundColorHex": "",
+          "content": ""
+        },
+        "hitBizTags": [
+          {
+            "name": "Почти распродано",
+            "type": 2
+          }
+        ],
+        "minPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "11 115 ₽",
+          "money": {
+            "amount": "11115.00",
+            "minUnitVal": 1111500,
+            "currency": "RUB"
+          },
+          "amountText": "11 115",
+          "sign": "+",
+          "absText": "11 115"
+        },
+        "spuId": 8900286004881762,
+        "sourceSkuId": 1094943763,
+        "subscribeFlag": false,
+        "bizTag": {
+          "name": "Почти распродано",
+          "type": 2
+        },
+        "skuId": 8903698107061762,
+        "authPrice": 0,
+        "properties": [
+          {
+            "level": 1,
+            "propertyValueId": 8905469551681762
+          },
+          {
+            "level": 2,
+            "propertyValueId": 8905469549211762
+          }
+        ],
+        "status": 1
+      },
+      {
+        "skuTitle": "Nike Vomero 18 Дышащие Беговые кроссовки с амортизацией для женщин бежевого цвета 35,5",
+        "skuSpeedInfo": [
+          {
+            "minDay": 18,
+            "speedInfoTip": "18-25 дней",
+            "deliveryInfoModel": {
+              "deliveryItems": [
+                {
+                  "deliveryTimeText": "21 сент. – 28 сент.",
+                  "deliveryTypeText": "Бесплатная доставка",
+                  "deliveryType": 0
+                },
+                {
+                  "deliveryTimeText": "11 сент. – 18 сент.",
+                  "deliveryTypeText": "Ускоренная доставка",
+                  "deliveryType": 1
+                }
+              ],
+              "deliveryText": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u></poizon>",
+              "icon": {
+                "icon": "https://cdn-img.thepoizon.ru/node-common/4bdd1249-8c93-6364-0f24-468aa275fc24-48-48.png",
+                "width": 24,
+                "height": 24
+              }
+            },
+            "easyBuyModel": {
+              "easyBuyFlag": true,
+              "easyBuyText": "Покупка с уверенностью"
+            },
+            "labelInfo": {
+              "name": "Международная"
+            },
+            "saleInventoryNo": "BBMAX1517737893273-2825",
+            "maxDay": 25,
+            "tradeLabel": "Международная",
+            "trackingMap": {},
+            "speedPrice": {
+              "symbol": "₽",
+              "localizedDisplayText": "11 431 ₽",
+              "money": {
+                "amount": "11431.00",
+                "minUnitVal": 1143100,
+                "currency": "RUB"
+              },
+              "amountText": "11 431",
+              "sign": "+",
+              "absText": "11 431"
+            },
+            "tradeLabelId": 2,
+            "skuDeliveryDesc": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u>, 21 сент. – 28 сент.</poizon>"
+          }
+        ],
+        "couponInfo": {
+          "backgroundColorHex": "",
+          "content": ""
+        },
+        "minPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "11 431 ₽",
+          "money": {
+            "amount": "11431.00",
+            "minUnitVal": 1143100,
+            "currency": "RUB"
+          },
+          "amountText": "11 431",
+          "sign": "+",
+          "absText": "11 431"
+        },
+        "spuId": 8900286004881762,
+        "sourceSkuId": 1094943764,
+        "subscribeFlag": false,
+        "skuId": 8903698107071762,
+        "authPrice": 0,
+        "properties": [
+          {
+            "level": 1,
+            "propertyValueId": 8905469551681762
+          },
+          {
+            "level": 2,
+            "propertyValueId": 8905469549221762
+          }
+        ],
+        "status": 1
+      },
+      {
+        "skuTitle": "Nike Vomero 18 Дышащие Беговые кроссовки с амортизацией для женщин бежевого цвета 36,5",
+        "skuSpeedInfo": [
+          {
+            "minDay": 17,
+            "speedInfoTip": "17-24 дней",
+            "deliveryInfoModel": {
+              "deliveryItems": [
+                {
+                  "deliveryTimeText": "20 сент. – 27 сент.",
+                  "deliveryTypeText": "Бесплатная доставка",
+                  "deliveryType": 0
+                },
+                {
+                  "deliveryTimeText": "10 сент. – 17 сент.",
+                  "deliveryTypeText": "Ускоренная доставка",
+                  "deliveryType": 1
+                }
+              ],
+              "deliveryText": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u></poizon>",
+              "icon": {
+                "icon": "https://cdn-img.thepoizon.ru/node-common/4bdd1249-8c93-6364-0f24-468aa275fc24-48-48.png",
+                "width": 24,
+                "height": 24
+              }
+            },
+            "easyBuyModel": {
+              "easyBuyFlag": true,
+              "easyBuyText": "Покупка с уверенностью"
+            },
+            "labelInfo": {
+              "name": "Международная"
+            },
+            "saleInventoryNo": "BBMAX1517737894234-3389",
+            "maxDay": 24,
+            "tradeLabel": "Международная",
+            "trackingMap": {},
+            "speedPrice": {
+              "symbol": "₽",
+              "localizedDisplayText": "10 953 ₽",
+              "money": {
+                "amount": "10953.00",
+                "minUnitVal": 1095300,
+                "currency": "RUB"
+              },
+              "amountText": "10 953",
+              "sign": "+",
+              "absText": "10 953"
+            },
+            "tradeLabelId": 2,
+            "skuDeliveryDesc": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u>, 20 сент. – 27 сент.</poizon>"
+          }
+        ],
+        "couponInfo": {
+          "backgroundColorHex": "",
+          "content": ""
+        },
+        "hitBizTags": [
+          {
+            "name": "Почти распродано",
+            "type": 2
+          }
+        ],
+        "minPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "10 953 ₽",
+          "money": {
+            "amount": "10953.00",
+            "minUnitVal": 1095300,
+            "currency": "RUB"
+          },
+          "amountText": "10 953",
+          "sign": "+",
+          "absText": "10 953"
+        },
+        "spuId": 8900286004881762,
+        "sourceSkuId": 1094943765,
+        "subscribeFlag": false,
+        "bizTag": {
+          "name": "Почти распродано",
+          "type": 2
+        },
+        "skuId": 8903698107081762,
+        "authPrice": 0,
+        "properties": [
+          {
+            "level": 1,
+            "propertyValueId": 8905469551681762
+          },
+          {
+            "level": 2,
+            "propertyValueId": 8905469551691762
+          }
+        ],
+        "status": 1
+      },
+      {
+        "skuTitle": "Nike Vomero 18 Дышащие Беговые кроссовки с амортизацией для женщин бежевого цвета 37",
+        "skuSpeedInfo": [
+          {
+            "minDay": 17,
+            "speedInfoTip": "17-24 дней",
+            "deliveryInfoModel": {
+              "deliveryItems": [
+                {
+                  "deliveryTimeText": "20 сент. – 27 сент.",
+                  "deliveryTypeText": "Бесплатная доставка",
+                  "deliveryType": 0
+                },
+                {
+                  "deliveryTimeText": "10 сент. – 17 сент.",
+                  "deliveryTypeText": "Ускоренная доставка",
+                  "deliveryType": 1
+                }
+              ],
+              "deliveryText": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u></poizon>",
+              "icon": {
+                "icon": "https://cdn-img.thepoizon.ru/node-common/4bdd1249-8c93-6364-0f24-468aa275fc24-48-48.png",
+                "width": 24,
+                "height": 24
+              }
+            },
+            "easyBuyModel": {
+              "easyBuyFlag": true,
+              "easyBuyText": "Покупка с уверенностью"
+            },
+            "labelInfo": {
+              "name": "Международная"
+            },
+            "saleInventoryNo": "BBMAX1517737287852-3346",
+            "maxDay": 24,
+            "tradeLabel": "Международная",
+            "trackingMap": {},
+            "speedPrice": {
+              "symbol": "₽",
+              "localizedDisplayText": "10 890 ₽",
+              "money": {
+                "amount": "10890.00",
+                "minUnitVal": 1089000,
+                "currency": "RUB"
+              },
+              "amountText": "10 890",
+              "sign": "+",
+              "absText": "10 890"
+            },
+            "tradeLabelId": 2,
+            "skuDeliveryDesc": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u>, 20 сент. – 27 сент.</poizon>"
+          }
+        ],
+        "couponInfo": {
+          "backgroundColorHex": "",
+          "content": ""
+        },
+        "hitBizTags": [
+          {
+            "name": "Почти распродано",
+            "type": 2
+          }
+        ],
+        "minPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "10 890 ₽",
+          "money": {
+            "amount": "10890.00",
+            "minUnitVal": 1089000,
+            "currency": "RUB"
+          },
+          "amountText": "10 890",
+          "sign": "+",
+          "absText": "10 890"
+        },
+        "spuId": 8900286004881762,
+        "sourceSkuId": 1094943766,
+        "subscribeFlag": false,
+        "bizTag": {
+          "name": "Почти распродано",
+          "type": 2
+        },
+        "skuId": 8903698107091762,
+        "authPrice": 0,
+        "properties": [
+          {
+            "level": 1,
+            "propertyValueId": 8905469551681762
+          },
+          {
+            "level": 2,
+            "propertyValueId": 8905469549231762
+          }
+        ],
+        "status": 1
+      },
+      {
+        "skuTitle": "Nike Vomero 18 Дышащие Беговые кроссовки с амортизацией для женщин бежевого цвета 41",
+        "skuSpeedInfo": [
+          {
+            "minDay": 18,
+            "speedInfoTip": "18-25 дней",
+            "deliveryInfoModel": {
+              "deliveryItems": [
+                {
+                  "deliveryTimeText": "21 сент. – 28 сент.",
+                  "deliveryTypeText": "Бесплатная доставка",
+                  "deliveryType": 0
+                },
+                {
+                  "deliveryTimeText": "11 сент. – 18 сент.",
+                  "deliveryTypeText": "Ускоренная доставка",
+                  "deliveryType": 1
+                }
+              ],
+              "deliveryText": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u></poizon>",
+              "icon": {
+                "icon": "https://cdn-img.thepoizon.ru/node-common/4bdd1249-8c93-6364-0f24-468aa275fc24-48-48.png",
+                "width": 24,
+                "height": 24
+              }
+            },
+            "easyBuyModel": {
+              "easyBuyFlag": true,
+              "easyBuyText": "Покупка с уверенностью"
+            },
+            "labelInfo": {
+              "name": "Международная"
+            },
+            "saleInventoryNo": "BBMAX1517737289887-307",
+            "maxDay": 25,
+            "tradeLabel": "Международная",
+            "trackingMap": {},
+            "speedPrice": {
+              "symbol": "₽",
+              "localizedDisplayText": "14 494 ₽",
+              "money": {
+                "amount": "14494.00",
+                "minUnitVal": 1449400,
+                "currency": "RUB"
+              },
+              "amountText": "14 494",
+              "sign": "+",
+              "absText": "14 494"
+            },
+            "tradeLabelId": 2,
+            "skuDeliveryDesc": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u>, 21 сент. – 28 сент.</poizon>"
+          }
+        ],
+        "couponInfo": {
+          "backgroundColorHex": "",
+          "content": ""
+        },
+        "hitBizTags": [
+          {
+            "name": "Почти распродано",
+            "type": 2
+          }
+        ],
+        "minPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "14 494 ₽",
+          "money": {
+            "amount": "14494.00",
+            "minUnitVal": 1449400,
+            "currency": "RUB"
+          },
+          "amountText": "14 494",
+          "sign": "+",
+          "absText": "14 494"
+        },
+        "spuId": 8900286004881762,
+        "sourceSkuId": 1094943772,
+        "subscribeFlag": false,
+        "bizTag": {
+          "name": "Почти распродано",
+          "type": 2
+        },
+        "skuId": 8903698107101762,
+        "authPrice": 0,
+        "properties": [
+          {
+            "level": 1,
+            "propertyValueId": 8905469551681762
+          },
+          {
+            "level": 2,
+            "propertyValueId": 8905469551741762
+          }
+        ],
+        "status": 1
+      },
+      {
+        "skuTitle": "Nike Vomero 18 Дышащие Беговые кроссовки с амортизацией для женщин бежевого цвета 41,5",
+        "skuSpeedInfo": [
+          {
+            "minDay": 18,
+            "speedInfoTip": "18-25 дней",
+            "deliveryInfoModel": {
+              "deliveryItems": [
+                {
+                  "deliveryTimeText": "21 сент. – 28 сент.",
+                  "deliveryTypeText": "Бесплатная доставка",
+                  "deliveryType": 0
+                },
+                {
+                  "deliveryTimeText": "11 сент. – 18 сент.",
+                  "deliveryTypeText": "Ускоренная доставка",
+                  "deliveryType": 1
+                }
+              ],
+              "deliveryText": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u></poizon>",
+              "icon": {
+                "icon": "https://cdn-img.thepoizon.ru/node-common/4bdd1249-8c93-6364-0f24-468aa275fc24-48-48.png",
+                "width": 24,
+                "height": 24
+              }
+            },
+            "easyBuyModel": {
+              "easyBuyFlag": true,
+              "easyBuyText": "Покупка с уверенностью"
+            },
+            "labelInfo": {
+              "name": "Международная"
+            },
+            "saleInventoryNo": "BBMAX1517737290660-317",
+            "maxDay": 25,
+            "tradeLabel": "Международная",
+            "trackingMap": {},
+            "speedPrice": {
+              "symbol": "₽",
+              "localizedDisplayText": "13 762 ₽",
+              "money": {
+                "amount": "13762.00",
+                "minUnitVal": 1376200,
+                "currency": "RUB"
+              },
+              "amountText": "13 762",
+              "sign": "+",
+              "absText": "13 762"
+            },
+            "tradeLabelId": 2,
+            "skuDeliveryDesc": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u>, 21 сент. – 28 сент.</poizon>"
+          }
+        ],
+        "couponInfo": {
+          "backgroundColorHex": "",
+          "content": ""
+        },
+        "hitBizTags": [
+          {
+            "name": "Почти распродано",
+            "type": 2
+          }
+        ],
+        "minPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "13 762 ₽",
+          "money": {
+            "amount": "13762.00",
+            "minUnitVal": 1376200,
+            "currency": "RUB"
+          },
+          "amountText": "13 762",
+          "sign": "+",
+          "absText": "13 762"
+        },
+        "spuId": 8900286004881762,
+        "sourceSkuId": 1094943773,
+        "subscribeFlag": false,
+        "bizTag": {
+          "name": "Почти распродано",
+          "type": 2
+        },
+        "skuId": 8903698107111762,
+        "authPrice": 0,
+        "properties": [
+          {
+            "level": 1,
+            "propertyValueId": 8905469551681762
+          },
+          {
+            "level": 2,
+            "propertyValueId": 8905469551751762
+          }
+        ],
+        "status": 1
+      },
+      {
+        "skuTitle": "Nike Vomero 18 Дышащие Беговые кроссовки с амортизацией для женщин бежевого цвета 42",
+        "skuSpeedInfo": [
+          {
+            "minDay": 18,
+            "speedInfoTip": "18-25 дней",
+            "deliveryInfoModel": {
+              "deliveryItems": [
+                {
+                  "deliveryTimeText": "21 сент. – 28 сент.",
+                  "deliveryTypeText": "Бесплатная доставка",
+                  "deliveryType": 0
+                },
+                {
+                  "deliveryTimeText": "11 сент. – 18 сент.",
+                  "deliveryTypeText": "Ускоренная доставка",
+                  "deliveryType": 1
+                }
+              ],
+              "deliveryText": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u></poizon>",
+              "icon": {
+                "icon": "https://cdn-img.thepoizon.ru/node-common/4bdd1249-8c93-6364-0f24-468aa275fc24-48-48.png",
+                "width": 24,
+                "height": 24
+              }
+            },
+            "easyBuyModel": {
+              "easyBuyFlag": true,
+              "easyBuyText": "Покупка с уверенностью"
+            },
+            "labelInfo": {
+              "name": "Международная"
+            },
+            "saleInventoryNo": "BBMAX1517737290653-305",
+            "maxDay": 25,
+            "tradeLabel": "Международная",
+            "trackingMap": {},
+            "speedPrice": {
+              "symbol": "₽",
+              "localizedDisplayText": "15 109 ₽",
+              "money": {
+                "amount": "15109.00",
+                "minUnitVal": 1510900,
+                "currency": "RUB"
+              },
+              "amountText": "15 109",
+              "sign": "+",
+              "absText": "15 109"
+            },
+            "tradeLabelId": 2,
+            "skuDeliveryDesc": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u>, 21 сент. – 28 сент.</poizon>"
+          }
+        ],
+        "couponInfo": {
+          "backgroundColorHex": "",
+          "content": ""
+        },
+        "hitBizTags": [
+          {
+            "name": "Почти распродано",
+            "type": 2
+          }
+        ],
+        "minPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "15 109 ₽",
+          "money": {
+            "amount": "15109.00",
+            "minUnitVal": 1510900,
+            "currency": "RUB"
+          },
+          "amountText": "15 109",
+          "sign": "+",
+          "absText": "15 109"
+        },
+        "spuId": 8900286004881762,
+        "sourceSkuId": 1094943774,
+        "subscribeFlag": false,
+        "bizTag": {
+          "name": "Почти распродано",
+          "type": 2
+        },
+        "skuId": 8903698107121762,
+        "authPrice": 0,
+        "properties": [
+          {
+            "level": 1,
+            "propertyValueId": 8905469551681762
+          },
+          {
+            "level": 2,
+            "propertyValueId": 8905469551761762
+          }
+        ],
+        "status": 1
+      },
+      {
+        "skuTitle": "Nike Vomero 18 Дышащие Беговые кроссовки с амортизацией для женщин бежевого цвета 43,5",
+        "skuSpeedInfo": [
+          {
+            "minDay": 18,
+            "speedInfoTip": "18-25 дней",
+            "deliveryInfoModel": {
+              "deliveryItems": [
+                {
+                  "deliveryTimeText": "21 сент. – 28 сент.",
+                  "deliveryTypeText": "Бесплатная доставка",
+                  "deliveryType": 0
+                },
+                {
+                  "deliveryTimeText": "11 сент. – 18 сент.",
+                  "deliveryTypeText": "Ускоренная доставка",
+                  "deliveryType": 1
+                }
+              ],
+              "deliveryText": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u></poizon>",
+              "icon": {
+                "icon": "https://cdn-img.thepoizon.ru/node-common/4bdd1249-8c93-6364-0f24-468aa275fc24-48-48.png",
+                "width": 24,
+                "height": 24
+              }
+            },
+            "easyBuyModel": {
+              "easyBuyFlag": true,
+              "easyBuyText": "Покупка с уверенностью"
+            },
+            "labelInfo": {
+              "name": "Международная"
+            },
+            "saleInventoryNo": "BBMAX1517737899386-309",
+            "maxDay": 25,
+            "tradeLabel": "Международная",
+            "trackingMap": {},
+            "speedPrice": {
+              "symbol": "₽",
+              "localizedDisplayText": "14 426 ₽",
+              "money": {
+                "amount": "14426.00",
+                "minUnitVal": 1442600,
+                "currency": "RUB"
+              },
+              "amountText": "14 426",
+              "sign": "+",
+              "absText": "14 426"
+            },
+            "tradeLabelId": 2,
+            "skuDeliveryDesc": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u>, 21 сент. – 28 сент.</poizon>"
+          }
+        ],
+        "couponInfo": {
+          "backgroundColorHex": "",
+          "content": ""
+        },
+        "hitBizTags": [
+          {
+            "name": "Почти распродано",
+            "type": 2
+          }
+        ],
+        "minPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "14 426 ₽",
+          "money": {
+            "amount": "14426.00",
+            "minUnitVal": 1442600,
+            "currency": "RUB"
+          },
+          "amountText": "14 426",
+          "sign": "+",
+          "absText": "14 426"
+        },
+        "spuId": 8900286004881762,
+        "sourceSkuId": 1094943776,
+        "subscribeFlag": false,
+        "bizTag": {
+          "name": "Почти распродано",
+          "type": 2
+        },
+        "skuId": 8903698107131762,
+        "authPrice": 0,
+        "properties": [
+          {
+            "level": 1,
+            "propertyValueId": 8905469551681762
+          },
+          {
+            "level": 2,
+            "propertyValueId": 8905469551771762
+          }
+        ],
+        "status": 1
+      }
+    ],
+    "customsInfo": {
+      "icon": {
+        "icon": "https://cdn-img.thepoizon.ru/node-common/389417b6-95a5-dec1-fc94-d62120322837-56-56.png",
+        "width": 10,
+        "height": 10
+      },
+      "content": {
+        "title": "Будет пошлина",
+        "contentInfo": {
+          "title": "Таможенная пошлина",
+          "content": " Товар дороже 200 € и едет из-за границы, поэтому при оплате добавляем к стоимости пошлину, которую перечислим в таможенные органы.    Если у товара найдётся брак, приедет не то или не полностью, вам вернут стоимость и пошлину. В других случаях пошлина не вернётся. "
+        }
+      },
+      "desc": "Будет пошлина"
+    },
+    "estimateDefaultDesc": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">---<u>Москву,ЦФО</u>, --</poizon>",
+    "saleProperties": [
+      {
+        "displayStyle": 4,
+        "level": 1,
+        "pvIdSourceOverseaMap": {
+          "8905469551681762": 1051832293
+        },
+        "propertyList": [
+          {
+            "propertyKey": "DEFAULT",
+            "propertyItemModels": [
+              {
+                "level": 1,
+                "propertyValueId": 8905469551681762,
+                "name": "Цвет",
+                "spuId": 8900286004881762,
+                "sort": 1,
+                "propertyId": 8905469551681762,
+                "value": "Бежевый",
+                "url": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260325/8e16beaf53ba41a5a8c18ab6103d1fbe.jpg",
+                "selected": true,
+                "definitionId": 1
+              }
+            ]
+          }
+        ],
+        "name": "Цвет",
+        "defaultShow": "DEFAULT",
+        "governType": 1,
+        "giftProp": false,
+        "definitionId": 1
+      },
+      {
+        "guideTip": "Гайд размера",
+        "displayStyle": 4,
+        "showGuide": 1,
+        "deviationCodePrompt": "",
+        "level": 2,
+        "propertyList": [
+          {
+            "propertyKey": "RU",
+            "propertyItemModels": [
+              {
+                "level": 2,
+                "propertyValueId": 8905469549201762,
+                "sizeParameterList": [
+                  {
+                    "sizeKey": "Длина стопы: ",
+                    "sizeValue": "22 cm"
+                  }
+                ],
+                "name": "Размер",
+                "spuId": 8900286004881762,
+                "sort": 0,
+                "suffix": "RU",
+                "propertyId": 8905469549201762,
+                "value": "34,5",
+                "selected": false,
+                "definitionId": 6
+              },
+              {
+                "level": 2,
+                "propertyValueId": 8905469549211762,
+                "sizeParameterList": [
+                  {
+                    "sizeKey": "Длина стопы: ",
+                    "sizeValue": "22,5 cm"
+                  }
+                ],
+                "name": "Размер",
+                "spuId": 8900286004881762,
+                "sort": 1,
+                "suffix": "RU",
+                "propertyId": 8905469549211762,
+                "value": "35",
+                "selected": false,
+                "definitionId": 6
+              },
+              {
+                "level": 2,
+                "propertyValueId": 8905469549221762,
+                "sizeParameterList": [
+                  {
+                    "sizeKey": "Длина стопы: ",
+                    "sizeValue": "23 cm"
+                  }
+                ],
+                "name": "Размер",
+                "spuId": 8900286004881762,
+                "sort": 2,
+                "suffix": "RU",
+                "propertyId": 8905469549221762,
+                "value": "35,5",
+                "selected": false,
+                "definitionId": 6
+              },
+              {
+                "level": 2,
+                "propertyValueId": 8905469551691762,
+                "sizeParameterList": [
+                  {
+                    "sizeKey": "Длина стопы: ",
+                    "sizeValue": "23,5 cm"
+                  }
+                ],
+                "name": "Размер",
+                "spuId": 8900286004881762,
+                "sort": 3,
+                "suffix": "RU",
+                "propertyId": 8905469551691762,
+                "value": "36,5",
+                "selected": false,
+                "definitionId": 6
+              },
+              {
+                "level": 2,
+                "propertyValueId": 8905469549231762,
+                "sizeParameterList": [
+                  {
+                    "sizeKey": "Длина стопы: ",
+                    "sizeValue": "24 cm"
+                  }
+                ],
+                "name": "Размер",
+                "spuId": 8900286004881762,
+                "sort": 4,
+                "suffix": "RU",
+                "propertyId": 8905469549231762,
+                "value": "37",
+                "selected": true,
+                "definitionId": 6
+              },
+              {
+                "level": 2,
+                "propertyValueId": 8905469551701762,
+                "sizeParameterList": [
+                  {
+                    "sizeKey": "Длина стопы: ",
+                    "sizeValue": "24,5 cm"
+                  }
+                ],
+                "name": "Размер",
+                "spuId": 8900286004881762,
+                "sort": 5,
+                "suffix": "RU",
+                "propertyId": 8905469551701762,
+                "value": "37,5",
+                "selected": false,
+                "definitionId": 6
+              },
+              {
+                "level": 2,
+                "propertyValueId": 8905469551711762,
+                "sizeParameterList": [
+                  {
+                    "sizeKey": "Длина стопы: ",
+                    "sizeValue": "25 cm"
+                  }
+                ],
+                "name": "Размер",
+                "spuId": 8900286004881762,
+                "sort": 6,
+                "suffix": "RU",
+                "propertyId": 8905469551711762,
+                "value": "38",
+                "selected": false,
+                "definitionId": 6
+              },
+              {
+                "level": 2,
+                "propertyValueId": 8905469549241762,
+                "sizeParameterList": [
+                  {
+                    "sizeKey": "Длина стопы: ",
+                    "sizeValue": "25,5 cm"
+                  }
+                ],
+                "name": "Размер",
+                "spuId": 8900286004881762,
+                "sort": 7,
+                "suffix": "RU",
+                "propertyId": 8905469549241762,
+                "value": "39",
+                "selected": false,
+                "definitionId": 6
+              },
+              {
+                "level": 2,
+                "propertyValueId": 8905469551721762,
+                "sizeParameterList": [
+                  {
+                    "sizeKey": "Длина стопы: ",
+                    "sizeValue": "26 cm"
+                  }
+                ],
+                "name": "Размер",
+                "spuId": 8900286004881762,
+                "sort": 8,
+                "suffix": "RU",
+                "propertyId": 8905469551721762,
+                "value": "39,5",
+                "selected": false,
+                "definitionId": 6
+              },
+              {
+                "level": 2,
+                "propertyValueId": 8905469551731762,
+                "sizeParameterList": [
+                  {
+                    "sizeKey": "Длина стопы: ",
+                    "sizeValue": "26,5 cm"
+                  }
+                ],
+                "name": "Размер",
+                "spuId": 8900286004881762,
+                "sort": 9,
+                "suffix": "RU",
+                "propertyId": 8905469551731762,
+                "value": "40",
+                "selected": false,
+                "definitionId": 6
+              },
+              {
+                "level": 2,
+                "propertyValueId": 8905469551741762,
+                "sizeParameterList": [
+                  {
+                    "sizeKey": "Длина стопы: ",
+                    "sizeValue": "27 cm"
+                  }
+                ],
+                "name": "Размер",
+                "spuId": 8900286004881762,
+                "sort": 10,
+                "suffix": "RU",
+                "propertyId": 8905469551741762,
+                "value": "41",
+                "selected": false,
+                "definitionId": 6
+              },
+              {
+                "level": 2,
+                "propertyValueId": 8905469551751762,
+                "sizeParameterList": [
+                  {
+                    "sizeKey": "Длина стопы: ",
+                    "sizeValue": "27,5 cm"
+                  }
+                ],
+                "name": "Размер",
+                "spuId": 8900286004881762,
+                "sort": 11,
+                "suffix": "RU",
+                "propertyId": 8905469551751762,
+                "value": "41,5",
+                "selected": false,
+                "definitionId": 6
+              },
+              {
+                "level": 2,
+                "propertyValueId": 8905469551761762,
+                "sizeParameterList": [
+                  {
+                    "sizeKey": "Длина стопы: ",
+                    "sizeValue": "28 cm"
+                  }
+                ],
+                "name": "Размер",
+                "spuId": 8900286004881762,
+                "sort": 12,
+                "suffix": "RU",
+                "propertyId": 8905469551761762,
+                "value": "42",
+                "selected": false,
+                "definitionId": 6
+              },
+              {
+                "level": 2,
+                "propertyValueId": 8905469549251762,
+                "sizeParameterList": [
+                  {
+                    "sizeKey": "Длина стопы: ",
+                    "sizeValue": "28,5 cm"
+                  }
+                ],
+                "name": "Размер",
+                "spuId": 8900286004881762,
+                "sort": 13,
+                "suffix": "RU",
+                "propertyId": 8905469549251762,
+                "value": "43",
+                "selected": false,
+                "definitionId": 6
+              },
+              {
+                "level": 2,
+                "propertyValueId": 8905469551771762,
+                "sizeParameterList": [
+                  {
+                    "sizeKey": "Длина стопы: ",
+                    "sizeValue": "29 cm"
+                  }
+                ],
+                "name": "Размер",
+                "spuId": 8900286004881762,
+                "sort": 14,
+                "suffix": "RU",
+                "propertyId": 8905469551771762,
+                "value": "43,5",
+                "selected": false,
+                "definitionId": 6
+              }
+            ]
+          },
+          {
+            "propertyKey": "EU",
+            "propertyItemModels": [
+              {
+                "level": 2,
+                "propertyValueId": 8905469549201762,
+                "sizeParameterList": [
+                  {
+                    "sizeKey": "Длина стопы: ",
+                    "sizeValue": "23 cm"
+                  }
+                ],
+                "name": "Размер",
+                "spuId": 8900286004881762,
+                "sort": 0,
+                "suffix": "EU",
+                "propertyId": 8905469549201762,
+                "value": "35,5",
+                "selected": false,
+                "definitionId": 6
+              },
+              {
+                "level": 2,
+                "propertyValueId": 8905469549211762,
+                "name": "Размер",
+                "spuId": 8900286004881762,
+                "sort": 1,
+                "suffix": "EU",
+                "propertyId": 8905469549211762,
+                "value": "36",
+                "selected": false,
+                "definitionId": 6
+              },
+              {
+                "level": 2,
+                "propertyValueId": 8905469549221762,
+                "sizeParameterList": [
+                  {
+                    "sizeKey": "Длина стопы: ",
+                    "sizeValue": "23,5 cm"
+                  }
+                ],
+                "name": "Размер",
+                "spuId": 8900286004881762,
+                "sort": 2,
+                "suffix": "EU",
+                "propertyId": 8905469549221762,
+                "value": "36,5",
+                "selected": false,
+                "definitionId": 6
+              },
+              {
+                "level": 2,
+                "propertyValueId": 8905469551691762,
+                "sizeParameterList": [
+                  {
+                    "sizeKey": "Длина стопы: ",
+                    "sizeValue": "24,5 cm"
+                  }
+                ],
+                "name": "Размер",
+                "spuId": 8900286004881762,
+                "sort": 3,
+                "suffix": "EU",
+                "propertyId": 8905469551691762,
+                "value": "37,5",
+                "selected": false,
+                "definitionId": 6
+              },
+              {
+                "level": 2,
+                "propertyValueId": 8905469549231762,
+                "sizeParameterList": [
+                  {
+                    "sizeKey": "Длина стопы: ",
+                    "sizeValue": "25 cm"
+                  }
+                ],
+                "name": "Размер",
+                "spuId": 8900286004881762,
+                "sort": 4,
+                "suffix": "EU",
+                "propertyId": 8905469549231762,
+                "value": "38",
+                "selected": false,
+                "definitionId": 6
+              },
+              {
+                "level": 2,
+                "propertyValueId": 8905469551701762,
+                "name": "Размер",
+                "spuId": 8900286004881762,
+                "sort": 5,
+                "suffix": "EU",
+                "propertyId": 8905469551701762,
+                "value": "38,5",
+                "selected": false,
+                "definitionId": 6
+              },
+              {
+                "level": 2,
+                "propertyValueId": 8905469551711762,
+                "sizeParameterList": [
+                  {
+                    "sizeKey": "Длина стопы: ",
+                    "sizeValue": "25,5 cm"
+                  }
+                ],
+                "name": "Размер",
+                "spuId": 8900286004881762,
+                "sort": 6,
+                "suffix": "EU",
+                "propertyId": 8905469551711762,
+                "value": "39",
+                "selected": false,
+                "definitionId": 6
+              },
+              {
+                "level": 2,
+                "propertyValueId": 8905469549241762,
+                "sizeParameterList": [
+                  {
+                    "sizeKey": "Длина стопы: ",
+                    "sizeValue": "26,5 cm"
+                  }
+                ],
+                "name": "Размер",
+                "spuId": 8900286004881762,
+                "sort": 7,
+                "suffix": "EU",
+                "propertyId": 8905469549241762,
+                "value": "40",
+                "selected": false,
+                "definitionId": 6
+              },
+              {
+                "level": 2,
+                "propertyValueId": 8905469551721762,
+                "name": "Размер",
+                "spuId": 8900286004881762,
+                "sort": 8,
+                "suffix": "EU",
+                "propertyId": 8905469551721762,
+                "value": "40,5",
+                "selected": false,
+                "definitionId": 6
+              },
+              {
+                "level": 2,
+                "propertyValueId": 8905469551731762,
+                "sizeParameterList": [
+                  {
+                    "sizeKey": "Длина стопы: ",
+                    "sizeValue": "27 cm"
+                  }
+                ],
+                "name": "Размер",
+                "spuId": 8900286004881762,
+                "sort": 9,
+                "suffix": "EU",
+                "propertyId": 8905469551731762,
+                "value": "41",
+                "selected": false,
+                "definitionId": 6
+              },
+              {
+                "level": 2,
+                "propertyValueId": 8905469551741762,
+                "sizeParameterList": [
+                  {
+                    "sizeKey": "Длина стопы: ",
+                    "sizeValue": "28 cm"
+                  }
+                ],
+                "name": "Размер",
+                "spuId": 8900286004881762,
+                "sort": 10,
+                "suffix": "EU",
+                "propertyId": 8905469551741762,
+                "value": "42",
+                "selected": false,
+                "definitionId": 6
+              },
+              {
+                "level": 2,
+                "propertyValueId": 8905469551751762,
+                "name": "Размер",
+                "spuId": 8900286004881762,
+                "sort": 11,
+                "suffix": "EU",
+                "propertyId": 8905469551751762,
+                "value": "42,5",
+                "selected": false,
+                "definitionId": 6
+              },
+              {
+                "level": 2,
+                "propertyValueId": 8905469551761762,
+                "sizeParameterList": [
+                  {
+                    "sizeKey": "Длина стопы: ",
+                    "sizeValue": "28,5 cm"
+                  }
+                ],
+                "name": "Размер",
+                "spuId": 8900286004881762,
+                "sort": 12,
+                "suffix": "EU",
+                "propertyId": 8905469551761762,
+                "value": "43",
+                "selected": false,
+                "definitionId": 6
+              },
+              {
+                "level": 2,
+                "propertyValueId": 8905469549251762,
+                "sizeParameterList": [
+                  {
+                    "sizeKey": "Длина стопы: ",
+                    "sizeValue": "29,5 cm"
+                  }
+                ],
+                "name": "Размер",
+                "spuId": 8900286004881762,
+                "sort": 13,
+                "suffix": "EU",
+                "propertyId": 8905469549251762,
+                "value": "44",
+                "selected": false,
+                "definitionId": 6
+              },
+              {
+                "level": 2,
+                "propertyValueId": 8905469551771762,
+                "sizeParameterList": [
+                  {
+                    "sizeKey": "Длина стопы: ",
+                    "sizeValue": "30 cm"
+                  }
+                ],
+                "name": "Размер",
+                "spuId": 8900286004881762,
+                "sort": 14,
+                "suffix": "EU",
+                "propertyId": 8905469551771762,
+                "value": "44,5",
+                "selected": false,
+                "definitionId": 6
+              }
+            ]
+          }
+        ],
+        "name": "Размер",
+        "defaultShow": "RU",
+        "governType": 1,
+        "giftProp": false,
+        "definitionId": 6
+      }
+    ],
+    "pdFrameLayoutAbValue": "2",
+    "levelOneMinPriceSkus": {
+      "8905469551681762": {
+        "skuTitle": "Nike Vomero 18 Дышащие Беговые кроссовки с амортизацией для женщин бежевого цвета 37",
+        "skuSpeedInfo": [
+          {
+            "minDay": 17,
+            "speedInfoTip": "17-24 дней",
+            "deliveryInfoModel": {
+              "deliveryItems": [
+                {
+                  "deliveryTimeText": "20 сент. – 27 сент.",
+                  "deliveryTypeText": "Бесплатная доставка",
+                  "deliveryType": 0
+                },
+                {
+                  "deliveryTimeText": "10 сент. – 17 сент.",
+                  "deliveryTypeText": "Ускоренная доставка",
+                  "deliveryType": 1
+                }
+              ],
+              "deliveryText": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u></poizon>",
+              "icon": {
+                "icon": "https://cdn-img.thepoizon.ru/node-common/4bdd1249-8c93-6364-0f24-468aa275fc24-48-48.png",
+                "width": 24,
+                "height": 24
+              }
+            },
+            "easyBuyModel": {
+              "easyBuyFlag": true,
+              "easyBuyText": "Покупка с уверенностью"
+            },
+            "labelInfo": {
+              "name": "Международная"
+            },
+            "saleInventoryNo": "BBMAX1517737287852-3346",
+            "maxDay": 24,
+            "tradeLabel": "Международная",
+            "trackingMap": {},
+            "speedPrice": {
+              "symbol": "₽",
+              "localizedDisplayText": "10 890 ₽",
+              "money": {
+                "amount": "10890.00",
+                "minUnitVal": 1089000,
+                "currency": "RUB"
+              },
+              "amountText": "10 890",
+              "sign": "+",
+              "absText": "10 890"
+            },
+            "tradeLabelId": 2,
+            "skuDeliveryDesc": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u>, 20 сент. – 27 сент.</poizon>"
+          }
+        ],
+        "couponInfo": {
+          "backgroundColorHex": "",
+          "content": ""
+        },
+        "hitBizTags": [
+          {
+            "name": "Почти распродано",
+            "type": 2
+          }
+        ],
+        "minPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "10 890 ₽",
+          "money": {
+            "amount": "10890.00",
+            "minUnitVal": 1089000,
+            "currency": "RUB"
+          },
+          "amountText": "10 890",
+          "sign": "+",
+          "absText": "10 890"
+        },
+        "spuId": 8900286004881762,
+        "sourceSkuId": 1094943766,
+        "subscribeFlag": false,
+        "bizTag": {
+          "name": "Почти распродано",
+          "type": 2
+        },
+        "skuId": 8903698107091762,
+        "authPrice": 0,
+        "properties": [
+          {
+            "level": 1,
+            "propertyValueId": 8905469551681762
+          },
+          {
+            "level": 2,
+            "propertyValueId": 8905469549231762
+          }
+        ],
+        "status": 1
+      }
+    },
+    "imageModelList": [
+      {
+        "modelWear": false,
+        "imageId": 1004958340721762,
+        "colorStyle": "FFFFFF",
+        "channel": 1,
+        "sort": 1,
+        "label": 1,
+        "genericType": "INTL_SELLING_POINT_IMAGE_all",
+        "genericTypeSort": 0,
+        "imgEvenTrace": "{\"position\":\"outfits\",\"typeKey\":\"INTL_SELLING_POINT_IMAGE\"}",
+        "url": "https://h5static.dewucdn.com/node-common/95a7b123-fa09-3bdd-1394-57b50a1cb963-1024-1024.png",
+        "imgType": 1064,
+        "burialImgType": 1064
+      }
+    ],
+    "defaultSelectSku": {
+      "defaultProperty": [
+        {
+          "propertyKey": "DEFAULT",
+          "level": 1,
+          "propertyValueId": 8905469551681762,
+          "definitionId": 1
+        },
+        {
+          "propertyKey": "RU",
+          "level": 2,
+          "propertyValueId": 8905469549231762,
+          "definitionId": 6
+        }
+      ],
+      "spuId": 8900286004881762,
+      "skuId": 8903698107091762
+    },
+    "skuSpeedTitle": "ВАРИАНТЫ ДОСТАВКИ",
+    "contentCategory": 33,
+    "sizeConversionAsianToUS": false,
+    "containGiftProp": false,
+    "noAvailableInvTitle": "Распродано",
+    "recommendSizeInfo": {
+      "recommendSourceType": "",
+      "noResultReason": "未提交"
+    },
+    "giftPropAbValue": "1",
+    "floatingLayerTitle": "ВЫБРАЛИ:",
+    "skuMinPriceInfoDTO": {
+      "skuTitle": "Nike Vomero 18 Дышащие Беговые кроссовки с амортизацией для женщин бежевого цвета 37",
+      "skuSpeedInfo": [
+        {
+          "minDay": 17,
+          "speedInfoTip": "17-24 дней",
+          "deliveryInfoModel": {
+            "deliveryItems": [
+              {
+                "deliveryTimeText": "20 сент. – 27 сент.",
+                "deliveryTypeText": "Бесплатная доставка",
+                "deliveryType": 0
+              },
+              {
+                "deliveryTimeText": "10 сент. – 17 сент.",
+                "deliveryTypeText": "Ускоренная доставка",
+                "deliveryType": 1
+              }
+            ],
+            "deliveryText": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u></poizon>",
+            "icon": {
+              "icon": "https://cdn-img.thepoizon.ru/node-common/4bdd1249-8c93-6364-0f24-468aa275fc24-48-48.png",
+              "width": 24,
+              "height": 24
+            }
+          },
+          "easyBuyModel": {
+            "easyBuyFlag": true,
+            "easyBuyText": "Покупка с уверенностью"
+          },
+          "labelInfo": {
+            "name": "Международная"
+          },
+          "saleInventoryNo": "BBMAX1517737287852-3346",
+          "maxDay": 24,
+          "tradeLabel": "Международная",
+          "trackingMap": {},
+          "speedPrice": {
+            "symbol": "₽",
+            "localizedDisplayText": "10 890 ₽",
+            "money": {
+              "amount": "10890.00",
+              "minUnitVal": 1089000,
+              "currency": "RUB"
+            },
+            "amountText": "10 890",
+            "sign": "+",
+            "absText": "10 890"
+          },
+          "tradeLabelId": 2,
+          "skuDeliveryDesc": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u>, 20 сент. – 27 сент.</poizon>"
+        }
+      ],
+      "couponInfo": {
+        "backgroundColorHex": "",
+        "content": ""
+      },
+      "hitBizTags": [
+        {
+          "name": "Почти распродано",
+          "type": 2
+        }
+      ],
+      "minPrice": {
+        "symbol": "₽",
+        "localizedDisplayText": "10 890 ₽",
+        "money": {
+          "amount": "10890.00",
+          "minUnitVal": 1089000,
+          "currency": "RUB"
+        },
+        "amountText": "10 890",
+        "sign": "+",
+        "absText": "10 890"
+      },
+      "spuId": 8900286004881762,
+      "sourceSkuId": 1094943766,
+      "subscribeFlag": false,
+      "bizTag": {
+        "name": "Почти распродано",
+        "type": 2
+      },
+      "skuId": 8903698107091762,
+      "authPrice": 0,
+      "properties": [
+        {
+          "level": 1,
+          "propertyValueId": 8905469551681762
+        },
+        {
+          "level": 2,
+          "propertyValueId": 8905469549231762
+        }
+      ],
+      "status": 1
+    },
+    "detail": {
+      "googleProductCategory": "Apparel & Accessories > Shoes",
+      "ageRange": "adult",
+      "fitId": 3,
+      "chineseMade": false,
+      "gender": "unisex",
+      "language": "bbmax",
+      "title": "Nike Vomero 18 Дышащие Беговые кроссовки с амортизацией для женщин бежевого цвета",
+      "frontCategoryId": 500000091,
+      "seriesIds": [
+        1069451
+      ],
+      "frontCategoryName": "Кроссовки",
+      "sourceSpuId": 44686493,
+      "areaName": "BBMAX",
+      "level1CategoryId": 29,
+      "brandName": "Nike",
+      "sizeSystem": "RU",
+      "bagWatchAccessory": false,
+      "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260325/8e16beaf53ba41a5a8c18ab6103d1fbe.jpg",
+      "contentCategory": 33,
+      "labelList": [
+        {
+          "id": 78,
+          "labelName": ""
+        },
+        {
+          "id": 98,
+          "labelName": ""
+        },
+        {
+          "id": 500001564,
+          "labelName": ""
+        },
+        {
+          "id": 500001565,
+          "labelName": ""
+        },
+        {
+          "id": 500001566,
+          "labelName": ""
+        },
+        {
+          "id": 500001568,
+          "labelName": ""
+        },
+        {
+          "id": 500001569,
+          "labelName": ""
+        },
+        {
+          "id": 500001579,
+          "labelName": ""
+        },
+        {
+          "id": 500001630,
+          "labelName": ""
+        },
+        {
+          "id": 500001696,
+          "labelName": ""
+        },
+        {
+          "id": 500001698,
+          "labelName": ""
+        },
+        {
+          "id": 500001705,
+          "labelName": ""
+        },
+        {
+          "id": 500212974,
+          "labelName": ""
+        },
+        {
+          "id": 500212975,
+          "labelName": ""
+        },
+        {
+          "id": 500213092,
+          "labelName": ""
+        },
+        {
+          "id": 500213115,
+          "labelName": ""
+        },
+        {
+          "id": 500213210,
+          "labelName": ""
+        },
+        {
+          "id": 500213226,
+          "labelName": ""
+        },
+        {
+          "id": 500213227,
+          "labelName": ""
+        },
+        {
+          "id": 500213701,
+          "labelName": ""
+        },
+        {
+          "id": 500213703,
+          "labelName": ""
+        },
+        {
+          "id": 500213705,
+          "labelName": ""
+        },
+        {
+          "id": 500213707,
+          "labelName": ""
+        }
+      ],
+      "createdBy": "DEWU",
+      "brandId": 144,
+      "buyStatus": 1,
+      "spuId": 8900286004881762,
+      "level2CategoryId": 30,
+      "sourceName": "default",
+      "globalSpuId": 14021041762,
+      "categoryId": 33,
+      "status": 1
+    },
+    "categoryUiOptimization": true,
+    "buttonShowSpeed": false
+  },
+  "sizeAssistantModule": {
+    "sizeUnits": [
+      {
+        "unit": "inch",
+        "selected": false
+      },
+      {
+        "unit": "cm",
+        "selected": true
+      }
+    ],
+    "size": {
+      "sizeList": [
+        {
+          "sizeKeyList": [
+            {
+              "sizeKey": "RU",
+              "sizeValue": "32,32,5,33,5",
+              "sizeValueList": [
+                "32",
+                "32,5",
+                "33,5"
+              ]
+            },
+            {
+              "sizeKey": "EU",
+              "sizeValue": "33,33,5,34,5",
+              "sizeValueList": [
+                "33",
+                "33,5",
+                "34,5"
+              ]
+            },
+            {
+              "sizeKey": "UK",
+              "sizeValue": "1,1,5,1,5",
+              "sizeValueList": [
+                "1",
+                "1,5",
+                "1,5"
+              ]
+            },
+            {
+              "sizeKey": "US Женские",
+              "sizeValue": "3,3,5,4",
+              "sizeValueList": [
+                "3",
+                "3,5",
+                "4"
+              ]
+            },
+            {
+              "sizeKey": "US Мужские",
+              "sizeValue": "1,5,2,2,5",
+              "sizeValueList": [
+                "1,5",
+                "2",
+                "2,5"
+              ]
+            },
+            {
+              "sizeKey": "JP",
+              "sizeValue": "20,5,21,21",
+              "sizeValueList": [
+                "20,5",
+                "21",
+                "21"
+              ]
+            },
+            {
+              "sizeKey": "KR",
+              "sizeValue": "205,210,210",
+              "sizeValueList": [
+                "205",
+                "210",
+                "210"
+              ]
+            }
+          ],
+          "sizeParameterList": [
+            {
+              "sizeKey": "Длина стопы",
+              "sizeValue": "8,1,8,3,8,3",
+              "sizeValueList": [
+                "8,1",
+                "8,3",
+                "8,3"
+              ]
+            }
+          ],
+          "title": "inch"
+        },
+        {
+          "sizeKeyList": [
+            {
+              "sizeKey": "RU",
+              "sizeValue": "32,32,5,33,5",
+              "sizeValueList": [
+                "32",
+                "32,5",
+                "33,5"
+              ]
+            },
+            {
+              "sizeKey": "EU",
+              "sizeValue": "33,33,5,34,5",
+              "sizeValueList": [
+                "33",
+                "33,5",
+                "34,5"
+              ]
+            },
+            {
+              "sizeKey": "UK",
+              "sizeValue": "1,1,5,1,5",
+              "sizeValueList": [
+                "1",
+                "1,5",
+                "1,5"
+              ]
+            },
+            {
+              "sizeKey": "US Женские",
+              "sizeValue": "3,3,5,4",
+              "sizeValueList": [
+                "3",
+                "3,5",
+                "4"
+              ]
+            },
+            {
+              "sizeKey": "US Мужские",
+              "sizeValue": "1,5,2,2,5",
+              "sizeValueList": [
+                "1,5",
+                "2",
+                "2,5"
+              ]
+            },
+            {
+              "sizeKey": "JP",
+              "sizeValue": "20,5,21,21",
+              "sizeValueList": [
+                "20,5",
+                "21",
+                "21"
+              ]
+            },
+            {
+              "sizeKey": "KR",
+              "sizeValue": "205,210,210",
+              "sizeValueList": [
+                "205",
+                "210",
+                "210"
+              ]
+            }
+          ],
+          "sizeParameterList": [
+            {
+              "sizeKey": "Длина стопы",
+              "sizeValue": "20,5,21,21",
+              "sizeValueList": [
+                "20,5",
+                "21",
+                "21"
+              ]
+            }
+          ],
+          "title": "cm"
+        }
+      ],
+      "freezeColumnNum": 1,
+      "sizeConversionAsianToUS": false
+    },
+    "heightWeightSizeTableFlag": false,
+    "title": "Найдите свой размер",
+    "sizeRecommend": {
+      "recommendTitle": "Получите персональные рекомендации.",
+      "recommendTitleRichText": "Получите персональные рекомендации."
+    }
+  },
+  "authenticatedInfo": {
+    "rightIcon": {
+      "icon": "https://cdn-img.thepoizon.ru/node-common/f50e9c53-daca-d75e-5799-a475b616257c-177-168.png",
+      "width": 0,
+      "height": 0
+    },
+    "leftIcon": {
+      "icon": "https://cdn-img.thepoizon.ru/node-common/dc5c5a37-2001-2ae2-4ee2-1c49cd7440aa-75-72.png",
+      "width": 0,
+      "height": 0
+    },
+    "stepNum": 5,
+    "detail": {
+      "title": "О ДЭВУ (Poizon)",
+      "url": "https://www.thepoizon.ru/about-us?floatLayer=1"
+    },
+    "title": "Безусловный возврат"
+  },
+  "seriesDialogModel": {
+    "seriesSpuList": [
+      {
+        "spuId": 8900286004881762,
+        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260325/8e16beaf53ba41a5a8c18ab6103d1fbe.jpg"
+      },
+      {
+        "spuId": 8900126795311531,
+        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251209/a2206a99e91b48ada21b2fbc169fa08d.jpg"
+      },
+      {
+        "spuId": 8900141937492556,
+        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20250810/a87f8df1d33e4562bd911951506094b2.jpg"
+      },
+      {
+        "spuId": 8900132217252107,
+        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251210/0f8b829644a249259b3057993e44e2ef.jpg"
+      },
+      {
+        "spuId": 8900181428339698,
+        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251219/58bd671ad6744c75a6e01a36708a3faa.jpg"
+      },
+      {
+        "spuId": 8900320847537131,
+        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260726/a8608a93cea142fea15de4940071ec9c.jpg"
+      },
+      {
+        "spuId": 8900138221437251,
+        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251209/dcbca64ad62b4aeaa3530a97a7e130c4.jpg"
+      },
+      {
+        "spuId": 8900140398052671,
+        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251209/1c7c414dc58a417c9b4e67124072ea0a.jpg"
+      },
+      {
+        "spuId": 8900198656185924,
+        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251209/42efa82cef3d464b81632db5d806aa83.jpg"
+      },
+      {
+        "spuId": 8900284009043301,
+        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260320/824e24e89a0a40749df1d67a6838530f.png"
+      },
+      {
+        "spuId": 8900178361016951,
+        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251209/ec2d95cf50cf4c31a50022cdde23372b.png"
+      },
+      {
+        "spuId": 8900280878852957,
+        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260312/c44abb9ed771452693813a80ab2f5077.jpg"
+      }
+    ],
+    "dialogTitle": "Модель Vomero 18 (210 товаров)",
+    "spuCount": 210,
+    "dialogSeriesTitle": "Vomero 18 Модель",
+    "seriesId": 1069451,
+    "dialogSeriesSpuCnt": "(210 товаров)"
+  },
+  "propertyModule": {
+    "propertyBlocks": [
+      {
+        "propertyList": [
+          {
+            "name": "Функциональные характеристики",
+            "value": "Дышащий, Oтскок"
+          },
+          {
+            "name": "Материал подошвы",
+            "value": "Резина, Другой"
+          }
+        ],
+        "isShowTitle": false,
+        "title": "Ключевые параметры",
+        "type": "main"
+      },
+      {
+        "propertyList": [
+          {
+            "name": "Сезон",
+            "value": "Весенний, Летний, Осенний, Зимний"
+          },
+          {
+            "name": "Тип застежки",
+            "value": "Шнуровка"
+          },
+          {
+            "name": "Высота голенища",
+            "value": "Другой"
+          },
+          {
+            "name": "Стиль носка",
+            "value": "Круглый носок"
+          },
+          {
+            "name": "Основной цвет",
+            "value": "Бежевый"
+          },
+          {
+            "name": "Расцветка",
+            "value": "Бежевый"
+          },
+          {
+            "name": "Дополнительный цвет",
+            "value": "Коричневый, Оранжевый, Фиолетовый, Розовый"
+          },
+          {
+            "name": "Основной артикул",
+            "value": "HM6804-113"
+          }
+        ],
+        "isShowTitle": true,
+        "title": "Дополнительные",
+        "type": "minor"
+      }
+    ],
+    "iconUrl": "https://cdn-img.thepoizon.ru/node-common/c51434c8-3b60-8252-2dd5-9f668a09e5d4-48-48.png"
+  },
+  "commodityArModel": {
+    "guideArText": "Примерка в AR",
+    "existArInfo": false
+  },
+  "price": {
+    "symbol": "₽",
+    "localizedDisplayText": "10 890 ₽",
+    "money": {
+      "amount": "10890.00",
+      "minUnitVal": 1089000,
+      "currency": "RUB"
+    },
+    "amountText": "10 890",
+    "sign": "+",
+    "absText": "10 890"
+  },
+  "baseProperties": [
+    {
+      "customSortState": true,
+      "itemType": "BASE_PROPERTY",
+      "customSort": 3,
+      "sort": 11,
+      "value": "Дышащий, Oтскок",
+      "key": "Функциональные характеристики",
+      "primaryKey": "BASE_PROPERTY_DEFAULT"
+    },
+    {
+      "customSortState": true,
+      "itemType": "BASE_PROPERTY",
+      "customSort": 8,
+      "sort": 7,
+      "value": "Резина, Другой",
+      "key": "Материал подошвы",
+      "primaryKey": "BASE_PROPERTY_DEFAULT"
+    },
+    {
+      "customSortState": true,
+      "itemType": "BASE_PROPERTY",
+      "customSort": 9,
+      "sort": 5,
+      "value": "Весенний, Летний, Осенний, Зимний",
+      "key": "Сезон",
+      "primaryKey": "BASE_PROPERTY_IMPORT"
+    },
+    {
+      "customSortState": true,
+      "itemType": "BASE_PROPERTY",
+      "customSort": 10,
+      "sort": 10,
+      "value": "Шнуровка",
+      "key": "Тип застежки",
+      "primaryKey": "BASE_PROPERTY_IMPORT"
+    },
+    {
+      "customSortState": true,
+      "itemType": "BASE_PROPERTY",
+      "customSort": 19,
+      "sort": 8,
+      "value": "Другой",
+      "key": "Высота голенища",
+      "primaryKey": "BASE_PROPERTY_IMPORT"
+    },
+    {
+      "customSortState": true,
+      "itemType": "BASE_PROPERTY",
+      "customSort": 20,
+      "sort": 9,
+      "value": "Круглый носок",
+      "key": "Стиль носка",
+      "primaryKey": "BASE_PROPERTY_DEFAULT"
+    },
+    {
+      "customSortState": true,
+      "itemType": "BASE_PROPERTY",
+      "customSort": 21,
+      "sort": 2,
+      "value": "Бежевый",
+      "key": "Основной цвет",
+      "primaryKey": "BASE_PROPERTY_IMPORT"
+    },
+    {
+      "customSortState": true,
+      "itemType": "BASE_PROPERTY",
+      "customSort": 22,
+      "sort": 4,
+      "value": "Бежевый",
+      "key": "Расцветка",
+      "primaryKey": "BASE_PROPERTY_DEFAULT"
+    },
+    {
+      "customSortState": true,
+      "itemType": "BASE_PROPERTY",
+      "customSort": 23,
+      "sort": 3,
+      "value": "Коричневый, Оранжевый, Фиолетовый, Розовый",
+      "key": "Дополнительный цвет",
+      "primaryKey": "BASE_PROPERTY_DEFAULT"
+    },
+    {
+      "customSortState": false,
+      "itemType": "ARTICLE_NUMBER",
+      "supportCopy": 1,
+      "name": "primary",
+      "defaultShow": 1,
+      "value": "HM6804-113",
+      "key": "Основной артикул",
+      "primaryKey": "BASE_PARAMETER"
+    }
+  ],
+  "paymentMethods": [
+    ""
+  ],
+  "commodityReviews": {
+    "reviewsDescription": "null(20)",
+    "reviewsCount": "20",
+    "title": "ОТЗЫВЫ",
+    "scoreDesc": "Отзывы покупателей в комплекте с рейтингом звезд предоставляют богатые понимания наших товаров, и помогают клиентам решить, соответствует ли товар их потребностям. \nМы используем изощренные алгоритмы машинного обучения вместо базового усреднения в целях обеспечения действительности и точности отзывов и рейтингов. Алгоритмы принимают во внимание множество факторов, включая новизну и релевантность контента, и предоставляют более детализированную оценку по аутентичности и надежности отзыва. Применяя многомерные критерии, в полной мере мы привержены усилиям предоставлять самый достоверный справочник по покупкам в обеспечении информированного и достоверного опыта у наших пользователей.",
+    "reviewsDetailList": [
+      {
+        "score": "5.0",
+        "reviewData": "Очень удобные, рекомендую.Взяла на размер больше, сели идеально, ноги не выглядят большими.Выглядят красиво.",
+        "originType": 3,
+        "publishDate": "14 авг. 2026 г.",
+        "hasImage": 2,
+        "userName": "S***8",
+        "userIcon": "https://cdn-img.thepoizon.ru/node-common/d1236e6e-361a-2d45-ef0d-6ed34332365d-160-160.png",
+        "userId": 517960168,
+        "firstLetter": "S",
+        "skuProperty": "Размер: 37 RU (38 EU), Цвет: Бежевый",
+        "trackingId": "4511720"
+      },
+      {
+        "score": "5.0",
+        "reviewData": "Удобные, очень комфортные, лёгкие при ходьбе, универсальные, выглядят хорошо.",
+        "originType": 3,
+        "defaultIcon": "https://cdn-img.thepoizon.ru/node-common/66515c7d-af48-3130-f558-cd98c46d9f7b-70-70.png",
+        "publishDate": "6 июл. 2026 г.",
+        "hasImage": 1,
+        "userName": "Z***e",
+        "userIcon": "https://cdn-img.thepoizon.ru/node-common/7a7f2f26-ebc4-6d81-ee44-1869d26fe9e9-160-160.png",
+        "userId": 505399891,
+        "firstLetter": "Z",
+        "skuProperty": "Размер: 39 RU (40 EU), Цвет: Бежевый",
+        "trackingId": "4345704"
+      }
+    ]
+  },
+  "detailTextModule": {
+    "detailTextList": [
+      {
+        "generalType": "BRAND_STORY",
+        "subTitle": "История бренда",
+        "imgEvenTrace": "{\"position\":\"pure_text_floor\",\"typeKey\":\"BRAND_STORY\"}",
+        "content": "В январе 1964 года Фил Найт, легкоатлет из Университета Орегона, и его тренер Билл Бауэрман основали компанию Blue Ribbon Sports — предшественницу Nike. В 1972 году они начали разрабатывать и производить собственную обувь, назвав бренд Nike в честь греческой богини победы."
+      }
+    ],
+    "title": "Описание товара"
+  },
+  "configInfo": {
+    "abTestResult": {
+      "597bbamx-remembersize-series": "3"
+    }
+  },
+  "sizeImageList": [],
+  "favoriteResp": {},
+  "deliveryInfo": {
+    "shippingMethod": {
+      "title": "Способ доставки",
+      "content": "Вы можете выбрать ускоренную доставку на странице оформления заказа."
+    },
+    "icon": {
+      "icon": "https://cdn-img.thepoizon.ru/node-common/1da059ab-9840-b692-7fdc-a808df374ea5-80-80.png",
+      "width": 24,
+      "height": 24
+    },
+    "title": "ДОСТАВКА",
+    "content": "",
+    "tips": "При оформлении заказа вы можете выбрать ускоренную доставку."
+  },
+  "commodity3DModel": {
+    "exist3dInfo": false,
+    "guide3dText": "Посмотреть в 3D"
+  },
+  "brandItemsModel": {
+    "isShowBrand": 1,
+    "brandName": "Nike",
+    "brandId": 144,
+    "linkUrl": "https://m.poizon.com/router/buyer/detailCollectionPage?url=%2Fcategory%2Fproduct-recommend&title=Nike&brandId=144&recSpuIds=8900286004881762&sourceName=1&pageType=brand",
+    "brandItems": "496 тыс. товаров",
+    "brandLogo": "https://cdn-img.thepoizon.ru/pro-img/brand-logo/cut-img/20250221/ad39ee3e88e14ff39cd09c5093887d8c.jpg"
+  },
+  "productTextInfo": {
+    "extendClickArea": false,
+    "soldTextCanBeClick": true,
+    "soldText": "Продано 700"
+  },
+  "styleMode": 2,
+  "imText": "Помощь",
+  "saleCount": "Продано 700",
+  "itemDetailsAbValue": true,
+  "returnAndBack": {
+    "title": "DELIVERY & RETURNS",
+    "content": "<p>9-13 days delivery via UPS.</p><p>Easy returns within 3 days of delivery.</p>"
+  },
+  "isAdd": false,
+  "easyReturnInfo": {
+    "contents": [
+      "Бесплатная доставка",
+      "Возврат возможен в течение 7 дней после получения товара"
+    ],
+    "icon": {
+      "icon": "https://cdn-img.thepoizon.ru//node-common/ade42ba7-7dd0-4fc1-3c16-9813a93a3eab-60-60.png",
+      "width": 24,
+      "height": 24
+    },
+    "title": "ПОЛИТИКА БЕЗУСЛОВНОГО ВОЗВРАТА",
+    "content": "Бесплатная доставка | Возврат возможен в течение 7 дней после получения товара",
+    "jumpUrl": "https://www.thepoizon.ru/pages/68302ccbb53b933283df2027"
+  },
+  "shipProtectionInfo": {
+    "iconList": [
+      {
+        "width": 33,
+        "height": 10
+      }
+    ],
+    "icon": {
+      "icon": "https://cdn-img.thepoizon.ru/node-common/c0159574-153f-28bc-1b44-69c1c8a57267-44-44.png",
+      "width": 1,
+      "height": 1
+    },
+    "support": false,
+    "content": "Защита перевозки доступна с {logo}"
+  },
+  "favoriteNum": "1,4 тыс.",
+  "imageModels": [
+    {
+      "modelWear": false,
+      "imageId": 1004413037201762,
+      "propertyValueId": 8905469551681762,
+      "channel": 1,
+      "sort": 1,
+      "label": 0,
+      "genericTypeSort": 1,
+      "imgEvenTrace": "{\"position\":\"item\",\"typeKey\":\"PHOTO\",\"tagKey\":\"white\"}",
+      "url": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260325/8e16beaf53ba41a5a8c18ab6103d1fbe.jpg",
+      "colorStyle": "FFFFFF",
+      "genericType": "PHOTO_white",
+      "imgType": 0,
+      "burialImgType": 0
+    },
+    {
+      "modelWear": false,
+      "imageId": 1004413037211762,
+      "propertyValueId": 8905469551681762,
+      "channel": 1,
+      "sort": 2,
+      "label": 0,
+      "genericTypeSort": 1,
+      "imgEvenTrace": "{\"position\":\"item\",\"typeKey\":\"PHOTO\",\"tagKey\":\"white\"}",
+      "url": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260325/cf1dace3530b443f9c3faab624deee25.jpg",
+      "colorStyle": "FFFFFF",
+      "genericType": "PHOTO_white",
+      "imgType": 0,
+      "burialImgType": 0
+    },
+    {
+      "modelWear": false,
+      "imageId": 1004412918881762,
+      "propertyValueId": 8905469551681762,
+      "channel": 1,
+      "sort": 3,
+      "label": 0,
+      "genericTypeSort": 1,
+      "imgEvenTrace": "{\"position\":\"item\",\"typeKey\":\"PHOTO\",\"tagKey\":\"white\"}",
+      "url": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260325/34eb3dffaeee49a4b47750ba4c1eb03e.jpg",
+      "colorStyle": "FFFFFF",
+      "genericType": "PHOTO_white",
+      "imgType": 0,
+      "burialImgType": 0
+    },
+    {
+      "modelWear": false,
+      "imageId": 1004412918891762,
+      "propertyValueId": 8905469551681762,
+      "channel": 1,
+      "sort": 4,
+      "label": 0,
+      "genericTypeSort": 1,
+      "imgEvenTrace": "{\"position\":\"item\",\"typeKey\":\"PHOTO\",\"tagKey\":\"white\"}",
+      "url": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260325/5b85e6f7d77944588668761c6e12c01f.jpg",
+      "colorStyle": "FFFFFF",
+      "genericType": "PHOTO_white",
+      "imgType": 0,
+      "burialImgType": 0
+    },
+    {
+      "modelWear": false,
+      "imageId": 1004413037221762,
+      "propertyValueId": 8905469551681762,
+      "channel": 1,
+      "sort": 5,
+      "label": 0,
+      "genericTypeSort": 1,
+      "imgEvenTrace": "{\"position\":\"item\",\"typeKey\":\"PHOTO\",\"tagKey\":\"white\"}",
+      "url": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260325/20a3059bc13b440caa8ef044af6204db.jpg",
+      "colorStyle": "FFFFFF",
+      "genericType": "PHOTO_white",
+      "imgType": 0,
+      "burialImgType": 0
+    },
+    {
+      "modelWear": false,
+      "imageId": 1004413037231762,
+      "propertyValueId": 8905469551681762,
+      "channel": 1,
+      "sort": 6,
+      "label": 0,
+      "genericTypeSort": 1,
+      "imgEvenTrace": "{\"position\":\"item\",\"typeKey\":\"PHOTO\",\"tagKey\":\"white\"}",
+      "url": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260325/397a06ee897c4c6599a137607f3585b0.jpg",
+      "colorStyle": "FFFFFF",
+      "genericType": "PHOTO_white",
+      "imgType": 0,
+      "burialImgType": 0
+    },
+    {
+      "modelWear": false,
+      "imageId": 1004958340721762,
+      "colorStyle": "FFFFFF",
+      "channel": 1,
+      "sort": 1,
+      "label": 1,
+      "genericType": "INTL_SELLING_POINT_IMAGE_all",
+      "genericTypeSort": 0,
+      "imgEvenTrace": "{\"position\":\"outfits\",\"typeKey\":\"INTL_SELLING_POINT_IMAGE\"}",
+      "url": "https://h5static.dewucdn.com/node-common/95a7b123-fa09-3bdd-1394-57b50a1cb963-1024-1024.png",
+      "imgType": 1064,
+      "burialImgType": 1064
+    }
+  ],
+  "shoppingAtEase": {
+    "creditForDelayContent": "",
+    "contentDate": "<span>Поддержка 24/7</span>",
+    "iconList": [],
+    "icon": {
+      "icon": "https://cdn-img.thepoizon.ru/node-common/82ddaebe-48ad-e7ff-1d79-e7f0e9118f25-80-80.png",
+      "width": 1,
+      "height": 1
+    },
+    "title": "ПОКУПАТЬ С УВЕРЕННОСТЬЮ",
+    "content": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Поддержка 24/7</poizon>"
+  }
+}

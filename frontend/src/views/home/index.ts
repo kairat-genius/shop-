@@ -1,1 +1,2 @@
-export { default } from "./ui/HomeView";
+export { default } from "./ui/HomeView"
+
