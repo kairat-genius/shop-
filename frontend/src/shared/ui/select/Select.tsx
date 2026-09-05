@@ -68,11 +68,11 @@ const Select = ({
       >
         <ul className="overflow-y-auto w-full">
           {items.length > 0 ? (
-            items.map((item) => {
+            items.map((item, index) => {
               const isSelected = item.slug === value;
               return (
                 <li
-                  key={item.slug}
+                  key={index}
                   onClick={() => {
                     onChange(item.slug);
                     setIsOpen(false);

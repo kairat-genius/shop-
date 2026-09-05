@@ -4,8 +4,9 @@ import FilterCheckboxList from "./filter/FilterCheckboxList";
 import Accordion from "@/shared/ui/accordion";
 
 import PriceRangeFilter from "./filter/PriceRangeFilter";
-import { CategoryFiltersResponseDto } from "@/shared/api/openapi";
 import { getFacetList } from "../utils/getFacetList";
+
+import type { CategoryFiltersResponseType } from "@/types/category-filters.type";
 
 interface FilterAsideProps {
   filters: FiltersState;
@@ -14,7 +15,7 @@ interface FilterAsideProps {
     value: FiltersState[K],
   ) => void;
   updateFilters: (values: Partial<FiltersState>) => void;
-  filtersData: CategoryFiltersResponseDto;
+  filtersData: CategoryFiltersResponseType;
   categoryId: string;
 }
 

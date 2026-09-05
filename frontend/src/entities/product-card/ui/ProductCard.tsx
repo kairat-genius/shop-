@@ -1,8 +1,7 @@
 "use client";
-
-import { SpuListItemDto } from "@/shared/api/openapi";
 import { cn } from "@/shared/utils/clsx";
 import { generateProductSlug } from "@/shared/utils/slug";
+import type { ProductType } from "@/types/product-list-category.type";
 import Link from "next/link";
 import type { ReactNode } from "react";
 
@@ -10,7 +9,7 @@ interface ProductCardProps {
   children?: ReactNode;
   onClick?: () => void;
   className?: string;
-  product: SpuListItemDto;
+  product: ProductType;
 }
 
 const ProductCard = ({ className, children, product }: ProductCardProps) => {
@@ -33,7 +32,7 @@ const ProductCard = ({ className, children, product }: ProductCardProps) => {
         </div>
         <div className="mt-4 flex flex-wrap justify-between items-baseline">
           <div className="text-[20px] leading-[1.3] font-bold font-roboto_condensed">
-            {product.minSpuPrice.localizedDisplayText || "--"}
+            {product.minSpuPrice?.localizedDisplayText || "--"}
           </div>
           {product.saleTag && (
             <span className="text-right text-[12px] font-light text-slate-500">

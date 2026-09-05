@@ -1,30 +1,39 @@
-import {
-  PoizonApiControllerSearchByCategoryRequest,
-  ResponseError,
-  SearchResponseDto,
-} from "@/shared/api/openapi";
-import { productApi } from "@/shared/api/poizonApi";
-import { cleanEmptyParams } from "@/shared/utils/cleanEmptyParams";
-import ProductCategory from "./ProductCategoryList.json" 
+import { apiFetch } from "@/shared/api/apiFetch";
+import { CATEGORY_LIST_PRODUCT } from "@/shared/api/endpoints";
+import { buildQueryParams } from "@/shared/utils/buildQueryParams";
+import type {
+  CategoryProductListFilterType,
+  ProductListCategoryResponseType,
+} from "@/types/product-list-category.type";
 
 export async function getProductListCategory(
-  params: PoizonApiControllerSearchByCategoryRequest,
-  isServer = false,
-): Promise<SearchResponseDto> {
-  try {
-    return ProductCategory;
-    // return await productApi(isServer).poizonApiControllerSearchByCategory(
-    //   cleanEmptyParams(params) as PoizonApiControllerSearchByCategoryRequest,
-    // );
-  } catch (error) {
-    if (error instanceof ResponseError) {
-      console.error(
-        "Dewu API error:",
-        error.response.status,
-        await error.response.text(),
-      );
+  params: CategoryProductListFilterType,
+  isServer: boolean = false,
+): Promise<ProductListCategoryResponseType> {
+  const query = buildQueryParams(params);
+  const url = `${CATEGORY_LIST_PRODUCT}?${query}`;
+
+  if (isServer) {
+    const res = await fetch(url, {
+      method: "GET",
+      headers: {
+        "Content-Type": "application/json",
+      },
+    });
+
+    if (!res.ok) {
+      throw new Error(`HTTP Error: ${res.status}`);
     }
 
-    throw error;
+    return res.json();
   }
+
+  const res = await apiFetch(url, {
+    method: "GET",
+    headers: {
+      "Content-Type": "application/json",
+    },
+  });
+
+  return res.json();
 }

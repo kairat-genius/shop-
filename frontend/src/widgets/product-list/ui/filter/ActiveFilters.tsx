@@ -5,8 +5,9 @@ import { Button } from "@/shared/ui/action";
 import Icon from "@/shared/icon";
 import Select from "@/shared/ui/select";
 import { sortOptions } from "../../data/sort.data";
-import type { CategoryFiltersResponseDto } from "@/shared/api/openapi";
 import { getFacetList } from "../../utils/getFacetList";
+
+import type { CategoryFiltersResponseType } from "@/types/category-filters.type";
 
 interface ActiveFiltersProps {
   filters: FiltersState;
@@ -14,15 +15,16 @@ interface ActiveFiltersProps {
     key: K,
     value: FiltersState[K],
   ) => void;
-  updateFilters?: (values: Partial<FiltersState>) => void;
+  updateFilters: (values: Partial<FiltersState>) => void;
   resetFilters: () => void;
-  filtersData: CategoryFiltersResponseDto;
+  filtersData: CategoryFiltersResponseType;
 }
 
 const ActiveFilters = ({
   filters,
   updateFilter,
   resetFilters,
+  updateFilters,
   filtersData,
 }: ActiveFiltersProps) => {
   const facets = filtersData?.facets ?? [];
@@ -144,10 +146,24 @@ const ActiveFilters = ({
         </span>
 
         <Select
-          value={filters.sortType}
+          value={`${filters.sortType}_${filters.sortMode}`}
           className="max-w-60"
           items={sortOptions}
-          onChange={(item) => updateFilter("sortType", item)}
+          onChange={(value) => {
+            const option = sortOptions.find(
+              (item) => item.slug === String(value),
+            );
+
+            if (!option) {
+              return;
+            }
+
+            updateFilters({
+              sortType: option.sortType,
+              sortMode: option.sortMode,
+              page: 1,
+            });
+          }}
           placeholder="Сортировать"
         />
       </div>

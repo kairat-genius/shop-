@@ -1,5 +1,4 @@
 import { getProductListCategory } from "@/views/category/api/getProductListCategory";
-import { ResponseError } from "@/shared/api/openapi";
 import Breadcrumbs from "@/shared/ui/breadcrumbs";
 import { extractIdFromSlug } from "@/shared/utils/extractIdFromSlug";
 
@@ -21,22 +20,15 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
     notFound();
   }
 
-  let categoryData;
+  const categoryData = await getCategoryFilters(categoryId);
 
-  try {
-    categoryData = await getCategoryFilters({ categoryId }, true);
-  } catch (error) {
-    if (error instanceof ResponseError && error.response.status === 404) {
-      notFound();
-    }
-
-    throw error;
+  if (categoryData === 404) {
+    notFound();
   }
-
 
   const initialData = await getProductListCategory(
     {
-      pageSize: 65,
+      pageSize: 60,
       categoryId,
     },
     true,
@@ -52,11 +44,14 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
     <main>
       <Breadcrumbs
         title={categoryTitle}
-        items={[{ href: "/", title: "Главная" }, { href: `/category/${category}`, title: categoryTitle }]}
+        items={[
+          { href: "/", title: "Главная" },
+          { href: `/category/${category}`, title: categoryTitle },
+        ]}
       />
       <ProductList
         initialData={initialData}
-        categoryId={categoryId}   
+        categoryId={categoryId}
         filtersData={categoryData}
       />
       <CategoryView />

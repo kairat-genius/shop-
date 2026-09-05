@@ -3,19 +3,18 @@ import FilterAside from "./FilterAside";
 import { useProductList } from "../model/useProductList";
 import { useRef } from "react";
 import ActiveFilters from "./filter/ActiveFilters";
-import ProductCard, { ProductCardSkeleton } from "@/entities/product-card";
+import ProductCard from "@/entities/product-card";
 import FavoriteButton from "@/features/favorites-button";
 import Icon from "@/shared/icon";
 import Pagination from "@/shared/ui/pagination";
-import type {
-  CategoryFiltersResponseDto,
-  SearchResponseDto,
-} from "@/shared/api/openapi";
+
+import type { CategoryFiltersResponseType } from "@/types/category-filters.type";
+import type { ProductListCategoryResponseType } from "@/types/product-list-category.type";
 
 interface ProductListProps {
-  initialData: SearchResponseDto;
+  initialData: ProductListCategoryResponseType;
   categoryId: string;
-  filtersData: CategoryFiltersResponseDto;
+  filtersData: CategoryFiltersResponseType;
 }
 
 const ProductList = ({
@@ -28,7 +27,6 @@ const ProductList = ({
   const {
     productData,
     isLoading,
-    showSkeleton,
     filters,
     updateFilter,
     updateFilters,
@@ -37,7 +35,9 @@ const ProductList = ({
 
   const searchSpuList = productData.searchSpuList;
   const productItems = searchSpuList.spuList ?? [];
-  const hasProducts = productItems.length > 0;
+
+  const pageSize = 60;
+  const totalPages = Math.ceil(searchSpuList.total / pageSize);
 
   const handlePageChange = (value: number) => {
     updateFilter("page", value);
@@ -49,7 +49,7 @@ const ProductList = ({
 
       window.scrollTo({
         top: scrollPosition,
-        behavior: "smooth",
+        behavior: "instant",
       });
     }
   };
@@ -72,33 +72,37 @@ const ProductList = ({
           filtersData={filtersData}
         />
         <div className="grid grid-cols-5 gap-x-[.8rem] gap-y-8">
-          {showSkeleton
-            ? Array.from({ length: 8 }).map((_, index) => (
-                <ProductCardSkeleton key={index} />
-              ))
-            : productItems.map((item, index) => (
-                <ProductCard key={index} product={item}>
-                  <FavoriteButton className="absolute top-4 right-2 text-slate-500">
-                    <Icon icon="heart" className="w-[1.2rem] h-[1.2rem]" />
-                  </FavoriteButton>
-                </ProductCard>
-              ))}
-
-          {!isLoading && !showSkeleton && !hasProducts && (
-            <div className="col-span-full flex flex-col items-center justify-center py-24 text-center">
-              <p className="text-lg font-medium">Товары не найдены</p>
-              <p className="mt-2 text-sm text-gray-500">
-                Попробуйте изменить фильтры или выбрать другое устройство
-              </p>
+          {isLoading ? (
+            <div className="col-span-full flex min-h-80 items-center justify-center">
+              <div className="h-8 w-8 animate-spin rounded-full border-4 border-slate-200 border-t-slate-950" />
             </div>
-          )}
+          ) : (productItems.length > 0 ? (
+            productItems.map((item, index) => (
+              <ProductCard key={index} product={item}>
+                <FavoriteButton className="absolute right-2 top-4 text-slate-500">
+                  <Icon icon="heart" className="h-[1.2rem] w-[1.2rem]" />
+                </FavoriteButton>
+              </ProductCard>
+            ))
+          ) : (
+            <div className="col-span-full mt-5">
+              <div className="text-[24px] font-bold leading-7 font-roboto_condensed ">
+                Просмотр: {productData.searchSpuList.total} результатов
+              </div>
+              <div className="mt-2 text-[16px] leading-4.75">
+                Извините. Результатов не найдены.
+              </div>
+            </div>
+          ))}
         </div>
-        <Pagination
-          page={filters.page}
-          total={Math.max(1, Math.ceil(searchSpuList.total))}
-          onChange={handlePageChange}
-          className="mt-19.5"
-        />
+        {productItems.length > 0 && totalPages > 1 && (
+          <Pagination
+            page={filters.page}
+            total={totalPages}
+            onChange={handlePageChange}
+            className="mt-19.5"
+          />
+        )}
       </div>
     </div>
   );

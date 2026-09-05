@@ -1,4 +1,4 @@
-import type { FacetDto } from "@/shared/api/openapi";
+import type { FacetType } from "@/types/category-filters.type";
 
 interface FacetItem {
   name?: string;
@@ -19,7 +19,7 @@ export const normalizeFacetItems = (items: FacetItem[] = []) =>
     }));
 
 export const getFacetList = (
-  facets: FacetDto[] = [],
+  facets: FacetType[] = [],
   name: string,
   useFirstNestedItems = false,
 ) => {

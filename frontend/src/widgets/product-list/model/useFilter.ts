@@ -3,6 +3,7 @@ import { useState, useCallback } from "react";
 export interface FiltersState {
   page: number;
   sortType: number | string;
+  sortMode?: string;
   categories: (string | number)[];
   brandIds: (string | number)[];
   fitIds: (string | number)[];
@@ -25,13 +26,33 @@ const defaultFilters: FiltersState = {
 export function useFilter() {
   const [filters, setFilters] = useState<FiltersState>(defaultFilters);
 
-  const updateFilters = useCallback((values: Partial<FiltersState>) => {
-    setFilters((prev) => ({ ...prev, ...values }));
-  }, []);
+  const updateFilters = useCallback(
+    (values: Partial<FiltersState>) => {
+      setFilters((prev) => ({
+        ...prev,
+        ...values,
+        ...(values.page === undefined && { page: 1 }),
+      }));
+    },
+    [],
+  );
 
   const updateFilter = useCallback(
     <K extends keyof FiltersState>(key: K, value: FiltersState[K]) => {
-      setFilters((prev) => ({ ...prev, [key]: value }));
+      setFilters((prev) => {
+        if (key === "page") {
+          return {
+            ...prev,
+            page: value as number,
+          };
+        }
+
+        return {
+          ...prev,
+          [key]: value,
+          page: 1,
+        };
+      });
     },
     [],
   );
@@ -42,7 +63,20 @@ export function useFilter() {
 
   const resetFilterByKey = useCallback(
     <K extends keyof FiltersState>(key: K) => {
-      setFilters((prev) => ({ ...prev, [key]: defaultFilters[key] }));
+      setFilters((prev) => {
+        if (key === "page") {
+          return {
+            ...prev,
+            page: defaultFilters.page,
+          };
+        }
+
+        return {
+          ...prev,
+          [key]: defaultFilters[key],
+          page: 1,
+        };
+      });
     },
     [],
   );

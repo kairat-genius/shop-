@@ -1,34 +1,37 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import { useFilter } from "@/widgets/product-list/model/useFilter";
 import { getProductListCategory } from "@/views/category/api/getProductListCategory";
-import { SearchResponseDto } from "@/shared/api/openapi";
+import type { ProductListCategoryResponseType } from "@/types/product-list-category.type";
 
 export function useProductList(
-  initialData: SearchResponseDto,
+  initialData: ProductListCategoryResponseType,
   categoryId: string,
 ) {
   const [productData, setProductData] =
-    useState<SearchResponseDto>(initialData);
+    useState<ProductListCategoryResponseType>(initialData);
   const [isLoading, setIsLoading] = useState(false);
-  const [showSkeleton, setShowSkeleton] = useState(false);
 
-  const { filters, updateFilter, updateFilters, resetFilters } =
-    useFilter();
+  const { filters, updateFilter, updateFilters, resetFilters } = useFilter();
 
   const isFirstRender = useRef(true);
 
   const fetchFormList = useCallback(async () => {
     setIsLoading(true);
-
-    if (productData.searchSpuList.spuList.length === 0) {
-      setShowSkeleton(true);
-    }
-
     try {
       const requestParams = {
         page: filters.page,
-        pageSize: 65,
-        categoryId: categoryId,
+        pageSize: 60,
+        categoryId,
+
+        sortType: Number(filters.sortType),
+        sortMode: filters.sortMode,
+        categoryIds: filters.categories.map(String),
+        brandIds: filters.brandIds.map(Number),
+        fitIds: filters.fitIds.map(Number),
+        sizes: filters.sizes.map(String),
+        
+        priceMin: filters.priceMin ?? undefined,
+        priceMax: filters.priceMax ?? undefined,
       };
 
       const listData = await getProductListCategory(requestParams, false);
@@ -36,9 +39,8 @@ export function useProductList(
       setProductData(listData);
     } finally {
       setIsLoading(false);
-      setShowSkeleton(false);
     }
-  }, [filters, productData.searchSpuList.spuList.length, categoryId]);
+  }, [filters, categoryId]);
 
   /**
    * 🔥 FETCH EFFECT
@@ -60,7 +62,6 @@ export function useProductList(
   return {
     productData,
     isLoading,
-    showSkeleton,
     filters,
     updateFilter,
     updateFilters,

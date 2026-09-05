@@ -19,7 +19,7 @@ export async function apiFetch(url: string, options: FetchOptions = {}) {
     // Если запрос завершился неудачно (4xx или 5xx)
     if (!res.ok) {
       // Перехватываем критические ошибки на клиенте
-      if (res.status === 429 || res.status >= 500) {
+      if (res.status === 400 || res.status === 429 || res.status >= 500) {
         // Zustand позволяет обновлять стор вне React-компонентов через getState()
         useBoundStore.getState().setApiErrorStatus(res.status);
       }

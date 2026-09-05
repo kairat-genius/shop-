@@ -4,7 +4,7 @@ type Option = {
 };
 
 export interface SelectProps {
-  items: Option[];
+  items: readonly Option[];
   value: string | number;
   onChange: (item: string | number) => void;
   placeholder?: string;
