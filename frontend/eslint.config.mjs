@@ -18,6 +18,7 @@ const eslintConfig = defineConfig([
       "unicorn/filename-case": "off",
       "unicorn/prevent-abbreviations": "off",
       "unicorn/no-null": "off",
+      "unicorn/no-nested-ternary": "off",
     },
   },
   // Override default ignores of eslint-config-next.

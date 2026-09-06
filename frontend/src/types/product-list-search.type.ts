@@ -1,15 +1,15 @@
 import type { ProductType } from "./product.type";
 
-export type ProductListCategoryResponseType = {
+export type ProductListSearchResponseType = {
   searchSpuList: {
     noResultsTitle: string;
     total: number;
     spuList: ProductType[]
+    fallbackSpuList?: ProductType[];
   };
 };
 
-export type CategoryProductListFilterType = {
-  categoryId: string;
+export type ProductListSearchFilterType = {
   page?: number;
   pageSize?: number;
   sortType?: number;

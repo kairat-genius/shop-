@@ -1,7 +1,7 @@
 "use client";
 import { cn } from "@/shared/utils/clsx";
 import { generateProductSlug } from "@/shared/utils/slug";
-import type { ProductType } from "@/types/product-list-category.type";
+import type { ProductType } from "@/types/product.type";
 import Link from "next/link";
 import type { ReactNode } from "react";
 
