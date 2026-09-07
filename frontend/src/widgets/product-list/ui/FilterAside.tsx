@@ -15,7 +15,7 @@ interface FilterAsideProps {
     value: FiltersState[K],
   ) => void;
   updateFilters: (values: Partial<FiltersState>) => void;
-  filtersData: CategoryFiltersResponseType;
+  filtersData?: CategoryFiltersResponseType;
   categoryId: string;
 }
 

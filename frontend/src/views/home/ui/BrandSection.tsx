@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { homeBrandsData } from "../data/homeBrands.data";
 import Icon from "@/shared/icon";
+import { generateProductSlug } from "@/shared/utils/slug";
 
 const BrandSection = () => {
   return (
@@ -9,7 +10,7 @@ const BrandSection = () => {
         <Link
           key={index}
           className="flex items-center justify-center"
-          href={item.href}
+          href={`/brand/${generateProductSlug(item.name, item.id)}`}
         >
           <img
             className="w-[7.3rem] h-[4.5rem] object-contain"

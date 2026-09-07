@@ -1,23 +1,17 @@
-import {
-  CategoryTreeResponseDto,
-  ResponseError,
-} from "@/shared/api/openapi";
-import { productApi } from "@/shared/api/poizonApi";
-import categoryData from "./categoryData.json";
+import { CATEGORY_TREE } from "@/shared/api/endpoints";
+import { CategoryListResponseType } from "@/types/category-list.type";
 
-export async function getCategoryList(): Promise<CategoryTreeResponseDto> {
-  try {
-    return categoryData;
-    // return await productApi(true).poizonApiControllerGetCategoryTree();
-  } catch (error) {
-    if (error instanceof ResponseError) {
-      console.error(
-        "Dewu API error:",
-        error.response.status,
-        await error.response.text(),
-      );
-    }
+export async function getCategoryList(): Promise<CategoryListResponseType> {
+  const res = await fetch(CATEGORY_TREE, {
+    method: "GET",
+    headers: {
+      "Content-Type": "application/json",
+    },
+  });
 
-    throw error;
+  if (!res.ok) {
+    throw new Error(`HTTP Error: ${res.status}`);
   }
+
+  return res.json();
 }

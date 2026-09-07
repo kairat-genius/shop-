@@ -1,17 +1,21 @@
 import { apiFetch } from "@/shared/api/apiFetch";
-import { CATEGORY_LIST_PRODUCT } from "@/shared/api/endpoints";
+import {
+  BRAND_LIST_PRODUCT,
+  CATEGORY_LIST_PRODUCT,
+} from "@/shared/api/endpoints";
 import { buildQueryParams } from "@/shared/utils/buildQueryParams";
 import type {
-  CategoryProductListFilterType,
+  ProductListFilterType,
   ProductListCategoryResponseType,
 } from "@/types/product-list-category.type";
 
 export async function getProductListCategory(
-  params: CategoryProductListFilterType,
+  params: ProductListFilterType,
   isServer: boolean = false,
 ): Promise<ProductListCategoryResponseType> {
   const query = buildQueryParams(params);
-  const url = `${CATEGORY_LIST_PRODUCT}?${query}`;
+  const endpoint = params.brandId ? BRAND_LIST_PRODUCT : CATEGORY_LIST_PRODUCT;
+  const url = `${endpoint}?${query}`;
 
   if (isServer) {
     const res = await fetch(url, {

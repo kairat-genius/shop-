@@ -19,6 +19,7 @@ const eslintConfig = defineConfig([
       "unicorn/prevent-abbreviations": "off",
       "unicorn/no-null": "off",
       "unicorn/no-nested-ternary": "off",
+      "unicorn/numeric-separators-style": "off",
     },
   },
   // Override default ignores of eslint-config-next.
@@ -34,7 +35,7 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
-    "scripts/**"
+    "scripts/**",
   ]),
 ]);
 

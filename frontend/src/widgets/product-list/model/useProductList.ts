@@ -1,11 +1,11 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import { useFilter } from "@/widgets/product-list/model/useFilter";
-import { getProductListCategory } from "@/views/category/api/getProductListCategory";
+import { getProductListCategory } from "@/views/category-brand/api/getProductListCategory";
 import type { ProductListCategoryResponseType } from "@/types/product-list-category.type";
 
 export function useProductList(
   initialData: ProductListCategoryResponseType,
-  categoryId: string,
+  params: { categoryId?: string; brandId?: string },
 ) {
   const [productData, setProductData] =
     useState<ProductListCategoryResponseType>(initialData);
@@ -21,7 +21,8 @@ export function useProductList(
       const requestParams = {
         page: filters.page,
         pageSize: 60,
-        categoryId,
+        categoryId: params.categoryId,
+        brandId: params.brandId,
 
         sortType: Number(filters.sortType),
         sortMode: filters.sortMode,
@@ -29,7 +30,7 @@ export function useProductList(
         brandIds: filters.brandIds.map(Number),
         fitIds: filters.fitIds.map(Number),
         sizes: filters.sizes.map(String),
-        
+
         priceMin: filters.priceMin ?? undefined,
         priceMax: filters.priceMax ?? undefined,
       };
@@ -40,7 +41,7 @@ export function useProductList(
     } finally {
       setIsLoading(false);
     }
-  }, [filters, categoryId]);
+  }, [filters, params]);
 
   /**
    * 🔥 FETCH EFFECT

@@ -4,12 +4,13 @@ export type ProductListCategoryResponseType = {
   searchSpuList: {
     noResultsTitle: string;
     total: number;
-    spuList: ProductType[]
+    spuList: ProductType[];
   };
 };
 
-export type CategoryProductListFilterType = {
-  categoryId: string;
+export type ProductListFilterType = {
+  categoryId?: string;
+  brandId?: string;
   page?: number;
   pageSize?: number;
   sortType?: number;

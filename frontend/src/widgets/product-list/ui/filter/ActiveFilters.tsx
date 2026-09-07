@@ -17,7 +17,7 @@ interface ActiveFiltersProps {
   ) => void;
   updateFilters: (values: Partial<FiltersState>) => void;
   resetFilters: () => void;
-  filtersData: CategoryFiltersResponseType;
+  filtersData?: CategoryFiltersResponseType;
 }
 
 const ActiveFilters = ({

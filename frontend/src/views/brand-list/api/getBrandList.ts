@@ -1,22 +1,19 @@
-import { BrandListResponseDto, ResponseError } from "@/shared/api/openapi";
-import { productApi } from "@/shared/api/poizonApi";
-import BrandList from "./BrandList.json";
+import { BRAND_LIST } from "@/shared/api/endpoints";
+import type { BrandListResponseType } from "@/types/brand-list.type";
 
-export async function getBrandList(
-  isServer = false,
-): Promise<BrandListResponseDto> {
-  try {
-    return BrandList;
-    // return await productApi(isServer).poizonApiControllerGetBrandList();
-  } catch (error) {
-    if (error instanceof ResponseError) {
-      console.error(
-        "Dewu API error:",
-        error.response.status,
-        await error.response.text(),
-      );
-    }
 
-    throw error;
+export async function getBrandList(): Promise<BrandListResponseType> {
+
+  const res = await fetch(BRAND_LIST, {
+    method: "GET",
+    headers: {
+      "Content-Type": "application/json",
+    },
+  });
+
+  if (!res.ok) {
+    throw new Error(`HTTP Error: ${res.status}`);
   }
+
+  return res.json();
 }

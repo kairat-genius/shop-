@@ -1,5 +1,5 @@
 "use client";
-import RelatedBrandsThemes from "@/views/category/ui/RelatedBrandsThemes";
+import RelatedBrandsThemes from "@/views/category-brand/ui/RelatedBrandsThemes";
 import ProductStickyDetails from "./right/ProductStickyDetails";
 import ProductLeft from "./left/ProductLeft";
 import RecommendedProducts from "./RecommendedProducts";

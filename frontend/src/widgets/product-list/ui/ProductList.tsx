@@ -13,13 +13,15 @@ import type { ProductListCategoryResponseType } from "@/types/product-list-categ
 
 interface ProductListProps {
   initialData: ProductListCategoryResponseType;
-  categoryId: string;
-  filtersData: CategoryFiltersResponseType;
+  categoryId?: string;
+  brandId?: string;
+  filtersData?: CategoryFiltersResponseType;
 }
 
 const ProductList = ({
   initialData,
   categoryId,
+  brandId,
   filtersData,
 }: ProductListProps) => {
   const listRef = useRef<HTMLDivElement>(null);
@@ -31,7 +33,7 @@ const ProductList = ({
     updateFilter,
     updateFilters,
     resetFilters,
-  } = useProductList(initialData, categoryId);
+  } = useProductList(initialData, { categoryId, brandId });
 
   const searchSpuList = productData.searchSpuList;
   const productItems = searchSpuList.spuList ?? [];
@@ -61,7 +63,7 @@ const ProductList = ({
         updateFilter={updateFilter}
         updateFilters={updateFilters}
         filtersData={filtersData}
-        categoryId={categoryId}
+        categoryId={categoryId ?? ""}
       />
       <div ref={listRef}>
         <ActiveFilters
@@ -76,7 +78,7 @@ const ProductList = ({
             <div className="col-span-full flex min-h-80 items-center justify-center">
               <div className="h-8 w-8 animate-spin rounded-full border-4 border-slate-200 border-t-slate-950" />
             </div>
-          ) : (productItems.length > 0 ? (
+          ) : productItems.length > 0 ? (
             productItems.map((item, index) => (
               <ProductCard key={index} product={item}>
                 <FavoriteButton className="absolute right-2 top-4 text-slate-500">
@@ -93,7 +95,7 @@ const ProductList = ({
                 Извините. Результатов не найдены.
               </div>
             </div>
-          ))}
+          )}
         </div>
         {productItems.length > 0 && totalPages > 1 && (
           <Pagination

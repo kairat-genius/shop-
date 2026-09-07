@@ -1,8 +1,8 @@
-import { getProductListCategory } from "@/views/category/api/getProductListCategory";
+import { getProductListCategory } from "@/views/category-brand/api/getProductListCategory";
 import Breadcrumbs from "@/shared/ui/breadcrumbs";
 import { extractIdFromSlug } from "@/shared/utils/extractIdFromSlug";
 
-import CategoryView, { getCategoryFilters } from "@/views/category";
+import CategoryView, { getCategoryFilters } from "@/views/category-brand";
 import ProductList from "@/widgets/product-list";
 import { notFound } from "next/navigation";
 
@@ -44,10 +44,7 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
     <main>
       <Breadcrumbs
         title={categoryTitle}
-        items={[
-          { href: "/", title: "Главная" },
-          { href: `/category/${category}`, title: categoryTitle },
-        ]}
+        items={[{ href: "/", title: "Главная" }, { title: categoryTitle }]}
       />
       <ProductList
         initialData={initialData}
