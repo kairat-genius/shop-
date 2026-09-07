@@ -2,6 +2,8 @@ import { getProductListSearch } from "@/shared/api/product-list/getProductListSe
 import HomeView from "@/views/home";
 import ProductTabsSection from "@/views/home/ui/ProductTabsSection";
 
+export const dynamic = "force-dynamic";
+
 export default async function HomePage() {
   const initialData = await getProductListSearch(
     {
