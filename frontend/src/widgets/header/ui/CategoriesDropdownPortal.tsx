@@ -81,6 +81,7 @@ const CategoriesDropdownPortal = ({
                         href={`/category/${generateProductSlug(child.name, child.id)}`}
                         className="hover:underline"
                         onClick={onClose}
+                        prefetch={false}
                       >
                         {child.name}
                       </Link>
