@@ -3,24 +3,10 @@ import { Button } from "@/shared/ui/action";
 import Icon from "@/shared/icon";
 import { useRef, useState } from "react";
 import { cn } from "@/shared/utils/clsx";
-
-const images = [
-  "https://cdn-img.thepoizon.ru/trade/gondor/10667402/20260527-a3b572501ffa90fb-w2048h2048.png?x-oss-process=image/resize,s_720/format,webp",
-  "https://cdn-web.poizon.com/web-dewu-static/node-common/2f5a6652-9855-4d1e-decc-edf7be694821-6144-6144.jpg?x-oss-process=image/resize,s_720/format,webp",
-  "https://cdn-img.thepoizon.ru/node-common/25650c23-2b87-b1e9-481c-22fd39c26725-694-886.jpg?x-oss-process=image/resize,s_720/format,webp",
-];
+import { DetailImageListType } from "@/types/product-detail.type";
 
 interface ProductDetailsProps {
-  detailImageList: {
-    imageId: number;
-    sort: number;
-    genericType: string;
-    genericTypeSort: number;
-    imgEvenTrace: string;
-    url: string;
-    imgType: number;
-    burialImgType: number;
-  }[];
+  detailImageList: DetailImageListType[];
 }
 
 const ProductDetails = ({ detailImageList }: ProductDetailsProps) => {

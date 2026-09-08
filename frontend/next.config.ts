@@ -4,8 +4,9 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
-  allowedDevOrigins: ["cd84-92-62-71-226.ngrok-free.app"],
-
+  allowedDevOrigins: [
+    "shop-eight-amber.vercel.app",
+  ],
   output: "standalone",
   logging: {
     fetches: {

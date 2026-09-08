@@ -1,5 +1,5 @@
 import { CATEGORY_TREE } from "@/shared/api/endpoints";
-import { CategoryListResponseType } from "@/types/category-list.type";
+import type { CategoryListResponseType } from "@/types/category-list.type";
 import CategoryData from "./categoryData.json";
 export async function getCategoryList(): Promise<CategoryListResponseType> {
   // const res = await fetch(CATEGORY_TREE, {

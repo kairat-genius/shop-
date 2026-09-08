@@ -1,28 +1,23 @@
-import {
-  PoizonApiControllerGetProductInfoRequest,
-  ResponseError,
-  ProductInfoResponseDto,
-} from "@/shared/api/openapi";
-import { productApi } from "@/shared/api/poizonApi";
-
+import { PRODUCT_DETAIL } from "@/shared/api/endpoints";
 import ProductDetail from "./ProductDetail.json";
+import type { ProductDetailType } from "@/types/product-detail.type";
 
-export async function getProductDetail(
-  params: PoizonApiControllerGetProductInfoRequest,
-  isServer = false,
-): Promise<ProductInfoResponseDto> {
-  try {
-    return ProductDetail;
-    // return await productApi(isServer).poizonApiControllerGetProductInfo(params);
-  } catch (error) {
-    if (error instanceof ResponseError) {
-      console.error(
-        "Dewu API error:",
-        error.response.status,
-        await error.response.text(),
-      );
-    }
+export async function getProductDetail(spuId: number): Promise<ProductDetailType | 404> {
+  return ProductDetail
+  // const res = await fetch(PRODUCT_DETAIL(spuId), {
+  //   method: "GET",
+  //   headers: {
+  //     "Content-Type": "application/json",
+  //   },
+  // });
 
-    throw error;
-  }
+  // if (res.status === 404) {
+  //   return 404;
+  // }
+
+  // if (!res.ok) {
+  //   throw new Error(`HTTP Error: ${res.status}`);
+  // }
+
+  // return res.json();
 }

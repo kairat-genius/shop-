@@ -1,6 +1,8 @@
 import { notFound } from "next/navigation";
-import ProductView, { getProductDetail } from "@/views/product";
-import { ResponseError } from "@/shared/api/openapi/runtime";
+import ProductView, {
+  getProductDetail,
+  ProductDetailProvider,
+} from "@/views/product";
 import { extractIdFromSlug } from "@/shared/utils/extractIdFromSlug";
 
 interface ProductPageProps {
@@ -18,29 +20,14 @@ export default async function ProductPage({ params }: ProductPageProps) {
 
   const spuId = Number(productId);
 
-  let productDetail;
+  const productDetail = await getProductDetail(spuId);
 
-  try {
-    productDetail = await getProductDetail(
-      {
-        spuId: spuId,
-      },
-      true,
-    );
-  } catch (error) {
-    if (error instanceof ResponseError && error.response.status === 404) {
-      notFound();
-    }
-
-    throw error;
+  if (productDetail === 404) {
+    notFound();
   }
-
   return (
-    <>
-      <ProductView
-        productData={productDetail}
-        productId={spuId}
-      />
-    </>
+    <ProductDetailProvider productData={productDetail} productId={spuId}>
+      <ProductView />
+    </ProductDetailProvider>
   );
 }

@@ -4,25 +4,15 @@ import Icon from "@/shared/icon";
 import { Button } from "@/shared/ui/action";
 import { useState } from "react";
 import dynamic from "next/dynamic";
-import { PriceDto } from "@/shared/api/openapi";
+import type { RankingModuleType, PriceType } from "@/types/product-detail.type";
 
 const PriceInfoModal = dynamic(() => import("../modal/PriceInfoModal"), {
   ssr: false,
 });
 
 interface ProductHeaderProps {
-  price: PriceDto;
-  rankingModule?: {
-    rankingList: [
-      {
-        icon: string;
-        name: string;
-        rank: string;
-        id: number;
-        url: string;
-      },
-    ];
-  };
+  price: PriceType;
+  rankingModule?: RankingModuleType;
 }
 
 const ProductHeader = ({ price, rankingModule }: ProductHeaderProps) => {

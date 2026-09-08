@@ -11,3 +11,6 @@ export const LIST_PRODUCT_SEARCH = PUBLIC_API_BASE_URL + "/search"
 export const BRAND_LIST = PUBLIC_API_BASE_URL + "/brand-list"
 
 export const CATEGORY_TREE = PUBLIC_API_BASE_URL + "/category-tree"
+
+export const PRODUCT_DETAIL  = (spuId: number) =>
+  PUBLIC_API_BASE_URL + `/product-info/${spuId}`;

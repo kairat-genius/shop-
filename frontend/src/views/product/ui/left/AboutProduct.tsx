@@ -1,34 +1,24 @@
 "use client";
-import type {
-  BasePropertyDto,
-  BrandItemsModelDto,
-  PropertyModuleDto,
-} from "@/shared/api/openapi";
 import Icon from "@/shared/icon";
 import { Button } from "@/shared/ui/action";
 import { generateProductSlug } from "@/shared/utils/slug";
 import dynamic from "next/dynamic";
 import Link from "next/link";
 import { useState } from "react";
+import { useProductDetailData } from "../../context/useCatalogData";
 
 const AboutProductModal = dynamic(() => import("../modal/AboutProductModal"), {
   ssr: false,
 });
 
-interface AboutProductProps {
-  propertyModule?: PropertyModuleDto;
-  seriesItemsModel?: BasePropertyDto[];
-  brandItemsModel: BrandItemsModelDto;
-}
-
-const AboutProduct = ({
-  propertyModule,
-  seriesItemsModel,
-  brandItemsModel,
-}: AboutProductProps) => {
+const AboutProduct = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
- const mainBlock = propertyModule?.propertyBlocks.find(
+  const {
+    productData: { propertyModule, brandItemsModel, seriesItemsModel },
+  } = useProductDetailData();
+
+  const mainBlock = propertyModule?.propertyBlocks.find(
     (block) => block.type === "main",
   );
 
@@ -65,29 +55,31 @@ const AboutProduct = ({
         </Button>
       </div>
 
-      <Link
-        href={`/brand/${generateProductSlug(brandItemsModel.brandName, brandItemsModel.brandId)}`}
-        target="_blank"
-        style={{ backgroundColor: "hsla(0, 0%, 97%, .6)" }}
-        className="flex items-center h-14 gap-2 mt-3 p-2 rounded-sm"
-      >
-        <img
-          src={brandItemsModel.brandLogo}
-          alt="brand-logo"
-          height={40}
-          width={40}
-        />
+      {brandItemsModel && (
+        <Link
+          href={`/brand/${generateProductSlug(brandItemsModel.brandName, brandItemsModel.brandId)}`}
+          target="_blank"
+          style={{ backgroundColor: "hsla(0, 0%, 97%, .6)" }}
+          className="flex items-center h-14 gap-2 mt-3 p-2 rounded-sm"
+        >
+          <img
+            src={brandItemsModel.brandLogo}
+            alt="brand-logo"
+            height={40}
+            width={40}
+          />
 
-        <div className="flex items-center">
-          <div className="text-[16px] leading-[18.75px] font-medium truncate">
-            {brandItemsModel.brandName}
+          <div className="flex items-center">
+            <div className="text-[16px] leading-[18.75px] font-medium truncate">
+              {brandItemsModel.brandName}
+            </div>
+            <div className="bg-slate-300 w-[0.5px] h-2.5 mx-3.5" />
+            <div className="text-[14px] font-light leading-4.5">
+              {brandItemsModel.brandItems}
+            </div>
           </div>
-          <div className="bg-slate-300 w-[0.5px] h-2.5 mx-3.5" />
-          <div className="text-[14px] font-light leading-4.5">
-            {brandItemsModel.brandItems}
-          </div>
-        </div>
-      </Link>
+        </Link>
+      )}
       {seriesItemsModel?.map((item) => (
         <div
           key={item.seriesId}

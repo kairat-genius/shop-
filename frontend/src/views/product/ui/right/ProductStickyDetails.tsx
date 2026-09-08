@@ -1,18 +1,18 @@
+"use client";
 import ProductBreadcrumbs from "./ProductBreadcrumbs";
 import ModelVariants from "./ModelVariants";
 import SizeSelector from "./SizeSelector";
 import BuyActionSection from "./BuyActionSection";
 import ProductHeader from "./ProductHeader";
 import DeliveryInfo from "./DeliveryInfo";
-import type { ProductInfoResponseDto } from "@/shared/api/openapi";
+import { useProductDetailData } from "../../context/useCatalogData";
 
-interface ProductStickyDetailsProps {
-  productData: ProductInfoResponseDto;
-  productId: number; 
-  
-}
+const ProductStickyDetails = () => {
+  const {
+    productData: { seriesDialogModel, shareInfo, rankingModule, price },
+    productId,
+  } = useProductDetailData();
 
-const ProductStickyDetails = ({ productData, productId }: ProductStickyDetailsProps) => {
   return (
     <div className="relative h-full flex-1">
       <div className="pr-1 pb-3 sticky h-fit top-32.5 z-1">
@@ -25,9 +25,9 @@ const ProductStickyDetails = ({ productData, productId }: ProductStickyDetailsPr
             ]}
           />
           <h1 className="font-roboto_condensed text-[20px] font-bold mt-0.5 leading-[1.2]">
-            {productData.shareInfo.shareTitle}
+            {shareInfo.shareTitle}
           </h1>
-          <ProductHeader price={productData.price} rankingModule={productData.rankingModule} />
+          <ProductHeader price={price} rankingModule={rankingModule} />
           <div
             className="my-3 h-px w-full"
             style={{
@@ -38,8 +38,11 @@ const ProductStickyDetails = ({ productData, productId }: ProductStickyDetailsPr
             }}
           />
           <div>
-            {productData.seriesDialogModel && (
-              <ModelVariants seriesDialogModel={productData.seriesDialogModel} productId={productId} />
+            {seriesDialogModel && (
+              <ModelVariants
+                seriesDialogModel={seriesDialogModel}
+                productId={productId}
+              />
             )}
             <SizeSelector />
           </div>

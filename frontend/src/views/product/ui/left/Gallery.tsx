@@ -1,10 +1,6 @@
 "use client";
 
-import {
-  FreeMode,
-  Navigation,
-  Thumbs,
-} from "swiper/modules";
+import { FreeMode, Navigation, Thumbs } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/free-mode";
@@ -14,15 +10,13 @@ import type { Swiper as SwiperType } from "swiper";
 
 import { Button } from "@/shared/ui/action";
 import Icon from "@/shared/icon";
-import type { SaleImagesDto } from "@/shared/api/openapi";
+import { useProductDetailData } from "../../context/useCatalogData";
 
-interface GalleryProps {
-  imageModels: SaleImagesDto[];
-}
-
-const Gallery = ({ imageModels }: GalleryProps) => {
+const Gallery = () => {
   const [thumbsSwiper, setThumbsSwiper] = useState<SwiperType | null>(null);
   const mainSwiperRef = useRef<SwiperType | null>(null);
+
+  const { productData } = useProductDetailData();
 
   return (
     <div className="relative pl-[4rem]">
@@ -37,7 +31,7 @@ const Gallery = ({ imageModels }: GalleryProps) => {
           watchSlidesProgress
           modules={[Thumbs, FreeMode]}
         >
-          {imageModels.map((item, index) => (
+          {productData.imageModels.map((item, index) => (
             <SwiperSlide
               key={index}
               onMouseEnter={() => mainSwiperRef.current?.slideTo(index, 300)}
@@ -73,19 +67,19 @@ const Gallery = ({ imageModels }: GalleryProps) => {
           prevEl: ".gallery-prev",
         }}
       >
-        {imageModels.map((item, index) => (
+        {productData.imageModels.map((item, index) => (
           <SwiperSlide key={index}>
-              <img
-                src={item.url}
-                alt=""
-                height={520}
-                width={520}
-                loading={index === 0 ? "eager" : "lazy"}
-                fetchPriority={index === 0 ? "high" : "auto"}
-                decoding="async"
-                className="aspect-square w-full h-auto object-cover bg-white"
-                draggable={false}
-              />
+            <img
+              src={item.url}
+              alt=""
+              height={520}
+              width={520}
+              loading={index === 0 ? "eager" : "lazy"}
+              fetchPriority={index === 0 ? "high" : "auto"}
+              decoding="async"
+              className="aspect-square w-full h-auto object-cover bg-white"
+              draggable={false}
+            />
           </SwiperSlide>
         ))}
         <Button

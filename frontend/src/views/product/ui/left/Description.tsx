@@ -1,17 +1,10 @@
+import type { DetailTextModuleType } from "@/types/product-detail.type";
+
 interface DescriptionProps {
-  detailTextModule: {
-    detailTextList: {
-      generalType: string;
-      subTitle: string;
-      imgEvenTrace: string;
-      content: string;
-    }[];
-    title: string;
-  };
+  detailTextModule: DetailTextModuleType;
 }
 
 const Description = ({ detailTextModule }: DescriptionProps) => {
-  console.log("Description detailTextModule:", detailTextModule);
   return (
     <div className="mt-10">
       <h2 className="text-[24px] leading-[100%] font-bold font-roboto_condensed">
