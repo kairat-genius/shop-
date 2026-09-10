@@ -10,6 +10,7 @@ import { Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import RatingSummaryCard from "../left/RatingSummaryCard";
+import { useProductDetailData } from "../../context/useCatalogData";
 
 const ReviewGalleryModal = dynamic(
   () => import("../modal/ReviewGalleryModal"),
@@ -34,6 +35,10 @@ const ReviewModal = ({ onClose }: ReviewModalProps) => {
     (typeof reviewsData)[number] | null
   >(null);
   const [detailPhotoIndex, setDetailPhotoIndex] = useState(0);
+
+  const {
+    productData: { commodityReviews },
+  } = useProductDetailData();
 
   // Все отзывы, у которых есть изображения (полный список для модалки)
   const reviewsWithImages = useMemo(
@@ -99,7 +104,10 @@ const ReviewModal = ({ onClose }: ReviewModalProps) => {
       </div>
 
       <div className="overflow-y-auto h-[calc(88vh-54px)] px-6">
-        <RatingSummaryCard />
+        <RatingSummaryCard
+          spuAvgScore={commodityReviews.spuAvgScore}
+          sizeFeelingModule={commodityReviews.sizeFeelingModule}
+        />
         <div className="mt-3 flex gap-3.5 items-center w-full">
           <Button className="review-gallery1-prev disabled:cursor-not-allowed disabled:text-slate-300">
             <Icon

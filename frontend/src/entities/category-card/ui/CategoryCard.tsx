@@ -29,7 +29,7 @@ const CategoryCard = ({
         className="absolute h-full w-full object-cover bg-gray-400"
       />
       <div className="flex flex-col justify-center items-center gap-3.75 relative text-white px-1.25 md:px-2.5 mb-2.5">
-        <div className="text-lg md:text-[20px] lg:text-[24px] leading-none md:leading-5.5 lg:leading-6.5 uppercase font-bold text-center">
+        <div className="text-[18px] md:text-[20px] lg:text-[24px] leading-none md:leading-5.5 lg:leading-6.5 uppercase font-bold text-center">
           {name}
         </div>
         <LinkButton

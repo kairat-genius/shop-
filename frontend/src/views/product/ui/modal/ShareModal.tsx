@@ -8,7 +8,7 @@ interface ShareModalProps {
   onClose: () => void;
 }
 
-const ShareModal = ({ onClose }: ShareModalProps) => {
+const ShareModal = ({ onClose}: ShareModalProps) => {
   useBodyScrollLock(true);
 
   const [isCopied, setIsCopied] = useState(false);

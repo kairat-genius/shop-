@@ -3,6 +3,7 @@ import Icon from "@/shared/icon";
 import { Button } from "@/shared/ui/action";
 import dynamic from "next/dynamic";
 import { useState } from "react";
+import { useProductDetailData } from "../../context/useCatalogData";
 
 const DeliveryModal = dynamic(() => import("../modal/DeliveryModal"), {
   ssr: false,
@@ -15,6 +16,10 @@ const OrderProtectionModal = dynamic(
 const DeliveryInfo = () => {
   const [isDeliveryModalOpen, setIsDeliveryModalOpen] = useState(false);
   const [isProtectionModalOpen, setIsProtectionModalOpen] = useState(false);
+
+  const {
+    activeSku
+  } = useProductDetailData();
 
   return (
     <div className="px-4 py-3.5 mt-4">

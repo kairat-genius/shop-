@@ -70,7 +70,7 @@ const OrderProtectionModal = ({ onClose }: OrderProtectionModalProps) => {
             width={20}
             height={20}
           />
-          <span className="font-roboto_condensed font-bold text-lg">
+          <span className="font-roboto_condensed font-bold text-[18px]">
             Онлайн-чат
           </span>
         </Button>
