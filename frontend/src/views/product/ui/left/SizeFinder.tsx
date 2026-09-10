@@ -4,20 +4,20 @@ import Icon from "@/shared/icon";
 import { useState } from "react";
 import dynamic from "next/dynamic";
 import { cn } from "@/shared/utils/clsx";
-import { useProductDetailData } from "../../context/useCatalogData";
 import { useSizeTable } from "../../model/useSizeTable";
+import { SizeAssistantModuleType } from "@/types/product-detail.type";
 
 const SizeFinderModal = dynamic(() => import("../modal/SizeFinderModal"), {
   ssr: false,
 });
 
-const SizeFinder = () => {
+interface SizeFinderProps {
+  sizeAssistantModule: SizeAssistantModuleType;
+}
+
+const SizeFinder = ({ sizeAssistantModule }: SizeFinderProps) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
-
-  const {
-    productData: { sizeAssistantModule },
-  } = useProductDetailData();
 
   const { activeUnit, setActiveUnit, tableData, isManyColumns } =
     useSizeTable(sizeAssistantModule);

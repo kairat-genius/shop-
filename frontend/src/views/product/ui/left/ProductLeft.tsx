@@ -14,7 +14,9 @@ const ProductLeft = () => {
     <div>
       <Gallery />
       <Reviews />
-      <SizeFinder />
+      {productData.sizeAssistantModule && (
+        <SizeFinder sizeAssistantModule={productData.sizeAssistantModule} />
+      )}
       <AboutProduct />
       {productData.detailImageList && (
         <ProductDetails detailImageList={productData.detailImageList} />

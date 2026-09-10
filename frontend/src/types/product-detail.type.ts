@@ -396,7 +396,7 @@ export type ProductDetailType = {
   seriesDialogModel?: SeriesDialogModelType;
   rankingModule?: RankingModuleType;
   price: PriceType;
-  sizeAssistantModule: SizeAssistantModuleType;
+  sizeAssistantModule?: SizeAssistantModuleType;
   buyDialogModel: BuyDialogModelType;
 
   saleImages: [];
