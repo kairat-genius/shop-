@@ -19,84 +19,89 @@
     "pickUpAbValue": true
   },
   "shareInfo": {
-    "shareImageUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20240228/5cdfaad30b304b92b8feb9427941c5fa.jpg",
+    "shareImageUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20240726/1eed0defcabe44b989217ec6ef6a8431.jpg",
     "shareContent": "Главный маркетплейс моды в мире",
-    "shareTitle": "Джордан Шахматный узор Жаккардовый материал Монограмма Сумка Дорожная сумка Сумка-ведро Сумка на плечо Унисекс",
-    "shareUrl": "https://www.thepoizon.ru/product/-8900028471730486"
+    "shareTitle": "New Balance NB 530 Текстиль Искусственная Кожа Дышащий Низкий Верх Повседневная Городская Коммутация Беговые Кроссовки",
+    "shareUrl": "https://www.thepoizon.ru/product/new-balance-nb-530-8900001978861819"
+  },
+  "groupType": 2,
+  "commodity3dModelResponse": {
+    "model3dFileMap": {
+      "8905347141381819": {
+        "coverUrl": "https://du-img.oss-cn-shanghai-internal.aliyuncs.com/images/3d/20251231/5031b03f727db07b288ea34784937db7_cover.png",
+        "gifUrl": "https://cdn-img.thepoizon.ru/av_server/algo/3dgs/3a334221/1001819.gif",
+        "spu3dFastModelFormat": 1,
+        "objFileUrlFast": "https://cdn-img.thepoizon.ru/algo/3dmeshsampleflask/20260531bbmax_1001819_22-13-04_e129dfacfcb845b5566cfd740ce7ffe8_encrypt.zip",
+        "objFileUrl": "https://cdn-img.thepoizon.ru/algo/3dBBMAX/e129dfacfcb845b5566cfd740ce7ffe8.zip",
+        "show3dModelFast": 1,
+        "propertyValueId": 0,
+        "moreMaterialFlag": 0,
+        "spu3dModelFormat": 1,
+        "key": "0230ecd4",
+        "spu3dShowType": 1,
+        "spu3dFastModelKey": "hjdufuuB"
+      },
+      "8900035071141819": {
+        "coverUrl": "https://du-img.oss-cn-shanghai-internal.aliyuncs.com/images/3d/20251231/5031b03f727db07b288ea34784937db7_cover.png",
+        "gifUrl": "https://cdn-img.thepoizon.ru/av_server/algo/3dgs/3a334221/1001819.gif",
+        "spu3dFastModelFormat": 1,
+        "objFileUrlFast": "https://cdn-img.thepoizon.ru/algo/3dmeshsampleflask/20260531bbmax_1001819_22-13-04_e129dfacfcb845b5566cfd740ce7ffe8_encrypt.zip",
+        "objFileUrl": "https://cdn-img.thepoizon.ru/algo/3dBBMAX/e129dfacfcb845b5566cfd740ce7ffe8.zip",
+        "show3dModelFast": 1,
+        "propertyValueId": 0,
+        "moreMaterialFlag": 0,
+        "spu3dModelFormat": 1,
+        "key": "0230ecd4",
+        "spu3dShowType": 1,
+        "spu3dFastModelKey": "hjdufuuB"
+      }
+    }
   },
   "itemDetailsShowNum": 6,
   "rankingModule": {
     "rankingList": [
       {
-        "icon": "https://cdn-img.thepoizon.ru/node-common/4f6ffea0-ca8b-0e9a-05b7-47e183d61135-42-42.png",
-        "name": "В тренде: Jordan Даффлы и дорожные сумки",
-        "rank": "№9",
-        "id": 200292,
-        "url": "/ranking/hot-picks-jordan-duffles-travel-bags-200292"
+        "icon": "https://cdn-img.thepoizon.ru/node-common/03bf4860-cd8f-d56b-8ff5-cefbfe6ef458-42-42.png",
+        "name": "В тренде: NB 530",
+        "rank": "№1",
+        "id": 90,
+        "url": "/ranking/hot-picks-nb-530-90"
       }
     ]
   },
   "imageAndText": [],
   "loginFlag": false,
-  "seriesItemsModel": [],
+  "seriesItemsModel": [
+    {
+      "customSortState": false,
+      "itemType": "SERIES",
+      "name": "Series",
+      "linkUrl": "https://m.poizon.com/router/buyer/detailCollectionPage?url=%2Fcategory%2Fproduct-recommend&title=NB%20530&seriesIds=1032451&recSpuIds=8900001978861819&sourceName=1&pageType=series",
+      "defaultShow": 1,
+      "value": "NB 530",
+      "key": "Модель",
+      "seriesId": 1032451,
+      "primaryKey": "SERIES"
+    }
+  ],
   "detailImageList": [
     {
-      "width": 750,
-      "genericType": "DETAIL_all",
-      "genericTypeSort": 14,
-      "imgEvenTrace": "{\"position\":\"image_text_floor\",\"typeKey\":\"DETAIL\"}",
-      "url": "https://cdn-img.thepoizon.ru/trade/gondor/10540825/20240228-d577d332a992e685-w750h750.jpg",
-      "imgType": 10002,
-      "height": 750,
-      "burialImgType": 10002
-    },
-    {
-      "width": 750,
-      "genericType": "DETAIL_all",
-      "genericTypeSort": 14,
-      "imgEvenTrace": "{\"position\":\"image_text_floor\",\"typeKey\":\"DETAIL\"}",
-      "url": "https://cdn-img.thepoizon.ru/trade/gondor/10540825/20240228-af4083738e79f09e-w750h750.jpg",
-      "imgType": 10002,
-      "height": 750,
-      "burialImgType": 10002
-    },
-    {
-      "width": 750,
-      "genericType": "DETAIL_all",
-      "genericTypeSort": 14,
-      "imgEvenTrace": "{\"position\":\"image_text_floor\",\"typeKey\":\"DETAIL\"}",
-      "url": "https://cdn-img.thepoizon.ru/trade/gondor/10540825/20240228-c7b0fcadfc19834f-w750h750.jpg",
-      "imgType": 10002,
-      "height": 750,
-      "burialImgType": 10002
-    },
-    {
-      "width": 750,
-      "genericType": "DETAIL_all",
-      "genericTypeSort": 14,
-      "imgEvenTrace": "{\"position\":\"image_text_floor\",\"typeKey\":\"DETAIL\"}",
-      "url": "https://cdn-img.thepoizon.ru/trade/gondor/10540825/20240228-07239766b8d5e0bb-w750h750.jpg",
-      "imgType": 10002,
-      "height": 750,
-      "burialImgType": 10002
-    },
-    {
-      "width": 750,
-      "genericType": "DETAIL_all",
-      "genericTypeSort": 14,
-      "imgEvenTrace": "{\"position\":\"image_text_floor\",\"typeKey\":\"DETAIL\"}",
-      "url": "https://cdn-img.thepoizon.ru/trade/gondor/10540825/20240228-76186050c75e7867-w750h750.jpg",
-      "imgType": 10002,
-      "height": 750,
-      "burialImgType": 10002
+      "imageId": 1005107959651819,
+      "sort": 1,
+      "genericType": "INTL_SELLING_POINT_IMAGE_all",
+      "genericTypeSort": 1,
+      "imgEvenTrace": "{\"position\":\"image_text_floor\",\"typeKey\":\"INTL_SELLING_POINT_IMAGE\"}",
+      "url": "https://h5static.dewucdn.com/node-common/7cfb14be-fa8f-ffdf-f57a-7e9edb4f4681-1024-1024.png",
+      "imgType": 1064,
+      "burialImgType": 1064
     },
     {
       "width": 694,
       "genericType": "WASH_INTRO_INFO_all",
       "genericTypeSort": 17,
       "imgEvenTrace": "{\"position\":\"image_text_floor\",\"typeKey\":\"WASH_INTRO_INFO\"}",
-      "url": "https://cdn-img.thepoizon.ru/node-common/b41f6794-a2b1-4ce2-6869-9e0c242a0dba-694-1172.jpg",
-      "height": 1172
+      "url": "https://cdn-img.thepoizon.ru/node-common/25650c23-2b87-b1e9-481c-22fd39c26725-694-886.jpg",
+      "height": 886
     }
   ],
   "authenticatedGuaranteeModule": {
@@ -108,9 +113,1467 @@
   "buyDialogModel": {
     "saleImages": {},
     "buyForTitle": "Купить за",
+    "googleProductCategory": "Apparel & Accessories > Shoes",
     "skus": [
       {
-        "skuTitle": "Джордан Шахматный узор Жаккардовый материал Монограмма Сумка Дорожная сумка Сумка-ведро Сумка на плечо Унисекс Белый",
+        "skuTitle": "New Balance NB 530 Текстиль Искусственная Кожа Дышащий Низкий Верх Повседневная Городская Коммутация Беговые Кроссовки Стандартная (D) 36",
+        "skuSpeedInfo": [
+          {
+            "minDay": 3,
+            "speedInfoTip": "3-5 дней",
+            "deliveryInfoModel": {
+              "deliveryItems": [
+                {
+                  "deliveryTimeText": "15 сент. – 17 сент.",
+                  "deliveryTypeText": "Бесплатная доставка",
+                  "deliveryType": 0
+                }
+              ],
+              "deliveryText": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u></poizon>",
+              "icon": {
+                "icon": "https://cdn-img.thepoizon.ru/node-common/4bdd1249-8c93-6364-0f24-468aa275fc24-48-48.png",
+                "width": 24,
+                "height": 24
+              }
+            },
+            "labelInfo": {
+              "name": "Местная"
+            },
+            "saleInventoryNo": "BBMAX1529410302708-3",
+            "maxDay": 5,
+            "tradeLabel": "Местная",
+            "trackingMap": {},
+            "speedPrice": {
+              "symbol": "₽",
+              "localizedDisplayText": "5 650 ₽",
+              "money": {
+                "amount": "5650.00",
+                "minUnitVal": 565000,
+                "currency": "RUB"
+              },
+              "amountText": "5 650",
+              "sign": "+",
+              "absText": "5 650"
+            },
+            "tradeLabelId": 1,
+            "skuDeliveryDesc": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u>, 15 сент. – 17 сент.</poizon>"
+          }
+        ],
+        "couponInfo": {
+          "backgroundColorHex": "",
+          "content": ""
+        },
+        "minPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "5 650 ₽",
+          "money": {
+            "amount": "5650.00",
+            "minUnitVal": 565000,
+            "currency": "RUB"
+          },
+          "amountText": "5 650",
+          "sign": "+",
+          "absText": "5 650"
+        },
+        "spuId": 8900001978861819,
+        "sourceSkuId": 600012661,
+        "subscribeFlag": false,
+        "skuId": 8900020618001819,
+        "authPrice": 0,
+        "properties": [
+          {
+            "level": 1,
+            "propertyValueId": 8900035071141819
+          },
+          {
+            "level": 2,
+            "propertyValueId": 8900035071171819
+          }
+        ],
+        "status": 1
+      },
+      {
+        "skuTitle": "New Balance NB 530 Текстиль Искусственная Кожа Дышащий Низкий Верх Повседневная Городская Коммутация Беговые Кроссовки Стандартная (D) 37",
+        "skuSpeedInfo": [
+          {
+            "minDay": 3,
+            "speedInfoTip": "3-5 дней",
+            "deliveryInfoModel": {
+              "deliveryItems": [
+                {
+                  "deliveryTimeText": "15 сент. – 17 сент.",
+                  "deliveryTypeText": "Бесплатная доставка",
+                  "deliveryType": 0
+                }
+              ],
+              "deliveryText": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u></poizon>",
+              "icon": {
+                "icon": "https://cdn-img.thepoizon.ru/node-common/4bdd1249-8c93-6364-0f24-468aa275fc24-48-48.png",
+                "width": 24,
+                "height": 24
+              }
+            },
+            "labelInfo": {
+              "name": "Местная",
+              "icon": {
+                "icon": "https://cdn-img.thepoizon.ru/node-common/b41b44d7-659a-d415-98e2-3d443a8a1b55-27-27.png",
+                "width": 12,
+                "height": 12
+              }
+            },
+            "saleInventoryNo": "BBMAX1529410143167-3",
+            "maxDay": 5,
+            "tradeLabel": "Местная",
+            "trackingMap": {},
+            "speedPrice": {
+              "symbol": "₽",
+              "localizedDisplayText": "5 950 ₽",
+              "money": {
+                "amount": "5950.00",
+                "minUnitVal": 595000,
+                "currency": "RUB"
+              },
+              "amountText": "5 950",
+              "sign": "+",
+              "absText": "5 950"
+            },
+            "tradeLabelId": 1,
+            "skuDeliveryDesc": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u>, 15 сент. – 17 сент.</poizon>"
+          }
+        ],
+        "couponInfo": {
+          "backgroundColorHex": "",
+          "content": ""
+        },
+        "minPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "5 950 ₽",
+          "money": {
+            "amount": "5950.00",
+            "minUnitVal": 595000,
+            "currency": "RUB"
+          },
+          "amountText": "5 950",
+          "sign": "+",
+          "absText": "5 950"
+        },
+        "spuId": 8900001978861819,
+        "sourceSkuId": 600012663,
+        "superscriptLabel": {
+          "labelId": 500213334,
+          "labelType": "localLabel",
+          "labelStyle": "icon",
+          "labelIcon": "https://cdn-img.thepoizon.ru/node-common/1443ac9b-dc02-daca-4166-4e0bedce8c4d-30-30.png",
+          "type": 4
+        },
+        "subscribeFlag": false,
+        "skuId": 8900020618011819,
+        "authPrice": 0,
+        "properties": [
+          {
+            "level": 1,
+            "propertyValueId": 8900035071141819
+          },
+          {
+            "level": 2,
+            "propertyValueId": 8900035071181819
+          }
+        ],
+        "status": 1
+      },
+      {
+        "skuTitle": "New Balance NB 530 Текстиль Искусственная Кожа Дышащий Низкий Верх Повседневная Городская Коммутация Беговые Кроссовки Стандартная (D) 38,5",
+        "skuSpeedInfo": [
+          {
+            "minDay": 3,
+            "speedInfoTip": "3-5 дней",
+            "deliveryInfoModel": {
+              "deliveryItems": [
+                {
+                  "deliveryTimeText": "15 сент. – 17 сент.",
+                  "deliveryTypeText": "Бесплатная доставка",
+                  "deliveryType": 0
+                }
+              ],
+              "deliveryText": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u></poizon>",
+              "icon": {
+                "icon": "https://cdn-img.thepoizon.ru/node-common/4bdd1249-8c93-6364-0f24-468aa275fc24-48-48.png",
+                "width": 24,
+                "height": 24
+              }
+            },
+            "labelInfo": {
+              "name": "Местная",
+              "icon": {
+                "icon": "https://cdn-img.thepoizon.ru/node-common/b41b44d7-659a-d415-98e2-3d443a8a1b55-27-27.png",
+                "width": 12,
+                "height": 12
+              }
+            },
+            "saleInventoryNo": "BBMAX1529518806630-2",
+            "maxDay": 5,
+            "tradeLabel": "Местная",
+            "trackingMap": {},
+            "speedPrice": {
+              "symbol": "₽",
+              "localizedDisplayText": "7 300 ₽",
+              "money": {
+                "amount": "7300.00",
+                "minUnitVal": 730000,
+                "currency": "RUB"
+              },
+              "amountText": "7 300",
+              "sign": "+",
+              "absText": "7 300"
+            },
+            "tradeLabelId": 1,
+            "skuDeliveryDesc": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u>, 15 сент. – 17 сент.</poizon>"
+          }
+        ],
+        "couponInfo": {
+          "backgroundColorHex": "",
+          "content": ""
+        },
+        "minPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "7 300 ₽",
+          "money": {
+            "amount": "7300.00",
+            "minUnitVal": 730000,
+            "currency": "RUB"
+          },
+          "amountText": "7 300",
+          "sign": "+",
+          "absText": "7 300"
+        },
+        "spuId": 8900001978861819,
+        "sourceSkuId": 600012665,
+        "superscriptLabel": {
+          "labelId": 500213334,
+          "labelType": "localLabel",
+          "labelStyle": "icon",
+          "labelIcon": "https://cdn-img.thepoizon.ru/node-common/1443ac9b-dc02-daca-4166-4e0bedce8c4d-30-30.png",
+          "type": 4
+        },
+        "subscribeFlag": false,
+        "skuId": 8900020618021819,
+        "authPrice": 0,
+        "properties": [
+          {
+            "level": 1,
+            "propertyValueId": 8900035071141819
+          },
+          {
+            "level": 2,
+            "propertyValueId": 8900035549451819
+          }
+        ],
+        "status": 1
+      },
+      {
+        "skuTitle": "New Balance NB 530 Текстиль Искусственная Кожа Дышащий Низкий Верх Повседневная Городская Коммутация Беговые Кроссовки Стандартная (D) 39",
+        "skuSpeedInfo": [
+          {
+            "minDay": 5,
+            "speedInfoTip": "5-8 дней",
+            "deliveryInfoModel": {
+              "deliveryItems": [
+                {
+                  "deliveryTimeText": "17 сент. – 20 сент.",
+                  "deliveryTypeText": "Бесплатная доставка",
+                  "deliveryType": 0
+                }
+              ],
+              "deliveryText": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u></poizon>",
+              "icon": {
+                "icon": "https://cdn-img.thepoizon.ru/node-common/4bdd1249-8c93-6364-0f24-468aa275fc24-48-48.png",
+                "width": 24,
+                "height": 24
+              }
+            },
+            "labelInfo": {
+              "name": "Международная"
+            },
+            "saleInventoryNo": "BBMAX1528645815569-15",
+            "maxDay": 8,
+            "tradeLabel": "Международная",
+            "trackingMap": {},
+            "speedPrice": {
+              "symbol": "₽",
+              "localizedDisplayText": "6 950 ₽",
+              "money": {
+                "amount": "6950.00",
+                "minUnitVal": 695000,
+                "currency": "RUB"
+              },
+              "amountText": "6 950",
+              "sign": "+",
+              "absText": "6 950"
+            },
+            "tradeLabelId": 2,
+            "skuDeliveryDesc": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u>, 17 сент. – 20 сент.</poizon>"
+          },
+          {
+            "minDay": 3,
+            "speedInfoTip": "3-5 дней",
+            "deliveryInfoModel": {
+              "deliveryItems": [
+                {
+                  "deliveryTimeText": "15 сент. – 17 сент.",
+                  "deliveryTypeText": "Бесплатная доставка",
+                  "deliveryType": 0
+                }
+              ],
+              "deliveryText": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u></poizon>",
+              "icon": {
+                "icon": "https://cdn-img.thepoizon.ru/node-common/4bdd1249-8c93-6364-0f24-468aa275fc24-48-48.png",
+                "width": 24,
+                "height": 24
+              }
+            },
+            "labelInfo": {
+              "name": "Местная",
+              "icon": {
+                "icon": "https://cdn-img.thepoizon.ru/node-common/b41b44d7-659a-d415-98e2-3d443a8a1b55-27-27.png",
+                "width": 12,
+                "height": 12
+              }
+            },
+            "saleInventoryNo": "BBMAX1529493838881-2",
+            "maxDay": 5,
+            "tradeLabel": "Местная",
+            "trackingMap": {},
+            "speedPrice": {
+              "symbol": "₽",
+              "localizedDisplayText": "7 500 ₽",
+              "money": {
+                "amount": "7500.00",
+                "minUnitVal": 750000,
+                "currency": "RUB"
+              },
+              "amountText": "7 500",
+              "sign": "+",
+              "absText": "7 500"
+            },
+            "tradeLabelId": 1,
+            "skuDeliveryDesc": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u>, 15 сент. – 17 сент.</poizon>"
+          }
+        ],
+        "couponInfo": {
+          "backgroundColorHex": "",
+          "content": ""
+        },
+        "superscriptLabel": {
+          "labelId": 500213334,
+          "labelType": "localLabel",
+          "labelStyle": "icon",
+          "labelIcon": "https://cdn-img.thepoizon.ru/node-common/1443ac9b-dc02-daca-4166-4e0bedce8c4d-30-30.png",
+          "type": 4
+        },
+        "hitBizTags": [
+          {
+            "name": "Почти распродано",
+            "type": 2
+          }
+        ],
+        "minPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "6 950 ₽",
+          "money": {
+            "amount": "6950.00",
+            "minUnitVal": 695000,
+            "currency": "RUB"
+          },
+          "amountText": "6 950",
+          "sign": "+",
+          "absText": "6 950"
+        },
+        "spuId": 8900001978861819,
+        "sourceSkuId": 600012666,
+        "subscribeFlag": false,
+        "bizTag": {
+          "name": "Почти распродано",
+          "type": 2
+        },
+        "skuId": 8900020618031819,
+        "authPrice": 0,
+        "properties": [
+          {
+            "level": 1,
+            "propertyValueId": 8900035071141819
+          },
+          {
+            "level": 2,
+            "propertyValueId": 8900035071201819
+          }
+        ],
+        "status": 1
+      },
+      {
+        "skuTitle": "New Balance NB 530 Текстиль Искусственная Кожа Дышащий Низкий Верх Повседневная Городская Коммутация Беговые Кроссовки Стандартная (D) 41",
+        "skuSpeedInfo": [
+          {
+            "minDay": 3,
+            "speedInfoTip": "3-5 дней",
+            "deliveryInfoModel": {
+              "deliveryItems": [
+                {
+                  "deliveryTimeText": "15 сент. – 17 сент.",
+                  "deliveryTypeText": "Бесплатная доставка",
+                  "deliveryType": 0
+                }
+              ],
+              "deliveryText": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u></poizon>",
+              "icon": {
+                "icon": "https://cdn-img.thepoizon.ru/node-common/4bdd1249-8c93-6364-0f24-468aa275fc24-48-48.png",
+                "width": 24,
+                "height": 24
+              }
+            },
+            "labelInfo": {
+              "name": "Местная",
+              "icon": {
+                "icon": "https://cdn-img.thepoizon.ru/node-common/b41b44d7-659a-d415-98e2-3d443a8a1b55-27-27.png",
+                "width": 12,
+                "height": 12
+              }
+            },
+            "saleInventoryNo": "BBMAX1529584123557",
+            "maxDay": 5,
+            "tradeLabel": "Местная",
+            "trackingMap": {},
+            "speedPrice": {
+              "symbol": "₽",
+              "localizedDisplayText": "7 350 ₽",
+              "money": {
+                "amount": "7350.00",
+                "minUnitVal": 735000,
+                "currency": "RUB"
+              },
+              "amountText": "7 350",
+              "sign": "+",
+              "absText": "7 350"
+            },
+            "tradeLabelId": 1,
+            "skuDeliveryDesc": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u>, 15 сент. – 17 сент.</poizon>"
+          }
+        ],
+        "couponInfo": {
+          "backgroundColorHex": "",
+          "content": ""
+        },
+        "superscriptLabel": {
+          "labelId": 500213334,
+          "labelType": "localLabel",
+          "labelStyle": "icon",
+          "labelIcon": "https://cdn-img.thepoizon.ru/node-common/1443ac9b-dc02-daca-4166-4e0bedce8c4d-30-30.png",
+          "type": 4
+        },
+        "hitBizTags": [
+          {
+            "name": "Мин цена за 7 дн",
+            "type": 1
+          }
+        ],
+        "minPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "7 350 ₽",
+          "money": {
+            "amount": "7350.00",
+            "minUnitVal": 735000,
+            "currency": "RUB"
+          },
+          "amountText": "7 350",
+          "sign": "+",
+          "absText": "7 350"
+        },
+        "spuId": 8900001978861819,
+        "sourceSkuId": 600012669,
+        "subscribeFlag": false,
+        "bizTag": {
+          "name": "Мин цена за 7 дн",
+          "type": 1
+        },
+        "skuId": 8900020618041819,
+        "authPrice": 0,
+        "properties": [
+          {
+            "level": 1,
+            "propertyValueId": 8900035071141819
+          },
+          {
+            "level": 2,
+            "propertyValueId": 8900035071221819
+          }
+        ],
+        "status": 1
+      },
+      {
+        "skuTitle": "New Balance NB 530 Текстиль Искусственная Кожа Дышащий Низкий Верх Повседневная Городская Коммутация Беговые Кроссовки Стандартная (D) 43",
+        "skuSpeedInfo": [
+          {
+            "minDay": 3,
+            "speedInfoTip": "3-5 дней",
+            "deliveryInfoModel": {
+              "deliveryItems": [
+                {
+                  "deliveryTimeText": "15 сент. – 17 сент.",
+                  "deliveryTypeText": "Бесплатная доставка",
+                  "deliveryType": 0
+                }
+              ],
+              "deliveryText": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u></poizon>",
+              "icon": {
+                "icon": "https://cdn-img.thepoizon.ru/node-common/4bdd1249-8c93-6364-0f24-468aa275fc24-48-48.png",
+                "width": 24,
+                "height": 24
+              }
+            },
+            "labelInfo": {
+              "name": "Местная",
+              "icon": {
+                "icon": "https://cdn-img.thepoizon.ru/node-common/b41b44d7-659a-d415-98e2-3d443a8a1b55-27-27.png",
+                "width": 12,
+                "height": 12
+              }
+            },
+            "saleInventoryNo": "BBMAX1529400632015-3",
+            "maxDay": 5,
+            "tradeLabel": "Местная",
+            "trackingMap": {},
+            "speedPrice": {
+              "symbol": "₽",
+              "localizedDisplayText": "7 500 ₽",
+              "money": {
+                "amount": "7500.00",
+                "minUnitVal": 750000,
+                "currency": "RUB"
+              },
+              "amountText": "7 500",
+              "sign": "+",
+              "absText": "7 500"
+            },
+            "tradeLabelId": 1,
+            "skuDeliveryDesc": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u>, 15 сент. – 17 сент.</poizon>"
+          }
+        ],
+        "couponInfo": {
+          "backgroundColorHex": "",
+          "content": ""
+        },
+        "minPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "7 500 ₽",
+          "money": {
+            "amount": "7500.00",
+            "minUnitVal": 750000,
+            "currency": "RUB"
+          },
+          "amountText": "7 500",
+          "sign": "+",
+          "absText": "7 500"
+        },
+        "spuId": 8900001978861819,
+        "sourceSkuId": 600012672,
+        "superscriptLabel": {
+          "labelId": 500213334,
+          "labelType": "localLabel",
+          "labelStyle": "icon",
+          "labelIcon": "https://cdn-img.thepoizon.ru/node-common/1443ac9b-dc02-daca-4166-4e0bedce8c4d-30-30.png",
+          "type": 4
+        },
+        "subscribeFlag": false,
+        "skuId": 8900020618051819,
+        "authPrice": 0,
+        "properties": [
+          {
+            "level": 1,
+            "propertyValueId": 8900035071141819
+          },
+          {
+            "level": 2,
+            "propertyValueId": 8900035071241819
+          }
+        ],
+        "status": 1
+      },
+      {
+        "skuTitle": "New Balance NB 530 Текстиль Искусственная Кожа Дышащий Низкий Верх Повседневная Городская Коммутация Беговые Кроссовки Стандартная (D) 35",
+        "skuSpeedInfo": [
+          {
+            "minDay": 3,
+            "speedInfoTip": "3-5 дней",
+            "deliveryInfoModel": {
+              "deliveryItems": [
+                {
+                  "deliveryTimeText": "15 сент. – 17 сент.",
+                  "deliveryTypeText": "Бесплатная доставка",
+                  "deliveryType": 0
+                }
+              ],
+              "deliveryText": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u></poizon>",
+              "icon": {
+                "icon": "https://cdn-img.thepoizon.ru/node-common/4bdd1249-8c93-6364-0f24-468aa275fc24-48-48.png",
+                "width": 24,
+                "height": 24
+              }
+            },
+            "labelInfo": {
+              "name": "Местная"
+            },
+            "saleInventoryNo": "BBMAX1529410143172-3",
+            "maxDay": 5,
+            "tradeLabel": "Местная",
+            "trackingMap": {},
+            "speedPrice": {
+              "symbol": "₽",
+              "localizedDisplayText": "5 900 ₽",
+              "money": {
+                "amount": "5900.00",
+                "minUnitVal": 590000,
+                "currency": "RUB"
+              },
+              "amountText": "5 900",
+              "sign": "+",
+              "absText": "5 900"
+            },
+            "tradeLabelId": 1,
+            "skuDeliveryDesc": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u>, 15 сент. – 17 сент.</poizon>"
+          }
+        ],
+        "couponInfo": {
+          "backgroundColorHex": "",
+          "content": ""
+        },
+        "minPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "5 900 ₽",
+          "money": {
+            "amount": "5900.00",
+            "minUnitVal": 590000,
+            "currency": "RUB"
+          },
+          "amountText": "5 900",
+          "sign": "+",
+          "absText": "5 900"
+        },
+        "spuId": 8900001978861819,
+        "sourceSkuId": 600074541,
+        "subscribeFlag": false,
+        "skuId": 8900020618061819,
+        "authPrice": 0,
+        "properties": [
+          {
+            "level": 1,
+            "propertyValueId": 8900035071141819
+          },
+          {
+            "level": 2,
+            "propertyValueId": 8900035071161819
+          }
+        ],
+        "status": 1
+      },
+      {
+        "skuTitle": "New Balance NB 530 Текстиль Искусственная Кожа Дышащий Низкий Верх Повседневная Городская Коммутация Беговые Кроссовки Стандартная (D) 43,5",
+        "skuSpeedInfo": [
+          {
+            "minDay": 3,
+            "speedInfoTip": "3-5 дней",
+            "deliveryInfoModel": {
+              "deliveryItems": [
+                {
+                  "deliveryTimeText": "15 сент. – 17 сент.",
+                  "deliveryTypeText": "Бесплатная доставка",
+                  "deliveryType": 0
+                }
+              ],
+              "deliveryText": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u></poizon>",
+              "icon": {
+                "icon": "https://cdn-img.thepoizon.ru/node-common/4bdd1249-8c93-6364-0f24-468aa275fc24-48-48.png",
+                "width": 24,
+                "height": 24
+              }
+            },
+            "labelInfo": {
+              "name": "Местная",
+              "icon": {
+                "icon": "https://cdn-img.thepoizon.ru/node-common/b41b44d7-659a-d415-98e2-3d443a8a1b55-27-27.png",
+                "width": 12,
+                "height": 12
+              }
+            },
+            "saleInventoryNo": "BBMAX1529578324950",
+            "maxDay": 5,
+            "tradeLabel": "Местная",
+            "trackingMap": {},
+            "speedPrice": {
+              "symbol": "₽",
+              "localizedDisplayText": "9 700 ₽",
+              "money": {
+                "amount": "9700.00",
+                "minUnitVal": 970000,
+                "currency": "RUB"
+              },
+              "amountText": "9 700",
+              "sign": "+",
+              "absText": "9 700"
+            },
+            "tradeLabelId": 1,
+            "skuDeliveryDesc": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u>, 15 сент. – 17 сент.</poizon>"
+          }
+        ],
+        "couponInfo": {
+          "backgroundColorHex": "",
+          "content": ""
+        },
+        "superscriptLabel": {
+          "labelId": 500213334,
+          "labelType": "localLabel",
+          "labelStyle": "icon",
+          "labelIcon": "https://cdn-img.thepoizon.ru/node-common/1443ac9b-dc02-daca-4166-4e0bedce8c4d-30-30.png",
+          "type": 4
+        },
+        "hitBizTags": [
+          {
+            "name": "Мин цена за 7 дн",
+            "type": 1
+          },
+          {
+            "name": "Почти распродано",
+            "type": 2
+          }
+        ],
+        "minPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "9 700 ₽",
+          "money": {
+            "amount": "9700.00",
+            "minUnitVal": 970000,
+            "currency": "RUB"
+          },
+          "amountText": "9 700",
+          "sign": "+",
+          "absText": "9 700"
+        },
+        "spuId": 8900001978861819,
+        "sourceSkuId": 600513600,
+        "subscribeFlag": false,
+        "bizTag": {
+          "name": "Мин цена за 7 дн",
+          "type": 1
+        },
+        "skuId": 8900020618071819,
+        "authPrice": 0,
+        "properties": [
+          {
+            "level": 1,
+            "propertyValueId": 8900035071141819
+          },
+          {
+            "level": 2,
+            "propertyValueId": 8900035549481819
+          }
+        ],
+        "status": 1
+      },
+      {
+        "skuTitle": "New Balance NB 530 Текстиль Искусственная Кожа Дышащий Низкий Верх Повседневная Городская Коммутация Беговые Кроссовки Стандартная (D) 48",
+        "couponInfo": {
+          "backgroundColorHex": "",
+          "content": ""
+        },
+        "spuId": 8900001978861819,
+        "sourceSkuId": 733982128,
+        "subscribeFlag": false,
+        "skuId": 8900020618091819,
+        "authPrice": 0,
+        "properties": [
+          {
+            "level": 1,
+            "propertyValueId": 8900035071141819
+          },
+          {
+            "level": 2,
+            "propertyValueId": 8900035071281819
+          }
+        ],
+        "status": 1
+      },
+      {
+        "skuTitle": "New Balance NB 530 Текстиль Искусственная Кожа Дышащий Низкий Верх Повседневная Городская Коммутация Беговые Кроссовки Стандартная (D) 44,5",
+        "skuSpeedInfo": [
+          {
+            "easyBuyModel": {
+              "easyBuyFlag": true,
+              "easyBuyText": "Покупка с уверенностью"
+            },
+            "labelInfo": {
+              "name": "Международная"
+            },
+            "saleInventoryNo": "BBMAX1525791995933-68",
+            "tradeLabel": "Международная",
+            "skuDeliveryDesc": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u>, 30 сент. – 7 окт.</poizon>",
+            "minDay": 18,
+            "speedInfoTip": "18-25 дней",
+            "deliveryInfoModel": {
+              "deliveryItems": [
+                {
+                  "deliveryTimeText": "30 сент. – 7 окт.",
+                  "deliveryTypeText": "Бесплатная доставка",
+                  "deliveryType": 0
+                },
+                {
+                  "deliveryTimeText": "20 сент. – 27 сент.",
+                  "deliveryTypeText": "Ускоренная доставка",
+                  "deliveryType": 1
+                }
+              ],
+              "deliveryText": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u></poizon>",
+              "icon": {
+                "icon": "https://cdn-img.thepoizon.ru/node-common/4bdd1249-8c93-6364-0f24-468aa275fc24-48-48.png",
+                "width": 24,
+                "height": 24
+              }
+            },
+            "maxDay": 25,
+            "trackingMap": {},
+            "speedPrice": {
+              "symbol": "₽",
+              "localizedDisplayText": "22 327 ₽",
+              "money": {
+                "amount": "22327.00",
+                "minUnitVal": 2232700,
+                "currency": "RUB"
+              },
+              "amountText": "22 327",
+              "sign": "+",
+              "absText": "22 327"
+            },
+            "customsPrice": {
+              "symbol": "₽",
+              "localizedDisplayText": "1 158,7 ₽",
+              "money": {
+                "amount": "1158.70",
+                "minUnitVal": 115870,
+                "currency": "RUB"
+              },
+              "amountText": "1 158,7",
+              "sign": "+",
+              "absText": "1 158,7"
+            },
+            "tradeLabelId": 2
+          }
+        ],
+        "couponInfo": {
+          "backgroundColorHex": "",
+          "content": ""
+        },
+        "hitBizTags": [
+          {
+            "name": "Почти распродано",
+            "type": 2
+          }
+        ],
+        "minPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "22 327 ₽",
+          "money": {
+            "amount": "22327.00",
+            "minUnitVal": 2232700,
+            "currency": "RUB"
+          },
+          "amountText": "22 327",
+          "sign": "+",
+          "absText": "22 327"
+        },
+        "spuId": 8900001978861819,
+        "sourceSkuId": 769081552,
+        "subscribeFlag": false,
+        "customsPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "1 158,7 ₽",
+          "money": {
+            "amount": "1158.70",
+            "minUnitVal": 115870,
+            "currency": "RUB"
+          },
+          "amountText": "1 158,7",
+          "sign": "+",
+          "absText": "1 158,7"
+        },
+        "bizTag": {
+          "name": "Почти распродано",
+          "type": 2
+        },
+        "skuId": 8900020618101819,
+        "authPrice": 0,
+        "properties": [
+          {
+            "level": 1,
+            "propertyValueId": 8900035071141819
+          },
+          {
+            "level": 2,
+            "propertyValueId": 8900035071251819
+          }
+        ],
+        "status": 1
+      },
+      {
+        "skuTitle": "New Balance NB 530 Текстиль Искусственная Кожа Дышащий Низкий Верх Повседневная Городская Коммутация Беговые Кроссовки Стандартная (D) 36,5",
+        "skuSpeedInfo": [
+          {
+            "minDay": 3,
+            "speedInfoTip": "3-5 дней",
+            "deliveryInfoModel": {
+              "deliveryItems": [
+                {
+                  "deliveryTimeText": "15 сент. – 17 сент.",
+                  "deliveryTypeText": "Бесплатная доставка",
+                  "deliveryType": 0
+                }
+              ],
+              "deliveryText": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u></poizon>",
+              "icon": {
+                "icon": "https://cdn-img.thepoizon.ru/node-common/4bdd1249-8c93-6364-0f24-468aa275fc24-48-48.png",
+                "width": 24,
+                "height": 24
+              }
+            },
+            "labelInfo": {
+              "name": "Местная"
+            },
+            "saleInventoryNo": "BBMAX1529564035670",
+            "maxDay": 5,
+            "tradeLabel": "Местная",
+            "trackingMap": {},
+            "speedPrice": {
+              "symbol": "₽",
+              "localizedDisplayText": "6 250 ₽",
+              "money": {
+                "amount": "6250.00",
+                "minUnitVal": 625000,
+                "currency": "RUB"
+              },
+              "amountText": "6 250",
+              "sign": "+",
+              "absText": "6 250"
+            },
+            "tradeLabelId": 1,
+            "skuDeliveryDesc": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u>, 15 сент. – 17 сент.</poizon>"
+          }
+        ],
+        "couponInfo": {
+          "backgroundColorHex": "",
+          "content": ""
+        },
+        "minPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "6 250 ₽",
+          "money": {
+            "amount": "6250.00",
+            "minUnitVal": 625000,
+            "currency": "RUB"
+          },
+          "amountText": "6 250",
+          "sign": "+",
+          "absText": "6 250"
+        },
+        "spuId": 8900001978861819,
+        "sourceSkuId": 600012662,
+        "subscribeFlag": false,
+        "skuId": 8900020754091819,
+        "authPrice": 0,
+        "properties": [
+          {
+            "level": 1,
+            "propertyValueId": 8900035071141819
+          },
+          {
+            "level": 2,
+            "propertyValueId": 8900035549441819
+          }
+        ],
+        "status": 1
+      },
+      {
+        "skuTitle": "New Balance NB 530 Текстиль Искусственная Кожа Дышащий Низкий Верх Повседневная Городская Коммутация Беговые Кроссовки Стандартная (D) 37,5",
+        "skuSpeedInfo": [
+          {
+            "minDay": 3,
+            "speedInfoTip": "3-5 дней",
+            "deliveryInfoModel": {
+              "deliveryItems": [
+                {
+                  "deliveryTimeText": "15 сент. – 17 сент.",
+                  "deliveryTypeText": "Бесплатная доставка",
+                  "deliveryType": 0
+                }
+              ],
+              "deliveryText": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u></poizon>",
+              "icon": {
+                "icon": "https://cdn-img.thepoizon.ru/node-common/4bdd1249-8c93-6364-0f24-468aa275fc24-48-48.png",
+                "width": 24,
+                "height": 24
+              }
+            },
+            "labelInfo": {
+              "name": "Местная",
+              "icon": {
+                "icon": "https://cdn-img.thepoizon.ru/node-common/b41b44d7-659a-d415-98e2-3d443a8a1b55-27-27.png",
+                "width": 12,
+                "height": 12
+              }
+            },
+            "saleInventoryNo": "BBMAX1529518963174-2",
+            "maxDay": 5,
+            "tradeLabel": "Местная",
+            "trackingMap": {},
+            "speedPrice": {
+              "symbol": "₽",
+              "localizedDisplayText": "7 350 ₽",
+              "money": {
+                "amount": "7350.00",
+                "minUnitVal": 735000,
+                "currency": "RUB"
+              },
+              "amountText": "7 350",
+              "sign": "+",
+              "absText": "7 350"
+            },
+            "tradeLabelId": 1,
+            "skuDeliveryDesc": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u>, 15 сент. – 17 сент.</poizon>"
+          }
+        ],
+        "couponInfo": {
+          "backgroundColorHex": "",
+          "content": ""
+        },
+        "superscriptLabel": {
+          "labelId": 500213334,
+          "labelType": "localLabel",
+          "labelStyle": "icon",
+          "labelIcon": "https://cdn-img.thepoizon.ru/node-common/1443ac9b-dc02-daca-4166-4e0bedce8c4d-30-30.png",
+          "type": 4
+        },
+        "hitBizTags": [
+          {
+            "name": "Мин цена за 7 дн",
+            "type": 1
+          }
+        ],
+        "minPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "7 350 ₽",
+          "money": {
+            "amount": "7350.00",
+            "minUnitVal": 735000,
+            "currency": "RUB"
+          },
+          "amountText": "7 350",
+          "sign": "+",
+          "absText": "7 350"
+        },
+        "spuId": 8900001978861819,
+        "sourceSkuId": 600012664,
+        "subscribeFlag": false,
+        "bizTag": {
+          "name": "Мин цена за 7 дн",
+          "type": 1
+        },
+        "skuId": 8900020754101819,
+        "authPrice": 0,
+        "properties": [
+          {
+            "level": 1,
+            "propertyValueId": 8900035071141819
+          },
+          {
+            "level": 2,
+            "propertyValueId": 8900035071191819
+          }
+        ],
+        "status": 1
+      },
+      {
+        "skuTitle": "New Balance NB 530 Текстиль Искусственная Кожа Дышащий Низкий Верх Повседневная Городская Коммутация Беговые Кроссовки Стандартная (D) 39,5",
+        "skuSpeedInfo": [
+          {
+            "minDay": 3,
+            "speedInfoTip": "3-5 дней",
+            "deliveryInfoModel": {
+              "deliveryItems": [
+                {
+                  "deliveryTimeText": "15 сент. – 17 сент.",
+                  "deliveryTypeText": "Бесплатная доставка",
+                  "deliveryType": 0
+                }
+              ],
+              "deliveryText": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u></poizon>",
+              "icon": {
+                "icon": "https://cdn-img.thepoizon.ru/node-common/4bdd1249-8c93-6364-0f24-468aa275fc24-48-48.png",
+                "width": 24,
+                "height": 24
+              }
+            },
+            "labelInfo": {
+              "name": "Местная",
+              "icon": {
+                "icon": "https://cdn-img.thepoizon.ru/node-common/b41b44d7-659a-d415-98e2-3d443a8a1b55-27-27.png",
+                "width": 12,
+                "height": 12
+              }
+            },
+            "saleInventoryNo": "BBMAX1529427651864-3",
+            "maxDay": 5,
+            "tradeLabel": "Местная",
+            "trackingMap": {},
+            "speedPrice": {
+              "symbol": "₽",
+              "localizedDisplayText": "7 600 ₽",
+              "money": {
+                "amount": "7600.00",
+                "minUnitVal": 760000,
+                "currency": "RUB"
+              },
+              "amountText": "7 600",
+              "sign": "+",
+              "absText": "7 600"
+            },
+            "tradeLabelId": 1,
+            "skuDeliveryDesc": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u>, 15 сент. – 17 сент.</poizon>"
+          }
+        ],
+        "couponInfo": {
+          "backgroundColorHex": "",
+          "content": ""
+        },
+        "minPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "7 600 ₽",
+          "money": {
+            "amount": "7600.00",
+            "minUnitVal": 760000,
+            "currency": "RUB"
+          },
+          "amountText": "7 600",
+          "sign": "+",
+          "absText": "7 600"
+        },
+        "spuId": 8900001978861819,
+        "sourceSkuId": 600012667,
+        "superscriptLabel": {
+          "labelId": 500213334,
+          "labelType": "localLabel",
+          "labelStyle": "icon",
+          "labelIcon": "https://cdn-img.thepoizon.ru/node-common/1443ac9b-dc02-daca-4166-4e0bedce8c4d-30-30.png",
+          "type": 4
+        },
+        "subscribeFlag": false,
+        "skuId": 8900020754111819,
+        "authPrice": 0,
+        "properties": [
+          {
+            "level": 1,
+            "propertyValueId": 8900035071141819
+          },
+          {
+            "level": 2,
+            "propertyValueId": 8900035071211819
+          }
+        ],
+        "status": 1
+      },
+      {
+        "skuTitle": "New Balance NB 530 Текстиль Искусственная Кожа Дышащий Низкий Верх Повседневная Городская Коммутация Беговые Кроссовки Стандартная (D) 40,5",
+        "skuSpeedInfo": [
+          {
+            "minDay": 3,
+            "speedInfoTip": "3-5 дней",
+            "deliveryInfoModel": {
+              "deliveryItems": [
+                {
+                  "deliveryTimeText": "15 сент. – 17 сент.",
+                  "deliveryTypeText": "Бесплатная доставка",
+                  "deliveryType": 0
+                }
+              ],
+              "deliveryText": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u></poizon>",
+              "icon": {
+                "icon": "https://cdn-img.thepoizon.ru/node-common/4bdd1249-8c93-6364-0f24-468aa275fc24-48-48.png",
+                "width": 24,
+                "height": 24
+              }
+            },
+            "labelInfo": {
+              "name": "Местная",
+              "icon": {
+                "icon": "https://cdn-img.thepoizon.ru/node-common/b41b44d7-659a-d415-98e2-3d443a8a1b55-27-27.png",
+                "width": 12,
+                "height": 12
+              }
+            },
+            "saleInventoryNo": "BBMAX1529583496638",
+            "maxDay": 5,
+            "tradeLabel": "Местная",
+            "trackingMap": {},
+            "speedPrice": {
+              "symbol": "₽",
+              "localizedDisplayText": "7 250 ₽",
+              "money": {
+                "amount": "7250.00",
+                "minUnitVal": 725000,
+                "currency": "RUB"
+              },
+              "amountText": "7 250",
+              "sign": "+",
+              "absText": "7 250"
+            },
+            "tradeLabelId": 1,
+            "skuDeliveryDesc": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u>, 15 сент. – 17 сент.</poizon>"
+          }
+        ],
+        "couponInfo": {
+          "backgroundColorHex": "",
+          "content": ""
+        },
+        "superscriptLabel": {
+          "labelId": 500213334,
+          "labelType": "localLabel",
+          "labelStyle": "icon",
+          "labelIcon": "https://cdn-img.thepoizon.ru/node-common/1443ac9b-dc02-daca-4166-4e0bedce8c4d-30-30.png",
+          "type": 4
+        },
+        "hitBizTags": [
+          {
+            "name": "Мин цена за 7 дн",
+            "type": 1
+          }
+        ],
+        "minPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "7 250 ₽",
+          "money": {
+            "amount": "7250.00",
+            "minUnitVal": 725000,
+            "currency": "RUB"
+          },
+          "amountText": "7 250",
+          "sign": "+",
+          "absText": "7 250"
+        },
+        "spuId": 8900001978861819,
+        "sourceSkuId": 600012668,
+        "subscribeFlag": false,
+        "bizTag": {
+          "name": "Мин цена за 7 дн",
+          "type": 1
+        },
+        "skuId": 8900020754121819,
+        "authPrice": 0,
+        "properties": [
+          {
+            "level": 1,
+            "propertyValueId": 8900035071141819
+          },
+          {
+            "level": 2,
+            "propertyValueId": 8900035549461819
+          }
+        ],
+        "status": 1
+      },
+      {
+        "skuTitle": "New Balance NB 530 Текстиль Искусственная Кожа Дышащий Низкий Верх Повседневная Городская Коммутация Беговые Кроссовки Стандартная (D) 41,5",
+        "skuSpeedInfo": [
+          {
+            "minDay": 3,
+            "speedInfoTip": "3-5 дней",
+            "deliveryInfoModel": {
+              "deliveryItems": [
+                {
+                  "deliveryTimeText": "15 сент. – 17 сент.",
+                  "deliveryTypeText": "Бесплатная доставка",
+                  "deliveryType": 0
+                }
+              ],
+              "deliveryText": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u></poizon>",
+              "icon": {
+                "icon": "https://cdn-img.thepoizon.ru/node-common/4bdd1249-8c93-6364-0f24-468aa275fc24-48-48.png",
+                "width": 24,
+                "height": 24
+              }
+            },
+            "labelInfo": {
+              "name": "Местная",
+              "icon": {
+                "icon": "https://cdn-img.thepoizon.ru/node-common/b41b44d7-659a-d415-98e2-3d443a8a1b55-27-27.png",
+                "width": 12,
+                "height": 12
+              }
+            },
+            "saleInventoryNo": "BBMAX1529410366508-3",
+            "maxDay": 5,
+            "tradeLabel": "Местная",
+            "trackingMap": {},
+            "speedPrice": {
+              "symbol": "₽",
+              "localizedDisplayText": "6 700 ₽",
+              "money": {
+                "amount": "6700.00",
+                "minUnitVal": 670000,
+                "currency": "RUB"
+              },
+              "amountText": "6 700",
+              "sign": "+",
+              "absText": "6 700"
+            },
+            "tradeLabelId": 1,
+            "skuDeliveryDesc": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u>, 15 сент. – 17 сент.</poizon>"
+          }
+        ],
+        "couponInfo": {
+          "backgroundColorHex": "",
+          "content": ""
+        },
+        "minPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "6 700 ₽",
+          "money": {
+            "amount": "6700.00",
+            "minUnitVal": 670000,
+            "currency": "RUB"
+          },
+          "amountText": "6 700",
+          "sign": "+",
+          "absText": "6 700"
+        },
+        "spuId": 8900001978861819,
+        "sourceSkuId": 600012670,
+        "superscriptLabel": {
+          "labelId": 500213334,
+          "labelType": "localLabel",
+          "labelStyle": "icon",
+          "labelIcon": "https://cdn-img.thepoizon.ru/node-common/1443ac9b-dc02-daca-4166-4e0bedce8c4d-30-30.png",
+          "type": 4
+        },
+        "subscribeFlag": false,
+        "skuId": 8900020754131819,
+        "authPrice": 0,
+        "properties": [
+          {
+            "level": 1,
+            "propertyValueId": 8900035071141819
+          },
+          {
+            "level": 2,
+            "propertyValueId": 8900035071231819
+          }
+        ],
+        "status": 1
+      },
+      {
+        "skuTitle": "New Balance NB 530 Текстиль Искусственная Кожа Дышащий Низкий Верх Повседневная Городская Коммутация Беговые Кроссовки Стандартная (D) 42",
+        "skuSpeedInfo": [
+          {
+            "minDay": 3,
+            "speedInfoTip": "3-5 дней",
+            "deliveryInfoModel": {
+              "deliveryItems": [
+                {
+                  "deliveryTimeText": "15 сент. – 17 сент.",
+                  "deliveryTypeText": "Бесплатная доставка",
+                  "deliveryType": 0
+                }
+              ],
+              "deliveryText": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u></poizon>",
+              "icon": {
+                "icon": "https://cdn-img.thepoizon.ru/node-common/4bdd1249-8c93-6364-0f24-468aa275fc24-48-48.png",
+                "width": 24,
+                "height": 24
+              }
+            },
+            "labelInfo": {
+              "name": "Местная",
+              "icon": {
+                "icon": "https://cdn-img.thepoizon.ru/node-common/b41b44d7-659a-d415-98e2-3d443a8a1b55-27-27.png",
+                "width": 12,
+                "height": 12
+              }
+            },
+            "saleInventoryNo": "BBMAX1529584129811",
+            "maxDay": 5,
+            "tradeLabel": "Местная",
+            "trackingMap": {},
+            "speedPrice": {
+              "symbol": "₽",
+              "localizedDisplayText": "7 550 ₽",
+              "money": {
+                "amount": "7550.00",
+                "minUnitVal": 755000,
+                "currency": "RUB"
+              },
+              "amountText": "7 550",
+              "sign": "+",
+              "absText": "7 550"
+            },
+            "tradeLabelId": 1,
+            "skuDeliveryDesc": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u>, 15 сент. – 17 сент.</poizon>"
+          }
+        ],
+        "couponInfo": {
+          "backgroundColorHex": "",
+          "content": ""
+        },
+        "superscriptLabel": {
+          "labelId": 500213334,
+          "labelType": "localLabel",
+          "labelStyle": "icon",
+          "labelIcon": "https://cdn-img.thepoizon.ru/node-common/1443ac9b-dc02-daca-4166-4e0bedce8c4d-30-30.png",
+          "type": 4
+        },
+        "hitBizTags": [
+          {
+            "name": "Мин цена за 15 дн",
+            "type": 1
+          }
+        ],
+        "minPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "7 550 ₽",
+          "money": {
+            "amount": "7550.00",
+            "minUnitVal": 755000,
+            "currency": "RUB"
+          },
+          "amountText": "7 550",
+          "sign": "+",
+          "absText": "7 550"
+        },
+        "spuId": 8900001978861819,
+        "sourceSkuId": 600012671,
+        "subscribeFlag": false,
+        "bizTag": {
+          "name": "Мин цена за 15 дн",
+          "type": 1
+        },
+        "skuId": 8900020754141819,
+        "authPrice": 0,
+        "properties": [
+          {
+            "level": 1,
+            "propertyValueId": 8900035071141819
+          },
+          {
+            "level": 2,
+            "propertyValueId": 8900035549471819
+          }
+        ],
+        "status": 1
+      },
+      {
+        "skuTitle": "New Balance NB 530 Текстиль Искусственная Кожа Дышащий Низкий Верх Повседневная Городская Коммутация Беговые Кроссовки Стандартная (D) 45,5",
         "skuSpeedInfo": [
           {
             "minDay": 17,
@@ -118,12 +1581,12 @@
             "deliveryInfoModel": {
               "deliveryItems": [
                 {
-                  "deliveryTimeText": "27 сент. – 4 окт.",
+                  "deliveryTimeText": "29 сент. – 6 окт.",
                   "deliveryTypeText": "Бесплатная доставка",
                   "deliveryType": 0
                 },
                 {
-                  "deliveryTimeText": "17 сент. – 24 сент.",
+                  "deliveryTimeText": "19 сент. – 26 сент.",
                   "deliveryTypeText": "Ускоренная доставка",
                   "deliveryType": 1
                 }
@@ -142,33 +1605,85 @@
             "labelInfo": {
               "name": "Международная"
             },
-            "saleInventoryNo": "BBMAX1518441081951-1530",
+            "saleInventoryNo": "BBMAX137709192850-1520",
             "maxDay": 24,
             "tradeLabel": "Международная",
             "trackingMap": {},
             "speedPrice": {
               "symbol": "₽",
-              "localizedDisplayText": "10 826 ₽",
+              "localizedDisplayText": "13 062 ₽",
               "money": {
-                "amount": "10826.00",
-                "minUnitVal": 1082600,
+                "amount": "13062.00",
+                "minUnitVal": 1306200,
                 "currency": "RUB"
               },
-              "amountText": "10 826",
+              "amountText": "13 062",
               "sign": "+",
-              "absText": "10 826"
+              "absText": "13 062"
             },
             "tradeLabelId": 2,
-            "skuDeliveryDesc": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u>, 27 сент. – 4 окт.</poizon>"
+            "skuDeliveryDesc": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u>, 29 сент. – 6 окт.</poizon>"
+          },
+          {
+            "minDay": 3,
+            "speedInfoTip": "3-5 дней",
+            "deliveryInfoModel": {
+              "deliveryItems": [
+                {
+                  "deliveryTimeText": "15 сент. – 17 сент.",
+                  "deliveryTypeText": "Бесплатная доставка",
+                  "deliveryType": 0
+                }
+              ],
+              "deliveryText": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u></poizon>",
+              "icon": {
+                "icon": "https://cdn-img.thepoizon.ru/node-common/4bdd1249-8c93-6364-0f24-468aa275fc24-48-48.png",
+                "width": 24,
+                "height": 24
+              }
+            },
+            "labelInfo": {
+              "name": "Местная",
+              "icon": {
+                "icon": "https://cdn-img.thepoizon.ru/node-common/b41b44d7-659a-d415-98e2-3d443a8a1b55-27-27.png",
+                "width": 12,
+                "height": 12
+              }
+            },
+            "saleInventoryNo": "BBMAX1529068720564-8",
+            "maxDay": 5,
+            "tradeLabel": "Местная",
+            "trackingMap": {},
+            "speedPrice": {
+              "symbol": "₽",
+              "localizedDisplayText": "13 450 ₽",
+              "money": {
+                "amount": "13450.00",
+                "minUnitVal": 1345000,
+                "currency": "RUB"
+              },
+              "amountText": "13 450",
+              "sign": "+",
+              "absText": "13 450"
+            },
+            "tradeLabelId": 1,
+            "skuDeliveryDesc": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u>, 15 сент. – 17 сент.</poizon>"
           }
         ],
         "couponInfo": {
           "backgroundColorHex": "",
           "content": ""
         },
+        "superscriptLabel": {
+          "labelId": 500213334,
+          "labelType": "localLabel",
+          "labelStyle": "icon",
+          "labelIcon": "https://cdn-img.thepoizon.ru/node-common/1443ac9b-dc02-daca-4166-4e0bedce8c4d-30-30.png",
+          "type": 4
+        },
         "hitBizTags": [
           {
-            "name": "Мин цена за 30 дн",
+            "name": "Мин цена за 15 дн",
             "type": 1
           },
           {
@@ -178,29 +1693,748 @@
         ],
         "minPrice": {
           "symbol": "₽",
-          "localizedDisplayText": "10 826 ₽",
+          "localizedDisplayText": "13 062 ₽",
           "money": {
-            "amount": "10826.00",
-            "minUnitVal": 1082600,
+            "amount": "13062.00",
+            "minUnitVal": 1306200,
             "currency": "RUB"
           },
-          "amountText": "10 826",
+          "amountText": "13 062",
           "sign": "+",
-          "absText": "10 826"
+          "absText": "13 062"
         },
-        "spuId": 8900028471730486,
-        "sourceSkuId": 619748854,
+        "spuId": 8900001978861819,
+        "sourceSkuId": 600012673,
         "subscribeFlag": false,
         "bizTag": {
-          "name": "Мин цена за 30 дн",
+          "name": "Мин цена за 15 дн",
           "type": 1
         },
-        "skuId": 8900263017510486,
+        "skuId": 8900020754151819,
         "authPrice": 0,
         "properties": [
           {
             "level": 1,
-            "propertyValueId": 8900564473580486
+            "propertyValueId": 8900035071141819
+          },
+          {
+            "level": 2,
+            "propertyValueId": 8900035549501819
+          }
+        ],
+        "status": 1
+      },
+      {
+        "skuTitle": "New Balance NB 530 Текстиль Искусственная Кожа Дышащий Низкий Верх Повседневная Городская Коммутация Беговые Кроссовки Стандартная (D) 44",
+        "skuSpeedInfo": [
+          {
+            "minDay": 3,
+            "speedInfoTip": "3-5 дней",
+            "deliveryInfoModel": {
+              "deliveryItems": [
+                {
+                  "deliveryTimeText": "15 сент. – 17 сент.",
+                  "deliveryTypeText": "Бесплатная доставка",
+                  "deliveryType": 0
+                }
+              ],
+              "deliveryText": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u></poizon>",
+              "icon": {
+                "icon": "https://cdn-img.thepoizon.ru/node-common/4bdd1249-8c93-6364-0f24-468aa275fc24-48-48.png",
+                "width": 24,
+                "height": 24
+              }
+            },
+            "labelInfo": {
+              "name": "Местная",
+              "icon": {
+                "icon": "https://cdn-img.thepoizon.ru/node-common/b41b44d7-659a-d415-98e2-3d443a8a1b55-27-27.png",
+                "width": 12,
+                "height": 12
+              }
+            },
+            "saleInventoryNo": "BBMAX1529564036617",
+            "maxDay": 5,
+            "tradeLabel": "Местная",
+            "trackingMap": {},
+            "speedPrice": {
+              "symbol": "₽",
+              "localizedDisplayText": "9 500 ₽",
+              "money": {
+                "amount": "9500.00",
+                "minUnitVal": 950000,
+                "currency": "RUB"
+              },
+              "amountText": "9 500",
+              "sign": "+",
+              "absText": "9 500"
+            },
+            "tradeLabelId": 1,
+            "skuDeliveryDesc": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u>, 15 сент. – 17 сент.</poizon>"
+          }
+        ],
+        "couponInfo": {
+          "backgroundColorHex": "",
+          "content": ""
+        },
+        "superscriptLabel": {
+          "labelId": 500213334,
+          "labelType": "localLabel",
+          "labelStyle": "icon",
+          "labelIcon": "https://cdn-img.thepoizon.ru/node-common/1443ac9b-dc02-daca-4166-4e0bedce8c4d-30-30.png",
+          "type": 4
+        },
+        "hitBizTags": [
+          {
+            "name": "Мин цена за 15 дн",
+            "type": 1
+          }
+        ],
+        "minPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "9 500 ₽",
+          "money": {
+            "amount": "9500.00",
+            "minUnitVal": 950000,
+            "currency": "RUB"
+          },
+          "amountText": "9 500",
+          "sign": "+",
+          "absText": "9 500"
+        },
+        "spuId": 8900001978861819,
+        "sourceSkuId": 600012674,
+        "subscribeFlag": false,
+        "bizTag": {
+          "name": "Мин цена за 15 дн",
+          "type": 1
+        },
+        "skuId": 8900020754161819,
+        "authPrice": 0,
+        "properties": [
+          {
+            "level": 1,
+            "propertyValueId": 8900035071141819
+          },
+          {
+            "level": 2,
+            "propertyValueId": 8900035549491819
+          }
+        ],
+        "status": 1
+      },
+      {
+        "skuTitle": "New Balance NB 530 Текстиль Искусственная Кожа Дышащий Низкий Верх Повседневная Городская Коммутация Беговые Кроссовки Стандартная (D) 46,5",
+        "skuSpeedInfo": [
+          {
+            "minDay": 3,
+            "speedInfoTip": "3-5 дней",
+            "deliveryInfoModel": {
+              "deliveryItems": [
+                {
+                  "deliveryTimeText": "15 сент. – 17 сент.",
+                  "deliveryTypeText": "Бесплатная доставка",
+                  "deliveryType": 0
+                }
+              ],
+              "deliveryText": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u></poizon>",
+              "icon": {
+                "icon": "https://cdn-img.thepoizon.ru/node-common/4bdd1249-8c93-6364-0f24-468aa275fc24-48-48.png",
+                "width": 24,
+                "height": 24
+              }
+            },
+            "labelInfo": {
+              "name": "Местная"
+            },
+            "saleInventoryNo": "BBMAX1529068182742-8",
+            "maxDay": 5,
+            "tradeLabel": "Местная",
+            "trackingMap": {},
+            "speedPrice": {
+              "symbol": "₽",
+              "localizedDisplayText": "13 450 ₽",
+              "money": {
+                "amount": "13450.00",
+                "minUnitVal": 1345000,
+                "currency": "RUB"
+              },
+              "amountText": "13 450",
+              "sign": "+",
+              "absText": "13 450"
+            },
+            "tradeLabelId": 1,
+            "skuDeliveryDesc": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u>, 15 сент. – 17 сент.</poizon>"
+          }
+        ],
+        "couponInfo": {
+          "backgroundColorHex": "",
+          "content": ""
+        },
+        "hitBizTags": [
+          {
+            "name": "Почти распродано",
+            "type": 2
+          }
+        ],
+        "minPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "13 450 ₽",
+          "money": {
+            "amount": "13450.00",
+            "minUnitVal": 1345000,
+            "currency": "RUB"
+          },
+          "amountText": "13 450",
+          "sign": "+",
+          "absText": "13 450"
+        },
+        "spuId": 8900001978861819,
+        "sourceSkuId": 604896723,
+        "subscribeFlag": false,
+        "bizTag": {
+          "name": "Почти распродано",
+          "type": 2
+        },
+        "skuId": 8900020754171819,
+        "authPrice": 0,
+        "properties": [
+          {
+            "level": 1,
+            "propertyValueId": 8900035071141819
+          },
+          {
+            "level": 2,
+            "propertyValueId": 8900035071271819
+          }
+        ],
+        "status": 1
+      },
+      {
+        "skuTitle": "New Balance NB 530 Текстиль Искусственная Кожа Дышащий Низкий Верх Повседневная Городская Коммутация Беговые Кроссовки Стандартная (D) 50",
+        "couponInfo": {
+          "backgroundColorHex": "",
+          "content": ""
+        },
+        "spuId": 8900001978861819,
+        "sourceSkuId": 915661932,
+        "subscribeFlag": false,
+        "skuId": 8901808275751819,
+        "authPrice": 0,
+        "properties": [
+          {
+            "level": 1,
+            "propertyValueId": 8900035071141819
+          },
+          {
+            "level": 2,
+            "propertyValueId": 8902977745611819
+          }
+        ],
+        "status": 1
+      },
+      {
+        "skuTitle": "New Balance NB 530 Текстиль Искусственная Кожа Дышащий Низкий Верх Повседневная Городская Коммутация Беговые Кроссовки Узкая (B) 36",
+        "couponInfo": {
+          "backgroundColorHex": "",
+          "content": ""
+        },
+        "spuId": 8900001978861819,
+        "sourceSkuId": 1080004811,
+        "subscribeFlag": false,
+        "skuId": 8903608287281819,
+        "authPrice": 0,
+        "properties": [
+          {
+            "level": 1,
+            "propertyValueId": 8905347141381819
+          },
+          {
+            "level": 2,
+            "propertyValueId": 8900035071171819
+          }
+        ],
+        "status": 1
+      },
+      {
+        "skuTitle": "New Balance NB 530 Текстиль Искусственная Кожа Дышащий Низкий Верх Повседневная Городская Коммутация Беговые Кроссовки Узкая (B) 38,5",
+        "couponInfo": {
+          "backgroundColorHex": "",
+          "content": ""
+        },
+        "spuId": 8900001978861819,
+        "sourceSkuId": 1080004815,
+        "subscribeFlag": false,
+        "skuId": 8903608287331819,
+        "authPrice": 0,
+        "properties": [
+          {
+            "level": 1,
+            "propertyValueId": 8905347141381819
+          },
+          {
+            "level": 2,
+            "propertyValueId": 8900035549451819
+          }
+        ],
+        "status": 1
+      },
+      {
+        "skuTitle": "New Balance NB 530 Текстиль Искусственная Кожа Дышащий Низкий Верх Повседневная Городская Коммутация Беговые Кроссовки Узкая (B) 43",
+        "couponInfo": {
+          "backgroundColorHex": "",
+          "content": ""
+        },
+        "spuId": 8900001978861819,
+        "sourceSkuId": 1080004822,
+        "subscribeFlag": false,
+        "skuId": 8903608287411819,
+        "authPrice": 0,
+        "properties": [
+          {
+            "level": 1,
+            "propertyValueId": 8905347141381819
+          },
+          {
+            "level": 2,
+            "propertyValueId": 8900035071241819
+          }
+        ],
+        "status": 1
+      },
+      {
+        "skuTitle": "New Balance NB 530 Текстиль Искусственная Кожа Дышащий Низкий Верх Повседневная Городская Коммутация Беговые Кроссовки Узкая (B) 45,5",
+        "couponInfo": {
+          "backgroundColorHex": "",
+          "content": ""
+        },
+        "spuId": 8900001978861819,
+        "sourceSkuId": 1080004826,
+        "subscribeFlag": false,
+        "skuId": 8903608287441819,
+        "authPrice": 0,
+        "properties": [
+          {
+            "level": 1,
+            "propertyValueId": 8905347141381819
+          },
+          {
+            "level": 2,
+            "propertyValueId": 8900035549501819
+          }
+        ],
+        "status": 1
+      },
+      {
+        "skuTitle": "New Balance NB 530 Текстиль Искусственная Кожа Дышащий Низкий Верх Повседневная Городская Коммутация Беговые Кроссовки Узкая (B) 42",
+        "couponInfo": {
+          "backgroundColorHex": "",
+          "content": ""
+        },
+        "spuId": 8900001978861819,
+        "sourceSkuId": 1080004821,
+        "subscribeFlag": false,
+        "skuId": 8903608287451819,
+        "authPrice": 0,
+        "properties": [
+          {
+            "level": 1,
+            "propertyValueId": 8905347141381819
+          },
+          {
+            "level": 2,
+            "propertyValueId": 8900035549471819
+          }
+        ],
+        "status": 1
+      },
+      {
+        "skuTitle": "New Balance NB 530 Текстиль Искусственная Кожа Дышащий Низкий Верх Повседневная Городская Коммутация Беговые Кроссовки Узкая (B) 36,5",
+        "couponInfo": {
+          "backgroundColorHex": "",
+          "content": ""
+        },
+        "spuId": 8900001978861819,
+        "sourceSkuId": 1080004812,
+        "subscribeFlag": false,
+        "skuId": 8903608287461819,
+        "authPrice": 0,
+        "properties": [
+          {
+            "level": 1,
+            "propertyValueId": 8905347141381819
+          },
+          {
+            "level": 2,
+            "propertyValueId": 8900035549441819
+          }
+        ],
+        "status": 1
+      },
+      {
+        "skuTitle": "New Balance NB 530 Текстиль Искусственная Кожа Дышащий Низкий Верх Повседневная Городская Коммутация Беговые Кроссовки Узкая (B) 44,5",
+        "couponInfo": {
+          "backgroundColorHex": "",
+          "content": ""
+        },
+        "spuId": 8900001978861819,
+        "sourceSkuId": 1080004825,
+        "subscribeFlag": false,
+        "skuId": 8903608287471819,
+        "authPrice": 0,
+        "properties": [
+          {
+            "level": 1,
+            "propertyValueId": 8905347141381819
+          },
+          {
+            "level": 2,
+            "propertyValueId": 8900035071251819
+          }
+        ],
+        "status": 1
+      },
+      {
+        "skuTitle": "New Balance NB 530 Текстиль Искусственная Кожа Дышащий Низкий Верх Повседневная Городская Коммутация Беговые Кроссовки Узкая (B) 46",
+        "couponInfo": {
+          "backgroundColorHex": "",
+          "content": ""
+        },
+        "spuId": 8900001978861819,
+        "sourceSkuId": 1080004827,
+        "subscribeFlag": false,
+        "skuId": 8903608287481819,
+        "authPrice": 0,
+        "properties": [
+          {
+            "level": 1,
+            "propertyValueId": 8905347141381819
+          },
+          {
+            "level": 2,
+            "propertyValueId": 8900035071261819
+          }
+        ],
+        "status": 1
+      },
+      {
+        "skuTitle": "New Balance NB 530 Текстиль Искусственная Кожа Дышащий Низкий Верх Повседневная Городская Коммутация Беговые Кроссовки Узкая (B) 37,5",
+        "couponInfo": {
+          "backgroundColorHex": "",
+          "content": ""
+        },
+        "spuId": 8900001978861819,
+        "sourceSkuId": 1080004814,
+        "subscribeFlag": false,
+        "skuId": 8903608287491819,
+        "authPrice": 0,
+        "properties": [
+          {
+            "level": 1,
+            "propertyValueId": 8905347141381819
+          },
+          {
+            "level": 2,
+            "propertyValueId": 8900035071191819
+          }
+        ],
+        "status": 1
+      },
+      {
+        "skuTitle": "New Balance NB 530 Текстиль Искусственная Кожа Дышащий Низкий Верх Повседневная Городская Коммутация Беговые Кроссовки Узкая (B) 41",
+        "couponInfo": {
+          "backgroundColorHex": "",
+          "content": ""
+        },
+        "spuId": 8900001978861819,
+        "sourceSkuId": 1080004819,
+        "subscribeFlag": false,
+        "skuId": 8903608287501819,
+        "authPrice": 0,
+        "properties": [
+          {
+            "level": 1,
+            "propertyValueId": 8905347141381819
+          },
+          {
+            "level": 2,
+            "propertyValueId": 8900035071221819
+          }
+        ],
+        "status": 1
+      },
+      {
+        "skuTitle": "New Balance NB 530 Текстиль Искусственная Кожа Дышащий Низкий Верх Повседневная Городская Коммутация Беговые Кроссовки Узкая (B) 37",
+        "couponInfo": {
+          "backgroundColorHex": "",
+          "content": ""
+        },
+        "spuId": 8900001978861819,
+        "sourceSkuId": 1080004813,
+        "subscribeFlag": false,
+        "skuId": 8903608287511819,
+        "authPrice": 0,
+        "properties": [
+          {
+            "level": 1,
+            "propertyValueId": 8905347141381819
+          },
+          {
+            "level": 2,
+            "propertyValueId": 8900035071181819
+          }
+        ],
+        "status": 1
+      },
+      {
+        "skuTitle": "New Balance NB 530 Текстиль Искусственная Кожа Дышащий Низкий Верх Повседневная Городская Коммутация Беговые Кроссовки Узкая (B) 39,5",
+        "couponInfo": {
+          "backgroundColorHex": "",
+          "content": ""
+        },
+        "spuId": 8900001978861819,
+        "sourceSkuId": 1080004817,
+        "subscribeFlag": false,
+        "skuId": 8903608287521819,
+        "authPrice": 0,
+        "properties": [
+          {
+            "level": 1,
+            "propertyValueId": 8905347141381819
+          },
+          {
+            "level": 2,
+            "propertyValueId": 8900035071211819
+          }
+        ],
+        "status": 1
+      },
+      {
+        "skuTitle": "New Balance NB 530 Текстиль Искусственная Кожа Дышащий Низкий Верх Повседневная Городская Коммутация Беговые Кроссовки Узкая (B) 39",
+        "couponInfo": {
+          "backgroundColorHex": "",
+          "content": ""
+        },
+        "spuId": 8900001978861819,
+        "sourceSkuId": 1080004816,
+        "subscribeFlag": false,
+        "skuId": 8903608287531819,
+        "authPrice": 0,
+        "properties": [
+          {
+            "level": 1,
+            "propertyValueId": 8905347141381819
+          },
+          {
+            "level": 2,
+            "propertyValueId": 8900035071201819
+          }
+        ],
+        "status": 1
+      },
+      {
+        "skuTitle": "New Balance NB 530 Текстиль Искусственная Кожа Дышащий Низкий Верх Повседневная Городская Коммутация Беговые Кроссовки Узкая (B) 34,5",
+        "couponInfo": {
+          "backgroundColorHex": "",
+          "content": ""
+        },
+        "spuId": 8900001978861819,
+        "sourceSkuId": 1080004809,
+        "subscribeFlag": false,
+        "skuId": 8903608290811819,
+        "authPrice": 0,
+        "properties": [
+          {
+            "level": 1,
+            "propertyValueId": 8905347141381819
+          },
+          {
+            "level": 2,
+            "propertyValueId": 8900035071151819
+          }
+        ],
+        "status": 1
+      },
+      {
+        "skuTitle": "New Balance NB 530 Текстиль Искусственная Кожа Дышащий Низкий Верх Повседневная Городская Коммутация Беговые Кроссовки Узкая (B) 41,5",
+        "couponInfo": {
+          "backgroundColorHex": "",
+          "content": ""
+        },
+        "spuId": 8900001978861819,
+        "sourceSkuId": 1080004820,
+        "subscribeFlag": false,
+        "skuId": 8903608290821819,
+        "authPrice": 0,
+        "properties": [
+          {
+            "level": 1,
+            "propertyValueId": 8905347141381819
+          },
+          {
+            "level": 2,
+            "propertyValueId": 8900035071231819
+          }
+        ],
+        "status": 1
+      },
+      {
+        "skuTitle": "New Balance NB 530 Текстиль Искусственная Кожа Дышащий Низкий Верх Повседневная Городская Коммутация Беговые Кроссовки Узкая (B) 35",
+        "couponInfo": {
+          "backgroundColorHex": "",
+          "content": ""
+        },
+        "spuId": 8900001978861819,
+        "sourceSkuId": 1080004810,
+        "subscribeFlag": false,
+        "skuId": 8903608290881819,
+        "authPrice": 0,
+        "properties": [
+          {
+            "level": 1,
+            "propertyValueId": 8905347141381819
+          },
+          {
+            "level": 2,
+            "propertyValueId": 8900035071161819
+          }
+        ],
+        "status": 1
+      },
+      {
+        "skuTitle": "New Balance NB 530 Текстиль Искусственная Кожа Дышащий Низкий Верх Повседневная Городская Коммутация Беговые Кроссовки Узкая (B) 43,5",
+        "couponInfo": {
+          "backgroundColorHex": "",
+          "content": ""
+        },
+        "spuId": 8900001978861819,
+        "sourceSkuId": 1080004823,
+        "subscribeFlag": false,
+        "skuId": 8903608290951819,
+        "authPrice": 0,
+        "properties": [
+          {
+            "level": 1,
+            "propertyValueId": 8905347141381819
+          },
+          {
+            "level": 2,
+            "propertyValueId": 8900035549481819
+          }
+        ],
+        "status": 1
+      },
+      {
+        "skuTitle": "New Balance NB 530 Текстиль Искусственная Кожа Дышащий Низкий Верх Повседневная Городская Коммутация Беговые Кроссовки Узкая (B) 46,5",
+        "couponInfo": {
+          "backgroundColorHex": "",
+          "content": ""
+        },
+        "spuId": 8900001978861819,
+        "sourceSkuId": 1080004828,
+        "subscribeFlag": false,
+        "skuId": 8903608290961819,
+        "authPrice": 0,
+        "properties": [
+          {
+            "level": 1,
+            "propertyValueId": 8905347141381819
+          },
+          {
+            "level": 2,
+            "propertyValueId": 8900035071271819
+          }
+        ],
+        "status": 1
+      },
+      {
+        "skuTitle": "New Balance NB 530 Текстиль Искусственная Кожа Дышащий Низкий Верх Повседневная Городская Коммутация Беговые Кроссовки Узкая (B) 50",
+        "couponInfo": {
+          "backgroundColorHex": "",
+          "content": ""
+        },
+        "spuId": 8900001978861819,
+        "sourceSkuId": 1080004830,
+        "subscribeFlag": false,
+        "skuId": 8903608290971819,
+        "authPrice": 0,
+        "properties": [
+          {
+            "level": 1,
+            "propertyValueId": 8905347141381819
+          },
+          {
+            "level": 2,
+            "propertyValueId": 8902977745611819
+          }
+        ],
+        "status": 1
+      },
+      {
+        "skuTitle": "New Balance NB 530 Текстиль Искусственная Кожа Дышащий Низкий Верх Повседневная Городская Коммутация Беговые Кроссовки Узкая (B) 44",
+        "couponInfo": {
+          "backgroundColorHex": "",
+          "content": ""
+        },
+        "spuId": 8900001978861819,
+        "sourceSkuId": 1080004824,
+        "subscribeFlag": false,
+        "skuId": 8903608290981819,
+        "authPrice": 0,
+        "properties": [
+          {
+            "level": 1,
+            "propertyValueId": 8905347141381819
+          },
+          {
+            "level": 2,
+            "propertyValueId": 8900035549491819
+          }
+        ],
+        "status": 1
+      },
+      {
+        "skuTitle": "New Balance NB 530 Текстиль Искусственная Кожа Дышащий Низкий Верх Повседневная Городская Коммутация Беговые Кроссовки Узкая (B) 40,5",
+        "couponInfo": {
+          "backgroundColorHex": "",
+          "content": ""
+        },
+        "spuId": 8900001978861819,
+        "sourceSkuId": 1080004818,
+        "subscribeFlag": false,
+        "skuId": 8903608290991819,
+        "authPrice": 0,
+        "properties": [
+          {
+            "level": 1,
+            "propertyValueId": 8905347141381819
+          },
+          {
+            "level": 2,
+            "propertyValueId": 8900035549461819
+          }
+        ],
+        "status": 1
+      },
+      {
+        "skuTitle": "New Balance NB 530 Текстиль Искусственная Кожа Дышащий Низкий Верх Повседневная Городская Коммутация Беговые Кроссовки Узкая (B) 48",
+        "couponInfo": {
+          "backgroundColorHex": "",
+          "content": ""
+        },
+        "spuId": 8900001978861819,
+        "sourceSkuId": 1080004829,
+        "subscribeFlag": false,
+        "skuId": 8903608291001819,
+        "authPrice": 0,
+        "properties": [
+          {
+            "level": 1,
+            "propertyValueId": 8905347141381819
+          },
+          {
+            "level": 2,
+            "propertyValueId": 8900035071281819
           }
         ],
         "status": 1
@@ -224,12 +2458,11 @@
     "estimateDefaultDesc": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">---<u>Москву,ЦФО</u>, --</poizon>",
     "saleProperties": [
       {
-        "guideTip": "Гайд размера",
-        "displayStyle": 1,
-        "showGuide": 1,
+        "displayStyle": 4,
         "level": 1,
         "pvIdSourceOverseaMap": {
-          "8900564473580486": 235970936
+          "8905347141381819": 1031752638,
+          "8900035071141819": 513117450
         },
         "propertyList": [
           {
@@ -237,44 +2470,847 @@
             "propertyItemModels": [
               {
                 "level": 1,
-                "propertyValueId": 8900564473580486,
-                "name": "Характеристики",
-                "spuId": 8900028471730486,
+                "propertyValueId": 8900035071141819,
+                "name": "Издание",
+                "spuId": 8900001978861819,
                 "sort": 1,
-                "propertyId": 8900564473580486,
-                "value": "Белый",
+                "propertyId": 8900035071141819,
+                "value": "Стандартная (D)",
                 "selected": true,
-                "definitionId": 13
+                "definitionId": 12
+              },
+              {
+                "level": 1,
+                "propertyValueId": 8905347141381819,
+                "name": "Издание",
+                "spuId": 8900001978861819,
+                "sort": 2,
+                "propertyId": 8905347141381819,
+                "value": "Узкая (B)",
+                "selected": false,
+                "definitionId": 12
               }
             ]
           }
         ],
-        "name": "Характеристики",
+        "name": "Издание",
         "defaultShow": "DEFAULT",
-        "governType": 0,
+        "governType": 1,
         "giftProp": false,
-        "definitionId": 13
+        "definitionId": 12
+      },
+      {
+        "guideTip": "Гайд размера",
+        "displayStyle": 4,
+        "showGuide": 1,
+        "deviationCodePrompt": "Runs big, consider 0.5 size down.",
+        "level": 2,
+        "propertyList": [
+          {
+            "propertyKey": "RU",
+            "propertyItemModels": [
+              {
+                "level": 2,
+                "propertyValueId": 8900035071151819,
+                "sizeParameterList": [
+                  {
+                    "sizeKey": "Длина стопы: ",
+                    "sizeValue": "21,5 cm"
+                  }
+                ],
+                "name": "Размер",
+                "spuId": 8900001978861819,
+                "sort": 0,
+                "suffix": "RU",
+                "propertyId": 8900035071151819,
+                "value": "34,5",
+                "selected": false,
+                "definitionId": 6
+              },
+              {
+                "level": 2,
+                "propertyValueId": 8900035071161819,
+                "sizeParameterList": [
+                  {
+                    "sizeKey": "Длина стопы: ",
+                    "sizeValue": "22 cm"
+                  }
+                ],
+                "name": "Размер",
+                "spuId": 8900001978861819,
+                "sort": 1,
+                "suffix": "RU",
+                "propertyId": 8900035071161819,
+                "value": "35",
+                "selected": false,
+                "definitionId": 6
+              },
+              {
+                "level": 2,
+                "propertyValueId": 8900035071171819,
+                "sizeParameterList": [
+                  {
+                    "sizeKey": "Длина стопы: ",
+                    "sizeValue": "22,5 cm"
+                  }
+                ],
+                "name": "Размер",
+                "spuId": 8900001978861819,
+                "sort": 2,
+                "suffix": "RU",
+                "propertyId": 8900035071171819,
+                "value": "36",
+                "selected": true,
+                "definitionId": 6
+              },
+              {
+                "level": 2,
+                "propertyValueId": 8900035549441819,
+                "sizeParameterList": [
+                  {
+                    "sizeKey": "Длина стопы: ",
+                    "sizeValue": "23 cm"
+                  }
+                ],
+                "name": "Размер",
+                "spuId": 8900001978861819,
+                "sort": 3,
+                "suffix": "RU",
+                "propertyId": 8900035549441819,
+                "value": "36,5",
+                "selected": false,
+                "definitionId": 6
+              },
+              {
+                "level": 2,
+                "propertyValueId": 8900035071181819,
+                "sizeParameterList": [
+                  {
+                    "sizeKey": "Длина стопы: ",
+                    "sizeValue": "23,5 cm"
+                  }
+                ],
+                "name": "Размер",
+                "spuId": 8900001978861819,
+                "sort": 4,
+                "suffix": "RU",
+                "propertyId": 8900035071181819,
+                "value": "37",
+                "selected": false,
+                "definitionId": 6
+              },
+              {
+                "level": 2,
+                "propertyValueId": 8900035071191819,
+                "sizeParameterList": [
+                  {
+                    "sizeKey": "Длина стопы: ",
+                    "sizeValue": "24 cm"
+                  }
+                ],
+                "name": "Размер",
+                "spuId": 8900001978861819,
+                "sort": 5,
+                "suffix": "RU",
+                "propertyId": 8900035071191819,
+                "value": "37,5",
+                "selected": false,
+                "definitionId": 6
+              },
+              {
+                "level": 2,
+                "propertyValueId": 8900035549451819,
+                "sizeParameterList": [
+                  {
+                    "sizeKey": "Длина стопы: ",
+                    "sizeValue": "24,5 cm"
+                  }
+                ],
+                "name": "Размер",
+                "spuId": 8900001978861819,
+                "sort": 6,
+                "suffix": "RU",
+                "propertyId": 8900035549451819,
+                "value": "38,5",
+                "selected": false,
+                "definitionId": 6
+              },
+              {
+                "level": 2,
+                "propertyValueId": 8900035071201819,
+                "sizeParameterList": [
+                  {
+                    "sizeKey": "Длина стопы: ",
+                    "sizeValue": "25 cm"
+                  }
+                ],
+                "name": "Размер",
+                "spuId": 8900001978861819,
+                "sort": 7,
+                "suffix": "RU",
+                "propertyId": 8900035071201819,
+                "value": "39",
+                "selected": false,
+                "definitionId": 6
+              },
+              {
+                "level": 2,
+                "propertyValueId": 8900035071211819,
+                "sizeParameterList": [
+                  {
+                    "sizeKey": "Длина стопы: ",
+                    "sizeValue": "25,5 cm"
+                  }
+                ],
+                "name": "Размер",
+                "spuId": 8900001978861819,
+                "sort": 8,
+                "suffix": "RU",
+                "propertyId": 8900035071211819,
+                "value": "39,5",
+                "selected": false,
+                "definitionId": 6
+              },
+              {
+                "level": 2,
+                "propertyValueId": 8900035549461819,
+                "sizeParameterList": [
+                  {
+                    "sizeKey": "Длина стопы: ",
+                    "sizeValue": "26 cm"
+                  }
+                ],
+                "name": "Размер",
+                "spuId": 8900001978861819,
+                "sort": 9,
+                "suffix": "RU",
+                "propertyId": 8900035549461819,
+                "value": "40,5",
+                "selected": false,
+                "definitionId": 6
+              },
+              {
+                "level": 2,
+                "propertyValueId": 8900035071221819,
+                "sizeParameterList": [
+                  {
+                    "sizeKey": "Длина стопы: ",
+                    "sizeValue": "26,5 cm"
+                  }
+                ],
+                "name": "Размер",
+                "spuId": 8900001978861819,
+                "sort": 10,
+                "suffix": "RU",
+                "propertyId": 8900035071221819,
+                "value": "41",
+                "selected": false,
+                "definitionId": 6
+              },
+              {
+                "level": 2,
+                "propertyValueId": 8900035071231819,
+                "sizeParameterList": [
+                  {
+                    "sizeKey": "Длина стопы: ",
+                    "sizeValue": "27 cm"
+                  }
+                ],
+                "name": "Размер",
+                "spuId": 8900001978861819,
+                "sort": 11,
+                "suffix": "RU",
+                "propertyId": 8900035071231819,
+                "value": "41,5",
+                "selected": false,
+                "definitionId": 6
+              },
+              {
+                "level": 2,
+                "propertyValueId": 8900035549471819,
+                "sizeParameterList": [
+                  {
+                    "sizeKey": "Длина стопы: ",
+                    "sizeValue": "27,5 cm"
+                  }
+                ],
+                "name": "Размер",
+                "spuId": 8900001978861819,
+                "sort": 12,
+                "suffix": "RU",
+                "propertyId": 8900035549471819,
+                "value": "42",
+                "selected": false,
+                "definitionId": 6
+              },
+              {
+                "level": 2,
+                "propertyValueId": 8900035071241819,
+                "sizeParameterList": [
+                  {
+                    "sizeKey": "Длина стопы: ",
+                    "sizeValue": "28 cm"
+                  }
+                ],
+                "name": "Размер",
+                "spuId": 8900001978861819,
+                "sort": 13,
+                "suffix": "RU",
+                "propertyId": 8900035071241819,
+                "value": "43",
+                "selected": false,
+                "definitionId": 6
+              },
+              {
+                "level": 2,
+                "propertyValueId": 8900035549481819,
+                "sizeParameterList": [
+                  {
+                    "sizeKey": "Длина стопы: ",
+                    "sizeValue": "28,5 cm"
+                  }
+                ],
+                "name": "Размер",
+                "spuId": 8900001978861819,
+                "sort": 14,
+                "suffix": "RU",
+                "propertyId": 8900035549481819,
+                "value": "43,5",
+                "selected": false,
+                "definitionId": 6
+              },
+              {
+                "level": 2,
+                "propertyValueId": 8900035549491819,
+                "sizeParameterList": [
+                  {
+                    "sizeKey": "Длина стопы: ",
+                    "sizeValue": "29 cm"
+                  }
+                ],
+                "name": "Размер",
+                "spuId": 8900001978861819,
+                "sort": 15,
+                "suffix": "RU",
+                "propertyId": 8900035549491819,
+                "value": "44",
+                "selected": false,
+                "definitionId": 6
+              },
+              {
+                "level": 2,
+                "propertyValueId": 8900035071251819,
+                "sizeParameterList": [
+                  {
+                    "sizeKey": "Длина стопы: ",
+                    "sizeValue": "29,5 cm"
+                  }
+                ],
+                "name": "Размер",
+                "spuId": 8900001978861819,
+                "sort": 16,
+                "suffix": "RU",
+                "propertyId": 8900035071251819,
+                "value": "44,5",
+                "selected": false,
+                "definitionId": 6
+              },
+              {
+                "level": 2,
+                "propertyValueId": 8900035549501819,
+                "sizeParameterList": [
+                  {
+                    "sizeKey": "Длина стопы: ",
+                    "sizeValue": "30 cm"
+                  }
+                ],
+                "name": "Размер",
+                "spuId": 8900001978861819,
+                "sort": 17,
+                "suffix": "RU",
+                "propertyId": 8900035549501819,
+                "value": "45,5",
+                "selected": false,
+                "definitionId": 6
+              },
+              {
+                "level": 2,
+                "propertyValueId": 8900035071261819,
+                "sizeParameterList": [
+                  {
+                    "sizeKey": "Длина стопы: ",
+                    "sizeValue": "30,5 cm"
+                  }
+                ],
+                "name": "Размер",
+                "spuId": 8900001978861819,
+                "sort": 18,
+                "suffix": "RU",
+                "propertyId": 8900035071261819,
+                "value": "46",
+                "selected": false,
+                "definitionId": 6
+              },
+              {
+                "level": 2,
+                "propertyValueId": 8900035071271819,
+                "sizeParameterList": [
+                  {
+                    "sizeKey": "Длина стопы: ",
+                    "sizeValue": "31 cm"
+                  }
+                ],
+                "name": "Размер",
+                "spuId": 8900001978861819,
+                "sort": 19,
+                "suffix": "RU",
+                "propertyId": 8900035071271819,
+                "value": "46,5",
+                "selected": false,
+                "definitionId": 6
+              },
+              {
+                "level": 2,
+                "propertyValueId": 8900035071281819,
+                "sizeParameterList": [
+                  {
+                    "sizeKey": "Длина стопы: ",
+                    "sizeValue": "32 cm"
+                  }
+                ],
+                "name": "Размер",
+                "spuId": 8900001978861819,
+                "sort": 20,
+                "suffix": "RU",
+                "propertyId": 8900035071281819,
+                "value": "48",
+                "selected": false,
+                "definitionId": 6
+              },
+              {
+                "level": 2,
+                "propertyValueId": 8902977745611819,
+                "sizeParameterList": [
+                  {
+                    "sizeKey": "Длина стопы: ",
+                    "sizeValue": "34 cm"
+                  }
+                ],
+                "name": "Размер",
+                "spuId": 8900001978861819,
+                "sort": 22,
+                "suffix": "RU",
+                "propertyId": 8902977745611819,
+                "value": "50",
+                "selected": false,
+                "definitionId": 6
+              }
+            ]
+          },
+          {
+            "propertyKey": "EU",
+            "propertyItemModels": [
+              {
+                "level": 2,
+                "propertyValueId": 8900035071151819,
+                "name": "Размер",
+                "spuId": 8900001978861819,
+                "sort": 0,
+                "suffix": "EU",
+                "propertyId": 8900035071151819,
+                "value": "35,5",
+                "selected": false,
+                "definitionId": 6
+              },
+              {
+                "level": 2,
+                "propertyValueId": 8900035071161819,
+                "sizeParameterList": [
+                  {
+                    "sizeKey": "Длина стопы: ",
+                    "sizeValue": "22,5 cm"
+                  }
+                ],
+                "name": "Размер",
+                "spuId": 8900001978861819,
+                "sort": 1,
+                "suffix": "EU",
+                "propertyId": 8900035071161819,
+                "value": "36",
+                "selected": false,
+                "definitionId": 6
+              },
+              {
+                "level": 2,
+                "propertyValueId": 8900035071171819,
+                "sizeParameterList": [
+                  {
+                    "sizeKey": "Длина стопы: ",
+                    "sizeValue": "23,5 cm"
+                  }
+                ],
+                "name": "Размер",
+                "spuId": 8900001978861819,
+                "sort": 2,
+                "suffix": "EU",
+                "propertyId": 8900035071171819,
+                "value": "37",
+                "selected": false,
+                "definitionId": 6
+              },
+              {
+                "level": 2,
+                "propertyValueId": 8900035549441819,
+                "sizeParameterList": [
+                  {
+                    "sizeKey": "Длина стопы: ",
+                    "sizeValue": "24 cm"
+                  }
+                ],
+                "name": "Размер",
+                "spuId": 8900001978861819,
+                "sort": 3,
+                "suffix": "EU",
+                "propertyId": 8900035549441819,
+                "value": "37,5",
+                "selected": false,
+                "definitionId": 6
+              },
+              {
+                "level": 2,
+                "propertyValueId": 8900035071181819,
+                "name": "Размер",
+                "spuId": 8900001978861819,
+                "sort": 4,
+                "suffix": "EU",
+                "propertyId": 8900035071181819,
+                "value": "38",
+                "selected": false,
+                "definitionId": 6
+              },
+              {
+                "level": 2,
+                "propertyValueId": 8900035071191819,
+                "sizeParameterList": [
+                  {
+                    "sizeKey": "Длина стопы: ",
+                    "sizeValue": "24,5 cm"
+                  }
+                ],
+                "name": "Размер",
+                "spuId": 8900001978861819,
+                "sort": 5,
+                "suffix": "EU",
+                "propertyId": 8900035071191819,
+                "value": "38,5",
+                "selected": false,
+                "definitionId": 6
+              },
+              {
+                "level": 2,
+                "propertyValueId": 8900035549451819,
+                "sizeParameterList": [
+                  {
+                    "sizeKey": "Длина стопы: ",
+                    "sizeValue": "25,5 cm"
+                  }
+                ],
+                "name": "Размер",
+                "spuId": 8900001978861819,
+                "sort": 6,
+                "suffix": "EU",
+                "propertyId": 8900035549451819,
+                "value": "39,5",
+                "selected": false,
+                "definitionId": 6
+              },
+              {
+                "level": 2,
+                "propertyValueId": 8900035071201819,
+                "name": "Размер",
+                "spuId": 8900001978861819,
+                "sort": 7,
+                "suffix": "EU",
+                "propertyId": 8900035071201819,
+                "value": "40",
+                "selected": false,
+                "definitionId": 6
+              },
+              {
+                "level": 2,
+                "propertyValueId": 8900035071211819,
+                "sizeParameterList": [
+                  {
+                    "sizeKey": "Длина стопы: ",
+                    "sizeValue": "26 cm"
+                  }
+                ],
+                "name": "Размер",
+                "spuId": 8900001978861819,
+                "sort": 8,
+                "suffix": "EU",
+                "propertyId": 8900035071211819,
+                "value": "40,5",
+                "selected": false,
+                "definitionId": 6
+              },
+              {
+                "level": 2,
+                "propertyValueId": 8900035549461819,
+                "sizeParameterList": [
+                  {
+                    "sizeKey": "Длина стопы: ",
+                    "sizeValue": "27 cm"
+                  }
+                ],
+                "name": "Размер",
+                "spuId": 8900001978861819,
+                "sort": 9,
+                "suffix": "EU",
+                "propertyId": 8900035549461819,
+                "value": "41,5",
+                "selected": false,
+                "definitionId": 6
+              },
+              {
+                "level": 2,
+                "propertyValueId": 8900035071221819,
+                "sizeParameterList": [
+                  {
+                    "sizeKey": "Длина стопы: ",
+                    "sizeValue": "27,5 cm"
+                  }
+                ],
+                "name": "Размер",
+                "spuId": 8900001978861819,
+                "sort": 10,
+                "suffix": "EU",
+                "propertyId": 8900035071221819,
+                "value": "42",
+                "selected": false,
+                "definitionId": 6
+              },
+              {
+                "level": 2,
+                "propertyValueId": 8900035071231819,
+                "name": "Размер",
+                "spuId": 8900001978861819,
+                "sort": 11,
+                "suffix": "EU",
+                "propertyId": 8900035071231819,
+                "value": "42,5",
+                "selected": false,
+                "definitionId": 6
+              },
+              {
+                "level": 2,
+                "propertyValueId": 8900035549471819,
+                "sizeParameterList": [
+                  {
+                    "sizeKey": "Длина стопы: ",
+                    "sizeValue": "28 cm"
+                  }
+                ],
+                "name": "Размер",
+                "spuId": 8900001978861819,
+                "sort": 12,
+                "suffix": "EU",
+                "propertyId": 8900035549471819,
+                "value": "43",
+                "selected": false,
+                "definitionId": 6
+              },
+              {
+                "level": 2,
+                "propertyValueId": 8900035071241819,
+                "sizeParameterList": [
+                  {
+                    "sizeKey": "Длина стопы: ",
+                    "sizeValue": "29 cm"
+                  }
+                ],
+                "name": "Размер",
+                "spuId": 8900001978861819,
+                "sort": 13,
+                "suffix": "EU",
+                "propertyId": 8900035071241819,
+                "value": "44",
+                "selected": false,
+                "definitionId": 6
+              },
+              {
+                "level": 2,
+                "propertyValueId": 8900035549481819,
+                "sizeParameterList": [
+                  {
+                    "sizeKey": "Длина стопы: ",
+                    "sizeValue": "29,5 cm"
+                  }
+                ],
+                "name": "Размер",
+                "spuId": 8900001978861819,
+                "sort": 14,
+                "suffix": "EU",
+                "propertyId": 8900035549481819,
+                "value": "44,5",
+                "selected": false,
+                "definitionId": 6
+              },
+              {
+                "level": 2,
+                "propertyValueId": 8900035549491819,
+                "name": "Размер",
+                "spuId": 8900001978861819,
+                "sort": 15,
+                "suffix": "EU",
+                "propertyId": 8900035549491819,
+                "value": "45",
+                "selected": false,
+                "definitionId": 6
+              },
+              {
+                "level": 2,
+                "propertyValueId": 8900035071251819,
+                "sizeParameterList": [
+                  {
+                    "sizeKey": "Длина стопы: ",
+                    "sizeValue": "30 cm"
+                  }
+                ],
+                "name": "Размер",
+                "spuId": 8900001978861819,
+                "sort": 16,
+                "suffix": "EU",
+                "propertyId": 8900035071251819,
+                "value": "45,5",
+                "selected": false,
+                "definitionId": 6
+              },
+              {
+                "level": 2,
+                "propertyValueId": 8900035549501819,
+                "sizeParameterList": [
+                  {
+                    "sizeKey": "Длина стопы: ",
+                    "sizeValue": "31 cm"
+                  }
+                ],
+                "name": "Размер",
+                "spuId": 8900001978861819,
+                "sort": 17,
+                "suffix": "EU",
+                "propertyId": 8900035549501819,
+                "value": "46,5",
+                "selected": false,
+                "definitionId": 6
+              },
+              {
+                "level": 2,
+                "propertyValueId": 8900035071261819,
+                "name": "Размер",
+                "spuId": 8900001978861819,
+                "sort": 18,
+                "suffix": "EU",
+                "propertyId": 8900035071261819,
+                "value": "47",
+                "selected": false,
+                "definitionId": 6
+              },
+              {
+                "level": 2,
+                "propertyValueId": 8900035071271819,
+                "name": "Размер",
+                "spuId": 8900001978861819,
+                "sort": 19,
+                "suffix": "EU",
+                "propertyId": 8900035071271819,
+                "value": "47,5",
+                "selected": false,
+                "definitionId": 6
+              },
+              {
+                "level": 2,
+                "propertyValueId": 8900035071281819,
+                "sizeParameterList": [
+                  {
+                    "sizeKey": "Длина стопы: ",
+                    "sizeValue": "33 cm"
+                  }
+                ],
+                "name": "Размер",
+                "spuId": 8900001978861819,
+                "sort": 20,
+                "suffix": "EU",
+                "propertyId": 8900035071281819,
+                "value": "49",
+                "selected": false,
+                "definitionId": 6
+              },
+              {
+                "level": 2,
+                "propertyValueId": 8902977745611819,
+                "sizeParameterList": [
+                  {
+                    "sizeKey": "Длина стопы: ",
+                    "sizeValue": "35 cm"
+                  }
+                ],
+                "name": "Размер",
+                "spuId": 8900001978861819,
+                "sort": 22,
+                "suffix": "EU",
+                "propertyId": 8902977745611819,
+                "value": "51",
+                "selected": false,
+                "definitionId": 6
+              }
+            ]
+          }
+        ],
+        "name": "Размер",
+        "defaultShow": "RU",
+        "governType": 1,
+        "giftProp": false,
+        "definitionId": 6
       }
     ],
     "pdFrameLayoutAbValue": "2",
     "levelOneMinPriceSkus": {
-      "8900564473580486": {
-        "skuTitle": "Джордан Шахматный узор Жаккардовый материал Монограмма Сумка Дорожная сумка Сумка-ведро Сумка на плечо Унисекс Белый",
+      "8905347141381819": {
+        "skuTitle": "New Balance NB 530 Текстиль Искусственная Кожа Дышащий Низкий Верх Повседневная Городская Коммутация Беговые Кроссовки Узкая (B) 36",
+        "couponInfo": {
+          "backgroundColorHex": "",
+          "content": ""
+        },
+        "spuId": 8900001978861819,
+        "sourceSkuId": 1080004811,
+        "subscribeFlag": false,
+        "skuId": 8903608287281819,
+        "authPrice": 0,
+        "properties": [
+          {
+            "level": 1,
+            "propertyValueId": 8905347141381819
+          },
+          {
+            "level": 2,
+            "propertyValueId": 8900035071171819
+          }
+        ],
+        "status": 1
+      },
+      "8900035071141819": {
+        "skuTitle": "New Balance NB 530 Текстиль Искусственная Кожа Дышащий Низкий Верх Повседневная Городская Коммутация Беговые Кроссовки Стандартная (D) 36",
         "skuSpeedInfo": [
           {
-            "minDay": 17,
-            "speedInfoTip": "17-24 дней",
+            "minDay": 3,
+            "speedInfoTip": "3-5 дней",
             "deliveryInfoModel": {
               "deliveryItems": [
                 {
-                  "deliveryTimeText": "27 сент. – 4 окт.",
+                  "deliveryTimeText": "15 сент. – 17 сент.",
                   "deliveryTypeText": "Бесплатная доставка",
                   "deliveryType": 0
-                },
-                {
-                  "deliveryTimeText": "17 сент. – 24 сент.",
-                  "deliveryTypeText": "Ускоренная доставка",
-                  "deliveryType": 1
                 }
               ],
               "deliveryText": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u></poizon>",
@@ -284,72 +3320,58 @@
                 "height": 24
               }
             },
-            "easyBuyModel": {
-              "easyBuyFlag": true,
-              "easyBuyText": "Покупка с уверенностью"
-            },
             "labelInfo": {
-              "name": "Международная"
+              "name": "Местная"
             },
-            "saleInventoryNo": "BBMAX1518441081951-1530",
-            "maxDay": 24,
-            "tradeLabel": "Международная",
+            "saleInventoryNo": "BBMAX1529410302708-3",
+            "maxDay": 5,
+            "tradeLabel": "Местная",
             "trackingMap": {},
             "speedPrice": {
               "symbol": "₽",
-              "localizedDisplayText": "10 826 ₽",
+              "localizedDisplayText": "5 650 ₽",
               "money": {
-                "amount": "10826.00",
-                "minUnitVal": 1082600,
+                "amount": "5650.00",
+                "minUnitVal": 565000,
                 "currency": "RUB"
               },
-              "amountText": "10 826",
+              "amountText": "5 650",
               "sign": "+",
-              "absText": "10 826"
+              "absText": "5 650"
             },
-            "tradeLabelId": 2,
-            "skuDeliveryDesc": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u>, 27 сент. – 4 окт.</poizon>"
+            "tradeLabelId": 1,
+            "skuDeliveryDesc": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u>, 15 сент. – 17 сент.</poizon>"
           }
         ],
         "couponInfo": {
           "backgroundColorHex": "",
           "content": ""
         },
-        "hitBizTags": [
-          {
-            "name": "Мин цена за 30 дн",
-            "type": 1
-          },
-          {
-            "name": "Почти распродано",
-            "type": 2
-          }
-        ],
         "minPrice": {
           "symbol": "₽",
-          "localizedDisplayText": "10 826 ₽",
+          "localizedDisplayText": "5 650 ₽",
           "money": {
-            "amount": "10826.00",
-            "minUnitVal": 1082600,
+            "amount": "5650.00",
+            "minUnitVal": 565000,
             "currency": "RUB"
           },
-          "amountText": "10 826",
+          "amountText": "5 650",
           "sign": "+",
-          "absText": "10 826"
+          "absText": "5 650"
         },
-        "spuId": 8900028471730486,
-        "sourceSkuId": 619748854,
+        "spuId": 8900001978861819,
+        "sourceSkuId": 600012661,
         "subscribeFlag": false,
-        "bizTag": {
-          "name": "Мин цена за 30 дн",
-          "type": 1
-        },
-        "skuId": 8900263017510486,
+        "skuId": 8900020618001819,
         "authPrice": 0,
         "properties": [
           {
             "level": 1,
-            "propertyValueId": 8900564473580486
+            "propertyValueId": 8900035071141819
+          },
+          {
+            "level": 2,
+            "propertyValueId": 8900035071171819
           }
         ],
         "status": 1
@@ -361,36 +3383,42 @@
         {
           "propertyKey": "DEFAULT",
           "level": 1,
-          "propertyValueId": 8900564473580486,
-          "definitionId": 13
+          "propertyValueId": 8900035071141819,
+          "definitionId": 12
+        },
+        {
+          "propertyKey": "RU",
+          "level": 2,
+          "propertyValueId": 8900035071171819,
+          "definitionId": 6
         }
       ],
-      "spuId": 8900028471730486,
-      "skuId": 8900263017510486
+      "spuId": 8900001978861819,
+      "skuId": 8900020618001819
     },
     "skuSpeedTitle": "ВАРИАНТЫ ДОСТАВКИ",
+    "contentCategory": 33,
     "sizeConversionAsianToUS": false,
     "containGiftProp": false,
     "noAvailableInvTitle": "Распродано",
+    "recommendSizeInfo": {
+      "recommendSourceType": "",
+      "noResultReason": "未提交"
+    },
     "giftPropAbValue": "1",
     "floatingLayerTitle": "ВЫБРАЛИ:",
     "skuMinPriceInfoDTO": {
-      "skuTitle": "Джордан Шахматный узор Жаккардовый материал Монограмма Сумка Дорожная сумка Сумка-ведро Сумка на плечо Унисекс Белый",
+      "skuTitle": "New Balance NB 530 Текстиль Искусственная Кожа Дышащий Низкий Верх Повседневная Городская Коммутация Беговые Кроссовки Стандартная (D) 36",
       "skuSpeedInfo": [
         {
-          "minDay": 17,
-          "speedInfoTip": "17-24 дней",
+          "minDay": 3,
+          "speedInfoTip": "3-5 дней",
           "deliveryInfoModel": {
             "deliveryItems": [
               {
-                "deliveryTimeText": "27 сент. – 4 окт.",
+                "deliveryTimeText": "15 сент. – 17 сент.",
                 "deliveryTypeText": "Бесплатная доставка",
                 "deliveryType": 0
-              },
-              {
-                "deliveryTimeText": "17 сент. – 24 сент.",
-                "deliveryTypeText": "Ускоренная доставка",
-                "deliveryType": 1
               }
             ],
             "deliveryText": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u></poizon>",
@@ -400,87 +3428,84 @@
               "height": 24
             }
           },
-          "easyBuyModel": {
-            "easyBuyFlag": true,
-            "easyBuyText": "Покупка с уверенностью"
-          },
           "labelInfo": {
-            "name": "Международная"
+            "name": "Местная"
           },
-          "saleInventoryNo": "BBMAX1518441081951-1530",
-          "maxDay": 24,
-          "tradeLabel": "Международная",
+          "saleInventoryNo": "BBMAX1529410302708-3",
+          "maxDay": 5,
+          "tradeLabel": "Местная",
           "trackingMap": {},
           "speedPrice": {
             "symbol": "₽",
-            "localizedDisplayText": "10 826 ₽",
+            "localizedDisplayText": "5 650 ₽",
             "money": {
-              "amount": "10826.00",
-              "minUnitVal": 1082600,
+              "amount": "5650.00",
+              "minUnitVal": 565000,
               "currency": "RUB"
             },
-            "amountText": "10 826",
+            "amountText": "5 650",
             "sign": "+",
-            "absText": "10 826"
+            "absText": "5 650"
           },
-          "tradeLabelId": 2,
-          "skuDeliveryDesc": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u>, 27 сент. – 4 окт.</poizon>"
+          "tradeLabelId": 1,
+          "skuDeliveryDesc": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u>, 15 сент. – 17 сент.</poizon>"
         }
       ],
       "couponInfo": {
         "backgroundColorHex": "",
         "content": ""
       },
-      "hitBizTags": [
-        {
-          "name": "Мин цена за 30 дн",
-          "type": 1
-        },
-        {
-          "name": "Почти распродано",
-          "type": 2
-        }
-      ],
       "minPrice": {
         "symbol": "₽",
-        "localizedDisplayText": "10 826 ₽",
+        "localizedDisplayText": "5 650 ₽",
         "money": {
-          "amount": "10826.00",
-          "minUnitVal": 1082600,
+          "amount": "5650.00",
+          "minUnitVal": 565000,
           "currency": "RUB"
         },
-        "amountText": "10 826",
+        "amountText": "5 650",
         "sign": "+",
-        "absText": "10 826"
+        "absText": "5 650"
       },
-      "spuId": 8900028471730486,
-      "sourceSkuId": 619748854,
+      "spuId": 8900001978861819,
+      "sourceSkuId": 600012661,
       "subscribeFlag": false,
-      "bizTag": {
-        "name": "Мин цена за 30 дн",
-        "type": 1
-      },
-      "skuId": 8900263017510486,
+      "skuId": 8900020618001819,
       "authPrice": 0,
       "properties": [
         {
           "level": 1,
-          "propertyValueId": 8900564473580486
+          "propertyValueId": 8900035071141819
+        },
+        {
+          "level": 2,
+          "propertyValueId": 8900035071171819
         }
       ],
       "status": 1
     },
     "detail": {
-      "brandName": "Jordan",
+      "googleProductCategory": "Apparel & Accessories > Shoes",
+      "ageRange": "adult",
       "fitId": 1,
       "chineseMade": false,
+      "gender": "unisex",
       "language": "bbmax",
-      "bagWatchAccessory": true,
-      "title": "Джордан Шахматный узор Жаккардовый материал Монограмма Сумка Дорожная сумка Сумка-ведро Сумка на плечо Унисекс",
-      "frontCategoryId": 500000178,
-      "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20240228/5cdfaad30b304b92b8feb9427941c5fa.jpg",
-      "frontCategoryName": "Сумки",
-      "sourceSpuId": 4210486,
+      "title": "New Balance NB 530 Текстиль Искусственная Кожа Дышащий Низкий Верх Повседневная Городская Коммутация Беговые Кроссовки",
+      "frontCategoryId": 500000091,
+      "seriesIds": [
+        576,
+        1032451
+      ],
+      "frontCategoryName": "Кроссовки",
+      "sourceSpuId": 1001819,
+      "areaName": "BBMAX",
+      "level1CategoryId": 29,
+      "brandName": "New Balance",
+      "sizeSystem": "RU",
+      "bagWatchAccessory": false,
+      "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20240726/1eed0defcabe44b989217ec6ef6a8431.jpg",
+      "contentCategory": 33,
       "labelList": [
         {
           "id": 78,
@@ -488,6 +3513,22 @@
         },
         {
           "id": 98,
+          "labelName": ""
+        },
+        {
+          "id": 500001054,
+          "labelName": ""
+        },
+        {
+          "id": 500001510,
+          "labelName": ""
+        },
+        {
+          "id": 500001534,
+          "labelName": ""
+        },
+        {
+          "id": 500001541,
           "labelName": ""
         },
         {
@@ -499,7 +3540,31 @@
           "labelName": ""
         },
         {
+          "id": 500001548,
+          "labelName": ""
+        },
+        {
+          "id": 500001549,
+          "labelName": ""
+        },
+        {
+          "id": 500001558,
+          "labelName": ""
+        },
+        {
+          "id": 500001559,
+          "labelName": ""
+        },
+        {
+          "id": 500001562,
+          "labelName": ""
+        },
+        {
           "id": 500001564,
+          "labelName": ""
+        },
+        {
+          "id": 500001565,
           "labelName": ""
         },
         {
@@ -515,7 +3580,91 @@
           "labelName": ""
         },
         {
-          "id": 500001579,
+          "id": 500001574,
+          "labelName": ""
+        },
+        {
+          "id": 500001575,
+          "labelName": ""
+        },
+        {
+          "id": 500001576,
+          "labelName": ""
+        },
+        {
+          "id": 500001578,
+          "labelName": ""
+        },
+        {
+          "id": 500001580,
+          "labelName": ""
+        },
+        {
+          "id": 500001581,
+          "labelName": ""
+        },
+        {
+          "id": 500001583,
+          "labelName": ""
+        },
+        {
+          "id": 500001584,
+          "labelName": ""
+        },
+        {
+          "id": 500001592,
+          "labelName": ""
+        },
+        {
+          "id": 500001594,
+          "labelName": ""
+        },
+        {
+          "id": 500001595,
+          "labelName": ""
+        },
+        {
+          "id": 500001596,
+          "labelName": ""
+        },
+        {
+          "id": 500001597,
+          "labelName": ""
+        },
+        {
+          "id": 500001601,
+          "labelName": ""
+        },
+        {
+          "id": 500001602,
+          "labelName": ""
+        },
+        {
+          "id": 500001608,
+          "labelName": ""
+        },
+        {
+          "id": 500001610,
+          "labelName": ""
+        },
+        {
+          "id": 500001614,
+          "labelName": ""
+        },
+        {
+          "id": 500001616,
+          "labelName": ""
+        },
+        {
+          "id": 500001617,
+          "labelName": ""
+        },
+        {
+          "id": 500001620,
+          "labelName": ""
+        },
+        {
+          "id": 500001623,
           "labelName": ""
         },
         {
@@ -523,7 +3672,103 @@
           "labelName": ""
         },
         {
+          "id": 500001638,
+          "labelName": ""
+        },
+        {
+          "id": 500001652,
+          "labelName": ""
+        },
+        {
+          "id": 500001653,
+          "labelName": ""
+        },
+        {
+          "id": 500001654,
+          "labelName": ""
+        },
+        {
+          "id": 500001655,
+          "labelName": ""
+        },
+        {
+          "id": 500001659,
+          "labelName": ""
+        },
+        {
+          "id": 500001660,
+          "labelName": ""
+        },
+        {
+          "id": 500001663,
+          "labelName": ""
+        },
+        {
+          "id": 500001665,
+          "labelName": ""
+        },
+        {
+          "id": 500001668,
+          "labelName": ""
+        },
+        {
+          "id": 500001673,
+          "labelName": ""
+        },
+        {
+          "id": 500001676,
+          "labelName": ""
+        },
+        {
+          "id": 500001677,
+          "labelName": ""
+        },
+        {
+          "id": 500001685,
+          "labelName": ""
+        },
+        {
+          "id": 500001687,
+          "labelName": ""
+        },
+        {
+          "id": 500001690,
+          "labelName": ""
+        },
+        {
+          "id": 500001696,
+          "labelName": ""
+        },
+        {
+          "id": 500001698,
+          "labelName": ""
+        },
+        {
+          "id": 500001702,
+          "labelName": ""
+        },
+        {
           "id": 500001705,
+          "labelName": ""
+        },
+        {
+          "id": 500001708,
+          "labelName": ""
+        },
+        {
+          "id": 500200000,
+          "labelName": ""
+        },
+        {
+          "id": 500200001,
+          "labelName": ""
+        },
+        {
+          "id": 500212887,
+          "labelName": ""
+        },
+        {
+          "id": 500212974,
           "labelName": ""
         },
         {
@@ -532,6 +3777,10 @@
         },
         {
           "id": 500213092,
+          "labelName": ""
+        },
+        {
+          "id": 500213093,
           "labelName": ""
         },
         {
@@ -547,11 +3796,11 @@
           "labelName": ""
         },
         {
-          "id": 500213210,
+          "id": 500213162,
           "labelName": ""
         },
         {
-          "id": 500213226,
+          "id": 500213210,
           "labelName": ""
         },
         {
@@ -559,11 +3808,35 @@
           "labelName": ""
         },
         {
+          "id": 500213307,
+          "labelName": ""
+        },
+        {
+          "id": 500213346,
+          "labelName": ""
+        },
+        {
+          "id": 500213352,
+          "labelName": ""
+        },
+        {
+          "id": 500213365,
+          "labelName": ""
+        },
+        {
+          "id": 500213374,
+          "labelName": ""
+        },
+        {
+          "id": 500213666,
+          "labelName": ""
+        },
+        {
           "id": 500213701,
           "labelName": ""
         },
         {
-          "id": 500213704,
+          "id": 500213702,
           "labelName": ""
         },
         {
@@ -571,24 +3844,307 @@
           "labelName": ""
         },
         {
-          "id": 500213708,
+          "id": 500213706,
+          "labelName": ""
+        },
+        {
+          "id": 500213723,
+          "labelName": ""
+        },
+        {
+          "id": 500213762,
+          "labelName": ""
+        },
+        {
+          "id": 500213763,
+          "labelName": ""
+        },
+        {
+          "id": 500213780,
           "labelName": ""
         }
       ],
-      "areaName": "BBMAX",
       "createdBy": "DEWU",
-      "brandId": 13,
+      "brandId": 4,
       "buyStatus": 1,
-      "spuId": 8900028471730486,
-      "level2CategoryId": 61,
+      "spuId": 8900001978861819,
+      "level2CategoryId": 30,
       "sourceName": "default",
-      "globalSpuId": 10004210486,
-      "categoryId": 1004099,
-      "level1CategoryId": 48,
+      "globalSpuId": 10001001819,
+      "categoryId": 33,
       "status": 1
     },
-    "categoryUiOptimization": false,
+    "offSizeInfo": {
+      "deviationSizeTips": "Размер больше, возьмите размер -0,5.",
+      "shortDeviationSizeTips": "Размер больше, возьмите размер -0,5.",
+      "tipsPrefix": "Совет: "
+    },
+    "categoryUiOptimization": true,
     "buttonShowSpeed": false
+  },
+  "sizeAssistantModule": {
+    "sizeUnits": [
+      {
+        "unit": "inch",
+        "selected": false
+      },
+      {
+        "unit": "cm",
+        "selected": true
+      }
+    ],
+    "size": {
+      "sizeList": [
+        {
+          "sizeKeyList": [
+            {
+              "sizeKey": "RU",
+              "sizeValue": "31,5,32,32,5",
+              "sizeValueList": [
+                "31,5",
+                "32",
+                "32,5"
+              ]
+            },
+            {
+              "sizeKey": "EU",
+              "sizeValue": "32,5,33,33,5",
+              "sizeValueList": [
+                "32,5",
+                "33",
+                "33,5"
+              ]
+            },
+            {
+              "sizeKey": "UK",
+              "sizeValue": "0,5,1,1,5",
+              "sizeValueList": [
+                "0,5",
+                "1",
+                "1,5"
+              ]
+            },
+            {
+              "sizeKey": "US Мужские",
+              "sizeValue": "1,1,5,2",
+              "sizeValueList": [
+                "1",
+                "1,5",
+                "2"
+              ]
+            },
+            {
+              "sizeKey": "US Женские",
+              "sizeValue": "2,5,3,3,5",
+              "sizeValueList": [
+                "2,5",
+                "3",
+                "3,5"
+              ]
+            },
+            {
+              "sizeKey": "JP",
+              "sizeValue": "19,19,5,20",
+              "sizeValueList": [
+                "19",
+                "19,5",
+                "20"
+              ]
+            },
+            {
+              "sizeKey": "KR",
+              "sizeValue": "190,195,200",
+              "sizeValueList": [
+                "190",
+                "195",
+                "200"
+              ]
+            }
+          ],
+          "sizeParameterList": [
+            {
+              "sizeKey": "Длина стопы",
+              "sizeValue": "7,5,7,7,7,9",
+              "sizeValueList": [
+                "7,5",
+                "7,7",
+                "7,9"
+              ]
+            }
+          ],
+          "title": "inch"
+        },
+        {
+          "sizeKeyList": [
+            {
+              "sizeKey": "RU",
+              "sizeValue": "31,5,32,32,5",
+              "sizeValueList": [
+                "31,5",
+                "32",
+                "32,5"
+              ]
+            },
+            {
+              "sizeKey": "EU",
+              "sizeValue": "32,5,33,33,5",
+              "sizeValueList": [
+                "32,5",
+                "33",
+                "33,5"
+              ]
+            },
+            {
+              "sizeKey": "UK",
+              "sizeValue": "0,5,1,1,5",
+              "sizeValueList": [
+                "0,5",
+                "1",
+                "1,5"
+              ]
+            },
+            {
+              "sizeKey": "US Мужские",
+              "sizeValue": "1,1,5,2",
+              "sizeValueList": [
+                "1",
+                "1,5",
+                "2"
+              ]
+            },
+            {
+              "sizeKey": "US Женские",
+              "sizeValue": "2,5,3,3,5",
+              "sizeValueList": [
+                "2,5",
+                "3",
+                "3,5"
+              ]
+            },
+            {
+              "sizeKey": "JP",
+              "sizeValue": "19,19,5,20",
+              "sizeValueList": [
+                "19",
+                "19,5",
+                "20"
+              ]
+            },
+            {
+              "sizeKey": "KR",
+              "sizeValue": "190,195,200",
+              "sizeValueList": [
+                "190",
+                "195",
+                "200"
+              ]
+            }
+          ],
+          "sizeParameterList": [
+            {
+              "sizeKey": "Длина стопы",
+              "sizeValue": "19,19,5,20",
+              "sizeValueList": [
+                "19",
+                "19,5",
+                "20"
+              ]
+            }
+          ],
+          "title": "cm"
+        }
+      ],
+      "freezeColumnNum": 1,
+      "sizeConversionAsianToUS": false
+    },
+    "fittingReportTable": {
+      "models": {
+        "cells": [
+          {
+            "headImage": "https://cdn-img.thepoizon.ru/node-common/2e8e5355-70ae-8c89-8cf2-885c177483e4-160-160.png",
+            "nickname": "+***2",
+            "id": 214465
+          },
+          {
+            "headImage": "https://cdn-img.thepoizon.ru/node-common/6564fd1a-7fc8-29cc-16a9-3fa7fbc919fe-160-160.png",
+            "nickname": "i***o",
+            "id": 212751
+          },
+          {
+            "headImage": "https://cdn-img.thepoizon.ru/node-common/c35055d5-b825-c289-28b7-4dff0ceb3382-160-160.png",
+            "nickname": "i***m",
+            "id": 215355
+          }
+        ],
+        "title": "Модель"
+      },
+      "sizeUnitGroups": [
+        {
+          "unit": "inch",
+          "sizeColumns": [
+            {
+              "cells": [
+                "35 RU (36 EU)",
+                "36 RU (37 EU)",
+                "36,5 RU (37,5 EU)"
+              ],
+              "title": "Размер"
+            },
+            {
+              "cells": [
+                "Большой размер",
+                "Большой размер",
+                "Подходит"
+              ],
+              "title": "Посадка"
+            },
+            {
+              "cells": [
+                "8.7",
+                "8.9",
+                "9.3"
+              ],
+              "title": "Длина стопы"
+            }
+          ]
+        },
+        {
+          "unit": "cm",
+          "sizeColumns": [
+            {
+              "cells": [
+                "35 RU (36 EU)",
+                "36 RU (37 EU)",
+                "36,5 RU (37,5 EU)"
+              ],
+              "title": "Размер"
+            },
+            {
+              "cells": [
+                "Большой размер",
+                "Большой размер",
+                "Подходит"
+              ],
+              "title": "Посадка"
+            },
+            {
+              "cells": [
+                "22",
+                "22.5",
+                "23.5"
+              ],
+              "title": "Длина стопы"
+            }
+          ]
+        }
+      ]
+    },
+    "heightWeightSizeTableFlag": false,
+    "title": "Найдите свой размер",
+    "sizeRecommend": {
+      "recommendTitle": "Получите персональные рекомендации.",
+      "recommendTitleRichText": "Получите персональные рекомендации."
+    }
   },
   "authenticatedInfo": {
     "rightIcon": {
@@ -601,28 +4157,97 @@
       "width": 0,
       "height": 0
     },
-    "stepNum": 6,
+    "stepNum": 5,
     "detail": {
       "title": "О ДЭВУ (Poizon)",
       "url": "https://www.thepoizon.ru/about-us?floatLayer=1"
     },
-    "title": "Безусловный возврат"
+    "title": "Лучшая цена"
+  },
+  "seriesDialogModel": {
+    "seriesSpuList": [
+      {
+        "spuId": 8900001978861819,
+        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20240726/1eed0defcabe44b989217ec6ef6a8431.jpg"
+      },
+      {
+        "spuId": 8900007242846406,
+        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251210/bab7f63b12e14b7cb8f25eb7746f0e38.jpg"
+      },
+      {
+        "spuId": 8900029981847721,
+        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251209/0908e6e50556469aa1712f0c2751187e.jpg"
+      },
+      {
+        "spuId": 8900021636744456,
+        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251210/4448421228dc45d8856c059ce3a752e4.jpg"
+      },
+      {
+        "spuId": 8900051746242336,
+        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251210/80bb4c37465c4bfa88f9645a55df9dd0.jpg"
+      },
+      {
+        "spuId": 8900016811093414,
+        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251210/92ecbd2b3cc44d1492e6f2861f94f75a.jpg"
+      },
+      {
+        "spuId": 8900113677888762,
+        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251209/cd4ae52e7db2404f8aa37fec0d592127.jpg"
+      },
+      {
+        "spuId": 8900040245243230,
+        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251210/61247c4d5e664edb9585a88d973b9e32.jpg"
+      },
+      {
+        "spuId": 8900115746154324,
+        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251210/7cd83e7525f940059b6aee67414192a1.png"
+      },
+      {
+        "spuId": 8900070182280019,
+        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251209/b4260518dad24f56a0c15a02534b0e04.jpg"
+      },
+      {
+        "spuId": 8900001776147871,
+        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251210/c823f44ba0d64ee4bd3f32f3f7e9d1b9.jpg"
+      },
+      {
+        "spuId": 8900007416579507,
+        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251209/4006af9c7f97488db98565261c2023f8.jpg"
+      }
+    ],
+    "dialogTitle": "Модель NB 530 (353 товара)",
+    "spuCount": 353,
+    "dialogSeriesTitle": "NB 530 Модель",
+    "seriesId": 1032451,
+    "dialogSeriesSpuCnt": "(353 товара)"
   },
   "propertyModule": {
     "propertyBlocks": [
       {
         "propertyList": [
           {
-            "name": "Текстура",
-            "value": "Другой"
+            "name": "С карбоновой пластиной (Да/Нет)",
+            "value": "Нет"
           },
           {
-            "name": "Размер",
-            "value": "Д47*Ш20,3*В26,7см"
+            "name": "Сценарий",
+            "value": "Лайфстайл, Городская Коммутация"
           },
           {
-            "name": "Тип застежки",
-            "value": "Застежка-молния"
+            "name": "Функциональные характеристики",
+            "value": "Износостойкий, Дышащий"
+          },
+          {
+            "name": "Подходящая поверхность",
+            "value": "Шоссе, Спортзал, Беговые дорожки"
+          },
+          {
+            "name": "Уровень беговых кроссовок",
+            "value": "Кроссовки для начинающих"
+          },
+          {
+            "name": "Материал подошвы",
+            "value": "Резина"
           }
         ],
         "isShowTitle": false,
@@ -632,27 +4257,59 @@
       {
         "propertyList": [
           {
-            "name": "Размер",
-            "value": "Д47*Ш20,3*В26,7см"
+            "name": "Верхний материал",
+            "value": "Ткань, Искусственная кожа"
           },
           {
-            "name": "Тип размера",
-            "value": "Стандартный"
+            "name": "Материал подошвы",
+            "value": "Резина"
+          },
+          {
+            "name": "Подошва Технологии",
+            "value": "Технология ABZORB Амортизация Средняя Подошва"
           }
         ],
         "isShowTitle": true,
-        "title": "Габариты",
+        "title": "Материалы",
         "type": "group"
       },
       {
         "propertyList": [
           {
-            "name": "Комплектация",
-            "value": "Тег, Наклейка с ярлыком"
+            "name": "Сезон",
+            "value": "Весенний, Летний, Осенний, Зимний"
+          },
+          {
+            "name": "Тип застежки",
+            "value": "Шнуровка"
+          },
+          {
+            "name": "Вес обуви (примерно)",
+            "value": "290 г"
+          },
+          {
+            "name": "Высота голенища",
+            "value": "Низкий топ"
+          },
+          {
+            "name": "Стиль носка",
+            "value": "Круглый носок"
+          },
+          {
+            "name": "Основной цвет",
+            "value": "Белый"
+          },
+          {
+            "name": "Расцветка",
+            "value": "Серебристый"
+          },
+          {
+            "name": "Дополнительный цвет",
+            "value": "Серебристый"
           },
           {
             "name": "Основной артикул",
-            "value": "FJ6787-010"
+            "value": "MR530SG"
           }
         ],
         "isShowTitle": true,
@@ -668,60 +4325,159 @@
   },
   "price": {
     "symbol": "₽",
-    "localizedDisplayText": "10 826 ₽",
+    "localizedDisplayText": "5 650 ₽",
     "money": {
-      "amount": "10826.00",
-      "minUnitVal": 1082600,
+      "amount": "5650.00",
+      "minUnitVal": 565000,
       "currency": "RUB"
     },
-    "amountText": "10 826",
+    "amountText": "5 650",
     "sign": "+",
-    "absText": "10 826"
+    "absText": "5 650"
   },
   "baseProperties": [
     {
       "customSortState": true,
       "itemType": "BASE_PROPERTY",
       "customSort": 1,
-      "sort": 4,
-      "value": "Другой",
-      "key": "Текстура",
+      "sort": 17,
+      "value": "Нет",
+      "key": "С карбоновой пластиной (Да/Нет)",
+      "primaryKey": "BASE_PROPERTY_DEFAULT"
+    },
+    {
+      "customSortState": true,
+      "itemType": "BASE_PROPERTY",
+      "customSort": 2,
+      "sort": 18,
+      "value": "Лайфстайл, Городская Коммутация",
+      "key": "Сценарий",
       "primaryKey": "BASE_PROPERTY_DEFAULT"
     },
     {
       "customSortState": true,
       "itemType": "BASE_PROPERTY",
       "customSort": 3,
-      "sort": 5,
-      "value": "Д47*Ш20,3*В26,7см",
-      "key": "Размер",
-      "primaryKey": "BASE_PROPERTY_IMPORT"
+      "sort": 13,
+      "value": "Износостойкий, Дышащий",
+      "key": "Функциональные характеристики",
+      "primaryKey": "BASE_PROPERTY_DEFAULT"
     },
     {
       "customSortState": true,
       "itemType": "BASE_PROPERTY",
-      "customSort": 5,
-      "sort": 1,
-      "value": "Стандартный",
-      "key": "Тип размера",
+      "customSort": 6,
+      "sort": 15,
+      "value": "Шоссе, Спортзал, Беговые дорожки",
+      "key": "Подходящая поверхность",
+      "primaryKey": "BASE_PROPERTY_DEFAULT"
+    },
+    {
+      "customSortState": true,
+      "itemType": "BASE_PROPERTY",
+      "customSort": 7,
+      "sort": 14,
+      "value": "Кроссовки для начинающих",
+      "key": "Уровень беговых кроссовок",
       "primaryKey": "BASE_PROPERTY_DEFAULT"
     },
     {
       "customSortState": true,
       "itemType": "BASE_PROPERTY",
       "customSort": 8,
-      "sort": 3,
-      "value": "Застежка-молния",
-      "key": "Тип застежки",
+      "sort": 9,
+      "value": "Резина",
+      "key": "Материал подошвы",
       "primaryKey": "BASE_PROPERTY_DEFAULT"
     },
     {
       "customSortState": true,
       "itemType": "BASE_PROPERTY",
+      "customSort": 9,
+      "sort": 5,
+      "value": "Весенний, Летний, Осенний, Зимний",
+      "key": "Сезон",
+      "primaryKey": "BASE_PROPERTY_IMPORT"
+    },
+    {
+      "customSortState": true,
+      "itemType": "BASE_PROPERTY",
+      "customSort": 9,
+      "sort": 6,
+      "value": "Ткань, Искусственная кожа",
+      "key": "Верхний материал",
+      "primaryKey": "BASE_PROPERTY_DEFAULT"
+    },
+    {
+      "customSortState": true,
+      "itemType": "BASE_PROPERTY",
+      "customSort": 10,
+      "sort": 12,
+      "value": "Шнуровка",
+      "key": "Тип застежки",
+      "primaryKey": "BASE_PROPERTY_IMPORT"
+    },
+    {
+      "customSortState": true,
+      "itemType": "BASE_PROPERTY",
+      "customSort": 12,
+      "sort": 7,
+      "value": "Технология ABZORB Амортизация Средняя Подошва",
+      "key": "Подошва Технологии",
+      "primaryKey": "BASE_PROPERTY_DEFAULT"
+    },
+    {
+      "customSortState": true,
+      "itemType": "BASE_PROPERTY",
+      "customSort": 14,
+      "sort": 16,
+      "value": "290g",
+      "key": "Вес обуви (примерно)",
+      "primaryKey": "BASE_PROPERTY_DEFAULT"
+    },
+    {
+      "customSortState": true,
+      "itemType": "BASE_PROPERTY",
+      "customSort": 19,
+      "sort": 10,
+      "value": "Низкий топ",
+      "key": "Высота голенища",
+      "primaryKey": "BASE_PROPERTY_IMPORT"
+    },
+    {
+      "customSortState": true,
+      "itemType": "BASE_PROPERTY",
       "customSort": 20,
+      "sort": 11,
+      "value": "Круглый носок",
+      "key": "Стиль носка",
+      "primaryKey": "BASE_PROPERTY_DEFAULT"
+    },
+    {
+      "customSortState": true,
+      "itemType": "BASE_PROPERTY",
+      "customSort": 21,
       "sort": 2,
-      "value": "Тег, Наклейка с ярлыком",
-      "key": "Комплектация",
+      "value": "Белый",
+      "key": "Основной цвет",
+      "primaryKey": "BASE_PROPERTY_IMPORT"
+    },
+    {
+      "customSortState": true,
+      "itemType": "BASE_PROPERTY",
+      "customSort": 22,
+      "sort": 4,
+      "value": "Серебристый",
+      "key": "Расцветка",
+      "primaryKey": "BASE_PROPERTY_DEFAULT"
+    },
+    {
+      "customSortState": true,
+      "itemType": "BASE_PROPERTY",
+      "customSort": 23,
+      "sort": 3,
+      "value": "Серебристый",
+      "key": "Дополнительный цвет",
       "primaryKey": "BASE_PROPERTY_DEFAULT"
     },
     {
@@ -730,7 +4486,7 @@
       "supportCopy": 1,
       "name": "primary",
       "defaultShow": 1,
-      "value": "FJ6787-010",
+      "value": "MR530SG",
       "key": "Основной артикул",
       "primaryKey": "BASE_PARAMETER"
     }
@@ -740,218 +4496,299 @@
   ],
   "commodityReviews": {
     "spuAvgScoreNumber": "5.0",
-    "reviewsDescription": "5,0(20)",
-    "contentTagList": [],
+    "reviewsDescription": "5,0(1000+)",
+    "contentTagList": [
+      {
+        "tagId": 1980,
+        "count": 20,
+        "tagName": "Амортизация"
+      },
+      {
+        "tagId": 1983,
+        "count": 5,
+        "tagName": "Вес обуви"
+      },
+      {
+        "tagId": 2192,
+        "count": 4,
+        "tagName": "Для каких случаев"
+      }
+    ],
     "spuAvgScore": "5,0",
-    "reviewsCount": "20",
+    "reviewsCount": "1000+",
     "title": "ОТЗЫВЫ",
     "scoreDesc": "Отзывы покупателей в комплекте с рейтингом звезд предоставляют богатые понимания наших товаров, и помогают клиентам решить, соответствует ли товар их потребностям. \nМы используем изощренные алгоритмы машинного обучения вместо базового усреднения в целях обеспечения действительности и точности отзывов и рейтингов. Алгоритмы принимают во внимание множество факторов, включая новизну и релевантность контента, и предоставляют более детализированную оценку по аутентичности и надежности отзыва. Применяя многомерные критерии, в полной мере мы привержены усилиям предоставлять самый достоверный справочник по покупкам в обеспечении информированного и достоверного опыта у наших пользователей.",
     "reviewsDetailList": [
       {
         "score": "5.0",
-        "reviewData": "Хорошая, но не то что нужно мне было🤔\nПонравилась, поэтому забрала, подойдет на тренировки ходить\nКачество хорошее, проверку прошла по оригинальности \nЭто Средний размер, существует побольше…",
+        "reviewData": "Заказали с мужем одинаковые кроссовки)Нам очень понравились!Легкие,удобные,хорошо смотрятся на ноге!Размер заказали просто на 0.5 меньше от российского...длина стопы у меня 24 см,ношу 38 размер,заказала 37.5...просто идеально!Мужу соответственно на 42ой заказали 41.5...Хочу особо отметить быструю доставку...20го июля оплатили 25го они уже на месте!Хочется побыстрее их выгулять)Спасибо огромное!🌺",
         "originType": 2,
         "defaultIcon": "https://cdn-img.thepoizon.ru/node-common/66515c7d-af48-3130-f558-cd98c46d9f7b-70-70.png",
-        "publishDate": "6 сент. 2026 г.",
+        "publishDate": "26 июл. 2026 г.",
         "hasImage": 1,
-        "userName": "P***6",
-        "userIcon": "https://cdn-img.thepoizon.ru/node-common/a6d1017c-4abd-dc26-e781-48c4832129c2-160-160.png",
-        "userId": 1109991421445383,
-        "firstLetter": "P",
-        "skuProperty": "Характеристики: Белый",
-        "trackingId": "1462369666"
+        "userName": "+***0",
+        "userIcon": "https://cdn-img.thepoizon.ru/node-common/a34a9a06-2ac1-9fd7-910e-f0e7a8d9e932-160-160.png",
+        "userId": 1109991421240697,
+        "firstLetter": "+",
+        "skuProperty": "Размер: 37,5 RU (38,5 EU), Издание: Стандартная (D)",
+        "trackingId": "1462225926"
       },
       {
         "score": "5.0",
-        "reviewData": "Качество отличное, подходит для мужчин, материал очень удобный, подходит для хранения большого объема вещей.",
-        "originType": 3,
+        "reviewData": "Ощущение при носке: Это лучшие кроссовки, которые у меня когда-либо были. Ощущение легкости и комфорта непередаваемые. 100% оригинал проверил все позиции и даже ультрафиолетовым фонариком. Рекомендую!!!\n",
+        "originType": 2,
         "defaultIcon": "https://cdn-img.thepoizon.ru/node-common/66515c7d-af48-3130-f558-cd98c46d9f7b-70-70.png",
-        "publishDate": "3 нояб. 2025 г.",
+        "publishDate": "25 июл. 2026 г.",
         "hasImage": 1,
-        "userName": "B***0",
-        "userIcon": "https://cdn-img.thepoizon.ru/node-common/59ae35a3-a541-165a-3351-d4fc5b6778ee-160-160.png",
-        "userId": 385484798,
-        "firstLetter": "B",
-        "skuProperty": "Характеристики: Белый",
-        "trackingId": "2780785"
+        "userName": "V***u",
+        "userIcon": "https://cdn-img.thepoizon.ru/node-common/406d577f-7616-5888-8afe-044842389877-160-160.png",
+        "userId": 1109991420966654,
+        "firstLetter": "V",
+        "skuProperty": "Размер: 42 RU (43 EU), Издание: Стандартная (D)",
+        "trackingId": "1462219994"
       }
     ],
-    "sizeFeelingModule": [],
+    "sizeFeelingModule": [
+      {
+        "rateText": "23%",
+        "thousandRate": 230,
+        "title": "Маломерит"
+      },
+      {
+        "rateText": "15%",
+        "thousandRate": 150,
+        "title": "В размер"
+      },
+      {
+        "rateText": "62%",
+        "thousandRate": 620,
+        "title": "Большемерит"
+      }
+    ],
     "goodsContents": [
       {
         "images": [
           {
-            "imageUrl": "https://image-cdn.poizon.com/app/2025/community/117826841_byte843545byte_4011a154bf95ec808b103d569d2918c5_iOS_w886h1181.jpg",
-            "width": 886,
-            "height": 1181
+            "imageUrl": "https://cdn.thepoizon.ru/app/bbmax-app/1109991421240697/c8ae70f60ae3b2a6ae4eff6146b76f57_android_1785086565741_4624h3468.jpg",
+            "width": 4624,
+            "mediaType": 1,
+            "height": 3468
+          },
+          {
+            "imageUrl": "https://cdn.thepoizon.ru/app/bbmax-app/1109991421240697/b492a92f367fff98fd13423cfacbf307_android_1785086565744_4624h3468.jpg",
+            "width": 4624,
+            "mediaType": 1,
+            "height": 3468
+          },
+          {
+            "imageUrl": "https://cdn.thepoizon.ru/app/bbmax-app/1109991421240697/260835405eb46ea20ecd6bd67cf2d707_android_1785086565746_4624h3468.jpg",
+            "width": 4624,
+            "mediaType": 1,
+            "height": 3468
           }
         ],
-        "contentData": [],
-        "contentId": "1542156_1",
-        "publishDate": "9 авг. 2025 г.",
+        "contentData": [
+          "Заказали с мужем одинаковые кроссовки)Нам очень понравились!Легкие,удобные,хорошо смотрятся на ноге!Размер заказали просто на 0.5 меньше от российского...длина стопы у меня 24 см,ношу 38 размер,заказала 37.5...просто идеально!Мужу соответственно на 42ой заказали 41.5...Хочу особо отметить быструю доставку...20го июля оплатили 25го они уже на месте!Хочется побыстрее их выгулять)Спасибо огромное!🌺"
+        ],
+        "contentId": "1462225926_2",
+        "publishDate": "26 июл. 2026 г.",
+        "likeCount": 2,
+        "userName": "+***0",
+        "userId": 1109991421240697,
+        "skuProperty": "Размер: 37,5 RU (38,5 EU), Издание: Стандартная (D)",
+        "score": "5.0",
+        "originType": 2,
+        "likeStatus": 3,
+        "userIcon": "https://cdn-img.thepoizon.ru/node-common/a34a9a06-2ac1-9fd7-910e-f0e7a8d9e932-160-160.png",
+        "firstLetter": "+",
+        "trackingId": "1462225926"
+      },
+      {
+        "images": [
+          {
+            "imageUrl": "https://cdn.thepoizon.ru/app/bbmax-app/1109991420966654/fa99e500a345a5b84a856c5b0a03ed70_iOS_w720h960_1784980352.jpg",
+            "width": 720,
+            "mediaType": 1,
+            "height": 960
+          }
+        ],
+        "contentData": [
+          "Ощущение при носке: Это лучшие кроссовки, которые у меня когда-либо были. Ощущение легкости и комфорта непередаваемые. 100% оригинал проверил все позиции и даже ультрафиолетовым фонариком. Рекомендую!!!\n"
+        ],
+        "contentId": "1462219994_2",
+        "publishDate": "25 июл. 2026 г.",
         "likeCount": 1,
-        "userName": "Y***i",
-        "userId": 1542156,
-        "skuProperty": "",
-        "originType": 1,
+        "userName": "V***u",
+        "userId": 1109991420966654,
+        "skuProperty": "Размер: 42 RU (43 EU), Издание: Стандартная (D)",
+        "score": "5.0",
+        "originType": 2,
         "likeStatus": 3,
         "userIcon": "https://cdn-img.thepoizon.ru/node-common/406d577f-7616-5888-8afe-044842389877-160-160.png",
-        "firstLetter": "Y",
-        "trackingId": "346962400"
+        "firstLetter": "V",
+        "trackingId": "1462219994"
       },
       {
         "images": [
           {
-            "imageUrl": "https://image-cdn.poizon.com/app/2025/community/1091459410_byte741247byte_08d331b50cacebe20ef895368f551cfb_iOS_w1080h1277.jpg",
-            "width": 1080,
-            "height": 1277
+            "imageUrl": "https://image-cdn.poizon.com/app/2023/community/9195635_byte825625byte_f141fb67f5ceb1a3a33286de4fdc7c8e_iOS_w1440h1920.jpg",
+            "width": 1440,
+            "height": 1920
           },
           {
-            "imageUrl": "https://image-cdn.poizon.com/app/2025/community/1091459410_byte706050byte_0f10271bfd806eecede044267bffb17e_iOS_w1080h1258.jpg",
-            "width": 1080,
-            "height": 1258
+            "imageUrl": "https://image-cdn.poizon.com/app/2023/community/9195635_byte636830byte_c1886a201d75a8322541417094881d92_iOS_w1440h1920.jpg",
+            "width": 1440,
+            "height": 1920
+          },
+          {
+            "imageUrl": "https://image-cdn.poizon.com/app/2023/community/9195635_byte654564byte_2a0ebc840553ee208dbccdeae92dc455_iOS_w1440h1920.jpg",
+            "width": 1440,
+            "height": 1920
+          },
+          {
+            "imageUrl": "https://image-cdn.poizon.com/app/2023/community/9195635_byte707606byte_bcaad76aff67ceddc4a372e656e77da3_iOS_w1440h1920.jpg",
+            "width": 1440,
+            "height": 1920
           }
         ],
         "contentData": [],
-        "contentId": "1542608_1",
-        "publishDate": "6 апр. 2025 г.",
+        "contentId": "1455501_1",
+        "publishDate": "25 мар. 2026 г.",
         "likeCount": 0,
-        "userName": "C***g",
-        "userId": 1542608,
+        "userName": "C***o",
+        "userId": 1455501,
         "skuProperty": "",
         "originType": 1,
         "likeStatus": 3,
-        "userIcon": "https://cdn-img.thepoizon.ru/node-common/7a7f2f26-ebc4-6d81-ee44-1869d26fe9e9-160-160.png",
+        "userIcon": "https://cdn-img.thepoizon.ru/node-common/a34a9a06-2ac1-9fd7-910e-f0e7a8d9e932-160-160.png",
         "firstLetter": "C",
-        "trackingId": "298907582"
+        "trackingId": "122705993"
       },
       {
         "images": [
           {
-            "imageUrl": "https://image-cdn.poizon.com/app/2025/community/1505997100_modelV2242Amodel_byte882980byte_23047c83445f22a6f1d455e92190425c_du_android_w1260_h1652.webp",
-            "width": 1260,
-            "height": 1652
+            "imageUrl": "https://image-cdn.poizon.com/app/2025/community/2391163065_modelV2307Amodel_byte358964byte_8ac5cfb8e6240ab9812b8dd81922af25_1756911301840_du_android_w864_h1152.webp",
+            "width": 864,
+            "height": 1152
           },
           {
-            "imageUrl": "https://image-cdn.poizon.com/app/2025/community/1505997100_modelV2242Amodel_byte955062byte_b6e78c71e7fcb756bdb0ffdefb20ae19_du_android_w1260_h1640.webp",
-            "width": 1260,
-            "height": 1640
+            "imageUrl": "https://image-cdn.poizon.com/app/2025/community/2391163065_modelV2307Amodel_byte314224byte_3296a6642b90bfc8674ae5de7d3527e0_1756911301841_du_android_w864_h1152.webp",
+            "width": 864,
+            "height": 1152
+          },
+          {
+            "imageUrl": "https://image-cdn.poizon.com/app/2025/community/2391163065_modelV2307Amodel_byte330862byte_1861e621db7753a779925f0edb523067_1756911301841_du_android_w864_h1152.webp",
+            "width": 864,
+            "height": 1152
+          },
+          {
+            "imageUrl": "https://image-cdn.poizon.com/app/2025/community/2391163065_modelV2307Amodel_byte352262byte_95df334da94c3baf2c81d1d0b7b75d3a_1756911301842_du_android_w864_h1152.webp",
+            "width": 864,
+            "height": 1152
+          },
+          {
+            "imageUrl": "https://image-cdn.poizon.com/app/2025/community/2391163065_modelV2307Amodel_byte366188byte_95aa73aa1881b813ec99bb8e3dc311e0_1756911301842_du_android_w864_h1152.webp",
+            "width": 864,
+            "height": 1152
           }
         ],
         "contentData": [],
-        "contentId": "1542517_1",
-        "publishDate": "22 февр. 2025 г.",
+        "contentId": "827727_1",
+        "publishDate": "3 сент. 2025 г.",
         "likeCount": 0,
-        "userName": "X***s",
-        "userId": 1542517,
-        "skuProperty": "",
-        "originType": 1,
-        "likeStatus": 3,
-        "userIcon": "https://cdn-img.thepoizon.ru/node-common/19bc58a7-0868-8a91-9da8-dd683575ab17-160-160.png",
-        "firstLetter": "X",
-        "trackingId": "281990849"
-      },
-      {
-        "images": [
-          {
-            "imageUrl": "https://image-cdn.poizon.com/app/2024/community/2032340784_byte910339byte_d706d0f152beeedec47b216b832ad885_iOS_w1440h1920.jpg",
-            "width": 1440,
-            "height": 1920
-          },
-          {
-            "imageUrl": "https://image-cdn.poizon.com/app/2024/community/2032340784_byte877249byte_f54be2e1e6bd0794b332f72a694c1196_iOS_w1440h1920.jpg",
-            "width": 1440,
-            "height": 1920
-          }
-        ],
-        "contentData": [],
-        "contentId": "1542485_1",
-        "publishDate": "14 июл. 2024 г.",
-        "likeCount": 0,
-        "userName": "P***e",
-        "userId": 1542485,
+        "userName": "B***u",
+        "userId": 2927133644922107400,
         "skuProperty": "",
         "originType": 1,
         "likeStatus": 3,
         "userIcon": "https://cdn-img.thepoizon.ru/node-common/a6d1017c-4abd-dc26-e781-48c4832129c2-160-160.png",
-        "firstLetter": "P",
-        "trackingId": "201917164"
+        "firstLetter": "B",
+        "trackingId": "356958931"
       },
       {
         "images": [
           {
-            "imageUrl": "https://image-cdn.poizon.com/app/2024/community/36327833_byte870576byte_9a36d46205affc414307b88e0b004aeb_iOS_w1440h1920.jpg",
-            "width": 1440,
-            "height": 1920
+            "imageUrl": "https://image-cdn.poizon.com/app/2025/community/106067261_byte625550byte_c3cd51c643cb28648514d8d50c5846ac_iOS_w834h1112.jpg",
+            "width": 834,
+            "height": 1112
           }
         ],
         "contentData": [],
-        "contentId": "1542519_1",
-        "publishDate": "17 июн. 2024 г.",
+        "contentId": "1330866_1",
+        "publishDate": "10 мар. 2025 г.",
         "likeCount": 0,
-        "userName": "I***r",
-        "userId": 1542519,
+        "userName": "W***6",
+        "userId": 1330866,
         "skuProperty": "",
         "originType": 1,
         "likeStatus": 3,
-        "userIcon": "https://cdn-img.thepoizon.ru/node-common/2e8e5355-70ae-8c89-8cf2-885c177483e4-160-160.png",
-        "firstLetter": "I",
-        "trackingId": "193961956"
+        "userIcon": "https://cdn-img.thepoizon.ru/node-common/104d98b7-e1a3-a974-2d7e-dd263ee74ec0-160-160.png",
+        "firstLetter": "W",
+        "trackingId": "288256546"
       },
       {
         "images": [
           {
-            "imageUrl": "https://image-cdn.poizon.com/app/2024/community/1060768507_byte280606byte_91ed6c3998199415b9f32a68f7489ac7_iOS_w1080h1920.jpg",
-            "width": 1080,
+            "imageUrl": "https://image-cdn.poizon.com/app/2024/community/15345557_byte2175855byte_da7dc622b0c06466cadae1be8f3f8d01_iOS_w1439h1920.jpg",
+            "width": 1439,
+            "height": 1920
+          },
+          {
+            "imageUrl": "https://image-cdn.poizon.com/app/2024/community/15345557_byte2076319byte_0b63a130a37859bdb65d8d395e495bc1_iOS_w1439h1920.jpg",
+            "width": 1439,
+            "height": 1920
+          },
+          {
+            "imageUrl": "https://image-cdn.poizon.com/app/2024/community/15345557_byte2313790byte_1de308d2fee80fd82dce780e604dd1ba_iOS_w1439h1920.jpg",
+            "width": 1439,
             "height": 1920
           }
         ],
         "contentData": [],
-        "contentId": "1542512_1",
-        "publishDate": "21 апр. 2024 г.",
+        "contentId": "1455037_1",
+        "publishDate": "28 мая 2024 г.",
         "likeCount": 0,
-        "userName": "H***a",
-        "userId": 1542512,
+        "userName": "X***n",
+        "userId": 1455037,
         "skuProperty": "",
         "originType": 1,
         "likeStatus": 3,
-        "userIcon": "https://cdn-img.thepoizon.ru/node-common/59ae35a3-a541-165a-3351-d4fc5b6778ee-160-160.png",
-        "firstLetter": "H",
-        "trackingId": "176555716"
+        "userIcon": "https://cdn-img.thepoizon.ru/node-common/efb16cdc-d30b-0e59-7288-c47f10d684c4-160-160.png",
+        "firstLetter": "X",
+        "trackingId": "187888098"
       }
     ]
   },
   "detailTextModule": {
     "detailTextList": [
       {
+        "generalType": "PROCESS_INTRO_INFO",
+        "subTitle": "Детали изготовления",
+        "imgEvenTrace": "{\"position\":\"pure_text_floor\",\"typeKey\":\"PROCESS_INTRO_INFO\"}",
+        "content": "Из-за особенностей технологии изготовления верх обуви из нескольких материалов, соединённых швами или строчками, могут присутствовать незначительные явления: незначительные излишки клея, небольшие расхождения швов, торчащие нитки и т. п. Это считается нормальным и не влияет на носку, это не проблемы с качеством. Каждый продукт гарантирован 100% подлинностью через сервис аутентификации ДЭВУ (Poizon) — покупайте с уверенностью."
+      },
+      {
+        "generalType": "INTRODUCTION",
+        "subTitle": "История создания",
+        "imgEvenTrace": "{\"position\":\"pure_text_floor\",\"typeKey\":\"INTRODUCTION\"}",
+        "content": "Эти беговые кроссовки New Balance NB 530 с классическим ретро-дизайном стали популярным выбором среди многих любителей спорта. \n\nМодель выполнена в однослойном дизайне, что делает обувь более легкой и снижает нагрузку на стопу, обеспечивая комфорт во время бега. Верхняя часть изготовлена из сетчатой ткани и искусственной кожи, что обеспечивает отличную воздухопроницаемость, сохраняя ноги сухими и комфортными, а также повышает износостойкость, продлевая срок службы обуви. \n\nАмортизация — одна из ключевых особенностей этой модели, эффективно смягчающая ударные нагрузки при беге, защищая стопы и суставы для более комфортного бегового опыта. Низкий силуэт не только выглядит стильно, но и обеспечивает лучшую гибкость и свободу движений. \n\nКроме того, эта модель унисекс — независимо от пола, вы сможете подобрать подходящий размер. Серебристо-белый цвет выглядит элегантно и универсально, сочетаясь с любой спортивной экипировкой. \n\nNew Balance NB 530 — идеальный выбор для весенних пробежек, гармонично сочетающий классический ретро-стиль с современными технологиями для комфортного, стильного и долговечного бега."
+      },
+      {
         "generalType": "BRAND_STORY",
         "subTitle": "История бренда",
         "imgEvenTrace": "{\"position\":\"pure_text_floor\",\"typeKey\":\"BRAND_STORY\"}",
-        "content": "Air Jordan — линия Nike, названная в честь легенды NBA Майкла Джордана. Основанная в 1985 году, она за три десятилетия превратилась в одну из самых популярных в мире коллекций баскетбольных кроссовок, многие модели которой завоевали признание как в мире моды, так и среди любителей кроссовок."
+        "content": "New Balance была основана в 1906 году Уильямом Дж. Райли в Бостоне — столице марафонов США. Бренд заслужил репутацию «президентских кроссовок» и «короля беговой обуви» не только в США, но и во многих других странах. За более чем 110 лет существования компания продолжает внедрять инновации, неустанно разрабатывая обувь, которая лучше соответствует эргономике человека благодаря новым технологиям. Сегодня New Balance — всемирно признанный бренд обуви, а его культовая серия 574 выдержала испытание временем и по-прежнему занимает прочные позиции на рынке, оставаясь значимой частью модной индустрии."
       }
     ],
     "title": "Описание товара"
   },
   "configInfo": {
     "abTestResult": {
-      "597bbamx-remembersize-series": "3"
+      "597bbamx-remembersize-series": "3",
+      "bbmax-local-label-598": "1"
     }
   },
-  "sizeImageList": [
-    {
-      "images": [
-        {
-          "width": 938,
-          "genericType": "SIZE_CAPACITY_DIAGRAM",
-          "imgEvenTrace": "{\"position\":\"size_image_floor\",\"typeKey\":\"SIZE_CAPACITY_DIAGRAM\"}",
-          "url": "https://cdn-img.thepoizon.ru/algo/commodity-image-synthesis/7eee7d5a-cb5d-11ef-8a6f-00163e43be08_cm.png",
-          "imgType": 10004,
-          "height": 533
-        }
-      ],
-      "title": "ГАБАРИТЫ И ВМЕСТИМОСТЬ"
-    }
-  ],
+  "sizeImageList": [],
   "favoriteResp": {},
   "deliveryInfo": {
     "shippingMethod": {
@@ -967,29 +4804,25 @@
     "content": "",
     "tips": "При оформлении заказа вы можете выбрать ускоренную доставку."
   },
-  "commodity3DModel": {
-    "exist3dInfo": false,
-    "guide3dText": "Посмотреть в 3D"
-  },
   "brandItemsModel": {
     "isShowBrand": 1,
-    "brandName": "Jordan",
-    "brandId": 13,
-    "linkUrl": "https://m.poizon.com/router/buyer/detailCollectionPage?url=%2Fcategory%2Fproduct-recommend&title=Jordan&brandId=13&recSpuIds=8900028471730486&sourceName=1&pageType=brand",
-    "brandItems": "93 тыс. товаров",
-    "brandLogo": "https://cdn-img.thepoizon.ru/pro-img/brand-logo/cut-img/20250221/a19c049a7d314026b7070ca3597e9390.jpg"
+    "brandName": "New Balance",
+    "brandId": 4,
+    "linkUrl": "https://m.poizon.com/router/buyer/detailCollectionPage?url=%2Fcategory%2Fproduct-recommend&title=New%20Balance&brandId=4&recSpuIds=8900001978861819&sourceName=1&pageType=brand",
+    "brandItems": "78 тыс. товаров",
+    "brandLogo": "https://cdn-img.thepoizon.ru/pro-img/brand-logo/cut-img/20250221/7240c008c5e545a9be3504f1b2a9452b.jpg"
   },
   "productTextInfo": {
     "extendClickArea": false,
-    "icon": "https://cdn-img.thepoizon.ru/node-common/d1236e6e-361a-2d45-ef0d-6ed34332365d-160-160.png",
+    "icon": "https://cdn-img.thepoizon.ru/node-common/441821bc-8f2f-0850-d29c-0e0ba2eb449e-160-160.png",
     "soldTextCanBeClick": true,
-    "maskUserName": "t***8",
-    "soldText": "t***8 недавно купил(а)",
-    "firstLetter": "t"
+    "maskUserName": "R***v",
+    "soldText": "R***v недавно купил(а)",
+    "firstLetter": "R"
   },
-  "styleMode": 3,
+  "styleMode": 2,
   "imText": "Помощь",
-  "saleCount": "t***8 недавно купил(а)",
+  "saleCount": "R***v недавно купил(а)",
   "itemDetailsAbValue": true,
   "returnAndBack": {
     "title": "DELIVERY & RETURNS",
@@ -998,28 +4831,28 @@
   "mainImgWearStyleResp": {
     "spuItems": [
       {
-        "picWidth": 1086,
-        "picHeight": 1920,
-        "contentId": 1520241926,
+        "picWidth": 1222,
+        "picHeight": 1221,
+        "contentId": 1386424596,
         "label": 3,
         "imgEvenTrace": "{\"position\":\"styles\",\"typeKey\":\"MAIN_IMG_WEAR_STYLE\"}",
-        "url": "https://image-cdn.poizon.com/alg/flush-2023/app/2023/community/21221570_byte640446byte_6092d3db6bca18997d4644d0c068b27f_iOS_w1440h1920.jpg"
-      },
-      {
-        "picWidth": 886,
-        "picHeight": 1181,
-        "contentId": 1520241927,
-        "label": 3,
-        "imgEvenTrace": "{\"position\":\"styles\",\"typeKey\":\"MAIN_IMG_WEAR_STYLE\"}",
-        "url": "https://image-cdn.poizon.com/app/2025/community/117826841_byte843545byte_4011a154bf95ec808b103d569d2918c5_iOS_w886h1181.jpg"
+        "url": "https://cdn-img.thepoizon.ru/du_app/2021/image/1523311250_byte259183byte_cf66bfcc99b56a653a017702cfdd7f0f_iOS_w1222h1221.jpg"
       },
       {
         "picWidth": 1080,
-        "picHeight": 1277,
-        "contentId": 1520242463,
+        "picHeight": 1080,
+        "contentId": 1386303861,
         "label": 3,
         "imgEvenTrace": "{\"position\":\"styles\",\"typeKey\":\"MAIN_IMG_WEAR_STYLE\"}",
-        "url": "https://image-cdn.poizon.com/app/2025/community/1091459410_byte741247byte_08d331b50cacebe20ef895368f551cfb_iOS_w1080h1277.jpg"
+        "url": "https://cdn-img.thepoizon.ru/du_app/2020/image/112839408_modelPBBM00model_byte172610byte_c2b8053f1b70f69294df9fb06fe60314_du_android_w1080_h1080.png"
+      },
+      {
+        "picWidth": 1170,
+        "picHeight": 1560,
+        "contentId": 1501402313,
+        "label": 3,
+        "imgEvenTrace": "{\"position\":\"styles\",\"typeKey\":\"MAIN_IMG_WEAR_STYLE\"}",
+        "url": "https://image-cdn.poizon.com/app/2024/community/1995963114_byte226685byte_2ea561b2c2b08e1cc8d315d26e8c6fc8_iOS_w1170h1560.jpg"
       }
     ]
   },
@@ -1053,11 +4886,11 @@
     "support": false,
     "content": "Защита перевозки доступна с {logo}"
   },
-  "favoriteNum": "68 тыс.",
+  "favoriteNum": "2,6 млн",
   "imageModels": [
     {
       "modelWear": false,
-      "imageId": 619257269,
+      "imageId": 625921419,
       "colorStyle": "FFFFFF",
       "channel": 1,
       "sort": 1,
@@ -1065,27 +4898,13 @@
       "genericType": "PHOTO_white",
       "genericTypeSort": 1,
       "imgEvenTrace": "{\"position\":\"item\",\"typeKey\":\"PHOTO\",\"tagKey\":\"white\"}",
-      "url": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20240228/5cdfaad30b304b92b8feb9427941c5fa.jpg",
+      "url": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20240726/1eed0defcabe44b989217ec6ef6a8431.jpg",
       "imgType": 0,
       "burialImgType": 0
     },
     {
       "modelWear": false,
-      "imageId": 619257270,
-      "colorStyle": "FFFFFF",
-      "channel": 1,
-      "sort": 2,
-      "label": 0,
-      "genericType": "PHOTO_white",
-      "genericTypeSort": 1,
-      "imgEvenTrace": "{\"position\":\"item\",\"typeKey\":\"PHOTO\",\"tagKey\":\"white\"}",
-      "url": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20240229/856ea062593a4735b9482fd562a19edc.jpg",
-      "imgType": 0,
-      "burialImgType": 0
-    },
-    {
-      "modelWear": false,
-      "imageId": 619257271,
+      "imageId": 614844880,
       "colorStyle": "FFFFFF",
       "channel": 1,
       "sort": 3,
@@ -1093,13 +4912,13 @@
       "genericType": "PHOTO_white",
       "genericTypeSort": 1,
       "imgEvenTrace": "{\"position\":\"item\",\"typeKey\":\"PHOTO\",\"tagKey\":\"white\"}",
-      "url": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20240229/45aefa05503347a19a5a04fe459b37b2.jpg",
+      "url": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20230707/c61f492cf7e84126ac2d2ef99fa3471e.jpg",
       "imgType": 0,
       "burialImgType": 0
     },
     {
       "modelWear": false,
-      "imageId": 619257272,
+      "imageId": 614844881,
       "colorStyle": "FFFFFF",
       "channel": 1,
       "sort": 4,
@@ -1107,37 +4926,191 @@
       "genericType": "PHOTO_white",
       "genericTypeSort": 1,
       "imgEvenTrace": "{\"position\":\"item\",\"typeKey\":\"PHOTO\",\"tagKey\":\"white\"}",
-      "url": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20240229/fed9a69f68d941eaa370c98e8547a2f9.jpg",
+      "url": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20230707/c68364f5c463424eafeb975c72fd51e4.jpg",
       "imgType": 0,
       "burialImgType": 0
     },
     {
-      "modelWear": true,
-      "imageId": 625972149,
+      "modelWear": false,
+      "imageId": 614844882,
       "colorStyle": "FFFFFF",
       "channel": 1,
       "sort": 5,
+      "label": 0,
+      "genericType": "PHOTO_white",
+      "genericTypeSort": 1,
+      "imgEvenTrace": "{\"position\":\"item\",\"typeKey\":\"PHOTO\",\"tagKey\":\"white\"}",
+      "url": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20230707/51d05eccaedd4fb18b9020d0c34168a6.jpg",
+      "imgType": 0,
+      "burialImgType": 0
+    },
+    {
+      "modelWear": false,
+      "imageId": 626579630,
+      "colorStyle": "FFFFFF",
+      "channel": 1,
+      "sort": 12,
+      "label": 0,
+      "genericType": "PHOTO_-",
+      "genericTypeSort": 2,
+      "imgEvenTrace": "{\"position\":\"item\",\"typeKey\":\"PHOTO\"}",
+      "url": "https://cdn-img.thepoizon.ru/node-common/NTE2Mjc1NTI5MDkyNjc=.jpg",
+      "imgType": 0,
+      "burialImgType": 0
+    },
+    {
+      "modelWear": false,
+      "imageId": 1005107959651819,
+      "colorStyle": "FFFFFF",
+      "channel": 1,
+      "sort": 1,
+      "label": 1,
+      "genericType": "INTL_SELLING_POINT_IMAGE_all",
+      "genericTypeSort": 0,
+      "imgEvenTrace": "{\"position\":\"outfits\",\"typeKey\":\"INTL_SELLING_POINT_IMAGE\"}",
+      "url": "https://h5static.dewucdn.com/node-common/7cfb14be-fa8f-ffdf-f57a-7e9edb4f4681-1024-1024.png",
+      "imgType": 1064,
+      "burialImgType": 1064
+    },
+    {
+      "modelWear": true,
+      "imageId": 1005224768421819,
+      "colorStyle": "FFFFFF",
+      "channel": 1,
+      "sort": 2,
       "label": 1,
       "genericType": "PHOTO_model",
       "genericTypeSort": 9,
       "imgEvenTrace": "{\"position\":\"outfits\",\"typeKey\":\"PHOTO\",\"tagKey\":\"model\"}",
-      "url": "https://cdn-img.thepoizon.ru/trade/gondor/10293621/20231009-9ef38be70c72cbac-w864h864.jpg",
+      "url": "https://cdn-img.thepoizon.ru/materialPicPath/b1008a2993e648babc6b3127ea90b975.jpg",
       "imgType": 0,
       "burialImgType": 4
     },
     {
-      "modelWear": false,
+      "modelWear": true,
+      "imageId": 626579635,
       "colorStyle": "FFFFFF",
-      "width": 938,
       "channel": 1,
-      "label": 2,
-      "genericType": "SIZE_CAPACITY_DIAGRAM_all",
-      "genericTypeSort": 1,
-      "imgEvenTrace": "{\"position\":\"size\",\"typeKey\":\"SIZE_CAPACITY_DIAGRAM\"}",
-      "url": "https://cdn-img.thepoizon.ru/algo/commodity-image-synthesis/7eee7d5a-cb5d-11ef-8a6f-00163e43be08_cm.png",
-      "imgType": 10004,
-      "height": 533,
-      "burialImgType": 10004
+      "sort": 6,
+      "label": 1,
+      "genericType": "PHOTO_model",
+      "genericTypeSort": 9,
+      "imgEvenTrace": "{\"position\":\"outfits\",\"typeKey\":\"PHOTO\",\"tagKey\":\"model\"}",
+      "url": "https://cdn-img.thepoizon.ru/stark/stark-web/1740513263/3cc609e15cce9f589b3cbe28aa9c7452.jpg",
+      "imgType": 0,
+      "burialImgType": 4
+    },
+    {
+      "modelWear": true,
+      "imageId": 626579628,
+      "colorStyle": "FFFFFF",
+      "channel": 1,
+      "sort": 7,
+      "label": 1,
+      "genericType": "PHOTO_model",
+      "genericTypeSort": 9,
+      "imgEvenTrace": "{\"position\":\"outfits\",\"typeKey\":\"PHOTO\",\"tagKey\":\"model\"}",
+      "url": "https://cdn-img.thepoizon.ru/stark/stark-web/1740513263/0bcbfcc4579ce98078e6f3e2ccc94da1.jpg",
+      "imgType": 0,
+      "burialImgType": 4
+    },
+    {
+      "modelWear": true,
+      "imageId": 626579632,
+      "colorStyle": "FFFFFF",
+      "channel": 1,
+      "sort": 8,
+      "label": 1,
+      "genericType": "PHOTO_model",
+      "genericTypeSort": 9,
+      "imgEvenTrace": "{\"position\":\"outfits\",\"typeKey\":\"PHOTO\",\"tagKey\":\"model\"}",
+      "url": "https://cdn-img.thepoizon.ru/stark/stark-web/1740513263/443243f6b757bd0b14cf01b95b3c97d3.jpg",
+      "imgType": 0,
+      "burialImgType": 4
+    },
+    {
+      "modelWear": true,
+      "imageId": 626579634,
+      "colorStyle": "FFFFFF",
+      "channel": 1,
+      "sort": 9,
+      "label": 1,
+      "genericType": "PHOTO_model",
+      "genericTypeSort": 9,
+      "imgEvenTrace": "{\"position\":\"outfits\",\"typeKey\":\"PHOTO\",\"tagKey\":\"model\"}",
+      "url": "https://cdn-img.thepoizon.ru/stark/stark-web/1740513263/4a146bf0eb473d87ed254ba76252d797.jpg",
+      "imgType": 0,
+      "burialImgType": 4
+    },
+    {
+      "modelWear": true,
+      "imageId": 626579636,
+      "colorStyle": "FFFFFF",
+      "channel": 1,
+      "sort": 10,
+      "label": 1,
+      "genericType": "PHOTO_model",
+      "genericTypeSort": 9,
+      "imgEvenTrace": "{\"position\":\"outfits\",\"typeKey\":\"PHOTO\",\"tagKey\":\"model\"}",
+      "url": "https://cdn-img.thepoizon.ru/stark/stark-web/1740513263/c0f91a2398579e9798fbe5be9c34192f.jpg",
+      "imgType": 0,
+      "burialImgType": 4
+    },
+    {
+      "modelWear": true,
+      "imageId": 626579629,
+      "colorStyle": "FFFFFF",
+      "channel": 1,
+      "sort": 11,
+      "label": 1,
+      "genericType": "PHOTO_model",
+      "genericTypeSort": 9,
+      "imgEvenTrace": "{\"position\":\"outfits\",\"typeKey\":\"PHOTO\",\"tagKey\":\"model\"}",
+      "url": "https://cdn-img.thepoizon.ru/node-common/NDE2Mjc1NTI5MDkxMzY=.jpg",
+      "imgType": 0,
+      "burialImgType": 4
+    },
+    {
+      "modelWear": true,
+      "imageId": 626579637,
+      "colorStyle": "FFFFFF",
+      "channel": 1,
+      "sort": 13,
+      "label": 1,
+      "genericType": "PHOTO_model",
+      "genericTypeSort": 9,
+      "imgEvenTrace": "{\"position\":\"outfits\",\"typeKey\":\"PHOTO\",\"tagKey\":\"model\"}",
+      "url": "https://cdn-img.thepoizon.ru/node-common/MjIxNjI3NTUyOTA5MzE2.jpg",
+      "imgType": 0,
+      "burialImgType": 4
+    },
+    {
+      "modelWear": true,
+      "imageId": 626579638,
+      "colorStyle": "FFFFFF",
+      "channel": 1,
+      "sort": 14,
+      "label": 1,
+      "genericType": "PHOTO_model",
+      "genericTypeSort": 9,
+      "imgEvenTrace": "{\"position\":\"outfits\",\"typeKey\":\"PHOTO\",\"tagKey\":\"model\"}",
+      "url": "https://cdn-img.thepoizon.ru/node-common/JUU2JTlDJUFBJUU2JUEwJTg3JUU5JUEyJTk4LTExNjI3NTUyOTA5NDAx.jpg",
+      "imgType": 0,
+      "burialImgType": 4
+    },
+    {
+      "modelWear": true,
+      "imageId": 626579633,
+      "colorStyle": "FFFFFF",
+      "channel": 1,
+      "sort": 15,
+      "label": 1,
+      "genericType": "PHOTO_model",
+      "genericTypeSort": 9,
+      "imgEvenTrace": "{\"position\":\"outfits\",\"typeKey\":\"PHOTO\",\"tagKey\":\"model\"}",
+      "url": "https://cdn-img.thepoizon.ru/node-common/MTE2Mjc1NTI5MDkwNDk=.jpg",
+      "imgType": 0,
+      "burialImgType": 4
     }
   ],
   "shoppingAtEase": {

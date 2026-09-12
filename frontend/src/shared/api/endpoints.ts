@@ -14,3 +14,6 @@ export const CATEGORY_TREE = PUBLIC_API_BASE_URL + "/category-tree"
 
 export const PRODUCT_DETAIL  = (spuId: number) =>
   PUBLIC_API_BASE_URL + `/product-info/${spuId}`;
+
+export const PRODUCT_DETAIL_REVIEWS  = (spuId: number) =>
+  PUBLIC_API_BASE_URL + `/reviews/${spuId}`;

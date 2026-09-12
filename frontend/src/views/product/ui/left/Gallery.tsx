@@ -77,7 +77,7 @@ const Gallery = () => {
               loading={index === 0 ? "eager" : "lazy"}
               fetchPriority={index === 0 ? "high" : "auto"}
               decoding="async"
-              className="aspect-square w-full h-auto object-cover bg-white"
+              className="aspect-square w-full h-auto object-contain bg-white"
               draggable={false}
             />
           </SwiperSlide>

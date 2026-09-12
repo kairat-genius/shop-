@@ -2,16 +2,16 @@
 import Icon from "@/shared/icon";
 import { Button } from "@/shared/ui/action";
 import Modal from "@/shared/ui/modal";
-import { reviewsData } from "../../data/reviews.data";
 import { Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import { useState } from "react";
 import type { Swiper as SwiperType } from "swiper";
 import { cn } from "@/shared/utils/clsx";
+import { ReviewType } from "@/types/review.type";
 
 interface ReviewDetailModalProps {
-  review: (typeof reviewsData)[number];
+  review: ReviewType;
   initialSlide: number;
   onClose: () => void;
 }
@@ -55,10 +55,10 @@ const ReviewDetailModal = ({
           }}
           allowTouchMove={false}
         >
-          {review.images.map((img, idx) => (
+          {review.images?.map((img, idx) => (
             <SwiperSlide key={idx}>
               <img
-                src={img}
+                src={img.imageUrl}
                 alt={`Фото от ${idx}`}
                 className="w-full h-full aspect-square object-contain bg-slate-150"
                 draggable={false}
@@ -88,12 +88,12 @@ const ReviewDetailModal = ({
           <div className="flex items-center text-[12px] leading-normal">
             <img
               className="w-5.5 h-5.5 aspect-square rounded-full"
-              src={review.avatar}
+              src={review.userIcon}
               alt=""
             />
 
-            <div className="ml-1">{review.username}</div>
-            <div className="text-slate-500">{review.date}</div>
+            <div className="ml-1">{review.userName}</div>
+            <div className="text-slate-500">{review.publishDate}</div>
           </div>
           <div className="flex gap-1 items-center mt-2">
             <Icon icon="star" width={14} height={14} />{" "}
@@ -102,16 +102,18 @@ const ReviewDetailModal = ({
             <Icon icon="star" width={14} height={14} />{" "}
             <Icon icon="star" width={14} height={14} />
           </div>
-          <div className="mt-4 leading-4.5 text-[12px]">{review.text}</div>
+          <div className="mt-4 leading-4.5 text-[12px]">
+            {review.reviewData.join(" ")}
+          </div>
           <div className="mt-3 grid grid-cols-3 gap-px">
-            {review.images.map((item, index) => (
+            {review.images?.map((item, index) => (
               <img
                 key={index}
                 className={cn(
                   "w-28.5 h-28.5 aspect-square border cursor-pointer object-cover",
                   activeIndex === index ? "border-slate-950" : "border-white",
                 )}
-                src={item}
+                src={item.imageUrl}
                 onClick={() => handleThumbClick(index)}
                 alt=""
               />

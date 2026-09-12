@@ -6,41 +6,82 @@ import Modal from "@/shared/ui/modal";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/thumbs";
-import { useState } from "react";
+import { useEffect, useState, useMemo } from "react";
 import type { Swiper as SwiperType } from "swiper";
 import { Navigation, Thumbs } from "swiper/modules";
 import { cn } from "@/shared/utils/clsx";
 
 interface GalleryImage {
   src: string;
-  username: string;
-  avatar: string;
-  date: string;
-  rating: number;
-  size: string;
-  color: string;
-  text: string;
-  size_fit: string;
-  foot_length: string | null;
-  is_translated: boolean;
+  publishDate: string;
+  userName: string;
+  userId: number;
+  skuProperty: string;
+  sizeFeelingText: string;
+  score: string;
+  originType: number;
+  reviewData: string[];
+  poizonReply: string;
+  userIcon: string;
+  reviewId: string;
+  trackingId: string;
 }
 
 interface ReviewGalleryModalProps {
   onClose: () => void;
   images: GalleryImage[];
   initialSlide: number;
+  loadMore?: () => void;
+  hasMore?: boolean;
+  isLoading?: boolean;
 }
 
 const ReviewGalleryModal = ({
   onClose,
   images,
   initialSlide,
+  loadMore,
+  hasMore,
+  isLoading,
 }: ReviewGalleryModalProps) => {
   const [thumbsSwiper, setThumbsSwiper] = useState<SwiperType | null>(null);
   const [activeIndex, setActiveIndex] = useState(initialSlide);
+  const [isBeginning, setIsBeginning] = useState(true);
+  const [isEnd, setIsEnd] = useState(false);
+
   const activeImage = images[activeIndex];
 
   useBodyScrollLock(true);
+
+  // 1. Мемоизируем модули, чтобы Swiper не пересоздавался при каждом рендере
+  const swiperModules = useMemo(() => [Thumbs, Navigation], []);
+
+  // Обновляем состояния начала и конца слайдера при подгрузке новых изображений
+  useEffect(() => {
+    if (thumbsSwiper && !thumbsSwiper.destroyed) {
+      thumbsSwiper.update();
+      setIsBeginning(thumbsSwiper.isBeginning);
+      setIsEnd(thumbsSwiper.isEnd);
+    }
+  }, [images, thumbsSwiper]);
+
+  // Фоновая подгрузка при просмотре главных фото (если осталось 8 до конца)
+  useEffect(() => {
+    if (
+      hasMore &&
+      !isLoading &&
+      loadMore &&
+      images.length - activeIndex <= 8
+    ) {
+      loadMore();
+    }
+  }, [activeIndex, images.length, hasMore, isLoading, loadMore]);
+
+  const handleScroll = () => {
+    if (hasMore && !isLoading && loadMore) {
+      loadMore();
+    }
+  };
 
   return (
     <Modal
@@ -63,7 +104,10 @@ const ReviewGalleryModal = ({
           <div className="w-144 h-144 relative">
             <Swiper
               className="w-full h-full"
-              modules={[Thumbs, Navigation]}
+              modules={swiperModules}
+              // 2. Включаем обсерверы
+              observer={true}
+              observeParents={true}
               thumbs={{
                 swiper:
                   thumbsSwiper && !thumbsSwiper.destroyed ? thumbsSwiper : null,
@@ -77,10 +121,11 @@ const ReviewGalleryModal = ({
               allowTouchMove={false}
             >
               {images.map((img, idx) => (
-                <SwiperSlide key={idx}>
+                // 3. Уникальный ключ
+                <SwiperSlide key={`${img.src}-${idx}`}>
                   <img
                     src={img.src}
-                    alt={`Фото от ${img.username}`}
+                    alt={`Фото от ${img.userName}`}
                     className="w-full h-full aspect-square object-contain bg-slate-150"
                     draggable={false}
                   />
@@ -109,12 +154,12 @@ const ReviewGalleryModal = ({
               <div className="flex">
                 <img
                   className="w-5.5 h-5.5 rounded-full object-cover"
-                  src={activeImage.avatar}
-                  alt={activeImage.username}
+                  src={activeImage.userIcon}
+                  alt={activeImage.userName}
                 />
 
                 <div className="font-light text-[12px] ml-1 leading-normal">
-                  {activeImage.username}
+                  {activeImage.userName}
                 </div>
                 <div className="flex gap-1 items-center ml-1">
                   <Icon icon="star" width={12} height={12} />
@@ -124,20 +169,24 @@ const ReviewGalleryModal = ({
                   <Icon icon="star" width={12} height={12} />
                 </div>
                 <div className="font-light text-[12px] ml-auto">
-                  {activeImage.date}
+                  {activeImage.publishDate}
                 </div>
               </div>
               <div className="mt-1 text-[12px] leading-4 font-light text-slate-500">
-                Размер: {activeImage.size}, Цвет: {activeImage.color}
+                {activeImage.skuProperty}
               </div>
               <div className="text-[12px] leading-4.5 mt-3">
-                {activeImage.text}
+                {activeImage.reviewData.join(" ")}
               </div>
             </div>
           )}
         </div>
         <div className="w-144 flex items-center gap-2.5">
-          <Button className="review-gallery-thumb-prev disabled:cursor-not-allowed disabled:text-slate-300">
+          <Button
+            className="disabled:cursor-not-allowed disabled:text-slate-300 shrink-0"
+            onClick={() => thumbsSwiper?.slidePrev()}
+            disabled={isBeginning}
+          >
             <Icon
               icon="chevron-right"
               className="rotate-180"
@@ -147,22 +196,35 @@ const ReviewGalleryModal = ({
           </Button>
           {images.length > 1 && (
             <Swiper
-              modules={[Thumbs, Navigation]}
-              onSwiper={setThumbsSwiper}
+              modules={swiperModules}
+              // 2. Включаем обсерверы
+              observer={true}
+              observeParents={true}
+              onSwiper={(swiper) => {
+                setThumbsSwiper(swiper);
+                setIsBeginning(swiper.isBeginning);
+                setIsEnd(swiper.isEnd);
+              }}
+              onSlideChange={(swiper) => {
+                setIsBeginning(swiper.isBeginning);
+                setIsEnd(swiper.isEnd);
+                
+                // 4. Подгрузка при прокрутке миниатюр
+                if (swiper.progress > 0.6 && hasMore && !isLoading && loadMore) {
+                  loadMore();
+                }
+              }}
               spaceBetween={4}
               slidesPerGroup={13}
               slidesPerView={13}
               watchSlidesProgress
               className="w-full"
-              navigation={{
-                nextEl: ".review-gallery-thumb-next",
-                prevEl: ".review-gallery-thumb-prev",
-              }}
               allowTouchMove={false}
             >
               {images.map((img, idx) => (
                 <SwiperSlide
-                  key={idx}
+                  // 3. Уникальный ключ
+                  key={`${img.src}-${idx}`}
                   className={cn(
                     "cursor-pointer transition-all duration-200",
                     activeIndex === idx && "border-scale before:border-2",
@@ -180,7 +242,17 @@ const ReviewGalleryModal = ({
               ))}
             </Swiper>
           )}
-          <Button className="review-gallery-thumb-next disabled:cursor-not-allowed disabled:text-slate-300">
+          <Button
+            className="disabled:cursor-not-allowed disabled:text-slate-300 shrink-0"
+            onClick={() => {
+              if (isEnd) {
+                handleScroll();
+              } else {
+                thumbsSwiper?.slideNext();
+              }
+            }}
+            disabled={isEnd && !hasMore}
+          >
             <Icon icon="chevron-right" width={20} height={20} />
           </Button>
         </div>

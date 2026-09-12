@@ -4,19 +4,19 @@ import Icon from "@/shared/icon";
 import { Button } from "@/shared/ui/action";
 import { useState } from "react";
 import dynamic from "next/dynamic";
-import type { RankingModuleType, PriceType } from "@/types/product-detail.type";
+import { useProductDetailData } from "../../context/useCatalogData";
 
 const PriceInfoModal = dynamic(() => import("../modal/PriceInfoModal"), {
   ssr: false,
 });
 
-interface ProductHeaderProps {
-  price: PriceType;
-  rankingModule?: RankingModuleType;
-}
-
-const ProductHeader = ({ price, rankingModule }: ProductHeaderProps) => {
+const ProductHeader = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const {
+    productData: { rankingModule, price },
+    activeSku,
+  } = useProductDetailData();
 
   const rankingList = rankingModule?.rankingList ?? [];
   return (
@@ -24,7 +24,9 @@ const ProductHeader = ({ price, rankingModule }: ProductHeaderProps) => {
       <div className="flex flex-wrap justify-between items-center mt-2">
         <div className="flex items-center gap-0.5">
           <div className="text-[24px] font-bold font-roboto_condensed leading-7">
-            {price.amountText} {price.symbol}
+            {activeSku?.minPrice?.localizedDisplayText
+              ? `${activeSku.minPrice.localizedDisplayText}`
+              : "-- ₽"}
           </div>
           <Button
             className="text-slate-500"
@@ -68,6 +70,15 @@ const ProductHeader = ({ price, rankingModule }: ProductHeaderProps) => {
             {rankInfo.name && <div className="font-light">{rankInfo.name}</div>}
             <Icon icon="chevron-right" width={12} height={12} />
           </Link>
+        ))}
+
+        {activeSku?.hitBizTags?.map((item, index) => (
+          <div
+            key={index}
+            className="text-[12px] px-1 py-0.5 border border-slate-200 rounded-xs font-light text-slate-500"
+          >
+            {item.name}
+          </div>
         ))}
       </div>
       <Link

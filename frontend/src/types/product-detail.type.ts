@@ -281,7 +281,7 @@ export type SkusType = {
       type: 2;
     },
   ];
-  minPrice: {
+  minPrice?: {
     symbol: "₽";
     localizedDisplayText: "8 559 ₽";
     money: {
@@ -401,4 +401,5 @@ export type ProductDetailType = {
 
   saleImages: [];
   commodityReviews: CommodityReviewsType;
+  favoriteNum: string;
 };

@@ -1,12 +1,12 @@
 "use client";
 import { Button } from "@/shared/ui/action";
 import Icon from "@/shared/icon";
-import { reviewsData } from "../../data/reviews.data";
 import { useCallback, useMemo, useState } from "react";
 import dynamic from "next/dynamic";
 import RatingSummaryCard from "./RatingSummaryCard";
 import { useProductDetailData } from "../../context/useCatalogData";
 import { cn } from "@/shared/utils/clsx";
+import { useReviews } from "../../model/useReviews";
 
 const ReviewGalleryModal = dynamic(
   () => import("../modal/ReviewGalleryModal"),
@@ -26,44 +26,36 @@ const Reviews = () => {
 
   const {
     productData: { commodityReviews },
+    productId,
   } = useProductDetailData();
 
-  // Все отзывы, у которых есть изображения (полный список для модалки)
-  const reviewsWithImages = useMemo(
-    () =>
-      reviewsData.filter((review) => review.images && review.images.length > 0),
-    [],
-  );
+  const {
+    reviews,
+    reviewsWithImages,
+    galleryPhotos,
+    loadMore,
+    hasMore,
+    isLoading,
+  } = useReviews(productId);
 
-  const galleryPhotos = useMemo(() => {
-    return reviewsWithImages.flatMap((review) => {
-      const { images, ...rest } = review;
-      return images.map((src) => ({
-        ...rest,
-        src,
-        size_fit: rest.size_fit || "",
-      }));
-    });
-  }, [reviewsWithImages]);
-
-  // Открыть модалку с прокруткой к выбранному отзыву
   const openGallery = useCallback(
     (reviewIndex: number) => {
       const photoIndex = reviewsWithImages
         .slice(0, reviewIndex)
-        .reduce((sum, review) => sum + review.images.length, 0);
+        .reduce((sum, review) => sum + (review.images?.length || 0), 0);
       setSelectedPhotoIndex(photoIndex);
       setIsModalGalleryOpen(true);
     },
     [reviewsWithImages],
   );
+
   const openGalleryWithoutScroll = useCallback(() => {
     setSelectedPhotoIndex(0);
     setIsModalGalleryOpen(true);
   }, []);
 
   if (!commodityReviews) return null;
-  
+
   const sizeFeelingModule = commodityReviews.sizeFeelingModule ?? [];
 
   return (
@@ -212,9 +204,22 @@ const Reviews = () => {
           onClose={() => setIsModalGalleryOpen(false)}
           images={galleryPhotos}
           initialSlide={selectedPhotoIndex}
+          loadMore={loadMore}
+          hasMore={hasMore}
+          isLoading={isLoading}
         />
       )}
-      {isModalOpen && <ReviewModal onClose={() => setIsModalOpen(false)} />}
+      {isModalOpen && (
+        <ReviewModal
+          onClose={() => setIsModalOpen(false)}
+          reviews={reviews}
+          reviewsWithImages={reviewsWithImages}
+          galleryPhotos={galleryPhotos}
+          loadMore={loadMore}
+          hasMore={hasMore}
+          isLoading={isLoading}
+        />
+      )}
     </div>
   );
 };

@@ -13,8 +13,6 @@ const ProductStickyDetails = () => {
   const {
     productData: {
       buyDialogModel: { detail, saleProperties },
-      rankingModule,
-      price,
     },
     seriesDialogModel,
     productId
@@ -48,7 +46,7 @@ const ProductStickyDetails = () => {
           <h1 className="font-roboto_condensed text-[20px] font-bold mt-0.5 leading-[1.2]">
             {detail.title}
           </h1>
-          <ProductHeader price={price} rankingModule={rankingModule} />
+          <ProductHeader  />
           <div
             className="my-3 h-px w-full"
             style={{

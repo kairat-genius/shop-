@@ -44,7 +44,7 @@ const ModelVariants = ({
             )}
           >
             <img
-              className="aspect-square"
+              className="aspect-square object-contain"
               src={item.logoUrl}
               alt={`${item.spuId}`}
             />
