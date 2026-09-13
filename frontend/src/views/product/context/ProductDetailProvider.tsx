@@ -1,10 +1,11 @@
 "use client";
 
-import { useRef, useState, type ReactNode } from "react";
+import { useEffect, useRef, useState, type ReactNode } from "react";
 
 import type { ProductDetailType } from "@/types/product-detail.type";
 import { getProductDetailClient } from "../api/getProductDetailClient";
 import { ProductDetailContext } from "./ProductDetailContext";
+import { addViewedProduct } from "../model/storage";
 
 interface ProductDetailProviderProps {
   children: ReactNode;
@@ -57,6 +58,35 @@ export const ProductDetailProvider = ({
     }
   };
 
+  const serverSkus = productData.buyDialogModel.skus ?? [];
+  const serverSaleProperties = productData.buyDialogModel.saleProperties ?? [];
+
+  const serverSizeProperty = serverSaleProperties.find(
+    (property) => property.definitionId === 6,
+  );
+
+  const serverSelectedSize = serverSizeProperty?.propertyList
+    .flatMap((property) => property.propertyItemModels)
+    .find((item) => item.selected);
+
+  const serverDefaultSku = serverSkus.find((sku) =>
+    sku.properties.some(
+      (property) =>
+        property.propertyValueId === serverSelectedSize?.propertyValueId,
+    ),
+  );
+
+  useEffect(() => {
+    if (!productData) return;
+    addViewedProduct({
+      title: productData.buyDialogModel.detail.title,
+      logoUrl: productData.buyDialogModel.detail.logoUrl,
+      saleTag: productData.productTextInfo.soldText,
+      spuId: productData.buyDialogModel.detail.spuId,
+      minSpuPrice: serverDefaultSku?.minPrice
+    });
+  }, [productData, serverDefaultSku?.minPrice]);
+
   const selectProduct = async (nextProductId: number) => {
     const currentRequestId = ++requestId.current;
     setIsLoading(true);
@@ -104,7 +134,7 @@ export const ProductDetailProvider = ({
         selectSku,
         selectProduct,
         isLoading,
-        seriesDialogModel: productData.seriesDialogModel
+        seriesDialogModel: productData.seriesDialogModel,
       }}
     >
       {children}

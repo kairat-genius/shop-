@@ -3,7 +3,7 @@ import { useBodyScrollLock } from "@/shared/hooks/useBodyScrollLock";
 import Icon from "@/shared/icon";
 import { Button } from "@/shared/ui/action";
 import Modal from "@/shared/ui/modal";
-import { useCallback, useMemo, useState } from "react";
+import { useCallback, useState } from "react";
 import dynamic from "next/dynamic";
 import { Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -38,7 +38,6 @@ interface GalleryImage {
   reviewId: string;
   trackingId: string;
 }
-
 
 interface ReviewModalProps {
   onClose: () => void;
@@ -87,9 +86,13 @@ const ReviewModal = ({
   // Логика бесконечного скролла для главного списка
   const handleScroll = (e: React.UIEvent<HTMLDivElement>) => {
     const { scrollTop, clientHeight, scrollHeight } = e.currentTarget;
-    if (scrollHeight - scrollTop <= clientHeight * 1.5 && hasMore && !isLoading) {
-        loadMore();
-      }
+    if (
+      scrollHeight - scrollTop <= clientHeight * 1.5 &&
+      hasMore &&
+      !isLoading
+    ) {
+      loadMore();
+    }
   };
 
   return (
@@ -118,54 +121,61 @@ const ReviewModal = ({
             sizeFeelingModule={sizeFeelingModule}
           />
         )}
-        <div className="mt-3 flex gap-3.5 items-center w-full">
-          <Button className="review-gallery1-prev disabled:cursor-not-allowed disabled:text-slate-300">
-            <Icon
-              icon="chevron-right"
-              className="rotate-180"
-              width={20}
-              height={20}
-            />
-          </Button>
+        {galleryPhotos.length > 0 && (
+          <div className="mt-3 flex gap-3.5 items-center w-full">
+            <Button className="review-gallery1-prev disabled:cursor-not-allowed disabled:text-slate-300">
+              <Icon
+                icon="chevron-right"
+                className="rotate-180"
+                width={20}
+                height={20}
+              />
+            </Button>
 
-          <Swiper
-            slidesPerView={8}
-            slidesPerGroup={7}
-            spaceBetween={4}
-            // 1. Выносим массив из inline, чтобы Swiper не пересоздавался
-            modules={useMemo(() => [Navigation], [])}
-            // 2. Включаем обсерверы для правильной реакции на новые слайды
-            observer={true}
-            observeParents={true}
-            className="w-full"
-            navigation={{
-              nextEl: ".review-gallery1-next",
-              prevEl: ".review-gallery1-prev",
-            }}
-            allowTouchMove={false}
-            onSlideChange={(swiper) => {
-              if (swiper.progress > 0.5 && hasMore && !isLoading && loadMore) {
-                loadMore();
-              }
-            }}
-          >
-            {galleryPhotos.map((photo, idx) => (
-              // 3. Делаем уникальный составной ключ, чтобы React не путался
-              <SwiperSlide key={`${photo.src}-${idx}`}>
-                <img
-                  className="aspect-3/4 object-cover cursor-pointer"
-                  src={photo.src}
-                  alt={`Фото от ${photo.userName}`}
-                  onClick={() => openGallery(idx)}
-                />
-              </SwiperSlide>
-            ))}
-          </Swiper>
+            <Swiper
+              slidesPerView={8}
+              slidesPerGroup={7}
+              spaceBetween={4}
+              // 1. Выносим массив из inline, чтобы Swiper не пересоздавался
+              modules={[Navigation]}
+              // 2. Включаем обсерверы для правильной реакции на новые слайды
+              observer={true}
+              observeParents={true}
+              className="w-full"
+              navigation={{
+                nextEl: ".review-gallery1-next",
+                prevEl: ".review-gallery1-prev",
+              }}
+              allowTouchMove={false}
+              onSlideChange={(swiper) => {
+                if (
+                  swiper.progress > 0.5 &&
+                  hasMore &&
+                  !isLoading &&
+                  loadMore
+                ) {
+                  loadMore();
+                }
+              }}
+            >
+              {galleryPhotos.map((photo, idx) => (
+                // 3. Делаем уникальный составной ключ, чтобы React не путался
+                <SwiperSlide key={`${photo.src}-${idx}`}>
+                  <img
+                    className="aspect-3/4 object-cover cursor-pointer"
+                    src={photo.src}
+                    alt={`Фото от ${photo.userName}`}
+                    onClick={() => openGallery(idx)}
+                  />
+                </SwiperSlide>
+              ))}
+            </Swiper>
 
-          <Button className="review-gallery1-next disabled:cursor-not-allowed disabled:text-slate-300">
-            <Icon icon="chevron-right" width={20} height={20} />
-          </Button>
-        </div>
+            <Button className="review-gallery1-next disabled:cursor-not-allowed disabled:text-slate-300">
+              <Icon icon="chevron-right" width={20} height={20} />
+            </Button>
+          </div>
+        )}
         <div className="py-3 border-b border-slate-100 flex gap-0.5">
           <Icon
             icon="shield-check"
@@ -179,7 +189,7 @@ const ReviewModal = ({
           </div>
         </div>
 
-        <div className="">
+        <div>
           {reviews.map((item) => (
             <div key={item.reviewId} className="py-3 border-b border-slate-100">
               <div>
@@ -257,6 +267,9 @@ const ReviewModal = ({
               )}
             </div>
           ))}
+          <div className="flex items-center justify-center py-3.5 px-[4.8vw] text-[14px] leading-[normal] text-[#999]">
+            --- Похоже, вы дошли до конца! ---
+          </div>
         </div>
       </div>
 

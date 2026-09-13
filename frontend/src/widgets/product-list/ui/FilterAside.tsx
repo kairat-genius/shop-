@@ -6,7 +6,7 @@ import Accordion from "@/shared/ui/accordion";
 import PriceRangeFilter from "./filter/PriceRangeFilter";
 import { getFacetList } from "../utils/getFacetList";
 
-import type { CategoryFiltersResponseType } from "@/types/category-filters.type";
+import type { FacetType } from "@/types/category-filters.type";
 
 interface FilterAsideProps {
   filters: FiltersState;
@@ -15,7 +15,7 @@ interface FilterAsideProps {
     value: FiltersState[K],
   ) => void;
   updateFilters: (values: Partial<FiltersState>) => void;
-  filtersData?: CategoryFiltersResponseType;
+  filtersData?: Array<FacetType>;
   categoryId: string;
 }
 
@@ -27,7 +27,7 @@ const FilterAside = ({
   categoryId,
 }: FilterAsideProps) => {
   // Вычисляем списки внутри компонента, используя данные из пропсов
-  const facets = filtersData?.facets ?? [];
+  const facets = filtersData ?? [];
   const categories = getFacetList(facets, "Категория", true);
   const brands = getFacetList(facets, "Бренды", true);
   const genders = getFacetList(facets, "Пол");

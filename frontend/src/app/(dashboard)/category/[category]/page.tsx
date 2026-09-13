@@ -14,8 +14,6 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
   const { category } = await params;
   const categoryId = extractIdFromSlug(category);
 
-  console.log("CategoryPage categoryId:", categoryId);
-
   if (!categoryId) {
     notFound();
   }
@@ -49,7 +47,7 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
       <ProductList
         initialData={initialData}
         categoryId={categoryId}
-        filtersData={categoryData}
+        filtersData={categoryData.facets}
       />
       <CategoryView />
     </main>

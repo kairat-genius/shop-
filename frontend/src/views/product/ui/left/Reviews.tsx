@@ -1,7 +1,7 @@
 "use client";
 import { Button } from "@/shared/ui/action";
 import Icon from "@/shared/icon";
-import { useCallback, useMemo, useState } from "react";
+import { useCallback, useState } from "react";
 import dynamic from "next/dynamic";
 import RatingSummaryCard from "./RatingSummaryCard";
 import { useProductDetailData } from "../../context/useCatalogData";

@@ -132,17 +132,27 @@ const SizeSelector = ({ saleProperty }: SizeSelectorProps) => {
                 </div>
               )}
 
-              <div className="truncate font-medium text-[14px] leading-4">
+              <div
+                className={cn(
+                  "truncate font-medium text-[14px] leading-4",
+                  !price && "text-slate-300",
+                )}
+              >
                 <span>{defaultItem.value}</span>
 
                 {secondaryItem && (
-                  <span className="ml-0.5 text-slate-500">
+                  <span className={cn("ml-0.5", price && "text-slate-500")}>
                     ({secondaryItem.value})
                   </span>
                 )}
               </div>
 
-              <div className="mt-0.5 truncate text-[12px] leading-3.5">
+              <div
+                className={cn(
+                  "mt-0.5 truncate text-[12px] leading-3.5",
+                  !price && "text-slate-300",
+                )}
+              >
                 {price ?? "-- ₽"}
               </div>
             </div>
@@ -180,7 +190,9 @@ const SizeSelector = ({ saleProperty }: SizeSelectorProps) => {
             alt=""
           />
 
-          <div className="text-[12px] ml-1 font-light text-slate-500 leading-[normal]">{offSizeInfo.deviationSizeTips}</div>
+          <div className="text-[12px] ml-1 font-light text-slate-500 leading-[normal]">
+            {offSizeInfo.deviationSizeTips}
+          </div>
         </div>
       )}
     </div>

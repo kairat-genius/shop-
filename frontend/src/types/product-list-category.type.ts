@@ -5,6 +5,7 @@ export type ProductListCategoryResponseType = {
     noResultsTitle: string;
     total: number;
     spuList: ProductType[];
+    fallbackSpuList?: ProductType[]
   };
 };
 

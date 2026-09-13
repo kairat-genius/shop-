@@ -14,7 +14,7 @@ const ProductHeader = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   const {
-    productData: { rankingModule, price },
+    productData: { rankingModule },
     activeSku,
   } = useProductDetailData();
 

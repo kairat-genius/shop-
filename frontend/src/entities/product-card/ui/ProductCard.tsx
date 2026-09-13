@@ -19,8 +19,6 @@ const ProductCard = ({ className, children, product }: ProductCardProps) => {
       <Link
         href={`/product/${productUrl}`}
         className="flex flex-col"
-        target="_blank"
-        rel="opener"
       >
         <img
           className="aspect-square h-full w-full object-contain"
@@ -32,7 +30,7 @@ const ProductCard = ({ className, children, product }: ProductCardProps) => {
         </div>
         <div className="mt-4 flex flex-wrap justify-between items-baseline">
           <div className="text-[20px] leading-[1.3] font-bold font-roboto_condensed">
-            {product.minSpuPrice?.localizedDisplayText || "--"}
+            {product.minSpuPrice?.localizedDisplayText || "-- ₽"}
           </div>
           {product.saleTag && (
             <span className="text-right text-[12px] font-light text-slate-500">

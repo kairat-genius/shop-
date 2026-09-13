@@ -2,10 +2,11 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import { useFilter } from "@/widgets/product-list/model/useFilter";
 import { getProductListCategory } from "@/views/category-brand/api/getProductListCategory";
 import type { ProductListCategoryResponseType } from "@/types/product-list-category.type";
+import { getProductListSearch } from "@/shared/api/product-list/getProductListSearch";
 
 export function useProductList(
   initialData: ProductListCategoryResponseType,
-  params: { categoryId?: string; brandId?: string },
+  params: { categoryId?: string; brandId?: string; keyword?: string },
 ) {
   const [productData, setProductData] =
     useState<ProductListCategoryResponseType>(initialData);
@@ -35,7 +36,10 @@ export function useProductList(
         priceMax: filters.priceMax ?? undefined,
       };
 
-      const listData = await getProductListCategory(requestParams, false);
+      const listData =
+        params.keyword === undefined
+          ? await getProductListCategory(requestParams, false)
+          : await getProductListSearch(requestParams, false);
 
       setProductData(listData);
     } finally {

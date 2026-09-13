@@ -2,7 +2,7 @@ import Link from "next/link";
 import { Fragment } from "react/jsx-runtime";
 
 interface BreadcrumbsProps {
-  title: string;
+  title?: string;
   items: { title: string; href?: string }[];
 }
 
@@ -23,7 +23,9 @@ const Breadcrumbs = ({ title, items }: BreadcrumbsProps) => {
             </Fragment>
           ))}
         </div>
-        <h1 className="mt-2 font-bold text-[24px] leading-7">{title}</h1>
+        {title && (
+          <h1 className="mt-2 font-bold text-[24px] leading-7">{title}</h1>
+        )}
       </div>
     </section>
   );

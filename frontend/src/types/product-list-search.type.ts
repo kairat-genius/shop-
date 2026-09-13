@@ -1,12 +1,14 @@
+import type { FacetType } from "./category-filters.type";
 import type { ProductType } from "./product.type";
 
 export type ProductListSearchResponseType = {
   searchSpuList: {
     noResultsTitle: string;
     total: number;
-    spuList: ProductType[]
+    spuList: ProductType[];
     fallbackSpuList?: ProductType[];
   };
+  facetList: Array<FacetType>;
 };
 
 export type ProductListSearchFilterType = {
@@ -22,4 +24,5 @@ export type ProductListSearchFilterType = {
   sizes?: Array<string>;
   priceMin?: number;
   priceMax?: number;
+  keyword?: string;
 };

@@ -3,12 +3,16 @@ import { Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import ProductCard from "@/entities/product-card";
-import productsData from "@/shared/data/productData.json";
-import FavoriteButton from "@/features/favorites-button";
 import Icon from "@/shared/icon";
 import { Button } from "@/shared/ui/action";
+import { useViewedProducts } from "../model/useViewedProducts";
 
 const ViewedProducts = () => {
+  const viewedProducts = useViewedProducts();
+
+
+  // не рендерим пустой блок
+  if (viewedProducts.length === 0) return null;
   return (
     <section className="w-[60rem] mx-auto mt-10">
       <h2 className="text-[24px] font-bold font-roboto_condensed leading-7">
@@ -26,18 +30,14 @@ const ViewedProducts = () => {
           }}
           allowTouchMove={false}
         >
-          {/* {productsData.slice(0, 10).map((product, index) => (
+          {viewedProducts.map((product, index) => (
             <SwiperSlide
-              key={product.slug}
+              key={product.spuId}
               className={(index + 1) % 6 === 0 ? "" : "pr-[.8rem]"}
             >
-              <ProductCard product={normalizeHomeProduct(product)}>
-                <FavoriteButton className="absolute top-4 right-2 text-slate-500">
-                  <Icon icon="heart" className="w-[1.2rem] h-[1.2rem]" />
-                </FavoriteButton>
-              </ProductCard>
+              <ProductCard product={product} />
             </SwiperSlide>
-          ))} */}
+          ))}
           <Button
             aria-label="prev slide"
             className="z-1 absolute left-0 top-29.25 viewed-prev [&.swiper-button-lock]:hidden"

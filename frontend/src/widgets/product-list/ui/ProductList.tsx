@@ -8,14 +8,15 @@ import FavoriteButton from "@/features/favorites-button";
 import Icon from "@/shared/icon";
 import Pagination from "@/shared/ui/pagination";
 
-import type { CategoryFiltersResponseType } from "@/types/category-filters.type";
+import type { FacetType } from "@/types/category-filters.type";
 import type { ProductListCategoryResponseType } from "@/types/product-list-category.type";
 
 interface ProductListProps {
   initialData: ProductListCategoryResponseType;
   categoryId?: string;
   brandId?: string;
-  filtersData?: CategoryFiltersResponseType;
+  filtersData?: Array<FacetType>;
+  keyword?: string;
 }
 
 const ProductList = ({
@@ -23,6 +24,7 @@ const ProductList = ({
   categoryId,
   brandId,
   filtersData,
+  keyword,
 }: ProductListProps) => {
   const listRef = useRef<HTMLDivElement>(null);
 
@@ -33,10 +35,13 @@ const ProductList = ({
     updateFilter,
     updateFilters,
     resetFilters,
-  } = useProductList(initialData, { categoryId, brandId });
+  } = useProductList(initialData, { categoryId, brandId, keyword });
 
   const searchSpuList = productData.searchSpuList;
-  const productItems = searchSpuList.spuList ?? [];
+  const productItems =
+    searchSpuList.spuList?.length > 0
+      ? searchSpuList.spuList
+      : (searchSpuList.fallbackSpuList ?? []);
 
   const pageSize = 60;
   const totalPages = Math.ceil(searchSpuList.total / pageSize);

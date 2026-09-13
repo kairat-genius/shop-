@@ -17,7 +17,10 @@ export const useReviews = (spuId?: number) => {
       const data = await getProductReviews(spuId, page);
       setReviews((prev) => {
         // Защита от дублей при StrictMode
-        const newReviews = data.contents.filter(
+
+        const rawContents = data?.contents ?? [];
+
+        const newReviews = rawContents.filter(
           (newRev) => !prev.some((p) => p.reviewId === newRev.reviewId),
         );
         return [...prev, ...newReviews];

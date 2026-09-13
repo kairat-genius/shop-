@@ -21,7 +21,7 @@ export type ReviewType = {
 export type ReviewsListType = {
   total: number;
   pages: number;
-  contents: ReviewType[];
+  contents?: ReviewType[];
   pageSize: number;
   pageNum: number;
 };

@@ -20,6 +20,7 @@ const eslintConfig = defineConfig([
       "unicorn/no-null": "off",
       "unicorn/no-nested-ternary": "off",
       "unicorn/numeric-separators-style": "off",
+      "unicorn/prefer-global-this": "off",
     },
   },
   // Override default ignores of eslint-config-next.

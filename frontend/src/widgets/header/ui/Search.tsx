@@ -31,6 +31,10 @@ const Search = () => {
     handleOpenClearConfirm,
   } = useSearchHistory();
 
+  const closeDropdown = () => {
+    handleOverlayClick();
+  };
+
   const handleSearchSubmit = () => {
     saveToHistory(searchQuery.trim());
     navigateToSearch(searchQuery);
@@ -105,6 +109,7 @@ const Search = () => {
             onOpenClearConfirm={handleOpenClearConfirm}
             onConfirmClear={confirmClearHistory}
             onCancelClear={cancelClearHistory}
+            onClose={closeDropdown}
           />
         )}
 
@@ -118,7 +123,10 @@ const Search = () => {
             <Link
               href={`/search?keyword=${encodeURIComponent(searchQuery.trim())}`}
               className="h-10 px-3 items-center flex justify-between gap-2 border-t border-slate-100"
-              onClick={() => saveToHistory(searchQuery.trim())}
+              onClick={() => {
+                saveToHistory(searchQuery.trim());
+                closeDropdown();
+              }}
             >
               <div className="flex-1 text-[14px] text-slate-500 leading-[16.41px] truncate">
                 <span className="font-medium text-slate-950">

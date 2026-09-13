@@ -26,6 +26,11 @@ const AboutProduct = () => {
     (block) => block.type === "minor",
   );
 
+  const mainProperties = mainBlock?.propertyList ?? [];
+  const minorProperties = minorBlock?.propertyList ?? [];
+
+  const visibleProperties = [...mainProperties, ...minorProperties].slice(0, 4);
+
   return (
     <>
       <div className="mt-10">
@@ -33,15 +38,8 @@ const AboutProduct = () => {
           О ТОВАРЕ
         </h2>
         <ul className="mt-4 flex flex-col gap-2 text-[14px] leading-4.5">
-          {mainBlock?.propertyList.slice(0, 2).map((property, index) => (
-            <li key={index} className="flex items-center gap-6">
-              <span className="w-42.5 font-light">{property.name}</span>
-              <span>{property.value}</span>
-            </li>
-          ))}
-
-          {minorBlock?.propertyList.slice(0, 2).map((property, index) => (
-            <li key={`minor-${index}`} className="flex items-center gap-6">
+          {visibleProperties.map((property, index) => (
+            <li key={`main-${index}`} className="flex items-center gap-6">
               <span className="w-42.5 font-light">{property.name}</span>
               <span>{property.value}</span>
             </li>
@@ -55,7 +53,7 @@ const AboutProduct = () => {
         </Button>
       </div>
 
-      {brandItemsModel && (
+      {brandItemsModel?.brandName && brandItemsModel?.brandId && (
         <Link
           href={`/brand/${generateProductSlug(brandItemsModel.brandName, brandItemsModel.brandId)}`}
           target="_blank"

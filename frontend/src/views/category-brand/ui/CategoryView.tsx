@@ -1,5 +1,5 @@
 import CategoryDescription from "./CategoryDescription";
-import RelatedBrandsThemes from "./RelatedBrandsThemes";
+import RelatedBrandsThemes from "../../../widgets/RelatedBrandsThemes";
 
 const CategoryView = () => {
   return (

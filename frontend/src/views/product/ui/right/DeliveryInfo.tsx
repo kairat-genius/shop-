@@ -13,14 +13,33 @@ const OrderProtectionModal = dynamic(
   { ssr: false },
 );
 
+//  "deliveryInfoModel": {
+//             "deliveryItems": [
+//               {
+//                 "deliveryTimeText": "1 окт. – 8 окт.",
+//                 "deliveryTypeText": "Бесплатная доставка",
+//                 "deliveryType": 0
+//               },
+//               {
+//                 "deliveryTimeText": "21 сент. – 28 сент.",
+//                 "deliveryTypeText": "Ускоренная доставка",
+//                 "deliveryType": 1
+//               }
+//             ],
+//             "deliveryText": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u></poizon>",
+//             "icon": {
+//               "icon": "https://cdn-img.thepoizon.ru/node-common/4bdd1249-8c93-6364-0f24-468aa275fc24-48-48.png",
+//               "width": 24,
+//               "height": 24
+//             }
+//           },
+
 const DeliveryInfo = () => {
   const [isDeliveryModalOpen, setIsDeliveryModalOpen] = useState(false);
   const [isProtectionModalOpen, setIsProtectionModalOpen] = useState(false);
 
-  const {
-    activeSku
-  } = useProductDetailData();
-
+  const { activeSku } = useProductDetailData();
+  const deliveryInfoModel = activeSku?.skuSpeedInfo?.[0]?.deliveryInfoModel;
   return (
     <div className="px-4 py-3.5 mt-4">
       <Button
@@ -49,23 +68,27 @@ const DeliveryInfo = () => {
             className="shrink-0 text-slate-500 my-1"
           />
         </div>
+
         <div className="pl-8 mt-2 grid grid-cols-2 gap-2 w-full">
-          <div className="h-12 bg-slate-150 text-[12px] leading-4 font-light p-2">
-            <div className="truncate">Бесплатная доставка</div>
-            <div>19 июл. – 23 июл.</div>
-          </div>
-          <div className="h-12 bg-slate-150 text-[12px] leading-4 font-light p-2 relative overflow-hidden">
-            <div className="truncate">Ускоренная доставка</div>
-            <div>10 июл. – 14 июл.</div>
-            <img
-              className="top-1 absolute -right-2"
-              src="https://cdn-img.thepoizon.ru/node-common/cad0af9c-c6b9-923e-1702-88b542cf4906-126-120.png?x-oss-process=image/format,webp"
-              alt="arrow"
-              width={50}
-              height={50}
-              loading="lazy"
-            />
-          </div>
+          {deliveryInfoModel?.deliveryItems.map((item, index) => (
+            <div
+              key={index}
+              className="h-12 bg-slate-150 text-[12px] leading-4 font-light p-2 relative overflow-hidden"
+            >
+              <div className="truncate">{item.deliveryTypeText}</div>
+              <div>{item.deliveryTimeText}</div>
+              {item.deliveryType === 1 && (
+                <img
+                  className="top-1 absolute -right-2"
+                  src="https://cdn-img.thepoizon.ru/node-common/cad0af9c-c6b9-923e-1702-88b542cf4906-126-120.png?x-oss-process=image/format,webp"
+                  alt="arrow"
+                  width={50}
+                  height={50}
+                  loading="lazy"
+                />
+              )}
+            </div>
+          ))}
         </div>
       </Button>
       <Button

@@ -1,5 +1,5 @@
 "use client";
-import RelatedBrandsThemes from "@/views/category-brand/ui/RelatedBrandsThemes";
+import RelatedBrandsThemes from "@/widgets/RelatedBrandsThemes";
 import ProductStickyDetails from "./right/ProductStickyDetails";
 import ProductLeft from "./left/ProductLeft";
 import RecommendedProducts from "./RecommendedProducts";
@@ -8,7 +8,7 @@ import Loader from "@/shared/ui/loader";
 import { useProductDetailData } from "../context/useCatalogData";
 
 const ProductView = () => {
-  const { isLoading } = useProductDetailData();
+  const { isLoading, productData } = useProductDetailData();
 
   return (
     <main className="relative mt-5.5">
@@ -18,7 +18,7 @@ const ProductView = () => {
         <ProductStickyDetails />
       </div>
       <ViewedProducts />
-      <RecommendedProducts />
+      <RecommendedProducts frontCategoryId={productData.buyDialogModel.detail.frontCategoryId}/>
       <RelatedBrandsThemes className="w-[60rem] mx-auto mt-16" />
     </main>
   );

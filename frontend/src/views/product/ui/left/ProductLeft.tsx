@@ -9,16 +9,15 @@ import { useProductDetailData } from "../../context/useCatalogData";
 
 const ProductLeft = () => {
   const { productData } = useProductDetailData();
-
   return (
     <div>
       <Gallery />
-      <Reviews />
+      {productData.commodityReviews && <Reviews />}
       {productData.sizeAssistantModule && (
         <SizeFinder sizeAssistantModule={productData.sizeAssistantModule} />
       )}
       <AboutProduct />
-      {productData.detailImageList && (
+      {productData.detailImageList?.length > 0 && (
         <ProductDetails detailImageList={productData.detailImageList} />
       )}
       {productData.detailTextModule && (

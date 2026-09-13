@@ -7,7 +7,7 @@ import Select from "@/shared/ui/select";
 import { sortOptions } from "../../data/sort.data";
 import { getFacetList } from "../../utils/getFacetList";
 
-import type { CategoryFiltersResponseType } from "@/types/category-filters.type";
+import type { FacetType } from "@/types/category-filters.type";
 
 interface ActiveFiltersProps {
   filters: FiltersState;
@@ -17,7 +17,7 @@ interface ActiveFiltersProps {
   ) => void;
   updateFilters: (values: Partial<FiltersState>) => void;
   resetFilters: () => void;
-  filtersData?: CategoryFiltersResponseType;
+  filtersData?: Array<FacetType>;
 }
 
 const ActiveFilters = ({
@@ -27,7 +27,7 @@ const ActiveFilters = ({
   updateFilters,
   filtersData,
 }: ActiveFiltersProps) => {
-  const facets = filtersData?.facets ?? [];
+  const facets = filtersData ?? [];
 
   const categories = getFacetList(facets, "Категория", true);
   const brands = getFacetList(facets, "Бренды", true);

@@ -402,4 +402,10 @@ export type ProductDetailType = {
   saleImages: [];
   commodityReviews: CommodityReviewsType;
   favoriteNum: string;
+  saleCount: string;
+  productTextInfo: {
+    extendClickArea: boolean;
+    soldTextCanBeClick: boolean;
+    soldText: string;
+  };
 };
