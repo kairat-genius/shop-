@@ -206,36 +206,19 @@ const ReviewModal = ({
                       </span>
                     </div>
                     <div className="flex gap-1">
-                      <Icon
-                        icon="star"
-                        width={12}
-                        height={12}
-                        className="text-slate-500"
-                      />
-                      <Icon
-                        icon="star"
-                        width={12}
-                        height={12}
-                        className="text-slate-500"
-                      />
-                      <Icon
-                        icon="star"
-                        width={12}
-                        height={12}
-                        className="text-slate-500"
-                      />
-                      <Icon
-                        icon="star"
-                        width={12}
-                        height={12}
-                        className="text-slate-500"
-                      />
-                      <Icon
-                        icon="star"
-                        width={12}
-                        height={12}
-                        className="text-slate-500"
-                      />
+                      {Array.from({ length: 5 }, (_, starIndex) => (
+                        <Icon
+                          key={starIndex}
+                          icon="star"
+                          className={
+                            starIndex < Math.floor(Number(item.score))
+                              ? "text-slate-500"
+                              : "text-slate-300"
+                          }
+                          width={12}
+                          height={12}
+                        />
+                      ))}
                     </div>
                   </div>
                   <span className="text-[12px] ml-auto text-slate-500 leading-normal">

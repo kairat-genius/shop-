@@ -8,6 +8,7 @@ import DeliveryInfo from "./DeliveryInfo";
 import { useProductDetailData } from "../../context/useCatalogData";
 import { generateProductSlug } from "@/shared/utils/slug";
 import Share from "./Share";
+import ColorSelector from "./ColorSelector";
 
 const ProductStickyDetails = () => {
   const {
@@ -15,11 +16,16 @@ const ProductStickyDetails = () => {
       buyDialogModel: { detail, saleProperties },
     },
     seriesDialogModel,
-    productId
+    productId,
   } = useProductDetailData();
   const sizeProperty = saleProperties?.find(
-    (property) => property.definitionId === 6,
+    (propertyList) => propertyList.definitionId === 6,
   );
+
+  const propertyId1 = saleProperties?.find((p) => p.definitionId === 1);
+  // const propertyId3960 = saleProperties?.find((p) => p.definitionId === 3960);
+
+  // console.log("ffff", saleProperties);
 
   return (
     <div className="relative h-full flex-1">
@@ -46,7 +52,7 @@ const ProductStickyDetails = () => {
           <h1 className="font-roboto_condensed text-[20px] font-bold mt-0.5 leading-[1.2]">
             {detail.title}
           </h1>
-          <ProductHeader  />
+          <ProductHeader />
           <div
             className="my-3 h-px w-full"
             style={{
@@ -57,8 +63,38 @@ const ProductStickyDetails = () => {
             }}
           />
           <div>
-            {seriesDialogModel && <ModelVariants seriesDialogModel={seriesDialogModel} productId={productId} />}
-            {sizeProperty && <SizeSelector saleProperty={sizeProperty} />} 
+            {seriesDialogModel && (
+              <ModelVariants
+                seriesDialogModel={seriesDialogModel}
+                productId={productId}
+              />
+            )}
+            {propertyId1 && <ColorSelector saleProperty={propertyId1} />}
+            {sizeProperty && <SizeSelector saleProperty={sizeProperty} />}
+
+            {/* <div className="mt-6">
+              <div className="mb-2 font-roboto_condensed font-bold text-[16px] leading-[100%] line-clamp-1">
+                Упаковка
+              </div>
+              <div className="grid grid-cols-2">
+                <div className="flex items-center justify-center flex-col border border-slate-950 h-12 cursor-pointer">
+                  <div className="text-[14px] leading-4 line-clamp-1 px-[.4rem] font-medium text-center">
+                    Без коробки и пакета
+                  </div>
+                  <div className="text-[12px] leading-3.5 line-clamp-1 px-[.4rem] mt-0.5">
+                    2&nbsp;736&nbsp;₽
+                  </div>
+                </div>
+                <div className="flex items-center justify-center flex-col border-t border-r border-b border-slate-100 h-12 cursor-pointer">
+                  <div className="text-[14px] leading-4 line-clamp-1 px-[.4rem] font-medium text-center">
+                    Коробка не включена, аксессуары включены
+                  </div>
+                  <div className="text-[12px] leading-3.5 line-clamp-1 px-[.4rem] mt-0.5">
+                    3&nbsp;014&nbsp;₽
+                  </div>
+                </div>
+              </div>
+            </div> */}
           </div>
           <BuyActionSection />
           <DeliveryInfo />

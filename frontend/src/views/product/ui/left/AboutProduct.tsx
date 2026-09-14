@@ -15,7 +15,12 @@ const AboutProduct = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   const {
-    productData: { propertyModule, brandItemsModel, seriesItemsModel },
+    productData: {
+      propertyModule,
+      brandItemsModel,
+      seriesItemsModel,
+      sizeImageList,
+    },
   } = useProductDetailData();
 
   const mainBlock = propertyModule?.propertyBlocks.find(
@@ -97,6 +102,18 @@ const AboutProduct = () => {
               className="shrink-0 text-slate-500"
             />
           </Link>
+        </div>
+      ))}
+      {sizeImageList?.map((item, index) => (
+        <div className="mt-10" key={index}>
+          <h2 className="text-[24px] leading-7 font-bold font-roboto_condensed mb-3">
+            {item.title}
+          </h2>
+          {item.images.map((image, imageIndex) => (
+            <div key={imageIndex} className="flex flex-col gap-0.5">
+              <img className="object-contain" src={image.url} alt="" />
+            </div>
+          ))}
         </div>
       ))}
       {isModalOpen && (

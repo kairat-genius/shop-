@@ -67,12 +67,7 @@ const ReviewGalleryModal = ({
 
   // Фоновая подгрузка при просмотре главных фото (если осталось 8 до конца)
   useEffect(() => {
-    if (
-      hasMore &&
-      !isLoading &&
-      loadMore &&
-      images.length - activeIndex <= 8
-    ) {
+    if (hasMore && !isLoading && loadMore && images.length - activeIndex <= 8) {
       loadMore();
     }
   }, [activeIndex, images.length, hasMore, isLoading, loadMore]);
@@ -162,11 +157,19 @@ const ReviewGalleryModal = ({
                   {activeImage.userName}
                 </div>
                 <div className="flex gap-1 items-center ml-1">
-                  <Icon icon="star" width={12} height={12} />
-                  <Icon icon="star" width={12} height={12} />
-                  <Icon icon="star" width={12} height={12} />
-                  <Icon icon="star" width={12} height={12} />
-                  <Icon icon="star" width={12} height={12} />
+                  {Array.from({ length: 5 }, (_, starIndex) => (
+                    <Icon
+                      key={starIndex}
+                      icon="star"
+                      className={
+                        starIndex < Math.floor(Number(activeImage.score))
+                          ? "text-slate-950"
+                          : "text-slate-500"
+                      }
+                      width={12}
+                      height={12}
+                    />
+                  ))}
                 </div>
                 <div className="font-light text-[12px] ml-auto">
                   {activeImage.publishDate}
@@ -208,9 +211,14 @@ const ReviewGalleryModal = ({
               onSlideChange={(swiper) => {
                 setIsBeginning(swiper.isBeginning);
                 setIsEnd(swiper.isEnd);
-                
+
                 // 4. Подгрузка при прокрутке миниатюр
-                if (swiper.progress > 0.6 && hasMore && !isLoading && loadMore) {
+                if (
+                  swiper.progress > 0.6 &&
+                  hasMore &&
+                  !isLoading &&
+                  loadMore
+                ) {
                   loadMore();
                 }
               }}

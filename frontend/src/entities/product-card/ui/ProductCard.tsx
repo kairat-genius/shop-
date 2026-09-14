@@ -1,4 +1,5 @@
 "use client";
+import { CUT_IMAGE_PARAMS } from "@/shared/settings";
 import { cn } from "@/shared/utils/clsx";
 import { generateProductSlug } from "@/shared/utils/slug";
 import type { ProductType } from "@/types/product.type";
@@ -14,15 +15,17 @@ interface ProductCardProps {
 
 const ProductCard = ({ className, children, product }: ProductCardProps) => {
   const productUrl = generateProductSlug(product.title || "", product.spuId);
+
+  const imageUrl = product.logoUrl
+    ? product.logoUrl.replace("/origin-img/", "/cut-img/") + CUT_IMAGE_PARAMS
+    : "";
+
   return (
     <article className={cn("relative", className)}>
-      <Link
-        href={`/product/${productUrl}`}
-        className="flex flex-col"
-      >
+      <Link href={`/product/${productUrl}`} className="flex flex-col">
         <img
           className="aspect-square h-full w-full object-contain"
-          src={product.logoUrl}
+          src={imageUrl}
           alt=""
         />
         <div className="pt-2 text-[14px] font-light leading-4 h-10 line-clamp-2">
@@ -34,7 +37,7 @@ const ProductCard = ({ className, children, product }: ProductCardProps) => {
           </div>
           {product.saleTag && (
             <span className="text-right text-[12px] font-light text-slate-500">
-             {product.saleTag}
+              {product.saleTag}
             </span>
           )}
         </div>

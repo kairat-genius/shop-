@@ -1,4 +1,4 @@
-export const PUBLIC_API_BASE_URL = "https://shop-eight-amber.vercel.app/api";
+export const PUBLIC_API_BASE_URL = "http://localhost:3000/api";
 export const DOCKER_API_BASE_URL =
   process.env.NEXT_PUBLIC_INTERNAL_DOCKER_API_URL || "http://backend:8000";
 
@@ -10,3 +10,4 @@ export const IS_DEVELOPMENT = process.env.NEXT_PUBLIC_APP_ENV === "development";
 export const CDN = process.env.NEXT_PUBLIC_CDN || ""
 
 export const POIZON_API_KEY = process.env.NEXT_PUBLIC_POIZON_API_KEY || ""
+export const CUT_IMAGE_PARAMS = "?x-oss-process=image/resize,s_540/format,webp";

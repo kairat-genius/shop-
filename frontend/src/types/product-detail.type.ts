@@ -195,8 +195,8 @@ export type SalePropertiesType = {
       spuId: number;
       sort: 0;
       propertyId: 8904311802913268;
-      value: "Пыльно-розовый";
-      url?: "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260301/b1fee62d355e440ab36da24b70829736.png";
+      value: string;
+      url?: string;
       selected: true;
       definitionId: 1;
       sizeParameterList?: [
@@ -384,6 +384,19 @@ export type CommodityReviewsType = {
   scoreDesc: string;
 };
 
+export type SizeImageListType = {
+  images: {
+    width: number;
+    genericType: "SIZE_CAPACITY_DIAGRAM";
+    imgEvenTrace: '{"position":"size_image_floor","typeKey":"SIZE_CAPACITY_DIAGRAM"}';
+    url: "https://cdn-img.thepoizon.ru/algo/commodity-image-synthesis/189dab88-81a1-11f1-b0cb-5a5ef624601a_cm.png";
+    imgType: number;
+    height: number;
+  }[];
+
+  title: "ГАБАРИТЫ И ВМЕСТИМОСТЬ";
+};
+
 export type ProductDetailType = {
   shareInfo: ShareInfoType;
   imageModels: ImageModelType[];
@@ -408,4 +421,5 @@ export type ProductDetailType = {
     soldTextCanBeClick: boolean;
     soldText: string;
   };
+  sizeImageList?: SizeImageListType[];
 };

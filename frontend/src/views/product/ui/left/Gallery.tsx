@@ -16,7 +16,11 @@ const Gallery = () => {
   const [thumbsSwiper, setThumbsSwiper] = useState<SwiperType | null>(null);
   const mainSwiperRef = useRef<SwiperType | null>(null);
 
-  const { productData } = useProductDetailData();
+  const {
+    productData: { imageModels },
+  } = useProductDetailData();
+
+  const displayImages = imageModels
 
   return (
     <div className="relative pl-[4rem]">
@@ -31,7 +35,7 @@ const Gallery = () => {
           watchSlidesProgress
           modules={[Thumbs, FreeMode]}
         >
-          {productData.imageModels.map((item, index) => (
+          {displayImages.map((item, index) => (
             <SwiperSlide
               key={index}
               onMouseEnter={() => mainSwiperRef.current?.slideTo(index, 300)}
@@ -67,7 +71,7 @@ const Gallery = () => {
           prevEl: ".gallery-prev",
         }}
       >
-        {productData.imageModels.map((item, index) => (
+        {displayImages.map((item, index) => (
           <SwiperSlide key={index}>
             <img
               src={item.url}

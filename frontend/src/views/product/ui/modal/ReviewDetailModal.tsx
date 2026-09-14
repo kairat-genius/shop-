@@ -96,11 +96,19 @@ const ReviewDetailModal = ({
             <div className="text-slate-500">{review.publishDate}</div>
           </div>
           <div className="flex gap-1 items-center mt-2">
-            <Icon icon="star" width={14} height={14} />{" "}
-            <Icon icon="star" width={14} height={14} />{" "}
-            <Icon icon="star" width={14} height={14} />{" "}
-            <Icon icon="star" width={14} height={14} />{" "}
-            <Icon icon="star" width={14} height={14} />
+            {Array.from({ length: 5 }, (_, starIndex) => (
+              <Icon
+                key={starIndex}
+                icon="star"
+                className={
+                  starIndex < Math.floor(Number(review.score))
+                    ? "text-slate-950"
+                    : "text-slate-500"
+                }
+                width={14}
+                height={14}
+              />
+            ))}
           </div>
           <div className="mt-4 leading-4.5 text-[12px]">
             {review.reviewData.join(" ")}
