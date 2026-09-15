@@ -1,4 +1,4 @@
-export const PUBLIC_API_BASE_URL = "http://localhost:3000/api";
+export const PUBLIC_API_BASE_URL = "https://shop-eight-amber.vercel.app/api";
 export const DOCKER_API_BASE_URL =
   process.env.NEXT_PUBLIC_INTERNAL_DOCKER_API_URL || "http://backend:8000";
 
