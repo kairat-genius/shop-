@@ -58,6 +58,19 @@ const SizeSelector = ({ saleProperty }: SizeSelectorProps) => {
       ),
     )?.propertyValueId ?? null;
 
+  const activeEditionValueId =
+    activeSku?.properties.find((property) =>
+      saleProperties.some(
+        (salePropertyItem) =>
+          salePropertyItem.definitionId === 12 &&
+          salePropertyItem.propertyList.some((group) =>
+            group.propertyItemModels.some(
+              (item) => item.propertyValueId === property.propertyValueId,
+            ),
+          ),
+      ),
+    )?.propertyValueId ?? null;
+
   const activeSize = defaultSizes.find(
     (item) => item.propertyValueId === activeValueId,
   );
@@ -127,6 +140,11 @@ const SizeSelector = ({ saleProperty }: SizeSelectorProps) => {
               (activeColorValueId === null ||
                 item.properties.some(
                   (property) => property.propertyValueId === activeColorValueId,
+                )) &&
+              (activeEditionValueId === null ||
+                item.properties.some(
+                  (property) =>
+                    property.propertyValueId === activeEditionValueId,
                 )),
           );
 

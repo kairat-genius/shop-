@@ -104,7 +104,7 @@ const ReviewModal = ({
         <h2 className="font-roboto_condensed leading-5.75 tracking-[-.5px] text-[20px] font-bold">
           <span>ОТЗЫВЫ</span>
           {/* Динамическое количество отзывов (опционально) */}
-          <span>({reviews.length})</span>
+          <span>({commodityReviews.reviewsCount})</span>
         </h2>
         <Button className="text-slate-500" onClick={onClose}>
           <Icon icon="x" width={20} height={20} />

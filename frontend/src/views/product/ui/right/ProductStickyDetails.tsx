@@ -27,8 +27,6 @@ const ProductStickyDetails = () => {
   const propertyId1 = saleProperties?.find((p) => p.definitionId === 1);
   const propertyId12 = saleProperties?.find((p) => p.definitionId === 12);
 
-  // const propertyId3960 = saleProperties?.find((p) => p.definitionId === 3960);
-
   // console.log("ffff", saleProperties);
 
   return (
@@ -77,6 +75,7 @@ const ProductStickyDetails = () => {
 
             {propertyId12 && <EditionSelector saleProperty={propertyId12} />}
             {sizeProperty && <SizeSelector saleProperty={sizeProperty} />}
+        
             {/* <div className="mt-6">
               <div className="mb-2 font-roboto_condensed font-bold text-[16px] leading-[100%] line-clamp-1">
                 Упаковка

@@ -18,22 +18,30 @@ const Gallery = () => {
 
   const {
     activeSku,
-    productData: { imageModels },
+    productData: {
+      imageModels,
+      buyDialogModel: { saleProperties },
+    },
   } = useProductDetailData();
 
   const activeColorValueId =
-    activeSku?.properties.find((property) => property.level === 1)
-      ?.propertyValueId ?? null;
+    activeSku?.properties.find((property) =>
+      saleProperties.some(
+        (saleProperty) =>
+          saleProperty.definitionId === 1 &&
+          saleProperty.propertyList.some((group) =>
+            group.propertyItemModels.some(
+              (item) => item.propertyValueId === property.propertyValueId,
+            ),
+          ),
+      ),
+    )?.propertyValueId ?? null;
 
-  const filteredImages =
-    activeColorValueId === null
-      ? imageModels
-      : imageModels.filter(
-          (item) => item.propertyValueId === activeColorValueId,
-        );
+  const hasColorProperty = activeColorValueId !== null;
 
-  const displayImages =
-    filteredImages.length > 0 ? filteredImages : imageModels;
+  const displayImages = hasColorProperty
+    ? imageModels.filter((item) => item.propertyValueId === activeColorValueId)
+    : imageModels;
 
   return (
     <div className="relative pl-[4rem]">
