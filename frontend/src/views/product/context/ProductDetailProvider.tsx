@@ -74,13 +74,10 @@ export const ProductDetailProvider = ({
   >(() => getSelectedValuesByDefinition(productData));
   const requestId = useRef(0);
 
-  const skus = currentProductData.buyDialogModel.skus ?? [];
-
-  useEffect(() => {
-    setSelectedValuesByDefinition(
-      getSelectedValuesByDefinition(currentProductData),
-    );
-  }, [currentProductData]);
+  const skus = useMemo(
+    () => currentProductData.buyDialogModel.skus ?? [],
+    [currentProductData],
+  );
 
   const activeSkuId = useMemo(() => {
     const sku = findSkuBySelectedValues(skus, selectedValuesByDefinition);
@@ -106,22 +103,11 @@ export const ProductDetailProvider = ({
   };
 
   const serverSkus = productData.buyDialogModel.skus ?? [];
-  const serverSaleProperties = productData.buyDialogModel.saleProperties ?? [];
 
-  const serverSizeProperty = serverSaleProperties.find(
-    (property) => property.definitionId === 1,
-  );
-
-  const serverSelectedSize = serverSizeProperty?.propertyList
-    .flatMap((property) => property.propertyItemModels)
-    .find((item) => item.selected);
-
-  const serverDefaultSku = serverSkus.find((sku) =>
-    sku.properties.some(
-      (property) =>
-        property.propertyValueId === serverSelectedSize?.propertyValueId,
-    ),
-  );
+  const serverDefaultSku =
+    serverSkus.find(
+      (sku) => sku.skuId === productData.buyDialogModel.defaultSelectSku?.skuId,
+    ) ?? serverSkus[0];
 
   useEffect(() => {
     if (!productData) return;

@@ -125,7 +125,7 @@ export type SizeAssistantModuleType = {
     unit: string;
     selected: boolean;
   }[];
-  size: SizeType
+  size: SizeType;
   heightWeightSizeTableFlag: boolean;
   title: string;
   sizeRecommend: {
@@ -321,6 +321,9 @@ export type BuyDialogModelType = {
   detail: DetailType;
   saleProperties: SalePropertiesType[];
   skus: SkusType[];
+  defaultSelectSku?: {
+    skuId: number;
+  };
   offSizeInfo?: {
     deviationSizeTips: string;
     shortDeviationSizeTips: string;

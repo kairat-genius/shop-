@@ -83,7 +83,7 @@ const SizeSelector = ({ saleProperty }: SizeSelectorProps) => {
         <span className="truncate font-roboto_condensed text-[16px] font-bold">
           {saleProperty.name}:
           <span className="ml-1 font-roboto text-[14px] font-bold">
-            <span>{defaultSizeKey}</span>
+            <span>{activeSize?.value}</span>
 
             {secondarySizeGroup && (
               <span className="ml-0.5 text-slate-500">
