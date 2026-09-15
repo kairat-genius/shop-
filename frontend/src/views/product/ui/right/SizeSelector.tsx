@@ -2,18 +2,27 @@ import Icon from "@/shared/icon";
 import { cn } from "@/shared/utils/clsx";
 import type { SalePropertiesType } from "@/types/product-detail.type";
 import { useProductDetailData } from "../../context/useCatalogData";
+import dynamic from "next/dynamic";
+import { useState } from "react";
+import Popover from "@/shared/ui/popover";
+
+const SizeFinderModal = dynamic(() => import("../modal/SizeFinderModal"), {
+  ssr: false,
+});
 
 interface SizeSelectorProps {
   saleProperty: SalePropertiesType;
 }
 
 const SizeSelector = ({ saleProperty }: SizeSelectorProps) => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
   const {
     activeSku,
     selectSku,
     productData: {
       buyDialogModel: { skus, offSizeInfo },
     },
+    productId,
   } = useProductDetailData();
 
   const defaultSizeKey = saleProperty.defaultShow;
@@ -54,7 +63,11 @@ const SizeSelector = ({ saleProperty }: SizeSelectorProps) => {
         </span>
 
         {saleProperty.showGuide === 1 && (
-          <button type="button" className="flex shrink-0 items-center">
+          <button
+            type="button"
+            className="flex shrink-0 items-center cursor-pointer"
+            onClick={() => setIsModalOpen(true)}
+          >
             <img
               className="pS"
               src="https://cdn-img.thepoizon.ru/node-common/935e5df6-1d97-27c8-3944-f1ad4784f80d.svg"
@@ -113,23 +126,12 @@ const SizeSelector = ({ saleProperty }: SizeSelectorProps) => {
             >
               {/* Поповер при наведении сверху */}
               {itemFootLength && (
-                <div className="pointer-events-none absolute bottom-full left-1/2 z-20 mb-1 flex -translate-x-1/2 flex-col items-center opacity-0 transition-opacity group-hover:opacity-100">
-                  <div
-                    className="whitespace-nowrap p-3 bg-white"
-                    style={{
-                      boxShadow:
-                        "0 6px 16px 0 rgba(0, 0, 0, 0.08), 0 3px 6px -4px rgba(0, 0, 0, 0.12), 0 9px 28px 8px rgba(0, 0, 0, 0.05)",
-                    }}
-                  >
-                    <div className="max-w-70 flex items-center text-[12px] h-6">
-                      <span className="text-slate-500 mr-0.5">
-                        Длина стопы:
-                      </span>{" "}
-                      <span>{itemFootLength}</span>
-                    </div>
+                <Popover>
+                  <div className="max-w-70 flex items-center text-[12px] h-6">
+                    <span className="text-slate-500 mr-0.5">Длина стопы:</span>{" "}
+                    <span>{itemFootLength}</span>
                   </div>
-                  <div className="border-x-8 border-t-8 border-x-transparent border-t-white" />
-                </div>
+                </Popover>
               )}
 
               <div
@@ -194,6 +196,12 @@ const SizeSelector = ({ saleProperty }: SizeSelectorProps) => {
             {offSizeInfo.deviationSizeTips}
           </div>
         </div>
+      )}
+      {isModalOpen && (
+        <SizeFinderModal
+          onClose={() => setIsModalOpen(false)}
+          productId={productId}
+        />
       )}
     </div>
   );

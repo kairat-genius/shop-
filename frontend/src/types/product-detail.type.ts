@@ -1,3 +1,5 @@
+import { SizeType } from "./size-table.type";
+
 export type ShareInfoType = {
   shareImageUrl: string;
   shareContent: string;
@@ -123,28 +125,28 @@ export type SizeAssistantModuleType = {
     unit: string;
     selected: boolean;
   }[];
-  size: {
-    sizeList: {
-      sizeKeyList: {
-        sizeKey: string;
-        sizeValue: string;
-        sizeValueList: string[];
-      }[];
-      sizeParameterList: {
-        sizeKey: string;
-        sizeValue: string;
-        sizeValueList: string[];
-      }[];
-      title: string;
-    }[];
-    freezeColumnNum: number;
-    sizeConversionAsianToUS: boolean;
-  };
+  size: SizeType
   heightWeightSizeTableFlag: boolean;
   title: string;
   sizeRecommend: {
     recommendTitle: string;
     recommendTitleRichText: string;
+  };
+  fittingReportTable: {
+    models: {
+      cells: {
+        nickname: string;
+        id: number;
+      }[];
+      title: string;
+    };
+    sizeUnitGroups: {
+      unit: string;
+      sizeColumns: {
+        cells: string[];
+        title: string;
+      }[];
+    }[];
   };
 };
 

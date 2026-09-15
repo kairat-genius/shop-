@@ -8,19 +8,19 @@
       "items": [
         {
           "name": "Унисекс",
-          "count": 626,
+          "count": 608,
           "btnType": 1,
           "value": "1"
         },
         {
           "name": "Мужской",
-          "count": 596,
+          "count": 628,
           "btnType": 1,
           "value": "2"
         },
         {
           "name": "Женский",
-          "count": 274,
+          "count": 260,
           "btnType": 1,
           "value": "3"
         },
@@ -50,93 +50,93 @@
           "items": [
             {
               "name": "Nike",
-              "count": 276,
+              "count": 262,
               "btnType": 1,
               "value": "144"
             },
             {
               "name": "Adidas Originals",
-              "count": 68,
+              "count": 62,
               "btnType": 1,
               "value": "494"
             },
             {
               "name": "New Balance",
-              "count": 84,
+              "count": 83,
               "btnType": 1,
               "value": "4"
             },
             {
               "name": "Jordan",
-              "count": 66,
+              "count": 69,
               "btnType": 1,
               "value": "13"
             },
             {
+              "name": "Converse",
+              "count": 16,
+              "btnType": 1,
+              "value": "176"
+            },
+            {
               "name": "Vans",
-              "count": 14,
+              "count": 15,
               "btnType": 1,
               "value": "9"
             },
             {
               "name": "Adidas",
-              "count": 42,
+              "count": 33,
               "btnType": 1,
               "value": "3"
             },
             {
-              "name": "PUMA",
-              "count": 32,
-              "btnType": 1,
-              "value": "2"
-            },
-            {
-              "name": "Converse",
-              "count": 13,
-              "btnType": 1,
-              "value": "176"
-            },
-            {
-              "name": "Li-Ning",
-              "count": 45,
-              "btnType": 1,
-              "value": "33"
-            },
-            {
               "name": "ASICS",
-              "count": 30,
+              "count": 32,
               "btnType": 1,
               "value": "8"
             },
             {
+              "name": "PUMA",
+              "count": 28,
+              "btnType": 1,
+              "value": "2"
+            },
+            {
+              "name": "Li-Ning",
+              "count": 42,
+              "btnType": 1,
+              "value": "33"
+            },
+            {
               "name": "Onitsuka Tiger",
-              "count": 7,
+              "count": 8,
               "btnType": 1,
               "value": "10098"
             },
             {
-              "name": "SALOMON",
-              "count": 7,
-              "btnType": 1,
-              "value": "1000079"
-            },
-            {
               "name": "ANTA",
-              "count": 32,
+              "count": 36,
               "btnType": 1,
               "value": "34"
             },
             {
-              "name": "On",
+              "name": "SALOMON",
               "count": 8,
               "btnType": 1,
-              "value": "1000654"
+              "value": "1000079"
             },
             {
               "name": "Champion",
-              "count": 5,
+              "count": 8,
               "btnType": 1,
               "value": "1310"
+            },
+            {
+              "name": "On",
+              "count": 12,
+              "btnType": 1,
+              "value": "1000654"
             }
           ],
           "nested": false,
@@ -159,25 +159,25 @@
               "items": [
                 {
                   "name": "Adidas Originals",
-                  "count": 68,
+                  "count": 62,
                   "btnType": 1,
                   "value": "494"
                 },
                 {
                   "name": "Adidas",
-                  "count": 42,
+                  "count": 33,
                   "btnType": 1,
                   "value": "3"
                 },
                 {
                   "name": "ASICS",
-                  "count": 30,
+                  "count": 32,
                   "btnType": 1,
                   "value": "8"
                 },
                 {
                   "name": "ANTA",
-                  "count": 32,
+                  "count": 36,
                   "btnType": 1,
                   "value": "34"
                 }
@@ -194,13 +194,13 @@
               "items": [
                 {
                   "name": "Converse",
-                  "count": 13,
+                  "count": 16,
                   "btnType": 1,
                   "value": "176"
                 },
                 {
                   "name": "Champion",
-                  "count": 5,
+                  "count": 8,
                   "btnType": 1,
                   "value": "1310"
                 }
@@ -217,7 +217,7 @@
               "items": [
                 {
                   "name": "Jordan",
-                  "count": 66,
+                  "count": 69,
                   "btnType": 1,
                   "value": "13"
                 }
@@ -234,7 +234,7 @@
               "items": [
                 {
                   "name": "Li-Ning",
-                  "count": 45,
+                  "count": 42,
                   "btnType": 1,
                   "value": "33"
                 }
@@ -251,13 +251,13 @@
               "items": [
                 {
                   "name": "Nike",
-                  "count": 276,
+                  "count": 262,
                   "btnType": 1,
                   "value": "144"
                 },
                 {
                   "name": "New Balance",
-                  "count": 84,
+                  "count": 83,
                   "btnType": 1,
                   "value": "4"
                 }
@@ -274,13 +274,13 @@
               "items": [
                 {
                   "name": "Onitsuka Tiger",
-                  "count": 7,
+                  "count": 8,
                   "btnType": 1,
                   "value": "10098"
                 },
                 {
                   "name": "On",
-                  "count": 8,
+                  "count": 12,
                   "btnType": 1,
                   "value": "1000654"
                 }
@@ -297,7 +297,7 @@
               "items": [
                 {
                   "name": "PUMA",
-                  "count": 32,
+                  "count": 28,
                   "btnType": 1,
                   "value": "2"
                 }
@@ -314,7 +314,7 @@
               "items": [
                 {
                   "name": "SALOMON",
-                  "count": 7,
+                  "count": 8,
                   "btnType": 1,
                   "value": "1000079"
                 }
@@ -331,7 +331,7 @@
               "items": [
                 {
                   "name": "Vans",
-                  "count": 14,
+                  "count": 15,
                   "btnType": 1,
                   "value": "9"
                 }
@@ -356,31 +356,31 @@
       "items": [
         {
           "name": "Все сезоны",
-          "count": 36,
+          "count": 28,
           "btnType": 1,
           "value": "All Seasons"
         },
         {
           "name": "Осенний",
-          "count": 1448,
+          "count": 1462,
           "btnType": 1,
           "value": "Fall"
         },
         {
           "name": "Весна",
-          "count": 1448,
+          "count": 1460,
           "btnType": 1,
           "value": "Spring"
         },
         {
           "name": "Лето",
-          "count": 1172,
+          "count": 1206,
           "btnType": 1,
           "value": "Summer"
         },
         {
           "name": "Зимний",
-          "count": 1122,
+          "count": 1148,
           "btnType": 1,
           "value": "Winter"
         }
@@ -411,37 +411,37 @@
             },
             {
               "name": "Скейтбординг",
-              "count": 226,
+              "count": 204,
               "btnType": 1,
               "value": "500000371"
             },
             {
               "name": "Лайфстайл",
-              "count": 123,
+              "count": 137,
               "btnType": 1,
               "value": "500000373"
             },
             {
               "name": "Бег",
-              "count": 225,
+              "count": 213,
               "btnType": 1,
               "value": "500000375"
             },
             {
               "name": "Баскетбол",
-              "count": 142,
+              "count": 154,
               "btnType": 1,
               "value": "500000369"
             },
             {
               "name": "Тренировки",
-              "count": 15,
+              "count": 21,
               "btnType": 1,
               "value": "500000377"
             },
             {
               "name": "Туризм и активный отдых",
-              "count": 12,
+              "count": 15,
               "btnType": 1,
               "value": "500000381"
             }
@@ -461,22 +461,34 @@
       "type": 2,
       "items": [
         {
+          "name": "Мода Тренд",
+          "count": 6,
+          "btnType": 1,
+          "value": "Fashion Trend"
+        },
+        {
           "name": "Готовый к игре",
-          "count": 138,
+          "count": 146,
           "btnType": 1,
           "value": "Game-Ready"
         },
         {
           "name": "Спортивный стиль",
-          "count": 12,
+          "count": 14,
           "btnType": 1,
           "value": "Sporty Style"
         },
         {
           "name": "Уличный",
-          "count": 14,
+          "count": 12,
           "btnType": 1,
           "value": "Street"
+        },
+        {
+          "name": "Стильный винтаж",
+          "count": 10,
+          "btnType": 1,
+          "value": "Vintage Style"
         }
       ],
       "nested": false,
@@ -514,15 +526,15 @@
       "items": [
         {
           "name": "Air Force 1",
-          "count": 33,
+          "count": 29,
           "btnType": 1,
           "value": "1000681"
         },
         {
-          "name": "Dunk",
-          "count": 41,
+          "name": "Air Jordan 1",
+          "count": 37,
           "btnType": 1,
-          "value": "1000827"
+          "value": "1"
         },
         {
           "name": "SAMBA OG",
@@ -531,64 +543,52 @@
           "value": "1031987"
         },
         {
-          "name": "Air Jordan 1",
+          "name": "Dunk",
           "count": 34,
           "btnType": 1,
-          "value": "1"
-        },
-        {
-          "name": "SUPERSTAR 2",
-          "count": 11,
-          "btnType": 1,
-          "value": "1034448"
-        },
-        {
-          "name": "Old Skool",
-          "count": 5,
-          "btnType": 1,
-          "value": "1068832"
+          "value": "1000827"
         },
         {
           "name": "M2K Tekno",
-          "count": 5,
+          "count": 7,
           "btnType": 1,
           "value": "1064375"
         },
         {
-          "name": "NB 530",
-          "count": 9,
+          "name": "Old Skool",
+          "count": 6,
           "btnType": 1,
-          "value": "1032451"
+          "value": "1068832"
+        },
+        {
+          "name": "SUPERSTAR 2",
+          "count": 10,
+          "btnType": 1,
+          "value": "1034448"
         },
         {
           "name": "Speedcat",
-          "count": 7,
+          "count": 6,
           "btnType": 1,
           "value": "1077214"
         },
         {
-          "name": "V2K Run",
-          "count": 6,
-          "btnType": 1,
-          "value": "1023021"
-        },
-        {
-          "name": "HANDBALL SPEZIAL",
-          "count": 11,
-          "btnType": 1,
-          "value": "1032652"
-        },
-        {
           "name": "NB 574",
-          "count": 10,
+          "count": 11,
           "btnType": 1,
           "value": "1032332"
         },
         {
-          "name": "Adizero EVO SL",
-          "count": 5,
+          "name": "NB 1906R",
+          "count": 10,
           "btnType": 1,
-          "value": "1063037"
+          "value": "1009929"
+        },
+        {
+          "name": "P-6000",
+          "count": 21,
+          "btnType": 1,
+          "value": "460"
         },
         {
           "name": "Red Hare 9 PRO",
@@ -597,64 +597,88 @@
           "value": "1096767"
         },
         {
-          "name": "P-6000",
-          "count": 16,
+          "name": "HANDBALL SPEZIAL",
+          "count": 10,
           "btnType": 1,
-          "value": "460"
+          "value": "1032652"
+        },
+        {
+          "name": "XT-6",
+          "count": 5,
+          "btnType": 1,
+          "value": "1010520"
+        },
+        {
+          "name": "NB 530",
+          "count": 9,
+          "btnType": 1,
+          "value": "1032451"
         },
         {
           "name": "Air Jordan 4",
-          "count": 6,
+          "count": 9,
           "btnType": 1,
           "value": "4"
         },
         {
-          "name": "Initiator",
-          "count": 7,
-          "btnType": 1,
-          "value": "1073"
-        },
-        {
           "name": "XLG RUNNER DELUXE",
-          "count": 8,
+          "count": 6,
           "btnType": 1,
           "value": "1032597"
         },
         {
+          "name": "Initiator",
+          "count": 8,
+          "btnType": 1,
+          "value": "1073"
+        },
+        {
+          "name": "KAI 2",
+          "count": 9,
+          "btnType": 1,
+          "value": "1069464"
+        },
+        {
+          "name": "Court Vision",
+          "count": 5,
+          "btnType": 1,
+          "value": "1033845"
+        },
+        {
+          "name": "V5 RNR",
+          "count": 8,
+          "btnType": 1,
+          "value": "1070859"
+        },
+        {
+          "name": "Zoom Vomero Roam",
+          "count": 9,
+          "btnType": 1,
+          "value": "1063099"
+        },
+        {
+          "name": "Shock Wave 7",
+          "count": 6,
+          "btnType": 1,
+          "value": "1076906"
+        },
+        {
           "name": "NB 9060",
-          "count": 11,
+          "count": 5,
           "btnType": 1,
           "value": "1007773"
         },
         {
-          "name": "NB 1906R",
-          "count": 5,
-          "btnType": 1,
-          "value": "1009929"
-        },
-        {
           "name": "KAI 3",
-          "count": 5,
+          "count": 6,
           "btnType": 1,
           "value": "1100772"
         },
         {
-          "name": "Cortez",
-          "count": 5,
-          "btnType": 1,
-          "value": "1069459"
-        },
-        {
           "name": "Cloudtilt",
-          "count": 5,
+          "count": 7,
           "btnType": 1,
           "value": "1061272"
-        },
-        {
-          "name": "Zoom Vomero Roam",
-          "count": 5,
-          "btnType": 1,
-          "value": "1063099"
         }
       ],
       "nested": false,
@@ -669,15 +693,9 @@
       "items": [
         {
           "name": "Тип отскока",
-          "count": 10,
+          "count": 8,
           "btnType": 1,
           "value": "Bounce Type"
-        },
-        {
-          "name": "Тип скорости",
-          "count": 10,
-          "btnType": 1,
-          "value": "Speed Type"
         },
         {
           "name": "Тип стабильности",
@@ -686,10 +704,10 @@
           "value": "Stable Type"
         },
         {
-          "name": "Универсальный (для всей площадки)",
-          "count": 4,
+          "name": "Тип скорости",
+          "count": 6,
           "btnType": 1,
-          "value": "All-Court"
+          "value": "Speed Type"
         }
       ],
       "nested": false,
@@ -704,63 +722,69 @@
       "items": [
         {
           "name": "Повседневный",
-          "count": 304,
+          "count": 326,
           "btnType": 1,
           "value": "Casual"
         },
         {
           "name": "Городская Коммутация",
-          "count": 184,
+          "count": 186,
           "btnType": 1,
           "value": "City Commuting"
         },
         {
           "name": "Тренировка",
-          "count": 56,
+          "count": 46,
           "btnType": 1,
           "value": "Training"
         },
         {
-          "name": "Марафон",
-          "count": 42,
-          "btnType": 1,
-          "value": "Marathon"
-        },
-        {
           "name": "Длинный бег",
-          "count": 38,
+          "count": 40,
           "btnType": 1,
           "value": "Long Distance Running"
         },
         {
           "name": "Гонки",
-          "count": 24,
+          "count": 34,
           "btnType": 1,
           "value": "Racing"
         },
         {
+          "name": "Марафон",
+          "count": 26,
+          "btnType": 1,
+          "value": "Marathon"
+        },
+        {
           "name": "Спринт",
-          "count": 22,
+          "count": 26,
           "btnType": 1,
           "value": "Sprint"
         },
         {
-          "name": "Трэиловый бег",
-          "count": 22,
-          "btnType": 1,
-          "value": "Trail Running"
-        },
-        {
           "name": "Физкультурный зачет",
-          "count": 20,
+          "count": 24,
           "btnType": 1,
           "value": "Physical Fitness Test & Exam"
         },
         {
-          "name": "Беговые соревнования",
-          "count": 6,
+          "name": "Трэиловый бег",
+          "count": 20,
           "btnType": 1,
-          "value": "Track & Field Competition"
+          "value": "Trail Running"
+        },
+        {
+          "name": "Легкий поход",
+          "count": 8,
+          "btnType": 1,
+          "value": "Lightweight Hiking"
+        },
+        {
+          "name": "Длинный поход",
+          "count": 8,
+          "btnType": 1,
+          "value": "Long-Distance Hiking"
         }
       ],
       "nested": false,
@@ -775,45 +799,57 @@
       "items": [
         {
           "name": "Износостойкий",
-          "count": 110,
+          "count": 118,
           "btnType": 1,
           "value": "Abrasion-Resistant"
         },
         {
           "name": "Противоскользящий",
-          "count": 76,
+          "count": 70,
           "btnType": 1,
           "value": "Slip-Resistant"
         },
         {
           "name": "Амортизация",
-          "count": 44,
+          "count": 52,
           "btnType": 1,
           "value": "Cushioning"
         },
         {
           "name": "Дышащий",
-          "count": 32,
+          "count": 38,
           "btnType": 1,
           "value": "Breathable"
         },
         {
+          "name": "Легкий",
+          "count": 24,
+          "btnType": 1,
+          "value": "Lightweight"
+        },
+        {
           "name": "Oтскок",
-          "count": 26,
+          "count": 24,
           "btnType": 1,
           "value": "Rebound"
         },
         {
+          "name": "Покрытие",
+          "count": 14,
+          "btnType": 1,
+          "value": "Coverage"
+        },
+        {
           "name": "Поддержка",
-          "count": 18,
+          "count": 12,
           "btnType": 1,
           "value": "Support"
         },
         {
-          "name": "Легкий",
-          "count": 14,
+          "name": "Высота Увеличение",
+          "count": 10,
           "btnType": 1,
-          "value": "Lightweight"
+          "value": "Height-Increasing"
         },
         {
           "name": "Сцепление",
@@ -823,7 +859,7 @@
         },
         {
           "name": "Водонепроницаемый",
-          "count": 6,
+          "count": 8,
           "btnType": 1,
           "value": "Waterproof"
         }
@@ -840,7 +876,7 @@
       "items": [
         {
           "name": "Стандартная посадка",
-          "count": 40,
+          "count": 36,
           "btnType": 1,
           "value": "Standard Fit"
         },
@@ -869,19 +905,19 @@
       "items": [
         {
           "name": "Кроссовки для начинающих",
-          "count": 184,
+          "count": 178,
           "btnType": 1,
           "value": "Beginner Running Shoes"
         },
         {
           "name": "Промежуточный беговые кроссовки",
-          "count": 16,
+          "count": 22,
           "btnType": 1,
           "value": "Intermediate Running Shoes"
         },
         {
           "name": "Продвинутая беговая обувь",
-          "count": 10,
+          "count": 4,
           "btnType": 1,
           "value": "Advanced Running Shoes"
         }
@@ -898,63 +934,69 @@
       "items": [
         {
           "name": "Ткань",
-          "count": 364,
+          "count": 386,
           "btnType": 1,
           "value": "Fabric"
         },
         {
           "name": "Искусственная кожа",
-          "count": 272,
+          "count": 294,
           "btnType": 1,
           "value": "Synthetic Leather"
         },
         {
           "name": "Кожа",
-          "count": 242,
+          "count": 250,
           "btnType": 1,
           "value": "Leather"
         },
         {
           "name": "Коровья спилковая кожа",
-          "count": 142,
+          "count": 150,
           "btnType": 1,
           "value": "Cow Split Leather"
         },
         {
           "name": "Сетчатая ткань",
-          "count": 84,
+          "count": 96,
           "btnType": 1,
           "value": "Mesh"
         },
         {
           "name": "Замша",
-          "count": 72,
+          "count": 56,
           "btnType": 1,
           "value": "Suede"
         },
         {
-          "name": "Коровья кожа",
-          "count": 42,
-          "btnType": 1,
-          "value": "Cow Leather"
-        },
-        {
-          "name": "Искусственная кожа",
-          "count": 38,
-          "btnType": 1,
-          "value": "Artificial Leather"
-        },
-        {
           "name": "Холст",
-          "count": 38,
+          "count": 54,
           "btnType": 1,
           "value": "Canvas"
         },
         {
+          "name": "Искусственная кожа",
+          "count": 44,
+          "btnType": 1,
+          "value": "Artificial Leather"
+        },
+        {
+          "name": "Коровья кожа",
+          "count": 38,
+          "btnType": 1,
+          "value": "Cow Leather"
+        },
+        {
           "name": "Резина",
-          "count": 22,
+          "count": 28,
           "btnType": 1,
           "value": "Rubber"
+        },
+        {
+          "name": "Остальные",
+          "count": 20,
+          "btnType": 1,
+          "value": "Other"
         },
         {
           "name": "Топ Крупнозернистая текстура Коровья кожа",
@@ -963,32 +1005,26 @@
           "value": "Top Grain Cow Leather"
         },
         {
-          "name": "Остальные",
-          "count": 16,
+          "name": "Свинная кожа",
+          "count": 12,
           "btnType": 1,
-          "value": "Other"
+          "value": "Pigskin"
         },
         {
           "name": "Спилок коровьей кожи",
-          "count": 12,
+          "count": 10,
           "btnType": 1,
           "value": "Split Cow Leather"
         },
         {
-          "name": "Нейлон",
-          "count": 6,
+          "name": "Полиэстеровое волокно",
+          "count": 8,
           "btnType": 1,
-          "value": "Nylon"
-        },
-        {
-          "name": "ПУ (полиуретан)",
-          "count": 6,
-          "btnType": 1,
-          "value": "Pu"
+          "value": "Polyester"
         },
         {
           "name": "ТПУ (TPU)",
-          "count": 6,
+          "count": 8,
           "btnType": 1,
           "value": "TPU"
         }
@@ -998,28 +1034,45 @@
       "unfold": true
     },
     {
+      "module": "pt_nvs_Thickness",
+      "name": "Толщина",
+      "defaultShow": true,
+      "type": 2,
+      "items": [
+        {
+          "name": "Умеренный",
+          "count": 32,
+          "btnType": 1,
+          "value": "Moderate"
+        },
+        {
+          "name": "Толщина",
+          "count": 2,
+          "btnType": 1,
+          "value": "Thickness"
+        }
+      ],
+      "nested": false,
+      "key": "pt_nvs_Thickness",
+      "unfold": true
+    },
+    {
       "module": "pt_nvs_Stud Type",
       "name": "Тип шипов",
       "defaultShow": true,
       "type": 2,
       "items": [
         {
-          "name": "FG (резиновые длинные шипы)",
+          "name": "Остальные",
           "count": 4,
           "btnType": 1,
-          "value": "FG (Firm Ground)"
-        },
-        {
-          "name": "AG (резина, короткие шипы), FG (резина, длинные шипы)",
-          "count": 2,
-          "btnType": 1,
-          "value": "AG (Artificial Ground), FG (Firm Ground)"
-        },
-        {
-          "name": "Остальные",
-          "count": 2,
-          "btnType": 1,
           "value": "Other"
+        },
+        {
+          "name": "ТF (резиновые сломанные шипы)",
+          "count": 4,
+          "btnType": 1,
+          "value": "TF (Turf)"
         }
       ],
       "nested": false,
@@ -1034,15 +1087,15 @@
       "items": [
         {
           "name": "Стандартная посадка",
-          "count": 36,
+          "count": 32,
           "btnType": 1,
           "value": "Standard Fit"
         },
         {
-          "name": "Гипопронация",
-          "count": 8,
+          "name": "Низкая арка стопы",
+          "count": 4,
           "btnType": 1,
-          "value": "Underpronation"
+          "value": "Low Arch"
         },
         {
           "name": "Высокая арка стопы",
@@ -1051,10 +1104,10 @@
           "value": "High Arch"
         },
         {
-          "name": "Низкая арка стопы",
+          "name": "Гипопронация",
           "count": 2,
           "btnType": 1,
-          "value": "Low Arch"
+          "value": "Underpronation"
         }
       ],
       "nested": false,
@@ -1069,55 +1122,55 @@
       "items": [
         {
           "name": "Дышащий",
-          "count": 358,
+          "count": 362,
           "btnType": 1,
           "value": "Breathable"
         },
         {
           "name": "Износостойкий",
-          "count": 306,
+          "count": 324,
           "btnType": 1,
           "value": "Abrasion-Resistant"
         },
         {
           "name": "Амортизация",
-          "count": 242,
+          "count": 268,
           "btnType": 1,
           "value": "Cushioning"
         },
         {
           "name": "Противоскользящий",
-          "count": 210,
+          "count": 196,
           "btnType": 1,
           "value": "Slip-Resistant"
         },
         {
-          "name": "Oтскок",
-          "count": 102,
-          "btnType": 1,
-          "value": "Rebound"
-        },
-        {
           "name": "Легкий",
-          "count": 78,
+          "count": 98,
           "btnType": 1,
           "value": "Lightweight"
         },
         {
+          "name": "Oтскок",
+          "count": 94,
+          "btnType": 1,
+          "value": "Rebound"
+        },
+        {
           "name": "Поддержка",
-          "count": 52,
+          "count": 54,
           "btnType": 1,
           "value": "Support"
         },
         {
           "name": "Высота Увеличение",
-          "count": 26,
+          "count": 30,
           "btnType": 1,
           "value": "Height-Increasing"
         },
         {
           "name": "Покрытие",
-          "count": 22,
+          "count": 24,
           "btnType": 1,
           "value": "Coverage"
         },
@@ -1129,9 +1182,21 @@
         },
         {
           "name": "Водонепроницаемый",
-          "count": 10,
+          "count": 12,
           "btnType": 1,
           "value": "Waterproof"
+        },
+        {
+          "name": "Баланс",
+          "count": 6,
+          "btnType": 1,
+          "value": "Balance"
+        },
+        {
+          "name": "Термический",
+          "count": 6,
+          "btnType": 1,
+          "value": "Thermal"
         }
       ],
       "nested": false,
@@ -1146,45 +1211,39 @@
       "items": [
         {
           "name": "Резина",
-          "count": 698,
+          "count": 688,
           "btnType": 1,
           "value": "Rubber"
         },
         {
           "name": "Остальные",
-          "count": 142,
+          "count": 154,
           "btnType": 1,
           "value": "Other"
         },
         {
           "name": "Резина подошва",
-          "count": 58,
+          "count": 74,
           "btnType": 1,
           "value": "Rubber Sole"
         },
         {
-          "name": "Пена подошва",
-          "count": 24,
-          "btnType": 1,
-          "value": "Foam Sole"
-        },
-        {
           "name": "ЭВА",
-          "count": 14,
+          "count": 10,
           "btnType": 1,
           "value": "EVA"
         },
         {
-          "name": "Composite Sole  \nКомпозитная подошва",
+          "name": "Пена подошва",
           "count": 8,
           "btnType": 1,
-          "value": "Composite Sole"
+          "value": "Foam Sole"
         },
         {
-          "name": "Пена",
+          "name": "Нейлон",
           "count": 6,
           "btnType": 1,
-          "value": "Foam"
+          "value": "Nylon"
         }
       ],
       "nested": false,
@@ -1199,13 +1258,13 @@
       "items": [
         {
           "name": "Лёгкий-средний вес",
-          "count": 24,
+          "count": 18,
           "btnType": 1,
           "value": "Light to Medium Weight"
         },
         {
           "name": "Тяжелый вес",
-          "count": 16,
+          "count": 10,
           "btnType": 1,
           "value": "Heavy Weight"
         }
@@ -1222,51 +1281,63 @@
       "items": [
         {
           "name": "Шоссе",
-          "count": 216,
+          "count": 176,
           "btnType": 1,
           "value": "Road"
         },
         {
+          "name": "Спортзал",
+          "count": 96,
+          "btnType": 1,
+          "value": "Gym"
+        },
+        {
           "name": "Резиновая беговая дорожка",
-          "count": 108,
+          "count": 86,
           "btnType": 1,
           "value": "Rubber Track"
         },
         {
           "name": "Беговые дорожки",
-          "count": 108,
+          "count": 86,
           "btnType": 1,
           "value": "Treadmill"
         },
         {
-          "name": "Спортзал",
-          "count": 106,
-          "btnType": 1,
-          "value": "Gym"
-        },
-        {
           "name": "Горный туризм",
-          "count": 20,
+          "count": 16,
           "btnType": 1,
           "value": "Outdoor Mountain"
         },
         {
+          "name": "Резиновый пол",
+          "count": 12,
+          "btnType": 1,
+          "value": "Rubber Floor"
+        },
+        {
           "name": "Деревянный пол",
-          "count": 14,
+          "count": 8,
           "btnType": 1,
           "value": "Wooden Floor"
         },
         {
+          "name": "Искусственные шипы",
+          "count": 6,
+          "btnType": 1,
+          "value": "Artificial Turf"
+        },
+        {
           "name": "Concrete Floor - Бетонный пол",
-          "count": 10,
+          "count": 6,
           "btnType": 1,
           "value": "Concrete Floor"
         },
         {
-          "name": "Резиновый пол",
-          "count": 10,
+          "name": "Твёрдый грунт",
+          "count": 6,
           "btnType": 1,
-          "value": "Rubber Floor"
+          "value": "Hard Ground"
         }
       ],
       "nested": false,
@@ -1281,15 +1352,21 @@
       "items": [
         {
           "name": "Плоский",
-          "count": 852,
+          "count": 842,
           "btnType": 1,
           "value": "Flat"
         },
         {
           "name": "на платформе",
-          "count": 624,
+          "count": 634,
           "btnType": 1,
           "value": "Platform"
+        },
+        {
+          "name": "Каблук клин",
+          "count": 2,
+          "btnType": 1,
+          "value": "Wedge Heel"
         }
       ],
       "nested": false,
@@ -1318,61 +1395,61 @@
               "items": [
                 {
                   "name": "37",
-                  "count": 1182,
+                  "count": 1134,
                   "btnType": 1,
                   "value": "37"
                 },
                 {
                   "name": "37,5",
-                  "count": 928,
+                  "count": 924,
                   "btnType": 1,
                   "value": "37,5"
                 },
                 {
                   "name": "38",
-                  "count": 1048,
+                  "count": 1086,
                   "btnType": 1,
                   "value": "38"
                 },
                 {
                   "name": "38,5",
-                  "count": 320,
+                  "count": 326,
                   "btnType": 1,
                   "value": "38,5"
                 },
                 {
                   "name": "39",
-                  "count": 1476,
+                  "count": 1480,
                   "btnType": 1,
                   "value": "39"
                 },
                 {
                   "name": "42",
-                  "count": 1126,
+                  "count": 1164,
                   "btnType": 1,
                   "value": "42"
                 },
                 {
                   "name": "42,5",
-                  "count": 150,
+                  "count": 152,
                   "btnType": 1,
                   "value": "42,5"
                 },
                 {
                   "name": "43",
-                  "count": 1420,
+                  "count": 1426,
                   "btnType": 1,
                   "value": "43"
                 },
                 {
                   "name": "43,5",
-                  "count": 1058,
+                  "count": 1080,
                   "btnType": 1,
                   "value": "43,5"
                 },
                 {
                   "name": "44",
-                  "count": 1112,
+                  "count": 1156,
                   "btnType": 1,
                   "value": "44"
                 }
@@ -1389,253 +1466,253 @@
               "items": [
                 {
                   "name": "33,5",
-                  "count": 30,
+                  "count": 26,
                   "btnType": 1,
                   "value": "33,5"
                 },
                 {
                   "name": "34",
-                  "count": 156,
+                  "count": 148,
                   "btnType": 1,
                   "value": "34"
                 },
                 {
                   "name": "34½",
-                  "count": 168,
+                  "count": 152,
                   "btnType": 1,
                   "value": "34½"
                 },
                 {
                   "name": "34,5",
-                  "count": 694,
+                  "count": 650,
                   "btnType": 1,
                   "value": "34,5"
                 },
                 {
                   "name": "35",
-                  "count": 1180,
+                  "count": 1140,
                   "btnType": 1,
                   "value": "35"
                 },
                 {
                   "name": "35⅔",
-                  "count": 220,
+                  "count": 192,
                   "btnType": 1,
                   "value": "35⅔"
                 },
                 {
                   "name": "35,5",
-                  "count": 556,
+                  "count": 534,
                   "btnType": 1,
                   "value": "35,5"
                 },
                 {
                   "name": "36",
-                  "count": 390,
+                  "count": 426,
                   "btnType": 1,
                   "value": "36"
                 },
                 {
                   "name": "36⅓",
-                  "count": 224,
+                  "count": 196,
                   "btnType": 1,
                   "value": "36⅓"
                 },
                 {
                   "name": "36,5",
-                  "count": 890,
+                  "count": 884,
                   "btnType": 1,
                   "value": "36,5"
                 },
                 {
                   "name": "37⅔",
-                  "count": 234,
+                  "count": 200,
                   "btnType": 1,
                   "value": "37⅔"
                 },
                 {
                   "name": "38⅓",
-                  "count": 238,
+                  "count": 202,
                   "btnType": 1,
                   "value": "38⅓"
                 },
                 {
                   "name": "39⅔",
-                  "count": 236,
+                  "count": 200,
                   "btnType": 1,
                   "value": "39⅔"
                 },
                 {
                   "name": "39,5",
-                  "count": 1062,
+                  "count": 1054,
                   "btnType": 1,
                   "value": "39,5"
                 },
                 {
                   "name": "40",
-                  "count": 986,
+                  "count": 1020,
                   "btnType": 1,
                   "value": "40"
                 },
                 {
                   "name": "40⅓",
-                  "count": 234,
+                  "count": 198,
                   "btnType": 1,
                   "value": "40⅓"
                 },
                 {
                   "name": "40,5",
-                  "count": 322,
+                  "count": 328,
                   "btnType": 1,
                   "value": "40,5"
                 },
                 {
                   "name": "41",
-                  "count": 1450,
+                  "count": 1458,
                   "btnType": 1,
                   "value": "41"
                 },
                 {
                   "name": "41⅔",
-                  "count": 234,
+                  "count": 198,
                   "btnType": 1,
                   "value": "41⅔"
                 },
                 {
                   "name": "41,5",
-                  "count": 1092,
+                  "count": 1118,
                   "btnType": 1,
                   "value": "41,5"
                 },
                 {
                   "name": "42⅓",
-                  "count": 234,
+                  "count": 198,
                   "btnType": 1,
                   "value": "42⅓"
                 },
                 {
                   "name": "43⅔",
-                  "count": 218,
+                  "count": 188,
                   "btnType": 1,
                   "value": "43⅔"
                 },
                 {
                   "name": "44⅓",
-                  "count": 216,
+                  "count": 188,
                   "btnType": 1,
                   "value": "44⅓"
                 },
                 {
                   "name": "44,5",
-                  "count": 750,
+                  "count": 728,
                   "btnType": 1,
                   "value": "44,5"
                 },
                 {
                   "name": "45",
-                  "count": 1146,
+                  "count": 1138,
                   "btnType": 1,
                   "value": "45"
                 },
                 {
                   "name": "45⅔",
-                  "count": 202,
+                  "count": 182,
                   "btnType": 1,
                   "value": "45⅔"
                 },
                 {
                   "name": "45,5",
-                  "count": 254,
+                  "count": 272,
                   "btnType": 1,
                   "value": "45,5"
                 },
                 {
                   "name": "46",
-                  "count": 818,
+                  "count": 790,
                   "btnType": 1,
                   "value": "46"
                 },
                 {
                   "name": "46⅓",
-                  "count": 210,
+                  "count": 188,
                   "btnType": 1,
                   "value": "46⅓"
                 },
                 {
                   "name": "46,5",
-                  "count": 770,
+                  "count": 758,
                   "btnType": 1,
                   "value": "46,5"
                 },
                 {
                   "name": "47",
-                  "count": 662,
+                  "count": 614,
                   "btnType": 1,
                   "value": "47"
                 },
                 {
                   "name": "47⅔",
-                  "count": 120,
+                  "count": 116,
                   "btnType": 1,
                   "value": "47⅔"
                 },
                 {
                   "name": "47,5",
-                  "count": 512,
+                  "count": 484,
                   "btnType": 1,
                   "value": "47,5"
                 },
                 {
                   "name": "48",
-                  "count": 186,
+                  "count": 174,
                   "btnType": 1,
                   "value": "48"
                 },
                 {
                   "name": "48⅓",
-                  "count": 132,
+                  "count": 122,
                   "btnType": 1,
                   "value": "48⅓"
                 },
                 {
                   "name": "48,5",
-                  "count": 382,
+                  "count": 358,
                   "btnType": 1,
                   "value": "48,5"
                 },
                 {
                   "name": "49",
-                  "count": 220,
+                  "count": 188,
                   "btnType": 1,
                   "value": "49"
                 },
                 {
                   "name": "49⅔",
-                  "count": 42,
+                  "count": 32,
                   "btnType": 1,
                   "value": "49⅔"
                 },
                 {
                   "name": "49,5",
-                  "count": 222,
+                  "count": 186,
                   "btnType": 1,
                   "value": "49,5"
                 },
                 {
                   "name": "50",
-                  "count": 20,
+                  "count": 26,
                   "btnType": 1,
                   "value": "50"
                 },
                 {
                   "name": "50⅓",
-                  "count": 38,
+                  "count": 28,
                   "btnType": 1,
                   "value": "50⅓"
                 },
                 {
                   "name": "50,5",
-                  "count": 188,
+                  "count": 160,
                   "btnType": 1,
                   "value": "50,5"
                 }
@@ -1659,32 +1736,26 @@
       "type": 2,
       "items": [
         {
-          "name": "Пряжки для ремня",
-          "count": 6,
-          "btnType": 1,
-          "value": "Buckle"
-        },
-        {
           "name": "Шнурок",
-          "count": 36,
+          "count": 58,
           "btnType": 1,
           "value": "Drawstring"
         },
         {
           "name": "Крючок и петля",
-          "count": 6,
+          "count": 8,
           "btnType": 1,
           "value": "Hook-and-loop"
         },
         {
           "name": "Шнуровка",
-          "count": 1432,
+          "count": 1406,
           "btnType": 1,
           "value": "Lace-Up"
         },
         {
           "name": "Слипоны",
-          "count": 10,
+          "count": 18,
           "btnType": 1,
           "value": "Slip-on"
         }
@@ -1701,84 +1772,84 @@
       "items": [
         {
           "name": "Бежевый",
-          "count": 118,
+          "count": 114,
           "label": "#FBF2D3",
           "btnType": 1,
           "value": "Beige"
         },
         {
           "name": "Черный",
-          "count": 464,
+          "count": 466,
           "label": "#14151A",
           "btnType": 1,
           "value": "Black"
         },
         {
           "name": "Синий",
-          "count": 78,
+          "count": 62,
           "label": "#3D86E7",
           "btnType": 1,
           "value": "Blue"
         },
         {
           "name": "Коричневый",
-          "count": 94,
+          "count": 116,
           "label": "#845F57",
           "btnType": 1,
           "value": "Brown"
         },
         {
           "name": "Серый",
-          "count": 202,
+          "count": 206,
           "label": "#D7D5CA",
           "btnType": 1,
           "value": "Gray"
         },
         {
           "name": "Зеленый",
-          "count": 60,
+          "count": 50,
           "label": "#78BB53",
           "btnType": 1,
           "value": "Green"
         },
         {
           "name": "Оранжевый",
-          "count": 16,
+          "count": 24,
           "label": "#FF9500",
           "btnType": 1,
           "value": "Orange"
         },
         {
           "name": "Розовый",
-          "count": 62,
+          "count": 54,
           "label": "#F6AFCC",
           "btnType": 1,
           "value": "Pink"
         },
         {
           "name": "Фиолетовый",
-          "count": 22,
+          "count": 24,
           "label": "#C361C3",
           "btnType": 1,
           "value": "Purple"
         },
         {
           "name": "Красный",
-          "count": 54,
+          "count": 58,
           "label": "#E73A4B",
           "btnType": 1,
           "value": "Red"
         },
         {
           "name": "Серебристый",
-          "count": 40,
+          "count": 30,
           "labelUrl": "https://cdn-img.thepoizon.ru/node-common/b8c56b22-fa7a-5b26-f0bb-b7438ba0ef59-36-36.jpeg",
           "btnType": 1,
           "value": "Silver"
         },
         {
           "name": "Белый",
-          "count": 378,
+          "count": 392,
           "label": "#FFFFFF",
           "btnType": 1,
           "value": "White"
@@ -1803,25 +1874,25 @@
       "items": [
         {
           "name": "Хай-топы",
-          "count": 28,
+          "count": 38,
           "btnType": 1,
           "value": "High-top"
         },
         {
           "name": "Низкий топ",
-          "count": 1320,
+          "count": 1316,
           "btnType": 1,
           "value": "Low-top"
         },
         {
           "name": "Средний топ",
-          "count": 44,
+          "count": 58,
           "btnType": 1,
           "value": "Mid-top"
         },
         {
           "name": "Остальные",
-          "count": 106,
+          "count": 86,
           "btnType": 1,
           "value": "Other"
         }

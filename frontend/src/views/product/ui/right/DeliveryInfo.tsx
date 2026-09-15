@@ -13,26 +13,6 @@ const OrderProtectionModal = dynamic(
   { ssr: false },
 );
 
-//  "deliveryInfoModel": {
-//             "deliveryItems": [
-//               {
-//                 "deliveryTimeText": "1 окт. – 8 окт.",
-//                 "deliveryTypeText": "Бесплатная доставка",
-//                 "deliveryType": 0
-//               },
-//               {
-//                 "deliveryTimeText": "21 сент. – 28 сент.",
-//                 "deliveryTypeText": "Ускоренная доставка",
-//                 "deliveryType": 1
-//               }
-//             ],
-//             "deliveryText": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u></poizon>",
-//             "icon": {
-//               "icon": "https://cdn-img.thepoizon.ru/node-common/4bdd1249-8c93-6364-0f24-468aa275fc24-48-48.png",
-//               "width": 24,
-//               "height": 24
-//             }
-//           },
 
 const DeliveryInfo = () => {
   const [isDeliveryModalOpen, setIsDeliveryModalOpen] = useState(false);
@@ -58,7 +38,7 @@ const DeliveryInfo = () => {
             />
             <div className="flex-1 text-[14px] leading-4 pt-0.75">
               Срок доставки по адресу:{" "}
-              <span className="underline">Москву,ЦФО</span>
+              <span className="underline">Минск:ЦФО</span>
             </div>
           </div>
           <Icon

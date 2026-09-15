@@ -9,7 +9,6 @@ const BuyActionSection = () => {
     activeSku,
   } = useProductDetailData();
 
-  console.log(activeSku);
   return (
     <div className="z-1 flex items-center gap-6 w-full sticky bottom-0 left-0 right-0 py-4 bg-white border-t border-slate-100 shadow-[0_-4px_12px_rgba(0,0,0,0.03)]">
       {favoriteNum && (

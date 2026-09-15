@@ -11,7 +11,6 @@ export default async function HomePage() {
     },
     true,
   );
-  console.log(initialData)
 
   return (
     <main>

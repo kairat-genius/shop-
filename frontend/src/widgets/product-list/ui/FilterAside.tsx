@@ -111,7 +111,7 @@ const FilterAside = ({
       >
         <PriceRangeFilter
           min={0}
-          max={30_885}
+          max={90000}
           priceMin={filters.priceMin}
           priceMax={filters.priceMax}
           onChange={(min, max) =>

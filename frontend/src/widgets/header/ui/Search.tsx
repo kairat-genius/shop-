@@ -8,6 +8,36 @@ import { useSearch } from "../model/useSearch";
 import { useSearchHistory } from "../model/useSearchHistory";
 import SearchSuggestions from "./SearchSuggestions";
 
+const escapeRegExp = (str: string) =>
+  str.replaceAll(/[.*+?^${}()|[\]\\]/g, String.raw`\$&`);
+
+const HighlightMatch = ({
+  text,
+  highlight,
+}: {
+  text: string;
+  highlight: string;
+}) => {
+  if (!highlight.trim()) return <span>{text}</span>;
+
+  const regex = new RegExp(`(${escapeRegExp(highlight)})`, "gi");
+  const parts = text.split(regex);
+
+  return (
+    <>
+      {parts.map((part, index) =>
+        regex.test(part) ? (
+          <span key={index} className="text-slate-950 font-medium">
+            {part}
+          </span>
+        ) : (
+          <span key={index}>{part}</span>
+        ),
+      )}
+    </>
+  );
+};
+
 const Search = () => {
   const {
     isFocused,
@@ -20,6 +50,7 @@ const Search = () => {
     handleChange,
     navigateToSearch,
     handleClear,
+    suggestions,
   } = useSearch();
 
   const {
@@ -120,26 +151,31 @@ const Search = () => {
             style={{ boxShadow: "0 4px 12px rgba(0, 0, 0, .15)" }}
             onMouseDown={(e) => e.preventDefault()}
           >
-            <Link
-              href={`/search?keyword=${encodeURIComponent(searchQuery.trim())}`}
-              className="h-10 px-3 items-center flex justify-between gap-2 border-t border-slate-100"
-              onClick={() => {
-                saveToHistory(searchQuery.trim());
-                closeDropdown();
-              }}
-            >
-              <div className="flex-1 text-[14px] text-slate-500 leading-[16.41px] truncate">
-                <span className="font-medium text-slate-950">
-                  {searchQuery.trim()}
-                </span>
-              </div>
-              <Icon
-                icon="move-up-left"
-                width={16}
-                height={17}
-                className="shrink-0 text-slate-300"
-              />
-            </Link>
+            {suggestions.length > 0 &&
+              suggestions.map((suggestion) => (
+                <Link
+                  key={suggestion}
+                  href={`/search?keyword=${encodeURIComponent(suggestion)}`}
+                  className="h-10 px-3 items-center flex justify-between gap-2 border-t border-slate-100"
+                  onClick={() => {
+                    saveToHistory(suggestion);
+                    closeDropdown();
+                  }}
+                >
+                  <div className="flex-1 text-[14px] text-slate-500 leading-[16.41px] truncate">
+                    <HighlightMatch
+                      text={suggestion}
+                      highlight={searchQuery.trim()}
+                    />
+                  </div>
+                  <Icon
+                    icon="move-up-left"
+                    width={16}
+                    height={17}
+                    className="shrink-0 text-slate-300"
+                  />
+                </Link>
+              ))}
           </div>
         )}
       </div>

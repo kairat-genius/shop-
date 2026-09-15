@@ -9,6 +9,8 @@ import { useProductDetailData } from "../../context/useCatalogData";
 import { generateProductSlug } from "@/shared/utils/slug";
 import Share from "./Share";
 import ColorSelector from "./ColorSelector";
+import { cn } from "@/shared/utils/clsx";
+import EditionSelector from "./EditionSelector";
 
 const ProductStickyDetails = () => {
   const {
@@ -23,6 +25,8 @@ const ProductStickyDetails = () => {
   );
 
   const propertyId1 = saleProperties?.find((p) => p.definitionId === 1);
+  const propertyId12 = saleProperties?.find((p) => p.definitionId === 12);
+
   // const propertyId3960 = saleProperties?.find((p) => p.definitionId === 3960);
 
   // console.log("ffff", saleProperties);
@@ -70,8 +74,9 @@ const ProductStickyDetails = () => {
               />
             )}
             {propertyId1 && <ColorSelector saleProperty={propertyId1} />}
-            {sizeProperty && <SizeSelector saleProperty={sizeProperty} />}
 
+            {propertyId12 && <EditionSelector saleProperty={propertyId12} />}
+            {sizeProperty && <SizeSelector saleProperty={sizeProperty} />}
             {/* <div className="mt-6">
               <div className="mb-2 font-roboto_condensed font-bold text-[16px] leading-[100%] line-clamp-1">
                 Упаковка
