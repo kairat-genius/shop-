@@ -19,10 +19,7 @@ const ColorSelector = ({ saleProperty }: ColorSelectorProps) => {
   const {
     activeSku,
     selectSku,
-    productData: {
-      buyDialogModel: { skus },
-      sizeImageList,
-    },
+    productData: { sizeImageList },
   } = useProductDetailData();
 
   const defaultSizeKey = saleProperty.defaultShow;
@@ -32,6 +29,12 @@ const ColorSelector = ({ saleProperty }: ColorSelectorProps) => {
   );
 
   const defaultSizes = defaultSizeGroup?.propertyItemModels ?? [];
+  const activeValueId =
+    activeSku?.properties.find((property) =>
+      defaultSizes.some(
+        (item) => item.propertyValueId === property.propertyValueId,
+      ),
+    )?.propertyValueId ?? null;
 
   if (defaultSizes.length <= 1) {
     return null;
@@ -44,11 +47,8 @@ const ColorSelector = ({ saleProperty }: ColorSelectorProps) => {
           {saleProperty.name}:
           <span className="ml-1 font-roboto text-[14px] font-bold">
             {
-              defaultSizes.find((item) =>
-                activeSku?.properties?.some(
-                  (property) =>
-                    property.propertyValueId === item.propertyValueId,
-                ),
+              defaultSizes.find(
+                (item) => item.propertyValueId === activeValueId,
               )?.value
             }
           </span>
@@ -81,14 +81,7 @@ const ColorSelector = ({ saleProperty }: ColorSelectorProps) => {
 
       <div className="grid grid-cols-6">
         {defaultSizes.map((defaultItem) => {
-          const sku = skus.find((item) =>
-            item.properties.some(
-              (property) =>
-                property.propertyValueId === defaultItem.propertyValueId,
-            ),
-          );
-
-          const isSelected = activeSku?.skuId === sku?.skuId;
+          const isSelected = defaultItem.propertyValueId === activeValueId;
 
           return (
             <Button

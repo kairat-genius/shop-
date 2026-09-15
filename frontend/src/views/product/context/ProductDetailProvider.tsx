@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState, type ReactNode } from "react";
+import { useEffect, useMemo, useRef, useState, type ReactNode } from "react";
 
 import type { ProductDetailType } from "@/types/product-detail.type";
 import { getProductDetailClient } from "../api/getProductDetailClient";
@@ -13,6 +13,54 @@ interface ProductDetailProviderProps {
   productId: number;
 }
 
+const getSelectedValuesByDefinition = (data: ProductDetailType) => {
+  const selectedValues: Record<number, number> = {};
+
+  for (const saleProperty of data.buyDialogModel.saleProperties ?? []) {
+    const selectedItem = saleProperty.propertyList
+      .flatMap((property) => property.propertyItemModels)
+      .find((item) => item.selected);
+
+    if (selectedItem) {
+      selectedValues[saleProperty.definitionId] = selectedItem.propertyValueId;
+    }
+  }
+
+  return selectedValues;
+};
+
+const findDefinitionIdByPropertyValueId = (
+  data: ProductDetailType,
+  propertyValueId: number,
+) => {
+  return (data.buyDialogModel.saleProperties ?? []).find((saleProperty) =>
+    saleProperty.propertyList.some((property) =>
+      property.propertyItemModels.some(
+        (item) => item.propertyValueId === propertyValueId,
+      ),
+    ),
+  )?.definitionId;
+};
+
+const findSkuBySelectedValues = (
+  skus: ProductDetailType["buyDialogModel"]["skus"],
+  selectedValues: Record<number, number>,
+) => {
+  const selectedEntries = Object.entries(selectedValues);
+
+  if (selectedEntries.length === 0) {
+    return skus[0];
+  }
+
+  return (
+    skus.find((sku) =>
+      selectedEntries.every(([, valueId]) =>
+        sku.properties.some((property) => property.propertyValueId === valueId),
+      ),
+    ) ?? skus[0]
+  );
+};
+
 export const ProductDetailProvider = ({
   children,
   productData,
@@ -21,48 +69,47 @@ export const ProductDetailProvider = ({
   const [currentProductData, setCurrentProductData] = useState(productData);
   const [currentProductId, setCurrentProductId] = useState(productId);
   const [isLoading, setIsLoading] = useState(false);
+  const [selectedValuesByDefinition, setSelectedValuesByDefinition] = useState<
+    Record<number, number>
+  >(() => getSelectedValuesByDefinition(productData));
   const requestId = useRef(0);
 
   const skus = currentProductData.buyDialogModel.skus ?? [];
-  const saleProperties = currentProductData.buyDialogModel.saleProperties ?? [];
 
-  const sizeProperty = saleProperties.find(
-    (property) => property.definitionId === 6,
-  );
+  useEffect(() => {
+    setSelectedValuesByDefinition(
+      getSelectedValuesByDefinition(currentProductData),
+    );
+  }, [currentProductData]);
 
-  const selectedSize = sizeProperty?.propertyList
-    .flatMap((property) => property.propertyItemModels)
-    .find((item) => item.selected);
+  const activeSkuId = useMemo(() => {
+    const sku = findSkuBySelectedValues(skus, selectedValuesByDefinition);
+    return sku?.skuId ?? skus[0]?.skuId ?? null;
+  }, [selectedValuesByDefinition, skus]);
 
-  const defaultSku = skus.find((sku) =>
-    sku.properties.some(
-      (property) => property.propertyValueId === selectedSize?.propertyValueId,
-    ),
-  );
-
-  const [activeSkuId, setActiveSkuId] = useState<number | null>(
-    defaultSku?.skuId ?? skus[0]?.skuId ?? null,
-  );
-
-  const activeSku = skus.find((sku) => sku.skuId === activeSkuId) ?? defaultSku;
+  const activeSku = skus.find((sku) => sku.skuId === activeSkuId) ?? skus[0];
 
   const selectSku = (propertyValueId: number) => {
-    const sku = skus.find((item) =>
-      item.properties.some(
-        (property) => property.propertyValueId === propertyValueId,
-      ),
+    const definitionId = findDefinitionIdByPropertyValueId(
+      currentProductData,
+      propertyValueId,
     );
 
-    if (sku) {
-      setActiveSkuId(sku.skuId);
+    if (definitionId === undefined) {
+      return;
     }
+
+    setSelectedValuesByDefinition((prev) => ({
+      ...prev,
+      [definitionId]: propertyValueId,
+    }));
   };
 
   const serverSkus = productData.buyDialogModel.skus ?? [];
   const serverSaleProperties = productData.buyDialogModel.saleProperties ?? [];
 
   const serverSizeProperty = serverSaleProperties.find(
-    (property) => property.definitionId === 6,
+    (property) => property.definitionId === 1,
   );
 
   const serverSelectedSize = serverSizeProperty?.propertyList
@@ -83,7 +130,7 @@ export const ProductDetailProvider = ({
       logoUrl: productData.buyDialogModel.detail.logoUrl,
       saleTag: productData.productTextInfo.soldText,
       spuId: productData.buyDialogModel.detail.spuId,
-      minSpuPrice: serverDefaultSku?.minPrice
+      minSpuPrice: serverDefaultSku?.minPrice,
     });
   }, [productData, serverDefaultSku?.minPrice]);
 
@@ -100,23 +147,9 @@ export const ProductDetailProvider = ({
 
       setCurrentProductData(nextProductData);
       setCurrentProductId(nextProductId);
-      const nextSkus = nextProductData.buyDialogModel.skus ?? [];
-      const nextSaleProperties =
-        nextProductData.buyDialogModel.saleProperties ?? [];
-      const nextSizeProperty = nextSaleProperties.find(
-        (property) => property.definitionId === 6,
+      setSelectedValuesByDefinition(
+        getSelectedValuesByDefinition(nextProductData),
       );
-      const nextSelectedSize = nextSizeProperty?.propertyList
-        .flatMap((property) => property.propertyItemModels)
-        .find((item) => item.selected);
-      const nextDefaultSku = nextSkus.find((sku) =>
-        sku.properties.some(
-          (property) =>
-            property.propertyValueId === nextSelectedSize?.propertyValueId,
-        ),
-      );
-
-      setActiveSkuId(nextDefaultSku?.skuId ?? nextSkus[0]?.skuId ?? null);
     } finally {
       if (currentRequestId === requestId.current) {
         setIsLoading(false);

@@ -7,9 +7,6 @@ interface EditionSelectorProps {
 }
 
 const EditionSelector = ({ saleProperty }: EditionSelectorProps) => {
-  const propertyItems = saleProperty.propertyList.flatMap(
-    (property) => property.propertyItemModels,
-  );
   return (
     <div className="mt-6">
       <div className="mb-2 font-roboto_condensed font-bold text-[16px] leading-[100%] line-clamp-1">

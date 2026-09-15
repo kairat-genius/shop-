@@ -39,7 +39,7 @@ const ProductDetails = ({ detailImageList }: ProductDetailsProps) => {
         {detailImageList.map((image, index) => (
           <img
             key={index}
-            className="aspect-square object-cover"
+            className="object-contain h-full w-full"
             src={image.url}
             alt=""
             loading="lazy"

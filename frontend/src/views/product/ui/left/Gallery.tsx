@@ -17,10 +17,23 @@ const Gallery = () => {
   const mainSwiperRef = useRef<SwiperType | null>(null);
 
   const {
+    activeSku,
     productData: { imageModels },
   } = useProductDetailData();
 
-  const displayImages = imageModels
+  const activeColorValueId =
+    activeSku?.properties.find((property) => property.level === 1)
+      ?.propertyValueId ?? null;
+
+  const filteredImages =
+    activeColorValueId === null
+      ? imageModels
+      : imageModels.filter(
+          (item) => item.propertyValueId === activeColorValueId,
+        );
+
+  const displayImages =
+    filteredImages.length > 0 ? filteredImages : imageModels;
 
   return (
     <div className="relative pl-[4rem]">

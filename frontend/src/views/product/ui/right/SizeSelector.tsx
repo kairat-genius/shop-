@@ -20,7 +20,7 @@ const SizeSelector = ({ saleProperty }: SizeSelectorProps) => {
     activeSku,
     selectSku,
     productData: {
-      buyDialogModel: { skus, offSizeInfo },
+      buyDialogModel: { skus, offSizeInfo, saleProperties },
     },
     productId,
   } = useProductDetailData();
@@ -38,10 +38,28 @@ const SizeSelector = ({ saleProperty }: SizeSelectorProps) => {
   const defaultSizes = defaultSizeGroup?.propertyItemModels ?? [];
   const secondarySizes = secondarySizeGroup?.propertyItemModels ?? [];
 
-  const activeSize = defaultSizes.find((item) =>
-    activeSku?.properties.some(
-      (property) => property.propertyValueId === item.propertyValueId,
-    ),
+  const activeValueId =
+    activeSku?.properties.find((property) =>
+      defaultSizes.some(
+        (item) => item.propertyValueId === property.propertyValueId,
+      ),
+    )?.propertyValueId ?? null;
+
+  const activeColorValueId =
+    activeSku?.properties.find((property) =>
+      saleProperties.some(
+        (salePropertyItem) =>
+          salePropertyItem.definitionId === 1 &&
+          salePropertyItem.propertyList.some((group) =>
+            group.propertyItemModels.some(
+              (item) => item.propertyValueId === property.propertyValueId,
+            ),
+          ),
+      ),
+    )?.propertyValueId ?? null;
+
+  const activeSize = defaultSizes.find(
+    (item) => item.propertyValueId === activeValueId,
   );
 
   const activeFootLength = activeSize?.sizeParameterList?.[0]?.sizeValue;
@@ -100,19 +118,22 @@ const SizeSelector = ({ saleProperty }: SizeSelectorProps) => {
         {defaultSizes.map((defaultItem, index) => {
           const secondaryItem = secondarySizes[index];
 
-          const sku = skus.find((item) =>
-            item.properties.some(
-              (property) =>
-                property.propertyValueId === defaultItem.propertyValueId,
-            ),
+          const sku = skus.find(
+            (item) =>
+              item.properties.some(
+                (property) =>
+                  property.propertyValueId === defaultItem.propertyValueId,
+              ) &&
+              (activeColorValueId === null ||
+                item.properties.some(
+                  (property) => property.propertyValueId === activeColorValueId,
+                )),
           );
 
-          const isSelected = activeSku?.skuId === sku?.skuId;
+          const isSelected = defaultItem.propertyValueId === activeValueId;
 
           const price =
             sku?.skuSpeedInfo?.[0]?.speedPrice?.localizedDisplayText;
-
-          const itemFootLength = defaultItem.sizeParameterList?.[0]?.sizeValue;
 
           return (
             <div
@@ -125,11 +146,21 @@ const SizeSelector = ({ saleProperty }: SizeSelectorProps) => {
               )}
             >
               {/* Поповер при наведении сверху */}
-              {itemFootLength && (
+              {defaultItem.sizeParameterList && (
                 <Popover>
-                  <div className="max-w-70 flex items-center text-[12px] h-6">
-                    <span className="text-slate-500 mr-0.5">Длина стопы:</span>{" "}
-                    <span>{itemFootLength}</span>
+                  <div className="max-w-70 text-[12px] flex-1">
+                    {defaultItem.sizeParameterList.map((item) => (
+                      <span
+                        key={item.sizeKey}
+                        className="flex h-6 items-center"
+                      >
+                        <span className="mr-0.5 font-light text-slate-500">
+                          {item.sizeKey}
+                        </span>
+
+                        <span>{item.sizeValue}</span>
+                      </span>
+                    ))}
                   </div>
                 </Popover>
               )}
