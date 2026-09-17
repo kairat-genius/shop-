@@ -150,6 +150,7 @@ export const ProductDetailProvider = ({
         productId: currentProductId,
         activeSku,
         activeSkuId,
+        selectedPropertyValueIds: selectedValuesByDefinition,
         selectSku,
         selectProduct,
         isLoading,

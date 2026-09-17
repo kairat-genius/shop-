@@ -329,6 +329,8 @@ export type SkusType = {
 
 export type BuyDialogModelType = {
   detail: DetailType;
+  imageModelList?: ImageModelType[];
+  saleImages?: Record<string, ImageModelType[]>;
   saleProperties: SalePropertiesType[];
   skus: SkusType[];
   defaultSelectSku?: {

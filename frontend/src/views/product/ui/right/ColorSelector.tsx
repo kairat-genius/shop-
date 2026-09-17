@@ -19,7 +19,14 @@ const ColorSelector = ({ saleProperty }: ColorSelectorProps) => {
   const {
     activeSku,
     selectSku,
-    productData: { sizeImageList },
+    selectProduct,
+    selectedPropertyValueIds,
+    productData: {
+      sizeImageList,
+      buyDialogModel: {
+        detail: { spuId: currentSpuId },
+      },
+    },
   } = useProductDetailData();
 
   const defaultSizeKey = saleProperty.defaultShow;
@@ -30,11 +37,13 @@ const ColorSelector = ({ saleProperty }: ColorSelectorProps) => {
 
   const defaultSizes = defaultSizeGroup?.propertyItemModels ?? [];
   const activeValueId =
+    selectedPropertyValueIds[saleProperty.definitionId] ??
     activeSku?.properties.find((property) =>
       defaultSizes.some(
         (item) => item.propertyValueId === property.propertyValueId,
       ),
-    )?.propertyValueId ?? null;
+    )?.propertyValueId ??
+    null;
 
   if (defaultSizes.length <= 1) {
     return null;
@@ -86,7 +95,11 @@ const ColorSelector = ({ saleProperty }: ColorSelectorProps) => {
           return (
             <Button
               key={defaultItem.propertyValueId}
-              onClick={() => selectSku(defaultItem.propertyValueId)}
+              onClick={() =>
+                defaultItem.spuId === currentSpuId
+                  ? selectSku(defaultItem.propertyValueId)
+                  : void selectProduct(defaultItem.spuId)
+              }
               className={cn(
                 "border shrink-0",
                 isSelected

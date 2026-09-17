@@ -1,4 +1,8 @@
-import type { ProductDetailType, SeriesDialogModelType, SkusType } from "@/types/product-detail.type";
+import type {
+  ProductDetailType,
+  SeriesDialogModelType,
+  SkusType,
+} from "@/types/product-detail.type";
 import { createContext } from "react";
 
 interface ProductDetailContextType {
@@ -6,10 +10,11 @@ interface ProductDetailContextType {
   productId: number;
   activeSku: SkusType | undefined;
   activeSkuId: number | null;
+  selectedPropertyValueIds: Record<number, number>;
   selectSku: (propertyValueId: number) => void;
   selectProduct: (productId: number) => Promise<void>;
   isLoading: boolean;
-  seriesDialogModel?: SeriesDialogModelType
+  seriesDialogModel?: SeriesDialogModelType;
 }
 
 export const ProductDetailContext = createContext<

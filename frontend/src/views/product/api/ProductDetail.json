@@ -19,75 +19,64 @@
     "pickUpAbValue": true
   },
   "shareInfo": {
-    "shareImageUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251208/62dd00806f89485dbad7efb907861add.jpg",
+    "shareImageUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260318/09c09e12fe944027a85216781fc6636a.jpg",
     "shareContent": "Главный маркетплейс моды в мире",
-    "shareTitle": "Nike A'One противоскользящие устойчивые к истиранию низкие баскетбольные кроссовки женские розовые черные",
-    "shareUrl": "https://www.thepoizon.ru/product/nike-a-one-8900071352027943"
+    "shareTitle": "Jordan vintage print casual sports bag with zipper closure, polyester, bowling bag crossbody handbag, medium, unisex couple, denim blue",
+    "shareUrl": "https://www.thepoizon.ru/product/jordan-vintage-print-casual-sports-bag-with-zipper-closure-polyester-bowling-bag-crossbody-handbag-medium-unisex-couple-denim-blue-8900283185326712"
   },
-  "groupType": 2,
-  "commodity3dModelResponse": {
-    "model3dFileMap": {
-      "8901409331057943": {
-        "coverUrl": "https://cdn-img.thepoizon.ru/algo/3dgs-v3/20250723/23680161/23680161.png",
-        "gifUrl": "https://cdn-img.thepoizon.ru/algo/3dgs-v3/20250723/23680161/23680161.gif",
-        "spu3dFastModelFormat": 3,
-        "objFileUrlFast": "https://cdn-img.thepoizon.ru/algo/3dgs-v3/20250723/23680161/23680161_3dgs_3w_vq.zip",
-        "objFileUrl": "https://cdn-img.thepoizon.ru/algo/3dgs-v3/20250723/23680161/23680161_3dgs_logo_vq_bbmax.zip",
-        "show3dModelFast": 1,
-        "propertyValueId": 721280189,
-        "moreMaterialFlag": 1,
-        "spu3dModelFormat": 3,
-        "key": "",
-        "spu3dShowType": 1,
-        "spu3dFastModelKey": ""
-      }
-    }
-  },
+  "groupType": 1,
   "itemDetailsShowNum": 6,
-  "rankingModule": {
-    "rankingList": [
-      {
-        "icon": "https://cdn-img.thepoizon.ru/node-common/03bf4860-cd8f-d56b-8ff5-cefbfe6ef458-42-42.png",
-        "name": "В тренде: Nike Баскетбол",
-        "rank": "№2",
-        "id": 72,
-        "url": "/ranking/hot-picks-nike-basketball-72"
-      }
-    ]
-  },
   "imageAndText": [],
   "loginFlag": false,
-  "seriesItemsModel": [
-    {
-      "customSortState": false,
-      "itemType": "SERIES",
-      "name": "Series",
-      "linkUrl": "https://m.poizon.com/router/buyer/detailCollectionPage?url=%2Fcategory%2Fproduct-recommend&title=A'One&seriesIds=1070848&recSpuIds=8900071352027943&sourceName=1&pageType=series",
-      "defaultShow": 1,
-      "value": "A'One",
-      "key": "Модель",
-      "seriesId": 1070848,
-      "primaryKey": "SERIES"
-    }
-  ],
+  "seriesItemsModel": [],
   "detailImageList": [
     {
-      "imageId": 1005108012107943,
+      "imageId": 1005303670306712,
       "sort": 1,
-      "genericType": "INTL_SELLING_POINT_IMAGE_all",
-      "genericTypeSort": 1,
-      "imgEvenTrace": "{\"position\":\"image_text_floor\",\"typeKey\":\"INTL_SELLING_POINT_IMAGE\"}",
-      "url": "https://h5static.dewucdn.com/node-common/c8bd0448-6ea6-3e4e-0d75-452e6a489d05-1024-1024.png",
-      "imgType": 1064,
-      "burialImgType": 1064
+      "genericType": "INTL_BAG_SELLING_POINT_STRATEGY_2_all",
+      "genericTypeSort": 8,
+      "imgEvenTrace": "{\"position\":\"image_text_floor\",\"typeKey\":\"INTL_BAG_SELLING_POINT_STRATEGY_2\"}",
+      "url": "https://h5static.dewucdn.com/node-common/a1f61973-9688-04fd-b610-cd9e5c0ed46c-1024-1024.png",
+      "imgType": 1089,
+      "burialImgType": 1089
+    },
+    {
+      "width": 1500,
+      "genericType": "DETAIL_all",
+      "genericTypeSort": 14,
+      "imgEvenTrace": "{\"position\":\"image_text_floor\",\"typeKey\":\"DETAIL\"}",
+      "url": "https://cdn-img.thepoizon.ru/algo/trade-matting-batch/c93b060a-2294-11f1-8dcb-865e3b4b7b6d.jpg",
+      "imgType": 10002,
+      "height": 1500,
+      "burialImgType": 10002
+    },
+    {
+      "width": 750,
+      "genericType": "DETAIL_all",
+      "genericTypeSort": 14,
+      "imgEvenTrace": "{\"position\":\"image_text_floor\",\"typeKey\":\"DETAIL\"}",
+      "url": "https://cdn-img.thepoizon.ru/algo/trade-matting-batch/ca6f0062-2294-11f1-9174-0e313cac754d.jpg",
+      "imgType": 10002,
+      "height": 750,
+      "burialImgType": 10002
+    },
+    {
+      "imageId": 1005298746506712,
+      "sort": 1,
+      "genericType": "INTL_PARAMETERS_IMAGE_all",
+      "genericTypeSort": 16,
+      "imgEvenTrace": "{\"position\":\"image_text_floor\",\"typeKey\":\"INTL_PARAMETERS_IMAGE\"}",
+      "url": "https://h5static.dewucdn.com/node-common/a67a1211-0f52-ab60-f847-56f68c877e77-1152-1536.png",
+      "imgType": 1071,
+      "burialImgType": 1071
     },
     {
       "width": 694,
       "genericType": "WASH_INTRO_INFO_all",
       "genericTypeSort": 17,
       "imgEvenTrace": "{\"position\":\"image_text_floor\",\"typeKey\":\"WASH_INTRO_INFO\"}",
-      "url": "https://cdn-img.thepoizon.ru/node-common/25650c23-2b87-b1e9-481c-22fd39c26725-694-886.jpg",
-      "height": 886
+      "url": "https://cdn-img.thepoizon.ru/node-common/b41f6794-a2b1-4ce2-6869-9e0c242a0dba-694-1172.jpg",
+      "height": 1172
     }
   ],
   "authenticatedGuaranteeModule": {
@@ -98,17 +87,17 @@
   },
   "buyDialogModel": {
     "saleImages": {
-      "8901409331057943": [
+      "8905411325956712": [
         {
           "modelWear": false,
-          "imageId": 748032592,
-          "propertyValueId": 8901409331057943,
+          "imageId": 1004371641906712,
+          "propertyValueId": 8905411325956712,
           "channel": 1,
           "sort": 1,
           "label": 0,
           "genericTypeSort": 1,
           "imgEvenTrace": "{\"position\":\"item\",\"typeKey\":\"PHOTO\",\"tagKey\":\"white\"}",
-          "url": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251208/62dd00806f89485dbad7efb907861add.jpg",
+          "url": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260318/09c09e12fe944027a85216781fc6636a.jpg",
           "colorStyle": "FFFFFF",
           "genericType": "PHOTO_white",
           "imgType": 0,
@@ -116,14 +105,14 @@
         },
         {
           "modelWear": false,
-          "imageId": 748032589,
-          "propertyValueId": 8901409331057943,
+          "imageId": 1004371641916712,
+          "propertyValueId": 8905411325956712,
           "channel": 1,
           "sort": 2,
           "label": 0,
           "genericTypeSort": 1,
           "imgEvenTrace": "{\"position\":\"item\",\"typeKey\":\"PHOTO\",\"tagKey\":\"white\"}",
-          "url": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251208/91dbf22bf68a496db2060f9866bfa475.jpg",
+          "url": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260318/039536820cf648d2a464c97d9bbb3157.jpg",
           "colorStyle": "FFFFFF",
           "genericType": "PHOTO_white",
           "imgType": 0,
@@ -131,14 +120,14 @@
         },
         {
           "modelWear": false,
-          "imageId": 748032591,
-          "propertyValueId": 8901409331057943,
+          "imageId": 1004371641926712,
+          "propertyValueId": 8905411325956712,
           "channel": 1,
           "sort": 3,
           "label": 0,
           "genericTypeSort": 1,
           "imgEvenTrace": "{\"position\":\"item\",\"typeKey\":\"PHOTO\",\"tagKey\":\"white\"}",
-          "url": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251208/ea7dc7e7fdc2497fa809aedcda88bdda.jpg",
+          "url": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260318/fb7cf8f607d54f128a39526c2d134f05.jpg",
           "colorStyle": "FFFFFF",
           "genericType": "PHOTO_white",
           "imgType": 0,
@@ -146,14 +135,14 @@
         },
         {
           "modelWear": false,
-          "imageId": 748032616,
-          "propertyValueId": 8901409331057943,
+          "imageId": 1004371415356712,
+          "propertyValueId": 8905411325956712,
           "channel": 1,
           "sort": 4,
           "label": 0,
           "genericTypeSort": 1,
           "imgEvenTrace": "{\"position\":\"item\",\"typeKey\":\"PHOTO\",\"tagKey\":\"white\"}",
-          "url": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251208/940137bac1734a4680f214ef79f6e1c6.jpg",
+          "url": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260318/25b3d36df6e146ccb6fd9a4a8266090b.jpg",
           "colorStyle": "FFFFFF",
           "genericType": "PHOTO_white",
           "imgType": 0,
@@ -161,49 +150,56 @@
         },
         {
           "modelWear": false,
-          "imageId": 748032615,
-          "propertyValueId": 8901409331057943,
+          "imageId": 1004371415376712,
+          "propertyValueId": 8905411325956712,
           "channel": 1,
-          "sort": 5,
+          "sort": 6,
           "label": 0,
           "genericTypeSort": 1,
           "imgEvenTrace": "{\"position\":\"item\",\"typeKey\":\"PHOTO\",\"tagKey\":\"white\"}",
-          "url": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251208/efa4057176284bfb91fba88ac64dc698.jpg",
+          "url": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260318/02f1a9cea2ae4f6b88ed65ed712c599f.jpg",
           "colorStyle": "FFFFFF",
           "genericType": "PHOTO_white",
+          "imgType": 0,
+          "burialImgType": 0
+        },
+        {
+          "modelWear": false,
+          "imageId": 1004371641936712,
+          "propertyValueId": 8905411325956712,
+          "channel": 1,
+          "sort": 7,
+          "label": 0,
+          "genericTypeSort": 1,
+          "imgEvenTrace": "{\"position\":\"item\",\"typeKey\":\"PHOTO\",\"tagKey\":\"white\"}",
+          "url": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260318/48eab74aabb347779330b7561593a52d.jpg",
+          "colorStyle": "FFFFFF",
+          "genericType": "PHOTO_white",
+          "imgType": 0,
+          "burialImgType": 0
+        },
+        {
+          "modelWear": false,
+          "imageId": 1004371415366712,
+          "propertyValueId": 8905411325956712,
+          "channel": 1,
+          "sort": 5,
+          "label": 0,
+          "genericTypeSort": 2,
+          "imgEvenTrace": "{\"position\":\"item\",\"typeKey\":\"PHOTO\"}",
+          "url": "https://cdn-img.thepoizon.ru/algo/trade-matting-batch/c9f6d330-2294-11f1-9174-0e313cac754d.jpg",
+          "colorStyle": "FFFFFF",
+          "genericType": "PHOTO_-",
           "imgType": 0,
           "burialImgType": 0
         }
       ]
     },
     "buyForTitle": "Купить за",
-    "googleProductCategory": "Apparel & Accessories > Shoes",
+    "googleProductCategory": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
     "skus": [
       {
-        "skuTitle": "Nike A'One противоскользящие устойчивые к истиранию низкие баскетбольные кроссовки женские розовые черные 35,5",
-        "couponInfo": {
-          "backgroundColorHex": "",
-          "content": ""
-        },
-        "spuId": 8900071352027943,
-        "sourceSkuId": 866976295,
-        "subscribeFlag": false,
-        "skuId": 8900687550747943,
-        "authPrice": 0,
-        "properties": [
-          {
-            "level": 1,
-            "propertyValueId": 8901409331057943
-          },
-          {
-            "level": 2,
-            "propertyValueId": 8901411282727943
-          }
-        ],
-        "status": 1
-      },
-      {
-        "skuTitle": "Nike A'One противоскользящие устойчивые к истиранию низкие баскетбольные кроссовки женские розовые черные 37,5",
+        "skuTitle": "Jordan vintage print casual sports bag with zipper closure, polyester, bowling bag crossbody handbag, medium, unisex couple, denim blue",
         "skuSpeedInfo": [
           {
             "easyBuyModel": {
@@ -213,7 +209,7 @@
             "labelInfo": {
               "name": "Международная"
             },
-            "saleInventoryNo": "BBMAX137693797150-1093",
+            "saleInventoryNo": "BBMAX1517207369033-3198",
             "tradeLabel": "Международная",
             "skuDeliveryDesc": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u>, 4 окт. – 11 окт.</poizon>",
             "minDay": 17,
@@ -243,15 +239,15 @@
             "speedType": 11,
             "speedPrice": {
               "symbol": "₽",
-              "localizedDisplayText": "10 275 ₽",
+              "localizedDisplayText": "5 869 ₽",
               "money": {
-                "amount": "10275.00",
-                "minUnitVal": 1027500,
+                "amount": "5869.00",
+                "minUnitVal": 586900,
                 "currency": "RUB"
               },
-              "amountText": "10 275",
+              "amountText": "5 869",
               "sign": "+",
-              "absText": "10 275"
+              "absText": "5 869"
             },
             "tradeLabelId": 2
           }
@@ -260,1483 +256,27 @@
           "backgroundColorHex": "",
           "content": ""
         },
-        "hitBizTags": [
-          {
-            "name": "Почти распродано",
-            "type": 2
-          }
-        ],
         "minPrice": {
           "symbol": "₽",
-          "localizedDisplayText": "10 275 ₽",
+          "localizedDisplayText": "5 869 ₽",
           "money": {
-            "amount": "10275.00",
-            "minUnitVal": 1027500,
+            "amount": "5869.00",
+            "minUnitVal": 586900,
             "currency": "RUB"
           },
-          "amountText": "10 275",
+          "amountText": "5 869",
           "sign": "+",
-          "absText": "10 275"
+          "absText": "5 869"
         },
-        "spuId": 8900071352027943,
-        "sourceSkuId": 866976298,
+        "spuId": 8900283185326712,
+        "sourceSkuId": 1087666993,
         "subscribeFlag": false,
-        "bizTag": {
-          "name": "Почти распродано",
-          "type": 2
-        },
-        "skuId": 8900687550797943,
+        "skuId": 8903655856886712,
         "authPrice": 0,
         "properties": [
           {
             "level": 1,
-            "propertyValueId": 8901409331057943
-          },
-          {
-            "level": 2,
-            "propertyValueId": 8901411282817943
-          }
-        ],
-        "status": 1
-      },
-      {
-        "skuTitle": "Nike A'One противоскользящие устойчивые к истиранию низкие баскетбольные кроссовки женские розовые черные 38",
-        "skuSpeedInfo": [
-          {
-            "easyBuyModel": {
-              "easyBuyFlag": true,
-              "easyBuyText": "Покупка с уверенностью"
-            },
-            "labelInfo": {
-              "name": "Международная"
-            },
-            "saleInventoryNo": "BBMAX137677481237-1749",
-            "tradeLabel": "Международная",
-            "skuDeliveryDesc": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u>, 4 окт. – 11 окт.</poizon>",
-            "minDay": 17,
-            "speedInfoTip": "17-24 дней",
-            "deliveryInfoModel": {
-              "deliveryItems": [
-                {
-                  "deliveryTimeText": "4 окт. – 11 окт.",
-                  "deliveryTypeText": "Бесплатная доставка",
-                  "deliveryType": 0
-                },
-                {
-                  "deliveryTimeText": "26 сент. – 3 окт.",
-                  "deliveryTypeText": "Ускоренная доставка",
-                  "deliveryType": 1
-                }
-              ],
-              "deliveryText": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u></poizon>",
-              "icon": {
-                "icon": "https://cdn-img.thepoizon.ru/node-common/4bdd1249-8c93-6364-0f24-468aa275fc24-48-48.png",
-                "width": 24,
-                "height": 24
-              }
-            },
-            "maxDay": 24,
-            "trackingMap": {},
-            "speedType": 11,
-            "speedPrice": {
-              "symbol": "₽",
-              "localizedDisplayText": "13 113 ₽",
-              "money": {
-                "amount": "13113.00",
-                "minUnitVal": 1311300,
-                "currency": "RUB"
-              },
-              "amountText": "13 113",
-              "sign": "+",
-              "absText": "13 113"
-            },
-            "tradeLabelId": 2
-          }
-        ],
-        "couponInfo": {
-          "backgroundColorHex": "",
-          "content": ""
-        },
-        "hitBizTags": [
-          {
-            "name": "Почти распродано",
-            "type": 2
-          }
-        ],
-        "minPrice": {
-          "symbol": "₽",
-          "localizedDisplayText": "13 113 ₽",
-          "money": {
-            "amount": "13113.00",
-            "minUnitVal": 1311300,
-            "currency": "RUB"
-          },
-          "amountText": "13 113",
-          "sign": "+",
-          "absText": "13 113"
-        },
-        "spuId": 8900071352027943,
-        "sourceSkuId": 866976299,
-        "subscribeFlag": false,
-        "bizTag": {
-          "name": "Почти распродано",
-          "type": 2
-        },
-        "skuId": 8900687550817943,
-        "authPrice": 0,
-        "properties": [
-          {
-            "level": 1,
-            "propertyValueId": 8901409331057943
-          },
-          {
-            "level": 2,
-            "propertyValueId": 8901409331187943
-          }
-        ],
-        "status": 1
-      },
-      {
-        "skuTitle": "Nike A'One противоскользящие устойчивые к истиранию низкие баскетбольные кроссовки женские розовые черные 39",
-        "skuSpeedInfo": [
-          {
-            "easyBuyModel": {
-              "easyBuyFlag": true,
-              "easyBuyText": "Покупка с уверенностью"
-            },
-            "labelInfo": {
-              "name": "Международная"
-            },
-            "saleInventoryNo": "BBMAX137699407452-1711",
-            "tradeLabel": "Международная",
-            "skuDeliveryDesc": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u>, 5 окт. – 12 окт.</poizon>",
-            "minDay": 18,
-            "speedInfoTip": "18-25 дней",
-            "deliveryInfoModel": {
-              "deliveryItems": [
-                {
-                  "deliveryTimeText": "5 окт. – 12 окт.",
-                  "deliveryTypeText": "Бесплатная доставка",
-                  "deliveryType": 0
-                },
-                {
-                  "deliveryTimeText": "27 сент. – 4 окт.",
-                  "deliveryTypeText": "Ускоренная доставка",
-                  "deliveryType": 1
-                }
-              ],
-              "deliveryText": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u></poizon>",
-              "icon": {
-                "icon": "https://cdn-img.thepoizon.ru/node-common/4bdd1249-8c93-6364-0f24-468aa275fc24-48-48.png",
-                "width": 24,
-                "height": 24
-              }
-            },
-            "maxDay": 25,
-            "trackingMap": {},
-            "speedType": 11,
-            "speedPrice": {
-              "symbol": "₽",
-              "localizedDisplayText": "7 585 ₽",
-              "money": {
-                "amount": "7585.00",
-                "minUnitVal": 758500,
-                "currency": "RUB"
-              },
-              "amountText": "7 585",
-              "sign": "+",
-              "absText": "7 585"
-            },
-            "tradeLabelId": 2
-          }
-        ],
-        "couponInfo": {
-          "backgroundColorHex": "",
-          "content": ""
-        },
-        "hitBizTags": [
-          {
-            "name": "Почти распродано",
-            "type": 2
-          }
-        ],
-        "minPrice": {
-          "symbol": "₽",
-          "localizedDisplayText": "7 585 ₽",
-          "money": {
-            "amount": "7585.00",
-            "minUnitVal": 758500,
-            "currency": "RUB"
-          },
-          "amountText": "7 585",
-          "sign": "+",
-          "absText": "7 585"
-        },
-        "spuId": 8900071352027943,
-        "sourceSkuId": 866976300,
-        "subscribeFlag": false,
-        "bizTag": {
-          "name": "Почти распродано",
-          "type": 2
-        },
-        "skuId": 8900687550837943,
-        "authPrice": 0,
-        "properties": [
-          {
-            "level": 1,
-            "propertyValueId": 8901409331057943
-          },
-          {
-            "level": 2,
-            "propertyValueId": 8901409331207943
-          }
-        ],
-        "status": 1
-      },
-      {
-        "skuTitle": "Nike A'One противоскользящие устойчивые к истиранию низкие баскетбольные кроссовки женские розовые черные 39,5",
-        "skuSpeedInfo": [
-          {
-            "easyBuyModel": {
-              "easyBuyFlag": true,
-              "easyBuyText": "Покупка с уверенностью"
-            },
-            "labelInfo": {
-              "name": "Международная"
-            },
-            "saleInventoryNo": "BBMAX137699153091-1344",
-            "tradeLabel": "Международная",
-            "skuDeliveryDesc": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u>, 4 окт. – 11 окт.</poizon>",
-            "minDay": 17,
-            "speedInfoTip": "17-24 дней",
-            "deliveryInfoModel": {
-              "deliveryItems": [
-                {
-                  "deliveryTimeText": "4 окт. – 11 окт.",
-                  "deliveryTypeText": "Бесплатная доставка",
-                  "deliveryType": 0
-                },
-                {
-                  "deliveryTimeText": "26 сент. – 3 окт.",
-                  "deliveryTypeText": "Ускоренная доставка",
-                  "deliveryType": 1
-                }
-              ],
-              "deliveryText": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u></poizon>",
-              "icon": {
-                "icon": "https://cdn-img.thepoizon.ru/node-common/4bdd1249-8c93-6364-0f24-468aa275fc24-48-48.png",
-                "width": 24,
-                "height": 24
-              }
-            },
-            "maxDay": 24,
-            "trackingMap": {},
-            "speedType": 11,
-            "speedPrice": {
-              "symbol": "₽",
-              "localizedDisplayText": "8 020 ₽",
-              "money": {
-                "amount": "8020.00",
-                "minUnitVal": 802000,
-                "currency": "RUB"
-              },
-              "amountText": "8 020",
-              "sign": "+",
-              "absText": "8 020"
-            },
-            "tradeLabelId": 2
-          }
-        ],
-        "couponInfo": {
-          "backgroundColorHex": "",
-          "content": ""
-        },
-        "hitBizTags": [
-          {
-            "name": "Почти распродано",
-            "type": 2
-          }
-        ],
-        "minPrice": {
-          "symbol": "₽",
-          "localizedDisplayText": "8 020 ₽",
-          "money": {
-            "amount": "8020.00",
-            "minUnitVal": 802000,
-            "currency": "RUB"
-          },
-          "amountText": "8 020",
-          "sign": "+",
-          "absText": "8 020"
-        },
-        "spuId": 8900071352027943,
-        "sourceSkuId": 866976301,
-        "subscribeFlag": false,
-        "bizTag": {
-          "name": "Почти распродано",
-          "type": 2
-        },
-        "skuId": 8900687550877943,
-        "authPrice": 0,
-        "properties": [
-          {
-            "level": 1,
-            "propertyValueId": 8901409331057943
-          },
-          {
-            "level": 2,
-            "propertyValueId": 8901409331237943
-          }
-        ],
-        "status": 1
-      },
-      {
-        "skuTitle": "Nike A'One противоскользящие устойчивые к истиранию низкие баскетбольные кроссовки женские розовые черные 40",
-        "skuSpeedInfo": [
-          {
-            "easyBuyModel": {
-              "easyBuyFlag": true,
-              "easyBuyText": "Покупка с уверенностью"
-            },
-            "labelInfo": {
-              "name": "Международная"
-            },
-            "saleInventoryNo": "BBMAX137696927572-1384",
-            "tradeLabel": "Международная",
-            "skuDeliveryDesc": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u>, 5 окт. – 12 окт.</poizon>",
-            "minDay": 18,
-            "speedInfoTip": "18-25 дней",
-            "deliveryInfoModel": {
-              "deliveryItems": [
-                {
-                  "deliveryTimeText": "5 окт. – 12 окт.",
-                  "deliveryTypeText": "Бесплатная доставка",
-                  "deliveryType": 0
-                },
-                {
-                  "deliveryTimeText": "27 сент. – 4 окт.",
-                  "deliveryTypeText": "Ускоренная доставка",
-                  "deliveryType": 1
-                }
-              ],
-              "deliveryText": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u></poizon>",
-              "icon": {
-                "icon": "https://cdn-img.thepoizon.ru/node-common/4bdd1249-8c93-6364-0f24-468aa275fc24-48-48.png",
-                "width": 24,
-                "height": 24
-              }
-            },
-            "maxDay": 25,
-            "trackingMap": {},
-            "speedType": 11,
-            "speedPrice": {
-              "symbol": "₽",
-              "localizedDisplayText": "9 481 ₽",
-              "money": {
-                "amount": "9481.00",
-                "minUnitVal": 948100,
-                "currency": "RUB"
-              },
-              "amountText": "9 481",
-              "sign": "+",
-              "absText": "9 481"
-            },
-            "tradeLabelId": 2
-          }
-        ],
-        "couponInfo": {
-          "backgroundColorHex": "",
-          "content": ""
-        },
-        "hitBizTags": [
-          {
-            "name": "Мин цена за 7 дн",
-            "type": 1
-          },
-          {
-            "name": "Почти распродано",
-            "type": 2
-          }
-        ],
-        "minPrice": {
-          "symbol": "₽",
-          "localizedDisplayText": "9 481 ₽",
-          "money": {
-            "amount": "9481.00",
-            "minUnitVal": 948100,
-            "currency": "RUB"
-          },
-          "amountText": "9 481",
-          "sign": "+",
-          "absText": "9 481"
-        },
-        "spuId": 8900071352027943,
-        "sourceSkuId": 866976302,
-        "subscribeFlag": false,
-        "bizTag": {
-          "name": "Мин цена за 7 дн",
-          "type": 1
-        },
-        "skuId": 8900687550897943,
-        "authPrice": 0,
-        "properties": [
-          {
-            "level": 1,
-            "propertyValueId": 8901409331057943
-          },
-          {
-            "level": 2,
-            "propertyValueId": 8901409331247943
-          }
-        ],
-        "status": 1
-      },
-      {
-        "skuTitle": "Nike A'One противоскользящие устойчивые к истиранию низкие баскетбольные кроссовки женские розовые черные 43,5",
-        "skuSpeedInfo": [
-          {
-            "easyBuyModel": {
-              "easyBuyFlag": true,
-              "easyBuyText": "Покупка с уверенностью"
-            },
-            "labelInfo": {
-              "name": "Международная"
-            },
-            "saleInventoryNo": "BBMAX137708899504-1488",
-            "tradeLabel": "Международная",
-            "skuDeliveryDesc": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u>, 5 окт. – 12 окт.</poizon>",
-            "minDay": 18,
-            "speedInfoTip": "18-25 дней",
-            "deliveryInfoModel": {
-              "deliveryItems": [
-                {
-                  "deliveryTimeText": "5 окт. – 12 окт.",
-                  "deliveryTypeText": "Бесплатная доставка",
-                  "deliveryType": 0
-                },
-                {
-                  "deliveryTimeText": "27 сент. – 4 окт.",
-                  "deliveryTypeText": "Ускоренная доставка",
-                  "deliveryType": 1
-                }
-              ],
-              "deliveryText": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u></poizon>",
-              "icon": {
-                "icon": "https://cdn-img.thepoizon.ru/node-common/4bdd1249-8c93-6364-0f24-468aa275fc24-48-48.png",
-                "width": 24,
-                "height": 24
-              }
-            },
-            "maxDay": 25,
-            "trackingMap": {},
-            "speedType": 11,
-            "speedPrice": {
-              "symbol": "₽",
-              "localizedDisplayText": "6 811 ₽",
-              "money": {
-                "amount": "6811.00",
-                "minUnitVal": 681100,
-                "currency": "RUB"
-              },
-              "amountText": "6 811",
-              "sign": "+",
-              "absText": "6 811"
-            },
-            "tradeLabelId": 2
-          }
-        ],
-        "couponInfo": {
-          "backgroundColorHex": "",
-          "content": ""
-        },
-        "hitBizTags": [
-          {
-            "name": "Мин цена за 30 дн",
-            "type": 1
-          },
-          {
-            "name": "Почти распродано",
-            "type": 2
-          }
-        ],
-        "minPrice": {
-          "symbol": "₽",
-          "localizedDisplayText": "6 811 ₽",
-          "money": {
-            "amount": "6811.00",
-            "minUnitVal": 681100,
-            "currency": "RUB"
-          },
-          "amountText": "6 811",
-          "sign": "+",
-          "absText": "6 811"
-        },
-        "spuId": 8900071352027943,
-        "sourceSkuId": 866976307,
-        "subscribeFlag": false,
-        "bizTag": {
-          "name": "Мин цена за 30 дн",
-          "type": 1
-        },
-        "skuId": 8900687550987943,
-        "authPrice": 0,
-        "properties": [
-          {
-            "level": 1,
-            "propertyValueId": 8901409331057943
-          },
-          {
-            "level": 2,
-            "propertyValueId": 8901411282987943
-          }
-        ],
-        "status": 1
-      },
-      {
-        "skuTitle": "Nike A'One противоскользящие устойчивые к истиранию низкие баскетбольные кроссовки женские розовые черные 44",
-        "skuSpeedInfo": [
-          {
-            "easyBuyModel": {
-              "easyBuyFlag": true,
-              "easyBuyText": "Покупка с уверенностью"
-            },
-            "labelInfo": {
-              "name": "Международная"
-            },
-            "saleInventoryNo": "BBMAX137677173451-1114",
-            "tradeLabel": "Международная",
-            "skuDeliveryDesc": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u>, 5 окт. – 12 окт.</poizon>",
-            "minDay": 18,
-            "speedInfoTip": "18-25 дней",
-            "deliveryInfoModel": {
-              "deliveryItems": [
-                {
-                  "deliveryTimeText": "5 окт. – 12 окт.",
-                  "deliveryTypeText": "Бесплатная доставка",
-                  "deliveryType": 0
-                },
-                {
-                  "deliveryTimeText": "27 сент. – 4 окт.",
-                  "deliveryTypeText": "Ускоренная доставка",
-                  "deliveryType": 1
-                }
-              ],
-              "deliveryText": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u></poizon>",
-              "icon": {
-                "icon": "https://cdn-img.thepoizon.ru/node-common/4bdd1249-8c93-6364-0f24-468aa275fc24-48-48.png",
-                "width": 24,
-                "height": 24
-              }
-            },
-            "maxDay": 25,
-            "trackingMap": {},
-            "speedType": 11,
-            "speedPrice": {
-              "symbol": "₽",
-              "localizedDisplayText": "9 635 ₽",
-              "money": {
-                "amount": "9635.00",
-                "minUnitVal": 963500,
-                "currency": "RUB"
-              },
-              "amountText": "9 635",
-              "sign": "+",
-              "absText": "9 635"
-            },
-            "tradeLabelId": 2
-          }
-        ],
-        "couponInfo": {
-          "backgroundColorHex": "",
-          "content": ""
-        },
-        "hitBizTags": [
-          {
-            "name": "Почти распродано",
-            "type": 2
-          }
-        ],
-        "minPrice": {
-          "symbol": "₽",
-          "localizedDisplayText": "9 635 ₽",
-          "money": {
-            "amount": "9635.00",
-            "minUnitVal": 963500,
-            "currency": "RUB"
-          },
-          "amountText": "9 635",
-          "sign": "+",
-          "absText": "9 635"
-        },
-        "spuId": 8900071352027943,
-        "sourceSkuId": 866976308,
-        "subscribeFlag": false,
-        "bizTag": {
-          "name": "Почти распродано",
-          "type": 2
-        },
-        "skuId": 8900687551017943,
-        "authPrice": 0,
-        "properties": [
-          {
-            "level": 1,
-            "propertyValueId": 8901409331057943
-          },
-          {
-            "level": 2,
-            "propertyValueId": 8901409331337943
-          }
-        ],
-        "status": 1
-      },
-      {
-        "skuTitle": "Nike A'One противоскользящие устойчивые к истиранию низкие баскетбольные кроссовки женские розовые черные 45",
-        "skuSpeedInfo": [
-          {
-            "easyBuyModel": {
-              "easyBuyFlag": true,
-              "easyBuyText": "Покупка с уверенностью"
-            },
-            "labelInfo": {
-              "name": "Международная"
-            },
-            "saleInventoryNo": "BBMAX137708969614-646",
-            "tradeLabel": "Международная",
-            "skuDeliveryDesc": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u>, 5 окт. – 12 окт.</poizon>",
-            "minDay": 18,
-            "speedInfoTip": "18-25 дней",
-            "deliveryInfoModel": {
-              "deliveryItems": [
-                {
-                  "deliveryTimeText": "5 окт. – 12 окт.",
-                  "deliveryTypeText": "Бесплатная доставка",
-                  "deliveryType": 0
-                },
-                {
-                  "deliveryTimeText": "27 сент. – 4 окт.",
-                  "deliveryTypeText": "Ускоренная доставка",
-                  "deliveryType": 1
-                }
-              ],
-              "deliveryText": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u></poizon>",
-              "icon": {
-                "icon": "https://cdn-img.thepoizon.ru/node-common/4bdd1249-8c93-6364-0f24-468aa275fc24-48-48.png",
-                "width": 24,
-                "height": 24
-              }
-            },
-            "maxDay": 25,
-            "trackingMap": {},
-            "speedType": 11,
-            "speedPrice": {
-              "symbol": "₽",
-              "localizedDisplayText": "11 631 ₽",
-              "money": {
-                "amount": "11631.00",
-                "minUnitVal": 1163100,
-                "currency": "RUB"
-              },
-              "amountText": "11 631",
-              "sign": "+",
-              "absText": "11 631"
-            },
-            "tradeLabelId": 2
-          }
-        ],
-        "couponInfo": {
-          "backgroundColorHex": "",
-          "content": ""
-        },
-        "hitBizTags": [
-          {
-            "name": "Почти распродано",
-            "type": 2
-          }
-        ],
-        "minPrice": {
-          "symbol": "₽",
-          "localizedDisplayText": "11 631 ₽",
-          "money": {
-            "amount": "11631.00",
-            "minUnitVal": 1163100,
-            "currency": "RUB"
-          },
-          "amountText": "11 631",
-          "sign": "+",
-          "absText": "11 631"
-        },
-        "spuId": 8900071352027943,
-        "sourceSkuId": 866976310,
-        "subscribeFlag": false,
-        "bizTag": {
-          "name": "Почти распродано",
-          "type": 2
-        },
-        "skuId": 8900687551037943,
-        "authPrice": 0,
-        "properties": [
-          {
-            "level": 1,
-            "propertyValueId": 8901409331057943
-          },
-          {
-            "level": 2,
-            "propertyValueId": 8901409331377943
-          }
-        ],
-        "status": 1
-      },
-      {
-        "skuTitle": "Nike A'One противоскользящие устойчивые к истиранию низкие баскетбольные кроссовки женские розовые черные 46",
-        "couponInfo": {
-          "backgroundColorHex": "",
-          "content": ""
-        },
-        "spuId": 8900071352027943,
-        "sourceSkuId": 866976311,
-        "subscribeFlag": false,
-        "skuId": 8900687551057943,
-        "authPrice": 0,
-        "properties": [
-          {
-            "level": 1,
-            "propertyValueId": 8901409331057943
-          },
-          {
-            "level": 2,
-            "propertyValueId": 8901411283047943
-          }
-        ],
-        "status": 1
-      },
-      {
-        "skuTitle": "Nike A'One противоскользящие устойчивые к истиранию низкие баскетбольные кроссовки женские розовые черные 34,5",
-        "couponInfo": {
-          "backgroundColorHex": "",
-          "content": ""
-        },
-        "spuId": 8900071352027943,
-        "sourceSkuId": 866976293,
-        "subscribeFlag": false,
-        "skuId": 8900689479237943,
-        "authPrice": 0,
-        "properties": [
-          {
-            "level": 1,
-            "propertyValueId": 8901409331057943
-          },
-          {
-            "level": 2,
-            "propertyValueId": 8901409331067943
-          }
-        ],
-        "status": 1
-      },
-      {
-        "skuTitle": "Nike A'One противоскользящие устойчивые к истиранию низкие баскетбольные кроссовки женские розовые черные 35",
-        "skuSpeedInfo": [
-          {
-            "easyBuyModel": {
-              "easyBuyFlag": true,
-              "easyBuyText": "Покупка с уверенностью"
-            },
-            "labelInfo": {
-              "name": "Международная"
-            },
-            "saleInventoryNo": "BBMAX1528537567388-13",
-            "tradeLabel": "Международная",
-            "skuDeliveryDesc": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u>, 5 окт. – 12 окт.</poizon>",
-            "minDay": 18,
-            "speedInfoTip": "18-25 дней",
-            "deliveryInfoModel": {
-              "deliveryItems": [
-                {
-                  "deliveryTimeText": "5 окт. – 12 окт.",
-                  "deliveryTypeText": "Бесплатная доставка",
-                  "deliveryType": 0
-                },
-                {
-                  "deliveryTimeText": "27 сент. – 4 окт.",
-                  "deliveryTypeText": "Ускоренная доставка",
-                  "deliveryType": 1
-                }
-              ],
-              "deliveryText": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u></poizon>",
-              "icon": {
-                "icon": "https://cdn-img.thepoizon.ru/node-common/4bdd1249-8c93-6364-0f24-468aa275fc24-48-48.png",
-                "width": 24,
-                "height": 24
-              }
-            },
-            "maxDay": 25,
-            "trackingMap": {},
-            "speedType": 11,
-            "speedPrice": {
-              "symbol": "₽",
-              "localizedDisplayText": "12 533 ₽",
-              "money": {
-                "amount": "12533.00",
-                "minUnitVal": 1253300,
-                "currency": "RUB"
-              },
-              "amountText": "12 533",
-              "sign": "+",
-              "absText": "12 533"
-            },
-            "tradeLabelId": 2
-          }
-        ],
-        "couponInfo": {
-          "backgroundColorHex": "",
-          "content": ""
-        },
-        "hitBizTags": [
-          {
-            "name": "Почти распродано",
-            "type": 2
-          }
-        ],
-        "minPrice": {
-          "symbol": "₽",
-          "localizedDisplayText": "12 533 ₽",
-          "money": {
-            "amount": "12533.00",
-            "minUnitVal": 1253300,
-            "currency": "RUB"
-          },
-          "amountText": "12 533",
-          "sign": "+",
-          "absText": "12 533"
-        },
-        "spuId": 8900071352027943,
-        "sourceSkuId": 866976294,
-        "subscribeFlag": false,
-        "bizTag": {
-          "name": "Почти распродано",
-          "type": 2
-        },
-        "skuId": 8900689479257943,
-        "authPrice": 0,
-        "properties": [
-          {
-            "level": 1,
-            "propertyValueId": 8901409331057943
-          },
-          {
-            "level": 2,
-            "propertyValueId": 8901409331097943
-          }
-        ],
-        "status": 1
-      },
-      {
-        "skuTitle": "Nike A'One противоскользящие устойчивые к истиранию низкие баскетбольные кроссовки женские розовые черные 36,5",
-        "couponInfo": {
-          "backgroundColorHex": "",
-          "content": ""
-        },
-        "spuId": 8900071352027943,
-        "sourceSkuId": 866976296,
-        "subscribeFlag": false,
-        "skuId": 8900689479277943,
-        "authPrice": 0,
-        "properties": [
-          {
-            "level": 1,
-            "propertyValueId": 8901409331057943
-          },
-          {
-            "level": 2,
-            "propertyValueId": 8901411282767943
-          }
-        ],
-        "status": 1
-      },
-      {
-        "skuTitle": "Nike A'One противоскользящие устойчивые к истиранию низкие баскетбольные кроссовки женские розовые черные 37",
-        "skuSpeedInfo": [
-          {
-            "easyBuyModel": {
-              "easyBuyFlag": true,
-              "easyBuyText": "Покупка с уверенностью"
-            },
-            "labelInfo": {
-              "name": "Международная"
-            },
-            "saleInventoryNo": "BBMAX137677484556-1038",
-            "tradeLabel": "Международная",
-            "skuDeliveryDesc": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u>, 4 окт. – 11 окт.</poizon>",
-            "minDay": 17,
-            "speedInfoTip": "17-24 дней",
-            "deliveryInfoModel": {
-              "deliveryItems": [
-                {
-                  "deliveryTimeText": "4 окт. – 11 окт.",
-                  "deliveryTypeText": "Бесплатная доставка",
-                  "deliveryType": 0
-                },
-                {
-                  "deliveryTimeText": "26 сент. – 3 окт.",
-                  "deliveryTypeText": "Ускоренная доставка",
-                  "deliveryType": 1
-                }
-              ],
-              "deliveryText": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u></poizon>",
-              "icon": {
-                "icon": "https://cdn-img.thepoizon.ru/node-common/4bdd1249-8c93-6364-0f24-468aa275fc24-48-48.png",
-                "width": 24,
-                "height": 24
-              }
-            },
-            "maxDay": 24,
-            "trackingMap": {},
-            "speedType": 11,
-            "speedPrice": {
-              "symbol": "₽",
-              "localizedDisplayText": "11 081 ₽",
-              "money": {
-                "amount": "11081.00",
-                "minUnitVal": 1108100,
-                "currency": "RUB"
-              },
-              "amountText": "11 081",
-              "sign": "+",
-              "absText": "11 081"
-            },
-            "tradeLabelId": 2
-          }
-        ],
-        "couponInfo": {
-          "backgroundColorHex": "",
-          "content": ""
-        },
-        "hitBizTags": [
-          {
-            "name": "Почти распродано",
-            "type": 2
-          }
-        ],
-        "minPrice": {
-          "symbol": "₽",
-          "localizedDisplayText": "11 081 ₽",
-          "money": {
-            "amount": "11081.00",
-            "minUnitVal": 1108100,
-            "currency": "RUB"
-          },
-          "amountText": "11 081",
-          "sign": "+",
-          "absText": "11 081"
-        },
-        "spuId": 8900071352027943,
-        "sourceSkuId": 866976297,
-        "subscribeFlag": false,
-        "bizTag": {
-          "name": "Почти распродано",
-          "type": 2
-        },
-        "skuId": 8900689479297943,
-        "authPrice": 0,
-        "properties": [
-          {
-            "level": 1,
-            "propertyValueId": 8901409331057943
-          },
-          {
-            "level": 2,
-            "propertyValueId": 8901409331157943
-          }
-        ],
-        "status": 1
-      },
-      {
-        "skuTitle": "Nike A'One противоскользящие устойчивые к истиранию низкие баскетбольные кроссовки женские розовые черные 41",
-        "skuSpeedInfo": [
-          {
-            "easyBuyModel": {
-              "easyBuyFlag": true,
-              "easyBuyText": "Покупка с уверенностью"
-            },
-            "labelInfo": {
-              "name": "Международная"
-            },
-            "saleInventoryNo": "BBMAX1315578330174-1480",
-            "tradeLabel": "Международная",
-            "skuDeliveryDesc": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u>, 5 окт. – 12 окт.</poizon>",
-            "minDay": 18,
-            "speedInfoTip": "18-25 дней",
-            "deliveryInfoModel": {
-              "deliveryItems": [
-                {
-                  "deliveryTimeText": "5 окт. – 12 окт.",
-                  "deliveryTypeText": "Бесплатная доставка",
-                  "deliveryType": 0
-                },
-                {
-                  "deliveryTimeText": "27 сент. – 4 окт.",
-                  "deliveryTypeText": "Ускоренная доставка",
-                  "deliveryType": 1
-                }
-              ],
-              "deliveryText": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u></poizon>",
-              "icon": {
-                "icon": "https://cdn-img.thepoizon.ru/node-common/4bdd1249-8c93-6364-0f24-468aa275fc24-48-48.png",
-                "width": 24,
-                "height": 24
-              }
-            },
-            "maxDay": 25,
-            "trackingMap": {},
-            "speedType": 11,
-            "speedPrice": {
-              "symbol": "₽",
-              "localizedDisplayText": "8 810 ₽",
-              "money": {
-                "amount": "8810.00",
-                "minUnitVal": 881000,
-                "currency": "RUB"
-              },
-              "amountText": "8 810",
-              "sign": "+",
-              "absText": "8 810"
-            },
-            "tradeLabelId": 2
-          }
-        ],
-        "couponInfo": {
-          "backgroundColorHex": "",
-          "content": ""
-        },
-        "hitBizTags": [
-          {
-            "name": "Мин цена за 15 дн",
-            "type": 1
-          },
-          {
-            "name": "Почти распродано",
-            "type": 2
-          }
-        ],
-        "minPrice": {
-          "symbol": "₽",
-          "localizedDisplayText": "8 810 ₽",
-          "money": {
-            "amount": "8810.00",
-            "minUnitVal": 881000,
-            "currency": "RUB"
-          },
-          "amountText": "8 810",
-          "sign": "+",
-          "absText": "8 810"
-        },
-        "spuId": 8900071352027943,
-        "sourceSkuId": 866976303,
-        "subscribeFlag": false,
-        "bizTag": {
-          "name": "Мин цена за 15 дн",
-          "type": 1
-        },
-        "skuId": 8900689479397943,
-        "authPrice": 0,
-        "properties": [
-          {
-            "level": 1,
-            "propertyValueId": 8901409331057943
-          },
-          {
-            "level": 2,
-            "propertyValueId": 8901411282887943
-          }
-        ],
-        "status": 1
-      },
-      {
-        "skuTitle": "Nike A'One противоскользящие устойчивые к истиранию низкие баскетбольные кроссовки женские розовые черные 41,5",
-        "skuSpeedInfo": [
-          {
-            "easyBuyModel": {
-              "easyBuyFlag": true,
-              "easyBuyText": "Покупка с уверенностью"
-            },
-            "labelInfo": {
-              "name": "Международная"
-            },
-            "saleInventoryNo": "BBMAX137657539621-1294",
-            "tradeLabel": "Международная",
-            "skuDeliveryDesc": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u>, 5 окт. – 12 окт.</poizon>",
-            "minDay": 18,
-            "speedInfoTip": "18-25 дней",
-            "deliveryInfoModel": {
-              "deliveryItems": [
-                {
-                  "deliveryTimeText": "5 окт. – 12 окт.",
-                  "deliveryTypeText": "Бесплатная доставка",
-                  "deliveryType": 0
-                },
-                {
-                  "deliveryTimeText": "27 сент. – 4 окт.",
-                  "deliveryTypeText": "Ускоренная доставка",
-                  "deliveryType": 1
-                }
-              ],
-              "deliveryText": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u></poizon>",
-              "icon": {
-                "icon": "https://cdn-img.thepoizon.ru/node-common/4bdd1249-8c93-6364-0f24-468aa275fc24-48-48.png",
-                "width": 24,
-                "height": 24
-              }
-            },
-            "maxDay": 25,
-            "trackingMap": {},
-            "speedType": 11,
-            "speedPrice": {
-              "symbol": "₽",
-              "localizedDisplayText": "8 694 ₽",
-              "money": {
-                "amount": "8694.00",
-                "minUnitVal": 869400,
-                "currency": "RUB"
-              },
-              "amountText": "8 694",
-              "sign": "+",
-              "absText": "8 694"
-            },
-            "tradeLabelId": 2
-          }
-        ],
-        "couponInfo": {
-          "backgroundColorHex": "",
-          "content": ""
-        },
-        "hitBizTags": [
-          {
-            "name": "Мин цена за 7 дн",
-            "type": 1
-          },
-          {
-            "name": "Почти распродано",
-            "type": 2
-          }
-        ],
-        "minPrice": {
-          "symbol": "₽",
-          "localizedDisplayText": "8 694 ₽",
-          "money": {
-            "amount": "8694.00",
-            "minUnitVal": 869400,
-            "currency": "RUB"
-          },
-          "amountText": "8 694",
-          "sign": "+",
-          "absText": "8 694"
-        },
-        "spuId": 8900071352027943,
-        "sourceSkuId": 866976304,
-        "subscribeFlag": false,
-        "bizTag": {
-          "name": "Мин цена за 7 дн",
-          "type": 1
-        },
-        "skuId": 8900689479407943,
-        "authPrice": 0,
-        "properties": [
-          {
-            "level": 1,
-            "propertyValueId": 8901409331057943
-          },
-          {
-            "level": 2,
-            "propertyValueId": 8901411282907943
-          }
-        ],
-        "status": 1
-      },
-      {
-        "skuTitle": "Nike A'One противоскользящие устойчивые к истиранию низкие баскетбольные кроссовки женские розовые черные 42",
-        "skuSpeedInfo": [
-          {
-            "easyBuyModel": {
-              "easyBuyFlag": true,
-              "easyBuyText": "Покупка с уверенностью"
-            },
-            "labelInfo": {
-              "name": "Международная"
-            },
-            "saleInventoryNo": "BBMAX137677388920-1528",
-            "tradeLabel": "Международная",
-            "skuDeliveryDesc": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u>, 5 окт. – 12 окт.</poizon>",
-            "minDay": 18,
-            "speedInfoTip": "18-25 дней",
-            "deliveryInfoModel": {
-              "deliveryItems": [
-                {
-                  "deliveryTimeText": "5 окт. – 12 окт.",
-                  "deliveryTypeText": "Бесплатная доставка",
-                  "deliveryType": 0
-                },
-                {
-                  "deliveryTimeText": "27 сент. – 4 окт.",
-                  "deliveryTypeText": "Ускоренная доставка",
-                  "deliveryType": 1
-                }
-              ],
-              "deliveryText": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u></poizon>",
-              "icon": {
-                "icon": "https://cdn-img.thepoizon.ru/node-common/4bdd1249-8c93-6364-0f24-468aa275fc24-48-48.png",
-                "width": 24,
-                "height": 24
-              }
-            },
-            "maxDay": 25,
-            "trackingMap": {},
-            "speedType": 11,
-            "speedPrice": {
-              "symbol": "₽",
-              "localizedDisplayText": "10 103 ₽",
-              "money": {
-                "amount": "10103.00",
-                "minUnitVal": 1010300,
-                "currency": "RUB"
-              },
-              "amountText": "10 103",
-              "sign": "+",
-              "absText": "10 103"
-            },
-            "tradeLabelId": 2
-          }
-        ],
-        "couponInfo": {
-          "backgroundColorHex": "",
-          "content": ""
-        },
-        "hitBizTags": [
-          {
-            "name": "Почти распродано",
-            "type": 2
-          }
-        ],
-        "minPrice": {
-          "symbol": "₽",
-          "localizedDisplayText": "10 103 ₽",
-          "money": {
-            "amount": "10103.00",
-            "minUnitVal": 1010300,
-            "currency": "RUB"
-          },
-          "amountText": "10 103",
-          "sign": "+",
-          "absText": "10 103"
-        },
-        "spuId": 8900071352027943,
-        "sourceSkuId": 866976305,
-        "subscribeFlag": false,
-        "bizTag": {
-          "name": "Почти распродано",
-          "type": 2
-        },
-        "skuId": 8900689479427943,
-        "authPrice": 0,
-        "properties": [
-          {
-            "level": 1,
-            "propertyValueId": 8901409331057943
-          },
-          {
-            "level": 2,
-            "propertyValueId": 8901409331267943
-          }
-        ],
-        "status": 1
-      },
-      {
-        "skuTitle": "Nike A'One противоскользящие устойчивые к истиранию низкие баскетбольные кроссовки женские розовые черные 43",
-        "skuSpeedInfo": [
-          {
-            "easyBuyModel": {
-              "easyBuyFlag": true,
-              "easyBuyText": "Покупка с уверенностью"
-            },
-            "labelInfo": {
-              "name": "Международная"
-            },
-            "saleInventoryNo": "BBMAX137706711483-1385",
-            "tradeLabel": "Международная",
-            "skuDeliveryDesc": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u>, 5 окт. – 12 окт.</poizon>",
-            "minDay": 18,
-            "speedInfoTip": "18-25 дней",
-            "deliveryInfoModel": {
-              "deliveryItems": [
-                {
-                  "deliveryTimeText": "5 окт. – 12 окт.",
-                  "deliveryTypeText": "Бесплатная доставка",
-                  "deliveryType": 0
-                },
-                {
-                  "deliveryTimeText": "27 сент. – 4 окт.",
-                  "deliveryTypeText": "Ускоренная доставка",
-                  "deliveryType": 1
-                }
-              ],
-              "deliveryText": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u></poizon>",
-              "icon": {
-                "icon": "https://cdn-img.thepoizon.ru/node-common/4bdd1249-8c93-6364-0f24-468aa275fc24-48-48.png",
-                "width": 24,
-                "height": 24
-              }
-            },
-            "maxDay": 25,
-            "trackingMap": {},
-            "speedType": 11,
-            "speedPrice": {
-              "symbol": "₽",
-              "localizedDisplayText": "7 161 ₽",
-              "money": {
-                "amount": "7161.00",
-                "minUnitVal": 716100,
-                "currency": "RUB"
-              },
-              "amountText": "7 161",
-              "sign": "+",
-              "absText": "7 161"
-            },
-            "tradeLabelId": 2
-          }
-        ],
-        "couponInfo": {
-          "backgroundColorHex": "",
-          "content": ""
-        },
-        "hitBizTags": [
-          {
-            "name": "Мин цена за 15 дн",
-            "type": 1
-          },
-          {
-            "name": "Почти распродано",
-            "type": 2
-          }
-        ],
-        "minPrice": {
-          "symbol": "₽",
-          "localizedDisplayText": "7 161 ₽",
-          "money": {
-            "amount": "7161.00",
-            "minUnitVal": 716100,
-            "currency": "RUB"
-          },
-          "amountText": "7 161",
-          "sign": "+",
-          "absText": "7 161"
-        },
-        "spuId": 8900071352027943,
-        "sourceSkuId": 866976306,
-        "subscribeFlag": false,
-        "bizTag": {
-          "name": "Мин цена за 15 дн",
-          "type": 1
-        },
-        "skuId": 8900689479467943,
-        "authPrice": 0,
-        "properties": [
-          {
-            "level": 1,
-            "propertyValueId": 8901409331057943
-          },
-          {
-            "level": 2,
-            "propertyValueId": 8901411282967943
-          }
-        ],
-        "status": 1
-      },
-      {
-        "skuTitle": "Nike A'One противоскользящие устойчивые к истиранию низкие баскетбольные кроссовки женские розовые черные 44,5",
-        "couponInfo": {
-          "backgroundColorHex": "",
-          "content": ""
-        },
-        "spuId": 8900071352027943,
-        "sourceSkuId": 866976309,
-        "subscribeFlag": false,
-        "skuId": 8900689479487943,
-        "authPrice": 0,
-        "properties": [
-          {
-            "level": 1,
-            "propertyValueId": 8901409331057943
-          },
-          {
-            "level": 2,
-            "propertyValueId": 8901409331357943
-          }
-        ],
-        "status": 1
-      },
-      {
-        "skuTitle": "Nike A'One противоскользящие устойчивые к истиранию низкие баскетбольные кроссовки женские розовые черные 46,5",
-        "couponInfo": {
-          "backgroundColorHex": "",
-          "content": ""
-        },
-        "spuId": 8900071352027943,
-        "sourceSkuId": 866976312,
-        "subscribeFlag": false,
-        "skuId": 8900689479517943,
-        "authPrice": 0,
-        "properties": [
-          {
-            "level": 1,
-            "propertyValueId": 8901409331057943
-          },
-          {
-            "level": 2,
-            "propertyValueId": 8901411283077943
-          }
-        ],
-        "status": 1
-      },
-      {
-        "skuTitle": "Nike A'One противоскользящие устойчивые к истиранию низкие баскетбольные кроссовки женские розовые черные 48",
-        "couponInfo": {
-          "backgroundColorHex": "",
-          "content": ""
-        },
-        "spuId": 8900071352027943,
-        "sourceSkuId": 1139559367,
-        "subscribeFlag": false,
-        "skuId": 8903977275307943,
-        "authPrice": 0,
-        "properties": [
-          {
-            "level": 1,
-            "propertyValueId": 8901409331057943
-          },
-          {
-            "level": 2,
-            "propertyValueId": 8905851397077943
-          }
-        ],
-        "status": 1
-      },
-      {
-        "skuTitle": "Nike A'One противоскользящие устойчивые к истиранию низкие баскетбольные кроссовки женские розовые черные 34",
-        "couponInfo": {
-          "backgroundColorHex": "",
-          "content": ""
-        },
-        "spuId": 8900071352027943,
-        "sourceSkuId": 1242414684,
-        "subscribeFlag": false,
-        "skuId": 8904662841337943,
-        "authPrice": 0,
-        "properties": [
-          {
-            "level": 1,
-            "propertyValueId": 8901409331057943
-          },
-          {
-            "level": 2,
-            "propertyValueId": 8906809016637943
+            "propertyValueId": 8905411325956712
           }
         ],
         "status": 1
@@ -1760,10 +300,12 @@
     "estimateDefaultDesc": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">---<u>Москву,ЦФО</u>, --</poizon>",
     "saleProperties": [
       {
+        "guideTip": "Гайд размера",
         "displayStyle": 4,
+        "showGuide": 1,
         "level": 1,
         "pvIdSourceOverseaMap": {
-          "8901409331057943": 721280189
+          "8905411325956712": 1042400373
         },
         "propertyList": [
           {
@@ -1771,14 +313,26 @@
             "propertyItemModels": [
               {
                 "level": 1,
-                "propertyValueId": 8901409331057943,
+                "propertyValueId": 8905411325956712,
                 "name": "Цвет",
-                "spuId": 8900071352027943,
+                "spuId": 8900283185326712,
                 "sort": 0,
-                "propertyId": 8901409331057943,
-                "value": "Розовый черный",
-                "url": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251208/62dd00806f89485dbad7efb907861add.jpg",
+                "propertyId": 8905411325956712,
+                "value": "джинсовый синий",
+                "url": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260318/09c09e12fe944027a85216781fc6636a.jpg",
                 "selected": true,
+                "definitionId": 1
+              },
+              {
+                "level": 1,
+                "propertyValueId": 8905410975755504,
+                "name": "Цвет",
+                "spuId": 8900283178855504,
+                "sort": 1,
+                "propertyId": 4058,
+                "value": "Темный деним",
+                "url": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260413/8860b3cba0e84efa8dca7a6fc4073f0e.jpg",
+                "selected": false,
                 "definitionId": 1
               }
             ]
@@ -1789,798 +343,12 @@
         "governType": 1,
         "giftProp": false,
         "definitionId": 1
-      },
-      {
-        "guideTip": "Гайд размера",
-        "displayStyle": 4,
-        "showGuide": 1,
-        "deviationCodePrompt": "",
-        "level": 2,
-        "propertyList": [
-          {
-            "propertyKey": "RU",
-            "propertyItemModels": [
-              {
-                "level": 2,
-                "propertyValueId": 8901409331067943,
-                "sizeParameterList": [
-                  {
-                    "sizeKey": "Длина стопы: ",
-                    "sizeValue": "22 cm"
-                  }
-                ],
-                "name": "Размер",
-                "spuId": 8900071352027943,
-                "sort": 0,
-                "suffix": "RU",
-                "propertyId": 8901409331067943,
-                "value": "34,5",
-                "selected": false,
-                "definitionId": 6
-              },
-              {
-                "level": 2,
-                "propertyValueId": 8906809016637943,
-                "sizeParameterList": [
-                  {
-                    "sizeKey": "Длина стопы: ",
-                    "sizeValue": "21,5 cm"
-                  }
-                ],
-                "name": "Размер",
-                "spuId": 8900071352027943,
-                "sort": 1,
-                "suffix": "RU",
-                "propertyId": 8906809016637943,
-                "value": "34",
-                "selected": false,
-                "definitionId": 6
-              },
-              {
-                "level": 2,
-                "propertyValueId": 8905851397077943,
-                "sizeParameterList": [
-                  {
-                    "sizeKey": "Длина стопы: ",
-                    "sizeValue": "33 cm"
-                  }
-                ],
-                "name": "Размер",
-                "spuId": 8900071352027943,
-                "sort": 2,
-                "suffix": "RU",
-                "propertyId": 8905851397077943,
-                "value": "48",
-                "selected": false,
-                "definitionId": 6
-              },
-              {
-                "level": 2,
-                "propertyValueId": 8901409331097943,
-                "sizeParameterList": [
-                  {
-                    "sizeKey": "Длина стопы: ",
-                    "sizeValue": "22,5 cm"
-                  }
-                ],
-                "name": "Размер",
-                "spuId": 8900071352027943,
-                "sort": 3,
-                "suffix": "RU",
-                "propertyId": 8901409331097943,
-                "value": "35",
-                "selected": false,
-                "definitionId": 6
-              },
-              {
-                "level": 2,
-                "propertyValueId": 8901411282727943,
-                "sizeParameterList": [
-                  {
-                    "sizeKey": "Длина стопы: ",
-                    "sizeValue": "23 cm"
-                  }
-                ],
-                "name": "Размер",
-                "spuId": 8900071352027943,
-                "sort": 4,
-                "suffix": "RU",
-                "propertyId": 8901411282727943,
-                "value": "35,5",
-                "selected": false,
-                "definitionId": 6
-              },
-              {
-                "level": 2,
-                "propertyValueId": 8901411282767943,
-                "sizeParameterList": [
-                  {
-                    "sizeKey": "Длина стопы: ",
-                    "sizeValue": "23,5 cm"
-                  }
-                ],
-                "name": "Размер",
-                "spuId": 8900071352027943,
-                "sort": 5,
-                "suffix": "RU",
-                "propertyId": 8901411282767943,
-                "value": "36,5",
-                "selected": false,
-                "definitionId": 6
-              },
-              {
-                "level": 2,
-                "propertyValueId": 8901409331157943,
-                "sizeParameterList": [
-                  {
-                    "sizeKey": "Длина стопы: ",
-                    "sizeValue": "24 cm"
-                  }
-                ],
-                "name": "Размер",
-                "spuId": 8900071352027943,
-                "sort": 6,
-                "suffix": "RU",
-                "propertyId": 8901409331157943,
-                "value": "37",
-                "selected": false,
-                "definitionId": 6
-              },
-              {
-                "level": 2,
-                "propertyValueId": 8901411282817943,
-                "sizeParameterList": [
-                  {
-                    "sizeKey": "Длина стопы: ",
-                    "sizeValue": "24,5 cm"
-                  }
-                ],
-                "name": "Размер",
-                "spuId": 8900071352027943,
-                "sort": 7,
-                "suffix": "RU",
-                "propertyId": 8901411282817943,
-                "value": "37,5",
-                "selected": false,
-                "definitionId": 6
-              },
-              {
-                "level": 2,
-                "propertyValueId": 8901409331187943,
-                "sizeParameterList": [
-                  {
-                    "sizeKey": "Длина стопы: ",
-                    "sizeValue": "25 cm"
-                  }
-                ],
-                "name": "Размер",
-                "spuId": 8900071352027943,
-                "sort": 8,
-                "suffix": "RU",
-                "propertyId": 8901409331187943,
-                "value": "38",
-                "selected": false,
-                "definitionId": 6
-              },
-              {
-                "level": 2,
-                "propertyValueId": 8901409331207943,
-                "sizeParameterList": [
-                  {
-                    "sizeKey": "Длина стопы: ",
-                    "sizeValue": "25,5 cm"
-                  }
-                ],
-                "name": "Размер",
-                "spuId": 8900071352027943,
-                "sort": 9,
-                "suffix": "RU",
-                "propertyId": 8901409331207943,
-                "value": "39",
-                "selected": false,
-                "definitionId": 6
-              },
-              {
-                "level": 2,
-                "propertyValueId": 8901409331237943,
-                "sizeParameterList": [
-                  {
-                    "sizeKey": "Длина стопы: ",
-                    "sizeValue": "26 cm"
-                  }
-                ],
-                "name": "Размер",
-                "spuId": 8900071352027943,
-                "sort": 10,
-                "suffix": "RU",
-                "propertyId": 8901409331237943,
-                "value": "39,5",
-                "selected": false,
-                "definitionId": 6
-              },
-              {
-                "level": 2,
-                "propertyValueId": 8901409331247943,
-                "sizeParameterList": [
-                  {
-                    "sizeKey": "Длина стопы: ",
-                    "sizeValue": "26,5 cm"
-                  }
-                ],
-                "name": "Размер",
-                "spuId": 8900071352027943,
-                "sort": 11,
-                "suffix": "RU",
-                "propertyId": 8901409331247943,
-                "value": "40",
-                "selected": false,
-                "definitionId": 6
-              },
-              {
-                "level": 2,
-                "propertyValueId": 8901411282887943,
-                "sizeParameterList": [
-                  {
-                    "sizeKey": "Длина стопы: ",
-                    "sizeValue": "27 cm"
-                  }
-                ],
-                "name": "Размер",
-                "spuId": 8900071352027943,
-                "sort": 12,
-                "suffix": "RU",
-                "propertyId": 8901411282887943,
-                "value": "41",
-                "selected": false,
-                "definitionId": 6
-              },
-              {
-                "level": 2,
-                "propertyValueId": 8901411282907943,
-                "sizeParameterList": [
-                  {
-                    "sizeKey": "Длина стопы: ",
-                    "sizeValue": "27,5 cm"
-                  }
-                ],
-                "name": "Размер",
-                "spuId": 8900071352027943,
-                "sort": 13,
-                "suffix": "RU",
-                "propertyId": 8901411282907943,
-                "value": "41,5",
-                "selected": false,
-                "definitionId": 6
-              },
-              {
-                "level": 2,
-                "propertyValueId": 8901409331267943,
-                "sizeParameterList": [
-                  {
-                    "sizeKey": "Длина стопы: ",
-                    "sizeValue": "28 cm"
-                  }
-                ],
-                "name": "Размер",
-                "spuId": 8900071352027943,
-                "sort": 14,
-                "suffix": "RU",
-                "propertyId": 8901409331267943,
-                "value": "42",
-                "selected": false,
-                "definitionId": 6
-              },
-              {
-                "level": 2,
-                "propertyValueId": 8901411282967943,
-                "sizeParameterList": [
-                  {
-                    "sizeKey": "Длина стопы: ",
-                    "sizeValue": "28,5 cm"
-                  }
-                ],
-                "name": "Размер",
-                "spuId": 8900071352027943,
-                "sort": 15,
-                "suffix": "RU",
-                "propertyId": 8901411282967943,
-                "value": "43",
-                "selected": false,
-                "definitionId": 6
-              },
-              {
-                "level": 2,
-                "propertyValueId": 8901411282987943,
-                "sizeParameterList": [
-                  {
-                    "sizeKey": "Длина стопы: ",
-                    "sizeValue": "29 cm"
-                  }
-                ],
-                "name": "Размер",
-                "spuId": 8900071352027943,
-                "sort": 16,
-                "suffix": "RU",
-                "propertyId": 8901411282987943,
-                "value": "43,5",
-                "selected": true,
-                "definitionId": 6
-              },
-              {
-                "level": 2,
-                "propertyValueId": 8901409331337943,
-                "sizeParameterList": [
-                  {
-                    "sizeKey": "Длина стопы: ",
-                    "sizeValue": "29,5 cm"
-                  }
-                ],
-                "name": "Размер",
-                "spuId": 8900071352027943,
-                "sort": 17,
-                "suffix": "RU",
-                "propertyId": 8901409331337943,
-                "value": "44",
-                "selected": false,
-                "definitionId": 6
-              },
-              {
-                "level": 2,
-                "propertyValueId": 8901409331357943,
-                "sizeParameterList": [
-                  {
-                    "sizeKey": "Длина стопы: ",
-                    "sizeValue": "30 cm"
-                  }
-                ],
-                "name": "Размер",
-                "spuId": 8900071352027943,
-                "sort": 18,
-                "suffix": "RU",
-                "propertyId": 8901409331357943,
-                "value": "44,5",
-                "selected": false,
-                "definitionId": 6
-              },
-              {
-                "level": 2,
-                "propertyValueId": 8901409331377943,
-                "sizeParameterList": [
-                  {
-                    "sizeKey": "Длина стопы: ",
-                    "sizeValue": "30,5 cm"
-                  }
-                ],
-                "name": "Размер",
-                "spuId": 8900071352027943,
-                "sort": 19,
-                "suffix": "RU",
-                "propertyId": 8901409331377943,
-                "value": "45",
-                "selected": false,
-                "definitionId": 6
-              },
-              {
-                "level": 2,
-                "propertyValueId": 8901411283047943,
-                "sizeParameterList": [
-                  {
-                    "sizeKey": "Длина стопы: ",
-                    "sizeValue": "31 cm"
-                  }
-                ],
-                "name": "Размер",
-                "spuId": 8900071352027943,
-                "sort": 20,
-                "suffix": "RU",
-                "propertyId": 8901411283047943,
-                "value": "46",
-                "selected": false,
-                "definitionId": 6
-              },
-              {
-                "level": 2,
-                "propertyValueId": 8901411283077943,
-                "sizeParameterList": [
-                  {
-                    "sizeKey": "Длина стопы: ",
-                    "sizeValue": "31,5 cm"
-                  }
-                ],
-                "name": "Размер",
-                "spuId": 8900071352027943,
-                "sort": 21,
-                "suffix": "RU",
-                "propertyId": 8901411283077943,
-                "value": "46,5",
-                "selected": false,
-                "definitionId": 6
-              }
-            ]
-          },
-          {
-            "propertyKey": "EU",
-            "propertyItemModels": [
-              {
-                "level": 2,
-                "propertyValueId": 8901409331067943,
-                "sizeParameterList": [
-                  {
-                    "sizeKey": "Длина стопы: ",
-                    "sizeValue": "23 cm"
-                  }
-                ],
-                "name": "Размер",
-                "spuId": 8900071352027943,
-                "sort": 0,
-                "suffix": "EU",
-                "propertyId": 8901409331067943,
-                "value": "35,5",
-                "selected": false,
-                "definitionId": 6
-              },
-              {
-                "level": 2,
-                "propertyValueId": 8906809016637943,
-                "sizeParameterList": [
-                  {
-                    "sizeKey": "Длина стопы: ",
-                    "sizeValue": "22,5 cm"
-                  }
-                ],
-                "name": "Размер",
-                "spuId": 8900071352027943,
-                "sort": 1,
-                "suffix": "EU",
-                "propertyId": 8906809016637943,
-                "value": "35",
-                "selected": false,
-                "definitionId": 6
-              },
-              {
-                "level": 2,
-                "propertyValueId": 8905851397077943,
-                "sizeParameterList": [
-                  {
-                    "sizeKey": "Длина стопы: ",
-                    "sizeValue": "33,5 cm"
-                  }
-                ],
-                "name": "Размер",
-                "spuId": 8900071352027943,
-                "sort": 2,
-                "suffix": "EU",
-                "propertyId": 8905851397077943,
-                "value": "49",
-                "selected": false,
-                "definitionId": 6
-              },
-              {
-                "level": 2,
-                "propertyValueId": 8901409331097943,
-                "name": "Размер",
-                "spuId": 8900071352027943,
-                "sort": 3,
-                "suffix": "EU",
-                "propertyId": 8901409331097943,
-                "value": "36",
-                "selected": false,
-                "definitionId": 6
-              },
-              {
-                "level": 2,
-                "propertyValueId": 8901411282727943,
-                "sizeParameterList": [
-                  {
-                    "sizeKey": "Длина стопы: ",
-                    "sizeValue": "23,5 cm"
-                  }
-                ],
-                "name": "Размер",
-                "spuId": 8900071352027943,
-                "sort": 4,
-                "suffix": "EU",
-                "propertyId": 8901411282727943,
-                "value": "36,5",
-                "selected": false,
-                "definitionId": 6
-              },
-              {
-                "level": 2,
-                "propertyValueId": 8901411282767943,
-                "sizeParameterList": [
-                  {
-                    "sizeKey": "Длина стопы: ",
-                    "sizeValue": "24,5 cm"
-                  }
-                ],
-                "name": "Размер",
-                "spuId": 8900071352027943,
-                "sort": 5,
-                "suffix": "EU",
-                "propertyId": 8901411282767943,
-                "value": "37,5",
-                "selected": false,
-                "definitionId": 6
-              },
-              {
-                "level": 2,
-                "propertyValueId": 8901409331157943,
-                "sizeParameterList": [
-                  {
-                    "sizeKey": "Длина стопы: ",
-                    "sizeValue": "25 cm"
-                  }
-                ],
-                "name": "Размер",
-                "spuId": 8900071352027943,
-                "sort": 6,
-                "suffix": "EU",
-                "propertyId": 8901409331157943,
-                "value": "38",
-                "selected": false,
-                "definitionId": 6
-              },
-              {
-                "level": 2,
-                "propertyValueId": 8901411282817943,
-                "name": "Размер",
-                "spuId": 8900071352027943,
-                "sort": 7,
-                "suffix": "EU",
-                "propertyId": 8901411282817943,
-                "value": "38,5",
-                "selected": false,
-                "definitionId": 6
-              },
-              {
-                "level": 2,
-                "propertyValueId": 8901409331187943,
-                "sizeParameterList": [
-                  {
-                    "sizeKey": "Длина стопы: ",
-                    "sizeValue": "25,5 cm"
-                  }
-                ],
-                "name": "Размер",
-                "spuId": 8900071352027943,
-                "sort": 8,
-                "suffix": "EU",
-                "propertyId": 8901409331187943,
-                "value": "39",
-                "selected": false,
-                "definitionId": 6
-              },
-              {
-                "level": 2,
-                "propertyValueId": 8901409331207943,
-                "sizeParameterList": [
-                  {
-                    "sizeKey": "Длина стопы: ",
-                    "sizeValue": "26,5 cm"
-                  }
-                ],
-                "name": "Размер",
-                "spuId": 8900071352027943,
-                "sort": 9,
-                "suffix": "EU",
-                "propertyId": 8901409331207943,
-                "value": "40",
-                "selected": false,
-                "definitionId": 6
-              },
-              {
-                "level": 2,
-                "propertyValueId": 8901409331237943,
-                "name": "Размер",
-                "spuId": 8900071352027943,
-                "sort": 10,
-                "suffix": "EU",
-                "propertyId": 8901409331237943,
-                "value": "40,5",
-                "selected": false,
-                "definitionId": 6
-              },
-              {
-                "level": 2,
-                "propertyValueId": 8901409331247943,
-                "sizeParameterList": [
-                  {
-                    "sizeKey": "Длина стопы: ",
-                    "sizeValue": "27 cm"
-                  }
-                ],
-                "name": "Размер",
-                "spuId": 8900071352027943,
-                "sort": 11,
-                "suffix": "EU",
-                "propertyId": 8901409331247943,
-                "value": "41",
-                "selected": false,
-                "definitionId": 6
-              },
-              {
-                "level": 2,
-                "propertyValueId": 8901411282887943,
-                "sizeParameterList": [
-                  {
-                    "sizeKey": "Длина стопы: ",
-                    "sizeValue": "28 cm"
-                  }
-                ],
-                "name": "Размер",
-                "spuId": 8900071352027943,
-                "sort": 12,
-                "suffix": "EU",
-                "propertyId": 8901411282887943,
-                "value": "42",
-                "selected": false,
-                "definitionId": 6
-              },
-              {
-                "level": 2,
-                "propertyValueId": 8901411282907943,
-                "name": "Размер",
-                "spuId": 8900071352027943,
-                "sort": 13,
-                "suffix": "EU",
-                "propertyId": 8901411282907943,
-                "value": "42,5",
-                "selected": false,
-                "definitionId": 6
-              },
-              {
-                "level": 2,
-                "propertyValueId": 8901409331267943,
-                "sizeParameterList": [
-                  {
-                    "sizeKey": "Длина стопы: ",
-                    "sizeValue": "28,5 cm"
-                  }
-                ],
-                "name": "Размер",
-                "spuId": 8900071352027943,
-                "sort": 14,
-                "suffix": "EU",
-                "propertyId": 8901409331267943,
-                "value": "43",
-                "selected": false,
-                "definitionId": 6
-              },
-              {
-                "level": 2,
-                "propertyValueId": 8901411282967943,
-                "sizeParameterList": [
-                  {
-                    "sizeKey": "Длина стопы: ",
-                    "sizeValue": "29,5 cm"
-                  }
-                ],
-                "name": "Размер",
-                "spuId": 8900071352027943,
-                "sort": 15,
-                "suffix": "EU",
-                "propertyId": 8901411282967943,
-                "value": "44",
-                "selected": false,
-                "definitionId": 6
-              },
-              {
-                "level": 2,
-                "propertyValueId": 8901411282987943,
-                "sizeParameterList": [
-                  {
-                    "sizeKey": "Длина стопы: ",
-                    "sizeValue": "30 cm"
-                  }
-                ],
-                "name": "Размер",
-                "spuId": 8900071352027943,
-                "sort": 16,
-                "suffix": "EU",
-                "propertyId": 8901411282987943,
-                "value": "44,5",
-                "selected": false,
-                "definitionId": 6
-              },
-              {
-                "level": 2,
-                "propertyValueId": 8901409331337943,
-                "sizeParameterList": [
-                  {
-                    "sizeKey": "Длина стопы: ",
-                    "sizeValue": "30,5 cm"
-                  }
-                ],
-                "name": "Размер",
-                "spuId": 8900071352027943,
-                "sort": 17,
-                "suffix": "EU",
-                "propertyId": 8901409331337943,
-                "value": "45",
-                "selected": false,
-                "definitionId": 6
-              },
-              {
-                "level": 2,
-                "propertyValueId": 8901409331357943,
-                "name": "Размер",
-                "spuId": 8900071352027943,
-                "sort": 18,
-                "suffix": "EU",
-                "propertyId": 8901409331357943,
-                "value": "45,5",
-                "selected": false,
-                "definitionId": 6
-              },
-              {
-                "level": 2,
-                "propertyValueId": 8901409331377943,
-                "sizeParameterList": [
-                  {
-                    "sizeKey": "Длина стопы: ",
-                    "sizeValue": "31 cm"
-                  }
-                ],
-                "name": "Размер",
-                "spuId": 8900071352027943,
-                "sort": 19,
-                "suffix": "EU",
-                "propertyId": 8901409331377943,
-                "value": "46",
-                "selected": false,
-                "definitionId": 6
-              },
-              {
-                "level": 2,
-                "propertyValueId": 8901411283047943,
-                "sizeParameterList": [
-                  {
-                    "sizeKey": "Длина стопы: ",
-                    "sizeValue": "32 cm"
-                  }
-                ],
-                "name": "Размер",
-                "spuId": 8900071352027943,
-                "sort": 20,
-                "suffix": "EU",
-                "propertyId": 8901411283047943,
-                "value": "47",
-                "selected": false,
-                "definitionId": 6
-              },
-              {
-                "level": 2,
-                "propertyValueId": 8901411283077943,
-                "sizeParameterList": [
-                  {
-                    "sizeKey": "Длина стопы: ",
-                    "sizeValue": "32,5 cm"
-                  }
-                ],
-                "name": "Размер",
-                "spuId": 8900071352027943,
-                "sort": 21,
-                "suffix": "EU",
-                "propertyId": 8901411283077943,
-                "value": "47,5",
-                "selected": false,
-                "definitionId": 6
-              }
-            ]
-          }
-        ],
-        "name": "Размер",
-        "defaultShow": "RU",
-        "governType": 1,
-        "giftProp": false,
-        "definitionId": 6
       }
     ],
     "pdFrameLayoutAbValue": "2",
     "levelOneMinPriceSkus": {
-      "8901409331057943": {
-        "skuTitle": "Nike A'One противоскользящие устойчивые к истиранию низкие баскетбольные кроссовки женские розовые черные 43,5",
+      "8905411325956712": {
+        "skuTitle": "Jordan vintage print casual sports bag with zipper closure, polyester, bowling bag crossbody handbag, medium, unisex couple, denim blue",
         "skuSpeedInfo": [
           {
             "easyBuyModel": {
@@ -2590,20 +358,20 @@
             "labelInfo": {
               "name": "Международная"
             },
-            "saleInventoryNo": "BBMAX137708899504-1488",
+            "saleInventoryNo": "BBMAX1517207369033-3198",
             "tradeLabel": "Международная",
-            "skuDeliveryDesc": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u>, 5 окт. – 12 окт.</poizon>",
-            "minDay": 18,
-            "speedInfoTip": "18-25 дней",
+            "skuDeliveryDesc": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u>, 4 окт. – 11 окт.</poizon>",
+            "minDay": 17,
+            "speedInfoTip": "17-24 дней",
             "deliveryInfoModel": {
               "deliveryItems": [
                 {
-                  "deliveryTimeText": "5 окт. – 12 окт.",
+                  "deliveryTimeText": "4 окт. – 11 окт.",
                   "deliveryTypeText": "Бесплатная доставка",
                   "deliveryType": 0
                 },
                 {
-                  "deliveryTimeText": "27 сент. – 4 окт.",
+                  "deliveryTimeText": "26 сент. – 3 окт.",
                   "deliveryTypeText": "Ускоренная доставка",
                   "deliveryType": 1
                 }
@@ -2615,20 +383,20 @@
                 "height": 24
               }
             },
-            "maxDay": 25,
+            "maxDay": 24,
             "trackingMap": {},
             "speedType": 11,
             "speedPrice": {
               "symbol": "₽",
-              "localizedDisplayText": "6 811 ₽",
+              "localizedDisplayText": "5 869 ₽",
               "money": {
-                "amount": "6811.00",
-                "minUnitVal": 681100,
+                "amount": "5869.00",
+                "minUnitVal": 586900,
                 "currency": "RUB"
               },
-              "amountText": "6 811",
+              "amountText": "5 869",
               "sign": "+",
-              "absText": "6 811"
+              "absText": "5 869"
             },
             "tradeLabelId": 2
           }
@@ -2637,45 +405,27 @@
           "backgroundColorHex": "",
           "content": ""
         },
-        "hitBizTags": [
-          {
-            "name": "Мин цена за 30 дн",
-            "type": 1
-          },
-          {
-            "name": "Почти распродано",
-            "type": 2
-          }
-        ],
         "minPrice": {
           "symbol": "₽",
-          "localizedDisplayText": "6 811 ₽",
+          "localizedDisplayText": "5 869 ₽",
           "money": {
-            "amount": "6811.00",
-            "minUnitVal": 681100,
+            "amount": "5869.00",
+            "minUnitVal": 586900,
             "currency": "RUB"
           },
-          "amountText": "6 811",
+          "amountText": "5 869",
           "sign": "+",
-          "absText": "6 811"
+          "absText": "5 869"
         },
-        "spuId": 8900071352027943,
-        "sourceSkuId": 866976307,
+        "spuId": 8900283185326712,
+        "sourceSkuId": 1087666993,
         "subscribeFlag": false,
-        "bizTag": {
-          "name": "Мин цена за 30 дн",
-          "type": 1
-        },
-        "skuId": 8900687550987943,
+        "skuId": 8903655856886712,
         "authPrice": 0,
         "properties": [
           {
             "level": 1,
-            "propertyValueId": 8901409331057943
-          },
-          {
-            "level": 2,
-            "propertyValueId": 8901411282987943
+            "propertyValueId": 8905411325956712
           }
         ],
         "status": 1
@@ -2684,17 +434,31 @@
     "imageModelList": [
       {
         "modelWear": false,
-        "imageId": 1005108012107943,
+        "imageId": 1005303670306712,
         "colorStyle": "FFFFFF",
         "channel": 1,
         "sort": 1,
         "label": 1,
-        "genericType": "INTL_SELLING_POINT_IMAGE_all",
-        "genericTypeSort": 0,
-        "imgEvenTrace": "{\"position\":\"outfits\",\"typeKey\":\"INTL_SELLING_POINT_IMAGE\"}",
-        "url": "https://h5static.dewucdn.com/node-common/c8bd0448-6ea6-3e4e-0d75-452e6a489d05-1024-1024.png",
-        "imgType": 1064,
-        "burialImgType": 1064
+        "genericType": "INTL_BAG_SELLING_POINT_STRATEGY_2_all",
+        "genericTypeSort": 7,
+        "imgEvenTrace": "{\"position\":\"outfits\",\"typeKey\":\"INTL_BAG_SELLING_POINT_STRATEGY_2\"}",
+        "url": "https://h5static.dewucdn.com/node-common/a1f61973-9688-04fd-b610-cd9e5c0ed46c-1024-1024.png",
+        "imgType": 1089,
+        "burialImgType": 1089
+      },
+      {
+        "modelWear": false,
+        "colorStyle": "FFFFFF",
+        "width": 938,
+        "channel": 1,
+        "label": 2,
+        "genericType": "SIZE_CAPACITY_DIAGRAM_all",
+        "genericTypeSort": 1,
+        "imgEvenTrace": "{\"position\":\"size\",\"typeKey\":\"SIZE_CAPACITY_DIAGRAM\"}",
+        "url": "https://cdn-img.thepoizon.ru/algo/commodity-image-synthesis/c96aeb4a-22cb-11f1-822c-065a86727866_cm.png",
+        "imgType": 10004,
+        "height": 533,
+        "burialImgType": 10004
       }
     ],
     "defaultSelectSku": {
@@ -2702,32 +466,22 @@
         {
           "propertyKey": "DEFAULT",
           "level": 1,
-          "propertyValueId": 8901409331057943,
+          "propertyValueId": 8905411325956712,
           "definitionId": 1
-        },
-        {
-          "propertyKey": "RU",
-          "level": 2,
-          "propertyValueId": 8901411282987943,
-          "definitionId": 6
         }
       ],
-      "spuId": 8900071352027943,
-      "skuId": 8900687550987943
+      "spuId": 8900283185326712,
+      "skuId": 8903655856886712
     },
     "skuSpeedTitle": "ВАРИАНТЫ ДОСТАВКИ",
-    "contentCategory": 31,
+    "contentCategory": 52,
     "sizeConversionAsianToUS": false,
     "containGiftProp": false,
     "noAvailableInvTitle": "Распродано",
-    "recommendSizeInfo": {
-      "recommendSourceType": "",
-      "noResultReason": "未提交"
-    },
     "giftPropAbValue": "1",
     "floatingLayerTitle": "ВЫБРАЛИ:",
     "skuMinPriceInfoDTO": {
-      "skuTitle": "Nike A'One противоскользящие устойчивые к истиранию низкие баскетбольные кроссовки женские розовые черные 43,5",
+      "skuTitle": "Jordan vintage print casual sports bag with zipper closure, polyester, bowling bag crossbody handbag, medium, unisex couple, denim blue",
       "skuSpeedInfo": [
         {
           "easyBuyModel": {
@@ -2737,20 +491,20 @@
           "labelInfo": {
             "name": "Международная"
           },
-          "saleInventoryNo": "BBMAX137708899504-1488",
+          "saleInventoryNo": "BBMAX1517207369033-3198",
           "tradeLabel": "Международная",
-          "skuDeliveryDesc": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u>, 5 окт. – 12 окт.</poizon>",
-          "minDay": 18,
-          "speedInfoTip": "18-25 дней",
+          "skuDeliveryDesc": "<poizon style=\"color:#14151A; poizon-font:POIZONText12Regular;\">Срок доставки по адресу: <u>Москву,ЦФО</u>, 4 окт. – 11 окт.</poizon>",
+          "minDay": 17,
+          "speedInfoTip": "17-24 дней",
           "deliveryInfoModel": {
             "deliveryItems": [
               {
-                "deliveryTimeText": "5 окт. – 12 окт.",
+                "deliveryTimeText": "4 окт. – 11 окт.",
                 "deliveryTypeText": "Бесплатная доставка",
                 "deliveryType": 0
               },
               {
-                "deliveryTimeText": "27 сент. – 4 окт.",
+                "deliveryTimeText": "26 сент. – 3 окт.",
                 "deliveryTypeText": "Ускоренная доставка",
                 "deliveryType": 1
               }
@@ -2762,20 +516,20 @@
               "height": 24
             }
           },
-          "maxDay": 25,
+          "maxDay": 24,
           "trackingMap": {},
           "speedType": 11,
           "speedPrice": {
             "symbol": "₽",
-            "localizedDisplayText": "6 811 ₽",
+            "localizedDisplayText": "5 869 ₽",
             "money": {
-              "amount": "6811.00",
-              "minUnitVal": 681100,
+              "amount": "5869.00",
+              "minUnitVal": 586900,
               "currency": "RUB"
             },
-            "amountText": "6 811",
+            "amountText": "5 869",
             "sign": "+",
-            "absText": "6 811"
+            "absText": "5 869"
           },
           "tradeLabelId": 2
         }
@@ -2784,70 +538,44 @@
         "backgroundColorHex": "",
         "content": ""
       },
-      "hitBizTags": [
-        {
-          "name": "Мин цена за 30 дн",
-          "type": 1
-        },
-        {
-          "name": "Почти распродано",
-          "type": 2
-        }
-      ],
       "minPrice": {
         "symbol": "₽",
-        "localizedDisplayText": "6 811 ₽",
+        "localizedDisplayText": "5 869 ₽",
         "money": {
-          "amount": "6811.00",
-          "minUnitVal": 681100,
+          "amount": "5869.00",
+          "minUnitVal": 586900,
           "currency": "RUB"
         },
-        "amountText": "6 811",
+        "amountText": "5 869",
         "sign": "+",
-        "absText": "6 811"
+        "absText": "5 869"
       },
-      "spuId": 8900071352027943,
-      "sourceSkuId": 866976307,
+      "spuId": 8900283185326712,
+      "sourceSkuId": 1087666993,
       "subscribeFlag": false,
-      "bizTag": {
-        "name": "Мин цена за 30 дн",
-        "type": 1
-      },
-      "skuId": 8900687550987943,
+      "skuId": 8903655856886712,
       "authPrice": 0,
       "properties": [
         {
           "level": 1,
-          "propertyValueId": 8901409331057943
-        },
-        {
-          "level": 2,
-          "propertyValueId": 8901411282987943
+          "propertyValueId": 8905411325956712
         }
       ],
       "status": 1
     },
     "detail": {
-      "googleProductCategory": "Apparel & Accessories > Shoes",
-      "ageRange": "adult",
-      "fitId": 3,
+      "googleProductCategory": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
+      "brandName": "Jordan",
+      "fitId": 1,
       "chineseMade": false,
-      "gender": "unisex",
       "language": "bbmax",
-      "title": "Nike A'One противоскользящие устойчивые к истиранию низкие баскетбольные кроссовки женские розовые черные",
-      "frontCategoryId": 500000091,
-      "seriesIds": [
-        1070848
-      ],
-      "frontCategoryName": "Кроссовки",
-      "sourceSpuId": 23680161,
-      "areaName": "BBMAX",
-      "level1CategoryId": 29,
-      "brandName": "Nike",
-      "sizeSystem": "RU",
-      "bagWatchAccessory": false,
-      "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251208/62dd00806f89485dbad7efb907861add.jpg",
-      "contentCategory": 31,
+      "bagWatchAccessory": true,
+      "title": "Jordan vintage print casual sports bag with zipper closure, polyester, bowling bag crossbody handbag, medium, unisex couple, denim blue",
+      "frontCategoryId": 500000178,
+      "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260318/09c09e12fe944027a85216781fc6636a.jpg",
+      "contentCategory": 52,
+      "frontCategoryName": "Сумки",
+      "sourceSpuId": 42884731,
       "labelList": [
         {
           "id": 78,
@@ -2855,34 +583,6 @@
         },
         {
           "id": 98,
-          "labelName": ""
-        },
-        {
-          "id": 500001054,
-          "labelName": ""
-        },
-        {
-          "id": 500001542,
-          "labelName": ""
-        },
-        {
-          "id": 500001546,
-          "labelName": ""
-        },
-        {
-          "id": 500001547,
-          "labelName": ""
-        },
-        {
-          "id": 500001548,
-          "labelName": ""
-        },
-        {
-          "id": 500001549,
-          "labelName": ""
-        },
-        {
-          "id": 500001558,
           "labelName": ""
         },
         {
@@ -2910,59 +610,11 @@
           "labelName": ""
         },
         {
-          "id": 500001583,
-          "labelName": ""
-        },
-        {
-          "id": 500001592,
-          "labelName": ""
-        },
-        {
-          "id": 500001594,
-          "labelName": ""
-        },
-        {
-          "id": 500001595,
-          "labelName": ""
-        },
-        {
-          "id": 500001614,
-          "labelName": ""
-        },
-        {
           "id": 500001630,
           "labelName": ""
         },
         {
-          "id": 500001631,
-          "labelName": ""
-        },
-        {
-          "id": 500001663,
-          "labelName": ""
-        },
-        {
-          "id": 500001673,
-          "labelName": ""
-        },
-        {
-          "id": 500001676,
-          "labelName": ""
-        },
-        {
-          "id": 500001696,
-          "labelName": ""
-        },
-        {
-          "id": 500001698,
-          "labelName": ""
-        },
-        {
           "id": 500001705,
-          "labelName": ""
-        },
-        {
-          "id": 500001708,
           "labelName": ""
         },
         {
@@ -3002,19 +654,11 @@
           "labelName": ""
         },
         {
-          "id": 500213307,
-          "labelName": ""
-        },
-        {
-          "id": 500213365,
-          "labelName": ""
-        },
-        {
           "id": 500213701,
           "labelName": ""
         },
         {
-          "id": 500213703,
+          "id": 500213704,
           "labelName": ""
         },
         {
@@ -3022,208 +666,27 @@
           "labelName": ""
         },
         {
-          "id": 500213707,
-          "labelName": ""
-        },
-        {
-          "id": 500213780,
+          "id": 500213708,
           "labelName": ""
         }
       ],
+      "areaName": "BBMAX",
       "createdBy": "DEWU",
-      "brandId": 144,
+      "brandId": 13,
       "buyStatus": 1,
-      "spuId": 8900071352027943,
-      "level2CategoryId": 30,
+      "spuId": 8900283185326712,
+      "level2CategoryId": 49,
       "sourceName": "default",
-      "globalSpuId": 14002007943,
-      "categoryId": 31,
+      "globalSpuId": 14020596712,
+      "categoryId": 52,
+      "level1CategoryId": 48,
       "status": 1
     },
-    "categoryUiOptimization": true,
-    "buttonShowSpeed": false
-  },
-  "sizeAssistantModule": {
-    "sizeUnits": [
-      {
-        "unit": "inch",
-        "selected": false
-      },
-      {
-        "unit": "cm",
-        "selected": true
-      }
+    "groupSpuList": [
+      8900283178855504
     ],
-    "size": {
-      "sizeList": [
-        {
-          "sizeKeyList": [
-            {
-              "sizeKey": "RU",
-              "sizeValue": "32,32,5,33,5",
-              "sizeValueList": [
-                "32",
-                "32,5",
-                "33,5"
-              ]
-            },
-            {
-              "sizeKey": "EU",
-              "sizeValue": "33,33,5,34,5",
-              "sizeValueList": [
-                "33",
-                "33,5",
-                "34,5"
-              ]
-            },
-            {
-              "sizeKey": "UK",
-              "sizeValue": "1,1,5,1,5",
-              "sizeValueList": [
-                "1",
-                "1,5",
-                "1,5"
-              ]
-            },
-            {
-              "sizeKey": "US Женские",
-              "sizeValue": "3,3,5,4",
-              "sizeValueList": [
-                "3",
-                "3,5",
-                "4"
-              ]
-            },
-            {
-              "sizeKey": "US Мужские",
-              "sizeValue": "1,5,2,2,5",
-              "sizeValueList": [
-                "1,5",
-                "2",
-                "2,5"
-              ]
-            },
-            {
-              "sizeKey": "JP",
-              "sizeValue": "20,5,21,21",
-              "sizeValueList": [
-                "20,5",
-                "21",
-                "21"
-              ]
-            },
-            {
-              "sizeKey": "KR",
-              "sizeValue": "205,210,210",
-              "sizeValueList": [
-                "205",
-                "210",
-                "210"
-              ]
-            }
-          ],
-          "sizeParameterList": [
-            {
-              "sizeKey": "Длина стопы",
-              "sizeValue": "8,1,8,3,8,3",
-              "sizeValueList": [
-                "8,1",
-                "8,3",
-                "8,3"
-              ]
-            }
-          ],
-          "title": "inch"
-        },
-        {
-          "sizeKeyList": [
-            {
-              "sizeKey": "RU",
-              "sizeValue": "32,32,5,33,5",
-              "sizeValueList": [
-                "32",
-                "32,5",
-                "33,5"
-              ]
-            },
-            {
-              "sizeKey": "EU",
-              "sizeValue": "33,33,5,34,5",
-              "sizeValueList": [
-                "33",
-                "33,5",
-                "34,5"
-              ]
-            },
-            {
-              "sizeKey": "UK",
-              "sizeValue": "1,1,5,1,5",
-              "sizeValueList": [
-                "1",
-                "1,5",
-                "1,5"
-              ]
-            },
-            {
-              "sizeKey": "US Женские",
-              "sizeValue": "3,3,5,4",
-              "sizeValueList": [
-                "3",
-                "3,5",
-                "4"
-              ]
-            },
-            {
-              "sizeKey": "US Мужские",
-              "sizeValue": "1,5,2,2,5",
-              "sizeValueList": [
-                "1,5",
-                "2",
-                "2,5"
-              ]
-            },
-            {
-              "sizeKey": "JP",
-              "sizeValue": "20,5,21,21",
-              "sizeValueList": [
-                "20,5",
-                "21",
-                "21"
-              ]
-            },
-            {
-              "sizeKey": "KR",
-              "sizeValue": "205,210,210",
-              "sizeValueList": [
-                "205",
-                "210",
-                "210"
-              ]
-            }
-          ],
-          "sizeParameterList": [
-            {
-              "sizeKey": "Длина стопы",
-              "sizeValue": "20,5,21,21",
-              "sizeValueList": [
-                "20,5",
-                "21",
-                "21"
-              ]
-            }
-          ],
-          "title": "cm"
-        }
-      ],
-      "freezeColumnNum": 1,
-      "sizeConversionAsianToUS": false
-    },
-    "heightWeightSizeTableFlag": false,
-    "title": "Найдите свой размер",
-    "sizeRecommend": {
-      "recommendTitle": "Получите персональные рекомендации.",
-      "recommendTitleRichText": "Получите персональные рекомендации."
-    }
+    "categoryUiOptimization": false,
+    "buttonShowSpeed": false
   },
   "authenticatedInfo": {
     "rightIcon": {
@@ -3236,81 +699,32 @@
       "width": 0,
       "height": 0
     },
-    "stepNum": 5,
+    "stepNum": 6,
     "detail": {
       "title": "О ДЭВУ (Poizon)",
       "url": "https://www.thepoizon.ru/about-us?floatLayer=1"
     },
-    "title": "Лучшая цена"
-  },
-  "seriesDialogModel": {
-    "seriesSpuList": [
-      {
-        "spuId": 8900071352027943,
-        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251208/62dd00806f89485dbad7efb907861add.jpg"
-      },
-      {
-        "spuId": 8900209171995936,
-        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251220/5674a1966f82492b9b002ac741f6894b.jpg"
-      },
-      {
-        "spuId": 8900159757511420,
-        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251208/3cc4c61d1fc6488fb7a30c10b50e3f6b.jpg"
-      },
-      {
-        "spuId": 8900220705875876,
-        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260727/108142e5c1014cf0a0d7d3364caea95c.jpg"
-      },
-      {
-        "spuId": 8900005188008046,
-        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251207/9d8776d49a184b2abbc91d6681bb6c79.jpg"
-      },
-      {
-        "spuId": 8900181145323394,
-        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251207/b4c19ad7b6a24a838a409ac942b5f272.jpg"
-      },
-      {
-        "spuId": 8900189727167589,
-        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251207/513dedd931084b4d98d979409b897f70.jpg"
-      },
-      {
-        "spuId": 8900005259995559,
-        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251208/868cda0f74954fd3bf52374b76fd1543.jpg"
-      },
-      {
-        "spuId": 8900158337175072,
-        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251207/1d5a0822b48d4bb59f1dbdacdc5852e2.jpg"
-      },
-      {
-        "spuId": 8900152478169352,
-        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251207/948372da64be48daac7cbe22b43be1a5.jpg"
-      },
-      {
-        "spuId": 8900221956966240,
-        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260206/e4e8a7be876c48c1983e150adeba3fab.jpg"
-      },
-      {
-        "spuId": 8900157534221323,
-        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251208/1985f67edc574890b855e881b4ad44d1.jpeg"
-      }
-    ],
-    "dialogTitle": "Модель A'One (44 товара)",
-    "spuCount": 44,
-    "dialogSeriesTitle": "A'One Модель",
-    "seriesId": 1070848,
-    "dialogSeriesSpuCnt": "(44 товара)"
+    "title": "Безусловный возврат"
   },
   "propertyModule": {
     "propertyBlocks": [
       {
         "propertyList": [
           {
-            "name": "Функциональность",
-            "value": "Противоскользящий, Износостойкий"
+            "name": "Текстура",
+            "value": "Полиэстеровое волокно"
           },
           {
-            "name": "Высота голенища",
-            "value": "Низкий топ"
+            "name": "Размер",
+            "value": "Д22,9*Ш10,2*В12,7 см"
+          },
+          {
+            "name": "Тип застежки",
+            "value": "Застежка-молния"
+          },
+          {
+            "name": "Тип размера",
+            "value": "Средний"
           }
         ],
         "isShowTitle": false,
@@ -3320,24 +734,80 @@
       {
         "propertyList": [
           {
-            "name": "Тип застежки",
-            "value": "Шнуровка"
+            "name": "Текстура",
+            "value": "Полиэстеровое волокно"
           },
           {
-            "name": "Основной цвет",
-            "value": "Черный, Розовый"
+            "name": "Материал подкладки",
+            "value": "Другой"
+          }
+        ],
+        "isShowTitle": true,
+        "title": "Материалы",
+        "type": "group"
+      },
+      {
+        "propertyList": [
+          {
+            "name": "Размер",
+            "value": "Д22,9*Ш10,2*В12,7 см"
           },
+          {
+            "name": "Тип размера",
+            "value": "Средний"
+          }
+        ],
+        "isShowTitle": true,
+        "title": "Габариты",
+        "type": "group"
+      },
+      {
+        "propertyList": [
+          {
+            "name": "Тип",
+            "value": "Сумка для боулинга"
+          },
+          {
+            "name": "Тип ремешка",
+            "value": "Регулируемый, съемный ремешок"
+          },
+          {
+            "name": "Тип застежки",
+            "value": "Застежка-молния"
+          }
+        ],
+        "isShowTitle": true,
+        "title": "Стиль и Тип",
+        "type": "group"
+      },
+      {
+        "propertyList": [
           {
             "name": "Расцветка",
-            "value": "Розовый черный"
+            "value": "джинсовый синий"
           },
           {
-            "name": "Дополнительный цвет",
-            "value": "Черный"
+            "name": "Популярный элемент",
+            "value": "Печать, Однотонный"
+          }
+        ],
+        "isShowTitle": true,
+        "title": "Цветовая гамма",
+        "type": "group"
+      },
+      {
+        "propertyList": [
+          {
+            "name": "Комплектация",
+            "value": "Тег, Наклейка с ярлыком"
+          },
+          {
+            "name": "Сценарий",
+            "value": "Путешествие, Коммутирование"
           },
           {
             "name": "Основной артикул",
-            "value": "FZ8606-001"
+            "value": "JD2623116AD-002"
           }
         ],
         "isShowTitle": true,
@@ -3353,69 +823,114 @@
   },
   "price": {
     "symbol": "₽",
-    "localizedDisplayText": "6 811 ₽",
+    "localizedDisplayText": "5 869 ₽",
     "money": {
-      "amount": "6811.00",
-      "minUnitVal": 681100,
+      "amount": "5869.00",
+      "minUnitVal": 586900,
       "currency": "RUB"
     },
-    "amountText": "6 811",
+    "amountText": "5 869",
     "sign": "+",
-    "absText": "6 811"
+    "absText": "5 869"
   },
   "baseProperties": [
     {
       "customSortState": true,
       "itemType": "BASE_PROPERTY",
+      "customSort": 1,
+      "sort": 6,
+      "value": "Полиэстеровое волокно",
+      "key": "Текстура",
+      "primaryKey": "BASE_PROPERTY_IMPORT"
+    },
+    {
+      "customSortState": true,
+      "itemType": "BASE_PROPERTY",
+      "customSort": 2,
+      "sort": 10,
+      "value": "Д22,9*Ш10,2*В12,7 см",
+      "key": "Размер",
+      "primaryKey": "BASE_PROPERTY_IMPORT"
+    },
+    {
+      "customSortState": true,
+      "itemType": "BASE_PROPERTY",
       "customSort": 3,
-      "sort": 11,
-      "value": "Противоскользящий, Износостойкий",
-      "key": "Функциональность",
-      "primaryKey": "BASE_PROPERTY_DEFAULT"
+      "sort": 4,
+      "value": "Застежка-молния",
+      "key": "Тип застежки",
+      "primaryKey": "BASE_PROPERTY_IMPORT"
     },
     {
       "customSortState": true,
       "itemType": "BASE_PROPERTY",
       "customSort": 4,
-      "sort": 8,
-      "value": "Низкий топ",
-      "key": "Высота голенища",
-      "primaryKey": "BASE_PROPERTY_IMPORT"
-    },
-    {
-      "customSortState": true,
-      "itemType": "BASE_PROPERTY",
-      "customSort": 13,
-      "sort": 10,
-      "value": "Шнуровка",
-      "key": "Тип застежки",
+      "sort": 7,
+      "value": "Регулируемый, съемный ремешок",
+      "key": "Тип ремешка",
       "primaryKey": "BASE_PROPERTY_DEFAULT"
     },
     {
       "customSortState": true,
       "itemType": "BASE_PROPERTY",
-      "customSort": 14,
+      "customSort": 7,
       "sort": 2,
-      "value": "Черный, Розовый",
-      "key": "Основной цвет",
+      "value": "Средний",
+      "key": "Тип размера",
       "primaryKey": "BASE_PROPERTY_IMPORT"
     },
     {
       "customSortState": true,
       "itemType": "BASE_PROPERTY",
-      "customSort": 15,
-      "sort": 4,
-      "value": "Розовый черный",
+      "customSort": 7,
+      "sort": 5,
+      "value": "Другой",
+      "key": "Материал подкладки",
+      "primaryKey": "BASE_PROPERTY_DEFAULT"
+    },
+    {
+      "customSortState": true,
+      "itemType": "BASE_PROPERTY",
+      "customSort": 9,
+      "sort": 0,
+      "value": "Тег, Наклейка с ярлыком",
+      "key": "Комплектация",
+      "primaryKey": "BASE_PROPERTY_DEFAULT"
+    },
+    {
+      "customSortState": true,
+      "itemType": "BASE_PROPERTY",
+      "customSort": 12,
+      "sort": 1,
+      "value": "Путешествие, Коммутирование",
+      "key": "Сценарий",
+      "primaryKey": "BASE_PROPERTY_DEFAULT"
+    },
+    {
+      "customSortState": true,
+      "itemType": "BASE_PROPERTY",
+      "customSort": 28,
+      "sort": 8,
+      "value": "Сумка для боулинга",
+      "key": "Тип",
+      "primaryKey": "BASE_PROPERTY_DEFAULT"
+    },
+    {
+      "customSortState": true,
+      "itemType": "BASE_PROPERTY",
+      "customSort": 40,
+      "sort": 3,
+      "value": "джинсовый синий",
       "key": "Расцветка",
       "primaryKey": "BASE_PROPERTY_DEFAULT"
     },
     {
       "customSortState": true,
       "itemType": "BASE_PROPERTY",
-      "customSort": 16,
-      "sort": 3,
-      "value": "Черный",
-      "key": "Дополнительный цвет",
+      "customSort": 43,
+      "sort": 9,
+      "value": "Печать, Однотонный",
+      "key": "Популярный элемент",
       "primaryKey": "BASE_PROPERTY_DEFAULT"
     },
     {
@@ -3424,7 +939,7 @@
       "supportCopy": 1,
       "name": "primary",
       "defaultShow": 1,
-      "value": "FZ8606-001",
+      "value": "JD2623116AD-002",
       "key": "Основной артикул",
       "primaryKey": "BASE_PARAMETER"
     }
@@ -3434,251 +949,223 @@
   ],
   "commodityReviews": {
     "spuAvgScoreNumber": "5.0",
-    "reviewsDescription": "5,0(44)",
-    "contentTagList": [
-      {
-        "tagId": 1953,
-        "count": 4,
-        "tagName": "Ощущения при носке"
-      }
-    ],
+    "reviewsDescription": "5,0(43)",
+    "contentTagList": [],
     "spuAvgScore": "5,0",
-    "reviewsCount": "44",
+    "reviewsCount": "43",
     "title": "ОТЗЫВЫ",
     "scoreDesc": "Отзывы покупателей в комплекте с рейтингом звезд предоставляют богатые понимания наших товаров, и помогают клиентам решить, соответствует ли товар их потребностям. \nМы используем изощренные алгоритмы машинного обучения вместо базового усреднения в целях обеспечения действительности и точности отзывов и рейтингов. Алгоритмы принимают во внимание множество факторов, включая новизну и релевантность контента, и предоставляют более детализированную оценку по аутентичности и надежности отзыва. Применяя многомерные критерии, в полной мере мы привержены усилиям предоставлять самый достоверный справочник по покупкам в обеспечении информированного и достоверного опыта у наших пользователей.",
     "reviewsDetailList": [
       {
         "score": "5.0",
-        "reviewData": "Кроссовки просто отпад!!! ",
+        "reviewData": "Прекрасная мини сумочка ",
         "originType": 2,
-        "defaultIcon": "https://cdn-img.thepoizon.ru/node-common/66515c7d-af48-3130-f558-cd98c46d9f7b-70-70.png",
-        "publishDate": "16 авг. 2026 г.",
-        "hasImage": 1,
-        "userName": "P***d",
-        "userIcon": "https://cdn-img.thepoizon.ru/node-common/2b870421-d256-cb75-6dd9-a26b318e71a5-160-160.png",
-        "userId": 1109991421902988,
-        "firstLetter": "P",
-        "skuProperty": "Размер: 39,5 RU (40,5 EU), Цвет: Розовый черный",
-        "trackingId": "1462295028"
+        "publishDate": "29 июл. 2026 г.",
+        "hasImage": 2,
+        "userName": "+***6",
+        "userIcon": "https://cdn-img.thepoizon.ru/node-common/090ce24c-d823-39d5-a53f-e0200eb6c1bf-160-160.png",
+        "userId": 1109991421091803,
+        "firstLetter": "+",
+        "skuProperty": "Цвет: Деним синий",
+        "trackingId": "1462535107"
       },
       {
         "score": "5.0",
-        "reviewData": "Отзыв:\nСупер кроссовки! 🔥 Nike A’One полностью оправдали ожидания. Размер 43 RU (44 EU) сел идеально — в размер, ни маломерит, ни большемерит.\nОчень удобно сидят по ноге, хорошая поддержка и при этом не давят. Подошва реально противоскользящая — даже на мокром полу чувствуешь себя уверенно. Материал выглядит качественным и износостойким.\nЦвет «розовый чёрный» яркий и стильный, вживую смотрится ещё лучше. Уже несколько дней ношу каждый день — ноги не устают.\nРекомендую!\n",
-        "originType": 2,
-        "publishDate": "29 авг. 2026 г.",
-        "hasImage": 2,
-        "userName": "P***a",
-        "userIcon": "https://cdn-img.thepoizon.ru/node-common/2b870421-d256-cb75-6dd9-a26b318e71a5-160-160.png",
-        "userId": 1109991420794140,
-        "firstLetter": "P",
-        "skuProperty": "Размер: 43 RU (44 EU), Цвет: Розовый черный",
-        "trackingId": "1462644249"
+        "reviewData": "Очень красивый, цвет тоже яркий, вместительный — помещается зонт.И одежда тоже хорошо смотрится.",
+        "originType": 3,
+        "defaultIcon": "https://cdn-img.thepoizon.ru/node-common/66515c7d-af48-3130-f558-cd98c46d9f7b-70-70.png",
+        "publishDate": "19 июн. 2026 г.",
+        "hasImage": 1,
+        "userName": "0***n",
+        "userIcon": "https://cdn-img.thepoizon.ru/node-common/c61b9726-2d11-7ae2-8510-8f9b059e0b22-160-160.png",
+        "userId": 499951545,
+        "firstLetter": "0",
+        "skuProperty": "Цвет: Деним синий",
+        "trackingId": "3758507"
       }
     ],
-    "sizeFeelingModule": [
-      {
-        "rateText": "96%",
-        "thousandRate": 960,
-        "title": "Маломерит"
-      },
-      {
-        "rateText": "4%",
-        "thousandRate": 40,
-        "title": "В размер"
-      },
-      {
-        "rateText": "0%",
-        "thousandRate": 0,
-        "title": "Большемерит"
-      }
-    ],
+    "sizeFeelingModule": [],
     "goodsContents": [
       {
         "images": [
           {
-            "imageUrl": "https://cdn.thepoizon.ru/app/bbmax-app/1109991421902988/de39fad366850cd8687692004caf1723_iOS_w720h960_1786873252.jpg",
-            "width": 720,
-            "mediaType": 1,
-            "height": 960
+            "imageUrl": "https://image-cdn.poizon.com/app/2026/community/1137119116_byte1193410byte_7a11dfd61a1fe29f21ddd599ade8a09d_iOS_w1439h1751.jpg",
+            "width": 1439,
+            "height": 1751
           },
           {
-            "imageUrl": "https://cdn.thepoizon.ru/app/bbmax-app/1109991421902988/275e7a3bdefcfee12f10badc379863f6_iOS_w720h960_1786873270.jpg",
-            "width": 720,
-            "mediaType": 1,
-            "height": 960
-          },
-          {
-            "imageUrl": "https://cdn.thepoizon.ru/app/bbmax-app/1109991421902988/3cb89f79461668b78bc81782c9dd1771_iOS_w720h960_1786873317.jpg",
-            "width": 720,
-            "mediaType": 1,
-            "height": 960
-          }
-        ],
-        "contentData": [
-          "Кроссовки просто отпад!!! "
-        ],
-        "contentId": "1462295028_2",
-        "publishDate": "16 авг. 2026 г.",
-        "likeCount": 0,
-        "userName": "P***d",
-        "userId": 1109991421902988,
-        "skuProperty": "Размер: 39,5 RU (40,5 EU), Цвет: Розовый черный",
-        "score": "5.0",
-        "originType": 2,
-        "likeStatus": 3,
-        "userIcon": "https://cdn-img.thepoizon.ru/node-common/2b870421-d256-cb75-6dd9-a26b318e71a5-160-160.png",
-        "firstLetter": "P",
-        "trackingId": "1462295028"
-      },
-      {
-        "images": [
-          {
-            "imageUrl": "https://image-cdn.poizon.com/app/2026/community/2694727091_modelV2415Amodel_byte459596byte_3ba50148fd5089451cbbaea14826e86d_1784717951247_du_android_w1440_h1839.webp",
-            "width": 1440,
-            "height": 1839
-          },
-          {
-            "imageUrl": "https://image-cdn.poizon.com/app/2026/community/2694727091_modelV2415Amodel_byte336902byte_8c11e14b326c5102faa2f6be16b3fd75_1784717951250_du_android_w1440_h1839.webp",
-            "width": 1440,
-            "height": 1839
-          },
-          {
-            "imageUrl": "https://image-cdn.poizon.com/app/2026/community/2694727091_modelV2415Amodel_byte655914byte_2542fef29298f81aabec8d6460842424_1784717951250_du_android_w1440_h1839.webp",
-            "width": 1440,
-            "height": 1839
-          },
-          {
-            "imageUrl": "https://image-cdn.poizon.com/app/2026/community/2694727091_modelV2415Amodel_byte554372byte_4e4f2b22684d2a7e8300747deb94a7d9_1784717951251_du_android_w1440_h1831.webp",
-            "width": 1440,
-            "height": 1831
+            "imageUrl": "https://image-cdn.poizon.com/app/2026/community/1137119116_byte1643554byte_de3841173ea3febddf2e7c2eabb4b619_iOS_w1439h1752.jpg",
+            "width": 1439,
+            "height": 1752
           }
         ],
         "contentData": [],
-        "contentId": "1783439_1",
-        "publishDate": "22 июл. 2026 г.",
+        "contentId": "2141654_1",
+        "publishDate": "25 мая 2026 г.",
         "likeCount": 0,
-        "userName": "J***u",
-        "userId": 1783439,
-        "skuProperty": "",
-        "originType": 1,
-        "likeStatus": 3,
-        "userIcon": "https://cdn-img.thepoizon.ru/node-common/a34a9a06-2ac1-9fd7-910e-f0e7a8d9e932-160-160.png",
-        "firstLetter": "J",
-        "trackingId": "510681057"
-      },
-      {
-        "images": [
-          {
-            "imageUrl": "https://image-cdn.poizon.com/app/2026/community/38727816_modelSM-S9380model_byte544396byte_c2f165647bb79e7d940aca2f1d877b3a_1781952299213_du_android_w1441_h1921.webp",
-            "width": 1441,
-            "height": 1921
-          },
-          {
-            "imageUrl": "https://image-cdn.poizon.com/app/2026/community/38727816_modelSM-S9380model_byte662962byte_bfb7416b9e4478568e356092fda51d40_1781952299214_du_android_w1441_h1921.webp",
-            "width": 1441,
-            "height": 1921
-          }
-        ],
-        "contentData": [],
-        "contentId": "1785665_1",
-        "publishDate": "20 июн. 2026 г.",
-        "likeCount": 0,
-        "userName": "Y***g",
-        "userId": 1785665,
-        "skuProperty": "",
-        "originType": 1,
-        "likeStatus": 3,
-        "userIcon": "https://cdn-img.thepoizon.ru/node-common/c61b9726-2d11-7ae2-8510-8f9b059e0b22-160-160.png",
-        "firstLetter": "Y",
-        "trackingId": "500290300"
-      },
-      {
-        "images": [
-          {
-            "imageUrl": "https://image-cdn.poizon.com/app/2026/other/2757585906_modelPSD-AL80_model_byte242961byte_d6b74431c1e03b14bff0e61494ae06b9_du_harmony_w1136_h1501.jpg",
-            "width": 1136,
-            "height": 1501
-          },
-          {
-            "imageUrl": "https://image-cdn.poizon.com/app/2026/other/2757585906_modelPSD-AL80_model_byte247221byte_b56447634ffe4e47a3d0768528ae12f0_du_harmony_w1136_h1465.jpg",
-            "width": 1136,
-            "height": 1465
-          },
-          {
-            "imageUrl": "https://image-cdn.poizon.com/app/2026/other/2757585906_modelPSD-AL80_model_byte243770byte_b61b43f4e5fc5b75456723d70a7723ef_du_harmony_w1136_h1458.jpg",
-            "width": 1136,
-            "height": 1458
-          }
-        ],
-        "contentData": [],
-        "contentId": "1782894_1",
-        "publishDate": "18 мая 2026 г.",
-        "likeCount": 0,
-        "userName": "B***N",
-        "userId": 1782894,
-        "skuProperty": "",
-        "originType": 1,
-        "likeStatus": 3,
-        "userIcon": "https://cdn-img.thepoizon.ru/node-common/bd9cbef1-3d03-b160-8ab7-9b2641460600-160-160.png",
-        "firstLetter": "B",
-        "trackingId": "488188080"
-      },
-      {
-        "images": [
-          {
-            "imageUrl": "https://image-cdn.poizon.com/app/2026/community/2394808757_byte687920byte_01f50d5eb855d1c9cbc2cfb4582c304f_iOS_w882h1176.jpg",
-            "width": 882,
-            "height": 1176
-          },
-          {
-            "imageUrl": "https://image-cdn.poizon.com/app/2026/community/2394808757_byte792502byte_a1dbe52e1f424614bb5e3e0bc7827727_iOS_w910h1214.jpg",
-            "width": 910,
-            "height": 1214
-          },
-          {
-            "imageUrl": "https://image-cdn.poizon.com/app/2026/community/2394808757_byte854738byte_a33308bc18f18007d0c8f5b9b9d14ecf_iOS_w998h1331.jpg",
-            "width": 998,
-            "height": 1331
-          }
-        ],
-        "contentData": [],
-        "contentId": "1792284_1",
-        "publishDate": "22 апр. 2026 г.",
-        "likeCount": 0,
-        "userName": "1***1",
-        "userId": 1792284,
-        "skuProperty": "",
-        "originType": 1,
-        "likeStatus": 3,
-        "userIcon": "https://cdn-img.thepoizon.ru/node-common/441821bc-8f2f-0850-d29c-0e0ba2eb449e-160-160.png",
-        "firstLetter": "1",
-        "trackingId": "477484438"
-      },
-      {
-        "images": [
-          {
-            "imageUrl": "https://image-cdn.poizon.com/app/2025/community/43121049_byte2295027byte_595152905599f987b7a77a40b90b2040_iOS_w1440h1920.jpg",
-            "width": 1440,
-            "height": 1920
-          },
-          {
-            "imageUrl": "https://image-cdn.poizon.com/app/2025/community/43121049_byte2259818byte_c2af194b8e3fc24b3bccd6eb175b0339_iOS_w1440h1920.jpg",
-            "width": 1440,
-            "height": 1920
-          }
-        ],
-        "contentData": [],
-        "contentId": "859022_1",
-        "publishDate": "28 авг. 2025 г.",
-        "likeCount": 0,
-        "userName": "D***a",
-        "userId": 859022,
+        "userName": "J***6",
+        "userId": 2141654,
         "skuProperty": "",
         "originType": 1,
         "likeStatus": 3,
         "userIcon": "https://cdn-img.thepoizon.ru/node-common/1138ecdd-6fed-9d55-7c40-1f413d0302cd-160-160.png",
-        "firstLetter": "D",
-        "trackingId": "354423669"
+        "firstLetter": "J",
+        "trackingId": "491299965"
+      },
+      {
+        "images": [
+          {
+            "imageUrl": "https://image-cdn.poizon.com/app/2026/community/1507528075_byte2136851byte_5f3cfdda468406431f7132a2f0eb14f1_iOS_w1080h1920.jpg",
+            "width": 1080,
+            "height": 1920
+          },
+          {
+            "imageUrl": "https://image-cdn.poizon.com/app/2026/community/1507528075_byte487732byte_3a09544c55911102c011658374c0c7d5_iOS_w828h717.jpg",
+            "width": 828,
+            "height": 717
+          }
+        ],
+        "contentData": [
+          "Очень красивый, цвет тоже яркий, вместительный — помещается зонт.И одежда тоже хорошо смотрится."
+        ],
+        "contentId": "3758507_3",
+        "publishDate": "19 июн. 2026 г.",
+        "likeCount": 0,
+        "userName": "0***n",
+        "userId": 499951545,
+        "skuProperty": "Цвет: Деним синий",
+        "score": "5.0",
+        "originType": 3,
+        "likeStatus": 3,
+        "userIcon": "https://cdn-img.thepoizon.ru/node-common/c61b9726-2d11-7ae2-8510-8f9b059e0b22-160-160.png",
+        "firstLetter": "0",
+        "trackingId": "499951545"
+      },
+      {
+        "images": [
+          {
+            "imageUrl": "https://image-cdn.poizon.com/app/2026/community/117912761_byte2801749byte_34d280729b4bdee047b779901e23094b_iOS_w1440h1920.jpg",
+            "width": 1440,
+            "height": 1920
+          },
+          {
+            "imageUrl": "https://image-cdn.poizon.com/app/2026/community/117912761_byte2829764byte_7a9678eea0d1298b22bf484457b6ca63_iOS_w1440h1920.jpg",
+            "width": 1440,
+            "height": 1920
+          }
+        ],
+        "contentData": [
+          "Цвет довольно универсальный, вместительность хорошая, стоит своих денег."
+        ],
+        "contentId": "3280393_3",
+        "publishDate": "9 июн. 2026 г.",
+        "likeCount": 0,
+        "userName": "B***6",
+        "userId": 496449885,
+        "skuProperty": "Цвет: Деним синий",
+        "score": "5.0",
+        "originType": 3,
+        "likeStatus": 3,
+        "userIcon": "https://cdn-img.thepoizon.ru/node-common/59ae35a3-a541-165a-3351-d4fc5b6778ee-160-160.png",
+        "firstLetter": "B",
+        "trackingId": "496449885"
+      },
+      {
+        "images": [
+          {
+            "imageUrl": "https://image-cdn.poizon.com/app/2026/community/1420592848_byte1692797byte_61faef3d6931528e20975dfc9cee9447_iOS_w1206h1142.jpg",
+            "width": 1206,
+            "height": 1142
+          },
+          {
+            "imageUrl": "https://image-cdn.poizon.com/app/2026/community/1420592848_byte1981682byte_fcf7efb4c2fa0c01f0fbb98563ac8a83_iOS_w1206h1491.jpg",
+            "width": 1206,
+            "height": 1491
+          },
+          {
+            "imageUrl": "https://image-cdn.poizon.com/app/2026/community/1420592848_byte2073902byte_b204062eea403a26b5e637654c200f38_iOS_w1206h1497.jpg",
+            "width": 1206,
+            "height": 1497
+          }
+        ],
+        "contentData": [
+          "Джинсовая цветовая гамма нежная и приятная, полный принт с ретро-атмосферой, детали с логотипом выполнены изысканно.Можно носить в руках или через плечо, ремень регулируется.Вместимость достаточная для телефона, косметики и мелочей.Плотная ткань, не деформируется.Универсально сочетается с толстовками и повседневными платьями.Отличное соотношение цены и качества."
+        ],
+        "contentId": "3206460_3",
+        "publishDate": "6 июн. 2026 г.",
+        "likeCount": 0,
+        "userName": "L***s",
+        "userId": 495635551,
+        "skuProperty": "Цвет: Деним синий",
+        "score": "5.0",
+        "originType": 3,
+        "likeStatus": 3,
+        "userIcon": "https://cdn-img.thepoizon.ru/node-common/c61b9726-2d11-7ae2-8510-8f9b059e0b22-160-160.png",
+        "firstLetter": "L",
+        "trackingId": "495635551"
+      },
+      {
+        "images": [
+          {
+            "imageUrl": "https://image-cdn.poizon.com/app/2026/community/186709139_byte2392108byte_9fc14750c9a4c66e044d81843de33c80_iOS_w1440h1920.jpg",
+            "width": 1440,
+            "height": 1920
+          },
+          {
+            "imageUrl": "https://image-cdn.poizon.com/app/2026/community/186709139_byte3784548byte_644e5e19dc8543439a57c63de78c5e22_iOS_w1440h1920.jpg",
+            "width": 1440,
+            "height": 1920
+          }
+        ],
+        "contentData": [
+          "Упакована плотно.Материал мягкий и износостойкий, детали проработаны аккуратно.Фасон держит форму, лёгкая и практичная.Подходит к разным нарядам, очень довольна."
+        ],
+        "contentId": "3126806_3",
+        "publishDate": "31 мая 2026 г.",
+        "likeCount": 0,
+        "userName": "A***o",
+        "userId": 493277200,
+        "skuProperty": "Цвет: Деним синий",
+        "score": "5.0",
+        "originType": 3,
+        "likeStatus": 3,
+        "userIcon": "https://cdn-img.thepoizon.ru/node-common/87dc0211-9c4c-071b-68f2-22b7ad520c37-160-160.png",
+        "firstLetter": "A",
+        "trackingId": "493277200"
+      },
+      {
+        "images": [
+          {
+            "imageUrl": "https://image-cdn.poizon.com/app/2026/community/1797720453_model23116PN5BCmodel_byte183330byte_0ec045171e22b508ba22eebc2c683431_1780132463164_du_android_w936_h1170.webp",
+            "width": 936,
+            "height": 1170
+          },
+          {
+            "imageUrl": "https://image-cdn.poizon.com/app/2026/community/1797720453_model23116PN5BCmodel_byte469798byte_96ec1e72cdf1355d26e794eaa5c4efc7_1780132463164_du_android_w1280_h1600.webp",
+            "width": 1280,
+            "height": 1600
+          },
+          {
+            "imageUrl": "https://image-cdn.poizon.com/app/2026/community/1797720453_model23116PN5BCmodel_byte958130byte_809b976bf8df249529f34d8b4b9ce37c_1780132463164_du_android_w1280_h1600.webp",
+            "width": 1280,
+            "height": 1600
+          }
+        ],
+        "contentData": [
+          "Сумка: давно хотела купить эту модель, наконец-то приобрела, и она полностью оправдала ожидания.Фасон и цвет очень понравились, размер тоже идеальный.На прошлой неделе ходила на встречу с друзьями, несколько человек спросили, где я её купила, сказали, что выглядит очень красиво.Сама тоже всё больше её люблю, думаю взять ещё одну."
+        ],
+        "contentId": "3118677_3",
+        "publishDate": "30 мая 2026 г.",
+        "likeCount": 0,
+        "userName": "X***e",
+        "userId": 493039480,
+        "skuProperty": "Цвет: Деним синий",
+        "score": "5.0",
+        "originType": 3,
+        "likeStatus": 3,
+        "userIcon": "https://cdn-img.thepoizon.ru/node-common/16070279-8746-c09f-321a-df3d47894822-160-160.png",
+        "firstLetter": "X",
+        "trackingId": "493039480"
       }
     ]
   },
@@ -3688,7 +1175,7 @@
         "generalType": "BRAND_STORY",
         "subTitle": "История бренда",
         "imgEvenTrace": "{\"position\":\"pure_text_floor\",\"typeKey\":\"BRAND_STORY\"}",
-        "content": "В январе 1964 года Фил Найт, легкоатлет из Университета Орегона, и его тренер Билл Бауэрман основали компанию Blue Ribbon Sports — предшественницу Nike. В 1972 году они начали разрабатывать и производить собственную обувь, назвав бренд Nike в честь греческой богини победы."
+        "content": "Air Jordan — линия Nike, названная в честь легенды NBA Майкла Джордана. Основанная в 1985 году, она за три десятилетия превратилась в одну из самых популярных в мире коллекций баскетбольных кроссовок, многие модели которой завоевали признание как в мире моды, так и среди любителей кроссовок."
       }
     ],
     "title": "Описание товара"
@@ -3704,7 +1191,21 @@
       "overlayText": "1. Товар должен быть получен и подтверждён (без возвратов и обменов)\n2. Перейдите в раздел «Я» → «Заказы» и оставьте отзыв.\n3. Получите 300 ₽ за любой опубликованный отзыв с фото или видео. Если ваш отзыв попадёт в подборку «Лучшие отзывы», сумма увеличится до 500 ₽.\n4. Совет: фото с товаром на себе и в образе чаще попадают в подборку лучших."
     }
   },
-  "sizeImageList": [],
+  "sizeImageList": [
+    {
+      "images": [
+        {
+          "width": 938,
+          "genericType": "SIZE_CAPACITY_DIAGRAM",
+          "imgEvenTrace": "{\"position\":\"size_image_floor\",\"typeKey\":\"SIZE_CAPACITY_DIAGRAM\"}",
+          "url": "https://cdn-img.thepoizon.ru/algo/commodity-image-synthesis/c96aeb4a-22cb-11f1-822c-065a86727866_cm.png",
+          "imgType": 10004,
+          "height": 533
+        }
+      ],
+      "title": "ГАБАРИТЫ И ВМЕСТИМОСТЬ"
+    }
+  ],
   "favoriteResp": {},
   "deliveryInfo": {
     "shippingMethod": {
@@ -3720,54 +1221,30 @@
     "content": "",
     "tips": "При оформлении заказа вы можете выбрать ускоренную доставку."
   },
+  "commodity3DModel": {
+    "exist3dInfo": false,
+    "guide3dText": "Посмотреть в 3D"
+  },
   "brandItemsModel": {
     "isShowBrand": 1,
-    "brandName": "Nike",
-    "brandId": 144,
-    "linkUrl": "https://m.poizon.com/router/buyer/detailCollectionPage?url=%2Fcategory%2Fproduct-recommend&title=Nike&brandId=144&recSpuIds=8900071352027943&sourceName=1&pageType=brand",
-    "brandItems": "499 тыс. товаров",
-    "brandLogo": "https://cdn-img.thepoizon.ru/pro-img/brand-logo/cut-img/20250221/ad39ee3e88e14ff39cd09c5093887d8c.jpg"
+    "brandName": "Jordan",
+    "brandId": 13,
+    "linkUrl": "https://m.poizon.com/router/buyer/detailCollectionPage?url=%2Fcategory%2Fproduct-recommend&title=Jordan&brandId=13&recSpuIds=8900283185326712&sourceName=1&pageType=brand",
+    "brandItems": "94 тыс. товаров",
+    "brandLogo": "https://cdn-img.thepoizon.ru/pro-img/brand-logo/cut-img/20250221/a19c049a7d314026b7070ca3597e9390.jpg"
   },
   "productTextInfo": {
     "extendClickArea": false,
     "soldTextCanBeClick": true,
-    "soldText": "Продано 3 тыс."
+    "soldText": "Продано 3,4 тыс."
   },
-  "styleMode": 2,
+  "styleMode": 3,
   "imText": "Помощь",
-  "saleCount": "Продано 3 тыс.",
+  "saleCount": "Продано 3,4 тыс.",
   "itemDetailsAbValue": true,
   "returnAndBack": {
     "title": "DELIVERY & RETURNS",
     "content": "<p>9-13 days delivery via UPS.</p><p>Easy returns within 3 days of delivery.</p>"
-  },
-  "mainImgWearStyleResp": {
-    "spuItems": [
-      {
-        "picWidth": 1440,
-        "picHeight": 1920,
-        "contentId": 1408350352,
-        "label": 3,
-        "imgEvenTrace": "{\"position\":\"styles\",\"typeKey\":\"MAIN_IMG_WEAR_STYLE\"}",
-        "url": "https://image-cdn.poizon.com/app/2025/community/123457641_byte2344768byte_10137aff3ab212ee8d4584f5ab1704c3_iOS_w1440h1920.jpg"
-      },
-      {
-        "picWidth": 1440,
-        "picHeight": 1920,
-        "contentId": 1408350356,
-        "label": 3,
-        "imgEvenTrace": "{\"position\":\"styles\",\"typeKey\":\"MAIN_IMG_WEAR_STYLE\"}",
-        "url": "https://image-cdn.poizon.com/app/2025/community/43121049_byte2259818byte_c2af194b8e3fc24b3bccd6eb175b0339_iOS_w1440h1920.jpg"
-      },
-      {
-        "picWidth": 1440,
-        "picHeight": 1920,
-        "contentId": 1408350353,
-        "label": 3,
-        "imgEvenTrace": "{\"position\":\"styles\",\"typeKey\":\"MAIN_IMG_WEAR_STYLE\"}",
-        "url": "https://image-cdn.poizon.com/app/2025/community/184347872_byte2963036byte_7920640dc8aac8690ac640b010ee8ee6_iOS_w1440h1920.jpg"
-      }
-    ]
   },
   "isAdd": false,
   "easyReturnInfo": {
@@ -3799,18 +1276,18 @@
     "support": false,
     "content": "Защита перевозки доступна с {logo}"
   },
-  "favoriteNum": "16 тыс.",
+  "favoriteNum": "38 тыс.",
   "imageModels": [
     {
       "modelWear": false,
-      "imageId": 748032592,
-      "propertyValueId": 8901409331057943,
+      "imageId": 1004371641906712,
+      "propertyValueId": 8905411325956712,
       "channel": 1,
       "sort": 1,
       "label": 0,
       "genericTypeSort": 1,
       "imgEvenTrace": "{\"position\":\"item\",\"typeKey\":\"PHOTO\",\"tagKey\":\"white\"}",
-      "url": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251208/62dd00806f89485dbad7efb907861add.jpg",
+      "url": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260318/09c09e12fe944027a85216781fc6636a.jpg",
       "colorStyle": "FFFFFF",
       "genericType": "PHOTO_white",
       "imgType": 0,
@@ -3818,14 +1295,14 @@
     },
     {
       "modelWear": false,
-      "imageId": 748032589,
-      "propertyValueId": 8901409331057943,
+      "imageId": 1004371641916712,
+      "propertyValueId": 8905411325956712,
       "channel": 1,
       "sort": 2,
       "label": 0,
       "genericTypeSort": 1,
       "imgEvenTrace": "{\"position\":\"item\",\"typeKey\":\"PHOTO\",\"tagKey\":\"white\"}",
-      "url": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251208/91dbf22bf68a496db2060f9866bfa475.jpg",
+      "url": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260318/039536820cf648d2a464c97d9bbb3157.jpg",
       "colorStyle": "FFFFFF",
       "genericType": "PHOTO_white",
       "imgType": 0,
@@ -3833,14 +1310,14 @@
     },
     {
       "modelWear": false,
-      "imageId": 748032591,
-      "propertyValueId": 8901409331057943,
+      "imageId": 1004371641926712,
+      "propertyValueId": 8905411325956712,
       "channel": 1,
       "sort": 3,
       "label": 0,
       "genericTypeSort": 1,
       "imgEvenTrace": "{\"position\":\"item\",\"typeKey\":\"PHOTO\",\"tagKey\":\"white\"}",
-      "url": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251208/ea7dc7e7fdc2497fa809aedcda88bdda.jpg",
+      "url": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260318/fb7cf8f607d54f128a39526c2d134f05.jpg",
       "colorStyle": "FFFFFF",
       "genericType": "PHOTO_white",
       "imgType": 0,
@@ -3848,14 +1325,14 @@
     },
     {
       "modelWear": false,
-      "imageId": 748032616,
-      "propertyValueId": 8901409331057943,
+      "imageId": 1004371415356712,
+      "propertyValueId": 8905411325956712,
       "channel": 1,
       "sort": 4,
       "label": 0,
       "genericTypeSort": 1,
       "imgEvenTrace": "{\"position\":\"item\",\"typeKey\":\"PHOTO\",\"tagKey\":\"white\"}",
-      "url": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251208/940137bac1734a4680f214ef79f6e1c6.jpg",
+      "url": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260318/25b3d36df6e146ccb6fd9a4a8266090b.jpg",
       "colorStyle": "FFFFFF",
       "genericType": "PHOTO_white",
       "imgType": 0,
@@ -3863,14 +1340,14 @@
     },
     {
       "modelWear": false,
-      "imageId": 748032615,
-      "propertyValueId": 8901409331057943,
+      "imageId": 1004371415376712,
+      "propertyValueId": 8905411325956712,
       "channel": 1,
-      "sort": 5,
+      "sort": 6,
       "label": 0,
       "genericTypeSort": 1,
       "imgEvenTrace": "{\"position\":\"item\",\"typeKey\":\"PHOTO\",\"tagKey\":\"white\"}",
-      "url": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251208/efa4057176284bfb91fba88ac64dc698.jpg",
+      "url": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260318/02f1a9cea2ae4f6b88ed65ed712c599f.jpg",
       "colorStyle": "FFFFFF",
       "genericType": "PHOTO_white",
       "imgType": 0,
@@ -3878,21 +1355,65 @@
     },
     {
       "modelWear": false,
-      "imageId": 1005108012107943,
+      "imageId": 1004371641936712,
+      "propertyValueId": 8905411325956712,
+      "channel": 1,
+      "sort": 7,
+      "label": 0,
+      "genericTypeSort": 1,
+      "imgEvenTrace": "{\"position\":\"item\",\"typeKey\":\"PHOTO\",\"tagKey\":\"white\"}",
+      "url": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260318/48eab74aabb347779330b7561593a52d.jpg",
+      "colorStyle": "FFFFFF",
+      "genericType": "PHOTO_white",
+      "imgType": 0,
+      "burialImgType": 0
+    },
+    {
+      "modelWear": false,
+      "imageId": 1004371415366712,
+      "propertyValueId": 8905411325956712,
+      "channel": 1,
+      "sort": 5,
+      "label": 0,
+      "genericTypeSort": 2,
+      "imgEvenTrace": "{\"position\":\"item\",\"typeKey\":\"PHOTO\"}",
+      "url": "https://cdn-img.thepoizon.ru/algo/trade-matting-batch/c9f6d330-2294-11f1-9174-0e313cac754d.jpg",
+      "colorStyle": "FFFFFF",
+      "genericType": "PHOTO_-",
+      "imgType": 0,
+      "burialImgType": 0
+    },
+    {
+      "modelWear": false,
+      "imageId": 1005303670306712,
       "colorStyle": "FFFFFF",
       "channel": 1,
       "sort": 1,
       "label": 1,
-      "genericType": "INTL_SELLING_POINT_IMAGE_all",
-      "genericTypeSort": 0,
-      "imgEvenTrace": "{\"position\":\"outfits\",\"typeKey\":\"INTL_SELLING_POINT_IMAGE\"}",
-      "url": "https://h5static.dewucdn.com/node-common/c8bd0448-6ea6-3e4e-0d75-452e6a489d05-1024-1024.png",
-      "imgType": 1064,
-      "burialImgType": 1064
+      "genericType": "INTL_BAG_SELLING_POINT_STRATEGY_2_all",
+      "genericTypeSort": 7,
+      "imgEvenTrace": "{\"position\":\"outfits\",\"typeKey\":\"INTL_BAG_SELLING_POINT_STRATEGY_2\"}",
+      "url": "https://h5static.dewucdn.com/node-common/a1f61973-9688-04fd-b610-cd9e5c0ed46c-1024-1024.png",
+      "imgType": 1089,
+      "burialImgType": 1089
+    },
+    {
+      "modelWear": false,
+      "colorStyle": "FFFFFF",
+      "width": 938,
+      "channel": 1,
+      "label": 2,
+      "genericType": "SIZE_CAPACITY_DIAGRAM_all",
+      "genericTypeSort": 1,
+      "imgEvenTrace": "{\"position\":\"size\",\"typeKey\":\"SIZE_CAPACITY_DIAGRAM\"}",
+      "url": "https://cdn-img.thepoizon.ru/algo/commodity-image-synthesis/c96aeb4a-22cb-11f1-822c-065a86727866_cm.png",
+      "imgType": 10004,
+      "height": 533,
+      "burialImgType": 10004
     }
   ],
   "shoppingAtEase": {
-    "creditForDelayContent": "Гарантия своевременной доставки",
+    "creditForDelayContent": "",
     "contentDate": "<span>Поддержка 24/7</span>",
     "iconList": [],
     "icon": {
