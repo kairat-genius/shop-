@@ -41,6 +41,16 @@ export type DetailImageListType = {
   burialImgType: number;
 };
 
+export type MainImgWearStyleRespType = {
+  spuItems: {
+    contentId: number;
+    picWidth: number;
+    picHeight: number;
+    label: number;
+    url: string;
+  }[];
+};
+
 export type DetailTextModuleType = {
   detailTextList: {
     generalType: string;
@@ -405,6 +415,7 @@ export type SizeImageListType = {
 export type ProductDetailType = {
   shareInfo: ShareInfoType;
   imageModels: ImageModelType[];
+  mainImgWearStyleResp?: MainImgWearStyleRespType;
   authenticatedGuaranteeModule: AuthenticatedGuaranteeModuleType;
   detailImageList: DetailImageListType[];
   detailTextModule: DetailTextModuleType;

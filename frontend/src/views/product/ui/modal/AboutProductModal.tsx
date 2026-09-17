@@ -1,12 +1,13 @@
-import { PropertyModuleDto } from "@/shared/api/openapi";
+
 import { useBodyScrollLock } from "@/shared/hooks/useBodyScrollLock";
 import Icon from "@/shared/icon";
 import { Button } from "@/shared/ui/action";
 import Modal from "@/shared/ui/modal";
+import type { PropertyModuleType } from "@/types/product-detail.type";
 
 interface AboutProductModalProps {
   onClose: () => void;
-  propertyModule?: PropertyModuleDto;
+  propertyModule?: PropertyModuleType;
 }
 
 const AboutProductModal = ({

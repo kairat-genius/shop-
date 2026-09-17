@@ -9,6 +9,7 @@ export type ProductListSearchResponseType = {
     fallbackSpuList?: ProductType[];
   };
   facetList: Array<FacetType>;
+  facetPanel: Array<FacetType>;
 };
 
 export type ProductListSearchFilterType = {

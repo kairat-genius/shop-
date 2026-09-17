@@ -23,6 +23,8 @@ export type FacetType = {
       count: number;
       btnType: number;
       value: string;
+      label?: string;
+      labelUrl?: string;
     }[];
     nested: boolean;
     nestedFacets: [
@@ -36,6 +38,8 @@ export type FacetType = {
           count: number;
           btnType: number;
           value: string;
+          label?: string;
+          labelUrl?: string;
         }[];
         nested: boolean;
         key: string;

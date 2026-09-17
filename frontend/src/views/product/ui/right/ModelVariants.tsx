@@ -3,16 +3,25 @@ import Icon from "@/shared/icon";
 import { cn } from "@/shared/utils/clsx";
 import type { SeriesDialogModelType } from "@/types/product-detail.type";
 import { useProductDetailData } from "../../context/useCatalogData";
+import { useState } from "react";
+import dynamic from "next/dynamic";
+
+const ModelVariantsModal = dynamic(() => import("@/features/model-variants"), {
+  ssr: false,
+});
 
 interface ModelVariantsProps {
   seriesDialogModel: SeriesDialogModelType;
   productId: number;
+  categoryId: number;
 }
 
 const ModelVariants = ({
   seriesDialogModel,
   productId,
+  categoryId,
 }: ModelVariantsProps) => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
   const { selectProduct, isLoading } = useProductDetailData();
 
   return (
@@ -21,7 +30,11 @@ const ModelVariants = ({
         <div className="font-roboto_condensed font-bold text-[16px] leading-4">
           {seriesDialogModel.dialogTitle}
         </div>
-        <button>
+        <button
+          type="button"
+          onClick={() => setIsModalOpen(true)}
+          className="cursor-pointer"
+        >
           <Icon
             icon="chevron-right"
             width={12}
@@ -51,6 +64,14 @@ const ModelVariants = ({
           </Button>
         ))}
       </div>
+      {isModalOpen && (
+        <ModelVariantsModal
+          categoryId={categoryId}
+          dialogTitle={seriesDialogModel.dialogTitle}
+          selectProduct={selectProduct}
+          onClose={() => setIsModalOpen(false)}
+        />
+      )}
     </div>
   );
 };

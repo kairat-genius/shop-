@@ -15,10 +15,11 @@ import EditionSelector from "./EditionSelector";
 const ProductStickyDetails = () => {
   const {
     productData: {
-      buyDialogModel: { detail, saleProperties },
+      buyDialogModel: { detail, saleProperties, },
     },
     seriesDialogModel,
     productId,
+  
   } = useProductDetailData();
   const sizeProperty = saleProperties?.find(
     (propertyList) => propertyList.definitionId === 6,
@@ -69,6 +70,7 @@ const ProductStickyDetails = () => {
               <ModelVariants
                 seriesDialogModel={seriesDialogModel}
                 productId={productId}
+                categoryId={detail.frontCategoryId}
               />
             )}
             {propertyId1 && <ColorSelector saleProperty={propertyId1} />}

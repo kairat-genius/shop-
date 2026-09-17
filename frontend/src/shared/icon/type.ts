@@ -23,4 +23,7 @@ export type IconName =
   | "circle-question-mark"
   | "separator"
   | "star"
-  | "pen-line" | "heart" | "shield-check";
+  | "pen-line"
+  | "heart"
+  | "shield-check"
+  | "filter";

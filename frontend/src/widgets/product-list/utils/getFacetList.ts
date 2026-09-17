@@ -2,7 +2,10 @@ import type { FacetType } from "@/types/category-filters.type";
 
 interface FacetItem {
   name?: string;
+  count?: number;
   value?: string | number;
+  label?: string;
+  labelUrl?: string;
 }
 
 interface NestedFacet {
@@ -10,12 +13,21 @@ interface NestedFacet {
   nestedFacets?: NestedFacet[];
 }
 
+interface NormalizedFacetItem {
+  id: string;
+  title: string;
+  label?: string;
+  labelUrl?: string;
+}
+
 export const normalizeFacetItems = (items: FacetItem[] = []) =>
   items
-    .filter((item) => item?.name)
+    .filter((item) => item?.name && item.count !== 0)
     .map((item) => ({
       id: String(item.value ?? item.name ?? ""),
       title: item.name ?? "",
+      label: item.label,
+      labelUrl: item.labelUrl,
     }));
 
 export const getFacetList = (
@@ -23,9 +35,7 @@ export const getFacetList = (
   name: string,
   useFirstNestedItems = false,
 ) => {
-  const getFacetItems = (
-    facet: NestedFacet | null,
-  ): Array<{ id: string; title: string }> => {
+  const getFacetItems = (facet: NestedFacet | null): NormalizedFacetItem[] => {
     if (!facet) {
       return [];
     }
@@ -46,9 +56,7 @@ export const getFacetList = (
       return getFacetItems(nestedFacets[0]);
     }
 
-    return nestedFacets.flatMap((nestedFacet) =>
-      getFacetItems(nestedFacet),
-    );
+    return nestedFacets.flatMap((nestedFacet) => getFacetItems(nestedFacet));
   };
 
   const facet = facets.find((facet) => facet.name === name);

@@ -1,65 +1,110 @@
 "use client";
 
-import { FreeMode, Navigation, Thumbs } from "swiper/modules";
+import { FreeMode, Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/free-mode";
-import "swiper/css/thumbs";
 import { useRef, useState } from "react";
-import type { Swiper as SwiperType } from "swiper";
 
 import { Button } from "@/shared/ui/action";
 import Icon from "@/shared/icon";
+import { cn } from "@/shared/utils/clsx";
 import { useProductDetailData } from "../../context/useCatalogData";
 
+type GalleryTab = "products" | "styles" | "outfits";
+
+type GalleryImage = {
+  id: number;
+  url: string;
+  hasBackdrop?: boolean;
+};
+
 const Gallery = () => {
-  const [thumbsSwiper, setThumbsSwiper] = useState<SwiperType | null>(null);
-  const mainSwiperRef = useRef<SwiperType | null>(null);
+  const mainSwiperRef = useRef<import("swiper").Swiper | null>(null);
+  const [activeTab, setActiveTab] = useState<GalleryTab>("products");
+  const [activeImageIndex, setActiveImageIndex] = useState(1);
 
   const {
-    activeSku,
-    productData: {
-      imageModels,
-      buyDialogModel: { saleProperties },
-    },
+    productData: { imageModels, mainImgWearStyleResp },
   } = useProductDetailData();
 
-  const activeColorValueId =
-    activeSku?.properties.find((property) =>
-      saleProperties.some(
-        (saleProperty) =>
-          saleProperty.definitionId === 1 &&
-          saleProperty.propertyList.some((group) =>
-            group.propertyItemModels.some(
-              (item) => item.propertyValueId === property.propertyValueId,
-            ),
-          ),
-      ),
-    )?.propertyValueId ?? null;
+  const productImages: GalleryImage[] = imageModels
+    .filter((item) => item.genericType.startsWith("PHOTO"))
+    .map((item) => ({ id: item.imageId, url: item.url }));
+  const styleImages: GalleryImage[] =
+    mainImgWearStyleResp?.spuItems.map((item) => ({
+      id: item.contentId,
+      url: item.url,
+      hasBackdrop: true,
+    })) ?? [];
+  const outfitImages: GalleryImage[] = imageModels
+    .filter((item) => item.label === 1)
+    .map((item) => ({ id: item.imageId, url: item.url }));
 
-  const hasColorProperty = activeColorValueId !== null;
+  const gallerySections = [
+    { id: "products" as const, label: "Товары", images: productImages },
+    { id: "styles" as const, label: "Стили", images: styleImages },
+    { id: "outfits" as const, label: "Наряды", images: outfitImages },
+  ];
+  const displayImages = gallerySections.flatMap((section) => section.images);
 
-  const displayImages = hasColorProperty
-    ? imageModels.filter((item) => item.propertyValueId === activeColorValueId)
-    : imageModels;
+  const getSectionState = (imageIndex: number) => {
+    let sectionStart = 0;
+
+    for (const section of gallerySections) {
+      const sectionEnd = sectionStart + section.images.length;
+
+      if (imageIndex < sectionEnd) {
+        return {
+          id: section.id,
+          imageIndex: imageIndex - sectionStart + 1,
+        };
+      }
+
+      sectionStart = sectionEnd;
+    }
+
+    return { id: "products" as const, imageIndex: 1 };
+  };
+
+  const tabs = gallerySections.map((section) => ({
+    id: section.id,
+    label: `${section.label} ${activeTab === section.id ? activeImageIndex : 1}/${section.images.length}`,
+  }));
+
+  const handleTabChange = (tab: GalleryTab) => {
+    const imageIndex = gallerySections
+      .slice(
+        0,
+        gallerySections.findIndex((section) => section.id === tab),
+      )
+      .reduce((total, section) => total + section.images.length, 0);
+
+    mainSwiperRef.current?.slideToLoop(imageIndex, 300);
+  };
+
+  if (displayImages.length === 0) {
+    return null;
+  }
 
   return (
     <div className="relative pl-[4rem]">
       <div className="absolute inset-y-0 left-0 w-[4.1rem] pr-[.3rem]">
         <Swiper
-          onSwiper={setThumbsSwiper}
           className="h-full w-[3.8rem]"
           slidesPerView={"auto"}
           spaceBetween={4}
-          direction={"vertical"}
+          direction="vertical"
           freeMode
           watchSlidesProgress
-          modules={[Thumbs, FreeMode]}
+          modules={[FreeMode]}
         >
           {displayImages.map((item, index) => (
             <SwiperSlide
-              key={index}
-              onMouseEnter={() => mainSwiperRef.current?.slideTo(index, 300)}
+              key={item.id}
+              onMouseEnter={() =>
+                mainSwiperRef.current?.slideToLoop(index, 300)
+              }
               className="max-h-[3.8rem] w-[3.8rem] h-[3.8rem] rounded-sm border border-slate-100 [&.swiper-slide-thumb-active]:border-[1.3px] [&.swiper-slide-thumb-active]:border-slate-950 overflow-hidden"
             >
               <img
@@ -67,7 +112,7 @@ const Gallery = () => {
                 alt=""
                 width={73}
                 height={73}
-                className="cursor-pointer aspect-square object-contain w-full h-full"
+                className="cursor-pointer aspect-square object-cover w-full h-full"
                 loading="lazy"
                 decoding="async"
               />
@@ -78,13 +123,17 @@ const Gallery = () => {
 
       <Swiper
         slidesPerView={1}
-        thumbs={{ swiper: thumbsSwiper }}
-        modules={[FreeMode, Thumbs, Navigation]}
+        modules={[FreeMode, Navigation]}
         className="w-full max-w-130 group"
         wrapperClass="h-full"
         allowTouchMove={false}
         onSwiper={(swiper) => {
           mainSwiperRef.current = swiper;
+        }}
+        onSlideChange={(swiper) => {
+          const sectionState = getSectionState(swiper.realIndex);
+          setActiveTab(sectionState.id);
+          setActiveImageIndex(sectionState.imageIndex);
         }}
         loop
         navigation={{
@@ -93,18 +142,26 @@ const Gallery = () => {
         }}
       >
         {displayImages.map((item, index) => (
-          <SwiperSlide key={index}>
-            <img
-              src={item.url}
-              alt=""
-              height={520}
-              width={520}
-              loading={index === 0 ? "eager" : "lazy"}
-              fetchPriority={index === 0 ? "high" : "auto"}
-              decoding="async"
-              className="aspect-square w-full h-auto object-contain bg-white"
-              draggable={false}
-            />
+          <SwiperSlide key={item.id}>
+            <div className="relative h-full w-full overflow-hidden">
+              {item.hasBackdrop && (
+                <div
+                  className="absolute inset-0 z-2 scale-[1.1] bg-cover bg-position-[50%] blur-[20px]"
+                  style={{ backgroundImage: `url(${item.url})` }}
+                />
+              )}
+              <img
+                src={item.url}
+                alt=""
+                height={520}
+                width={520}
+                loading={index === 0 ? "eager" : "lazy"}
+                fetchPriority={index === 0 ? "high" : "auto"}
+                decoding="async"
+                className="relative z-5 aspect-square w-full h-auto object-contain"
+                draggable={false}
+              />
+            </div>
           </SwiperSlide>
         ))}
         <Button
@@ -124,6 +181,25 @@ const Gallery = () => {
         >
           <Icon icon="chevron-right-gallery" height={24} width={24} />
         </Button>
+        <div className="absolute bottom-0 left-0 z-20 px-4 pb-4">
+          <div className="bg-[rgba(245,245,248,.7)] rounded-[40px] backdrop-blur-[20px] flex items-center">
+            {tabs.map((tab) => (
+              <button
+                key={tab.id}
+                type="button"
+                onClick={() => handleTabChange(tab.id)}
+                className={cn(
+                  "leading-[normal] cursor-pointer whitespace-nowrap text-[10px] p-1.5 rounded-[33px]",
+                  activeTab === tab.id
+                    ? "text-slate-950 bg-white"
+                    : "text-slate-500",
+                )}
+              >
+                {tab.label}
+              </button>
+            ))}
+          </div>
+        </div>
       </Swiper>
     </div>
   );
