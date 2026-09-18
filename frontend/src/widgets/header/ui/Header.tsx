@@ -33,30 +33,7 @@ const Header = () => {
           <Search />
         </div>
         <div className="flex gap-[1.6rem] items-center">
-          <Link
-            className={cn(
-              "flex font-medium leading-[normal] h-16 text-[14px] items-center gap-1",
-              pathname === "/authentication/home"
-                ? "text-teal-600"
-                : "text-slate-950 hover:text-teal-600",
-            )}
-            href="/authentication/home"
-          >
-            <Icon
-              icon="scan-search"
-              width={20}
-              height={20}
-            />
-            <span
-              className={cn(
-                "block relative",
-                pathname === "/authentication/home" &&
-                  "after:absolute after:max-w-14 after:w-full after:h-0.5 after:-bottom-1.5 after:left-1/2 after:-translate-x-1/2 after:bg-teal-600",
-              )}
-            >
-              Онлайн-проверка
-            </span>
-          </Link>
+        
           <Link
             className={cn(
               "flex font-medium leading-[normal] h-16 text-[14px] items-center gap-1 justify-center",

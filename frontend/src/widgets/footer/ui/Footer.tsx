@@ -70,7 +70,7 @@ const Footer = () => {
                   />
                 </a>
                 <a
-                  href="/"
+                  href="https://t.me/the_dewu_poizon"
                   target="_blank"
                   rel="nofollow"
                   className="bg-black rounded-full"
@@ -119,8 +119,8 @@ const Footer = () => {
           }}
         />
         <div className="text-[14px] flex justify-between items-center font-light">
-          <div>© ПРО НЬЮ ВОРД (Гонконг) Лимитед Все права защищены</div>
-          <div>support@thePoizon.ru</div>
+          <div>Все права защищены</div>
+          <div>support@thedewu.com</div>
         </div>
       </div>
     </footer>

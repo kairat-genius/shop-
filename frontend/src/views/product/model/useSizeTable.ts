@@ -8,9 +8,7 @@ export const useSizeTable = (
 ) => {
   const sizeList = size.sizeList;
 
-  const defaultUnit = sizeList[0]?.title ?? "cm";
-
-  const [activeUnit, setActiveUnit] = useState(defaultUnit);
+  const [activeUnit, setActiveUnit] = useState("cm");
 
   const tableData = useMemo(() => {
     const activeSizeData =

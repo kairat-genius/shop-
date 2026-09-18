@@ -8,13 +8,11 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { categorySwiperData } from "../data/categorySwiper.data";
 import "swiper/css";
 import { cn } from "@/shared/utils/clsx";
-import { useCatalogData } from "@/shared/context/catalog-data";
 import { generateProductSlug } from "@/shared/utils/slug";
 
 const CategorySwiper = () => {
   const [isEnd, setIsEnd] = useState(false);
 
-  const { categoryData } = useCatalogData();
   return (
     <div className="relative w-full min-w-0">
       <div
@@ -43,7 +41,7 @@ const CategorySwiper = () => {
           simulateTouch={false}
           slidesPerGroup={4}
         >
-          {categoryData.categories.map((category, index) => (
+          {categorySwiperData.map((category, index) => (
             <SwiperSlide
               key={category.id}
               className={cn(
@@ -52,10 +50,10 @@ const CategorySwiper = () => {
               )}
             >
               <Link
-                href={`/category/${generateProductSlug(category.name, category.id)}`}
+                href={`/category/${generateProductSlug(category.title, category.id)}`}
                 className="text-[14px] whitespace-nowrap leading-[normal] items-center justify-center flex h-full"
               >
-                {category.name}
+                {category.title}
               </Link>
             </SwiperSlide>
           ))}

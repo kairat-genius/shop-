@@ -93,8 +93,6 @@ body {
   height: 200%;
 }
 
-
-
 @keyframes scroll-left {
   0% {
     transform: translateX(0);
@@ -119,4 +117,21 @@ body {
 
 .animate-scroll-right {
   animation: scroll-right 60s linear infinite;
+}
+
+.gallery-thumbs {
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+}
+
+.gallery-thumbs::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+.gallery-thumbs::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  border-radius: 9999px;
+}
+.gallery-thumbs:hover,
+.gallery-thumbs:focus-within {
+  scrollbar-color: rgba(100, 116, 139, 0.55) transparent;
 }

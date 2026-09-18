@@ -55,14 +55,14 @@ const ProductTabsSection = ({ initialData }: ProductTabsSectionProps) => {
   // Формируем список вкладок
   const tabNames = useMemo(() => {
     const sliced =
-      categoryData?.categories?.slice(0, 7).map((c) => c.name) ?? [];
+      categoryData?.categories?.slice(0, 7).map((c) => c.title) ?? [];
     return ["Все", ...sliced];
   }, [categoryData?.categories]);
 
   // Ищем ID выбранной категории
   const activeCategoryId = useMemo(() => {
     if (activeTab === "Все") return;
-    return categoryData?.categories?.find((c) => c.name === activeTab)?.id;
+    return categoryData?.categories?.find((c) => c.title === activeTab)?.id;
   }, [activeTab, categoryData?.categories]);
 
   const latestState = useRef({ cache, activeTab, activeCategoryId });

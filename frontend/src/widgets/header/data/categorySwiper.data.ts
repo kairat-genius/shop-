@@ -1,54 +1,54 @@
 export const categorySwiperData = [
   {
+    id: 500000369,
     title: "Баскетбол",
-    href: "/category/sneakers-basketball",
   },
   {
+    id: 500000375,
     title: "Бег",
-    href: "/category/sneakers-running",
   },
   {
+    id: 500000371,
     title: "Скейтбординг",
-    href: "/category/sneakers-skateboarding",
   },
   {
+    id: 500000373,
     title: "Модные кроссовки & Повседневная обувь",
-    href: "/category/sneakers-lifestyle",
   },
   {
+    id: 500000377,
     title: "Тренинг",
-    href: "/category/sneakers-training",
   },
   {
+    id: 500000381,
     title: "Туристические",
-    href: "/category/sneakers-outdoors",
   },
   {
+    id: 500000383,
     title: "Ботинки",
-    href: "/category/shoes-boots",
   },
   {
+    id: 500000390,
     title: "Балетки",
-    href: "/category/shoes-flats",
   },
   {
+    id: 500000264,
     title: "Худи & Свитшоты",
-    href: "/category/apparel-hoodies-sweatshirts",
   },
   {
+    id: 500000266,
     title: "Куртки & Пальто",
-    href: "/category/apparel-jackets-coats",
   },
   {
+    id: 500000277,
     title: "Свитеры",
-    href: "/category/apparel-sweaters",
   },
   {
+    id: 500000279,
     title: "Топы",
-    href: "/category/apparel-tops",
   },
   {
+    id: 500000284,
     title: "Деним",
-    href: "/category/apparel-denim",
   },
 ];

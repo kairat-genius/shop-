@@ -49,7 +49,7 @@ const OrderProtectionModal = ({ onClose }: OrderProtectionModalProps) => {
             Поддержка 24/7
           </div>
           <div className="text-[14px] leading-5 text-slate-800 font-light">
-            Электронная почта: support@thePoizon.ru
+            Электронная почта: support@thedewu.com
           </div>
         </div>
         <div className="space-y-2">

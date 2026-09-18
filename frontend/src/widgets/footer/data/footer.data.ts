@@ -43,7 +43,6 @@ export const footerData = {
   verification: {
     title: "Проверка",
     links: [
-      { label: "Проверка онлайн", href: "/authentication/home" },
       {
         label: "Добавление по проверке",
         href: "/pages/6830286599a182327f433065",
