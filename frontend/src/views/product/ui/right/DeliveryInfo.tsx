@@ -13,7 +13,6 @@ const OrderProtectionModal = dynamic(
   { ssr: false },
 );
 
-
 const DeliveryInfo = () => {
   const [isDeliveryModalOpen, setIsDeliveryModalOpen] = useState(false);
   const [isProtectionModalOpen, setIsProtectionModalOpen] = useState(false);
@@ -49,26 +48,18 @@ const DeliveryInfo = () => {
           />
         </div>
 
-        <div className="pl-8 mt-2 grid grid-cols-2 gap-2 w-full">
-          {deliveryInfoModel?.deliveryItems.map((item, index) => (
-            <div
-              key={index}
-              className="h-12 bg-slate-150 text-[12px] leading-4 font-light p-2 relative overflow-hidden"
-            >
-              <div className="truncate">{item.deliveryTypeText}</div>
-              <div>{item.deliveryTimeText}</div>
-              {item.deliveryType === 1 && (
-                <img
-                  className="top-1 absolute -right-2"
-                  src="https://cdn-img.thepoizon.ru/node-common/cad0af9c-c6b9-923e-1702-88b542cf4906-126-120.png?x-oss-process=image/format,webp"
-                  alt="arrow"
-                  width={50}
-                  height={50}
-                  loading="lazy"
-                />
-              )}
-            </div>
-          ))}
+        <div className="pl-8 mt-2 w-full">
+          {deliveryInfoModel?.deliveryItems
+            .filter((item) => item.deliveryType !== 1)
+            .map((item, index) => (
+              <div
+                key={index}
+                className="relative h-12 overflow-hidden bg-slate-150 p-2 text-[12px] font-light leading-4"
+              >
+                <div className="truncate">{item.deliveryTypeText}</div>
+                <div>{item.deliveryTimeText}</div>
+              </div>
+            ))}
         </div>
       </Button>
       <Button
