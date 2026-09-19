@@ -57,19 +57,6 @@ const Footer = () => {
               </h3>
               <div className="flex gap-6 items-center">
                 <a
-                  href="/"
-                  target="_blank"
-                  rel="nofollow"
-                  className="bg-black rounded-sm"
-                >
-                  <Icon
-                    icon="vk"
-                    width={20}
-                    height={20}
-                    className="text-white shrink-0"
-                  />
-                </a>
-                <a
                   href="https://t.me/the_dewu_poizon"
                   target="_blank"
                   rel="nofollow"
@@ -83,16 +70,16 @@ const Footer = () => {
                   />
                 </a>
                 <a
-                  href="/"
+                  href="https://www.instagram.com/poizon_dewu_official/"
                   target="_blank"
-                  rel="nofollow"
-                  className="bg-black rounded-md"
+                  rel="nofollow noreferrer"
+                  aria-label="Instagram"
                 >
                   <Icon
-                    icon="dzen"
+                    icon={"instagram"}
+                    className="text-white"
                     width={20}
                     height={20}
-                    className="text-white shrink-0"
                   />
                 </a>
               </div>

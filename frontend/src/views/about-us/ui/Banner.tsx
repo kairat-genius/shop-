@@ -1,55 +1,56 @@
 "use client";
-import { Autoplay, Pagination } from "swiper/modules";
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import { BANNER_SLIDES } from "../data/banner.data";
+
+import { cn } from "@/shared/utils/clsx";
+import { useRef, useState } from "react";
 
 const Banner = () => {
+  const [isPlaying, setIsPlaying] = useState(false);
+  const videoRef = useRef<HTMLVideoElement>(null);
+
+  const handlePlayClick = () => {
+    setIsPlaying(true);
+    setTimeout(() => {
+      videoRef.current?.play();
+    }, 0);
+  };
   return (
-    <section>
-      <Swiper
-        className="w-full h-full"
-        slidesPerView={1}
-        modules={[Pagination, Autoplay]}
-        pagination={{
-          clickable: true,
-          el: ".custom-pagination",
-          renderBullet: (index, className) => {
-            return `<span class="${className} inline-block p-1.25 cursor-pointer group">
-              <span class="block h-1.5 w-1.5 rounded-full bg-white opacity-20 group-[.swiper-pagination-bullet-active]:opacity-100 transition-opacity"></span>
-            </span>`;
-          },
-        }}
-        autoplay={{
-          delay: 4000,
-          disableOnInteraction: false,
-          pauseOnMouseEnter: true,
-        }}
-      >
-        {BANNER_SLIDES.map((slide, index) => (
-          <SwiperSlide key={index}>
-            <div className="relative h-[18rem] w-full">
-              <div className="w-[72rem] h-full mx-auto pt-[4.5rem] px-[6rem]">
-                <div className="leading-none font-bold text-[2.5rem] font-roboto_condensed">
-                  {slide.titleLine1}
-                </div>
-                <div className="leading-none font-bold text-[2.5rem] font-roboto_condensed">
-                  {slide.titleLine2}
-                </div>
-                <div className="mt-2 w-[27rem] text-[1rem] font-light leading-normal">
-                  {slide.description}
-                </div>
-              </div>
+    <section className="h-[380px] w-full relative overflow-hidden flex items-center justify-center">
+      <div className="absolute inset-[-16px] z-0 bg-[url('https://cdn-img.thepoizon.ru/node-common/ca04dfef-45d0-2541-32bc-f99e09139013-2752-1536.png')] bg-[length:100%_auto] bg-center bg-no-repeat blur-[12px]" />
+      <div className="w-[675px] h-[380px] relative shrink-0 z-2 overflow-hidden">
+        {!isPlaying && (
+          <>
+            <img
+              className="w-full h-full object-cover"
+              src="https://cdn-img.thepoizon.ru/node-common/ca04dfef-45d0-2541-32bc-f99e09139013-2752-1536.png?x-oss-process=image/resize,s_1280/format,webp"
+              alt="poster"
+            />
+            <button
+              onClick={handlePlayClick}
+              className="absolute w-[3.2rem] h-[3.2rem] left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 cursor-pointer"
+            >
               <img
-                className="absolute  inset-0 -z-1 w-full h-[18rem]"
-                src={slide.image}
-                alt=""
+                className="w-full h-full"
+                src="https://cdn-img.thepoizon.ru/node-common/ef6f2c56-e381-37cc-ae8f-87258c5f08f2-300-300.png?x-oss-process=image/resize,s_96/format,webp"
+                alt="play"
               />
-            </div>
-          </SwiperSlide>
-        ))}
-        <div className="custom-pagination absolute bottom-4 left-1/2 flex -translate-x-1/2 z-10" />
-      </Swiper>
+            </button>
+          </>
+        )}
+
+        <video
+          ref={videoRef}
+          className={cn(
+            "w-full h-full object-contain",
+            isPlaying ? "block" : "hidden",
+          )}
+          preload="auto"
+          muted
+          controls
+        >
+          <source src="https://h5cdn.dewu.com/app/video/eb79008a-d9d4-e1ba-0fda-98debe85a430.mp4" />
+        </video>
+      </div>
+      <div className="bg-[rgba(0,0,0,.6)] absolute inset-0 z-1"/>
     </section>
   );
 };

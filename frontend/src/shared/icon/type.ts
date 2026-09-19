@@ -26,4 +26,6 @@ export type IconName =
   | "pen-line"
   | "heart"
   | "shield-check"
-  | "filter";
+  | "filter"
+  | "play"
+  | "instagram";

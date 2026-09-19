@@ -1,17 +1,22 @@
 import Banner from "./Banner";
-import BestService from "./BestService";
-import BrandHistory from "./BrandHistory";
-import GlobalAssortment from "./GlobalAssortment";
-import QualityGuarantee from "./QualityGuarantee";
+import Contact from "./Contact";
+import CustomerReviews from "./CustomerReviews";
+import Partner from "./Partner";
+import Protections from "./Protections";
+
+import SocialAbout from "./SocialAbout";
+import Why from "./Why";
 
 const AboutUsView = () => {
   return (
     <main>
       <Banner />
-      <QualityGuarantee />
-      <GlobalAssortment />
-      <BrandHistory />
-      <BestService/>
+      <SocialAbout/>
+      <Partner/>
+      <Why/>
+      <Protections/>
+      <CustomerReviews/>
+      <Contact/>
     </main>
   );
 };
