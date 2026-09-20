@@ -1,4 +1,5 @@
 import { getProductListCategory } from "@/views/category-brand/api/getProductListCategory";
+import { getProductListSearch } from "@/shared/api/product-list/getProductListSearch";
 import Breadcrumbs from "@/shared/ui/breadcrumbs";
 import { extractIdFromSlug } from "@/shared/utils/extractIdFromSlug";
 import categoryTreeData from "@/shared/context/catalog-data/api/categoryData.json";
@@ -42,7 +43,37 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
   const categoryData = await getCategoryFilters(categoryId);
 
   if (categoryData === 404) {
-    notFound();
+    const categoryTitle = findSubcategoryTitleById(
+      categoryTreeData.categories,
+      categoryId,
+    );
+
+    if (!categoryTitle) {
+      notFound();
+    }
+
+    const initialData = await getProductListSearch(
+      {
+        pageSize: 60,
+        keyword: categoryTitle,
+      },
+      true,
+    );
+
+    return (
+      <main>
+        <Breadcrumbs
+          title={categoryTitle}
+          items={[{ href: "/", title: "Главная" }, { title: categoryTitle }]}
+        />
+        <ProductList
+          initialData={initialData}
+          filtersData={initialData.facetList}
+          keyword={categoryTitle}
+        />
+        <CategoryView />
+      </main>
+    );
   }
 
   const initialData = await getProductListCategory(

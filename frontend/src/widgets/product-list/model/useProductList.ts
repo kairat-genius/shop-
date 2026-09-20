@@ -34,6 +34,7 @@ export function useProductList(
 
         priceMin: filters.priceMin ?? undefined,
         priceMax: filters.priceMax ?? undefined,
+        keyword: params.keyword,
       };
 
       const listData =

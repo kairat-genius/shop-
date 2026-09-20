@@ -18,9 +18,9 @@ const BestService = () => {
             <span>Email: </span>
             <a
               className="ml-1 underline underline-offset-2"
-              href="mailto:support@thePoizon.ru"
+              href="mailto:support@thedewu.com"
             >
-              support@thePoizon.ru
+              support@thedewu.com
             </a>
           </div>
           <div
