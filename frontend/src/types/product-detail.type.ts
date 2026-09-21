@@ -147,6 +147,7 @@ export type SizeAssistantModuleType = {
       cells: {
         nickname: string;
         id: number;
+        headImage: string;
       }[];
       title: string;
     };

@@ -21,6 +21,7 @@ export type FittingReportTableType = {
     cells: {
       nickname: string;
       id: number;
+      headImage: string;
     }[];
     title: string;
   };

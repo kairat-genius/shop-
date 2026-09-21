@@ -10,6 +10,7 @@ interface FittingReportTableProps {
   };
   models: {
     cells: {
+      headImage?: string;
       nickname: string;
       id: number;
     }[];
@@ -98,10 +99,21 @@ const FittingReportTable = ({
                 >
                   {model?.nickname && (
                     <div className="flex items-center justify-center gap-1.5">
-                      <div className="text-[12px] leading-[normal] rounded-full h-3.5 w-3.5 shrink-0 bg-slate-150 text-slate-300 mr-1">
+                      {model.headImage ? (
+                        <img
+                          className="rounded-full h-3.5 w-3.5 object-contain mr-0.5"
+                          src={model.headImage}
+                          alt=""
+                        />
+                      ) : (
+                        <div className="text-[12px] leading-[normal] rounded-full h-3.5 w-3.5 shrink-0 bg-slate-150 text-slate-300 mr-1">
+                          {model.nickname}
+                        </div>
+                      )}
+
+                      <span className="text-[12px] leading-[normal]">
                         {model.nickname}
-                      </div>
-                      <span className="text-[12px] leading-[normal]">{model.nickname}</span>
+                      </span>
                     </div>
                   )}
                 </td>

@@ -41,20 +41,24 @@ const Gallery = () => {
       index,
   );
 
+  const colorProperty =
+    saleProperties?.find((property) => property.definitionId === 1) ??
+    saleProperties?.find((property) => property.definitionId === 3690);
+
   const activeColorValueId =
     selectedPropertyValueIds[1] ??
     activeSku?.properties.find((property) =>
-      saleProperties.some(
-        (saleProperty) =>
-          saleProperty.definitionId === 1 &&
-          saleProperty.propertyList.some((group) =>
-            group.propertyItemModels.some(
-              (item) => item.propertyValueId === property.propertyValueId,
-            ),
-          ),
+      colorProperty?.propertyList.some((group) =>
+        group.propertyItemModels.some(
+          (item) => item.propertyValueId === property.propertyValueId,
+        ),
       ),
     )?.propertyValueId ??
     null;
+
+  const selectedColorImage = colorProperty?.propertyList
+    .flatMap((group) => group.propertyItemModels)
+    .find((item) => item.propertyValueId === activeColorValueId)?.url;
 
   const productImageModels =
     saleImages?.[String(activeColorValueId)] ?? imageModels;
@@ -66,10 +70,7 @@ const Gallery = () => {
           item.propertyValueId === activeColorValueId),
     )
     .map((item) => ({ id: item.imageId, url: item.url }));
-  const selectedColorImage = saleProperties
-    .find((saleProperty) => saleProperty.definitionId === 1)
-    ?.propertyList.flatMap((group) => group.propertyItemModels)
-    .find((item) => item.propertyValueId === activeColorValueId)?.url;
+
   const productImages: GalleryImage[] =
     productImagesByColor.length > 0
       ? productImagesByColor

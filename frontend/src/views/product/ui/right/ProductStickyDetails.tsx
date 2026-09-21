@@ -15,20 +15,19 @@ import EditionSelector from "./EditionSelector";
 const ProductStickyDetails = () => {
   const {
     productData: {
-      buyDialogModel: { detail, saleProperties, },
+      buyDialogModel: { detail, saleProperties },
     },
     seriesDialogModel,
     productId,
-  
   } = useProductDetailData();
   const sizeProperty = saleProperties?.find(
     (propertyList) => propertyList.definitionId === 6,
   );
 
-  const propertyId1 = saleProperties?.find((p) => p.definitionId === 1);
+  const propertyId1 = saleProperties?.find(
+    (property) => property.definitionId === 1 || property.definitionId === 3690,
+  );
   const propertyId12 = saleProperties?.find((p) => p.definitionId === 12);
-
-  // console.log("ffff", saleProperties);
 
   return (
     <div className="relative h-full flex-1">
@@ -77,7 +76,7 @@ const ProductStickyDetails = () => {
 
             {propertyId12 && <EditionSelector saleProperty={propertyId12} />}
             {sizeProperty && <SizeSelector saleProperty={sizeProperty} />}
-        
+
             {/* <div className="mt-6">
               <div className="mb-2 font-roboto_condensed font-bold text-[16px] leading-[100%] line-clamp-1">
                 Упаковка

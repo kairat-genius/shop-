@@ -45,7 +45,7 @@ const ColorSelector = ({ saleProperty }: ColorSelectorProps) => {
     )?.propertyValueId ??
     null;
 
-  if (defaultSizes.length <= 1) {
+  if (defaultSizes.length <= 0) {
     return null;
   }
 
