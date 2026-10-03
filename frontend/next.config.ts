@@ -8,6 +8,7 @@ const nextConfig: NextConfig = {
     "shop-eight-amber.vercel.app",
     "localhost:3000",
     "localhost:3001",
+    "shop-znu8.vercel.app"
   ],
   output: "standalone",
   logging: {
