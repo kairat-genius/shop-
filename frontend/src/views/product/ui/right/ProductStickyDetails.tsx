@@ -9,7 +9,6 @@ import { useProductDetailData } from "../../context/useCatalogData";
 import { generateProductSlug } from "@/shared/utils/slug";
 import Share from "./Share";
 import ColorSelector from "./ColorSelector";
-import { cn } from "@/shared/utils/clsx";
 import EditionSelector from "./EditionSelector";
 
 const ProductStickyDetails = () => {

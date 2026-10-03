@@ -1,0 +1,2447 @@
+{
+  "searchSpuList": {
+    "noResultsTitle": "Нет результатов для \"muva\"",
+    "total": 249,
+    "spuList": [
+      {
+        "saleTag": "Продано 12",
+        "googleProductCategory": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
+        "minSpuPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "5 678 ₽",
+          "money": {
+            "amount": "5678.00",
+            "minUnitVal": 567800,
+            "currency": "RUB"
+          },
+          "amountText": "5 678",
+          "sign": "+",
+          "absText": "5 678"
+        },
+        "rankingTags": [],
+        "language": "bbmax",
+        "favoriteStatus": 0,
+        "title": "MUVA Сумки Женские",
+        "articleNumber": "MU-1559",
+        "level1CategoryId": 48,
+        "skuId": 8904576273462841,
+        "imageCutSize": 16,
+        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260803/5e3f1e1a280743b2ab2e99dedb80a5a1.jpg",
+        "url": "/product/muva-handbags-8900343184552841",
+        "displayRecommendLabels": [
+          {
+            "labelSource": 3,
+            "labelIcons": [
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260803/3ea06700bdc14a0ab871deb3c1c083d1.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260803/be3c5c76632a444eac476bc52191e5c3.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260803/5e3f1e1a280743b2ab2e99dedb80a5a1.jpg"
+            ],
+            "hasMore": false
+          }
+        ],
+        "contentCategory": 52,
+        "tradingRoles": [
+          0,
+          1
+        ],
+        "trackingInfo": "{\"spuCardTags\":[\"high_correlation\"]}",
+        "brandId": 1010867,
+        "spuId": 8900343184552841,
+        "level2CategoryId": 49,
+        "sellDate": 1760457600000,
+        "labelModel": {
+          "id": 90,
+          "labelName": "MADE IN CHINA"
+        },
+        "region": "BBMAX",
+        "globalSpuId": 140311672122841,
+        "algoAcmItem": {
+          "requestId": "347412b98c118302",
+          "acm": "1.srh.spuid_8900343184552841.0.游客组.sc_bbmax|trans|product-st_0-os_android-reg_BBMAX-lan_en-cn_0-rid_347412b98c118302-lev_unknown-acn_0,4-osc_bbmax|trans|product-ts_1789309847136"
+        },
+        "categoryId": 52,
+        "status": 1
+      },
+      {
+        "saleTag": "Продано 93",
+        "googleProductCategory": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
+        "minSpuPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "9 314 ₽",
+          "money": {
+            "amount": "9314.00",
+            "minUnitVal": 931400,
+            "currency": "RUB"
+          },
+          "amountText": "9 314",
+          "sign": "+",
+          "absText": "9 314"
+        },
+        "rankingTags": [],
+        "language": "bbmax",
+        "favoriteStatus": 0,
+        "title": "MUVA Коровья кожа Бархат Сумка Стандартная (Standard) Женская Матча Коричневый Морская соль Коричневый",
+        "articleNumber": "MU-1540-1",
+        "level1CategoryId": 48,
+        "skuId": 8903713301266643,
+        "imageCutSize": 16,
+        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260327/fbbdf990652a42d8b06a2a6c28157f81.jpg",
+        "url": "/product/muva-cow-leather-velvet-handbag-regular-women-s-matcha-brown-sea-salt-brown-8900286999766643",
+        "displayRecommendLabels": [
+          {
+            "labelSource": 3,
+            "labelIcons": [
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251111/ab5c804f82fe4b8c8c6707fe9f800e84.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251111/902f8315af324c2abb120c69298e1e23.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251111/4d12d6d171e84f53bc41021d0ed7e69f.jpg"
+            ],
+            "hasMore": true
+          }
+        ],
+        "contentCategory": 52,
+        "tradingRoles": [
+          0,
+          1
+        ],
+        "trackingInfo": "{\"spuCardTags\":[\"high_correlation\"]}",
+        "brandId": 1010867,
+        "spuId": 8900286999766643,
+        "level2CategoryId": 49,
+        "sellDate": 1755187200000,
+        "labelModel": {
+          "id": 90,
+          "labelName": "MADE IN CHINA"
+        },
+        "region": "BBMAX",
+        "globalSpuId": 14021186643,
+        "algoAcmItem": {
+          "requestId": "347412b98c118302",
+          "acm": "1.srh.spuid_8900286999766643.0.游客组.sc_bbmax|trans|product-st_0-os_android-reg_BBMAX-lan_en-cn_0-rid_347412b98c118302-lev_unknown-acn_0,4-osc_bbmax|trans|product-ts_1789309847136"
+        },
+        "categoryId": 52,
+        "status": 1
+      },
+      {
+        "saleTag": "Продано 186",
+        "googleProductCategory": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
+        "minSpuPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "8 589 ₽",
+          "money": {
+            "amount": "8589.00",
+            "minUnitVal": 858900,
+            "currency": "RUB"
+          },
+          "amountText": "8 589",
+          "sign": "+",
+          "absText": "8 589"
+        },
+        "rankingTags": [],
+        "language": "bbmax",
+        "favoriteStatus": 0,
+        "title": "MUVA Корова Замшевая Сумка Стандартная (Стандартная) Женская Многоцветная",
+        "articleNumber": "MU-1540",
+        "level1CategoryId": 48,
+        "skuId": 8902506980442078,
+        "imageCutSize": 16,
+        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251111/ab5c804f82fe4b8c8c6707fe9f800e84.jpg",
+        "url": "/product/muva-cow-suede-handbag-regular-women-s-multicolor-8900198469182078",
+        "displayRecommendLabels": [
+          {
+            "labelSource": 3,
+            "labelIcons": [
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251111/ab5c804f82fe4b8c8c6707fe9f800e84.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251111/902f8315af324c2abb120c69298e1e23.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251111/4d12d6d171e84f53bc41021d0ed7e69f.jpg"
+            ],
+            "hasMore": true
+          }
+        ],
+        "contentCategory": 52,
+        "tradingRoles": [
+          0,
+          1
+        ],
+        "trackingInfo": "{\"spuCardTags\":[\"high_correlation\"]}",
+        "brandId": 1010867,
+        "spuId": 8900198469182078,
+        "level2CategoryId": 49,
+        "sellDate": 1746028800000,
+        "labelModel": {
+          "id": 90,
+          "labelName": "MADE IN CHINA"
+        },
+        "region": "BBMAX",
+        "globalSpuId": 14008622078,
+        "algoAcmItem": {
+          "requestId": "347412b98c118302",
+          "acm": "1.srh.spuid_8900198469182078.0.游客组.sc_bbmax|trans|product-st_0-os_android-reg_BBMAX-lan_en-cn_0-rid_347412b98c118302-lev_unknown-acn_0,2,4-osc_bbmax|trans|product-ts_1789309847136"
+        },
+        "categoryId": 52,
+        "status": 1
+      },
+      {
+        "saleTag": "Продано 79",
+        "googleProductCategory": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
+        "minSpuPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "12 443 ₽",
+          "money": {
+            "amount": "12443.00",
+            "minUnitVal": 1244300,
+            "currency": "RUB"
+          },
+          "amountText": "12 443",
+          "sign": "+",
+          "absText": "12 443"
+        },
+        "rankingTags": [],
+        "language": "bbmax",
+        "favoriteStatus": 0,
+        "title": "MUVA Корова Замшевая Сумка через плечо Женская Многоцветная",
+        "articleNumber": "MU-692-1",
+        "level1CategoryId": 48,
+        "skuId": 8902748471138899,
+        "imageCutSize": 16,
+        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260107/0c6e3f1e424c46528acfd83931da0c34.jpg",
+        "url": "/product/muva-cow-suede-shoulder-bag-women-s-multicolor-8900213996688899",
+        "displayRecommendLabels": [
+          {
+            "labelSource": 3,
+            "labelIcons": [
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260107/0f61fbf8b5754a70b7c6d9ffa2a22a89.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260107/0c6e3f1e424c46528acfd83931da0c34.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260107/492215ecc27c4dd896b6a516e9676e59.jpg"
+            ],
+            "hasMore": false
+          }
+        ],
+        "contentCategory": 305,
+        "tradingRoles": [
+          0,
+          1
+        ],
+        "trackingInfo": "{\"spuCardTags\":[\"high_correlation\"]}",
+        "brandId": 1010867,
+        "spuId": 8900213996688899,
+        "level2CategoryId": 49,
+        "sellDate": 1767024000000,
+        "labelModel": {
+          "id": 90,
+          "labelName": "MADE IN CHINA"
+        },
+        "region": "BBMAX",
+        "globalSpuId": 14011208899,
+        "algoAcmItem": {
+          "requestId": "347412b98c118302",
+          "acm": "1.srh.spuid_8900213996688899.0.游客组.sc_bbmax|trans|product-st_0-os_android-reg_BBMAX-lan_en-cn_0-rid_347412b98c118302-lev_unknown-acn_0,2,4-osc_bbmax|trans|product-ts_1789309847136"
+        },
+        "categoryId": 305,
+        "status": 1
+      },
+      {
+        "saleTag": "Продано 14",
+        "googleProductCategory": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
+        "minSpuPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "9 276 ₽",
+          "money": {
+            "amount": "9276.00",
+            "minUnitVal": 927600,
+            "currency": "RUB"
+          },
+          "amountText": "9 276",
+          "sign": "+",
+          "absText": "9 276"
+        },
+        "rankingTags": [],
+        "language": "bbmax",
+        "favoriteStatus": 0,
+        "title": "MUVA Сумки Женские",
+        "articleNumber": "MU-1540-3",
+        "level1CategoryId": 48,
+        "skuId": 8904570468178075,
+        "imageCutSize": 16,
+        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260803/401dc1be25394d37bad07d0e5d7f967e.jpg",
+        "url": "/product/muva-handbags-8900342798758075",
+        "displayRecommendLabels": [
+          {
+            "labelSource": 3,
+            "labelIcons": [
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260803/401dc1be25394d37bad07d0e5d7f967e.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260803/0115e79161d043c5b3847bcd8621560c.png"
+            ],
+            "hasMore": false
+          },
+          {
+            "labelSource": 2,
+            "labelId": 83378,
+            "labelText": "Маленький размер"
+          }
+        ],
+        "contentCategory": 52,
+        "tradingRoles": [
+          0,
+          1
+        ],
+        "trackingInfo": "{\"spuCardTags\":[\"high_correlation\"]}",
+        "brandId": 1010867,
+        "spuId": 8900342798758075,
+        "level2CategoryId": 49,
+        "sellDate": 1760457600000,
+        "labelModel": {
+          "id": 90,
+          "labelName": "MADE IN CHINA"
+        },
+        "region": "BBMAX",
+        "globalSpuId": 140311664858075,
+        "algoAcmItem": {
+          "requestId": "347412b98c118302",
+          "acm": "1.srh.spuid_8900342798758075.0.游客组.sc_bbmax|trans|product-st_0-os_android-reg_BBMAX-lan_en-cn_0-rid_347412b98c118302-lev_unknown-acn_0,4-osc_bbmax|trans|product-ts_1789309847136"
+        },
+        "categoryId": 52,
+        "status": 1
+      },
+      {
+        "saleTag": "Продано 153",
+        "googleProductCategory": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
+        "minSpuPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "6 134 ₽",
+          "money": {
+            "amount": "6134.00",
+            "minUnitVal": 613400,
+            "currency": "RUB"
+          },
+          "amountText": "6 134",
+          "sign": "+",
+          "absText": "6 134"
+        },
+        "rankingTags": [],
+        "language": "bbmax",
+        "favoriteStatus": 0,
+        "title": "MUVA Полиэстеровая ткань сумка-тоут с одним плечевым ремнем большая женская сумеречный черный мокко",
+        "articleNumber": "MU-607",
+        "level1CategoryId": 48,
+        "skuId": 8901150566149716,
+        "imageCutSize": 16,
+        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20241220/a7b23e19a41b4b61a9ae1ac5328e7fcb.jpg",
+        "url": "/product/muva-polyester-single-shoulder-tote-bag-large-women-s-twilight-black-mocha-8900113145859716",
+        "displayRecommendLabels": [
+          {
+            "labelSource": 3,
+            "labelIcons": [
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20241220/a7b23e19a41b4b61a9ae1ac5328e7fcb.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20241220/607dd7bc4e7146ef85b9e92968b903a1.jpg"
+            ],
+            "hasMore": false
+          },
+          {
+            "labelSource": 2,
+            "labelId": 83378,
+            "labelText": "Большой размер"
+          }
+        ],
+        "contentCategory": 305,
+        "tradingRoles": [
+          0,
+          1
+        ],
+        "trackingInfo": "{\"spuCardTags\":[\"high_correlation\"]}",
+        "brandId": 1010867,
+        "spuId": 8900113145859716,
+        "level2CategoryId": 49,
+        "sellDate": 1728921600000,
+        "labelModel": {
+          "id": 90,
+          "labelName": "MADE IN CHINA"
+        },
+        "region": "BBMAX",
+        "globalSpuId": 12009089716,
+        "algoAcmItem": {
+          "requestId": "347412b98c118302",
+          "acm": "1.srh.spuid_8900113145859716.0.游客组.sc_bbmax|trans|product-st_0-os_android-reg_BBMAX-lan_en-cn_0-rid_347412b98c118302-lev_unknown-acn_0,2,4-osc_bbmax|trans|product-ts_1789309847136"
+        },
+        "categoryId": 305,
+        "status": 1
+      },
+      {
+        "saleTag": "Продано 10",
+        "googleProductCategory": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
+        "minSpuPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "7 228 ₽",
+          "money": {
+            "amount": "7228.00",
+            "minUnitVal": 722800,
+            "currency": "RUB"
+          },
+          "amountText": "7 228",
+          "sign": "+",
+          "absText": "7 228"
+        },
+        "rankingTags": [],
+        "language": "bbmax",
+        "favoriteStatus": 0,
+        "title": "MUVA Сумки через плечо Женские",
+        "articleNumber": "MU-725-2",
+        "level1CategoryId": 48,
+        "skuId": 8904574816157631,
+        "imageCutSize": 16,
+        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260804/7718f3884eba4e9383fbd64c6c3e0199.jpg",
+        "url": "/product/muva-shoulder-bags-8900343080677631",
+        "displayRecommendLabels": [
+          {
+            "labelSource": 3,
+            "labelIcons": [
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260804/7718f3884eba4e9383fbd64c6c3e0199.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260804/ba6b211dfdb9442ca20e27923a69f8c4.jpg"
+            ],
+            "hasMore": false
+          }
+        ],
+        "contentCategory": 305,
+        "tradingRoles": [
+          0,
+          1
+        ],
+        "trackingInfo": "{\"spuCardTags\":[\"high_correlation\"]}",
+        "brandId": 1010867,
+        "spuId": 8900343080677631,
+        "level2CategoryId": 49,
+        "sellDate": 1777564800000,
+        "labelModel": {
+          "id": 90,
+          "labelName": "MADE IN CHINA"
+        },
+        "region": "BBMAX",
+        "globalSpuId": 140312206827631,
+        "algoAcmItem": {
+          "requestId": "347412b98c118302",
+          "acm": "1.srh.spuid_8900343080677631.0.游客组.sc_bbmax|trans|product-st_0-os_android-reg_BBMAX-lan_en-cn_0-rid_347412b98c118302-lev_unknown-acn_0,4-osc_bbmax|trans|product-ts_1789309847136"
+        },
+        "categoryId": 305,
+        "status": 1
+      },
+      {
+        "saleTag": "Продано 33",
+        "googleProductCategory": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
+        "minSpuPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "9 645 ₽",
+          "money": {
+            "amount": "9645.00",
+            "minUnitVal": 964500,
+            "currency": "RUB"
+          },
+          "amountText": "9 645",
+          "sign": "+",
+          "absText": "9 645"
+        },
+        "rankingTags": [],
+        "language": "bbmax",
+        "favoriteStatus": 0,
+        "title": "MUVA Коровья кожа Тоут Сумка Плечевая сумка Большая Женская Карамельный коричневый Медовый чайный коричневый",
+        "articleNumber": "MU-1084-1",
+        "level1CategoryId": 48,
+        "skuId": 8902507298933787,
+        "imageCutSize": 16,
+        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251111/4565a8df7bfc4cada47ddf6a46d398a4.jpg",
+        "url": "/product/muva-cow-suede-tote-bag-shoulder-bag-large-women-s-caramel-brown-honey-tea-brown-8900198488313787",
+        "displayRecommendLabels": [
+          {
+            "labelSource": 3,
+            "labelIcons": [
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251111/4565a8df7bfc4cada47ddf6a46d398a4.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20251111/3ab5b78569ec4c3e8ea299fc4567ea9a.jpg"
+            ],
+            "hasMore": false
+          },
+          {
+            "labelSource": 2,
+            "labelId": 83378,
+            "labelText": "Большой размер"
+          }
+        ],
+        "contentCategory": 305,
+        "tradingRoles": [
+          0,
+          1
+        ],
+        "trackingInfo": "{\"spuCardTags\":[\"high_correlation\"]}",
+        "brandId": 1010867,
+        "spuId": 8900198488313787,
+        "level2CategoryId": 49,
+        "sellDate": 1755187200000,
+        "labelModel": {
+          "id": 90,
+          "labelName": "MADE IN CHINA"
+        },
+        "region": "BBMAX",
+        "globalSpuId": 14008623787,
+        "algoAcmItem": {
+          "requestId": "347412b98c118302",
+          "acm": "1.srh.spuid_8900198488313787.0.游客组.sc_bbmax|trans|product-st_0-os_android-reg_BBMAX-lan_en-cn_0-rid_347412b98c118302-lev_unknown-acn_0,2,4-osc_bbmax|trans|product-ts_1789309847136"
+        },
+        "categoryId": 305,
+        "status": 1
+      },
+      {
+        "saleTag": "Продано 37",
+        "googleProductCategory": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
+        "minSpuPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "7 297 ₽",
+          "money": {
+            "amount": "7297.00",
+            "minUnitVal": 729700,
+            "currency": "RUB"
+          },
+          "amountText": "7 297",
+          "sign": "+",
+          "absText": "7 297"
+        },
+        "rankingTags": [],
+        "language": "bbmax",
+        "favoriteStatus": 0,
+        "title": "MUVA Коровья кожа Бархатная Сумка Средняя Женская Черепаховый Коричневый",
+        "articleNumber": "MU-1540-2",
+        "level1CategoryId": 48,
+        "skuId": 8903714062795990,
+        "imageCutSize": 16,
+        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260327/df1f80ee24414a17b7a1c6ce09878d28.jpg",
+        "url": "/product/muva-cow-leather-velvet-handbag-medium-women-s-tortoiseshell-brown-8900287061255990",
+        "displayRecommendLabels": [
+          {
+            "labelSource": 2,
+            "labelId": 83378,
+            "labelText": "Средний размер"
+          }
+        ],
+        "contentCategory": 52,
+        "tradingRoles": [
+          0,
+          1
+        ],
+        "trackingInfo": "{\"spuCardTags\":[\"high_correlation\"]}",
+        "brandId": 1010867,
+        "spuId": 8900287061255990,
+        "level2CategoryId": 49,
+        "sellDate": 1755187200000,
+        "labelModel": {
+          "id": 90,
+          "labelName": "MADE IN CHINA"
+        },
+        "region": "BBMAX",
+        "globalSpuId": 14021195990,
+        "algoAcmItem": {
+          "requestId": "347412b98c118302",
+          "acm": "1.srh.spuid_8900287061255990.0.游客组.sc_bbmax|trans|product-st_0-os_android-reg_BBMAX-lan_en-cn_0-rid_347412b98c118302-lev_unknown-acn_0,4-osc_bbmax|trans|product-ts_1789309847136"
+        },
+        "categoryId": 52,
+        "status": 1
+      },
+      {
+        "saleTag": "Продано 100",
+        "googleProductCategory": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
+        "minSpuPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "6 190 ₽",
+          "money": {
+            "amount": "6190.00",
+            "minUnitVal": 619000,
+            "currency": "RUB"
+          },
+          "amountText": "6 190",
+          "sign": "+",
+          "absText": "6 190"
+        },
+        "rankingTags": [],
+        "language": "bbmax",
+        "favoriteStatus": 0,
+        "title": "MUVA Полиэстеровая ткань плечо сумка большая женская многоцветная",
+        "articleNumber": "MU-1081",
+        "level1CategoryId": 48,
+        "skuId": 8901984338533789,
+        "imageCutSize": 16,
+        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/cut-img/20250818/8740629c61984a498fb69a61c5ec8c41.jpg",
+        "url": "/product/muva-polyester-shoulder-bag-large-women-s-multicolor-8900163723023789",
+        "displayRecommendLabels": [
+          {
+            "labelSource": 3,
+            "labelIcons": [
+              "https://cdn-img.thepoizon.ru/pro-img/cut-img/20250818/ee05d39b364244fa9d944ffb0b8bba01.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/cut-img/20250818/70a60aff3453417e88f2c59a680a84d7.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/cut-img/20250818/8740629c61984a498fb69a61c5ec8c41.jpg"
+            ],
+            "hasMore": false
+          },
+          {
+            "labelSource": 2,
+            "labelId": 83378,
+            "labelText": "Большой размер"
+          }
+        ],
+        "contentCategory": 305,
+        "tradingRoles": [
+          0,
+          1
+        ],
+        "trackingInfo": "{\"spuCardTags\":[\"high_correlation\"]}",
+        "brandId": 1010867,
+        "spuId": 8900163723023789,
+        "level2CategoryId": 49,
+        "sellDate": 1746028800000,
+        "labelModel": {
+          "id": 90,
+          "labelName": "MADE IN CHINA"
+        },
+        "region": "BBMAX",
+        "globalSpuId": 14005053789,
+        "algoAcmItem": {
+          "requestId": "347412b98c118302",
+          "acm": "1.srh.spuid_8900163723023789.0.游客组.sc_bbmax|trans|product-st_0-os_android-reg_BBMAX-lan_en-cn_0-rid_347412b98c118302-lev_unknown-acn_0,2,4-osc_bbmax|trans|product-ts_1789309847136"
+        },
+        "categoryId": 305,
+        "status": 1
+      },
+      {
+        "saleTag": "Продано 22",
+        "googleProductCategory": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
+        "minSpuPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "6 692 ₽",
+          "money": {
+            "amount": "6692.00",
+            "minUnitVal": 669200,
+            "currency": "RUB"
+          },
+          "amountText": "6 692",
+          "sign": "+",
+          "absText": "6 692"
+        },
+        "rankingTags": [],
+        "language": "bbmax",
+        "favoriteStatus": 0,
+        "title": "MUVA Полиэфирное волокно Сумка на плечо Обычный (стандартный) Женские Многоцветный",
+        "articleNumber": "MU-706-1",
+        "level1CategoryId": 48,
+        "skuId": 8903988876489434,
+        "imageCutSize": 16,
+        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260511/b8759c9e758d4214b4b6f14de3ed3785.jpg",
+        "url": "/product/muva-polyester-shoulder-bag-regular-women-s-multicolor-8900304868679434",
+        "displayRecommendLabels": [
+          {
+            "labelSource": 3,
+            "labelIcons": [
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260511/6e68bf5183f144b5babc9c62b868807d.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260511/b8759c9e758d4214b4b6f14de3ed3785.jpg"
+            ],
+            "hasMore": false
+          }
+        ],
+        "contentCategory": 305,
+        "tradingRoles": [
+          0,
+          1
+        ],
+        "trackingInfo": "{\"spuCardTags\":[\"high_correlation\"]}",
+        "brandId": 1010867,
+        "spuId": 8900304868679434,
+        "level2CategoryId": 49,
+        "sellDate": 1769875200000,
+        "labelModel": {
+          "id": 90,
+          "labelName": "MADE IN CHINA"
+        },
+        "region": "BBMAX",
+        "globalSpuId": 140239880779434,
+        "algoAcmItem": {
+          "requestId": "347412b98c118302",
+          "acm": "1.srh.spuid_8900304868679434.0.游客组.sc_bbmax|trans|product-st_0-os_android-reg_BBMAX-lan_en-cn_0-rid_347412b98c118302-lev_unknown-acn_0,4-osc_bbmax|trans|product-ts_1789309847136"
+        },
+        "categoryId": 305,
+        "status": 1
+      },
+      {
+        "saleTag": "Продано 11",
+        "googleProductCategory": "Luggage & Bags > Messenger Bags",
+        "minSpuPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "6 296 ₽",
+          "money": {
+            "amount": "6296.00",
+            "minUnitVal": 629600,
+            "currency": "RUB"
+          },
+          "amountText": "6 296",
+          "sign": "+",
+          "absText": "6 296"
+        },
+        "rankingTags": [],
+        "language": "bbmax",
+        "favoriteStatus": 0,
+        "title": "MUVA Сумки через плечо из натуральной коровьей кожи женские многоцветные",
+        "articleNumber": "MU-1100-1",
+        "level1CategoryId": 48,
+        "skuId": 8903988174855673,
+        "imageCutSize": 16,
+        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260511/0ad09e4c729146789b4fc951fdc45593.jpg",
+        "url": "/product/muva-top-grain-cow-leather-crossbody-bags-women-s-multicolor-8900304834595673",
+        "displayRecommendLabels": [
+          {
+            "labelSource": 3,
+            "labelIcons": [
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260511/0ad09e4c729146789b4fc951fdc45593.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260522/ccc2784a56eb4c65a16e56d3a4313a9d.jpg"
+            ],
+            "hasMore": false
+          }
+        ],
+        "contentCategory": 51,
+        "tradingRoles": [
+          0,
+          1
+        ],
+        "trackingInfo": "{\"spuCardTags\":[\"high_correlation\"]}",
+        "brandId": 1010867,
+        "spuId": 8900304834595673,
+        "level2CategoryId": 49,
+        "sellDate": 1769875200000,
+        "labelModel": {
+          "id": 90,
+          "labelName": "MADE IN CHINA"
+        },
+        "region": "BBMAX",
+        "globalSpuId": 140239854135673,
+        "algoAcmItem": {
+          "requestId": "347412b98c118302",
+          "acm": "1.srh.spuid_8900304834595673.0.游客组.sc_bbmax|trans|product-st_0-os_android-reg_BBMAX-lan_en-cn_0-rid_347412b98c118302-lev_unknown-acn_0,4-osc_bbmax|trans|product-ts_1789309847136"
+        },
+        "categoryId": 51,
+        "status": 1
+      },
+      {
+        "saleTag": "",
+        "googleProductCategory": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
+        "minSpuPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "8 124 ₽",
+          "money": {
+            "amount": "8124.00",
+            "minUnitVal": 812400,
+            "currency": "RUB"
+          },
+          "amountText": "8 124",
+          "sign": "+",
+          "absText": "8 124"
+        },
+        "rankingTags": [],
+        "language": "bbmax",
+        "favoriteStatus": 0,
+        "title": "MUVA Сумки через плечо Женские",
+        "articleNumber": "MU-1567",
+        "level1CategoryId": 48,
+        "skuId": 8904574691736941,
+        "imageCutSize": 16,
+        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260804/35906384ff8945d4b24d4c5516f27665.jpg",
+        "url": "/product/muva-shoulder-bags-8900343077806941",
+        "displayRecommendLabels": [
+          {
+            "labelSource": 3,
+            "labelIcons": [
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260804/35906384ff8945d4b24d4c5516f27665.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260804/a31ad604a83b40e8ba7241b73528f4fe.jpg"
+            ],
+            "hasMore": false
+          }
+        ],
+        "contentCategory": 305,
+        "tradingRoles": [
+          0,
+          1
+        ],
+        "trackingInfo": "{\"spuCardTags\":[\"high_correlation\"]}",
+        "brandId": 1010867,
+        "spuId": 8900343077806941,
+        "level2CategoryId": 49,
+        "sellDate": 1777564800000,
+        "labelModel": {
+          "id": 90,
+          "labelName": "MADE IN CHINA"
+        },
+        "region": "BBMAX",
+        "globalSpuId": 140312200236941,
+        "algoAcmItem": {
+          "requestId": "347412b98c118302",
+          "acm": "1.srh.spuid_8900343077806941.0.游客组.sc_bbmax|trans|product-st_0-os_android-reg_BBMAX-lan_en-cn_0-rid_347412b98c118302-lev_unknown-acn_0,4-osc_bbmax|trans|product-ts_1789309847136"
+        },
+        "categoryId": 305,
+        "status": 1
+      },
+      {
+        "saleTag": "",
+        "googleProductCategory": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
+        "minSpuPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "6 382 ₽",
+          "money": {
+            "amount": "6382.00",
+            "minUnitVal": 638200,
+            "currency": "RUB"
+          },
+          "amountText": "6 382",
+          "sign": "+",
+          "absText": "6 382"
+        },
+        "rankingTags": [],
+        "language": "bbmax",
+        "favoriteStatus": 0,
+        "title": "MUVA Сумки Женские",
+        "articleNumber": "MU-719-1",
+        "level1CategoryId": 48,
+        "skuId": 8904570656948442,
+        "imageCutSize": 16,
+        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260803/efbe1e53182847e8bf8f0a93cb44817e.jpg",
+        "url": "/product/muva-handbags-8900342795108442",
+        "displayRecommendLabels": [
+          {
+            "labelSource": 3,
+            "labelIcons": [
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260803/67a29787ecd34ba3924908e56d8cdc4e.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260803/70daa6f440154221bf08e7ac5064cec8.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260803/efbe1e53182847e8bf8f0a93cb44817e.jpg"
+            ],
+            "hasMore": false
+          },
+          {
+            "labelSource": 2,
+            "labelId": 83378,
+            "labelText": "Маленький размер"
+          }
+        ],
+        "contentCategory": 52,
+        "tradingRoles": [
+          0,
+          1
+        ],
+        "trackingInfo": "{\"spuCardTags\":[\"high_correlation\"]}",
+        "brandId": 1010867,
+        "spuId": 8900342795108442,
+        "level2CategoryId": 49,
+        "sellDate": 1760457600000,
+        "labelModel": {
+          "id": 90,
+          "labelName": "MADE IN CHINA"
+        },
+        "region": "BBMAX",
+        "globalSpuId": 140311705508442,
+        "algoAcmItem": {
+          "requestId": "347412b98c118302",
+          "acm": "1.srh.spuid_8900342795108442.0.游客组.sc_bbmax|trans|product-st_0-os_android-reg_BBMAX-lan_en-cn_0-rid_347412b98c118302-lev_unknown-acn_0,4-osc_bbmax|trans|product-ts_1789309847136"
+        },
+        "categoryId": 52,
+        "status": 1
+      },
+      {
+        "saleTag": "",
+        "googleProductCategory": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
+        "minSpuPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "8 407 ₽",
+          "money": {
+            "amount": "8407.00",
+            "minUnitVal": 840700,
+            "currency": "RUB"
+          },
+          "amountText": "8 407",
+          "sign": "+",
+          "absText": "8 407"
+        },
+        "rankingTags": [],
+        "language": "bbmax",
+        "favoriteStatus": 0,
+        "title": "MUVA Сумки Пюре из таро Kelorie Женские",
+        "articleNumber": "MU-1540-6",
+        "level1CategoryId": 48,
+        "skuId": 8904661831805822,
+        "imageCutSize": 16,
+        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260819/0b9284e525444d198e1c83a1263e9e00.jpg",
+        "url": "/product/muva-handbags-taro-paste-kelorie-8900348735585822",
+        "displayRecommendLabels": [
+          {
+            "labelSource": 2,
+            "labelId": 83378,
+            "labelText": "Маленький размер"
+          }
+        ],
+        "contentCategory": 52,
+        "tradingRoles": [
+          0,
+          1
+        ],
+        "trackingInfo": "{\"spuCardTags\":[\"high_correlation\"]}",
+        "brandId": 1010867,
+        "spuId": 8900348735585822,
+        "level2CategoryId": 49,
+        "sellDate": 1777564800000,
+        "labelModel": {
+          "id": 90,
+          "labelName": "MADE IN CHINA"
+        },
+        "region": "BBMAX",
+        "globalSpuId": 140321598575822,
+        "algoAcmItem": {
+          "requestId": "347412b98c118302",
+          "acm": "1.srh.spuid_8900348735585822.0.游客组.sc_bbmax|trans|product-st_0-os_android-reg_BBMAX-lan_en-cn_0-rid_347412b98c118302-lev_unknown-acn_0,4-osc_bbmax|trans|product-ts_1789309847136"
+        },
+        "categoryId": 52,
+        "status": 1
+      },
+      {
+        "saleTag": "Продано 199",
+        "googleProductCategory": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
+        "minSpuPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "5 759 ₽",
+          "money": {
+            "amount": "5759.00",
+            "minUnitVal": 575900,
+            "currency": "RUB"
+          },
+          "amountText": "5 759",
+          "sign": "+",
+          "absText": "5 759"
+        },
+        "rankingTags": [],
+        "language": "bbmax",
+        "favoriteStatus": 0,
+        "title": "MUVA Полиэстер Хлопок Конфетный Флок Сумка Стандартная (Стандартная) Женская Латте Коричневый Кофейный Коричневый",
+        "articleNumber": "MU-592",
+        "level1CategoryId": 48,
+        "skuId": 8900867303365803,
+        "imageCutSize": 16,
+        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20241105/6cfc0538670549ff8559d322ba9d87b4.jpg",
+        "url": "/product/muva-polyester-cotton-candy-fuzzy-handbag-regular-women-s-latte-brown-coffee-brown-8900087502825803",
+        "displayRecommendLabels": [
+          {
+            "labelSource": 3,
+            "labelIcons": [
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20241105/31f55877af4249f8af80c4f3a8c9b8dd.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20241105/6cfc0538670549ff8559d322ba9d87b4.jpg"
+            ],
+            "hasMore": false
+          }
+        ],
+        "contentCategory": 52,
+        "tradingRoles": [
+          0,
+          1
+        ],
+        "trackingInfo": "{\"spuCardTags\":[\"high_correlation\"]}",
+        "brandId": 1010867,
+        "spuId": 8900087502825803,
+        "level2CategoryId": 49,
+        "sellDate": 1723651200000,
+        "labelModel": {
+          "id": 90,
+          "labelName": "MADE IN CHINA"
+        },
+        "region": "BBMAX",
+        "globalSpuId": 12008195803,
+        "algoAcmItem": {
+          "requestId": "347412b98c118302",
+          "acm": "1.srh.spuid_8900087502825803.0.游客组.sc_bbmax|trans|product-st_0-os_android-reg_BBMAX-lan_en-cn_0-rid_347412b98c118302-lev_unknown-acn_0,2,4-osc_bbmax|trans|product-ts_1789309847136"
+        },
+        "categoryId": 52,
+        "status": 1
+      },
+      {
+        "saleTag": "",
+        "googleProductCategory": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
+        "minSpuPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "8 586 ₽",
+          "money": {
+            "amount": "8586.00",
+            "minUnitVal": 858600,
+            "currency": "RUB"
+          },
+          "amountText": "8 586",
+          "sign": "+",
+          "absText": "8 586"
+        },
+        "rankingTags": [],
+        "language": "bbmax",
+        "favoriteStatus": 0,
+        "title": "MUVA Сумки Женские",
+        "articleNumber": "MU-1540-5",
+        "level1CategoryId": 48,
+        "skuId": 8904661892232827,
+        "imageCutSize": 16,
+        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260819/f4b4fc8b0ce54b30ba455ed2bb42440f.jpg",
+        "url": "/product/muva-handbags-8900348739852827",
+        "displayRecommendLabels": [
+          {
+            "labelSource": 3,
+            "labelIcons": [
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260819/3bd6e1b67d5f4a5ab2f59624be9c7780.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260819/f4b4fc8b0ce54b30ba455ed2bb42440f.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260821/a0294efd5b7244b7b03cb3f2507417ea.jpg"
+            ],
+            "hasMore": true
+          },
+          {
+            "labelSource": 2,
+            "labelId": 83378,
+            "labelText": "Маленький размер"
+          }
+        ],
+        "contentCategory": 52,
+        "tradingRoles": [
+          0,
+          1
+        ],
+        "trackingInfo": "{\"spuCardTags\":[\"high_correlation\"]}",
+        "brandId": 1010867,
+        "spuId": 8900348739852827,
+        "level2CategoryId": 49,
+        "sellDate": 1777564800000,
+        "labelModel": {
+          "id": 90,
+          "labelName": "MADE IN CHINA"
+        },
+        "region": "BBMAX",
+        "globalSpuId": 140321625972827,
+        "algoAcmItem": {
+          "requestId": "347412b98c118302",
+          "acm": "1.srh.spuid_8900348739852827.0.游客组.sc_bbmax|trans|product-st_0-os_android-reg_BBMAX-lan_en-cn_0-rid_347412b98c118302-lev_unknown-acn_0,4-osc_bbmax|trans|product-ts_1789309847136"
+        },
+        "categoryId": 52,
+        "status": 1
+      },
+      {
+        "saleTag": "Продано 2,7 тыс.",
+        "googleProductCategory": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
+        "minSpuPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "6 014 ₽",
+          "money": {
+            "amount": "6014.00",
+            "minUnitVal": 601400,
+            "currency": "RUB"
+          },
+          "amountText": "6 014",
+          "sign": "+",
+          "absText": "6 014"
+        },
+        "rankingTags": [],
+        "language": "bbmax",
+        "favoriteStatus": 0,
+        "title": "MUVA Бостон Сумка Коровья Кожа Осенний Зимний Мода Универсальная Натуральная Кожа Плечевая Сумка Маленькая Женская",
+        "articleNumber": "MU-335",
+        "level1CategoryId": 48,
+        "skuId": 8900694407886693,
+        "imageCutSize": 16,
+        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20240424/a969656ff4a5424eb00fd453c97c4582.jpg",
+        "url": "/product/muva-cow-leather-fall-winter-fashion-versatile-genuine-leather-crossbody-handbag-small-women-s-8900071628026693",
+        "displayRecommendLabels": [
+          {
+            "labelSource": 3,
+            "labelIcons": [
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20240424/a969656ff4a5424eb00fd453c97c4582.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20240424/bb5ae5ca1c724605b4f3c6df48b6a9df.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20240424/e649b843e4c64c848e648bbedc6f5f17.jpg"
+            ],
+            "hasMore": true
+          },
+          {
+            "labelSource": 2,
+            "labelId": 83378,
+            "labelText": "Маленький размер"
+          }
+        ],
+        "contentCategory": 52,
+        "tradingRoles": [
+          0,
+          1
+        ],
+        "trackingInfo": "{\"spuCardTags\":[\"high_correlation\"]}",
+        "brandId": 1010867,
+        "spuId": 8900071628026693,
+        "level2CategoryId": 49,
+        "sellDate": 1723651200000,
+        "labelModel": {
+          "id": 90,
+          "labelName": "MADE IN CHINA"
+        },
+        "region": "BBMAX",
+        "globalSpuId": 12000486693,
+        "algoAcmItem": {
+          "requestId": "347412b98c118302",
+          "acm": "1.srh.spuid_8900071628026693.0.游客组.sc_bbmax|trans|product-st_0-os_android-reg_BBMAX-lan_en-cn_0-rid_347412b98c118302-lev_unknown-acn_0,2,4-osc_bbmax|trans|product-ts_1789309847136"
+        },
+        "categoryId": 52,
+        "status": 1
+      },
+      {
+        "saleTag": "Продано 21",
+        "googleProductCategory": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
+        "minSpuPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "6 090 ₽",
+          "money": {
+            "amount": "6090.00",
+            "minUnitVal": 609000,
+            "currency": "RUB"
+          },
+          "amountText": "6 090",
+          "sign": "+",
+          "absText": "6 090"
+        },
+        "rankingTags": [],
+        "language": "bbmax",
+        "favoriteStatus": 0,
+        "title": "MUVA Полиэстеровая ткань Сумка через плечо Женская Многоцветная",
+        "articleNumber": "MU-1081-1",
+        "level1CategoryId": 48,
+        "skuId": 8902922875320044,
+        "imageCutSize": 16,
+        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260306/0ecd8da5fb4b4d6aaff04c8c638902bd.jpg",
+        "url": "/product/muva-polyester-shoulder-bag-regular-women-s-multicolor-8900225897780044",
+        "displayRecommendLabels": [
+          {
+            "labelSource": 3,
+            "labelIcons": [
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260306/4a94f1246c0d4df98802d1d94ccb091e.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260306/79174b9b65774a89aa2effd4403ab73e.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20260306/0ecd8da5fb4b4d6aaff04c8c638902bd.jpg"
+            ],
+            "hasMore": false
+          }
+        ],
+        "contentCategory": 305,
+        "tradingRoles": [
+          0,
+          1
+        ],
+        "trackingInfo": "{\"spuCardTags\":[\"high_correlation\"]}",
+        "brandId": 1010867,
+        "spuId": 8900225897780044,
+        "level2CategoryId": 49,
+        "sellDate": 1755187200000,
+        "labelModel": {
+          "id": 90,
+          "labelName": "MADE IN CHINA"
+        },
+        "region": "BBMAX",
+        "globalSpuId": 14013350044,
+        "algoAcmItem": {
+          "requestId": "347412b98c118302",
+          "acm": "1.srh.spuid_8900225897780044.0.游客组.sc_bbmax|trans|product-st_0-os_android-reg_BBMAX-lan_en-cn_0-rid_347412b98c118302-lev_unknown-acn_0,4-osc_bbmax|trans|product-ts_1789309847136"
+        },
+        "categoryId": 305,
+        "status": 1
+      },
+      {
+        "saleTag": "Продано 826",
+        "googleProductCategory": "Apparel & Accessories > Handbags, Wallets & Cases > Handbags",
+        "minSpuPrice": {
+          "symbol": "₽",
+          "localizedDisplayText": "6 221 ₽",
+          "money": {
+            "amount": "6221.00",
+            "minUnitVal": 622100,
+            "currency": "RUB"
+          },
+          "amountText": "6 221",
+          "sign": "+",
+          "absText": "6 221"
+        },
+        "rankingTags": [],
+        "language": "bbmax",
+        "favoriteStatus": 0,
+        "title": "MUVA Сумка через плечо из коровьей кожи маленькая женская сумка",
+        "articleNumber": "MU-40B",
+        "level1CategoryId": 48,
+        "skuId": 8900718004688786,
+        "imageCutSize": 16,
+        "logoUrl": "https://cdn-img.thepoizon.ru/pro-img/origin-img/20231222/2b13be0b89e643d7b48fbbd174597713.jpg",
+        "url": "/product/muva-cow-leather-shoulder-bag-handbag-small-women-s-8900074140068786",
+        "displayRecommendLabels": [
+          {
+            "labelSource": 3,
+            "labelIcons": [
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20231222/c20fbd4835114b828cd953ce18f56d12.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20231222/85891caafc7b49ec97fffbd74fb1e46c.jpg",
+              "https://cdn-img.thepoizon.ru/pro-img/origin-img/20231222/a1548955bd6848c0b17f76781f75b075.jpg"
+            ],
+            "hasMore": true
+          },
+          {
+            "labelSource": 2,
+            "labelId": 83378,
+            "labelText": "Маленький размер"
+          }
+        ],
+        "contentCategory": 52,
+        "tradingRoles": [
+          0,
+          1
+        ],
+        "trackingInfo": "{\"spuCardTags\":[\"high_correlation\"]}",
+        "brandId": 1010867,
+        "spuId": 8900074140068786,
+        "level2CategoryId": 49,
+        "sellDate": 1718380800000,
+        "labelModel": {
+          "id": 90,
+          "labelName": "MADE IN CHINA"
+        },
+        "region": "BBMAX",
+        "globalSpuId": 12000558786,
+        "algoAcmItem": {
+          "requestId": "347412b98c118302",
+          "acm": "1.srh.spuid_8900074140068786.0.游客组.sc_bbmax|trans|product-st_0-os_android-reg_BBMAX-lan_en-cn_0-rid_347412b98c118302-lev_unknown-acn_0,2,4-osc_bbmax|trans|product-ts_1789309847136"
+        },
+        "categoryId": 52,
+        "status": 1
+      }
+    ],
+    "algoAcmDto": {
+      "deyiInfo": "{\"queryWord\":\"muva\",\"prepWord\":\"muva\",\"deyiWord\":\"muva\",\"language\":\"en\",\"isTruncated\":false,\"translator\":\"cache\"}",
+      "requestId": "347412b98c118302"
+    },
+    "enableSimilarRecommend": false,
+    "noResultsTips": "Ничего не найдено. Посмотрите товары, которые могут вам понравиться.",
+    "notFirstSearchNoResult": "Ни результата не найдено. Посмотрите другие варианты!",
+    "needSmartMenu": false,
+    "fallBackSpuListTitle": "РЕКОМЕНДУЕМЫЕ",
+    "showFavoriteSwitch": true
+  },
+  "searchAcmResp": "{\"searchExperienceOptimizeExpValue\":\"0\"}",
+  "aggTotal": 196,
+  "aggTotalText": "196",
+  "facetList": [
+    {
+      "module": "category",
+      "name": "Категория",
+      "defaultShow": true,
+      "items": [],
+      "nested": true,
+      "nestedFacets": [
+        {
+          "module": "l3_category_group_by_l1_500000178",
+          "name": "Сумки",
+          "defaultShow": true,
+          "type": 2,
+          "value": "500000178",
+          "items": [
+            {
+              "name": "Все",
+              "count": 0,
+              "btnType": 2,
+              "value": "500000178"
+            },
+            {
+              "name": "Ручные сумки",
+              "count": 73,
+              "btnType": 1,
+              "value": "500000318"
+            },
+            {
+              "name": "Сумки через плечо",
+              "count": 83,
+              "btnType": 1,
+              "value": "500000316"
+            },
+            {
+              "name": "Сумки кросс-боди",
+              "count": 21,
+              "btnType": 1,
+              "value": "500000320"
+            },
+            {
+              "name": "Другие сумки",
+              "count": 6,
+              "btnType": 1,
+              "value": "500000331"
+            },
+            {
+              "name": "Рюкзаки",
+              "count": 6,
+              "btnType": 1,
+              "value": "500000322"
+            }
+          ],
+          "nested": false,
+          "key": "frontCategoryIds",
+          "unfold": true
+        }
+      ],
+      "key": "frontCategoryIds",
+      "unfold": true
+    },
+    {
+      "module": "price_range",
+      "name": "Цена",
+      "defaultShow": true,
+      "type": 1,
+      "items": [
+        {
+          "name": "Низкая, ₽",
+          "count": 0,
+          "btnType": 1,
+          "value": ""
+        },
+        {
+          "name": "Высокая, ₽",
+          "count": 0,
+          "btnType": 1,
+          "value": ""
+        }
+      ],
+      "nested": false,
+      "key": "priceRange",
+      "unfold": true
+    },
+    {
+      "module": "closureType",
+      "name": "Вид застёжки",
+      "defaultShow": true,
+      "type": 2,
+      "items": [
+        {
+          "name": "Шнурок",
+          "count": 8,
+          "btnType": 1,
+          "value": "Drawstring"
+        },
+        {
+          "name": "Магнитная застежка",
+          "count": 146,
+          "btnType": 1,
+          "value": "Magnetic Closure"
+        },
+        {
+          "name": "Открытый крой",
+          "count": 12,
+          "btnType": 1,
+          "value": "Open Top"
+        },
+        {
+          "name": "Застежка-молния",
+          "count": 142,
+          "btnType": 1,
+          "value": "Zip Closure"
+        }
+      ],
+      "nested": false,
+      "key": "closureType",
+      "unfold": true
+    },
+    {
+      "module": "positioningStyle",
+      "name": "Модный стиль",
+      "defaultShow": true,
+      "type": 2,
+      "items": [
+        {
+          "name": "Японский и корейский стиль",
+          "count": 2,
+          "btnType": 1,
+          "value": "Japanese and Korean Style"
+        },
+        {
+          "name": "Уличный стиль",
+          "count": 2,
+          "btnType": 1,
+          "value": "Street Style"
+        },
+        {
+          "name": "Милый и Женственный",
+          "count": 2,
+          "btnType": 1,
+          "value": "Sweet and Ladylike"
+        },
+        {
+          "name": "Западный стиль",
+          "count": 2,
+          "btnType": 1,
+          "value": "Western"
+        }
+      ],
+      "nested": false,
+      "key": "positioningStyle",
+      "unfold": true
+    },
+    {
+      "module": "pt_nvs_Scenario",
+      "name": "Сценарий",
+      "defaultShow": true,
+      "type": 2,
+      "items": [
+        {
+          "name": "Путешествие",
+          "count": 148,
+          "btnType": 1,
+          "value": "Travel"
+        },
+        {
+          "name": "Коммутирование",
+          "count": 106,
+          "btnType": 1,
+          "value": "Commute"
+        },
+        {
+          "name": "Кампус",
+          "count": 26,
+          "btnType": 1,
+          "value": "Campus"
+        },
+        {
+          "name": "Бизнес-путешествие",
+          "count": 20,
+          "btnType": 1,
+          "value": "Business Trip"
+        },
+        {
+          "name": "Повседневный",
+          "count": 8,
+          "btnType": 1,
+          "value": "Casual"
+        }
+      ],
+      "nested": false,
+      "key": "pt_nvs_Scenario",
+      "unfold": true
+    },
+    {
+      "module": "pt_nvs_Structure",
+      "name": "Структура",
+      "defaultShow": true,
+      "type": 2,
+      "items": [
+        {
+          "name": "1 Накладной карман 1 Внутренний карман на молнии",
+          "count": 4,
+          "btnType": 1,
+          "value": "1 Patch Pocket 1 Interior Zip Pocket"
+        },
+        {
+          "name": "1 накладной карман + 1 внутренний карман на молнии",
+          "count": 2,
+          "btnType": 1,
+          "value": "1 Patch Pocket+1 Interior Zip Pocket"
+        },
+        {
+          "name": "Кольцо для ключей \"Слон\", с декоративным элементом, пришитым к украшению, металлическая пряжка и колоколик на одном конце кольца для ключей",
+          "count": 2,
+          "btnType": 1,
+          "value": "Key Ring Elephant Styling Charm, with Sewn Decoration on Charm, Featuring A Metal Buckle and Bell at One End of The Key Ring"
+        },
+        {
+          "name": "Карман на молнии",
+          "count": 2,
+          "btnType": 1,
+          "value": "Zip Pocket"
+        }
+      ],
+      "nested": false,
+      "key": "pt_nvs_Structure",
+      "unfold": true
+    },
+    {
+      "module": "pt_nvs_Texture",
+      "name": "Текстура",
+      "defaultShow": true,
+      "type": 2,
+      "items": [
+        {
+          "name": "Коровья кожа",
+          "count": 244,
+          "btnType": 1,
+          "value": "Cow Leather"
+        },
+        {
+          "name": "Полиэстеровое волокно",
+          "count": 86,
+          "btnType": 1,
+          "value": "Polyester"
+        },
+        {
+          "name": "Остальные",
+          "count": 12,
+          "btnType": 1,
+          "value": "Other"
+        },
+        {
+          "name": "Хлопок, волокно",
+          "count": 10,
+          "btnType": 1,
+          "value": "Cotton"
+        },
+        {
+          "name": "Коровья кожа",
+          "count": 8,
+          "btnType": 1,
+          "value": "Cow Leather/Cow Leather"
+        },
+        {
+          "name": "Джинсовый",
+          "count": 8,
+          "btnType": 1,
+          "value": "Denim"
+        },
+        {
+          "name": "ПУ (полиуретан)",
+          "count": 6,
+          "btnType": 1,
+          "value": "Pu"
+        }
+      ],
+      "nested": false,
+      "key": "pt_nvs_Texture",
+      "unfold": true
+    },
+    {
+      "module": "pt_nvs_Style",
+      "name": "Стиль",
+      "defaultShow": true,
+      "type": 2,
+      "items": [
+        {
+          "name": "Японский и корейский стиль",
+          "count": 2,
+          "btnType": 1,
+          "value": "Japanese and Korean Style"
+        },
+        {
+          "name": "Уличный стиль",
+          "count": 2,
+          "btnType": 1,
+          "value": "Street Style"
+        },
+        {
+          "name": "Милый и Женственный",
+          "count": 2,
+          "btnType": 1,
+          "value": "Sweet and Ladylike"
+        },
+        {
+          "name": "Западный стиль",
+          "count": 2,
+          "btnType": 1,
+          "value": "Western"
+        }
+      ],
+      "nested": false,
+      "key": "pt_nvs_Style",
+      "unfold": true
+    },
+    {
+      "module": "pt_nvs_Popular Element",
+      "name": "Популярный элемент",
+      "defaultShow": true,
+      "type": 2,
+      "items": [
+        {
+          "name": "Однотонный",
+          "count": 126,
+          "btnType": 1,
+          "value": "Solid Color"
+        },
+        {
+          "name": "Пэчворк",
+          "count": 20,
+          "btnType": 1,
+          "value": "Patchwork"
+        },
+        {
+          "name": "Цветовой блок",
+          "count": 16,
+          "btnType": 1,
+          "value": "Color Block"
+        },
+        {
+          "name": "Плетеный",
+          "count": 8,
+          "btnType": 1,
+          "value": "Woven"
+        },
+        {
+          "name": "Шов",
+          "count": 6,
+          "btnType": 1,
+          "value": "Stitching"
+        }
+      ],
+      "nested": false,
+      "key": "pt_nvs_Popular Element",
+      "unfold": true
+    },
+    {
+      "module": "pt_nvs_Closure Type",
+      "name": "Тип застежки",
+      "defaultShow": true,
+      "type": 2,
+      "items": [
+        {
+          "name": "Магнитная застежка",
+          "count": 146,
+          "btnType": 1,
+          "value": "Magnetic Closure"
+        },
+        {
+          "name": "Застежка-молния",
+          "count": 142,
+          "btnType": 1,
+          "value": "Zip Closure"
+        },
+        {
+          "name": "Открытый крой",
+          "count": 12,
+          "btnType": 1,
+          "value": "Open Top"
+        },
+        {
+          "name": "Шнурок",
+          "count": 8,
+          "btnType": 1,
+          "value": "Drawstring"
+        }
+      ],
+      "nested": false,
+      "key": "pt_nvs_Closure Type",
+      "unfold": true
+    },
+    {
+      "module": "pt_nvs_Strap Style",
+      "name": "Тип ремешка",
+      "defaultShow": true,
+      "type": 2,
+      "items": [
+        {
+          "name": "Не регулируемый и не съемный ремень",
+          "count": 44,
+          "btnType": 1,
+          "value": "Non-Adjustable and Non-Detachable Strap"
+        },
+        {
+          "name": "Регулируемый, съемный ремешок",
+          "count": 36,
+          "btnType": 1,
+          "value": "Adjustable Detachable Strap"
+        },
+        {
+          "name": "Один",
+          "count": 22,
+          "btnType": 1,
+          "value": "Single"
+        },
+        {
+          "name": "Регулируемый ремень",
+          "count": 18,
+          "btnType": 1,
+          "value": "Adjustable Strap"
+        },
+        {
+          "name": "Съемный ремешок",
+          "count": 18,
+          "btnType": 1,
+          "value": "Detachable Strap"
+        },
+        {
+          "name": "Регулируемый и не съемный ремешок",
+          "count": 14,
+          "btnType": 1,
+          "value": "Adjustable and Non-Detachable Strap"
+        },
+        {
+          "name": "Нерегулируемая, но съемная лямка",
+          "count": 6,
+          "btnType": 1,
+          "value": "Non-Adjustable Strap, Detachable"
+        }
+      ],
+      "nested": false,
+      "key": "pt_nvs_Strap Style",
+      "unfold": true
+    },
+    {
+      "module": "pt_nvs_Lining Material",
+      "name": "Материал подкладки",
+      "defaultShow": true,
+      "type": 2,
+      "items": [
+        {
+          "name": "Ткань",
+          "count": 14,
+          "btnType": 1,
+          "value": "Fabric"
+        },
+        {
+          "name": "Остальные",
+          "count": 14,
+          "btnType": 1,
+          "value": "Other"
+        },
+        {
+          "name": "Полиэстеровое волокно",
+          "count": 12,
+          "btnType": 1,
+          "value": "Polyester"
+        },
+        {
+          "name": "Искусственная кожа",
+          "count": 10,
+          "btnType": 1,
+          "value": "Synthetic Leather"
+        },
+        {
+          "name": "Хлопок, волокно",
+          "count": 6,
+          "btnType": 1,
+          "value": "Cotton"
+        }
+      ],
+      "nested": false,
+      "key": "pt_nvs_Lining Material",
+      "unfold": true
+    },
+    {
+      "module": "pt_nvs_Type",
+      "name": "Тип",
+      "defaultShow": true,
+      "type": 2,
+      "items": [
+        {
+          "name": "Остальные",
+          "count": 224,
+          "btnType": 1,
+          "value": "Other"
+        },
+        {
+          "name": "Сумки через плечо",
+          "count": 34,
+          "btnType": 1,
+          "value": "Shoulder Bag"
+        },
+        {
+          "name": "Тоут",
+          "count": 32,
+          "btnType": 1,
+          "value": "Tote"
+        },
+        {
+          "name": "Бостон Сумка",
+          "count": 14,
+          "btnType": 1,
+          "value": "Boston Bag"
+        },
+        {
+          "name": "Сумка для боулинга",
+          "count": 10,
+          "btnType": 1,
+          "value": "Bowling Bag"
+        },
+        {
+          "name": "Сумка-ведро",
+          "count": 10,
+          "btnType": 1,
+          "value": "Bucket Bag"
+        },
+        {
+          "name": "Багетная сумка",
+          "count": 6,
+          "btnType": 1,
+          "value": "Baguette Bag"
+        },
+        {
+          "name": "Сумка-полумесяц",
+          "count": 6,
+          "btnType": 1,
+          "value": "Crescent Bag"
+        }
+      ],
+      "nested": false,
+      "key": "pt_nvs_Type",
+      "unfold": true
+    },
+    {
+      "module": "pt_nvs_Interior Structure",
+      "name": "Внутренняя конструкция",
+      "defaultShow": true,
+      "type": 2,
+      "items": [
+        {
+          "name": "Карман на молнии",
+          "count": 98,
+          "btnType": 1,
+          "value": "Zip Pocket"
+        },
+        {
+          "name": "Остальные",
+          "count": 54,
+          "btnType": 1,
+          "value": "Other"
+        },
+        {
+          "name": "Внутренний карман",
+          "count": 32,
+          "btnType": 1,
+          "value": "Inside Slip Pocket"
+        },
+        {
+          "name": "Слот для карты",
+          "count": 10,
+          "btnType": 1,
+          "value": "Card Slot"
+        },
+        {
+          "name": "ID карман",
+          "count": 8,
+          "btnType": 1,
+          "value": "ID Pocket"
+        }
+      ],
+      "nested": false,
+      "key": "pt_nvs_Interior Structure",
+      "unfold": true
+    }
+  ],
+  "filterTagList": [],
+  "sortTabInfo": {
+    "tabSortMappings": [
+      {
+        "sortType": 0,
+        "tabText": "Рекомендуемые",
+        "sortModes": [
+          {
+            "sortMode": 1
+          }
+        ]
+      },
+      {
+        "sortType": 1,
+        "tabText": "Топ продаж",
+        "sortModes": [
+          {
+            "sortMode": 1
+          }
+        ]
+      },
+      {
+        "sortType": 4,
+        "tabText": "Цена",
+        "sortModes": [
+          {
+            "tabText": "По возрастанию",
+            "sortMode": 0
+          },
+          {
+            "tabText": "По убыванию",
+            "sortMode": 1
+          }
+        ]
+      },
+      {
+        "sortType": 3,
+        "tabText": "Новые",
+        "sortModes": [
+          {
+            "sortMode": 1
+          }
+        ]
+      }
+    ]
+  },
+  "facetPanel": [
+    {
+      "module": "category",
+      "name": "Категория",
+      "defaultShow": true,
+      "items": [],
+      "nested": true,
+      "nestedFacets": [
+        {
+          "module": "l3_category_group_by_l1_500000178",
+          "name": "Сумки",
+          "defaultShow": true,
+          "type": 2,
+          "value": "500000178",
+          "items": [
+            {
+              "name": "Все",
+              "count": 0,
+              "btnType": 2,
+              "value": "500000178"
+            },
+            {
+              "name": "Ручные сумки",
+              "count": 73,
+              "btnType": 1,
+              "value": "500000318"
+            },
+            {
+              "name": "Сумки через плечо",
+              "count": 83,
+              "btnType": 1,
+              "value": "500000316"
+            },
+            {
+              "name": "Сумки кросс-боди",
+              "count": 21,
+              "btnType": 1,
+              "value": "500000320"
+            },
+            {
+              "name": "Другие сумки",
+              "count": 6,
+              "btnType": 1,
+              "value": "500000331"
+            },
+            {
+              "name": "Рюкзаки",
+              "count": 6,
+              "btnType": 1,
+              "value": "500000322"
+            }
+          ],
+          "nested": false,
+          "key": "frontCategoryIds",
+          "unfold": true
+        }
+      ],
+      "key": "frontCategoryIds",
+      "unfold": true
+    },
+    {
+      "module": "price_range",
+      "name": "Цена",
+      "defaultShow": true,
+      "type": 1,
+      "items": [
+        {
+          "name": "Низкая, ₽",
+          "count": 0,
+          "btnType": 1,
+          "value": ""
+        },
+        {
+          "name": "Высокая, ₽",
+          "count": 0,
+          "btnType": 1,
+          "value": ""
+        }
+      ],
+      "nested": false,
+      "key": "priceRange",
+      "unfold": true
+    },
+    {
+      "module": "closureType",
+      "name": "Вид застёжки",
+      "defaultShow": true,
+      "type": 2,
+      "items": [
+        {
+          "name": "Шнурок",
+          "count": 8,
+          "btnType": 1,
+          "value": "Drawstring"
+        },
+        {
+          "name": "Магнитная застежка",
+          "count": 146,
+          "btnType": 1,
+          "value": "Magnetic Closure"
+        },
+        {
+          "name": "Открытый крой",
+          "count": 12,
+          "btnType": 1,
+          "value": "Open Top"
+        },
+        {
+          "name": "Застежка-молния",
+          "count": 142,
+          "btnType": 1,
+          "value": "Zip Closure"
+        }
+      ],
+      "nested": false,
+      "key": "closureType",
+      "unfold": true
+    },
+    {
+      "module": "positioningStyle",
+      "name": "Модный стиль",
+      "defaultShow": true,
+      "type": 2,
+      "items": [
+        {
+          "name": "Японский и корейский стиль",
+          "count": 2,
+          "btnType": 1,
+          "value": "Japanese and Korean Style"
+        },
+        {
+          "name": "Уличный стиль",
+          "count": 2,
+          "btnType": 1,
+          "value": "Street Style"
+        },
+        {
+          "name": "Милый и Женственный",
+          "count": 2,
+          "btnType": 1,
+          "value": "Sweet and Ladylike"
+        },
+        {
+          "name": "Западный стиль",
+          "count": 2,
+          "btnType": 1,
+          "value": "Western"
+        }
+      ],
+      "nested": false,
+      "key": "positioningStyle",
+      "unfold": true
+    },
+    {
+      "module": "pt_nvs_Scenario",
+      "name": "Сценарий",
+      "defaultShow": true,
+      "type": 2,
+      "items": [
+        {
+          "name": "Путешествие",
+          "count": 148,
+          "btnType": 1,
+          "value": "Travel"
+        },
+        {
+          "name": "Коммутирование",
+          "count": 106,
+          "btnType": 1,
+          "value": "Commute"
+        },
+        {
+          "name": "Кампус",
+          "count": 26,
+          "btnType": 1,
+          "value": "Campus"
+        },
+        {
+          "name": "Бизнес-путешествие",
+          "count": 20,
+          "btnType": 1,
+          "value": "Business Trip"
+        },
+        {
+          "name": "Повседневный",
+          "count": 8,
+          "btnType": 1,
+          "value": "Casual"
+        }
+      ],
+      "nested": false,
+      "key": "pt_nvs_Scenario",
+      "unfold": true
+    },
+    {
+      "module": "pt_nvs_Structure",
+      "name": "Структура",
+      "defaultShow": true,
+      "type": 2,
+      "items": [
+        {
+          "name": "1 Накладной карман 1 Внутренний карман на молнии",
+          "count": 4,
+          "btnType": 1,
+          "value": "1 Patch Pocket 1 Interior Zip Pocket"
+        },
+        {
+          "name": "1 накладной карман + 1 внутренний карман на молнии",
+          "count": 2,
+          "btnType": 1,
+          "value": "1 Patch Pocket+1 Interior Zip Pocket"
+        },
+        {
+          "name": "Кольцо для ключей \"Слон\", с декоративным элементом, пришитым к украшению, металлическая пряжка и колоколик на одном конце кольца для ключей",
+          "count": 2,
+          "btnType": 1,
+          "value": "Key Ring Elephant Styling Charm, with Sewn Decoration on Charm, Featuring A Metal Buckle and Bell at One End of The Key Ring"
+        },
+        {
+          "name": "Карман на молнии",
+          "count": 2,
+          "btnType": 1,
+          "value": "Zip Pocket"
+        }
+      ],
+      "nested": false,
+      "key": "pt_nvs_Structure",
+      "unfold": true
+    },
+    {
+      "module": "pt_nvs_Texture",
+      "name": "Текстура",
+      "defaultShow": true,
+      "type": 2,
+      "items": [
+        {
+          "name": "Коровья кожа",
+          "count": 244,
+          "btnType": 1,
+          "value": "Cow Leather"
+        },
+        {
+          "name": "Полиэстеровое волокно",
+          "count": 86,
+          "btnType": 1,
+          "value": "Polyester"
+        },
+        {
+          "name": "Остальные",
+          "count": 12,
+          "btnType": 1,
+          "value": "Other"
+        },
+        {
+          "name": "Хлопок, волокно",
+          "count": 10,
+          "btnType": 1,
+          "value": "Cotton"
+        },
+        {
+          "name": "Коровья кожа",
+          "count": 8,
+          "btnType": 1,
+          "value": "Cow Leather/Cow Leather"
+        },
+        {
+          "name": "Джинсовый",
+          "count": 8,
+          "btnType": 1,
+          "value": "Denim"
+        },
+        {
+          "name": "ПУ (полиуретан)",
+          "count": 6,
+          "btnType": 1,
+          "value": "Pu"
+        }
+      ],
+      "nested": false,
+      "key": "pt_nvs_Texture",
+      "unfold": true
+    },
+    {
+      "module": "pt_nvs_Style",
+      "name": "Стиль",
+      "defaultShow": true,
+      "type": 2,
+      "items": [
+        {
+          "name": "Японский и корейский стиль",
+          "count": 2,
+          "btnType": 1,
+          "value": "Japanese and Korean Style"
+        },
+        {
+          "name": "Уличный стиль",
+          "count": 2,
+          "btnType": 1,
+          "value": "Street Style"
+        },
+        {
+          "name": "Милый и Женственный",
+          "count": 2,
+          "btnType": 1,
+          "value": "Sweet and Ladylike"
+        },
+        {
+          "name": "Западный стиль",
+          "count": 2,
+          "btnType": 1,
+          "value": "Western"
+        }
+      ],
+      "nested": false,
+      "key": "pt_nvs_Style",
+      "unfold": true
+    },
+    {
+      "module": "pt_nvs_Popular Element",
+      "name": "Популярный элемент",
+      "defaultShow": true,
+      "type": 2,
+      "items": [
+        {
+          "name": "Однотонный",
+          "count": 126,
+          "btnType": 1,
+          "value": "Solid Color"
+        },
+        {
+          "name": "Пэчворк",
+          "count": 20,
+          "btnType": 1,
+          "value": "Patchwork"
+        },
+        {
+          "name": "Цветовой блок",
+          "count": 16,
+          "btnType": 1,
+          "value": "Color Block"
+        },
+        {
+          "name": "Плетеный",
+          "count": 8,
+          "btnType": 1,
+          "value": "Woven"
+        },
+        {
+          "name": "Шов",
+          "count": 6,
+          "btnType": 1,
+          "value": "Stitching"
+        }
+      ],
+      "nested": false,
+      "key": "pt_nvs_Popular Element",
+      "unfold": true
+    },
+    {
+      "module": "pt_nvs_Closure Type",
+      "name": "Тип застежки",
+      "defaultShow": true,
+      "type": 2,
+      "items": [
+        {
+          "name": "Магнитная застежка",
+          "count": 146,
+          "btnType": 1,
+          "value": "Magnetic Closure"
+        },
+        {
+          "name": "Застежка-молния",
+          "count": 142,
+          "btnType": 1,
+          "value": "Zip Closure"
+        },
+        {
+          "name": "Открытый крой",
+          "count": 12,
+          "btnType": 1,
+          "value": "Open Top"
+        },
+        {
+          "name": "Шнурок",
+          "count": 8,
+          "btnType": 1,
+          "value": "Drawstring"
+        }
+      ],
+      "nested": false,
+      "key": "pt_nvs_Closure Type",
+      "unfold": true
+    },
+    {
+      "module": "pt_nvs_Strap Style",
+      "name": "Тип ремешка",
+      "defaultShow": true,
+      "type": 2,
+      "items": [
+        {
+          "name": "Не регулируемый и не съемный ремень",
+          "count": 44,
+          "btnType": 1,
+          "value": "Non-Adjustable and Non-Detachable Strap"
+        },
+        {
+          "name": "Регулируемый, съемный ремешок",
+          "count": 36,
+          "btnType": 1,
+          "value": "Adjustable Detachable Strap"
+        },
+        {
+          "name": "Один",
+          "count": 22,
+          "btnType": 1,
+          "value": "Single"
+        },
+        {
+          "name": "Регулируемый ремень",
+          "count": 18,
+          "btnType": 1,
+          "value": "Adjustable Strap"
+        },
+        {
+          "name": "Съемный ремешок",
+          "count": 18,
+          "btnType": 1,
+          "value": "Detachable Strap"
+        },
+        {
+          "name": "Регулируемый и не съемный ремешок",
+          "count": 14,
+          "btnType": 1,
+          "value": "Adjustable and Non-Detachable Strap"
+        },
+        {
+          "name": "Нерегулируемая, но съемная лямка",
+          "count": 6,
+          "btnType": 1,
+          "value": "Non-Adjustable Strap, Detachable"
+        }
+      ],
+      "nested": false,
+      "key": "pt_nvs_Strap Style",
+      "unfold": true
+    },
+    {
+      "module": "pt_nvs_Lining Material",
+      "name": "Материал подкладки",
+      "defaultShow": true,
+      "type": 2,
+      "items": [
+        {
+          "name": "Ткань",
+          "count": 14,
+          "btnType": 1,
+          "value": "Fabric"
+        },
+        {
+          "name": "Остальные",
+          "count": 14,
+          "btnType": 1,
+          "value": "Other"
+        },
+        {
+          "name": "Полиэстеровое волокно",
+          "count": 12,
+          "btnType": 1,
+          "value": "Polyester"
+        },
+        {
+          "name": "Искусственная кожа",
+          "count": 10,
+          "btnType": 1,
+          "value": "Synthetic Leather"
+        },
+        {
+          "name": "Хлопок, волокно",
+          "count": 6,
+          "btnType": 1,
+          "value": "Cotton"
+        }
+      ],
+      "nested": false,
+      "key": "pt_nvs_Lining Material",
+      "unfold": true
+    },
+    {
+      "module": "pt_nvs_Type",
+      "name": "Тип",
+      "defaultShow": true,
+      "type": 2,
+      "items": [
+        {
+          "name": "Остальные",
+          "count": 224,
+          "btnType": 1,
+          "value": "Other"
+        },
+        {
+          "name": "Сумки через плечо",
+          "count": 34,
+          "btnType": 1,
+          "value": "Shoulder Bag"
+        },
+        {
+          "name": "Тоут",
+          "count": 32,
+          "btnType": 1,
+          "value": "Tote"
+        },
+        {
+          "name": "Бостон Сумка",
+          "count": 14,
+          "btnType": 1,
+          "value": "Boston Bag"
+        },
+        {
+          "name": "Сумка для боулинга",
+          "count": 10,
+          "btnType": 1,
+          "value": "Bowling Bag"
+        },
+        {
+          "name": "Сумка-ведро",
+          "count": 10,
+          "btnType": 1,
+          "value": "Bucket Bag"
+        },
+        {
+          "name": "Багетная сумка",
+          "count": 6,
+          "btnType": 1,
+          "value": "Baguette Bag"
+        },
+        {
+          "name": "Сумка-полумесяц",
+          "count": 6,
+          "btnType": 1,
+          "value": "Crescent Bag"
+        }
+      ],
+      "nested": false,
+      "key": "pt_nvs_Type",
+      "unfold": true
+    },
+    {
+      "module": "pt_nvs_Interior Structure",
+      "name": "Внутренняя конструкция",
+      "defaultShow": true,
+      "type": 2,
+      "items": [
+        {
+          "name": "Карман на молнии",
+          "count": 98,
+          "btnType": 1,
+          "value": "Zip Pocket"
+        },
+        {
+          "name": "Остальные",
+          "count": 54,
+          "btnType": 1,
+          "value": "Other"
+        },
+        {
+          "name": "Внутренний карман",
+          "count": 32,
+          "btnType": 1,
+          "value": "Inside Slip Pocket"
+        },
+        {
+          "name": "Слот для карты",
+          "count": 10,
+          "btnType": 1,
+          "value": "Card Slot"
+        },
+        {
+          "name": "ID карман",
+          "count": 8,
+          "btnType": 1,
+          "value": "ID Pocket"
+        }
+      ],
+      "nested": false,
+      "key": "pt_nvs_Interior Structure",
+      "unfold": true
+    }
+  ]
+}

@@ -1,0 +1,1905 @@
+{
+  "facets": [
+    {
+      "module": "fit_type",
+      "name": "Пол",
+      "defaultShow": true,
+      "type": 2,
+      "items": [
+        {
+          "name": "Унисекс",
+          "count": 608,
+          "btnType": 1,
+          "value": "1"
+        },
+        {
+          "name": "Мужской",
+          "count": 628,
+          "btnType": 1,
+          "value": "2"
+        },
+        {
+          "name": "Женский",
+          "count": 260,
+          "btnType": 1,
+          "value": "3"
+        },
+        {
+          "name": "Дети",
+          "count": 4,
+          "btnType": 1,
+          "value": "4"
+        }
+      ],
+      "nested": false,
+      "key": "fitIds",
+      "unfold": true
+    },
+    {
+      "module": "brand",
+      "name": "Бренды",
+      "defaultShow": true,
+      "items": [],
+      "nested": true,
+      "nestedFacets": [
+        {
+          "module": "featured_brands",
+          "name": "Рекомендуемые ",
+          "defaultShow": true,
+          "type": 2,
+          "items": [
+            {
+              "name": "Nike",
+              "count": 262,
+              "btnType": 1,
+              "value": "144"
+            },
+            {
+              "name": "Adidas Originals",
+              "count": 62,
+              "btnType": 1,
+              "value": "494"
+            },
+            {
+              "name": "New Balance",
+              "count": 83,
+              "btnType": 1,
+              "value": "4"
+            },
+            {
+              "name": "Jordan",
+              "count": 69,
+              "btnType": 1,
+              "value": "13"
+            },
+            {
+              "name": "Converse",
+              "count": 16,
+              "btnType": 1,
+              "value": "176"
+            },
+            {
+              "name": "Vans",
+              "count": 15,
+              "btnType": 1,
+              "value": "9"
+            },
+            {
+              "name": "Adidas",
+              "count": 33,
+              "btnType": 1,
+              "value": "3"
+            },
+            {
+              "name": "ASICS",
+              "count": 32,
+              "btnType": 1,
+              "value": "8"
+            },
+            {
+              "name": "PUMA",
+              "count": 28,
+              "btnType": 1,
+              "value": "2"
+            },
+            {
+              "name": "Li-Ning",
+              "count": 42,
+              "btnType": 1,
+              "value": "33"
+            },
+            {
+              "name": "Onitsuka Tiger",
+              "count": 8,
+              "btnType": 1,
+              "value": "10098"
+            },
+            {
+              "name": "ANTA",
+              "count": 36,
+              "btnType": 1,
+              "value": "34"
+            },
+            {
+              "name": "SALOMON",
+              "count": 8,
+              "btnType": 1,
+              "value": "1000079"
+            },
+            {
+              "name": "Champion",
+              "count": 8,
+              "btnType": 1,
+              "value": "1310"
+            },
+            {
+              "name": "On",
+              "count": 12,
+              "btnType": 1,
+              "value": "1000654"
+            }
+          ],
+          "nested": false,
+          "key": "brandIds",
+          "unfold": true
+        },
+        {
+          "module": "all_brands",
+          "name": "Все ",
+          "defaultShow": true,
+          "type": 2,
+          "items": [],
+          "nested": true,
+          "nestedFacets": [
+            {
+              "module": "brand_group_first_letter_A",
+              "name": "A",
+              "defaultShow": true,
+              "type": 2,
+              "items": [
+                {
+                  "name": "Adidas Originals",
+                  "count": 62,
+                  "btnType": 1,
+                  "value": "494"
+                },
+                {
+                  "name": "Adidas",
+                  "count": 33,
+                  "btnType": 1,
+                  "value": "3"
+                },
+                {
+                  "name": "ASICS",
+                  "count": 32,
+                  "btnType": 1,
+                  "value": "8"
+                },
+                {
+                  "name": "ANTA",
+                  "count": 36,
+                  "btnType": 1,
+                  "value": "34"
+                }
+              ],
+              "nested": false,
+              "key": "brandIds",
+              "unfold": true
+            },
+            {
+              "module": "brand_group_first_letter_C",
+              "name": "C",
+              "defaultShow": true,
+              "type": 2,
+              "items": [
+                {
+                  "name": "Converse",
+                  "count": 16,
+                  "btnType": 1,
+                  "value": "176"
+                },
+                {
+                  "name": "Champion",
+                  "count": 8,
+                  "btnType": 1,
+                  "value": "1310"
+                }
+              ],
+              "nested": false,
+              "key": "brandIds",
+              "unfold": true
+            },
+            {
+              "module": "brand_group_first_letter_J",
+              "name": "J",
+              "defaultShow": true,
+              "type": 2,
+              "items": [
+                {
+                  "name": "Jordan",
+                  "count": 69,
+                  "btnType": 1,
+                  "value": "13"
+                }
+              ],
+              "nested": false,
+              "key": "brandIds",
+              "unfold": true
+            },
+            {
+              "module": "brand_group_first_letter_L",
+              "name": "L",
+              "defaultShow": true,
+              "type": 2,
+              "items": [
+                {
+                  "name": "Li-Ning",
+                  "count": 42,
+                  "btnType": 1,
+                  "value": "33"
+                }
+              ],
+              "nested": false,
+              "key": "brandIds",
+              "unfold": true
+            },
+            {
+              "module": "brand_group_first_letter_N",
+              "name": "N",
+              "defaultShow": true,
+              "type": 2,
+              "items": [
+                {
+                  "name": "Nike",
+                  "count": 262,
+                  "btnType": 1,
+                  "value": "144"
+                },
+                {
+                  "name": "New Balance",
+                  "count": 83,
+                  "btnType": 1,
+                  "value": "4"
+                }
+              ],
+              "nested": false,
+              "key": "brandIds",
+              "unfold": true
+            },
+            {
+              "module": "brand_group_first_letter_O",
+              "name": "O",
+              "defaultShow": true,
+              "type": 2,
+              "items": [
+                {
+                  "name": "Onitsuka Tiger",
+                  "count": 8,
+                  "btnType": 1,
+                  "value": "10098"
+                },
+                {
+                  "name": "On",
+                  "count": 12,
+                  "btnType": 1,
+                  "value": "1000654"
+                }
+              ],
+              "nested": false,
+              "key": "brandIds",
+              "unfold": true
+            },
+            {
+              "module": "brand_group_first_letter_P",
+              "name": "P",
+              "defaultShow": true,
+              "type": 2,
+              "items": [
+                {
+                  "name": "PUMA",
+                  "count": 28,
+                  "btnType": 1,
+                  "value": "2"
+                }
+              ],
+              "nested": false,
+              "key": "brandIds",
+              "unfold": true
+            },
+            {
+              "module": "brand_group_first_letter_S",
+              "name": "S",
+              "defaultShow": true,
+              "type": 2,
+              "items": [
+                {
+                  "name": "SALOMON",
+                  "count": 8,
+                  "btnType": 1,
+                  "value": "1000079"
+                }
+              ],
+              "nested": false,
+              "key": "brandIds",
+              "unfold": true
+            },
+            {
+              "module": "brand_group_first_letter_V",
+              "name": "V",
+              "defaultShow": true,
+              "type": 2,
+              "items": [
+                {
+                  "name": "Vans",
+                  "count": 15,
+                  "btnType": 1,
+                  "value": "9"
+                }
+              ],
+              "nested": false,
+              "key": "brandIds",
+              "unfold": true
+            }
+          ],
+          "key": "brandIds",
+          "unfold": true
+        }
+      ],
+      "key": "brandIds",
+      "unfold": true
+    },
+    {
+      "module": "buySeason",
+      "name": "Сезон",
+      "defaultShow": true,
+      "type": 2,
+      "items": [
+        {
+          "name": "Все сезоны",
+          "count": 28,
+          "btnType": 1,
+          "value": "All Seasons"
+        },
+        {
+          "name": "Осенний",
+          "count": 1462,
+          "btnType": 1,
+          "value": "Fall"
+        },
+        {
+          "name": "Весна",
+          "count": 1460,
+          "btnType": 1,
+          "value": "Spring"
+        },
+        {
+          "name": "Лето",
+          "count": 1206,
+          "btnType": 1,
+          "value": "Summer"
+        },
+        {
+          "name": "Зимний",
+          "count": 1148,
+          "btnType": 1,
+          "value": "Winter"
+        }
+      ],
+      "nested": false,
+      "key": "buySeason",
+      "unfold": true
+    },
+    {
+      "module": "category",
+      "name": "Категория",
+      "defaultShow": true,
+      "items": [],
+      "nested": true,
+      "nestedFacets": [
+        {
+          "module": "l3_category_group_by_l1_500000091",
+          "name": "Кроссовки",
+          "defaultShow": true,
+          "type": 2,
+          "value": "500000091",
+          "items": [
+            {
+              "name": "Все",
+              "count": 0,
+              "btnType": 2,
+              "value": "500000091"
+            },
+            {
+              "name": "Скейтбординг",
+              "count": 204,
+              "btnType": 1,
+              "value": "500000371"
+            },
+            {
+              "name": "Лайфстайл",
+              "count": 137,
+              "btnType": 1,
+              "value": "500000373"
+            },
+            {
+              "name": "Бег",
+              "count": 213,
+              "btnType": 1,
+              "value": "500000375"
+            },
+            {
+              "name": "Баскетбол",
+              "count": 154,
+              "btnType": 1,
+              "value": "500000369"
+            },
+            {
+              "name": "Тренировки",
+              "count": 21,
+              "btnType": 1,
+              "value": "500000377"
+            },
+            {
+              "name": "Туризм и активный отдых",
+              "count": 15,
+              "btnType": 1,
+              "value": "500000381"
+            }
+          ],
+          "nested": false,
+          "key": "frontCategoryIds",
+          "unfold": true
+        }
+      ],
+      "key": "frontCategoryIds",
+      "unfold": true
+    },
+    {
+      "module": "positioningStyle",
+      "name": "Модный стиль",
+      "defaultShow": true,
+      "type": 2,
+      "items": [
+        {
+          "name": "Мода Тренд",
+          "count": 6,
+          "btnType": 1,
+          "value": "Fashion Trend"
+        },
+        {
+          "name": "Готовый к игре",
+          "count": 146,
+          "btnType": 1,
+          "value": "Game-Ready"
+        },
+        {
+          "name": "Спортивный стиль",
+          "count": 14,
+          "btnType": 1,
+          "value": "Sporty Style"
+        },
+        {
+          "name": "Уличный",
+          "count": 12,
+          "btnType": 1,
+          "value": "Street"
+        },
+        {
+          "name": "Стильный винтаж",
+          "count": 10,
+          "btnType": 1,
+          "value": "Vintage Style"
+        }
+      ],
+      "nested": false,
+      "key": "positioningStyle",
+      "unfold": true
+    },
+    {
+      "module": "price_range",
+      "name": "Цена",
+      "defaultShow": true,
+      "type": 1,
+      "items": [
+        {
+          "name": "Низкая, ₽",
+          "count": 0,
+          "btnType": 1,
+          "value": ""
+        },
+        {
+          "name": "Высокая, ₽",
+          "count": 0,
+          "btnType": 1,
+          "value": ""
+        }
+      ],
+      "nested": false,
+      "key": "priceRange",
+      "unfold": true
+    },
+    {
+      "module": "series",
+      "name": "Серия",
+      "defaultShow": true,
+      "type": 2,
+      "items": [
+        {
+          "name": "Air Force 1",
+          "count": 29,
+          "btnType": 1,
+          "value": "1000681"
+        },
+        {
+          "name": "Air Jordan 1",
+          "count": 37,
+          "btnType": 1,
+          "value": "1"
+        },
+        {
+          "name": "SAMBA OG",
+          "count": 14,
+          "btnType": 1,
+          "value": "1031987"
+        },
+        {
+          "name": "Dunk",
+          "count": 34,
+          "btnType": 1,
+          "value": "1000827"
+        },
+        {
+          "name": "M2K Tekno",
+          "count": 7,
+          "btnType": 1,
+          "value": "1064375"
+        },
+        {
+          "name": "Old Skool",
+          "count": 6,
+          "btnType": 1,
+          "value": "1068832"
+        },
+        {
+          "name": "SUPERSTAR 2",
+          "count": 10,
+          "btnType": 1,
+          "value": "1034448"
+        },
+        {
+          "name": "Speedcat",
+          "count": 6,
+          "btnType": 1,
+          "value": "1077214"
+        },
+        {
+          "name": "NB 574",
+          "count": 11,
+          "btnType": 1,
+          "value": "1032332"
+        },
+        {
+          "name": "NB 1906R",
+          "count": 10,
+          "btnType": 1,
+          "value": "1009929"
+        },
+        {
+          "name": "P-6000",
+          "count": 21,
+          "btnType": 1,
+          "value": "460"
+        },
+        {
+          "name": "Red Hare 9 PRO",
+          "count": 8,
+          "btnType": 1,
+          "value": "1096767"
+        },
+        {
+          "name": "HANDBALL SPEZIAL",
+          "count": 10,
+          "btnType": 1,
+          "value": "1032652"
+        },
+        {
+          "name": "XT-6",
+          "count": 5,
+          "btnType": 1,
+          "value": "1010520"
+        },
+        {
+          "name": "NB 530",
+          "count": 9,
+          "btnType": 1,
+          "value": "1032451"
+        },
+        {
+          "name": "Air Jordan 4",
+          "count": 9,
+          "btnType": 1,
+          "value": "4"
+        },
+        {
+          "name": "XLG RUNNER DELUXE",
+          "count": 6,
+          "btnType": 1,
+          "value": "1032597"
+        },
+        {
+          "name": "Initiator",
+          "count": 8,
+          "btnType": 1,
+          "value": "1073"
+        },
+        {
+          "name": "KAI 2",
+          "count": 9,
+          "btnType": 1,
+          "value": "1069464"
+        },
+        {
+          "name": "Court Vision",
+          "count": 5,
+          "btnType": 1,
+          "value": "1033845"
+        },
+        {
+          "name": "V5 RNR",
+          "count": 8,
+          "btnType": 1,
+          "value": "1070859"
+        },
+        {
+          "name": "Zoom Vomero Roam",
+          "count": 9,
+          "btnType": 1,
+          "value": "1063099"
+        },
+        {
+          "name": "Shock Wave 7",
+          "count": 6,
+          "btnType": 1,
+          "value": "1076906"
+        },
+        {
+          "name": "NB 9060",
+          "count": 5,
+          "btnType": 1,
+          "value": "1007773"
+        },
+        {
+          "name": "KAI 3",
+          "count": 6,
+          "btnType": 1,
+          "value": "1100772"
+        },
+        {
+          "name": "Cloudtilt",
+          "count": 7,
+          "btnType": 1,
+          "value": "1061272"
+        }
+      ],
+      "nested": false,
+      "key": "frontSeries",
+      "unfold": true
+    },
+    {
+      "module": "pt_nvs_Suitable Playing Style",
+      "name": "Подходящий стиль игры",
+      "defaultShow": true,
+      "type": 2,
+      "items": [
+        {
+          "name": "Тип отскока",
+          "count": 8,
+          "btnType": 1,
+          "value": "Bounce Type"
+        },
+        {
+          "name": "Тип стабильности",
+          "count": 8,
+          "btnType": 1,
+          "value": "Stable Type"
+        },
+        {
+          "name": "Тип скорости",
+          "count": 6,
+          "btnType": 1,
+          "value": "Speed Type"
+        }
+      ],
+      "nested": false,
+      "key": "pt_nvs_Suitable Playing Style",
+      "unfold": true
+    },
+    {
+      "module": "pt_nvs_Scenario",
+      "name": "Сценарий",
+      "defaultShow": true,
+      "type": 2,
+      "items": [
+        {
+          "name": "Повседневный",
+          "count": 326,
+          "btnType": 1,
+          "value": "Casual"
+        },
+        {
+          "name": "Городская Коммутация",
+          "count": 186,
+          "btnType": 1,
+          "value": "City Commuting"
+        },
+        {
+          "name": "Тренировка",
+          "count": 46,
+          "btnType": 1,
+          "value": "Training"
+        },
+        {
+          "name": "Длинный бег",
+          "count": 40,
+          "btnType": 1,
+          "value": "Long Distance Running"
+        },
+        {
+          "name": "Гонки",
+          "count": 34,
+          "btnType": 1,
+          "value": "Racing"
+        },
+        {
+          "name": "Марафон",
+          "count": 26,
+          "btnType": 1,
+          "value": "Marathon"
+        },
+        {
+          "name": "Спринт",
+          "count": 26,
+          "btnType": 1,
+          "value": "Sprint"
+        },
+        {
+          "name": "Физкультурный зачет",
+          "count": 24,
+          "btnType": 1,
+          "value": "Physical Fitness Test & Exam"
+        },
+        {
+          "name": "Трэиловый бег",
+          "count": 20,
+          "btnType": 1,
+          "value": "Trail Running"
+        },
+        {
+          "name": "Легкий поход",
+          "count": 8,
+          "btnType": 1,
+          "value": "Lightweight Hiking"
+        },
+        {
+          "name": "Длинный поход",
+          "count": 8,
+          "btnType": 1,
+          "value": "Long-Distance Hiking"
+        }
+      ],
+      "nested": false,
+      "key": "pt_nvs_Scenario",
+      "unfold": true
+    },
+    {
+      "module": "pt_nvs_Functionality",
+      "name": "Функциональность",
+      "defaultShow": true,
+      "type": 2,
+      "items": [
+        {
+          "name": "Износостойкий",
+          "count": 118,
+          "btnType": 1,
+          "value": "Abrasion-Resistant"
+        },
+        {
+          "name": "Противоскользящий",
+          "count": 70,
+          "btnType": 1,
+          "value": "Slip-Resistant"
+        },
+        {
+          "name": "Амортизация",
+          "count": 52,
+          "btnType": 1,
+          "value": "Cushioning"
+        },
+        {
+          "name": "Дышащий",
+          "count": 38,
+          "btnType": 1,
+          "value": "Breathable"
+        },
+        {
+          "name": "Легкий",
+          "count": 24,
+          "btnType": 1,
+          "value": "Lightweight"
+        },
+        {
+          "name": "Oтскок",
+          "count": 24,
+          "btnType": 1,
+          "value": "Rebound"
+        },
+        {
+          "name": "Покрытие",
+          "count": 14,
+          "btnType": 1,
+          "value": "Coverage"
+        },
+        {
+          "name": "Поддержка",
+          "count": 12,
+          "btnType": 1,
+          "value": "Support"
+        },
+        {
+          "name": "Высота Увеличение",
+          "count": 10,
+          "btnType": 1,
+          "value": "Height-Increasing"
+        },
+        {
+          "name": "Сцепление",
+          "count": 8,
+          "btnType": 1,
+          "value": "Grip"
+        },
+        {
+          "name": "Водонепроницаемый",
+          "count": 8,
+          "btnType": 1,
+          "value": "Waterproof"
+        }
+      ],
+      "nested": false,
+      "key": "pt_nvs_Functionality",
+      "unfold": true
+    },
+    {
+      "module": "pt_nvs_Suitable Foot Width",
+      "name": "Подходящая ширина стопы",
+      "defaultShow": true,
+      "type": 2,
+      "items": [
+        {
+          "name": "Стандартная посадка",
+          "count": 36,
+          "btnType": 1,
+          "value": "Standard Fit"
+        },
+        {
+          "name": "Узкий стиль",
+          "count": 4,
+          "btnType": 1,
+          "value": "Narrow Fit"
+        },
+        {
+          "name": "Широкий формат",
+          "count": 2,
+          "btnType": 1,
+          "value": "Wide Fit"
+        }
+      ],
+      "nested": false,
+      "key": "pt_nvs_Suitable Foot Width",
+      "unfold": true
+    },
+    {
+      "module": "pt_nvs_Running Shoe Level",
+      "name": "Уровень беговых кроссовок",
+      "defaultShow": true,
+      "type": 2,
+      "items": [
+        {
+          "name": "Кроссовки для начинающих",
+          "count": 178,
+          "btnType": 1,
+          "value": "Beginner Running Shoes"
+        },
+        {
+          "name": "Промежуточный беговые кроссовки",
+          "count": 22,
+          "btnType": 1,
+          "value": "Intermediate Running Shoes"
+        },
+        {
+          "name": "Продвинутая беговая обувь",
+          "count": 4,
+          "btnType": 1,
+          "value": "Advanced Running Shoes"
+        }
+      ],
+      "nested": false,
+      "key": "pt_nvs_Running Shoe Level",
+      "unfold": true
+    },
+    {
+      "module": "pt_nvs_Upper Material",
+      "name": "Верхний материал",
+      "defaultShow": true,
+      "type": 2,
+      "items": [
+        {
+          "name": "Ткань",
+          "count": 386,
+          "btnType": 1,
+          "value": "Fabric"
+        },
+        {
+          "name": "Искусственная кожа",
+          "count": 294,
+          "btnType": 1,
+          "value": "Synthetic Leather"
+        },
+        {
+          "name": "Кожа",
+          "count": 250,
+          "btnType": 1,
+          "value": "Leather"
+        },
+        {
+          "name": "Коровья спилковая кожа",
+          "count": 150,
+          "btnType": 1,
+          "value": "Cow Split Leather"
+        },
+        {
+          "name": "Сетчатая ткань",
+          "count": 96,
+          "btnType": 1,
+          "value": "Mesh"
+        },
+        {
+          "name": "Замша",
+          "count": 56,
+          "btnType": 1,
+          "value": "Suede"
+        },
+        {
+          "name": "Холст",
+          "count": 54,
+          "btnType": 1,
+          "value": "Canvas"
+        },
+        {
+          "name": "Искусственная кожа",
+          "count": 44,
+          "btnType": 1,
+          "value": "Artificial Leather"
+        },
+        {
+          "name": "Коровья кожа",
+          "count": 38,
+          "btnType": 1,
+          "value": "Cow Leather"
+        },
+        {
+          "name": "Резина",
+          "count": 28,
+          "btnType": 1,
+          "value": "Rubber"
+        },
+        {
+          "name": "Остальные",
+          "count": 20,
+          "btnType": 1,
+          "value": "Other"
+        },
+        {
+          "name": "Топ Крупнозернистая текстура Коровья кожа",
+          "count": 20,
+          "btnType": 1,
+          "value": "Top Grain Cow Leather"
+        },
+        {
+          "name": "Свинная кожа",
+          "count": 12,
+          "btnType": 1,
+          "value": "Pigskin"
+        },
+        {
+          "name": "Спилок коровьей кожи",
+          "count": 10,
+          "btnType": 1,
+          "value": "Split Cow Leather"
+        },
+        {
+          "name": "Полиэстеровое волокно",
+          "count": 8,
+          "btnType": 1,
+          "value": "Polyester"
+        },
+        {
+          "name": "ТПУ (TPU)",
+          "count": 8,
+          "btnType": 1,
+          "value": "TPU"
+        }
+      ],
+      "nested": false,
+      "key": "pt_nvs_Upper Material",
+      "unfold": true
+    },
+    {
+      "module": "pt_nvs_Thickness",
+      "name": "Толщина",
+      "defaultShow": true,
+      "type": 2,
+      "items": [
+        {
+          "name": "Умеренный",
+          "count": 32,
+          "btnType": 1,
+          "value": "Moderate"
+        },
+        {
+          "name": "Толщина",
+          "count": 2,
+          "btnType": 1,
+          "value": "Thickness"
+        }
+      ],
+      "nested": false,
+      "key": "pt_nvs_Thickness",
+      "unfold": true
+    },
+    {
+      "module": "pt_nvs_Stud Type",
+      "name": "Тип шипов",
+      "defaultShow": true,
+      "type": 2,
+      "items": [
+        {
+          "name": "Остальные",
+          "count": 4,
+          "btnType": 1,
+          "value": "Other"
+        },
+        {
+          "name": "ТF (резиновые сломанные шипы)",
+          "count": 4,
+          "btnType": 1,
+          "value": "TF (Turf)"
+        }
+      ],
+      "nested": false,
+      "key": "pt_nvs_Stud Type",
+      "unfold": true
+    },
+    {
+      "module": "pt_nvs_Suitable Foot Type",
+      "name": "Подходящая форма стопы",
+      "defaultShow": true,
+      "type": 2,
+      "items": [
+        {
+          "name": "Стандартная посадка",
+          "count": 32,
+          "btnType": 1,
+          "value": "Standard Fit"
+        },
+        {
+          "name": "Низкая арка стопы",
+          "count": 4,
+          "btnType": 1,
+          "value": "Low Arch"
+        },
+        {
+          "name": "Высокая арка стопы",
+          "count": 2,
+          "btnType": 1,
+          "value": "High Arch"
+        },
+        {
+          "name": "Гипопронация",
+          "count": 2,
+          "btnType": 1,
+          "value": "Underpronation"
+        }
+      ],
+      "nested": false,
+      "key": "pt_nvs_Suitable Foot Type",
+      "unfold": true
+    },
+    {
+      "module": "pt_nvs_Functional Classification",
+      "name": "Функциональные характеристики",
+      "defaultShow": true,
+      "type": 2,
+      "items": [
+        {
+          "name": "Дышащий",
+          "count": 362,
+          "btnType": 1,
+          "value": "Breathable"
+        },
+        {
+          "name": "Износостойкий",
+          "count": 324,
+          "btnType": 1,
+          "value": "Abrasion-Resistant"
+        },
+        {
+          "name": "Амортизация",
+          "count": 268,
+          "btnType": 1,
+          "value": "Cushioning"
+        },
+        {
+          "name": "Противоскользящий",
+          "count": 196,
+          "btnType": 1,
+          "value": "Slip-Resistant"
+        },
+        {
+          "name": "Легкий",
+          "count": 98,
+          "btnType": 1,
+          "value": "Lightweight"
+        },
+        {
+          "name": "Oтскок",
+          "count": 94,
+          "btnType": 1,
+          "value": "Rebound"
+        },
+        {
+          "name": "Поддержка",
+          "count": 54,
+          "btnType": 1,
+          "value": "Support"
+        },
+        {
+          "name": "Высота Увеличение",
+          "count": 30,
+          "btnType": 1,
+          "value": "Height-Increasing"
+        },
+        {
+          "name": "Покрытие",
+          "count": 24,
+          "btnType": 1,
+          "value": "Coverage"
+        },
+        {
+          "name": "Сцепление",
+          "count": 22,
+          "btnType": 1,
+          "value": "Grip"
+        },
+        {
+          "name": "Водонепроницаемый",
+          "count": 12,
+          "btnType": 1,
+          "value": "Waterproof"
+        },
+        {
+          "name": "Баланс",
+          "count": 6,
+          "btnType": 1,
+          "value": "Balance"
+        },
+        {
+          "name": "Термический",
+          "count": 6,
+          "btnType": 1,
+          "value": "Thermal"
+        }
+      ],
+      "nested": false,
+      "key": "pt_nvs_Functional Classification",
+      "unfold": true
+    },
+    {
+      "module": "pt_nvs_Sole Material",
+      "name": "Материал подошвы",
+      "defaultShow": true,
+      "type": 2,
+      "items": [
+        {
+          "name": "Резина",
+          "count": 688,
+          "btnType": 1,
+          "value": "Rubber"
+        },
+        {
+          "name": "Остальные",
+          "count": 154,
+          "btnType": 1,
+          "value": "Other"
+        },
+        {
+          "name": "Резина подошва",
+          "count": 74,
+          "btnType": 1,
+          "value": "Rubber Sole"
+        },
+        {
+          "name": "ЭВА",
+          "count": 10,
+          "btnType": 1,
+          "value": "EVA"
+        },
+        {
+          "name": "Пена подошва",
+          "count": 8,
+          "btnType": 1,
+          "value": "Foam Sole"
+        },
+        {
+          "name": "Нейлон",
+          "count": 6,
+          "btnType": 1,
+          "value": "Nylon"
+        }
+      ],
+      "nested": false,
+      "key": "pt_nvs_Sole Material",
+      "unfold": true
+    },
+    {
+      "module": "pt_nvs_Suitable Weight",
+      "name": "Подходящий вес",
+      "defaultShow": true,
+      "type": 2,
+      "items": [
+        {
+          "name": "Лёгкий-средний вес",
+          "count": 18,
+          "btnType": 1,
+          "value": "Light to Medium Weight"
+        },
+        {
+          "name": "Тяжелый вес",
+          "count": 10,
+          "btnType": 1,
+          "value": "Heavy Weight"
+        }
+      ],
+      "nested": false,
+      "key": "pt_nvs_Suitable Weight",
+      "unfold": true
+    },
+    {
+      "module": "pt_nvs_Suitable Surface",
+      "name": "Подходящая поверхность",
+      "defaultShow": true,
+      "type": 2,
+      "items": [
+        {
+          "name": "Шоссе",
+          "count": 176,
+          "btnType": 1,
+          "value": "Road"
+        },
+        {
+          "name": "Спортзал",
+          "count": 96,
+          "btnType": 1,
+          "value": "Gym"
+        },
+        {
+          "name": "Резиновая беговая дорожка",
+          "count": 86,
+          "btnType": 1,
+          "value": "Rubber Track"
+        },
+        {
+          "name": "Беговые дорожки",
+          "count": 86,
+          "btnType": 1,
+          "value": "Treadmill"
+        },
+        {
+          "name": "Горный туризм",
+          "count": 16,
+          "btnType": 1,
+          "value": "Outdoor Mountain"
+        },
+        {
+          "name": "Резиновый пол",
+          "count": 12,
+          "btnType": 1,
+          "value": "Rubber Floor"
+        },
+        {
+          "name": "Деревянный пол",
+          "count": 8,
+          "btnType": 1,
+          "value": "Wooden Floor"
+        },
+        {
+          "name": "Искусственные шипы",
+          "count": 6,
+          "btnType": 1,
+          "value": "Artificial Turf"
+        },
+        {
+          "name": "Concrete Floor - Бетонный пол",
+          "count": 6,
+          "btnType": 1,
+          "value": "Concrete Floor"
+        },
+        {
+          "name": "Твёрдый грунт",
+          "count": 6,
+          "btnType": 1,
+          "value": "Hard Ground"
+        }
+      ],
+      "nested": false,
+      "key": "pt_nvs_Suitable Surface",
+      "unfold": true
+    },
+    {
+      "module": "pt_nvs_Heel Type",
+      "name": "Тип каблука",
+      "defaultShow": true,
+      "type": 2,
+      "items": [
+        {
+          "name": "Плоский",
+          "count": 842,
+          "btnType": 1,
+          "value": "Flat"
+        },
+        {
+          "name": "на платформе",
+          "count": 634,
+          "btnType": 1,
+          "value": "Platform"
+        },
+        {
+          "name": "Каблук клин",
+          "count": 2,
+          "btnType": 1,
+          "value": "Wedge Heel"
+        }
+      ],
+      "nested": false,
+      "key": "pt_nvs_Heel Type",
+      "unfold": true
+    },
+    {
+      "module": "size",
+      "name": "Размер",
+      "defaultShow": true,
+      "items": [],
+      "nested": true,
+      "nestedFacets": [
+        {
+          "module": "shoes_size",
+          "name": "Российский размер обуви",
+          "defaultShow": true,
+          "items": [],
+          "nested": true,
+          "nestedFacets": [
+            {
+              "module": "core_size",
+              "name": "Популярные",
+              "defaultShow": true,
+              "type": 2,
+              "items": [
+                {
+                  "name": "37",
+                  "count": 1134,
+                  "btnType": 1,
+                  "value": "37"
+                },
+                {
+                  "name": "37,5",
+                  "count": 924,
+                  "btnType": 1,
+                  "value": "37,5"
+                },
+                {
+                  "name": "38",
+                  "count": 1086,
+                  "btnType": 1,
+                  "value": "38"
+                },
+                {
+                  "name": "38,5",
+                  "count": 326,
+                  "btnType": 1,
+                  "value": "38,5"
+                },
+                {
+                  "name": "39",
+                  "count": 1480,
+                  "btnType": 1,
+                  "value": "39"
+                },
+                {
+                  "name": "42",
+                  "count": 1164,
+                  "btnType": 1,
+                  "value": "42"
+                },
+                {
+                  "name": "42,5",
+                  "count": 152,
+                  "btnType": 1,
+                  "value": "42,5"
+                },
+                {
+                  "name": "43",
+                  "count": 1426,
+                  "btnType": 1,
+                  "value": "43"
+                },
+                {
+                  "name": "43,5",
+                  "count": 1080,
+                  "btnType": 1,
+                  "value": "43,5"
+                },
+                {
+                  "name": "44",
+                  "count": 1156,
+                  "btnType": 1,
+                  "value": "44"
+                }
+              ],
+              "nested": false,
+              "key": "shoesSizes",
+              "unfold": true
+            },
+            {
+              "module": "all_size",
+              "name": "Все",
+              "defaultShow": true,
+              "type": 2,
+              "items": [
+                {
+                  "name": "33,5",
+                  "count": 26,
+                  "btnType": 1,
+                  "value": "33,5"
+                },
+                {
+                  "name": "34",
+                  "count": 148,
+                  "btnType": 1,
+                  "value": "34"
+                },
+                {
+                  "name": "34½",
+                  "count": 152,
+                  "btnType": 1,
+                  "value": "34½"
+                },
+                {
+                  "name": "34,5",
+                  "count": 650,
+                  "btnType": 1,
+                  "value": "34,5"
+                },
+                {
+                  "name": "35",
+                  "count": 1140,
+                  "btnType": 1,
+                  "value": "35"
+                },
+                {
+                  "name": "35⅔",
+                  "count": 192,
+                  "btnType": 1,
+                  "value": "35⅔"
+                },
+                {
+                  "name": "35,5",
+                  "count": 534,
+                  "btnType": 1,
+                  "value": "35,5"
+                },
+                {
+                  "name": "36",
+                  "count": 426,
+                  "btnType": 1,
+                  "value": "36"
+                },
+                {
+                  "name": "36⅓",
+                  "count": 196,
+                  "btnType": 1,
+                  "value": "36⅓"
+                },
+                {
+                  "name": "36,5",
+                  "count": 884,
+                  "btnType": 1,
+                  "value": "36,5"
+                },
+                {
+                  "name": "37⅔",
+                  "count": 200,
+                  "btnType": 1,
+                  "value": "37⅔"
+                },
+                {
+                  "name": "38⅓",
+                  "count": 202,
+                  "btnType": 1,
+                  "value": "38⅓"
+                },
+                {
+                  "name": "39⅔",
+                  "count": 200,
+                  "btnType": 1,
+                  "value": "39⅔"
+                },
+                {
+                  "name": "39,5",
+                  "count": 1054,
+                  "btnType": 1,
+                  "value": "39,5"
+                },
+                {
+                  "name": "40",
+                  "count": 1020,
+                  "btnType": 1,
+                  "value": "40"
+                },
+                {
+                  "name": "40⅓",
+                  "count": 198,
+                  "btnType": 1,
+                  "value": "40⅓"
+                },
+                {
+                  "name": "40,5",
+                  "count": 328,
+                  "btnType": 1,
+                  "value": "40,5"
+                },
+                {
+                  "name": "41",
+                  "count": 1458,
+                  "btnType": 1,
+                  "value": "41"
+                },
+                {
+                  "name": "41⅔",
+                  "count": 198,
+                  "btnType": 1,
+                  "value": "41⅔"
+                },
+                {
+                  "name": "41,5",
+                  "count": 1118,
+                  "btnType": 1,
+                  "value": "41,5"
+                },
+                {
+                  "name": "42⅓",
+                  "count": 198,
+                  "btnType": 1,
+                  "value": "42⅓"
+                },
+                {
+                  "name": "43⅔",
+                  "count": 188,
+                  "btnType": 1,
+                  "value": "43⅔"
+                },
+                {
+                  "name": "44⅓",
+                  "count": 188,
+                  "btnType": 1,
+                  "value": "44⅓"
+                },
+                {
+                  "name": "44,5",
+                  "count": 728,
+                  "btnType": 1,
+                  "value": "44,5"
+                },
+                {
+                  "name": "45",
+                  "count": 1138,
+                  "btnType": 1,
+                  "value": "45"
+                },
+                {
+                  "name": "45⅔",
+                  "count": 182,
+                  "btnType": 1,
+                  "value": "45⅔"
+                },
+                {
+                  "name": "45,5",
+                  "count": 272,
+                  "btnType": 1,
+                  "value": "45,5"
+                },
+                {
+                  "name": "46",
+                  "count": 790,
+                  "btnType": 1,
+                  "value": "46"
+                },
+                {
+                  "name": "46⅓",
+                  "count": 188,
+                  "btnType": 1,
+                  "value": "46⅓"
+                },
+                {
+                  "name": "46,5",
+                  "count": 758,
+                  "btnType": 1,
+                  "value": "46,5"
+                },
+                {
+                  "name": "47",
+                  "count": 614,
+                  "btnType": 1,
+                  "value": "47"
+                },
+                {
+                  "name": "47⅔",
+                  "count": 116,
+                  "btnType": 1,
+                  "value": "47⅔"
+                },
+                {
+                  "name": "47,5",
+                  "count": 484,
+                  "btnType": 1,
+                  "value": "47,5"
+                },
+                {
+                  "name": "48",
+                  "count": 174,
+                  "btnType": 1,
+                  "value": "48"
+                },
+                {
+                  "name": "48⅓",
+                  "count": 122,
+                  "btnType": 1,
+                  "value": "48⅓"
+                },
+                {
+                  "name": "48,5",
+                  "count": 358,
+                  "btnType": 1,
+                  "value": "48,5"
+                },
+                {
+                  "name": "49",
+                  "count": 188,
+                  "btnType": 1,
+                  "value": "49"
+                },
+                {
+                  "name": "49⅔",
+                  "count": 32,
+                  "btnType": 1,
+                  "value": "49⅔"
+                },
+                {
+                  "name": "49,5",
+                  "count": 186,
+                  "btnType": 1,
+                  "value": "49,5"
+                },
+                {
+                  "name": "50",
+                  "count": 26,
+                  "btnType": 1,
+                  "value": "50"
+                },
+                {
+                  "name": "50⅓",
+                  "count": 28,
+                  "btnType": 1,
+                  "value": "50⅓"
+                },
+                {
+                  "name": "50,5",
+                  "count": 160,
+                  "btnType": 1,
+                  "value": "50,5"
+                }
+              ],
+              "nested": false,
+              "key": "shoesSizes",
+              "unfold": true
+            }
+          ],
+          "key": "shoesSizes",
+          "unfold": true
+        }
+      ],
+      "key": "sizeProperties",
+      "unfold": true
+    },
+    {
+      "module": "closureType",
+      "name": "Вид застёжки",
+      "defaultShow": true,
+      "type": 2,
+      "items": [
+        {
+          "name": "Шнурок",
+          "count": 58,
+          "btnType": 1,
+          "value": "Drawstring"
+        },
+        {
+          "name": "Крючок и петля",
+          "count": 8,
+          "btnType": 1,
+          "value": "Hook-and-loop"
+        },
+        {
+          "name": "Шнуровка",
+          "count": 1406,
+          "btnType": 1,
+          "value": "Lace-Up"
+        },
+        {
+          "name": "Слипоны",
+          "count": 18,
+          "btnType": 1,
+          "value": "Slip-on"
+        }
+      ],
+      "nested": false,
+      "key": "closureType",
+      "unfold": true
+    },
+    {
+      "module": "main_color",
+      "name": "Цвет",
+      "defaultShow": true,
+      "type": 2,
+      "items": [
+        {
+          "name": "Бежевый",
+          "count": 114,
+          "label": "#FBF2D3",
+          "btnType": 1,
+          "value": "Beige"
+        },
+        {
+          "name": "Черный",
+          "count": 466,
+          "label": "#14151A",
+          "btnType": 1,
+          "value": "Black"
+        },
+        {
+          "name": "Синий",
+          "count": 62,
+          "label": "#3D86E7",
+          "btnType": 1,
+          "value": "Blue"
+        },
+        {
+          "name": "Коричневый",
+          "count": 116,
+          "label": "#845F57",
+          "btnType": 1,
+          "value": "Brown"
+        },
+        {
+          "name": "Серый",
+          "count": 206,
+          "label": "#D7D5CA",
+          "btnType": 1,
+          "value": "Gray"
+        },
+        {
+          "name": "Зеленый",
+          "count": 50,
+          "label": "#78BB53",
+          "btnType": 1,
+          "value": "Green"
+        },
+        {
+          "name": "Оранжевый",
+          "count": 24,
+          "label": "#FF9500",
+          "btnType": 1,
+          "value": "Orange"
+        },
+        {
+          "name": "Розовый",
+          "count": 54,
+          "label": "#F6AFCC",
+          "btnType": 1,
+          "value": "Pink"
+        },
+        {
+          "name": "Фиолетовый",
+          "count": 24,
+          "label": "#C361C3",
+          "btnType": 1,
+          "value": "Purple"
+        },
+        {
+          "name": "Красный",
+          "count": 58,
+          "label": "#E73A4B",
+          "btnType": 1,
+          "value": "Red"
+        },
+        {
+          "name": "Серебристый",
+          "count": 30,
+          "labelUrl": "https://cdn-img.thepoizon.ru/node-common/b8c56b22-fa7a-5b26-f0bb-b7438ba0ef59-36-36.jpeg",
+          "btnType": 1,
+          "value": "Silver"
+        },
+        {
+          "name": "Белый",
+          "count": 392,
+          "label": "#FFFFFF",
+          "btnType": 1,
+          "value": "White"
+        },
+        {
+          "name": "Желтый",
+          "count": 12,
+          "label": "#FFEC5B",
+          "btnType": 1,
+          "value": "Yellow"
+        }
+      ],
+      "nested": false,
+      "key": "mainColor",
+      "unfold": true
+    },
+    {
+      "module": "upper_height",
+      "name": "Высота голенища",
+      "defaultShow": true,
+      "type": 2,
+      "items": [
+        {
+          "name": "Хай-топы",
+          "count": 38,
+          "btnType": 1,
+          "value": "High-top"
+        },
+        {
+          "name": "Низкий топ",
+          "count": 1316,
+          "btnType": 1,
+          "value": "Low-top"
+        },
+        {
+          "name": "Средний топ",
+          "count": 58,
+          "btnType": 1,
+          "value": "Mid-top"
+        },
+        {
+          "name": "Остальные",
+          "count": 86,
+          "btnType": 1,
+          "value": "Other"
+        }
+      ],
+      "nested": false,
+      "key": "upperHeight",
+      "unfold": true
+    }
+  ]
+}

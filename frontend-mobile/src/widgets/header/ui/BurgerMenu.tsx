@@ -5,8 +5,9 @@ import Icon from "@/shared/icon";
 import { Button } from "@/shared/ui/action";
 import Modal from "@/shared/ui/modal";
 import Link from "next/link";
-import { categoriesData } from "@/shared/data/category.data";
 import { cn } from "@/shared/utils/clsx";
+import { useCatalogData } from "@/shared/context/catalog-data";
+import { generateProductSlug } from "@/shared/utils/slug";
 
 interface BurgerMenuProps {
   onClose: () => void;
@@ -19,10 +20,11 @@ const contactLinks = [
 
 const BurgerMenu = ({ onClose }: BurgerMenuProps) => {
   useBodyScrollLock(true);
-  const [activePanel, setActivePanel] = useState<string | null>(null);
+  const [activePanel, setActivePanel] = useState<number | string | null>(null);
 
-  const handleCategoryClick = (slug: string) => {
-    setActivePanel(slug);
+  const { categoryData } = useCatalogData();
+  const handleCategoryClick = (id: number) => {
+    setActivePanel(id);
   };
 
   const handleContactClick = () => {
@@ -36,7 +38,7 @@ const BurgerMenu = ({ onClose }: BurgerMenuProps) => {
   // Данные для панели категорий
   const activeCategory =
     activePanel && activePanel !== "contact"
-      ? categoriesData.find((cat) => cat.slug === activePanel)
+      ? categoryData.categories.find((cat) => cat.id === activePanel)
       : null;
 
   return (
@@ -73,11 +75,11 @@ const BurgerMenu = ({ onClose }: BurgerMenuProps) => {
                   />
                 </Link>
               </li>
-              {categoriesData.map((cat) => (
+              {categoryData.categories.map((cat) => (
                 <li
-                  key={cat.slug}
+                  key={cat.id}
                   className="flex items-center justify-between cursor-pointer"
-                  onClick={() => handleCategoryClick(cat.slug)}
+                  onClick={() => handleCategoryClick(cat.id)}
                 >
                   {cat.title}
                   <Icon
@@ -87,15 +89,6 @@ const BurgerMenu = ({ onClose }: BurgerMenuProps) => {
                 </li>
               ))}
             </ul>
-          </div>
-
-          <div className="py-[4.8vw] border-t border-slate-300 flex items-center gap-[1.067vw]">
-            <div className="leading-[5.067vw] text-[4.267vw]">
-              Онлайн-проверка
-            </div>
-            <div className="text-teal-400 text-[3.2vw] leading-[3.733vw] italic mt-[-2.667vw]">
-              Новая
-            </div>
           </div>
 
           <div className="py-[4.8vw] border-t border-b border-slate-300">
@@ -156,16 +149,19 @@ const BurgerMenu = ({ onClose }: BurgerMenuProps) => {
               </h3>
             </div>
             <ul className="mt-[6.4vw] ml-[6.4vw] mr-[3.2vw] space-y-[6.4vw] text-[4.267vw] leading-[5.067vw] pb-[8vw]">
-              {activeCategory.children.map((child) => (
-                <li key={child.slug}>
-                  <Link href={`/category/${child.slug}`} onClick={onClose}>
+              {activeCategory.childTreeNode.map((child) => (
+                <li key={child.id}>
+                  <Link
+                    href={`/category/${generateProductSlug(child.title, child.id)}`}
+                    onClick={onClose}
+                  >
                     {child.title}
                   </Link>
                 </li>
               ))}
               <li>
                 <Link
-                  href={`/category/${activeCategory.slug}`}
+                  href={`/category/${generateProductSlug(activeCategory.title, activeCategory.id)}`}
                   onClick={onClose}
                 >
                   Все

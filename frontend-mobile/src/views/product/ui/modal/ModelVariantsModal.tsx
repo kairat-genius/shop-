@@ -11,6 +11,7 @@ interface ModelVariantsModalProps {
     image: string;
     is_current: boolean;
   }[];
+  categoryId: number;
 }
 
 const ModelVariantsModal = ({ onClose, variants }: ModelVariantsModalProps) => {

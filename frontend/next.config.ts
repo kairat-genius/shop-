@@ -6,6 +6,8 @@ const nextConfig: NextConfig = {
   },
   allowedDevOrigins: [
     "shop-eight-amber.vercel.app",
+    "localhost:3000",
+    "localhost:3001",
   ],
   output: "standalone",
   logging: {

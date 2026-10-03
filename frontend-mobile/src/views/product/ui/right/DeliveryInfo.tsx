@@ -3,6 +3,7 @@ import Icon from "@/shared/icon";
 import { Button } from "@/shared/ui/action";
 import dynamic from "next/dynamic";
 import { useState } from "react";
+import { useProductDetailData } from "../../context/useCatalogData";
 
 const DeliveryModal = dynamic(() => import("../modal/DeliveryModal"), {
   ssr: false,
@@ -15,6 +16,9 @@ const OrderProtectionModal = dynamic(
 const DeliveryInfo = () => {
   const [isDeliveryModalOpen, setIsDeliveryModalOpen] = useState(false);
   const [isProtectionModalOpen, setIsProtectionModalOpen] = useState(false);
+
+  const { activeSku } = useProductDetailData();
+  const deliveryInfoModel = activeSku?.skuSpeedInfo?.[0]?.deliveryInfoModel;
 
   return (
     <div className="px-[3.733vw] pt-[3.2vw]">
@@ -32,7 +36,7 @@ const DeliveryInfo = () => {
             />
             <div className="flex-1 text-[3.2vw] leading-[3.733vw] pt-px">
               Срок доставки по адресу:{" "}
-              <span className="underline">Москву,ЦФО</span>
+              <span className="underline">Минск,ЦФО</span>
             </div>
           </div>
           <Icon
@@ -40,21 +44,18 @@ const DeliveryInfo = () => {
             className="ml-[3.2vw] text-slate-400 w-[3.2vw] h-[3.2vw]"
           />
         </div>
-        <div className="pl-[5.867vw] mt-[3.2vw] grid grid-cols-2 gap-[1.6vw] w-full text-left text-[2.933vw] leading-[4.267vw] font-light" >
-          <div className="bg-slate-50 px-[2.133vw] py-[1.6vw] rounded-[.533vw]">
-            <div className="truncate">Бесплатная доставка</div>
-            <div>19 июл. – 23 июл.</div>
-          </div>
-          <div className="bg-slate-50 px-[2.133vw] py-[1.6vw] rounded-[.533vw] relative overflow-hidden">
-            <div className="truncate">Ускоренная доставка</div>
-            <div>10 июл. – 14 июл.</div>
-            <img
-              className="top-[1.067vw] absolute right-[-2.133vw] w-[13.333vw] h-[13.333vw]"
-              src="https://cdn-img.thepoizon.ru/node-common/cad0af9c-c6b9-923e-1702-88b542cf4906-126-120.png?x-oss-process=image/format,webp"
-              alt="arrow"
-              loading="lazy"
-            />
-          </div>
+        <div className="px-[5.867vw] mt-[3.2vw] w-full text-left text-[2.933vw] leading-[4.267vw] font-light">
+          {deliveryInfoModel?.deliveryItems
+            .filter((item) => item.deliveryType !== 1)
+            .map((item, index) => (
+              <div
+                key={index}
+                className="bg-slate-50 px-[2.133vw] py-[1.6vw] rounded-[.533vw]"
+              >
+                <div className="truncate">{item.deliveryTypeText}</div>
+                <div>{item.deliveryTimeText}</div>
+              </div>
+            ))}
         </div>
       </Button>
       <Button

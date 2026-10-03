@@ -1,38 +1,32 @@
 "use client";
 import Icon from "@/shared/icon";
 import dynamic from "next/dynamic";
-import { useMemo, useState } from "react";
+import { useState } from "react";
+import { useProductDetailData } from "../../context/useCatalogData";
 
 const AboutProductModal = dynamic(() => import("../modal/AboutProductModal"), {
   ssr: false,
 });
 
-const featureGroups = [
-  {
-    title: "Цветовая гамма",
-    items: [
-      { label: "Основной цвет", value: "Розовый" },
-      { label: "Расцветка", value: "Розовый" },
-    ],
-  },
-  {
-    title: "Дополнительные",
-    items: [
-      { label: "Высота голенища", value: "Низкий топ" },
-      { label: "Тип застежки", value: "Шнуровка" },
-      { label: "Дополнительный цвет", value: "Черный" },
-      { label: "Основной артикул", value: "IM3368-606" },
-    ],
-  },
-];
-
 const AboutProduct = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
-  const flatFeatures = useMemo(
-    () => featureGroups.flatMap((group) => group.items),
-    [],
+  const {
+    productData: { propertyModule },
+  } = useProductDetailData();
+
+  const mainBlock = propertyModule?.propertyBlocks.find(
+    (block) => block.type === "main",
   );
+
+  const minorBlock = propertyModule?.propertyBlocks.find(
+    (block) => block.type === "minor",
+  );
+
+  const mainProperties = mainBlock?.propertyList ?? [];
+  const minorProperties = minorBlock?.propertyList ?? [];
+
+  const visibleProperties = [...mainProperties, ...minorProperties].slice(0, 4);
 
   return (
     <>
@@ -45,14 +39,14 @@ const AboutProduct = () => {
         </div>
         <div className="overflow-x-auto scrollbar-none h-[8vw]">
           <ul className="flex w-fit items-center">
-            {flatFeatures.map((feature, index) => (
+            {visibleProperties.map((feature, index) => (
               <li
                 key={index}
                 className="flex flex-col justify-center gap-[1.067vw] px-[1.6vw] min-w-[14.133vw] max-w-[28.8vw] truncate leading-[normal]"
               >
                 <span className="h-[4vw] text-[3.2vw]">{feature.value}</span>
                 <span className="h-[4vw] text-[2.933vw] font-light text-slate-500">
-                  {feature.label}
+                  {feature.name}
                 </span>
               </li>
             ))}
@@ -68,7 +62,7 @@ const AboutProduct = () => {
       {isModalOpen && (
         <AboutProductModal
           onClose={() => setIsModalOpen(false)}
-          featureGroups={featureGroups}
+          propertyModule={propertyModule}
         />
       )}
     </>

@@ -137,7 +137,7 @@ const RecommendedProducts = () => {
           return (
             <SwiperSlide key={slide.slug}>
               <div className="grid grid-cols-2">
-                {itemsToShow.length > 0 ? (
+                {/* {itemsToShow.length > 0 ? (
                   itemsToShow.map((product, idx) => {
                     const isLeft = idx % 2 === 0;
                     const isFirstRow = idx < 2;
@@ -161,7 +161,7 @@ const RecommendedProducts = () => {
                   <div className="col-span-2 text-center py-8 text-slate-400">
                     В этой подборке пока нет товаров
                   </div>
-                )}
+                )} */}
               </div>
               {hasMore && (
                 <Button

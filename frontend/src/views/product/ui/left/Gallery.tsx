@@ -62,6 +62,12 @@ const Gallery = () => {
 
   const productImageModels =
     saleImages?.[String(activeColorValueId)] ?? imageModels;
+
+  const matchesActiveColor = (item: { propertyValueId?: number | null }) =>
+    activeColorValueId === null ||
+    item.propertyValueId === undefined ||
+    item.propertyValueId === activeColorValueId;
+
   const productImagesByColor: GalleryImage[] = productImageModels
     .filter(
       (item) =>
@@ -77,28 +83,32 @@ const Gallery = () => {
       : selectedColorImage
         ? [{ id: activeColorValueId ?? 0, url: selectedColorImage }]
         : [];
+
   const styleImages: GalleryImage[] =
     mainImgWearStyleResp?.spuItems.map((item) => ({
       id: item.contentId,
       url: item.url,
       hasBackdrop: true,
     })) ?? [];
+
   const outfitImages: GalleryImage[] = allImageModels
     .filter(
       (item) =>
-        item.label === 1 ||
-        item.genericType.includes("OUTFIT") ||
-        item.imgEvenTrace.includes('"position":"outfits"'),
-    )
-    .map((item) => ({ id: item.imageId, url: item.url }));
-  const sizeImages: GalleryImage[] = allImageModels
-    .filter(
-      (item) =>
-        item.label === 2 ||
-        item.genericType.startsWith("SIZE_CAPACITY_DIAGRAM"),
+        (item.label === 1 ||
+          item.genericType.includes("OUTFIT") ||
+          item.imgEvenTrace.includes('"position":"outfits"')) &&
+        matchesActiveColor(item),
     )
     .map((item) => ({ id: item.imageId, url: item.url }));
 
+  const sizeImages: GalleryImage[] = allImageModels
+    .filter(
+      (item) =>
+        (item.label === 2 ||
+          item.genericType.startsWith("SIZE_CAPACITY_DIAGRAM")) &&
+        matchesActiveColor(item),
+    )
+    .map((item) => ({ id: item.imageId, url: item.url }));
   const gallerySections = [
     { id: "products" as const, label: "Товары", images: productImages },
     { id: "styles" as const, label: "Стили", images: styleImages },

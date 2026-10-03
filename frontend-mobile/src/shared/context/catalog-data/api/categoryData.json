@@ -1,0 +1,833 @@
+{
+  "categories": [
+    {
+      "level": 1,
+      "id": 500000091,
+      "pic": "",
+      "title": "Кроссовки",
+      "isEnd": 0,
+      "url": "/category/sneakers",
+      "parentId": 0,
+      "childTreeNode": [
+        {
+          "level": 2,
+          "id": 500000368,
+          "pic": "",
+          "title": "Баскетбол",
+          "isEnd": 0,
+          "url": "/category/sneakers-basketball",
+          "parentId": 500000091,
+          "childTreeNode": []
+        },
+        {
+          "level": 2,
+          "id": 500000370,
+          "pic": "",
+          "title": "Скейтбординг",
+          "isEnd": 0,
+          "url": "/category/sneakers-skateboarding",
+          "parentId": 500000091,
+          "childTreeNode": []
+        },
+        {
+          "level": 2,
+          "id": 500000372,
+          "pic": "",
+          "title": "Модные кроссовки и повседневная обувь",
+          "isEnd": 0,
+          "url": "/category/trendy-sneakers-casual-shoes",
+          "parentId": 500000091,
+          "childTreeNode": []
+        },
+        {
+          "level": 2,
+          "id": 500000374,
+          "pic": "",
+          "title": "Бег",
+          "isEnd": 0,
+          "url": "/category/sneakers-running",
+          "parentId": 500000091,
+          "childTreeNode": []
+        },
+        {
+          "level": 2,
+          "id": 500000376,
+          "pic": "",
+          "title": "Тренировки",
+          "isEnd": 0,
+          "url": "/category/sneakers-training",
+          "parentId": 500000091,
+          "childTreeNode": []
+        },
+        {
+          "level": 2,
+          "id": 500000378,
+          "pic": "",
+          "title": "Бутсы",
+          "isEnd": 0,
+          "url": "/category/sneakers-cleats",
+          "parentId": 500000091,
+          "childTreeNode": []
+        },
+        {
+          "level": 2,
+          "id": 500000380,
+          "pic": "",
+          "title": "Туризм и активный отдых",
+          "isEnd": 0,
+          "url": "/category/sneakers-outdoors",
+          "parentId": 500000091,
+          "childTreeNode": []
+        },
+        {
+          "level": 2,
+          "id": 500000712,
+          "pic": "",
+          "title": "Бейсбольные бутсы",
+          "isEnd": 0,
+          "url": "/category/baseball-cleats",
+          "parentId": 500000091,
+          "childTreeNode": []
+        },
+        {
+          "level": 2,
+          "id": 500000714,
+          "pic": "",
+          "title": "Обувь для настольного тенниса",
+          "isEnd": 0,
+          "url": "/category/sneakers-table-tennis-shoes",
+          "parentId": 500000091,
+          "childTreeNode": []
+        }
+      ]
+    },
+    {
+      "level": 1,
+      "id": 500000106,
+      "pic": "",
+      "title": "Обувь",
+      "isEnd": 0,
+      "url": "/category/shoes",
+      "parentId": 0,
+      "childTreeNode": [
+        {
+          "level": 2,
+          "id": 500000382,
+          "pic": "",
+          "title": "Ботинки",
+          "isEnd": 0,
+          "url": "/category/boots-shoes",
+          "parentId": 500000106,
+          "childTreeNode": []
+        },
+        {
+          "level": 2,
+          "id": 500000389,
+          "pic": "",
+          "title": "Балетки",
+          "isEnd": 0,
+          "url": "/category/shoes-flats",
+          "parentId": 500000106,
+          "childTreeNode": []
+        },
+        {
+          "level": 2,
+          "id": 500000391,
+          "pic": "",
+          "title": "Повседневная обувь",
+          "isEnd": 0,
+          "url": "/category/shoes-casual-shoes",
+          "parentId": 500000106,
+          "childTreeNode": []
+        },
+        {
+          "level": 2,
+          "id": 500000393,
+          "pic": "",
+          "title": "Модная обувь",
+          "isEnd": 0,
+          "url": "/category/fashion-footwear-shoes",
+          "parentId": 500000106,
+          "childTreeNode": []
+        },
+        {
+          "level": 2,
+          "id": 500000395,
+          "pic": "",
+          "title": "Сандалии и шлепанцы",
+          "isEnd": 0,
+          "url": "/category/sandals-flip-flops-shoes",
+          "parentId": 500000106,
+          "childTreeNode": []
+        },
+        {
+          "level": 2,
+          "id": 500000398,
+          "pic": "",
+          "title": "Туфли",
+          "isEnd": 0,
+          "url": "/category/shoes-dress-shoes",
+          "parentId": 500000106,
+          "childTreeNode": []
+        },
+        {
+          "level": 2,
+          "id": 500000620,
+          "pic": "",
+          "title": "Традиционная обувь",
+          "isEnd": 0,
+          "url": "/category/traditional-footwear-shoes",
+          "parentId": 500000106,
+          "childTreeNode": []
+        },
+        {
+          "level": 2,
+          "id": 500000623,
+          "pic": "",
+          "title": "Танцевальная обувь",
+          "isEnd": 0,
+          "url": "/category/dance-shoes",
+          "parentId": 500000106,
+          "childTreeNode": []
+        }
+      ]
+    },
+    {
+      "level": 1,
+      "id": 500000125,
+      "pic": "",
+      "title": "Одежда",
+      "isEnd": 0,
+      "url": "/category/apparel",
+      "parentId": 0,
+      "childTreeNode": [
+        {
+          "level": 2,
+          "id": 500000263,
+          "pic": "",
+          "title": "Худи и свитшоты",
+          "isEnd": 0,
+          "url": "/category/hoodies-sweatshirts-apparel",
+          "parentId": 500000125,
+          "childTreeNode": []
+        },
+        {
+          "level": 2,
+          "id": 500000265,
+          "pic": "",
+          "title": "Куртки и пальто",
+          "isEnd": 0,
+          "url": "/category/jackets-coats-apparel",
+          "parentId": 500000125,
+          "childTreeNode": []
+        },
+        {
+          "level": 2,
+          "id": 500000276,
+          "pic": "",
+          "title": "Свитеры",
+          "isEnd": 0,
+          "url": "/category/sweaters-apparel",
+          "parentId": 500000125,
+          "childTreeNode": []
+        },
+        {
+          "level": 2,
+          "id": 500000278,
+          "pic": "",
+          "title": "Топы",
+          "isEnd": 0,
+          "url": "/category/tops-apparel",
+          "parentId": 500000125,
+          "childTreeNode": []
+        },
+        {
+          "level": 2,
+          "id": 500000283,
+          "pic": "",
+          "title": "Деним",
+          "isEnd": 0,
+          "url": "/category/denim-apparel",
+          "parentId": 500000125,
+          "childTreeNode": []
+        },
+        {
+          "level": 2,
+          "id": 500000288,
+          "pic": "",
+          "title": "Брюки",
+          "isEnd": 0,
+          "url": "/category/pants-apparel",
+          "parentId": 500000125,
+          "childTreeNode": []
+        },
+        {
+          "level": 2,
+          "id": 500000294,
+          "pic": "",
+          "title": "Шорты и юбки",
+          "isEnd": 0,
+          "url": "/category/shorts-skirts-apparel",
+          "parentId": 500000125,
+          "childTreeNode": []
+        },
+        {
+          "level": 2,
+          "id": 500000297,
+          "pic": "",
+          "title": "Платья",
+          "isEnd": 0,
+          "url": "/category/apparel-dresses",
+          "parentId": 500000125,
+          "childTreeNode": []
+        },
+        {
+          "level": 2,
+          "id": 500000299,
+          "pic": "",
+          "title": "Комбинезоны и комплекты",
+          "isEnd": 0,
+          "url": "/category/jumpsuits-sets-apparel",
+          "parentId": 500000125,
+          "childTreeNode": []
+        },
+        {
+          "level": 2,
+          "id": 500000302,
+          "pic": "",
+          "title": "Спортивная одежда",
+          "isEnd": 0,
+          "url": "/category/activewear-apparel",
+          "parentId": 500000125,
+          "childTreeNode": []
+        },
+        {
+          "level": 2,
+          "id": 500000309,
+          "pic": "",
+          "title": "Домашняя одежда и нижнее белье",
+          "isEnd": 0,
+          "url": "/category/loungewear-underwear-apparel",
+          "parentId": 500000125,
+          "childTreeNode": []
+        },
+        {
+          "level": 2,
+          "id": 500000312,
+          "pic": "",
+          "title": "Пляжная одежда",
+          "isEnd": 0,
+          "url": "/category/beachwear",
+          "parentId": 500000125,
+          "childTreeNode": []
+        }
+      ]
+    },
+    {
+      "level": 1,
+      "id": 500000178,
+      "pic": "",
+      "title": "Сумки",
+      "isEnd": 0,
+      "url": "/category/bags",
+      "parentId": 0,
+      "childTreeNode": [
+        {
+          "level": 2,
+          "id": 500000315,
+          "pic": "",
+          "title": "Сумки через плечо",
+          "isEnd": 0,
+          "url": "/category/bags-shoulder-bags",
+          "parentId": 500000178,
+          "childTreeNode": []
+        },
+        {
+          "level": 2,
+          "id": 500000317,
+          "pic": "",
+          "title": "Ручные сумки",
+          "isEnd": 0,
+          "url": "/category/bags-handbags",
+          "parentId": 500000178,
+          "childTreeNode": []
+        },
+        {
+          "level": 2,
+          "id": 500000319,
+          "pic": "",
+          "title": "Сумки кросс-боди",
+          "isEnd": 0,
+          "url": "/category/bags-crossbody-bags",
+          "parentId": 500000178,
+          "childTreeNode": []
+        },
+        {
+          "level": 2,
+          "id": 500000321,
+          "pic": "",
+          "title": "Рюкзаки",
+          "isEnd": 0,
+          "url": "/category/bags-backpacks",
+          "parentId": 500000178,
+          "childTreeNode": []
+        },
+        {
+          "level": 2,
+          "id": 500000323,
+          "pic": "",
+          "title": "Поясные сумки",
+          "isEnd": 0,
+          "url": "/category/bags-bum-bags-belt-bags",
+          "parentId": 500000178,
+          "childTreeNode": []
+        },
+        {
+          "level": 2,
+          "id": 500000325,
+          "pic": "",
+          "title": "Клатчи и наручные кошельки",
+          "isEnd": 0,
+          "url": "/category/bags-clutches-wristlets",
+          "parentId": 500000178,
+          "childTreeNode": []
+        },
+        {
+          "level": 2,
+          "id": 500000327,
+          "pic": "",
+          "title": "Даффлы и дорожные сумки",
+          "isEnd": 0,
+          "url": "/category/duffles-travel-bags",
+          "parentId": 500000178,
+          "childTreeNode": []
+        },
+        {
+          "level": 2,
+          "id": 500000330,
+          "pic": "",
+          "title": "Другие сумки",
+          "isEnd": 0,
+          "url": "/category/bags-other-bags",
+          "parentId": 500000178,
+          "childTreeNode": []
+        }
+      ]
+    },
+    {
+      "level": 1,
+      "id": 500000196,
+      "pic": "",
+      "title": "Аксессуары",
+      "isEnd": 0,
+      "url": "/category/accessories",
+      "parentId": 0,
+      "childTreeNode": [
+        {
+          "level": 2,
+          "id": 500000332,
+          "pic": "",
+          "title": "Ожерелья и подвески",
+          "isEnd": 0,
+          "url": "/category/accessories-necklaces-pendants",
+          "parentId": 500000196,
+          "childTreeNode": []
+        },
+        {
+          "level": 2,
+          "id": 500000334,
+          "pic": "",
+          "title": "Кольца",
+          "isEnd": 0,
+          "url": "/category/accessories-rings",
+          "parentId": 500000196,
+          "childTreeNode": []
+        },
+        {
+          "level": 2,
+          "id": 500000336,
+          "pic": "",
+          "title": "Браслеты",
+          "isEnd": 0,
+          "url": "/category/accessories-bracelets-bangles",
+          "parentId": 500000196,
+          "childTreeNode": []
+        },
+        {
+          "level": 2,
+          "id": 500000338,
+          "pic": "",
+          "title": "Серьги",
+          "isEnd": 0,
+          "url": "/category/accessories-earrings",
+          "parentId": 500000196,
+          "childTreeNode": []
+        },
+        {
+          "level": 2,
+          "id": 500000340,
+          "pic": "",
+          "title": "Шапки и кепки",
+          "isEnd": 0,
+          "url": "/category/hats-caps-accessories",
+          "parentId": 500000196,
+          "childTreeNode": []
+        },
+        {
+          "level": 2,
+          "id": 500000346,
+          "pic": "",
+          "title": "Шарфы и шали",
+          "isEnd": 0,
+          "url": "/category/accessories-scarves-shawls",
+          "parentId": 500000196,
+          "childTreeNode": []
+        },
+        {
+          "level": 2,
+          "id": 500000348,
+          "pic": "",
+          "title": "Перчатки",
+          "isEnd": 0,
+          "url": "/category/accessories-gloves",
+          "parentId": 500000196,
+          "childTreeNode": []
+        },
+        {
+          "level": 2,
+          "id": 500000350,
+          "pic": "",
+          "title": "Очки",
+          "isEnd": 0,
+          "url": "/category/eyewear-accessories",
+          "parentId": 500000196,
+          "childTreeNode": []
+        },
+        {
+          "level": 2,
+          "id": 500000353,
+          "pic": "",
+          "title": "Кошельки и картхолдеры",
+          "isEnd": 0,
+          "url": "/category/wallets-card-holders-accessories",
+          "parentId": 500000196,
+          "childTreeNode": []
+        },
+        {
+          "level": 2,
+          "id": 500000356,
+          "pic": "",
+          "title": "Ремни",
+          "isEnd": 0,
+          "url": "/category/accessories-belts",
+          "parentId": 500000196,
+          "childTreeNode": []
+        },
+        {
+          "level": 2,
+          "id": 500000358,
+          "pic": "",
+          "title": "Брелоки",
+          "isEnd": 0,
+          "url": "/category/accessories-keychains",
+          "parentId": 500000196,
+          "childTreeNode": []
+        },
+        {
+          "level": 2,
+          "id": 500000360,
+          "pic": "",
+          "title": "Часы",
+          "isEnd": 0,
+          "url": "/category/accessories-watches",
+          "parentId": 500000196,
+          "childTreeNode": []
+        },
+        {
+          "level": 2,
+          "id": 500000362,
+          "pic": "",
+          "title": "Другие аксессуары",
+          "isEnd": 0,
+          "url": "/category/other-accessories",
+          "parentId": 500000196,
+          "childTreeNode": []
+        }
+      ]
+    },
+    {
+      "level": 1,
+      "id": 500000230,
+      "pic": "",
+      "title": "Игрушки",
+      "isEnd": 0,
+      "url": "/category/toys",
+      "parentId": 0,
+      "childTreeNode": [
+        {
+          "level": 2,
+          "id": 500000231,
+          "pic": "",
+          "title": "Арт-игрушки",
+          "isEnd": 0,
+          "url": "/category/toys-collectibles-art-toys",
+          "parentId": 500000230,
+          "childTreeNode": []
+        },
+        {
+          "level": 2,
+          "id": 500000233,
+          "pic": "",
+          "title": "Куклы",
+          "isEnd": 0,
+          "url": "/category/toys-collectibles-dolls",
+          "parentId": 500000230,
+          "childTreeNode": []
+        },
+        {
+          "level": 2,
+          "id": 500000706,
+          "pic": "",
+          "title": "Моделизм и головоломки",
+          "isEnd": 0,
+          "url": "/category/models-puzzles-toys",
+          "parentId": 500000230,
+          "childTreeNode": []
+        },
+        {
+          "level": 2,
+          "id": 500000723,
+          "pic": "",
+          "title": "Коллекционные карточки и прочее",
+          "isEnd": 0,
+          "url": "/category/toys-trading-cards-others",
+          "parentId": 500000230,
+          "childTreeNode": []
+        },
+        {
+          "level": 2,
+          "id": 500000748,
+          "pic": "",
+          "title": "Слепые коробки и капсульные игрушки",
+          "isEnd": 0,
+          "url": "/category/mystery-boxes-capsule-toys",
+          "parentId": 500000230,
+          "childTreeNode": []
+        }
+      ]
+    },
+    {
+      "level": 1,
+      "id": 500000593,
+      "pic": "",
+      "title": "Красота и уход",
+      "isEnd": 0,
+      "url": "/category/beauty-personal-care",
+      "parentId": 0,
+      "childTreeNode": [
+        {
+          "level": 2,
+          "id": 500000594,
+          "pic": "",
+          "title": "Продукты для гигиены полости рта",
+          "isEnd": 0,
+          "url": "/category/oral-care-products",
+          "parentId": 500000593,
+          "childTreeNode": []
+        },
+        {
+          "level": 2,
+          "id": 500000596,
+          "pic": "",
+          "title": "Инструменты для красоты",
+          "isEnd": 0,
+          "url": "/category/beauty-tools",
+          "parentId": 500000593,
+          "childTreeNode": []
+        },
+        {
+          "level": 2,
+          "id": 500000653,
+          "pic": "",
+          "title": "Парфюмерия",
+          "isEnd": 0,
+          "url": "/category/fragrances-beauty-personal-care",
+          "parentId": 500000593,
+          "childTreeNode": []
+        },
+        {
+          "level": 2,
+          "id": 500000716,
+          "pic": "",
+          "title": "Макияж",
+          "isEnd": 0,
+          "url": "/category/beauty-personal-care-makeup",
+          "parentId": 500000593,
+          "childTreeNode": []
+        },
+        {
+          "level": 2,
+          "id": 500000718,
+          "pic": "",
+          "title": "Уход за кожей",
+          "isEnd": 0,
+          "url": "/category/skincare",
+          "parentId": 500000593,
+          "childTreeNode": []
+        },
+        {
+          "level": 2,
+          "id": 500000721,
+          "pic": "",
+          "title": "Средства личной гигиены",
+          "isEnd": 0,
+          "url": "/category/personal-care",
+          "parentId": 500000593,
+          "childTreeNode": []
+        }
+      ]
+    },
+    {
+      "level": 1,
+      "id": 500000725,
+      "pic": "",
+      "title": "Электроника и аксессуары",
+      "isEnd": 0,
+      "url": "/category/electronics-accessories",
+      "parentId": 0,
+      "childTreeNode": [
+        {
+          "level": 2,
+          "id": 500000726,
+          "pic": "",
+          "title": "Фототехника",
+          "isEnd": 0,
+          "url": "/category/electronics-accessories-cameras",
+          "parentId": 500000725,
+          "childTreeNode": []
+        },
+        {
+          "level": 2,
+          "id": 500000728,
+          "pic": "",
+          "title": "Аксессуары для смартфонов",
+          "isEnd": 0,
+          "url": "/category/cell-phone-accessories",
+          "parentId": 500000725,
+          "childTreeNode": []
+        },
+        {
+          "level": 2,
+          "id": 500000730,
+          "pic": "",
+          "title": "Смартфоны",
+          "isEnd": 0,
+          "url": "/category/electronics-accessories-cell-phone",
+          "parentId": 500000725,
+          "childTreeNode": []
+        },
+        {
+          "level": 2,
+          "id": 500000732,
+          "pic": "",
+          "title": "Аксессуары для компьютеров и планшетов",
+          "isEnd": 0,
+          "url": "/category/computer-tablet-accessories",
+          "parentId": 500000725,
+          "childTreeNode": []
+        },
+        {
+          "level": 2,
+          "id": 500000735,
+          "pic": "",
+          "title": "Компьютеры",
+          "isEnd": 0,
+          "url": "/category/computers-electronics-accessories",
+          "parentId": 500000725,
+          "childTreeNode": []
+        },
+        {
+          "level": 2,
+          "id": 500000739,
+          "pic": "",
+          "title": "Наушники",
+          "isEnd": 0,
+          "url": "/category/electronics-accessories-headphones",
+          "parentId": 500000725,
+          "childTreeNode": []
+        },
+        {
+          "level": 2,
+          "id": 500000741,
+          "pic": "",
+          "title": "Другие аксессуары для электроники",
+          "isEnd": 0,
+          "url": "/category/electronics-accessories-other-electronics-accessories",
+          "parentId": 500000725,
+          "childTreeNode": []
+        },
+        {
+          "level": 2,
+          "id": 500000744,
+          "pic": "",
+          "title": "Колонки",
+          "isEnd": 0,
+          "url": "/category/electronics-accessories-speakers",
+          "parentId": 500000725,
+          "childTreeNode": []
+        },
+        {
+          "level": 2,
+          "id": 500000746,
+          "pic": "",
+          "title": "Носимые устройства",
+          "isEnd": 0,
+          "url": "/category/electronics-accessories-wearables",
+          "parentId": 500000725,
+          "childTreeNode": []
+        }
+      ]
+    },
+    {
+      "level": 1,
+      "id": 500000751,
+      "pic": "",
+      "title": "Товары для дома",
+      "isEnd": 0,
+      "url": "/category/home",
+      "parentId": 0,
+      "childTreeNode": [
+        {
+          "level": 2,
+          "id": 500000752,
+          "pic": "",
+          "title": "Декор для дома",
+          "isEnd": 0,
+          "url": "/category/home-decorations",
+          "parentId": 500000751,
+          "childTreeNode": []
+        },
+        {
+          "level": 2,
+          "id": 500000754,
+          "pic": "",
+          "title": "Товары повседневного спроса",
+          "isEnd": 0,
+          "url": "/category/daily-necessities",
+          "parentId": 500000751,
+          "childTreeNode": []
+        },
+        {
+          "level": 2,
+          "id": 500000756,
+          "pic": "",
+          "title": "Хранение и организация",
+          "isEnd": 0,
+          "url": "/category/storage-organization",
+          "parentId": 500000751,
+          "childTreeNode": []
+        }
+      ]
+    }
+  ]
+}

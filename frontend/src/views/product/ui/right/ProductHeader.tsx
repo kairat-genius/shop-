@@ -35,15 +35,6 @@ const ProductHeader = () => {
             <Icon icon="circle-question-mark" width={14} height={14} />
           </Button>
         </div>
-        <Button className="text-slate-500 text-[12px] font-light leading-3.5">
-          U***U недавно купил(а)
-          <Icon
-            icon="chevron-right"
-            width={12}
-            height={12}
-            className="shrink-0"
-          />
-        </Button>
       </div>
       <div className="flex items-center gap-1.5 mt-2">
         {rankingList.map((rankInfo) => (

@@ -52,12 +52,6 @@ const Header = () => {
             className="flex flex-col font-medium items-center"
             href="/authentication/home"
           >
-            <Icon icon="scan-search" className="h-[8vw] w-[8.533vw]" />
-          </Link>
-          <Link
-            className="flex flex-col font-medium items-center"
-            href="/authentication/home"
-          >
             <Icon icon="heart-list" className="h-[8vw] w-[8.533vw]" />
           </Link>
         </div>

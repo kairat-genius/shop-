@@ -3,18 +3,33 @@
 import { useState } from "react"; // Импортируем useState
 import { Button } from "@/shared/ui/action";
 import Icon from "@/shared/icon";
-import { SIZE_COLUMNS, SIZE_ROWS } from "../../data/SizeFinder.data";
 import dynamic from "next/dynamic";
+import { useSizeTable } from "../../model/useSizeTable";
+import type { SizeAssistantModuleType } from "@/types/product-detail.type";
+import { cn } from "@/shared/utils/clsx";
+import SizeTable from "@/shared/ui/size-table";
+import FittingReportTable from "./FittingReportTable";
 
 const SizeFinderModal = dynamic(() => import("../modal/SizeFinderModal"), {
   ssr: false,
 });
 
-const SizeFinder = () => {
+interface SizeFinderProps {
+  sizeAssistantModule: SizeAssistantModuleType;
+  productId: number;
+}
+
+const SizeFinder = ({ sizeAssistantModule, productId }: SizeFinderProps) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
+
   const [isScrolled, setIsScrolled] = useState(false);
 
-  // Функция-обработчик скролла
+  const { activeUnit, setActiveUnit, tableData, fittingReportData } =
+    useSizeTable(
+      sizeAssistantModule.size,
+      sizeAssistantModule.fittingReportTable,
+    );
+
   const handleScroll = (e: React.UIEvent<HTMLDivElement>) => {
     setIsScrolled(e.currentTarget.scrollLeft > 0);
   };
@@ -26,21 +41,30 @@ const SizeFinder = () => {
           className="font-bold font-roboto_condensed text-[4.8vw] leading-[normal]"
           onClick={() => setIsModalOpen(true)}
         >
-          Найдите свой размер
+          {sizeAssistantModule.title}
         </div>
         <div className="flex items-center">
-          <Button
-            className="min-w-[10.667vw] h-[6.4vw] shrink-0 bg-slate-100 text-slate-500 rounded-s-[1.067vw] text-[3.733vw] font-bold leading-[normal]"
-            dir="ltr"
-          >
-            inch
-          </Button>
-          <Button
-            className="min-w-[10.667vw] h-[6.4vw] shrink-0 bg-white border border-slate-950 rounded-s-[1.067vw] text-[3.733vw] font-bold leading-[normal]"
-            dir="rtl"
-          >
-            cm
-          </Button>
+          {sizeAssistantModule.sizeUnits.map((unitObj, idx) => {
+            const isActive = activeUnit === unitObj.unit;
+            return (
+              <Button
+                key={unitObj.unit}
+                onClick={() => setActiveUnit(unitObj.unit)}
+                className={cn(
+                  "transition-colors min-w-[10.667vw] h-[6.4vw] shrink-0 rounded-s-[1.067vw] text-[3.733vw] font-bold leading-[normal]",
+                  isActive
+                    ? "bg-white border border-slate-950 text-slate-900 z-10 relative"
+                    : "bg-slate-100 text-slate-500 border border-transparent",
+                  idx === 0
+                    ? "rounded-s-sm rounded-r-none"
+                    : "rounded-e-sm rounded-l-none",
+                )}
+                dir={idx === 0 ? "ltr" : "rtl"}
+              >
+                {unitObj.unit}
+              </Button>
+            );
+          })}
         </div>
       </div>
 
@@ -49,95 +73,38 @@ const SizeFinder = () => {
         onClick={() => setIsModalOpen(true)}
       >
         <div className="text-[3.2vw] leading-[normal]">
-          <span>Получите персональные рекомендации.</span>
+          {sizeAssistantModule.sizeRecommend.recommendTitleRichText}
         </div>
         <div className="flex items-center justify-center w-[3.733vw] h-[3.733vw] text-slate-500">
           <Icon icon="pen-line" width={14} height={14} />
         </div>
       </div>
 
-      {/* Добавили onScroll для отслеживания движения */}
-      <div
+      <SizeTable
+        columns={tableData.columns}
+        rows={tableData.rows}
+        isScrolled={isScrolled}
         onScroll={handleScroll}
-        className="mb-[3.2vw] overflow-x-auto scrollbar-none border border-slate-200 rounded-[1.067vw]"
-      >
-        <table
-          className="min-w-max text-center w-full border-separate border-spacing-0"
-          onClick={() => setIsModalOpen(true)}
-        >
-          <thead>
-            <tr className="text-[3.2vw] font-semibold font-roboto_condensed leading-[normal]">
-              {SIZE_COLUMNS.map((column, index) => {
-                const isFirst = index === 0;
-
-                const cellStyle = {
-                  minWidth: "11.57vw",
-                  ...(isFirst && {
-                    position: "sticky" as const,
-                    left: 0,
-                    zIndex: 20,
-                    // Тень появляется динамически
-                    boxShadow: isScrolled
-                      ? "6px 0 10px -4px rgba(0, 0, 0, 0.15)"
-                      : "none",
-                    // Плавный переход для тени, чтобы она не прыгала резко
-                    transition: "box-shadow 0.2s ease-in-out",
-                    
-                  }),
-                };
-
-                return (
-                  <th
-                    key={index}
-                    style={cellStyle}
-                    className="text-center border-r border-b border-slate-200 text-slate-500 bg-slate-100 py-[1.6vw] px-[1.067vw]"
-                  >
-                    {Array.isArray(column)
-                      ? column.map((word) => <div key={word}>{word}</div>)
-                      : column}
-                  </th>
-                );
-              })}
-            </tr>
-          </thead>
-
-          <tbody>
-            {SIZE_ROWS.slice(0, 1).map((row, rowIndex) => (
-              <tr
-                key={rowIndex}
-                className="text-[2.933vw] leading-[normal] whitespace-nowrap"
-              >
-                {row.map((cell, cellIndex) => {
-                  const isFirst = cellIndex === 0;
-                  const cellStyle = {
-                    minWidth: "11.57vw",
-                    ...(isFirst && {
-                      position: "sticky" as const,
-                      left: 0,
-                      zIndex: 20,
-                      boxShadow: isScrolled
-                        ? "6px 0 10px -4px rgba(0, 0, 0, 0.15)"
-                        : "none",
-                      transition: "box-shadow 0.2s ease-in-out",
-                    }),
-                  };
-                  return (
-                    <td
-                      key={cellIndex}
-                      style={cellStyle}
-                      className={`border-r border-slate-200 py-[1.6vw] px-[1.067vw] ${
-                        rowIndex % 2 === 0 ? "bg-white" : "bg-[#f6f6f7]"
-                      }`}
-                    >
-                      {cell}
-                    </td>
-                  );
-                })}
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
+        onClick={() => setIsModalOpen(true)}
+        stickyFirstColumn
+      />
+      {fittingReportData && (
+        <div className="mb-[3.2vw]">
+          <div className="mb-[2.133vw] font-medium text-[3.733vw] font-roboto_condensed">
+            Параметры примерки
+          </div>
+          <FittingReportTable
+            data={fittingReportData}
+            models={sizeAssistantModule.fittingReportTable.models}
+            onClick={() => setIsModalOpen(true)}
+            stickyFirstColumn
+          />
+          <div className="mt-[3.2vw] text-[2.933vw] font-light text-slate-500 leading-[normal]">
+            * Данные примерки носят справочный характер. Выбирайте размер,
+            основываясь на своих параметрах.
+          </div>
+        </div>
+      )}
 
       <Button
         className="gap-[.533vw] text-slate-500 w-full"
@@ -154,7 +121,7 @@ const SizeFinder = () => {
         />
       </Button>
 
-      {isModalOpen && <SizeFinderModal onClose={() => setIsModalOpen(false)} />}
+      {isModalOpen && <SizeFinderModal onClose={() => setIsModalOpen(false)} productId={productId} />}
     </div>
   );
 };

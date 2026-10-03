@@ -122,7 +122,7 @@ const SizeFinderModalContent = ({
           </div>
           <div className="flex items-center mb-4">
             {sizeAssistantModule.size.sizeList.map((size, index) => {
-           const isActive = activeUnit === size.title;
+              const isActive = activeUnit === size.title;
               return (
                 <Button
                   key={size.title}

@@ -1,0 +1,2141 @@
+{
+  "facets": [
+    {
+      "module": "fit_type",
+      "name": "Пол",
+      "defaultShow": true,
+      "type": 2,
+      "items": [
+        {
+          "name": "Унисекс",
+          "count": 400,
+          "btnType": 1,
+          "value": "1"
+        },
+        {
+          "name": "Мужской",
+          "count": 566,
+          "btnType": 1,
+          "value": "2"
+        },
+        {
+          "name": "Женский",
+          "count": 506,
+          "btnType": 1,
+          "value": "3"
+        },
+        {
+          "name": "Дети",
+          "count": 14,
+          "btnType": 1,
+          "value": "4"
+        },
+        {
+          "name": "Школьный возраст",
+          "count": 8,
+          "btnType": 1,
+          "value": "7"
+        }
+      ],
+      "nested": false,
+      "key": "fitIds",
+      "unfold": true
+    },
+    {
+      "module": "brand",
+      "name": "Бренды",
+      "defaultShow": true,
+      "items": [],
+      "nested": true,
+      "nestedFacets": [
+        {
+          "module": "featured_brands",
+          "name": "Рекомендуемые ",
+          "defaultShow": true,
+          "type": 2,
+          "items": [
+            {
+              "name": "Crocs",
+              "count": 73,
+              "btnType": 1,
+              "value": "1000363"
+            },
+            {
+              "name": "UGG",
+              "count": 25,
+              "btnType": 1,
+              "value": "10214"
+            },
+            {
+              "name": "Adidas Originals",
+              "count": 28,
+              "btnType": 1,
+              "value": "494"
+            },
+            {
+              "name": "Nike",
+              "count": 33,
+              "btnType": 1,
+              "value": "144"
+            },
+            {
+              "name": "MADEN",
+              "count": 5,
+              "btnType": 1,
+              "value": "1010738"
+            },
+            {
+              "name": "PUMA",
+              "count": 11,
+              "btnType": 1,
+              "value": "2"
+            },
+            {
+              "name": "Dr.Martens",
+              "count": 18,
+              "btnType": 1,
+              "value": "10233"
+            },
+            {
+              "name": "Birkenstock",
+              "count": 7,
+              "btnType": 1,
+              "value": "1000156"
+            },
+            {
+              "name": "HOKA ONE ONE",
+              "count": 9,
+              "btnType": 1,
+              "value": "10246"
+            },
+            {
+              "name": "Adidas",
+              "count": 12,
+              "btnType": 1,
+              "value": "3"
+            },
+            {
+              "name": "Timberland",
+              "count": 43,
+              "btnType": 1,
+              "value": "10065"
+            },
+            {
+              "name": "SALOMON",
+              "count": 9,
+              "btnType": 1,
+              "value": "1000079"
+            },
+            {
+              "name": "Jordan",
+              "count": 5,
+              "btnType": 1,
+              "value": "13"
+            },
+            {
+              "name": "HUANQIU",
+              "count": 7,
+              "btnType": 1,
+              "value": "1011738"
+            },
+            {
+              "name": "Dickies",
+              "count": 5,
+              "btnType": 1,
+              "value": "10027"
+            }
+          ],
+          "nested": false,
+          "key": "brandIds",
+          "unfold": true
+        },
+        {
+          "module": "all_brands",
+          "name": "Все ",
+          "defaultShow": true,
+          "type": 2,
+          "items": [],
+          "nested": true,
+          "nestedFacets": [
+            {
+              "module": "brand_group_first_letter_A",
+              "name": "A",
+              "defaultShow": true,
+              "type": 2,
+              "items": [
+                {
+                  "name": "Adidas Originals",
+                  "count": 28,
+                  "btnType": 1,
+                  "value": "494"
+                },
+                {
+                  "name": "Adidas",
+                  "count": 12,
+                  "btnType": 1,
+                  "value": "3"
+                }
+              ],
+              "nested": false,
+              "key": "brandIds",
+              "unfold": true
+            },
+            {
+              "module": "brand_group_first_letter_B",
+              "name": "B",
+              "defaultShow": true,
+              "type": 2,
+              "items": [
+                {
+                  "name": "Birkenstock",
+                  "count": 7,
+                  "btnType": 1,
+                  "value": "1000156"
+                }
+              ],
+              "nested": false,
+              "key": "brandIds",
+              "unfold": true
+            },
+            {
+              "module": "brand_group_first_letter_C",
+              "name": "C",
+              "defaultShow": true,
+              "type": 2,
+              "items": [
+                {
+                  "name": "Crocs",
+                  "count": 73,
+                  "btnType": 1,
+                  "value": "1000363"
+                },
+                {
+                  "name": "CAMEL",
+                  "count": 9,
+                  "btnType": 1,
+                  "value": "1009343"
+                },
+                {
+                  "name": "CHARLES&KEITH",
+                  "count": 6,
+                  "btnType": 1,
+                  "value": "1002422"
+                },
+                {
+                  "name": "Clarks",
+                  "count": 7,
+                  "btnType": 1,
+                  "value": "1001545"
+                }
+              ],
+              "nested": false,
+              "key": "brandIds",
+              "unfold": true
+            },
+            {
+              "module": "brand_group_first_letter_D",
+              "name": "D",
+              "defaultShow": true,
+              "type": 2,
+              "items": [
+                {
+                  "name": "Dr.Martens",
+                  "count": 18,
+                  "btnType": 1,
+                  "value": "10233"
+                },
+                {
+                  "name": "Dickies",
+                  "count": 5,
+                  "btnType": 1,
+                  "value": "10027"
+                }
+              ],
+              "nested": false,
+              "key": "brandIds",
+              "unfold": true
+            },
+            {
+              "module": "brand_group_first_letter_G",
+              "name": "G",
+              "defaultShow": true,
+              "type": 2,
+              "items": [
+                {
+                  "name": "GUCCI",
+                  "count": 5,
+                  "btnType": 1,
+                  "value": "79"
+                }
+              ],
+              "nested": false,
+              "key": "brandIds",
+              "unfold": true
+            },
+            {
+              "module": "brand_group_first_letter_H",
+              "name": "H",
+              "defaultShow": true,
+              "type": 2,
+              "items": [
+                {
+                  "name": "HOKA ONE ONE",
+                  "count": 9,
+                  "btnType": 1,
+                  "value": "10246"
+                },
+                {
+                  "name": "HUANQIU",
+                  "count": 7,
+                  "btnType": 1,
+                  "value": "1011738"
+                },
+                {
+                  "name": "Havaianas",
+                  "count": 9,
+                  "btnType": 1,
+                  "value": "1000286"
+                }
+              ],
+              "nested": false,
+              "key": "brandIds",
+              "unfold": true
+            },
+            {
+              "module": "brand_group_first_letter_J",
+              "name": "J",
+              "defaultShow": true,
+              "type": 2,
+              "items": [
+                {
+                  "name": "Jordan",
+                  "count": 5,
+                  "btnType": 1,
+                  "value": "13"
+                }
+              ],
+              "nested": false,
+              "key": "brandIds",
+              "unfold": true
+            },
+            {
+              "module": "brand_group_first_letter_M",
+              "name": "M",
+              "defaultShow": true,
+              "type": 2,
+              "items": [
+                {
+                  "name": "MADEN",
+                  "count": 5,
+                  "btnType": 1,
+                  "value": "1010738"
+                }
+              ],
+              "nested": false,
+              "key": "brandIds",
+              "unfold": true
+            },
+            {
+              "module": "brand_group_first_letter_N",
+              "name": "N",
+              "defaultShow": true,
+              "type": 2,
+              "items": [
+                {
+                  "name": "Nike",
+                  "count": 33,
+                  "btnType": 1,
+                  "value": "144"
+                },
+                {
+                  "name": "New Balance",
+                  "count": 8,
+                  "btnType": 1,
+                  "value": "4"
+                }
+              ],
+              "nested": false,
+              "key": "brandIds",
+              "unfold": true
+            },
+            {
+              "module": "brand_group_first_letter_P",
+              "name": "P",
+              "defaultShow": true,
+              "type": 2,
+              "items": [
+                {
+                  "name": "PUMA",
+                  "count": 11,
+                  "btnType": 1,
+                  "value": "2"
+                }
+              ],
+              "nested": false,
+              "key": "brandIds",
+              "unfold": true
+            },
+            {
+              "module": "brand_group_first_letter_S",
+              "name": "S",
+              "defaultShow": true,
+              "type": 2,
+              "items": [
+                {
+                  "name": "SALOMON",
+                  "count": 9,
+                  "btnType": 1,
+                  "value": "1000079"
+                },
+                {
+                  "name": "Skechers",
+                  "count": 15,
+                  "btnType": 1,
+                  "value": "10336"
+                }
+              ],
+              "nested": false,
+              "key": "brandIds",
+              "unfold": true
+            },
+            {
+              "module": "brand_group_first_letter_T",
+              "name": "T",
+              "defaultShow": true,
+              "type": 2,
+              "items": [
+                {
+                  "name": "Timberland",
+                  "count": 43,
+                  "btnType": 1,
+                  "value": "10065"
+                }
+              ],
+              "nested": false,
+              "key": "brandIds",
+              "unfold": true
+            },
+            {
+              "module": "brand_group_first_letter_U",
+              "name": "U",
+              "defaultShow": true,
+              "type": 2,
+              "items": [
+                {
+                  "name": "UGG",
+                  "count": 25,
+                  "btnType": 1,
+                  "value": "10214"
+                }
+              ],
+              "nested": false,
+              "key": "brandIds",
+              "unfold": true
+            },
+            {
+              "module": "brand_group_first_letter_W",
+              "name": "W",
+              "defaultShow": true,
+              "type": 2,
+              "items": [
+                {
+                  "name": "WARRIOR",
+                  "count": 13,
+                  "btnType": 1,
+                  "value": "1000460"
+                }
+              ],
+              "nested": false,
+              "key": "brandIds",
+              "unfold": true
+            },
+            {
+              "module": "brand_group_first_letter_Z",
+              "name": "Z",
+              "defaultShow": true,
+              "type": 2,
+              "items": [
+                {
+                  "name": "ZARA",
+                  "count": 7,
+                  "btnType": 1,
+                  "value": "1002881"
+                }
+              ],
+              "nested": false,
+              "key": "brandIds",
+              "unfold": true
+            }
+          ],
+          "key": "brandIds",
+          "unfold": true
+        }
+      ],
+      "key": "brandIds",
+      "unfold": true
+    },
+    {
+      "module": "buySeason",
+      "name": "Сезон",
+      "defaultShow": true,
+      "type": 2,
+      "items": [
+        {
+          "name": "Всесезонный",
+          "count": 8,
+          "btnType": 1,
+          "value": "All-Season"
+        },
+        {
+          "name": "Осенний",
+          "count": 1020,
+          "btnType": 1,
+          "value": "Fall"
+        },
+        {
+          "name": "Весна",
+          "count": 894,
+          "btnType": 1,
+          "value": "Spring"
+        },
+        {
+          "name": "Весна-осень",
+          "count": 12,
+          "btnType": 1,
+          "value": "Spring Fall"
+        },
+        {
+          "name": "Лето",
+          "count": 916,
+          "btnType": 1,
+          "value": "Summer"
+        },
+        {
+          "name": "Зимний",
+          "count": 722,
+          "btnType": 1,
+          "value": "Winter"
+        }
+      ],
+      "nested": false,
+      "key": "buySeason",
+      "unfold": true
+    },
+    {
+      "module": "category",
+      "name": "Категория",
+      "defaultShow": true,
+      "items": [],
+      "nested": true,
+      "nestedFacets": [
+        {
+          "module": "l3_category_group_by_l1_500000106",
+          "name": "Обувь",
+          "defaultShow": true,
+          "type": 2,
+          "value": "500000106",
+          "items": [
+            {
+              "name": "Все",
+              "count": 0,
+              "btnType": 2,
+              "value": "500000106"
+            },
+            {
+              "name": "Повседневная обувь",
+              "count": 246,
+              "btnType": 1,
+              "value": "500000392"
+            },
+            {
+              "name": "Шлепанцы",
+              "count": 97,
+              "btnType": 1,
+              "value": "500000397"
+            },
+            {
+              "name": "Сноубутсы",
+              "count": 72,
+              "btnType": 1,
+              "value": "500000387"
+            },
+            {
+              "name": "Ботильоны",
+              "count": 100,
+              "btnType": 1,
+              "value": "500000383"
+            },
+            {
+              "name": "Повседневная кожаная обувь",
+              "count": 30,
+              "btnType": 1,
+              "value": "500000618"
+            },
+            {
+              "name": "Сандалии",
+              "count": 53,
+              "btnType": 1,
+              "value": "500000396"
+            },
+            {
+              "name": "Обувь Birkenstock",
+              "count": 22,
+              "btnType": 1,
+              "value": "500000619"
+            },
+            {
+              "name": "Ботинки для активного отдыха",
+              "count": 45,
+              "btnType": 1,
+              "value": "500000384"
+            },
+            {
+              "name": "Туфли",
+              "count": 12,
+              "btnType": 1,
+              "value": "500000399"
+            },
+            {
+              "name": "Балетки",
+              "count": 17,
+              "btnType": 1,
+              "value": "500000390"
+            },
+            {
+              "name": "Другие ботинки",
+              "count": 8,
+              "btnType": 1,
+              "value": "500000388"
+            },
+            {
+              "name": "Высокие каблуки",
+              "count": 19,
+              "btnType": 1,
+              "value": "500000394"
+            },
+            {
+              "name": "Челси",
+              "count": 18,
+              "btnType": 1,
+              "value": "500000386"
+            },
+            {
+              "name": "Утепленная обувь",
+              "count": 5,
+              "btnType": 1,
+              "value": "500000611"
+            }
+          ],
+          "nested": false,
+          "key": "frontCategoryIds",
+          "unfold": true
+        }
+      ],
+      "key": "frontCategoryIds",
+      "unfold": true
+    },
+    {
+      "module": "positioningStyle",
+      "name": "Модный стиль",
+      "defaultShow": true,
+      "type": 2,
+      "items": [
+        {
+          "name": "Художественный стиль",
+          "count": 10,
+          "btnType": 1,
+          "value": "Artistic Style"
+        },
+        {
+          "name": "Художественный стиль",
+          "count": 34,
+          "btnType": 1,
+          "value": "Artsy Style"
+        },
+        {
+          "name": "Авангард",
+          "count": 6,
+          "btnType": 1,
+          "value": "Avant-Garde"
+        },
+        {
+          "name": "Байкер",
+          "count": 26,
+          "btnType": 1,
+          "value": "Biker"
+        },
+        {
+          "name": "Британский",
+          "count": 98,
+          "btnType": 1,
+          "value": "British"
+        },
+        {
+          "name": "Британский стиль",
+          "count": 58,
+          "btnType": 1,
+          "value": "British Style"
+        },
+        {
+          "name": "Повседневный",
+          "count": 116,
+          "btnType": 1,
+          "value": "Casual"
+        },
+        {
+          "name": "Классический и универсальный",
+          "count": 108,
+          "btnType": 1,
+          "value": "Classic and Versatile"
+        },
+        {
+          "name": "Коммутирование",
+          "count": 46,
+          "btnType": 1,
+          "value": "Commute"
+        },
+        {
+          "name": "Элегантный стиль",
+          "count": 32,
+          "btnType": 1,
+          "value": "Elegant Style"
+        },
+        {
+          "name": "Мода",
+          "count": 12,
+          "btnType": 1,
+          "value": "Fashion"
+        },
+        {
+          "name": "Мода Одежда",
+          "count": 6,
+          "btnType": 1,
+          "value": "Fashion Apparel"
+        },
+        {
+          "name": "Мода Тренд",
+          "count": 168,
+          "btnType": 1,
+          "value": "Fashion Trend"
+        },
+        {
+          "name": "Хип-хоп Уличный Стиль",
+          "count": 8,
+          "btnType": 1,
+          "value": "Hip-hop Street Style"
+        },
+        {
+          "name": "Дом",
+          "count": 24,
+          "btnType": 1,
+          "value": "Home"
+        },
+        {
+          "name": "Японский стиль",
+          "count": 14,
+          "btnType": 1,
+          "value": "Japanese Style"
+        },
+        {
+          "name": "Корейская мода",
+          "count": 6,
+          "btnType": 1,
+          "value": "Korean Fashion"
+        },
+        {
+          "name": "Корейский стиль",
+          "count": 22,
+          "btnType": 1,
+          "value": "Korean Style"
+        },
+        {
+          "name": "Женственный",
+          "count": 6,
+          "btnType": 1,
+          "value": "Ladylike"
+        },
+        {
+          "name": "Maillard Style",
+          "count": 18,
+          "btnType": 1,
+          "value": "Maillard Style"
+        },
+        {
+          "name": "Минималистский",
+          "count": 118,
+          "btnType": 1,
+          "value": "Minimalist"
+        },
+        {
+          "name": "Минималистский стиль",
+          "count": 22,
+          "btnType": 1,
+          "value": "Minimalist Style"
+        },
+        {
+          "name": "На открытом воздухе",
+          "count": 102,
+          "btnType": 1,
+          "value": "Outdoor"
+        },
+        {
+          "name": "Преппи стиль",
+          "count": 20,
+          "btnType": 1,
+          "value": "Preppy Style"
+        },
+        {
+          "name": "Панк",
+          "count": 16,
+          "btnType": 1,
+          "value": "Punk"
+        },
+        {
+          "name": "Спортивный",
+          "count": 14,
+          "btnType": 1,
+          "value": "Sports"
+        },
+        {
+          "name": "Спортивный стиль",
+          "count": 6,
+          "btnType": 1,
+          "value": "Sporty Style"
+        },
+        {
+          "name": "Уличный",
+          "count": 60,
+          "btnType": 1,
+          "value": "Street"
+        },
+        {
+          "name": "Трендово",
+          "count": 34,
+          "btnType": 1,
+          "value": "Trendy"
+        },
+        {
+          "name": "Винтаж",
+          "count": 56,
+          "btnType": 1,
+          "value": "Vintage"
+        },
+        {
+          "name": "Стильный винтаж",
+          "count": 14,
+          "btnType": 1,
+          "value": "Vintage Style"
+        },
+        {
+          "name": "Западный стиль",
+          "count": 64,
+          "btnType": 1,
+          "value": "Western"
+        },
+        {
+          "name": "Яппи",
+          "count": 16,
+          "btnType": 1,
+          "value": "Yuppie"
+        }
+      ],
+      "nested": false,
+      "key": "positioningStyle",
+      "unfold": true
+    },
+    {
+      "module": "style",
+      "name": "Стиль",
+      "defaultShow": true,
+      "type": 2,
+      "items": [
+        {
+          "name": "Вьетнамки",
+          "count": 2,
+          "btnType": 1,
+          "value": "Flip-Flops"
+        },
+        {
+          "name": "Слайды",
+          "count": 148,
+          "btnType": 1,
+          "value": "Slides"
+        },
+        {
+          "name": "Петля для пальцев",
+          "count": 2,
+          "btnType": 1,
+          "value": "Toe Loop"
+        }
+      ],
+      "nested": false,
+      "key": "style",
+      "unfold": true
+    },
+    {
+      "module": "price_range",
+      "name": "Цена",
+      "defaultShow": true,
+      "type": 1,
+      "items": [
+        {
+          "name": "Низкая, ₽",
+          "count": 0,
+          "btnType": 1,
+          "value": ""
+        },
+        {
+          "name": "Высокая, ₽",
+          "count": 0,
+          "btnType": 1,
+          "value": ""
+        }
+      ],
+      "nested": false,
+      "key": "priceRange",
+      "unfold": true
+    },
+    {
+      "module": "series",
+      "name": "Серия",
+      "defaultShow": true,
+      "type": 2,
+      "items": [
+        {
+          "name": "CLASSIC ULTRA MINI",
+          "count": 6,
+          "btnType": 1,
+          "value": "1000651"
+        },
+        {
+          "name": "Classic Clog",
+          "count": 17,
+          "btnType": 1,
+          "value": "1002742"
+        },
+        {
+          "name": "1460",
+          "count": 7,
+          "btnType": 1,
+          "value": "745"
+        },
+        {
+          "name": "PREMIUM",
+          "count": 9,
+          "btnType": 1,
+          "value": "1000854"
+        }
+      ],
+      "nested": false,
+      "key": "frontSeries",
+      "unfold": true
+    },
+    {
+      "module": "pt_nvs_Scenario",
+      "name": "Сценарий",
+      "defaultShow": true,
+      "type": 2,
+      "items": [
+        {
+          "name": "Городская Коммутация",
+          "count": 28,
+          "btnType": 1,
+          "value": "City Commuting"
+        },
+        {
+          "name": "Каньонинг на открытом воздухе (сплав по горной реке)",
+          "count": 24,
+          "btnType": 1,
+          "value": "Outdoor River Trekking"
+        },
+        {
+          "name": "Ежедневное Коммутирование",
+          "count": 10,
+          "btnType": 1,
+          "value": "Daily Commute"
+        },
+        {
+          "name": "Альпинистский поход",
+          "count": 10,
+          "btnType": 1,
+          "value": "Mountaineering Hiking"
+        },
+        {
+          "name": "Морская водная прогулка",
+          "count": 10,
+          "btnType": 1,
+          "value": "Shoreline Wading"
+        },
+        {
+          "name": "Трейл-раннинг в джунглях",
+          "count": 8,
+          "btnType": 1,
+          "value": "Jungle off-Road"
+        },
+        {
+          "name": "Для захода в воду",
+          "count": 8,
+          "btnType": 1,
+          "value": "Wading/for Water Play"
+        },
+        {
+          "name": "Бизнес-сценарий Одежды",
+          "count": 8,
+          "btnType": 1,
+          "value": "Workplace Attire"
+        },
+        {
+          "name": "Кемпинг",
+          "count": 6,
+          "btnType": 1,
+          "value": "Camping"
+        },
+        {
+          "name": "Формальные наряды",
+          "count": 6,
+          "btnType": 1,
+          "value": "Formal Wear Outfits"
+        },
+        {
+          "name": "Длинный поход по каньону (сплав по горной реке)",
+          "count": 6,
+          "btnType": 1,
+          "value": "Long-Distance River Trekking"
+        },
+        {
+          "name": "Фотография Фотопринтеры",
+          "count": 6,
+          "btnType": 1,
+          "value": "Photography Photo Printers"
+        }
+      ],
+      "nested": false,
+      "key": "pt_nvs_Scenario",
+      "unfold": true
+    },
+    {
+      "module": "pt_nvs_Functionality",
+      "name": "Функциональность",
+      "defaultShow": true,
+      "type": 2,
+      "items": [
+        {
+          "name": "Износостойкий",
+          "count": 202,
+          "btnType": 1,
+          "value": "Abrasion-Resistant"
+        },
+        {
+          "name": "Противоскользящий",
+          "count": 172,
+          "btnType": 1,
+          "value": "Slip-Resistant"
+        },
+        {
+          "name": "Термический",
+          "count": 126,
+          "btnType": 1,
+          "value": "Thermal"
+        },
+        {
+          "name": "Высота Увеличение",
+          "count": 100,
+          "btnType": 1,
+          "value": "Height-Increasing"
+        },
+        {
+          "name": "Амортизация",
+          "count": 56,
+          "btnType": 1,
+          "value": "Cushioning"
+        },
+        {
+          "name": "Водонепроницаемый",
+          "count": 40,
+          "btnType": 1,
+          "value": "Waterproof"
+        },
+        {
+          "name": "Дышащий",
+          "count": 32,
+          "btnType": 1,
+          "value": "Breathable"
+        },
+        {
+          "name": "Покрытие",
+          "count": 30,
+          "btnType": 1,
+          "value": "Coverage"
+        },
+        {
+          "name": "Баланс",
+          "count": 8,
+          "btnType": 1,
+          "value": "Balance"
+        }
+      ],
+      "nested": false,
+      "key": "pt_nvs_Functionality",
+      "unfold": true
+    },
+    {
+      "module": "pt_nvs_Functional Classification",
+      "name": "Функциональные характеристики",
+      "defaultShow": true,
+      "type": 2,
+      "items": [
+        {
+          "name": "Противоскользящий",
+          "count": 128,
+          "btnType": 1,
+          "value": "Slip-Resistant"
+        },
+        {
+          "name": "Износостойкий",
+          "count": 120,
+          "btnType": 1,
+          "value": "Abrasion-Resistant"
+        },
+        {
+          "name": "Дышащий",
+          "count": 68,
+          "btnType": 1,
+          "value": "Breathable"
+        },
+        {
+          "name": "Амортизация",
+          "count": 52,
+          "btnType": 1,
+          "value": "Cushioning"
+        },
+        {
+          "name": "Отсутствие специальных функций",
+          "count": 50,
+          "btnType": 1,
+          "value": "No Special Function"
+        },
+        {
+          "name": "Высота Увеличение",
+          "count": 42,
+          "btnType": 1,
+          "value": "Height-Increasing"
+        },
+        {
+          "name": "Термический",
+          "count": 32,
+          "btnType": 1,
+          "value": "Thermal"
+        },
+        {
+          "name": "Быстросохнущий",
+          "count": 22,
+          "btnType": 1,
+          "value": "Quick Dry"
+        },
+        {
+          "name": "Водонепроницаемый",
+          "count": 22,
+          "btnType": 1,
+          "value": "Waterproof"
+        },
+        {
+          "name": "Легкий",
+          "count": 20,
+          "btnType": 1,
+          "value": "Lightweight"
+        },
+        {
+          "name": "Тихий",
+          "count": 18,
+          "btnType": 1,
+          "value": "Quiet"
+        },
+        {
+          "name": "Устойчивый к запахам",
+          "count": 12,
+          "btnType": 1,
+          "value": "Odor-Resistant"
+        },
+        {
+          "name": "Сцепление",
+          "count": 10,
+          "btnType": 1,
+          "value": "Grip"
+        },
+        {
+          "name": "Покрытие",
+          "count": 6,
+          "btnType": 1,
+          "value": "Coverage"
+        },
+        {
+          "name": "Массаж",
+          "count": 6,
+          "btnType": 1,
+          "value": "Massage"
+        },
+        {
+          "name": "Поддержка",
+          "count": 6,
+          "btnType": 1,
+          "value": "Support"
+        }
+      ],
+      "nested": false,
+      "key": "pt_nvs_Functional Classification",
+      "unfold": true
+    },
+    {
+      "module": "pt_nvs_Sole Material",
+      "name": "Материал подошвы",
+      "defaultShow": true,
+      "type": 2,
+      "items": [
+        {
+          "name": "Резина",
+          "count": 476,
+          "btnType": 1,
+          "value": "Rubber"
+        },
+        {
+          "name": "Остальные",
+          "count": 308,
+          "btnType": 1,
+          "value": "Other"
+        },
+        {
+          "name": "ЭВА",
+          "count": 204,
+          "btnType": 1,
+          "value": "EVA"
+        },
+        {
+          "name": "Резина подошва",
+          "count": 70,
+          "btnType": 1,
+          "value": "Rubber Sole"
+        },
+        {
+          "name": "Composite Sole  \nКомпозитная подошва",
+          "count": 26,
+          "btnType": 1,
+          "value": "Composite Sole"
+        },
+        {
+          "name": "Пластик",
+          "count": 16,
+          "btnType": 1,
+          "value": "Plastic"
+        },
+        {
+          "name": "Пена подошва",
+          "count": 12,
+          "btnType": 1,
+          "value": "Foam Sole"
+        },
+        {
+          "name": "ПВХ",
+          "count": 12,
+          "btnType": 1,
+          "value": "PVC"
+        },
+        {
+          "name": "Смола Croslite",
+          "count": 8,
+          "btnType": 1,
+          "value": "Croslite Resin"
+        },
+        {
+          "name": "Кожа подошва",
+          "count": 8,
+          "btnType": 1,
+          "value": "Leather Sole"
+        },
+        {
+          "name": "ПВХ (Хлорид поливинила)",
+          "count": 6,
+          "btnType": 1,
+          "value": "PVC (Polyvinyl Chloride)"
+        }
+      ],
+      "nested": false,
+      "key": "pt_nvs_Sole Material",
+      "unfold": true
+    },
+    {
+      "module": "pt_nvs_Fleece-Lined or Not",
+      "name": "С утеплителем или без",
+      "defaultShow": true,
+      "type": 2,
+      "items": [
+        {
+          "name": "Нет",
+          "count": 14,
+          "btnType": 1,
+          "value": "No"
+        },
+        {
+          "name": "Есть",
+          "count": 8,
+          "btnType": 1,
+          "value": "Yes"
+        }
+      ],
+      "nested": false,
+      "key": "pt_nvs_Fleece-Lined or Not",
+      "unfold": true
+    },
+    {
+      "module": "pt_nvs_Upper Material",
+      "name": "Верхний материал",
+      "defaultShow": true,
+      "type": 2,
+      "items": [
+        {
+          "name": "Остальные",
+          "count": 226,
+          "btnType": 1,
+          "value": "Other"
+        },
+        {
+          "name": "ЭВА",
+          "count": 150,
+          "btnType": 1,
+          "value": "EVA"
+        },
+        {
+          "name": "Ткань",
+          "count": 146,
+          "btnType": 1,
+          "value": "Fabric"
+        },
+        {
+          "name": "Кожа",
+          "count": 128,
+          "btnType": 1,
+          "value": "Leather"
+        },
+        {
+          "name": "Микрофибра искусственная кожа",
+          "count": 92,
+          "btnType": 1,
+          "value": "Microfiber Leather"
+        },
+        {
+          "name": "Искусственная кожа",
+          "count": 88,
+          "btnType": 1,
+          "value": "Synthetic Leather"
+        },
+        {
+          "name": "Топ Крупнозернистая текстура Коровья кожа",
+          "count": 86,
+          "btnType": 1,
+          "value": "Top Grain Cow Leather"
+        },
+        {
+          "name": "Коровья кожа",
+          "count": 72,
+          "btnType": 1,
+          "value": "Cow Leather"
+        },
+        {
+          "name": "Замша",
+          "count": 68,
+          "btnType": 1,
+          "value": "Suede"
+        },
+        {
+          "name": "ПУ (полиуретан)",
+          "count": 60,
+          "btnType": 1,
+          "value": "Pu"
+        },
+        {
+          "name": "Коровья спилковая кожа",
+          "count": 54,
+          "btnType": 1,
+          "value": "Cow Split Leather"
+        },
+        {
+          "name": "Корова замша",
+          "count": 42,
+          "btnType": 1,
+          "value": "Cow Suede"
+        },
+        {
+          "name": "Патентная кожа",
+          "count": 18,
+          "btnType": 1,
+          "value": "Patent Leather"
+        },
+        {
+          "name": "Раздельная свиная кожа",
+          "count": 14,
+          "btnType": 1,
+          "value": "Split Pig Leather"
+        },
+        {
+          "name": "Высококачественная свиная кожа",
+          "count": 14,
+          "btnType": 1,
+          "value": "Top Grain Pig Leather"
+        },
+        {
+          "name": "Сетчатая ткань",
+          "count": 12,
+          "btnType": 1,
+          "value": "Mesh"
+        },
+        {
+          "name": "Нубуковая кожа",
+          "count": 10,
+          "btnType": 1,
+          "value": "Nubuck"
+        },
+        {
+          "name": "Пластик",
+          "count": 10,
+          "btnType": 1,
+          "value": "Plastic"
+        },
+        {
+          "name": "Резина",
+          "count": 8,
+          "btnType": 1,
+          "value": "Rubber"
+        },
+        {
+          "name": "Овчина",
+          "count": 8,
+          "btnType": 1,
+          "value": "Sheepskin"
+        },
+        {
+          "name": "Искусственная кожа",
+          "count": 6,
+          "btnType": 1,
+          "value": "Artificial Leather"
+        }
+      ],
+      "nested": false,
+      "key": "pt_nvs_Upper Material",
+      "unfold": true
+    },
+    {
+      "module": "pt_nvs_Shaft Height",
+      "name": "Высота голенища",
+      "defaultShow": true,
+      "type": 2,
+      "items": [
+        {
+          "name": "Средней длины",
+          "count": 4,
+          "btnType": 1,
+          "value": "Mid-Calf"
+        },
+        {
+          "name": "Короткий",
+          "count": 2,
+          "btnType": 1,
+          "value": "Short"
+        }
+      ],
+      "nested": false,
+      "key": "pt_nvs_Shaft Height",
+      "unfold": true
+    },
+    {
+      "module": "pt_nvs_Thickness",
+      "name": "Толщина",
+      "defaultShow": true,
+      "type": 2,
+      "items": [
+        {
+          "name": "Умеренный",
+          "count": 290,
+          "btnType": 1,
+          "value": "Moderate"
+        },
+        {
+          "name": "Флисовая подкладка",
+          "count": 108,
+          "btnType": 1,
+          "value": "Fleece-lined"
+        },
+        {
+          "name": "Толщина",
+          "count": 28,
+          "btnType": 1,
+          "value": "Thickness"
+        },
+        {
+          "name": "Тонкий",
+          "count": 28,
+          "btnType": 1,
+          "value": "Thin"
+        },
+        {
+          "name": "Стеганый",
+          "count": 18,
+          "btnType": 1,
+          "value": "Padded"
+        }
+      ],
+      "nested": false,
+      "key": "pt_nvs_Thickness",
+      "unfold": true
+    },
+    {
+      "module": "pt_nvs_Heel Type",
+      "name": "Тип каблука",
+      "defaultShow": true,
+      "type": 2,
+      "items": [
+        {
+          "name": "Плоский",
+          "count": 618,
+          "btnType": 1,
+          "value": "Flat"
+        },
+        {
+          "name": "на платформе",
+          "count": 586,
+          "btnType": 1,
+          "value": "Platform"
+        },
+        {
+          "name": "Грубый каблук",
+          "count": 82,
+          "btnType": 1,
+          "value": "Chunky Heel"
+        },
+        {
+          "name": "Узкий каблук",
+          "count": 48,
+          "btnType": 1,
+          "value": "Slim Heel"
+        },
+        {
+          "name": "Каблук клин",
+          "count": 18,
+          "btnType": 1,
+          "value": "Wedge Heel"
+        },
+        {
+          "name": "Квадратный каблук",
+          "count": 6,
+          "btnType": 1,
+          "value": "Block Heel"
+        },
+        {
+          "name": "Скрытый клин",
+          "count": 6,
+          "btnType": 1,
+          "value": "Hidden Wedge"
+        }
+      ],
+      "nested": false,
+      "key": "pt_nvs_Heel Type",
+      "unfold": true
+    },
+    {
+      "module": "size",
+      "name": "Размер",
+      "defaultShow": true,
+      "items": [],
+      "nested": true,
+      "nestedFacets": [
+        {
+          "module": "shoes_size",
+          "name": "Российский размер обуви",
+          "defaultShow": true,
+          "items": [],
+          "nested": true,
+          "nestedFacets": [
+            {
+              "module": "core_size",
+              "name": "Популярные",
+              "defaultShow": true,
+              "type": 2,
+              "items": [
+                {
+                  "name": "37",
+                  "count": 948,
+                  "btnType": 1,
+                  "value": "37"
+                },
+                {
+                  "name": "37,5",
+                  "count": 168,
+                  "btnType": 1,
+                  "value": "37,5"
+                },
+                {
+                  "name": "38",
+                  "count": 1054,
+                  "btnType": 1,
+                  "value": "38"
+                },
+                {
+                  "name": "38,5",
+                  "count": 154,
+                  "btnType": 1,
+                  "value": "38,5"
+                },
+                {
+                  "name": "39",
+                  "count": 1098,
+                  "btnType": 1,
+                  "value": "39"
+                },
+                {
+                  "name": "42",
+                  "count": 768,
+                  "btnType": 1,
+                  "value": "42"
+                },
+                {
+                  "name": "42,5",
+                  "count": 84,
+                  "btnType": 1,
+                  "value": "42,5"
+                },
+                {
+                  "name": "43",
+                  "count": 742,
+                  "btnType": 1,
+                  "value": "43"
+                },
+                {
+                  "name": "43,5",
+                  "count": 142,
+                  "btnType": 1,
+                  "value": "43,5"
+                },
+                {
+                  "name": "44",
+                  "count": 502,
+                  "btnType": 1,
+                  "value": "44"
+                }
+              ],
+              "nested": false,
+              "key": "shoesSizes",
+              "unfold": true
+            },
+            {
+              "module": "all_size",
+              "name": "Все",
+              "defaultShow": true,
+              "type": 2,
+              "items": [
+                {
+                  "name": "33",
+                  "count": 88,
+                  "btnType": 1,
+                  "value": "33"
+                },
+                {
+                  "name": "34",
+                  "count": 350,
+                  "btnType": 1,
+                  "value": "34"
+                },
+                {
+                  "name": "34½",
+                  "count": 26,
+                  "btnType": 1,
+                  "value": "34½"
+                },
+                {
+                  "name": "34,5",
+                  "count": 116,
+                  "btnType": 1,
+                  "value": "34,5"
+                },
+                {
+                  "name": "35",
+                  "count": 646,
+                  "btnType": 1,
+                  "value": "35"
+                },
+                {
+                  "name": "35,5",
+                  "count": 96,
+                  "btnType": 1,
+                  "value": "35,5"
+                },
+                {
+                  "name": "36",
+                  "count": 646,
+                  "btnType": 1,
+                  "value": "36"
+                },
+                {
+                  "name": "36,5",
+                  "count": 170,
+                  "btnType": 1,
+                  "value": "36,5"
+                },
+                {
+                  "name": "38⅓",
+                  "count": 22,
+                  "btnType": 1,
+                  "value": "38⅓"
+                },
+                {
+                  "name": "39½",
+                  "count": 42,
+                  "btnType": 1,
+                  "value": "39½"
+                },
+                {
+                  "name": "39⅔",
+                  "count": 58,
+                  "btnType": 1,
+                  "value": "39⅔"
+                },
+                {
+                  "name": "39,5",
+                  "count": 124,
+                  "btnType": 1,
+                  "value": "39,5"
+                },
+                {
+                  "name": "40",
+                  "count": 852,
+                  "btnType": 1,
+                  "value": "40"
+                },
+                {
+                  "name": "40⅓",
+                  "count": 54,
+                  "btnType": 1,
+                  "value": "40⅓"
+                },
+                {
+                  "name": "40,5",
+                  "count": 140,
+                  "btnType": 1,
+                  "value": "40,5"
+                },
+                {
+                  "name": "41",
+                  "count": 912,
+                  "btnType": 1,
+                  "value": "41"
+                },
+                {
+                  "name": "41⅔",
+                  "count": 28,
+                  "btnType": 1,
+                  "value": "41⅔"
+                },
+                {
+                  "name": "41,5",
+                  "count": 150,
+                  "btnType": 1,
+                  "value": "41,5"
+                },
+                {
+                  "name": "42⅓",
+                  "count": 56,
+                  "btnType": 1,
+                  "value": "42⅓"
+                },
+                {
+                  "name": "43½",
+                  "count": 40,
+                  "btnType": 1,
+                  "value": "43½"
+                },
+                {
+                  "name": "43⅔",
+                  "count": 54,
+                  "btnType": 1,
+                  "value": "43⅔"
+                },
+                {
+                  "name": "44⅓",
+                  "count": 46,
+                  "btnType": 1,
+                  "value": "44⅓"
+                },
+                {
+                  "name": "44,5",
+                  "count": 82,
+                  "btnType": 1,
+                  "value": "44,5"
+                },
+                {
+                  "name": "45",
+                  "count": 482,
+                  "btnType": 1,
+                  "value": "45"
+                },
+                {
+                  "name": "45⅔",
+                  "count": 22,
+                  "btnType": 1,
+                  "value": "45⅔"
+                },
+                {
+                  "name": "46",
+                  "count": 172,
+                  "btnType": 1,
+                  "value": "46"
+                },
+                {
+                  "name": "46,5",
+                  "count": 92,
+                  "btnType": 1,
+                  "value": "46,5"
+                },
+                {
+                  "name": "47",
+                  "count": 88,
+                  "btnType": 1,
+                  "value": "47"
+                },
+                {
+                  "name": "47,5",
+                  "count": 64,
+                  "btnType": 1,
+                  "value": "47,5"
+                },
+                {
+                  "name": "48",
+                  "count": 28,
+                  "btnType": 1,
+                  "value": "48"
+                },
+                {
+                  "name": "48,5",
+                  "count": 32,
+                  "btnType": 1,
+                  "value": "48,5"
+                },
+                {
+                  "name": "49",
+                  "count": 66,
+                  "btnType": 1,
+                  "value": "49"
+                },
+                {
+                  "name": "49,5",
+                  "count": 24,
+                  "btnType": 1,
+                  "value": "49,5"
+                }
+              ],
+              "nested": false,
+              "key": "shoesSizes",
+              "unfold": true
+            }
+          ],
+          "key": "shoesSizes",
+          "unfold": true
+        }
+      ],
+      "key": "sizeProperties",
+      "unfold": true
+    },
+    {
+      "module": "bootShaftHeight",
+      "name": "Высота голенища сапог",
+      "defaultShow": true,
+      "type": 2,
+      "items": [
+        {
+          "name": "12 см",
+          "count": 6,
+          "btnType": 1,
+          "value": "12cm"
+        },
+        {
+          "name": "Длины до щиколотки",
+          "count": 58,
+          "btnType": 1,
+          "value": "Ankle-Length"
+        },
+        {
+          "name": "До колена",
+          "count": 22,
+          "btnType": 1,
+          "value": "Knee-High"
+        },
+        {
+          "name": "Средней длины",
+          "count": 48,
+          "btnType": 1,
+          "value": "Mid-Calf"
+        },
+        {
+          "name": "Короткий",
+          "count": 296,
+          "btnType": 1,
+          "value": "Short"
+        },
+        {
+          "name": "Короткая обувь до середины икры",
+          "count": 12,
+          "btnType": 1,
+          "value": "Short Mid-Calf"
+        }
+      ],
+      "nested": false,
+      "key": "bootShaftHeight",
+      "unfold": true
+    },
+    {
+      "module": "closureType",
+      "name": "Вид застёжки",
+      "defaultShow": true,
+      "type": 2,
+      "items": [
+        {
+          "name": "Пряжки для ремня",
+          "count": 88,
+          "btnType": 1,
+          "value": "Buckle"
+        },
+        {
+          "name": "Шнурок",
+          "count": 48,
+          "btnType": 1,
+          "value": "Drawstring"
+        },
+        {
+          "name": "Эластичная лента",
+          "count": 18,
+          "btnType": 1,
+          "value": "Elastic Band"
+        },
+        {
+          "name": "Крючок и петля",
+          "count": 74,
+          "btnType": 1,
+          "value": "Hook-and-loop"
+        },
+        {
+          "name": "Шнуровка",
+          "count": 418,
+          "btnType": 1,
+          "value": "Lace-Up"
+        },
+        {
+          "name": "Голень",
+          "count": 104,
+          "btnType": 1,
+          "value": "Shaft"
+        },
+        {
+          "name": "Слипоны",
+          "count": 328,
+          "btnType": 1,
+          "value": "Slip-on"
+        },
+        {
+          "name": "Застежка-молния",
+          "count": 52,
+          "btnType": 1,
+          "value": "Zip Closure"
+        }
+      ],
+      "nested": false,
+      "key": "closureType",
+      "unfold": true
+    },
+    {
+      "module": "main_color",
+      "name": "Цвет",
+      "defaultShow": true,
+      "type": 2,
+      "items": [
+        {
+          "name": "Бежевый",
+          "count": 148,
+          "label": "#FBF2D3",
+          "btnType": 1,
+          "value": "Beige"
+        },
+        {
+          "name": "Черный",
+          "count": 668,
+          "label": "#14151A",
+          "btnType": 1,
+          "value": "Black"
+        },
+        {
+          "name": "Синий",
+          "count": 74,
+          "label": "#3D86E7",
+          "btnType": 1,
+          "value": "Blue"
+        },
+        {
+          "name": "Коричневый",
+          "count": 310,
+          "label": "#845F57",
+          "btnType": 1,
+          "value": "Brown"
+        },
+        {
+          "name": "Серый",
+          "count": 122,
+          "label": "#D7D5CA",
+          "btnType": 1,
+          "value": "Gray"
+        },
+        {
+          "name": "Зеленый",
+          "count": 66,
+          "label": "#78BB53",
+          "btnType": 1,
+          "value": "Green"
+        },
+        {
+          "name": "Оранжевый",
+          "count": 6,
+          "label": "#FF9500",
+          "btnType": 1,
+          "value": "Orange"
+        },
+        {
+          "name": "Розовый",
+          "count": 80,
+          "label": "#F6AFCC",
+          "btnType": 1,
+          "value": "Pink"
+        },
+        {
+          "name": "Фиолетовый",
+          "count": 12,
+          "label": "#C361C3",
+          "btnType": 1,
+          "value": "Purple"
+        },
+        {
+          "name": "Красный",
+          "count": 44,
+          "label": "#E73A4B",
+          "btnType": 1,
+          "value": "Red"
+        },
+        {
+          "name": "Серебристый",
+          "count": 12,
+          "labelUrl": "https://cdn-img.thepoizon.ru/node-common/b8c56b22-fa7a-5b26-f0bb-b7438ba0ef59-36-36.jpeg",
+          "btnType": 1,
+          "value": "Silver"
+        },
+        {
+          "name": "Белый",
+          "count": 160,
+          "label": "#FFFFFF",
+          "btnType": 1,
+          "value": "White"
+        },
+        {
+          "name": "Желтый",
+          "count": 68,
+          "label": "#FFEC5B",
+          "btnType": 1,
+          "value": "Yellow"
+        }
+      ],
+      "nested": false,
+      "key": "mainColor",
+      "unfold": true
+    },
+    {
+      "module": "toeStyle",
+      "name": "Форма мыска",
+      "defaultShow": true,
+      "type": 2,
+      "items": [
+        {
+          "name": "Закрытый носок",
+          "count": 278,
+          "btnType": 1,
+          "value": "Closed Toe"
+        },
+        {
+          "name": "Открытый носок",
+          "count": 90,
+          "btnType": 1,
+          "value": "Open Toe"
+        },
+        {
+          "name": "Заостренный носок",
+          "count": 56,
+          "btnType": 1,
+          "value": "Pointed Toe"
+        },
+        {
+          "name": "Круглый носок",
+          "count": 778,
+          "btnType": 1,
+          "value": "Round Tip"
+        },
+        {
+          "name": "Квадратный носок",
+          "count": 24,
+          "btnType": 1,
+          "value": "Square Toe"
+        },
+        {
+          "name": "Стринг",
+          "count": 38,
+          "btnType": 1,
+          "value": "Thong"
+        },
+        {
+          "name": "Петля для пальцев",
+          "count": 6,
+          "btnType": 1,
+          "value": "Toe Loop"
+        }
+      ],
+      "nested": false,
+      "key": "toeStyle",
+      "unfold": true
+    },
+    {
+      "module": "upper_height",
+      "name": "Высота голенища",
+      "defaultShow": true,
+      "type": 2,
+      "items": [
+        {
+          "name": "Хай-топы",
+          "count": 28,
+          "btnType": 1,
+          "value": "High-top"
+        },
+        {
+          "name": "Низкий топ",
+          "count": 198,
+          "btnType": 1,
+          "value": "Low-top"
+        },
+        {
+          "name": "Средний топ",
+          "count": 6,
+          "btnType": 1,
+          "value": "Mid-top"
+        },
+        {
+          "name": "Остальные",
+          "count": 2,
+          "btnType": 1,
+          "value": "Other"
+        }
+      ],
+      "nested": false,
+      "key": "upperHeight",
+      "unfold": true
+    }
+  ]
+}

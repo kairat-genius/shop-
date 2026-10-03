@@ -13,6 +13,7 @@ interface ModelVariantsModalProps {
   categoryId: number;
   dialogTitle: string;
   selectProduct: (productId: number) => Promise<void>;
+  seriesId: number;
 }
 
 const ModelVariantsModal = ({
@@ -20,6 +21,7 @@ const ModelVariantsModal = ({
   categoryId,
   dialogTitle,
   selectProduct,
+  seriesId,
 }: ModelVariantsModalProps) => {
   // Активный фильтр (развертка одного фильтра или полная панель)
   const [activeFilter, setActiveFilter] = useState<FilterType>(null);
@@ -45,7 +47,7 @@ const ModelVariantsModal = ({
 
   const scrollContainerRef = useRef<HTMLDivElement>(null);
   const { products, facets, isLoading, handleScroll } =
-    useModelVariantsProducts(categoryId, filters);
+    useModelVariantsProducts(categoryId, seriesId, filters);
 
   // Переключение сортировки по табам
   const handleSortChange = (sortType: number, defaultMode = "DESC") => {

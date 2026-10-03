@@ -2,38 +2,81 @@
 import Icon from "@/shared/icon";
 import dynamic from "next/dynamic";
 import { useState } from "react";
+import { useProductDetailData } from "../../context/useCatalogData";
+import { SalePropertiesType } from "@/types/product-detail.type";
+import { cn } from "@/shared/utils/clsx";
 
 const SizeSelectorModal = dynamic(() => import("../modal/SizeSelectorModal"), {
   ssr: false,
 });
 
-export const sizes = [
-  { sizeRu: "34,5", sizeEu: "35,5", price: null, isActive: false },
-  { sizeRu: "35", sizeEu: "36", price: null, isActive: false },
-  { sizeRu: "35,5", sizeEu: "36,5", price: null, isActive: false },
-  { sizeRu: "36,5", sizeEu: "37,5", price: null, isActive: false },
-  { sizeRu: "37", sizeEu: "38", price: null, isActive: false },
-  { sizeRu: "37,5", sizeEu: "38,5", price: null, isActive: false },
-  { sizeRu: "38", sizeEu: "39", price: null, isActive: false },
-  { sizeRu: "39", sizeEu: "40", price: null, isActive: false },
-  { sizeRu: "39,5", sizeEu: "40,5", price: 10_711, isActive: false },
-  { sizeRu: "40", sizeEu: "41", price: 10_344, isActive: true },
-  { sizeRu: "41", sizeEu: "42", price: 11_103, isActive: false },
-  { sizeRu: "41,5", sizeEu: "42,5", price: 13_118, isActive: false },
-  { sizeRu: "42", sizeEu: "43", price: 12_594, isActive: false },
-  { sizeRu: "43", sizeEu: "44", price: 12_609, isActive: false },
-  { sizeRu: "43,5", sizeEu: "44,5", price: 13_572, isActive: false },
-  { sizeRu: "44", sizeEu: "45", price: 11_877, isActive: false },
-  { sizeRu: "44,5", sizeEu: "45,5", price: null, isActive: false },
-  { sizeRu: "45", sizeEu: "46", price: 13_760, isActive: false },
-  { sizeRu: "46", sizeEu: "47", price: null, isActive: false },
-  { sizeRu: "46,5", sizeEu: "47,5", price: 15_524, isActive: false },
-  { sizeRu: "47", sizeEu: "48", price: null, isActive: false },
-  { sizeRu: "47,5", sizeEu: "48,5", price: null, isActive: false },
-];
+interface SizeSelectorProps {
+  saleProperty: SalePropertiesType;
+}
 
-const SizeSelector = () => {
+const SizeSelector = ({ saleProperty }: SizeSelectorProps) => {
   const [isSizeModalOpen, setIsSizeModalOpen] = useState(false);
+
+  const {
+    activeSku,
+    selectSku,
+    productData: {
+      buyDialogModel: { skus, saleProperties },
+    },
+  } = useProductDetailData();
+
+  const defaultSizeKey = saleProperty.defaultShow;
+
+  const defaultSizeGroup = saleProperty.propertyList.find(
+    (property) => property.propertyKey === defaultSizeKey,
+  );
+
+  const secondarySizeGroup = saleProperty.propertyList.find(
+    (property) => property.propertyKey !== defaultSizeKey,
+  );
+
+  const defaultSizes = defaultSizeGroup?.propertyItemModels ?? [];
+  const secondarySizes = secondarySizeGroup?.propertyItemModels ?? [];
+
+  const activeValueId =
+    activeSku?.properties.find((property) =>
+      defaultSizes.some(
+        (item) => item.propertyValueId === property.propertyValueId,
+      ),
+    )?.propertyValueId ?? null;
+
+  const activeColorValueId =
+    activeSku?.properties.find((property) =>
+      saleProperties.some(
+        (salePropertyItem) =>
+          salePropertyItem.definitionId === 1 &&
+          salePropertyItem.propertyList.some((group) =>
+            group.propertyItemModels.some(
+              (item) => item.propertyValueId === property.propertyValueId,
+            ),
+          ),
+      ),
+    )?.propertyValueId ?? null;
+
+  const activeEditionValueId =
+    activeSku?.properties.find((property) =>
+      saleProperties.some(
+        (salePropertyItem) =>
+          salePropertyItem.definitionId === 12 &&
+          salePropertyItem.propertyList.some((group) =>
+            group.propertyItemModels.some(
+              (item) => item.propertyValueId === property.propertyValueId,
+            ),
+          ),
+      ),
+    )?.propertyValueId ?? null;
+
+  const activeSize = defaultSizes.find(
+    (item) => item.propertyValueId === activeValueId,
+  );
+
+  const activeFootLength = activeSize?.sizeParameterList?.[0]?.sizeValue;
+
   return (
     <div className="mt-[2.667vw] mb-[3.2vw]">
       <div className="flex items-center justify-between mb-[2.133vw] px-[3.733vw]">
@@ -59,20 +102,63 @@ const SizeSelector = () => {
           <div>RU</div>
           <div className="text-slate-500">EU</div>
         </div>
+
         <div className="overflow-x-auto scrollbar-none">
           <div className="flex pb-px gap-[1.067vw] text-[3.733vw] leading-[4.376vw]">
-            {sizes.map((item, index) => (
-              <div
-                key={index}
-                className="relative px-[2.667vw] py-[1.6vw] text-slate-300 max-w-[53.333vw] flex flex-col items-center justify-center last:pr-[10.667vw]"
-              >
-                <div className="text-slate-300">{item.sizeRu}</div>
-                <div className="text-slate-300 mt-[.533vw] font-light">
-                  {item.sizeEu}
+            {defaultSizes.map((defaultItem, index) => {
+              const secondaryItem = secondarySizes[index];
+
+              const sku = skus.find(
+                (item) =>
+                  item.properties.some(
+                    (property) =>
+                      property.propertyValueId === defaultItem.propertyValueId,
+                  ) &&
+                  (activeColorValueId === null ||
+                    item.properties.some(
+                      (property) =>
+                        property.propertyValueId === activeColorValueId,
+                    )) &&
+                  (activeEditionValueId === null ||
+                    item.properties.some(
+                      (property) =>
+                        property.propertyValueId === activeEditionValueId,
+                    )),
+              );
+
+              const isSelected = defaultItem.propertyValueId === activeValueId;
+
+              const price =
+                sku?.skuSpeedInfo?.[0]?.speedPrice?.localizedDisplayText;
+
+              return (
+                <div
+                  key={index}
+                  onClick={() => selectSku(defaultItem.propertyValueId)}
+                  className="relative px-[3.733vw] py-[1.6vw] max-w-[53.333vw] flex flex-col items-center justify-center last:pr-[10.667vw]"
+                >
+                  <div
+                    className={cn(
+                      "mt-[.533vw] font-light",
+                      !price && "text-slate-300",
+                    )}
+                  >
+                    {defaultItem.value}
+                  </div>
+                  {secondaryItem && (
+                    <span className="text-slate-300 mt-[.533vw] font-light">
+                      {secondaryItem.value}
+                    </span>
+                  )}
+                  <div
+                    className={cn(
+                      "absolute rounded-[2.133vw] border pointer-events-none",
+                      isSelected ? "border-slate-950 w-full h-full" : "border-slate-300 scale-50  border-dashed w-[200%] h-[200%]"
+                    )}
+                  />
                 </div>
-                <div className="scale-50 absolute rounded-[2.133vw] border-dashed border border-slate-300 w-[200%] h-[200%] pointer-events-none" />
-              </div>
-            ))}
+              );
+            })}
           </div>
         </div>
         <div
@@ -93,7 +179,7 @@ const SizeSelector = () => {
           <span className="text-slate-500 mr-[.533vw] font-light">
             Длина стопы:
           </span>
-          <span>26 cm</span>
+          <span>{activeFootLength ?? "--"}</span>
         </div>
         <Icon
           icon="chevron-right"

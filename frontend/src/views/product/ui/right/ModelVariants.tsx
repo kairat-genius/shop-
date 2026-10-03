@@ -68,6 +68,7 @@ const ModelVariants = ({
         <ModelVariantsModal
           categoryId={categoryId}
           dialogTitle={seriesDialogModel.dialogTitle}
+          seriesId={seriesDialogModel.seriesId}
           selectProduct={selectProduct}
           onClose={() => setIsModalOpen(false)}
         />

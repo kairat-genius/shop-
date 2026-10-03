@@ -1,41 +1,36 @@
 export const POPULAR_BRANDS = [
   {
-    href: "/brands/list?routerScene=brand_brand&frontCategoryId=500000091&diamondType=brand&diamondId=0&track_referer_page_id=2762&track_referer_block_type=6151&track_referer_position=1",
-    logoSrc: "https://cdn-img.thepoizon.ru/node-common/1bce9420-19ee-e9d1-e14d-b8cfb79e1c7d-156-156.png?x-oss-process=image/resize,s_96/format,webp",
-    alt: ""
-  },
-  {
-    href: "/brands/nike?routerScene=brand_brand&frontCategoryId=500000091&diamondType=brand&diamondId=144&track_referer_page_id=2762&track_referer_block_type=6151&track_referer_position=2",
+    href: "/nike?routerScene=brand_brand&frontCategoryId=500000091&diamondType=brand&diamondId=144&track_referer_page_id=2762&track_referer_block_type=6151&track_referer_position=2",
     logoSrc: "https://cdn-web.poizon.com/web-img/pro-img/brand-logo/cut-img/20250221/ad39ee3e88e14ff39cd09c5093887d8c.jpg?x-oss-process=image/resize,s_96/format,webp",
     alt: "Nike"
   },
   {
-    href: "/brands/saint-laurent?routerScene=brand_brand&frontCategoryId=500000091&diamondType=brand&diamondId=10026&track_referer_page_id=2762&track_referer_block_type=6151&track_referer_position=3",
+    href: "/saint-laurent?routerScene=brand_brand&frontCategoryId=500000091&diamondType=brand&diamondId=10026&track_referer_page_id=2762&track_referer_block_type=6151&track_referer_position=3",
     logoSrc: "https://cdn-web.poizon.com/web-img/pro-img/brand-logo/cut-img/20250221/541414a413644c6794c3a3261cfc4144.jpg?x-oss-process=image/resize,s_96/format,webp",
     alt: "SAINT LAURENT"
   },
   {
-    href: "/brands/g-shock?routerScene=brand_brand&frontCategoryId=500000091&diamondType=brand&diamondId=1011838&track_referer_page_id=2762&track_referer_block_type=6151&track_referer_position=4",
+    href: "/g-shock?routerScene=brand_brand&frontCategoryId=500000091&diamondType=brand&diamondId=1011838&track_referer_page_id=2762&track_referer_block_type=6151&track_referer_position=4",
     logoSrc: "https://cdn-web.poizon.com/web-img/pro-img/brand-logo/cut-img/20250224/5273c24ccd47443aaf2ac4307b27906c.jpg?x-oss-process=image/resize,s_96/format,webp",
     alt: "G-SHOCK"
   },
   {
-    href: "/brands/ollieskate?routerScene=brand_brand&frontCategoryId=500000091&diamondType=brand&diamondId=1011290&track_referer_page_id=2762&track_referer_block_type=6151&track_referer_position=5",
+    href: "/ollieskate?routerScene=brand_brand&frontCategoryId=500000091&diamondType=brand&diamondId=1011290&track_referer_page_id=2762&track_referer_block_type=6151&track_referer_position=5",
     logoSrc: "https://cdn-web.poizon.com/web-img/pro-img/brand-logo/cut-img/20250224/a74fd9e4a3da4e60a31739572d34bb03.jpg?x-oss-process=image/resize,s_96/format,webp",
     alt: "Ollieskate"
   },
   {
-    href: "/brands/chanel?routerScene=brand_brand&frontCategoryId=500000091&diamondType=brand&diamondId=10045&track_referer_page_id=2762&track_referer_block_type=6151&track_referer_position=6",
+    href: "/chanel?routerScene=brand_brand&frontCategoryId=500000091&diamondType=brand&diamondId=10045&track_referer_page_id=2762&track_referer_block_type=6151&track_referer_position=6",
     logoSrc: "https://cdn-web.poizon.com/web-img/pro-img/brand-logo/cut-img/20250221/98b86e82b5184d16a6f64a0aeffec922.jpg?x-oss-process=image/resize,s_96/format,webp",
     alt: "CHANEL"
   },
   {
-    href: "/brands/jordan?routerScene=brand_brand&frontCategoryId=500000091&diamondType=brand&diamondId=13&track_referer_page_id=2762&track_referer_block_type=6151&track_referer_position=7",
+    href: "/jordan?routerScene=brand_brand&frontCategoryId=500000091&diamondType=brand&diamondId=13&track_referer_page_id=2762&track_referer_block_type=6151&track_referer_position=7",
     logoSrc: "https://cdn-web.poizon.com/web-img/pro-img/brand-logo/cut-img/20250221/a19c049a7d314026b7070ca3597e9390.jpg?x-oss-process=image/resize,s_96/format,webp",
     alt: "Jordan"
   },
   {
-    href: "/brands/crocs?routerScene=brand_brand&frontCategoryId=500000091&diamondType=brand&diamondId=1000363&track_referer_page_id=2762&track_referer_block_type=6151&track_referer_position=8",
+    href: "/crocs?routerScene=brand_brand&frontCategoryId=500000091&diamondType=brand&diamondId=1000363&track_referer_page_id=2762&track_referer_block_type=6151&track_referer_position=8",
     logoSrc: "https://cdn-web.poizon.com/web-img/pro-img/brand-logo/cut-img/20250221/f580d174845e4530a9e744c49edaa2ec.jpg?x-oss-process=image/resize,s_96/format,webp",
     alt: "Crocs"
   }
@@ -43,7 +38,7 @@ export const POPULAR_BRANDS = [
 
 export const BRANDS_PREVIEW = [
   {
-    href: "/brands/nike?routerScene=brand_brand&diamondType=brand&diamondId=144&topSpuIds=144%2C144%2C144&track_referer_page_id=2762&track_referer_block_type=6153&track_referer_position=1",
+    href: "/nike?routerScene=brand_brand&diamondType=brand&diamondId=144&topSpuIds=144%2C144%2C144&track_referer_page_id=2762&track_referer_block_type=6153&track_referer_position=1",
     logo: "https://cdn-web.poizon.com/web-img/pro-img/brand-logo/cut-img/20250221/ad39ee3e88e14ff39cd09c5093887d8c.jpg?x-oss-process=image/resize,s_96/format,webp",
     name: "Nike",
     stats: ["71 тыс. товаров", "925 новинок", "Продано 237 млн", "В избранном: 1,7 млн"],
@@ -54,7 +49,7 @@ export const BRANDS_PREVIEW = [
     ]
   },
   {
-    href: "/brands/salomon?routerScene=brand_brand&diamondType=brand&diamondId=1000079&topSpuIds=1000079%2C1000079%2C1000079&track_referer_page_id=2762&track_referer_block_type=6153&track_referer_position=2",
+    href: "/salomon?routerScene=brand_brand&diamondType=brand&diamondId=1000079&topSpuIds=1000079%2C1000079%2C1000079&track_referer_page_id=2762&track_referer_block_type=6153&track_referer_position=2",
     logo: "https://cdn-web.poizon.com/web-img/pro-img/brand-logo/distinct/cut-img/20250730/9ed01004692445f9821cc9477d73d14b.png?x-oss-process=image/resize,s_96/format,webp",
     name: "SALOMON",
     stats: ["3,3 тыс. товаров", "41 новинок", "Продано 4,6 млн", "В избранном: 138 тыс."],
@@ -65,7 +60,7 @@ export const BRANDS_PREVIEW = [
     ]
   },
   {
-    href: "/brands/crocs?routerScene=brand_brand&diamondType=brand&diamondId=1000363&topSpuIds=1000363%2C1000363%2C1000363&track_referer_page_id=2762&track_referer_block_type=6153&track_referer_position=3",
+    href: "/crocs?routerScene=brand_brand&diamondType=brand&diamondId=1000363&topSpuIds=1000363%2C1000363%2C1000363&track_referer_page_id=2762&track_referer_block_type=6153&track_referer_position=3",
     logo: "https://cdn-web.poizon.com/web-img/pro-img/brand-logo/cut-img/20250221/f580d174845e4530a9e744c49edaa2ec.jpg?x-oss-process=image/resize,s_96/format,webp",
     name: "Crocs",
     stats: ["2,6 тыс. товаров", "Продано 6,5 млн", "В избранном: 304 тыс."],
@@ -76,7 +71,7 @@ export const BRANDS_PREVIEW = [
     ]
   },
   {
-    href: "/brands/calvin-klein?routerScene=brand_brand&diamondType=brand&diamondId=10207&topSpuIds=10207%2C10207%2C10207&track_referer_page_id=2762&track_referer_block_type=6153&track_referer_position=4",
+    href: "/calvin-klein?routerScene=brand_brand&diamondType=brand&diamondId=10207&topSpuIds=10207%2C10207%2C10207&track_referer_page_id=2762&track_referer_block_type=6153&track_referer_position=4",
     logo: "https://cdn-web.poizon.com/web-img/pro-img/brand-logo/cut-img/20250221/3ca3347d08ed4307b326d2093f01bd6f.jpg?x-oss-process=image/resize,s_96/format,webp",
     name: "Calvin Klein",
     stats: ["8,2 тыс. товаров", "161 новинок", "Продано 8,2 млн", "В избранном: 233 тыс."],
@@ -87,7 +82,7 @@ export const BRANDS_PREVIEW = [
     ]
   },
   {
-    href: "/brands/adidas?routerScene=brand_brand&diamondType=brand&diamondId=3&topSpuIds=3%2C3%2C3&track_referer_page_id=2762&track_referer_block_type=6153&track_referer_position=5",
+    href: "/adidas?routerScene=brand_brand&diamondType=brand&diamondId=3&topSpuIds=3%2C3%2C3&track_referer_page_id=2762&track_referer_block_type=6153&track_referer_position=5",
     logo: "https://cdn-web.poizon.com/web-img/pro-img/brand-logo/cut-img/20250221/5bf8dacc463041658663c87abec0cb0d.jpg?x-oss-process=image/resize,s_96/format,webp",
     name: "Adidas",
     stats: ["44 тыс. товаров", "622 новинок", "Продано 46 млн", "В избранном: 800 тыс."],
@@ -98,7 +93,7 @@ export const BRANDS_PREVIEW = [
     ]
   },
   {
-    href: "/brands/new-era?routerScene=brand_brand&diamondType=brand&diamondId=10097&topSpuIds=10097%2C10097%2C10097&track_referer_page_id=2762&track_referer_block_type=6153&track_referer_position=6",
+    href: "/new-era?routerScene=brand_brand&diamondType=brand&diamondId=10097&topSpuIds=10097%2C10097%2C10097&track_referer_page_id=2762&track_referer_block_type=6153&track_referer_position=6",
     logo: "https://cdn-web.poizon.com/web-img/pro-img/brand-logo/distinct/cut-img/20250715/cb47f5e6325547719a8874ffe763fcf3.jpg?x-oss-process=image/resize,s_96/format,webp",
     name: "New Era",
     stats: ["6,8 тыс. товаров", "81 новинок", "Продано 3,9 млн", "В избранном: 88 тыс."],
@@ -109,7 +104,7 @@ export const BRANDS_PREVIEW = [
     ]
   },
   {
-    href: "/brands/saint-laurent?routerScene=brand_brand&diamondType=brand&diamondId=10026&topSpuIds=10026%2C10026%2C10026&track_referer_page_id=2762&track_referer_block_type=6153&track_referer_position=7",
+    href: "/saint-laurent?routerScene=brand_brand&diamondType=brand&diamondId=10026&topSpuIds=10026%2C10026%2C10026&track_referer_page_id=2762&track_referer_block_type=6153&track_referer_position=7",
     logo: "https://cdn-web.poizon.com/web-img/pro-img/brand-logo/cut-img/20250221/541414a413644c6794c3a3261cfc4144.jpg?x-oss-process=image/resize,s_96/format,webp",
     name: "SAINT LAURENT",
     stats: ["425 товаров", "Продано 18 млн", "В избранном: 102 тыс."],
@@ -120,7 +115,7 @@ export const BRANDS_PREVIEW = [
     ]
   },
   {
-    href: "/brands/under-armour?routerScene=brand_brand&diamondType=brand&diamondId=7&topSpuIds=7%2C7%2C7&track_referer_page_id=2762&track_referer_block_type=6153&track_referer_position=8",
+    href: "/under-armour?routerScene=brand_brand&diamondType=brand&diamondId=7&topSpuIds=7%2C7%2C7&track_referer_page_id=2762&track_referer_block_type=6153&track_referer_position=8",
     logo: "https://cdn-web.poizon.com/web-img/pro-img/brand-logo/cut-img/20250221/0a23c13238434d4b8491e682c1901533.jpg?x-oss-process=image/resize,s_96/format,webp",
     name: "Under Armour",
     stats: ["15 тыс. товаров", "223 новинок", "Продано 8,4 млн", "В избранном: 194 тыс."],
@@ -131,7 +126,7 @@ export const BRANDS_PREVIEW = [
     ]
   },
   {
-    href: "/brands/jordan?routerScene=brand_brand&diamondType=brand&diamondId=13&topSpuIds=13%2C13%2C13&track_referer_page_id=2762&track_referer_block_type=6153&track_referer_position=9",
+    href: "/jordan?routerScene=brand_brand&diamondType=brand&diamondId=13&topSpuIds=13%2C13%2C13&track_referer_page_id=2762&track_referer_block_type=6153&track_referer_position=9",
     logo: "https://cdn-web.poizon.com/web-img/pro-img/brand-logo/cut-img/20250221/a19c049a7d314026b7070ca3597e9390.jpg?x-oss-process=image/resize,s_96/format,webp",
     name: "Jordan",
     stats: ["17 тыс. товаров", "217 новинок", "Продано 87 млн", "В избранном: 701 тыс."],
@@ -142,7 +137,7 @@ export const BRANDS_PREVIEW = [
     ]
   },
   {
-    href: "/brands/swarovski?routerScene=brand_brand&diamondType=brand&diamondId=10260&topSpuIds=10260%2C10260%2C10260&track_referer_page_id=2762&track_referer_block_type=6153&track_referer_position=10",
+    href: "/swarovski?routerScene=brand_brand&diamondType=brand&diamondId=10260&topSpuIds=10260%2C10260%2C10260&track_referer_page_id=2762&track_referer_block_type=6153&track_referer_position=10",
     logo: "https://cdn-web.poizon.com/web-img/pro-img/brand-logo/cut-img/20250221/15df8051abe94710895d008c2294b3d1.png?x-oss-process=image/resize,s_96/format,webp",
     name: "Swarovski",
     stats: ["1,9 тыс. товаров", "Продано 4,8 млн", "В избранном: 104 тыс."],

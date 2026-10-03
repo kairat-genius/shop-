@@ -1,25 +1,101 @@
+"use client";
 import { useBodyScrollLock } from "@/shared/hooks/useBodyScrollLock";
 import Icon from "@/shared/icon";
 import { Button } from "@/shared/ui/action";
 import Modal from "@/shared/ui/modal";
-import { SIZE_COLUMNS, SIZE_ROWS } from "../../data/SizeFinder.data";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import { useSizeTable } from "../../model/useSizeTable";
+import { SizeTableType } from "@/types/size-table.type";
+import { getSizeTable } from "../../api/getSizeTable";
+import { cn } from "@/shared/utils/clsx";
+import SizeTable from "@/shared/ui/size-table";
+import FittingReportTable from "../left/FittingReportTable";
 
 interface SizeFinderModalProps {
   onClose: () => void;
+  productId: number;
 }
 
-const SizeFinderModal = ({ onClose }: SizeFinderModalProps) => {
-  const [isScrolled, setIsScrolled] = useState(false);
-
+const SizeFinderModal = ({ onClose, productId }: SizeFinderModalProps) => {
   useBodyScrollLock(true);
+  const [data, setData] = useState<SizeTableType | null>(null);
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    let isMounted = true;
+
+    const fetchSizeTable = async () => {
+      try {
+        setIsLoading(true);
+
+        const data = await getSizeTable(Number(productId));
+
+        if (isMounted) {
+          setData(data);
+        }
+      } catch (error) {
+        console.error("Ошибка загрузки таблицы размеров:", error);
+      } finally {
+        if (isMounted) {
+          setIsLoading(false);
+        }
+      }
+    };
+
+    fetchSizeTable();
+
+    return () => {
+      isMounted = false;
+    };
+  }, [productId]);
+
+  return (
+    <Modal onClose={onClose} className="bg-white h-full flex flex-col">
+      {isLoading ? (
+        <div className="p-8 text-center text-slate-500 min-h-[70vh] flex items-center justify-center">
+          Загрузка таблицы размеров...
+        </div>
+      ) : data ? (
+        <SizeFinderModalContent sizeAssistantModule={data} onClose={onClose} />
+      ) : (
+        <div className="p-6 text-center text-slate-500">
+          Не удалось загрузить таблицу размеров.
+          <div className="mt-4">
+            <Button
+              onClick={onClose}
+              className="px-4 py-2 bg-slate-100 rounded text-[14px]"
+            >
+              Закрыть
+            </Button>
+          </div>
+        </div>
+      )}
+    </Modal>
+  );
+};
+
+export default SizeFinderModal;
+
+const SizeFinderModalContent = ({
+  sizeAssistantModule,
+  onClose,
+}: {
+  sizeAssistantModule: SizeTableType;
+  onClose: () => void;
+}) => {
+  const [isScrolled, setIsScrolled] = useState(false);
+  const { activeUnit, setActiveUnit, tableData, fittingReportData } =
+    useSizeTable(
+      sizeAssistantModule.size,
+      sizeAssistantModule.fittingReportTable,
+    );
 
   const handleScroll = (e: React.UIEvent<HTMLDivElement>) => {
     setIsScrolled(e.currentTarget.scrollLeft > 0);
   };
 
   return (
-    <Modal onClose={onClose} className="bg-white h-full flex flex-col">
+    <>
       <div className="flex items-center justify-between px-[3.733vw] py-[2.667vw] w-full relative">
         <Button
           className="text-slate-500 w-[6.4vw] h-[6.4vw]"
@@ -38,113 +114,76 @@ const SizeFinderModal = ({ onClose }: SizeFinderModalProps) => {
             Таблица размеров
           </div>
           <div className="flex items-center">
-            <Button
-              className="min-w-[10.667vw] px-[3.2vw] h-[6.4vw] shrink-0 bg-slate-100 text-slate-500 rounded-s-[1.067vw] text-[3.733vw] font-bold leading-[normal]"
-              dir="ltr"
-            >
-              inch
-            </Button>
-            <Button
-              className="min-w-[10.667vw] h-[6.4vw] px-[3.2vw] shrink-0 bg-white border border-slate-950 rounded-s-[1.067vw] text-[3.733vw] font-bold leading-[normal]"
-              dir="rtl"
-            >
-              cm
-            </Button>
+            {sizeAssistantModule.size.sizeList.map((size, index) => {
+              const isActive = activeUnit === size.title;
+              return (
+                <Button
+                  key={size.title}
+                  onClick={() => setActiveUnit(size.title)}
+                  className={cn(
+                    "min-w-[10.667vw] h-[6.4vw] px-[3.2vw] shrink-0 border rounded-s-[1.067vw] text-[3.733vw] font-bold leading-[normal] transition-colors",
+                    isActive
+                      ? "bg-white border border-slate-950 text-slate-900 z-10 relative"
+                      : "bg-slate-100 text-slate-500 border border-transparent",
+                    index === 0
+                      ? "rounded-s rounded-r-none"
+                      : "rounded-e rounded-l-none",
+                  )}
+                  dir={index === 0 ? "ltr" : "rtl"}
+                >
+                  {size.title}
+                </Button>
+              );
+            })}
           </div>
         </div>
-        <div
+        <SizeTable
+          columns={tableData.columns}
+          rows={tableData.rows}
+          isScrolled={isScrolled}
           onScroll={handleScroll}
-          className="mb-[3.2vw] overflow-x-auto scrollbar-none rounded border border-slate-200"
-        >
-          <table className="min-w-max text-center w-full border-separate border-spacing-0">
-            <thead>
-              <tr className="text-[3.2vw] font-semibold font-roboto_condensed leading-[normal]">
-                {SIZE_COLUMNS.map((column, index) => {
-                  const isFirst = index === 0;
-
-                  const cellStyle = {
-                    minWidth: "11.57vw",
-                    ...(isFirst && {
-                      position: "sticky" as const,
-                      left: 0,
-                      zIndex: 20,
-                      // Тень появляется динамически
-                      boxShadow: isScrolled
-                        ? "1.6vw 0 2.667vw -1.067vw rgba(0, 0, 0, 0.15)"
-                        : "none",
-                      // Плавный переход для тени, чтобы она не прыгала резко
-                      transition: "box-shadow 0.2s ease-in-out",
-                    }),
-                  };
-
-                  return (
-                    <th
-                      key={index}
-                      style={cellStyle}
-                      className="text-center border-r border-b border-slate-200 text-slate-500 bg-slate-100 py-[1.6vw] px-[1.067vw]"
-                    >
-                      {Array.isArray(column)
-                        ? column.map((word) => <div key={word}>{word}</div>)
-                        : column}
-                    </th>
-                  );
-                })}
-              </tr>
-            </thead>
-
-            <tbody className="text-[2.933vw] leading-[normal] whitespace-nowrap">
-              {SIZE_ROWS.map((row, rowIndex) => (
-                <tr key={rowIndex}>
-                  {row.map((cell, cellIndex) => {
-                    const isFirst = cellIndex === 0;
-                    const cellStyle = {
-                      minWidth: "11.57vw",
-                      ...(isFirst && {
-                        position: "sticky" as const,
-                        left: 0,
-                        zIndex: 20,
-                        boxShadow: isScrolled
-                          ? "1.6vw 0 2.667vw -1.067vw rgba(0, 0, 0, 0.15)"
-                          : "none",
-                        transition: "box-shadow 0.2s ease-in-out",
-                      }),
-                    };
-
-                    return (
-                      <td
-                        key={cellIndex}
-                        style={cellStyle}
-                        className={`border-r border-slate-200 py-[1.6vw] px-[1.067vw] ${
-                          rowIndex % 2 === 0 ? "bg-white" : "bg-[#f6f6f7]"
-                        }`}
-                      >
-                        {cell}
-                      </td>
-                    );
-                  })}
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
-        <div className="mt-[2.133vw] text-[2.933vw] font-light text-slate-500 leading-[normal]">
-          На товаре не указан RU размер. Российский размер зависит от бренда и
-          обычно соответствует EU размеру минус 1.
-        </div>
-        <div className="mt-[3.2vw]">
-          <div className="text-[3.733vw] font-roboto_condensed font-medium leading-[normal]">
-            Как выбрать размер
+          stickyFirstColumn
+        />
+        {sizeAssistantModule.disclaimerText && (
+          <div className="mt-[2.133vw] text-[2.933vw] font-light text-slate-500 leading-[normal]">
+            {sizeAssistantModule.disclaimerText}
           </div>
-          <div className="mt-[2.133vw] rounded-[1.067vw] overflow-hidden">
-            <img
-              className="w-full h-auto"
-              src="https://cdn-img.thepoizon.ru/node-common/08d8201c-cd58-a138-e67e-c2327e7cad68-1278-720.png?x-oss-process=image/format,webp"
-              alt="Как выбрать размер"
+        )}
+        {fittingReportData && (
+          <div className="mb-[3.2vw] mt-[2.133vw]">
+            <div className="mb-[2.133vw] font-medium text-[3.733vw] font-roboto_condensed">
+              Параметры примерки
+            </div>
+            <FittingReportTable
+              data={fittingReportData}
+              models={sizeAssistantModule.fittingReportTable.models}
+              stickyFirstColumn
             />
+            <div className="mt-[3.2vw] text-[2.933vw] font-light text-slate-500 leading-[normal]">
+              * Данные примерки носят справочный характер. Выбирайте размер,
+              основываясь на своих параметрах.
+            </div>
           </div>
-        </div>
+        )}
+        {sizeAssistantModule.sizeImageList.map((item, index) => (
+          <div className="mt-[3.2vw]" key={index}>
+            <div className="text-[3.733vw] font-roboto_condensed font-medium leading-[normal]">
+              {item.title}
+            </div>
+            <div className="mt-[2.133vw] rounded-[1.067vw] overflow-hidden">
+              {item.images.map((image, imgIndex) => (
+                <img
+                  key={imgIndex}
+                  className="w-full h-auto"
+                  src={image.url}
+                  alt={item.title}
+                />
+              ))}
+            </div>
+          </div>
+        ))}
       </div>
-      <div className="h-[12.267vw] w-[92.533vw] rounded-[1.067vw] bg-[#dcdcdd] p-[2.133vw] sticky bottom-[2.667vw] left-[3.733vw] z-30 flex items-center justify-between">
+      {/* <div className="h-[12.267vw] w-[92.533vw] rounded-[1.067vw] bg-[#dcdcdd] p-[2.133vw] sticky bottom-[2.667vw] left-[3.733vw] z-30 flex items-center justify-between">
         <div className="text-[3.2vw] leading-[3.749vw] text-left flex flex-col">
           <span className="mb-[.533vw] font-semibold">
             Рекомендуемый: 43,5 RU (44,5 EU)
@@ -156,9 +195,7 @@ const SizeFinderModal = ({ onClose }: SizeFinderModalProps) => {
         <div className="bg-[#e8e8e9] font-bold font-roboto_condensed leading-[4.376vw] text-[3.733vw] rounded-[1.067vw] border border-slate-950 py-[1.067vw] px-[2.133vw]">
           Укажите
         </div>
-      </div>
-    </Modal>
+      </div> */}
+    </>
   );
 };
-
-export default SizeFinderModal;

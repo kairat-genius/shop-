@@ -2,7 +2,7 @@ export type IconName =
   | "user"
   | "heart-list"
   | "about-us"
-  | "scan-search"
+
   | "search"
   | "x"
   | "trash-2"
@@ -30,4 +30,5 @@ export type IconName =
   | "headset"
   | "clipboard-list"
   | "arrow-left"
-  | "shield-check";
+  | "shield-check"
+  | "check-filter" | "square" | "square-check";

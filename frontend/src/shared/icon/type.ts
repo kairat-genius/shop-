@@ -2,7 +2,6 @@ export type IconName =
   | "user"
   | "heart-list"
   | "about-us"
-  | "scan-search"
   | "search"
   | "x"
   | "trash-2"

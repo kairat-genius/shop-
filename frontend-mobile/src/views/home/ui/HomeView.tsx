@@ -8,7 +8,8 @@ import ProductCard from "@/entities/product-card";
 import { Button } from "@/shared/ui/action";
 import Icon from "@/shared/icon";
 import { categoriesData } from "@/shared/data/category.data";
-import products from "@/shared/data/productData.json";
+import { useCatalogData } from "@/shared/context/catalog-data";
+import { useHomeProducts } from "../model/useHomeProducts";
 import OurAdvantages from "./OurAdvantages";
 import Catalog from "./Catalog";
 import CategorySection from "@/widgets/category-section";
@@ -17,44 +18,34 @@ import "swiper/css";
 import "swiper/css/thumbs";
 import FavoriteButton from "@/features/favorites-button";
 import Link from "next/link";
+import type { ProductListSearchResponseType } from "@/types/product-list-search.type";
 
-const HomeView = () => {
-  // Переносим генерацию слайдов вверх, добавляя "Все" сразу в массив
+interface HomeViewProps {
+  initialData: ProductListSearchResponseType;
+}
+
+const HomeView = ({ initialData }: HomeViewProps) => {
+  const { categoryData } = useCatalogData();
+  const [activeSlideIndex, setActiveSlideIndex] = useState(0);
+
   const allSlides = useMemo(() => {
-    const allSlide = {
-      title: "Все",
-      slug: "all",
-      items: products,
-    };
+    const allSlide = { title: "Все", slug: "all", categoryId: undefined };
     const categorySlides = categoriesData.slice(0, 7).map((cat) => ({
       ...cat,
-      items: products.filter((p) => p.category === cat.slug),
+      categoryId: categoryData.categories.find(
+        (category) => category.title === cat.title,
+      )?.id,
     }));
     return [allSlide, ...categorySlides];
-  }, []);
+  }, [categoryData.categories]);
 
   // Храним ссылку на инстанс Thumbs Swiper
   const [thumbsSwiper, setThumbsSwiper] = useState<SwiperType | null>(null);
-
-  // Сколько товаров показывать в каждом слайде
-  const [visibleCounts, setVisibleCounts] = useState<Record<string, number>>(
-    () => {
-      const initial: Record<string, number> = {};
-      for (const slide of allSlides) {
-        initial[slide.slug] = Math.min(20, slide.items.length);
-      }
-      return initial;
-    },
+  const activeSlide = allSlides[activeSlideIndex];
+  const { productsByCategory, handleShowMore } = useHomeProducts(
+    initialData,
+    activeSlide?.categoryId,
   );
-
-  const handleShowMore = (slug: string) => {
-    const totalInSlide =
-      allSlides.find((s) => s.slug === slug)?.items.length ?? 0;
-    setVisibleCounts((prev) => ({
-      ...prev,
-      [slug]: Math.min((prev[slug] || 0) + 4, totalInSlide),
-    }));
-  };
 
   return (
     <main>
@@ -84,59 +75,88 @@ const HomeView = () => {
         touchStartPreventDefault={false}
         speed={400}
         noSwipingClass="swiper-no-swiping"
+        onSlideChange={(swiper) => setActiveSlideIndex(swiper.activeIndex)}
       >
-        {allSlides.map((slide) => {
+        {allSlides.map((slide, index) => {
           const isAll = slide.slug === "all";
-          const itemsToShow = slide.items.slice(
-            0,
-            visibleCounts[slide.slug] ?? 20,
-          );
-          const hasMore = (visibleCounts[slide.slug] ?? 0) < slide.items.length;
+          const categoryKey = slide.categoryId?.toString() ?? "all";
+          const categoryProducts = productsByCategory[categoryKey];
+          const shouldRenderContent = Math.abs(activeSlideIndex - index) <= 1;
+          const itemsToShow = shouldRenderContent
+            ? (categoryProducts?.items ?? [])
+            : [];
+          const hasMore = categoryProducts?.hasMore ?? false;
+          const isLoading =
+            !categoryProducts &&
+            !isAll &&
+            activeSlideIndex === index &&
+            slide.categoryId !== undefined;
 
           return (
             <SwiperSlide key={slide.slug} className="w-full">
-              <div
-                className="swiper-no-swiping"
-                onTouchStart={(e) => e.stopPropagation()}
-                onTouchMove={(e) => e.stopPropagation()}
-              >
-                <Catalog category_slug={slide.slug} />
-                {isAll && <OurAdvantages />}
-              </div>
+              {shouldRenderContent && (
+                <div
+                  className="swiper-no-swiping"
+                  onTouchStart={(e) => e.stopPropagation()}
+                  onTouchMove={(e) => e.stopPropagation()}
+                >
+                  {isAll ? (
+                    <Catalog categoryId="all" />
+                  ) : (
+                    slide.categoryId !== undefined && (
+                      <Catalog categoryId={slide.categoryId} />
+                    )
+                  )}
+                  {isAll && <OurAdvantages />}
+                </div>
+              )}
               <div className="grid grid-cols-2">
-                {itemsToShow.length > 0 ? (
-                  itemsToShow.map((product, idx) => {
-                    const isLeft = idx % 2 === 0;
-                    const isFirstRow = idx < 2;
-                    return (
-                      <ProductCard
-                        key={product.slug}
-                        product={product}
-                        className={cn(
-                          "border-b",
-                          isLeft && "border-r",
-                          isFirstRow && "border-t",
-                        )}
-                      >
-                        <FavoriteButton className=" absolute top-[4.8vw] right-[4vw] text-slate-500">
-                          <Icon icon="heart" className="w-[4.8vw] h-[4.8vw]" />
-                        </FavoriteButton>
-                      </ProductCard>
-                    );
-                  })
-                ) : (
-                  <div className="col-span-2 text-center py-8 text-slate-400 h-full">
-                    В этой категории пока нет товаров
-                  </div>
-                )}
+                {shouldRenderContent &&
+                  (isLoading ? (
+                    <div className="col-span-2 text-center py-8 text-slate-400">
+                      Загрузка товаров...
+                    </div>
+                  ) : itemsToShow.length > 0 ? (
+                    itemsToShow.map((product, productIndex) => {
+                      const isLeft = productIndex % 2 === 0;
+                      const isFirstRow = productIndex < 2;
+                      return (
+                        <ProductCard
+                          key={product.spuId}
+                          product={product}
+                          className={cn(
+                            "border-b",
+                            isLeft && "border-r",
+                            isFirstRow && "border-t",
+                          )}
+                        >
+                          <FavoriteButton className=" absolute top-[4.8vw] right-[4vw] text-slate-500">
+                            <Icon
+                              icon="heart"
+                              className="w-[4.8vw] h-[4.8vw]"
+                            />
+                          </FavoriteButton>
+                        </ProductCard>
+                      );
+                    })
+                  ) : (
+                    <div className="col-span-2 text-center py-8 text-slate-400 h-full">
+                      В этой категории пока нет товаров
+                    </div>
+                  ))}
               </div>
 
-              {hasMore && (
+              {shouldRenderContent && hasMore && (
                 <Button
-                  onClick={() => handleShowMore(slide.slug)}
+                  onClick={() => handleShowMore(slide.categoryId)}
+                  disabled={categoryProducts?.isFetchingMore}
                   className="h-[5.333vw] gap-[2.667vw] text-[2.933vw] font-semibold px-[3.2vw] mx-auto my-[5.333vw] border rounded-xl border-slate-800"
                 >
-                  <span>Показать больше</span>
+                  <span>
+                    {categoryProducts?.isFetchingMore
+                      ? "Загрузка..."
+                      : "Показать больше"}
+                  </span>
                   <Icon
                     icon="chevron-down"
                     width={14}

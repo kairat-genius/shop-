@@ -81,7 +81,7 @@ const Footer = () => {
             <Icon icon="vk" className="text-white w-[4.267vw] h-[4.267vw]" />
           </a>
           <a
-            href="/"
+            href="https://t.me/the_dewu_poizon"
             target="_blank"
             rel="nofollow"
             className="bg-black rounded-full"

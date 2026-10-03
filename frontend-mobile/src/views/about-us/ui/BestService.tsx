@@ -8,8 +8,8 @@ const BestService = () => {
         </div>
         <div className="mt-[3.2vw] text-[3.2vw] leading-[normal]">
           Email:{" "}
-          <a href="mailto:support@thePoizon.ru" className="underline">
-            support@thePoizon.ru
+          <a href="mailto:support@thedewu.com" className="underline">
+            support@thedewu.com
           </a>
         </div>
       </div>

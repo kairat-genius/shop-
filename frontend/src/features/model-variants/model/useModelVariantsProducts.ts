@@ -18,6 +18,7 @@ const PAGE_SIZE = 20;
 
 export const useModelVariantsProducts = (
   categoryId: number,
+  seriesId: number,
   filters: ModelVariantsFilters,
 ) => {
   const [products, setProducts] = useState<ProductType[]>([]);
@@ -51,6 +52,7 @@ export const useModelVariantsProducts = (
           page: targetPage,
           pageSize: targetPage === 1 ? FIRST_PAGE_SIZE : PAGE_SIZE,
           categoryIds: [String(categoryId)],
+          seriesIds: [String(seriesId)],
           sortType: filters.sortType,
           sortMode: filters.sortMode,
           sizes: filters.sizes.length > 0 ? filters.sizes : undefined,
@@ -96,7 +98,7 @@ export const useModelVariantsProducts = (
         }
       }
     },
-    [categoryId, filters],
+    [categoryId, filters, seriesId],
   );
 
   useEffect(() => {
