@@ -4,8 +4,9 @@ import "swiper/css";
 import { useEffect, useRef, useState } from "react";
 import dynamic from "next/dynamic";
 import { Button } from "@/shared/ui/action";
-import { useProductDetailData } from "../context/useCatalogData";
 import { cn } from "@/shared/utils/clsx";
+import { useGalleryData } from "../model/useGalleryData";
+import { getImageUrl } from "@/shared/utils/getImageUrl";
 
 const GalleryModal = dynamic(() => import("./modal/GalleryModal"), {
   ssr: false,
@@ -14,12 +15,6 @@ const GalleryModal = dynamic(() => import("./modal/GalleryModal"), {
 const ShareModal = dynamic(() => import("./modal/ShareModal"), { ssr: false });
 
 type GalleryTab = "products" | "styles" | "outfits" | "sizes";
-
-type GalleryImage = {
-  id: number;
-  url: string;
-  hasBackdrop?: boolean;
-};
 
 const Gallery = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -31,98 +26,14 @@ const Gallery = () => {
   const [activeImageIndex, setActiveImageIndex] = useState(1);
 
   const {
-    activeSku,
-    selectSku,
-    selectedPropertyValueIds,
-    productData: {
-      imageModels,
-      mainImgWearStyleResp,
-      buyDialogModel: { imageModelList, saleImages, saleProperties },
-    },
-  } = useProductDetailData();
-  const allImageModels = [...imageModels, ...(imageModelList ?? [])].filter(
-    (item, index, images) =>
-      images.findIndex((candidate) => candidate.imageId === item.imageId) ===
-      index,
-  );
-
-  const colorProperty =
-    saleProperties?.find((property) => property.definitionId === 1) ??
-    saleProperties?.find((property) => property.definitionId === 3690);
-
-  const activeColorValueId =
-    selectedPropertyValueIds[1] ??
-    activeSku?.properties.find((property) =>
-      colorProperty?.propertyList.some((group) =>
-        group.propertyItemModels.some(
-          (item) => item.propertyValueId === property.propertyValueId,
-        ),
-      ),
-    )?.propertyValueId ??
-    null;
-
-  const selectedColorImage = colorProperty?.propertyList
-    .flatMap((group) => group.propertyItemModels)
-    .find((item) => item.propertyValueId === activeColorValueId)?.url;
-
-  const productImageModels =
-    saleImages?.[String(activeColorValueId)] ?? imageModels;
-
-  const matchesActiveColor = (item: { propertyValueId?: number | null }) =>
-    activeColorValueId === null ||
-    item.propertyValueId === undefined ||
-    item.propertyValueId === activeColorValueId;
-
-  const productImagesByColor: GalleryImage[] = productImageModels
-    .filter(
-      (item) =>
-        item.genericType.startsWith("PHOTO") &&
-        (activeColorValueId === null ||
-          item.propertyValueId === activeColorValueId),
-    )
-    .map((item) => ({ id: item.imageId, url: item.url }));
-
-  const productImages: GalleryImage[] =
-    productImagesByColor.length > 0
-      ? productImagesByColor
-      : selectedColorImage
-        ? [{ id: activeColorValueId ?? 0, url: selectedColorImage }]
-        : [];
-
-  const styleImages: GalleryImage[] =
-    mainImgWearStyleResp?.spuItems.map((item) => ({
-      id: item.contentId,
-      url: item.url,
-      hasBackdrop: true,
-    })) ?? [];
-
-  const outfitImages: GalleryImage[] = allImageModels
-    .filter(
-      (item) =>
-        (item.label === 1 ||
-          item.genericType.includes("OUTFIT") ||
-          item.imgEvenTrace.includes('"position":"outfits"')) &&
-        matchesActiveColor(item),
-    )
-    .map((item) => ({ id: item.imageId, url: item.url }));
-
-  const sizeImages: GalleryImage[] = allImageModels
-    .filter(
-      (item) =>
-        (item.label === 2 ||
-          item.genericType.startsWith("SIZE_CAPACITY_DIAGRAM")) &&
-        matchesActiveColor(item),
-    )
-    .map((item) => ({ id: item.imageId, url: item.url }));
-
-  const gallerySections = [
-    { id: "products" as const, label: "Товары", images: productImages },
-    { id: "styles" as const, label: "Стили", images: styleImages },
-    { id: "outfits" as const, label: "Наряды", images: outfitImages },
-    { id: "sizes" as const, label: "Размер", images: sizeImages },
-  ].filter((section) => section.images.length > 0);
-  const displayImages = gallerySections.flatMap((section) => section.images);
-  const firstSectionId = gallerySections[0]?.id;
+    colorProperty,
+    activeColorValueId,
+    gallerySections,
+    displayImages,
+    firstSectionId,
+    getSectionState,
+    getImagesForColor,
+  } = useGalleryData();
 
   useEffect(() => {
     if (!firstSectionId) return;
@@ -136,28 +47,11 @@ const Gallery = () => {
     return () => window.clearTimeout(resetId);
   }, [activeColorValueId, firstSectionId]);
 
-  const getSectionState = (imageIndex: number) => {
-    let sectionStart = 0;
-
-    for (const section of gallerySections) {
-      const sectionEnd = sectionStart + section.images.length;
-
-      if (imageIndex < sectionEnd) {
-        return {
-          id: section.id,
-          imageIndex: imageIndex - sectionStart + 1,
-        };
-      }
-
-      sectionStart = sectionEnd;
-    }
-
-    return { id: "products" as const, imageIndex: 1 };
-  };
-
   const tabs = gallerySections.map((section) => ({
     id: section.id,
-    label: `${section.label} ${activeTab === section.id ? activeImageIndex : 1}/${section.images.length}`,
+    label: `${section.label} ${
+      activeTab === section.id ? activeImageIndex : 1
+    }/${section.images.length}`,
   }));
 
   const handleTabChange = (tab: GalleryTab) => {
@@ -174,6 +68,7 @@ const Gallery = () => {
   if (displayImages.length === 0) {
     return null;
   }
+
   return (
     <div className="relative">
       <Button
@@ -226,7 +121,7 @@ const Gallery = () => {
                 />
               )}
               <img
-                src={item.url}
+                src={getImageUrl(item.url, 720)}
                 alt=""
                 height={520}
                 width={520}
@@ -259,11 +154,11 @@ const Gallery = () => {
           </div>
         </div>
       </Swiper>
-      {/* {isModalOpen && (
+      {isModalOpen && (
         <GalleryModal
-          galleryImages={displayImages}
-          // eslint-disable-next-line react-hooks/refs
           initialSlide={mainSwiperRef.current?.realIndex ?? 0}
+          colorProperty={colorProperty}
+          getImagesForColor={getImagesForColor}
           onClose={(newIndex) => {
             setIsModalOpen(false);
 
@@ -272,7 +167,7 @@ const Gallery = () => {
             }
           }}
         />
-      )} */}
+      )}
       {isShareModalOpen && (
         <ShareModal onClose={() => setIsShareModalOpen(false)} />
       )}

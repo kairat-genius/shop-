@@ -288,12 +288,14 @@ export type SkusType = {
     backgroundColorHex: "";
     content: "";
   };
-  hitBizTags: [
-    {
-      name: "Почти распродано";
-      type: 2;
-    },
-  ];
+  hitBizTags: {
+    name: string;
+    type: number;
+  }[];
+  bizTagList: {
+    name: string;
+    type: number;
+  }[];
   minPrice?: {
     symbol: "₽";
     localizedDisplayText: "8 559 ₽";

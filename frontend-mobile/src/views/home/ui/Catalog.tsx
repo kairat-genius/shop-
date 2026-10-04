@@ -115,7 +115,7 @@ const Catalog = ({ categoryId }: CatalogProps) => {
             {categories.brands.map((item, j) => (
               <Link
                 key={j}
-                href={`/category/${generateProductSlug(item.title, item.id)}`}
+                href={`/brand/${generateProductSlug(item.title, item.id)}`}
                 className="flex flex-col items-center w-[18.667vw]"
               >
                 <div className="w-[13.867vw] h-[13.867vw] rounded-[13.867vw] border border-[rgba(199,199,215,.4)] flex items-center justify-center">

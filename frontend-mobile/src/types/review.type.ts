@@ -1,21 +1,27 @@
 export type ReviewType = {
   images?: {
-      imageUrl: string;
-      width: number;
-      height: number;
-    }[];
-  publishDate: string
-  userName: string
+    imageUrl: string;
+    width: number;
+    height: number;
+  }[];
+  publishDate: string;
+  userName: string;
   userId: number;
-  skuProperty:string
-  sizeFeelingText: string
-  score: string
+  skuProperty: string;
+  sizeFeelingText: string;
+  score: string;
   originType: number;
   reviewData: string[];
-  poizonReply:string
-  userIcon: string
-  reviewId: string
-  trackingId: string
+  poizonReply: string;
+  userIcon: string;
+  reviewId: string;
+  trackingId: string;
+  defaultIcon: string;
+  bodyParamList?: {
+    optionContent: string;
+    isJumpSpuFlag: boolean;
+    questionName: string;
+  }[];
 };
 
 export type ReviewsListType = {

@@ -3,9 +3,12 @@ import { useBodyScrollLock } from "@/shared/hooks/useBodyScrollLock";
 import Icon from "@/shared/icon";
 import { Button } from "@/shared/ui/action";
 import Modal from "@/shared/ui/modal";
-import { useCallback, useMemo, useState } from "react";
-import { reviewsData } from "../../data/reviews.data";
+import { useCallback, useState } from "react";
 import dynamic from "next/dynamic";
+import { ReviewType } from "@/types/review.type";
+import { useProductDetailData } from "../../context/useCatalogData";
+import { cn } from "@/shared/utils/clsx";
+import RatingSummaryCard from "../left/RatingSummaryCard";
 
 const ReviewGalleryModal = dynamic(
   () => import("../modal/ReviewGalleryModal"),
@@ -14,112 +17,115 @@ const ReviewGalleryModal = dynamic(
   },
 );
 
-interface ReviewModalProps {
-  onClose: () => void;
+interface GalleryImage {
+  src: string;
+  publishDate: string;
+  userName: string;
+  userId: number;
+  skuProperty: string;
+  sizeFeelingText: string;
+  score: string;
+  originType: number;
+  reviewData: string[];
+  poizonReply: string;
+  userIcon: string;
+  reviewId: string;
+  trackingId: string;
 }
 
-const ReviewModal = ({ onClose }: ReviewModalProps) => {
+interface ReviewModalProps {
+  onClose: () => void;
+  reviews: ReviewType[];
+  reviewsWithImages: ReviewType[];
+  galleryPhotos: GalleryImage[];
+  loadMore: () => void;
+  hasMore: boolean;
+  isLoading: boolean;
+}
+const ReviewModal = ({
+  onClose,
+  reviews,
+  reviewsWithImages,
+  galleryPhotos,
+  loadMore,
+  hasMore,
+  isLoading,
+}: ReviewModalProps) => {
   useBodyScrollLock(true);
+  const [isModalGalleryOpen, setIsModalGalleryOpen] = useState(false);
+  const [selectedReviewIndex, setSelectedReviewIndex] = useState(0);
+  const [selectedPhotoIndex, setSelectedPhotoIndex] = useState(0);
+  const [detailReview, setDetailReview] = useState<ReviewType | null>(null);
+  const [detailPhotoIndex, setDetailPhotoIndex] = useState(0);
 
-  const [isGalleryOpen, setIsGalleryOpen] = useState(false);
-  const [selectedIndex, setSelectedIndex] = useState(0);
+  const {
+    productData: { commodityReviews },
+  } = useProductDetailData();
+  const sizeFeelingModule = commodityReviews.sizeFeelingModule ?? [];
 
-  // Все отзывы, у которых есть изображения
-  const reviewsWithImages = useMemo(
-    () =>
-      reviewsData.filter((review) => review.images && review.images.length > 0),
+  const openGallery = useCallback(
+    (reviewIndex: number, photoIndexInReview: number) => {
+      setSelectedReviewIndex(reviewIndex);
+      setSelectedPhotoIndex(photoIndexInReview);
+      setIsModalGalleryOpen(true);
+    },
     [],
   );
 
-  const openGallery = useCallback((reviewIndex: number) => {
-    setSelectedIndex(reviewIndex);
-    setIsGalleryOpen(true);
-  }, []);
+  const openDetailModal = useCallback(
+    (review: ReviewType, photoIndex: number) => {
+      setDetailReview(review);
+      setDetailPhotoIndex(photoIndex);
+    },
+    [],
+  );
+
+  const closeDetailModal = useCallback(() => setDetailReview(null), []);
+
+  // Логика бесконечного скролла для главного списка
+  const handleScroll = (e: React.UIEvent<HTMLDivElement>) => {
+    const { scrollTop, clientHeight, scrollHeight } = e.currentTarget;
+    if (
+      scrollHeight - scrollTop <= clientHeight * 1.5 &&
+      hasMore &&
+      !isLoading
+    ) {
+      loadMore();
+    }
+  };
 
   return (
     <Modal onClose={onClose} className="bg-white flex flex-col h-full">
       <div className="flex items-center px-[3.733vw] min-h-[11.733vw] relative">
         <h2 className="flex items-center gap-[1.067vw] font-roboto_condensed leading-[5.067vw] text-[4.8vw] font-bold absolute left-1/2 -translate-x-1/2">
           <span>ОТЗЫВЫ</span>
-          <span>(58)</span>
+          <span>({commodityReviews.reviewsCount})</span>
         </h2>
         <Button className="w-[6.4vw] h-[6.4vw]" onClick={onClose}>
           <Icon icon="chevron-right" className="w-full h-full rotate-180" />
         </Button>
       </div>
 
-      <div className="overflow-y-auto">
-        <div className="px-[3.733vw] mt-[3.2vw]">
-          <div className="flex items-center justify-between p-[3.2vw] rounded-[1.067vw] gap-[3.2vw] w-full bg-[rgba(245,245,249,.6)]">
-            <div className="w-[27.733vw] flex flex-col items-center">
-              <div className="text-[6.4vw] font-bold leading-[7.467vw] font-roboto_condensed">
-                5,0
-              </div>
-              <div className="mt-[1.067vw] flex gap-[1.067vw] items-center justify-center">
-                <div className="flex gap-[1.067vw] items-center">
-                  <Icon icon="star" className="w-[3.2vw] h-[3.2vw]" />
-                  <Icon icon="star" className="w-[3.2vw] h-[3.2vw]" />
-                  <Icon icon="star" className="w-[3.2vw] h-[3.2vw]" />
-                  <Icon icon="star" className="w-[3.2vw] h-[3.2vw]" />
-                  <Icon icon="star" className="w-[3.2vw] h-[3.2vw]" />
-                </div>
-                <Icon
-                  icon="circle-question-mark"
-                  className="w-[3.2vw] h-[3.2vw] text-slate-500"
-                />
-              </div>
-            </div>
-            <div className="flex flex-col gap-[2.133vw] flex-1 w-full items-center justify-center">
-              <div className="flex items-center gap-[1.067vw] text-[2.933vw] text-slate-500 leading-[3.467vw] w-full">
-                <div className="max-w-[21.333vw] w-full truncate text-left">
-                  Маломерит
-                </div>
-                <div className="rounded-[.533vw] h-[1.067vw] relative bg-gray-200 w-full">
-                  <div
-                    className="bg-slate-500 rounded-[.533vw] absolute left-0 h-[1.067vw]"
-                    style={{ width: "11%" }}
-                  />
-                </div>
-                <div className="w-[7.467vw] text-right shrink-0">11%</div>
-              </div>
-              <div className="flex items-center gap-[1.067vw] text-[2.933vw] text-slate-500 leading-[3.467vw] w-full">
-                <div className="max-w-[21.333vw] w-full truncate text-left">
-                  В размер
-                </div>
-                <div className="rounded-[.533vw] h-[1.067vw] relative bg-gray-200 w-full">
-                  <div
-                    className="bg-slate-500 rounded-[.533vw] absolute left-0 h-[1.067vw]"
-                    style={{ width: "89%" }}
-                  />
-                </div>
-                <div className="w-[7.467vw] text-right shrink-0">89%</div>
-              </div>
-              <div className="flex items-center gap-[1.067vw] text-[2.933vw] text-slate-500 leading-[3.467vw] w-full">
-                <div className="max-w-[21.333vw] w-full truncate text-left">
-                  Большемерит
-                </div>
-                <div className="rounded-[.533vw] h-[1.067vw] relative bg-gray-200 w-full">
-                  <div
-                    className="bg-slate-500 rounded-[.533vw] absolute left-0 h-[1.067vw]"
-                    style={{ width: "0%" }}
-                  />
-                </div>
-                <div className="w-[7.467vw] text-right shrink-0">0%</div>
-              </div>
-            </div>
+      <div className="overflow-y-auto" onScroll={handleScroll}>
+        {sizeFeelingModule.length > 0 && commodityReviews.spuAvgScore && (
+          <div className="px-[3.733vw] mt-[3.2vw]">
+            <RatingSummaryCard
+              spuAvgScore={commodityReviews.spuAvgScore}
+              sizeFeelingModule={sizeFeelingModule}
+            />
           </div>
-        </div>
+        )}
         <div className="mt-[3.2vw] flex w-full">
           <div className="h-[32vw] overflow-x-auto scrollbar-none">
             <div className="inline-flex items-center gap-[1.067vw] min-w-max px-[3.733vw]">
               {reviewsWithImages.map((review, reviewIdx) =>
-                review.images.map((image, imgIdx) => (
+                review.images?.map((image, imgIdx) => (
                   <img
-                    key={`${review.username}-${review.date}-${imgIdx}`}
+                    key={`${review.userName}-${review.publishDate}-${imgIdx}`}
                     className="h-[32vw] w-[24vw] object-cover cursor-pointer"
-                    src={image}
-                    alt={`Фото от ${review.username}`}
-                    onClick={() => openGallery(reviewIdx)}
+                    src={image.imageUrl}
+                    alt={`Фото от ${review.userName}`}
+                    onClick={() => openGallery(reviewIdx, imgIdx)}
                   />
                 )),
               )}
@@ -132,7 +138,7 @@ const ReviewModal = ({ onClose }: ReviewModalProps) => {
               icon="shield-check"
               className="text-[#01C2C3] w-[4.267vw] h-[4.267vw]"
             />
-            <div className="ml-[.533vw] text-slate-500 text-[3.467vw] leading-[normal]">
+            <div className="ml-[.533vw] text-slate-500 text-[3.467vw] leading-[normal] font-light">
               Опираясь на передовые алгоритмы и экспертную оценку, мы
               представляем вам достоверные и действенные отзывы.
             </div>
@@ -140,7 +146,7 @@ const ReviewModal = ({ onClose }: ReviewModalProps) => {
         </div>
         <div className="h-[2.133vw] bg-slate-100" />
         <div className="px-[3.733vw]">
-          {reviewsData.slice(0, 10).map((item, index) => (
+          {reviews.map((item, index) => (
             <div key={index} className="py-[3.2vw] border-b border-slate-100">
               <div className="cOT">
                 <div className="flex items-center gap-[3.2vw] mb-[2.133vw]">
@@ -148,67 +154,72 @@ const ReviewModal = ({ onClose }: ReviewModalProps) => {
                     <div className="flex items-center">
                       <img
                         className="w-[5.867vw] h-[5.867vw] mr-[1.067vw]"
-                        src={item.avatar}
+                        src={item.userIcon || item.defaultIcon}
                         alt=""
                       />
                       <span className="text-[2.933vw] leading-[normal]">
-                        {item.username}
+                        {item.userName}
                       </span>
                     </div>
                     <div className="flex gap-[1.067vw]">
-                      <Icon
-                        icon="star"
-                        className="w-[3.2vw] h-[3.2vw] text-slate-500"
-                      />
-                      <Icon
-                        icon="star"
-                        className="w-[3.2vw] h-[3.2vw] text-slate-500"
-                      />
-                      <Icon
-                        icon="star"
-                        className="w-[3.2vw] h-[3.2vw] text-slate-500"
-                      />
-                      <Icon
-                        icon="star"
-                        className="w-[3.2vw] h-[3.2vw] text-slate-500"
-                      />
-                      <Icon
-                        icon="star"
-                        className="w-[3.2vw] h-[3.2vw] text-slate-500"
-                      />
+                      {Array.from({ length: 5 }, (_, starIndex) => (
+                        <Icon
+                          key={starIndex}
+                          icon="star"
+                          className={cn(
+                            "w-[3.2vw] h-[3.2vw]",
+                            starIndex < Math.floor(Number(item.score))
+                              ? "text-slate-500"
+                              : "text-slate-300",
+                          )}
+                        />
+                      ))}
                     </div>
                   </div>
                   <span className="text-[2.933vw] text-slate-500">
-                    {item.date}
+                    {item.publishDate}
                   </span>
                 </div>
                 <div className="mt-[1.067vw] font-light text-[2.667vw] leading-[normal] text-slate-500">
-                  <span>Размер: 39 RU (40 EU)</span>
-                  <span>, </span>
-                  <span>Цвет: Розовый</span>
+                  {item.skuProperty}
                 </div>
                 <div className="mt-[3.2vw] leading-[3.733vw] font-light text-[3.2vw]">
-                  Очень удобные кроссовки, после двух проведенных тренировок
-                  никаки минус у кроссовок не обнаружено
+                  {item.reviewData}
                 </div>
                 <div className="mt-[2.133vw] flex flex-wrap gap-x-[2.133vw] gap-y-[3.2vw] text-[2.667vw] leading-[normal] text-slate-500">
-                  <div>Соответствие размеру: В размер</div>
+                  <div>{item.sizeFeelingText}</div>
+                  {item.bodyParamList?.map((param, paramIndex) => (
+                    <div key={paramIndex}>
+                      {param.questionName}: {param.optionContent}
+                    </div>
+                  ))}
                 </div>
               </div>
-              <div className="mt-[3.2vw] grid grid-cols-3 gap-px">
-                {item.images.map((img, imgindex) => (
-                  <img src={img} key={imgindex} alt="" className="w-[30.667vw] h-[30.667vw] object-cover"/>
-                ))}
-              </div>
+              {item.images?.length ? (
+                <div className="mt-[3.2vw] grid grid-cols-3 gap-px">
+                  {item.images?.map((img, imgIndex) => (
+                    <img
+                      src={img.imageUrl}
+                      key={imgIndex}
+                      alt=""
+                      className="w-[30.667vw] h-[30.667vw] object-cover"
+                    />
+                  ))}
+                </div>
+              ) : null}
             </div>
           ))}
         </div>
       </div>
-      {isGalleryOpen && reviewsWithImages.length > 0 && (
+      {isModalGalleryOpen && reviewsWithImages.length > 0 && (
         <ReviewGalleryModal
-          onClose={() => setIsGalleryOpen(false)}
+          onClose={() => setIsModalGalleryOpen(false)}
           reviews={reviewsWithImages}
-          initialIndex={selectedIndex}
+          initialReviewIndex={selectedReviewIndex}
+          initialPhotoIndex={selectedPhotoIndex}
+          loadMore={loadMore}
+          hasMore={hasMore}
+          isLoading={isLoading}
         />
       )}
     </Modal>
