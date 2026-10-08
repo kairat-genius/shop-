@@ -1,17 +1,11 @@
 import { NextResponse } from "next/server";
+import { fetchCatalogApi } from "@/shared/api/fetchCatalogApi";
 
 export async function GET(request: Request) {
   const { searchParams } = new URL(request.url);
   try {
-    const externalResponse = await fetch(
+    const externalResponse = await fetchCatalogApi(
       `${process.env.API_URL}/suggest?${searchParams.toString()}`,
-      {
-        method: "GET",
-        headers: {
-          "Content-Type": "application/json",
-          "x-api-key": process.env.API_KEY || "",
-        },
-      },
     );
 
     if (!externalResponse.ok) {

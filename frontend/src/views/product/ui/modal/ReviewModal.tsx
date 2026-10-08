@@ -35,6 +35,7 @@ interface GalleryImage {
   reviewData: string[];
   poizonReply: string;
   userIcon: string;
+  defaultIcon: string;
   reviewId: string;
   trackingId: string;
 }
@@ -198,7 +199,7 @@ const ReviewModal = ({
                     <div className="flex items-center">
                       <img
                         className="w-5.5 h-5.5 mr-1"
-                        src={item.userIcon}
+                        src={item.userIcon || item.defaultIcon}
                         alt=""
                       />
                       <span className="text-[12px] leading-normal">

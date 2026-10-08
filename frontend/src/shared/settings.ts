@@ -11,3 +11,4 @@ export const CDN = process.env.NEXT_PUBLIC_CDN || ""
 
 export const POIZON_API_KEY = process.env.NEXT_PUBLIC_POIZON_API_KEY || ""
 export const CUT_IMAGE_PARAMS = "?x-oss-process=image/resize,s_540/format,webp";
+export const API_KEY = "571ef1bf-fde5-4ead-9f7d-2f0531b390dd";

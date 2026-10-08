@@ -1,4 +1,5 @@
 import { NextResponse } from "next/server";
+import { fetchCatalogApi } from "@/shared/api/fetchCatalogApi";
 
 export async function GET(
   _request: Request,
@@ -7,15 +8,8 @@ export async function GET(
   const { id } = await params;
 
   try {
-    const externalResponse = await fetch(
+    const externalResponse = await fetchCatalogApi(
       `${process.env.API_URL}/category-filters/${id}`,
-      {
-        method: "GET",
-        headers: {
-          "Content-Type": "application/json",
-          "x-api-key": process.env.API_KEY || "",
-        },
-      },
     );
 
     if (!externalResponse.ok) {
