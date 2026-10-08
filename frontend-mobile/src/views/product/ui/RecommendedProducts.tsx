@@ -1,5 +1,5 @@
 "use client";
-import { useState, useMemo } from "react";
+import { useMemo, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import type { Swiper as SwiperType } from "swiper";
 import { FreeMode, Thumbs } from "swiper/modules";
@@ -7,57 +7,59 @@ import { cn } from "@/shared/utils/clsx";
 import ProductCard from "@/entities/product-card";
 import { Button } from "@/shared/ui/action";
 import Icon from "@/shared/icon";
-import productsData from "@/shared/data/productData.json";
 
 import "swiper/css";
 import "swiper/css/thumbs";
 import "swiper/css/free-mode";
 import FavoriteButton from "@/features/favorites-button";
 
-// Заглушки для вкладок (позже можно заменить реальными данными)
-const recommendedTabs = [
-  { title: "Рекомендуемые", slug: "recommended" },
-  { title: "Баскетбол", slug: "basketball" },
-  { title: "Волейбольные кроссовки", slug: "volleyball" },
-  { title: "Беговые кроссовки", slug: "running" },
-  { title: "Детская обувь в стиле Ханьфу", slug: "hanfu" },
-  { title: "Детская обувь с кристаллами и стразами", slug: "crystals" },
-  { title: "Детские сабо", slug: "sabot" },
-  { title: "Детские уличные тапочки", slug: "slippers" },
-  { title: "Детские домашние тапочки", slug: "home-slippers" },
-  { title: "Бейсбольные бутсы", slug: "baseball" },
-];
+import type { ProductListSearchResponseType } from "@/types/product-list-search.type";
+import type { NormalizedFacetItem } from "@/widgets/product-list/utils/getFacetList"; // ← поправь путь
+import { useCategoryProducts } from "../model/useCategoryProducts";
 
-const RecommendedProducts = () => {
-  // Формируем слайды – для каждой вкладки берём пока все товары (реальная фильтрация будет по slug)
+interface RecommendedProductsProps {
+  initialData: ProductListSearchResponseType;
+  frontCategoryId: number;
+  categoryList: NormalizedFacetItem[];
+}
+
+const RecommendedProducts = ({
+  initialData,
+  frontCategoryId,
+  categoryList,
+}: RecommendedProductsProps) => {
+  // Собираем слайды: [Рекомендуемые, ...категории из фасета]
   const allSlides = useMemo(() => {
-    return recommendedTabs.map((tab) => ({
-      ...tab,
-      items: productsData, // или productsData.filter(p => p.subcategory === tab.slug)
+    const recommended = {
+      title: "Рекомендуемые",
+      slug: "recommended",
+      categoryId: frontCategoryId,
+    };
+
+    const categorySlides = categoryList.map((item) => ({
+      title: item.title,
+      slug: item.id, // уникальный ключ для Swiper
+      categoryId: Number(item.id),
     }));
-  }, []);
+
+    return [recommended, ...categorySlides];
+  }, [frontCategoryId, categoryList]);
+
+  const [activeSlideIndex, setActiveSlideIndex] = useState(0);
+  const activeSlide = allSlides[activeSlideIndex];
+
+  const { productsByCategory, handleShowMore } = useCategoryProducts(
+    initialData,
+    frontCategoryId,
+    activeSlide?.categoryId,
+  );
 
   const [thumbsSwiper, setThumbsSwiper] = useState<SwiperType | null>(null);
   const [isBeginning, setIsBeginning] = useState(true);
   const [isEnd, setIsEnd] = useState(false);
 
-  const [visibleCounts, setVisibleCounts] = useState<Record<string, number>>(
-    () => {
-      const initial: Record<string, number> = {};
-      for (const slide of allSlides) {
-        initial[slide.slug] = Math.min(20, slide.items.length);
-      }
-      return initial;
-    },
-  );
-
-  const handleShowMore = (slug: string) => {
-    const total = allSlides.find((s) => s.slug === slug)?.items.length ?? 0;
-    setVisibleCounts((prev) => ({
-      ...prev,
-      [slug]: Math.min((prev[slug] || 0) + 4, total),
-    }));
-  };
+  // Если категорий в фасете нет — ничего не рендерим
+  if (allSlides.length === 0) return null;
 
   return (
     <section className="mt-[3.2vw]">
@@ -126,49 +128,72 @@ const RecommendedProducts = () => {
         className="w-full h-full"
         touchStartPreventDefault={false}
         speed={400}
+        onSlideChange={(swiper) => setActiveSlideIndex(swiper.activeIndex)}
       >
-        {allSlides.map((slide) => {
-          const itemsToShow = slide.items.slice(
-            0,
-            visibleCounts[slide.slug] ?? 20,
-          );
-          const hasMore = (visibleCounts[slide.slug] ?? 0) < slide.items.length;
+        {allSlides.map((slide, index) => {
+          const categoryKey =
+            slide.categoryId === undefined ? "all" : String(slide.categoryId);
+          const categoryProducts = productsByCategory[categoryKey];
+
+          const shouldRenderContent = Math.abs(activeSlideIndex - index) <= 1;
+          const itemsToShow = shouldRenderContent
+            ? (categoryProducts?.items ?? [])
+            : [];
+          const hasMore = categoryProducts?.hasMore ?? false;
+          const isLoading =
+            !categoryProducts &&
+            activeSlideIndex === index &&
+            slide.categoryId !== undefined;
 
           return (
             <SwiperSlide key={slide.slug}>
               <div className="grid grid-cols-2">
-                {/* {itemsToShow.length > 0 ? (
-                  itemsToShow.map((product, idx) => {
-                    const isLeft = idx % 2 === 0;
-                    const isFirstRow = idx < 2;
-                    return (
-                      <ProductCard
-                        key={product.slug}
-                        product={product}
-                        className={cn(
-                          "border-b",
-                          isLeft && "border-r",
-                          isFirstRow && "border-t",
-                        )}
-                      >
-                        <FavoriteButton className=" absolute top-[4.8vw] right-[4vw] text-slate-500">
-                          <Icon icon="heart" className="w-[4.8vw] h-[4.8vw]" />
-                        </FavoriteButton>
-                      </ProductCard>
-                    );
-                  })
-                ) : (
-                  <div className="col-span-2 text-center py-8 text-slate-400">
-                    В этой подборке пока нет товаров
-                  </div>
-                )} */}
+                {shouldRenderContent &&
+                  (isLoading ? (
+                    <div className="col-span-2 text-center py-8 text-slate-400">
+                      Загрузка товаров...
+                    </div>
+                  ) : itemsToShow.length > 0 ? (
+                    itemsToShow.map((product, productIndex) => {
+                      const isLeft = productIndex % 2 === 0;
+                      const isFirstRow = productIndex < 2;
+                      return (
+                        <ProductCard
+                          key={product.spuId}
+                          product={product}
+                          className={cn(
+                            "border-b",
+                            isLeft && "border-r",
+                            isFirstRow && "border-t",
+                          )}
+                        >
+                          <FavoriteButton className=" absolute top-[4.8vw] right-[4vw] text-slate-500">
+                            <Icon
+                              icon="heart"
+                              className="w-[4.8vw] h-[4.8vw]"
+                            />
+                          </FavoriteButton>
+                        </ProductCard>
+                      );
+                    })
+                  ) : (
+                    <div className="col-span-2 text-center py-8 text-slate-400">
+                      В этой подборке пока нет товаров
+                    </div>
+                  ))}
               </div>
-              {hasMore && (
+
+              {shouldRenderContent && hasMore && (
                 <Button
-                  onClick={() => handleShowMore(slide.slug)}
+                  onClick={() => handleShowMore(slide.categoryId)}
+                  disabled={categoryProducts?.isFetchingMore}
                   className="h-[5.333vw] gap-[2.667vw] text-[2.933vw] font-semibold px-[3.2vw] mx-auto my-[5.333vw] border rounded-xl border-slate-800"
                 >
-                  <span>Показать больше</span>
+                  <span>
+                    {categoryProducts?.isFetchingMore
+                      ? "Загрузка..."
+                      : "Показать больше"}
+                  </span>
                   <Icon
                     icon="chevron-down"
                     width={14}

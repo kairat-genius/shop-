@@ -28,7 +28,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
   }
   return (
     <ProductDetailProvider productData={productDetail} productId={spuId}>
-      <ProductView />
+      <ProductView frontCategoryId={productDetail.buyDialogModel.detail.frontCategoryId} />
     </ProductDetailProvider>
   );
 }

@@ -8,7 +8,7 @@ import { SeriesDialogModelType } from "@/types/product-detail.type";
 import { useProductDetailData } from "../../context/useCatalogData";
 
 const ModelVariantsModal = dynamic(
-  () => import("../modal/ModelVariantsModal"),
+  () => import("@/features/model-variants"),
   {
     ssr: false,
   },
@@ -60,7 +60,9 @@ const ModelVariants = ({
           className="bg-white ml-[1.6vw] text-slate-500"
           onClick={() => setIsModelModalOpen(true)}
         >
-          <div className="text-[3.2vw] leading-[3.749vw]">+{seriesDialogModel.spuCount}</div>
+          <div className="text-[3.2vw] leading-[3.749vw]">
+            +{seriesDialogModel.spuCount}
+          </div>
           <Icon
             icon="chevron-right"
             className="w-[3.2vw] h-[3.2vw] text-slate-400"
@@ -68,14 +70,15 @@ const ModelVariants = ({
         </Button>
       </div>
 
-      {/* {isModelModalOpen && (
+      {isModelModalOpen && (
         <ModelVariantsModal
-          onClose={() => setIsModelModalOpen(false)}
           categoryId={categoryId}
           dialogTitle={seriesDialogModel.dialogTitle}
+          seriesId={seriesDialogModel.seriesId}
           selectProduct={selectProduct}
+          onClose={() => setIsModelModalOpen(false)}
         />
-      )} */}
+      )}
     </div>
   );
 };

@@ -17,23 +17,31 @@ interface CategoryProducts {
 const getCategoryKey = (categoryId?: number) =>
   categoryId === undefined ? "all" : String(categoryId);
 
-export const useHomeProducts = (
-  initialData: ProductListSearchResponseType,
+export const useCategoryProducts = (
+  initialData: ProductListSearchResponseType | undefined,
+  // 👇 КЛЮЧ, под которым положить initialData. Это тот же id,
+  // с которым делали запрос на сервере (frontCategoryId).
+  initialCategoryId: number | undefined,
   activeCategoryId?: number,
 ) => {
   const [productsByCategory, setProductsByCategory] = useState<
     Record<string, CategoryProducts>
   >(() => {
+    if (!initialData || initialCategoryId === undefined) return {};
     const initialItems = extractSpuItems(initialData);
+    if (initialItems.length === 0) return {};
+
+    const key = getCategoryKey(initialCategoryId);
     return {
-      all: {
+      [key]: {
         items: initialItems,
         page: 1,
-        hasMore: initialItems.length > 0,
+        hasMore: true,
         isFetchingMore: false,
       },
     };
   });
+
   const productsByCategoryRef = useRef(productsByCategory);
   const pendingCategoriesRef = useRef(new Set<string>());
 
