@@ -10,6 +10,7 @@ export const BRAND_LIST_PRODUCT = PUBLIC_API_BASE_URL + "/search-by-brand";
 export const LIST_PRODUCT_SEARCH = PUBLIC_API_BASE_URL + "/search";
 
 export const BRAND_LIST = PUBLIC_API_BASE_URL + "/brand-list";
+export const BRAND_FEED = PUBLIC_API_BASE_URL + "/brand-feed";
 
 export const CATEGORY_TREE = PUBLIC_API_BASE_URL + "/category-tree";
 

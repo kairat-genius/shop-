@@ -1,35 +1,46 @@
 "use client";
-import Breadcrumbs from "@/shared/ui/breadcrumbs";
-import { BRANDS_PREVIEW, POPULAR_BRANDS } from "../data/popylar-brands.data";
-import Link from "next/link";
-import { useState, useMemo } from "react";
+import { useMemo, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import type { Swiper as SwiperType } from "swiper";
-import { Thumbs } from "swiper/modules"; // Импортируем модуль Thumbs
-import { categoriesData } from "@/shared/data/category.data";
-import products from "@/shared/data/productData.json";
+import { Thumbs } from "swiper/modules";
+import Breadcrumbs from "@/shared/ui/breadcrumbs";
 import CategorySection from "@/widgets/category-section";
 
 import "swiper/css";
 import "swiper/css/thumbs";
-import Icon from "@/shared/icon";
 
-const AllBrandsView = () => {
-  // Переносим генерацию слайдов вверх, добавляя "Все" сразу в массив
+import type { BrandFeedResponseType } from "@/types/brand-feed.type";
+import { useBrandFeed } from "../model/useBrandFeed";
+import { BrandCard } from "./BrandCard";
+import { PopularBrands } from "./PopularBrands";
+import { LoadMoreSentinel } from "./LoadMoreSentinel";
+
+interface AllBrandsViewProps {
+  initialData: BrandFeedResponseType;
+}
+
+const AllBrandsView = ({ initialData }: AllBrandsViewProps) => {
   const allSlides = useMemo(() => {
-    const allSlide = {
-      title: "Все",
-      slug: "all",
-      items: products,
-    };
-    const categorySlides = categoriesData.map((cat) => ({
-      ...cat,
-      items: products.filter((p) => p.category === cat.slug),
+    const tabs =
+      initialData.categoryRecommend?.firstCategoryRecommendList ?? [];
+    return tabs.map((tab) => ({
+      title: tab.categoryName,
+      slug: tab.categoryId === undefined ? "all" : String(tab.categoryId),
+      categoryId: tab.categoryId,
     }));
-    return [allSlide, ...categorySlides];
-  }, []);
+  }, [initialData.categoryRecommend]);
 
-  // Храним ссылку на инстанс Thumbs Swiper
+  const popularBrands = initialData.accessBrand?.brandList ?? [];
+
+  const [activeSlideIndex, setActiveSlideIndex] = useState(0);
+  const activeSlide = allSlides[activeSlideIndex];
+
+  const { brandsByCategory, handleShowMore } = useBrandFeed(
+    initialData,
+    "all",
+    activeSlide?.categoryId,
+  );
+
   const [thumbsSwiper, setThumbsSwiper] = useState<SwiperType | null>(null);
 
   return (
@@ -37,33 +48,9 @@ const AllBrandsView = () => {
       <Breadcrumbs
         items={[{ title: "Главная", href: "/" }, { title: "Бренды" }]}
       />
-      <div className="overflow-x-auto scrollbar-none w-full">
-        <div className="px-[3.733vw] inline-flex min-w-max items-center gap-2.5 h-[19.2vw] bg-white">
-          <Link
-            className="flex items-center justify-center w-[13.867vw] h-[13.867vw] rounded-full border border-slate-100"
-            href="/brand/list"
-          >
-            <img
-              className="w-[9.067vw] h-[9.067vw] object-contain"
-              src="https://cdn-img.thepoizon.ru/node-common/1bce9420-19ee-e9d1-e14d-b8cfb79e1c7d-156-156.png?x-oss-process=image/resize,s_96/format,webp"
-              alt=""
-            />
-          </Link>
-          {POPULAR_BRANDS.map((brand) => (
-            <Link
-              key={brand.href}
-              className="flex items-center justify-center w-[13.867vw] h-[13.867vw] rounded-full border border-slate-100"
-              href={`/brand/${brand.href}`}
-            >
-              <img
-                className="w-[9.067vw] h-[9.067vw] object-contain"
-                src={brand.logoSrc}
-                alt={brand.alt}
-              />
-            </Link>
-          ))}
-        </div>
-      </div>
+
+      <PopularBrands brands={popularBrands} />
+
       <CategorySection
         setThumbsSwiper={setThumbsSwiper}
         allSlides={allSlides}
@@ -75,66 +62,56 @@ const AllBrandsView = () => {
           swiper: thumbsSwiper && !thumbsSwiper.destroyed ? thumbsSwiper : null,
         }}
         slidesPerView={1}
-        className="w-full h-full bg-slate-100"
-        // Оптимизация тач-событий для мобилок (убирает микро-фризы)
+        className="w-full bg-slate-100 min-h-[calc(100dvh-45vw)]"
         touchStartPreventDefault={false}
         speed={400}
-        noSwipingClass="swiper-no-swiping"
+        // noSwipingClass можно вообще убрать, если нигде не используешь
+        onSlideChange={(swiper) => setActiveSlideIndex(swiper.activeIndex)}
       >
-        {allSlides.map((slide) => {
+        {allSlides.map((slide, index) => {
+          const categoryKey =
+            slide.categoryId === undefined ? "all" : String(slide.categoryId);
+          const category = brandsByCategory[categoryKey];
+
+          const shouldRender = Math.abs(activeSlideIndex - index) <= 1;
+          const items = shouldRender ? (category?.items ?? []) : [];
+          const hasMore = category?.hasMore ?? false;
+          const isFetching = category?.isFetchingMore ?? false;
+          const isLoading =
+            !category && activeSlideIndex === index && shouldRender;
+
           return (
             <SwiperSlide
               key={slide.slug}
-              className="w-full py-[1.6vw] px-[2.667vw]"
+              className="w-full py-[1.6vw] px-[2.667vw] !h-full"
             >
-              {BRANDS_PREVIEW.map((brand) => (
-                <Link
-                  key={brand.href}
-                  className="mb-[1.6vw] bg-white rounded-[1.067vw] block pt-[2.133vw] px-[2.667vw] pb-[3.2vw]"
-                  href={`/brand/${brand.href}`}
-                >
-                  <div className="h-[11.2vw] flex items-center">
-                    <img
-                      className="w-[11.2vw] h-[11.2vw] rounded-[.533vw] object-contain"
-                      src={brand.logo}
-                      alt={brand.name}
-                    />
-
-                    <div className="h-[9.333vw] ml-[2.667vw] flex-1 w-[56.8vw]">
-                      <div className="mb-[.533vw] font-roboto_condensed text-[4.267vw] leading-[5.067vw] font-bold truncate">
-                        {brand.name}
-                      </div>
-                      <div className="flex flex-wrap gap-[1.6vw] text-slate-500 font-light text-[3.2vw] leading-[1.3]">
-                        <span>71&nbsp;тыс. товаров</span>
-                        <span className="w-[.533vw] h-[.533vw] bg-slate-500" />
-                        <span>925 новинок</span>
-                      </div>
-                    </div>
-                    <Icon
-                      icon="chevron-right"
-                      className="text-slate-400 w-[2.667vw] h-[2.667vw]"
-                    />
+              <div>
+                {isLoading ? (
+                  <div className="text-center py-8 text-slate-400">
+                    Загрузка брендов...
                   </div>
-                  <div className="flex items-center justify-between">
-                    {brand.products.map((product, index) => (
-                      <div
-                        key={index}
-                        className="h-[29.333vw] relative overflow-hidden"
-                      >
-                        <img
-                          className="w-[26.667vw] h-[26.667vw]"
-                          src={product.image}
-                          alt=""
-                        />
-
-                        <div className="absolute bottom-0 left-1/2 -translate-x-1/2 truncate leading-[4.267vw] text-[3.733vw] font-bold font-roboto_condensed">
-                          {product.price}
-                        </div>
-                      </div>
-                    ))}
+                ) : items.length > 0 ? (
+                  items.map((brand, i) => (
+                    <BrandCard key={`${brand.brandId}-${i}`} brand={brand} />
+                  ))
+                ) : (
+                  <div className="text-center py-8 text-slate-400">
+                    В этой категории пока нет брендов
                   </div>
-                </Link>
-              ))}
+                )}
+
+                {shouldRender && hasMore && (
+                  <LoadMoreSentinel
+                    onIntersect={() => handleShowMore(slide.categoryId)}
+                    disabled={isFetching}
+                  />
+                )}
+                {isFetching && (
+                  <div className="text-center py-4 text-slate-400 text-[3vw]">
+                    Загрузка...
+                  </div>
+                )}
+              </div>
             </SwiperSlide>
           );
         })}
