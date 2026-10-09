@@ -2,6 +2,7 @@
 import { NextRequest, NextResponse } from "next/server";
 
 const ALLOWED_ORIGINS = [
+  "http://localhost",
   "http://localhost:3000",
   "http://localhost:3001",
   "https://shop-znu8.vercel.app",
